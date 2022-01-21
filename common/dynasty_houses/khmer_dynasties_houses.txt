@@ -1,0 +1,9 @@
+house_Varman = { 
+        name = "dynn_varman" 
+        dynasty = 2636000
+}
+
+house_Lavo = { 
+        name = "dynn_Lavo" 
+        dynasty = 2636001
+}

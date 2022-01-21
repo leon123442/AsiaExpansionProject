@@ -1,0 +1,10 @@
+﻿5100029 = {
+	name = Chiau_Fang #Ruler of Dache Bozhou
+	dynasty = 80000029
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	dna = Chiau_Fang_dna_entry
+}

@@ -1,0 +1,10 @@
+﻿110000002 = {
+	name = Kim_Taehyung #Ruler of Baekje dutchy
+	dynasty = 60000002
+	religion = shangqing
+	culture = goguryeo 
+	819.1.1 = {
+		birth = yes
+	}
+	dna = Kim_Taehyung_dna_entry
+}

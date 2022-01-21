@@ -1,0 +1,3 @@
+ house_Tuoba = { 
+        name = "dynn_Tuoba" 
+        dynasty = 80000013 }

@@ -1,0 +1,3 @@
+ house_nishidate = { 
+        name = "dynn_nishidate" 
+        dynasty = 40000009 }

@@ -1,0 +1,10 @@
+﻿110000003 = {
+	name = Pak_Juhee #Ruler of  dutchy
+	dynasty = 60000003
+	religion = shangqing
+	culture = goguryeo 
+	819.1.1 = {
+		birth = yes
+	}
+	dna = Pak_Juhee_dna_entry
+}

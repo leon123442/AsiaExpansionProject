@@ -1,0 +1,10 @@
+﻿1600001 = {
+	name = Fujiwara_Yoshifusa #Ruler of Yamato Kingdom
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	841.1.1 = {
+		birth = yes
+	}
+	dna = Fujiwara_Yoshifusa_dna_entry
+}

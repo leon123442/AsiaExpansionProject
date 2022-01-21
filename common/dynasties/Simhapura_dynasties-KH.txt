@@ -1,0 +1,4 @@
+46600003 = {
+	name = "dynn_simhapura"
+	culture = "champ"
+}

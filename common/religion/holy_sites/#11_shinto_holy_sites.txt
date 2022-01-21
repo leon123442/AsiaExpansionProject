@@ -1,0 +1,106 @@
+#shinto
+
+#Atsuta
+atsuta = {
+	county = c_owari
+	
+	character_modifier = {
+		men_at_arms_cap = 1
+	}
+}
+#ise
+tamaru = {
+	county = c_ise
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.2
+	}
+}
+#izumo
+kizuki = {
+	county = c_izumo
+	
+	character_modifier = {
+		light_cavalry_damage_mult = 0.15
+	}
+}
+#aso area/miyazaki
+takamori = {
+	county = c_hyuga
+	
+	character_modifier = {
+		development_growth_factor = 0.1
+		church_holding_build_gold_cost = -0.5
+	}
+}
+#Suwa
+suwa = {
+	county = c_suwa
+	
+	character_modifier = {
+		defender_advantage = 5
+	}
+}
+
+# AINU #
+kameda = {
+	county = c_kameda
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+akan = {
+	county = c_akan
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+#also NIVKH
+kamchatka = {
+	county = c_kamchatka
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+#also NIVKH
+kamikawa = {
+	county = c_kamikawa
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+otchishi = {
+	county = c_otchishi
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+
+# NIVKH #
+
+sapporo = {
+	county = c_sapporo
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+shisuka = {
+	county = c_shisuka
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}
+okha = {
+	county = c_okha
+	
+	#character_modifier = {
+	#	learning_per_piety_level = 0
+	#}
+}

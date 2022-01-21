@@ -1,0 +1,4 @@
+80000027 = {
+	name = "dynn_Kong"
+	culture = "Han"
+}

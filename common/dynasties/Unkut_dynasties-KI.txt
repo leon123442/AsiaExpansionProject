@@ -1,0 +1,4 @@
+46600011 = {
+	name = "dynn_Unkut"
+	culture = "khitan"
+}

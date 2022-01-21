@@ -1,0 +1,3 @@
+ house_Ping = { 
+        name = "dynn_Ping" 
+        dynasty = 80000015 }

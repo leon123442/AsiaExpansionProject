@@ -1,0 +1,18 @@
+d_gaya = { 
+	865.1.1={
+		liege = "k_goryeo"
+	}    
+	866.1.1 = {
+		holder = 110000004
+	} 
+}
+c_gayaa = { 
+	866.1.1 = {
+		holder = 110000004
+	} 
+}
+c_juliezhou = {
+	866.1.1 = {
+		holder = 110000004
+	}  
+}

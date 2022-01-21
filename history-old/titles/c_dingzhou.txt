@@ -1,0 +1,20 @@
+c_dingzhou = {	
+    865.1.1 = {
+		liege = "e_celestia"
+	}
+	866.1.1 = {
+		holder = 5100021
+}
+b_dingzhouAnxi = {
+	866.1.1 = {
+		holder = 5100021
+}
+b_wuji = {
+	866.1.1 = {
+		holder = 5100021
+}
+b_beiping
+	866.1.1 = {
+		holder = 5100021
+}
+}

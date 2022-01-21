@@ -1,0 +1,10 @@
+﻿5100011 = {
+	name = Heng_Congdang #Ruler of Tang Empire
+	dynasty = 80000011
+	religion = shangqing
+	culture = han 
+	832.1.1 = {
+		birth = yes
+	}
+	dna = Heng_Congdang_dna_entry
+}

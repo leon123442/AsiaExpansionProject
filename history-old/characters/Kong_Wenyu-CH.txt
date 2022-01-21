@@ -1,0 +1,10 @@
+﻿5100027 = {
+	name = Kong_Wenyu #Ruler of Dache Fufang
+	dynasty = 80000027
+	religion = shangqing
+	culture = han 
+	835.1.1 = {
+		birth = yes
+	}
+	dna = Kong_Wenyu_dna_entry
+}

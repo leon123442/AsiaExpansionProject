@@ -1,0 +1,4 @@
+80000007 = {
+	name = "dynn_Hao"
+	culture = "han"
+}

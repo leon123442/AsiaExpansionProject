@@ -1,0 +1,10 @@
+﻿120000002 = {
+	name = Zhi_Ying #Ruler of dutchy
+	dynasty = 61000002
+	religion = shaman
+	culture = balhae 
+	836.1.1 = {
+		birth = yes
+	}
+	dna = Zhi_Ying_dna_entry
+}

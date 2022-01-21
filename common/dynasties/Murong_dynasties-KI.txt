@@ -1,0 +1,4 @@
+46600008 = {
+	name = "dynn_Murong"
+	culture = "khitan"
+}

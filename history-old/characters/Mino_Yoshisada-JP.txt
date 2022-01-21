@@ -1,0 +1,10 @@
+﻿2600001 = {
+	name = Mino_Yoshisada #Ruler of Mino Dutchy
+	dynasty = 40000011
+	religion = shinto
+	culture = yamato 
+	829.1.1 = {
+		birth = yes
+	}
+	dna = Mino_Yoshisada_dna_entry
+}

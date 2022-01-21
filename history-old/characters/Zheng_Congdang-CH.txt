@@ -1,0 +1,10 @@
+﻿5100020 = {
+	name = Zheng _Congdang #Ruler of Dache Henghai
+	dynasty = 80000020
+	religion = shangqing
+	culture = han 
+	824.1.1 = {
+		birth = yes
+	}
+	dna = Zheng_Congdang_dna_entry
+}
