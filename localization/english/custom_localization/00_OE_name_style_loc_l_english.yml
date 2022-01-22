@@ -75,6 +75,3 @@
  Loc_JP_GetShortUINameNotMeNoTooltip_firstname:0 "[ROOT.Char.GetFirstNameNoTooltip]"
  Loc_JP_GetShortUINameNotMeNoTooltip_unlanded:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip][ROOT.Char.GetFirstNameNoTooltip]"
  Loc_JP_GetShortUINameNotMeNoTooltip_default:0 "[ROOT.Char.GetShortUINameNotMeNoTooltip]"
-
- CHARACTER_TT_NAME_AGE:0 "[Character.Custom('JP_GetUINameNotMeNoTooltip')]#medium , [Character.GetAge]#!"
- OUTLINER_PINNED_CHARACTER:0 "[Character.Custom('JP_GetShortUINameNotMeNoTooltip')]#medium , [Character.GetAge]#!"
