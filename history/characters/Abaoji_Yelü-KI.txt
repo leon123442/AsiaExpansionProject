@@ -1,0 +1,10 @@
+﻿4550007 = {
+	name = Abaoji_Yelü 
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	832.1.1 = {
+		birth = yes
+	}
+	dna = Abaoji_Yelü_dna_entry
+}

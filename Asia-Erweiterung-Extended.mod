@@ -8,6 +8,6 @@ tags={
 	"Map"
 	"Historical"
 }
-name="Asia erwiterung"
+name="Asia-Erweiterung-Extended"
 supported_version="1.4.4"
-path="C:\Users\plish\Documents\Paradox Interactive\Crusader Kings III\mod\Asia-Erweiterung-Extended"
+path="C:/Users/plish/Documents/Paradox Interactive/Crusader Kings III/mod/Asia-Erweiterung-Extended"

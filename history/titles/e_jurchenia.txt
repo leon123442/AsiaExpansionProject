@@ -1,0 +1,265 @@
+e_jurchenia = { 
+
+}
+
+k_balhae = { 
+
+}
+
+d_amgun = { 
+
+}
+
+c_helan = { 
+
+}
+c_longyuan = { 
+
+}
+c_nanhai = { 
+
+}
+
+d_balhae = { 
+
+}
+
+c_huhan = { 
+
+}
+c_jianzhou = { 
+
+}
+c_mudan = { 
+
+}
+c_tongzhou = { 
+
+}
+
+d_sumo = { 
+
+}
+
+c_baishan = { 
+
+}
+c_sumozhou = { 
+
+}
+c_xianzhou = { 
+
+}
+
+d_tsookhor = { 
+
+}
+
+c_changling = { 
+
+}
+c_fuyu = { 
+
+}
+c_huanglong = { 
+
+}
+
+d_Suyaojia = { 
+
+}
+c_achu = { 
+
+}
+c_Teli = { 
+
+}
+c_Udger = { 
+
+}
+
+k_goryeo = { 
+
+}
+
+d_sila = { 
+
+}
+
+c_dalseong = { 
+
+}
+c_shaliangzhou = { 
+
+}
+c_shangfazhou = { 
+
+}
+
+d_baekje = { 
+
+}
+c_faluozhou = { 
+
+}
+c_wanshanzzhou = { 
+
+}
+c_xiongshanzhou = { 
+
+}
+
+d_dongya = { 
+
+}
+
+c_hexizhou = { 
+
+}
+c_shouruozhou = { 
+
+}
+
+d_gaya = { 
+
+}
+
+c_gayaa = { 
+
+}
+c_juliezhou = { 
+
+}
+
+d_goguryeo = { 
+
+}
+
+c_hanju = { 
+
+}
+c_hwanghae = { 
+
+}
+
+k_motgit = { 
+
+}
+
+d_yulou = { 
+
+}
+
+c_anbian = { 
+
+}
+c_ynyuan = { 
+
+}
+c_dingli = { 
+
+}
+c_dongping = { 
+
+}
+c_shuaibin = { 
+
+}
+
+d_heishui = { 
+
+}
+
+c_poar = { 
+
+}
+c_penur = { 
+
+}
+c_ulch = { 
+
+}
+c_urd = { 
+
+}
+c_orim = { 
+
+}
+
+d_udege = { 
+
+}
+
+c_nivkh = { 
+
+}
+c_kuvieh = { 
+
+}
+c_ondur = { 
+
+}
+
+k_siber = { 
+
+}
+
+d_khingan = { 
+
+}
+
+c_gen = { 
+
+}
+c_hailar = { 
+
+}
+
+d_changchun = { 
+
+}
+
+c_changchun = { 
+
+}
+c_dargu = { 
+
+}
+c_ningzhou = { 
+
+}
+
+d_haramuru = { 
+
+}
+
+c_powo = { 
+
+}
+c_lotan = { 
+
+}
+
+d_siber = { 
+
+}
+
+c_nim = { 
+
+}
+c_puyu = { 
+
+}
+
+d_uroghu = { 
+
+}
+
+c_uroghu = { 
+
+}
+c_udgur = { 
+
+}
+
+}

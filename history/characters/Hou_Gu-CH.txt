@@ -1,0 +1,10 @@
+﻿5100007 = {
+	name = Hao_GU #Ruler of Tang Empire
+	dynasty = 80000007
+	religion = mahayana
+	culture = han 
+	828.1.1 = {
+		birth = yes
+	}
+	dna = Hao_Gu_dna_entry
+}

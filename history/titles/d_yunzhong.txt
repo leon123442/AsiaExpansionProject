@@ -1,0 +1,27 @@
+d_yunzhong = {	
+    865.1.1 = {
+		liege = "e_celestia"
+	}
+    	866.1.1 = {
+		holder = 5100011
+}
+c_jingbianjin = {
+    	866.1.1 = {
+		holder = 5100011
+}
+c_shuozhou = {
+    	866.1.1 = {
+		holder = 5100011
+}
+c_yingzhou = {
+    	866.1.1 = {
+		holder = 5100011
+}
+c_yunzhou = {
+    	866.1.1 = {
+		holder = 5100011
+}
+c_yuzhou = {
+    	866.1.1 = {
+		holder = 5100011
+}

@@ -1,0 +1,10 @@
+﻿110000004 = {
+	name = Shiwon_Yong #Ruler of  dutchy
+	dynasty = 60000004
+	religion = shangqing
+	culture = gayaa 
+	836.1.1 = {
+		birth = yes
+	}
+	dna = Shiwon_Yong_dna_entry
+}

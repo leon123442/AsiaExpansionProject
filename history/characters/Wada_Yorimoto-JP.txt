@@ -1,0 +1,10 @@
+﻿2000001 = {
+	name = Wada_Yorimoto #Ruler of Wada Dutchy
+	dynasty = 40000005
+	religion = shinto
+	culture = yamato 
+	847.1.1 = {
+		birth = yes
+	}
+	dna = Wada_Yorimoto_dna_entry
+}

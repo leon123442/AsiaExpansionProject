@@ -1,0 +1,10 @@
+﻿1900001 = {
+	name = Kiyotake_Michimori #Ruler of Kiyotake Dutchy
+	dynasty = 40000004
+	religion = shinto
+	culture = yamato 
+	837.1.1 = {
+		birth = yes
+	}
+	dna = Kiyotake_Michimori_dna_entry
+}

@@ -1,0 +1,10 @@
+﻿4550008 = {
+	name = Zongzhen_Murong 
+	dynasty = 46600008
+	religion = tengri_pagan
+	culture = khitan
+	812.1.1 = {
+		birth = yes
+	}
+	dna = Zongzhen_Murong_dna_entry
+}

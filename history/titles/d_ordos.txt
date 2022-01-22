@@ -1,0 +1,19 @@
+d_ordos = {		
+	865.1.1 = {
+		liege = "e_celestia"
+	}
+	866.1.1 = {
+		holder = 5100004
+}	
+c_linzhou = {	
+	866.1.1 = {
+		holder = 5100004	
+}
+c_ordos = {	
+	866.1.1 = {
+		holder = 5100004
+}
+c_youzhou = {	
+	866.1.1 = {
+		holder = 5100004
+}

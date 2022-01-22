@@ -1,0 +1,10 @@
+﻿2400001 = {
+	name = Nishidate_Ryoi #Ruler of Nishidate Dutchy
+	dynasty = 40000009
+	religion = shinto
+	culture = yamato 
+	841.1.1 = {
+		birth = yes
+	}
+	dna = Nishidate_Ryoi_dna_entry
+}

@@ -1,0 +1,37 @@
+c_panduranga = {
+    866.1.1 = {
+		holder = 4550003
+        }
+}
+b_pajai = {
+    866.1.1 = {
+		holder = 4550003
+        }
+ }
+b_panduranga = {
+    866.1.1 = {
+		holder = 4550003
+        }
+ }
+b_lach = {
+    866.1.1 = {
+		holder = 4550003
+        }
+ }
+
+
+c_kauthara = {
+    866.1.1 = {
+		holder = 4550003
+        }
+}
+b_kauthara = {
+    866.1.1 = {
+		holder = 4550003
+        }
+ }
+b_aia_ru = {
+    866.1.1 = {
+	    holder = 4550003
+        }
+ }

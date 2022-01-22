@@ -1,0 +1,10 @@
+﻿120000003 = {
+	name = Yin_Lizen #Ruler of dutchy
+	dynasty = 61000003
+	religion = shaman
+	culture = balhae 
+	833.1.1 = {
+		birth = yes
+	}
+	dna = Yin_Lizen_dna_entry
+}

@@ -1,0 +1,10 @@
+﻿5100012 = {
+	name = Qian_Zhu #Ruler of Tang Empire
+	dynasty = 80000012
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	dna = Qian_Zhu_dna_entry
+}

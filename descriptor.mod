@@ -8,6 +8,5 @@ tags={
 	"Map"
 	"Historical"
 }
-name="Asia erwiterung"
+name="Asia-Erweiterung-Extended"
 supported_version="1.4.4"
-remote_file_id="2706635752"

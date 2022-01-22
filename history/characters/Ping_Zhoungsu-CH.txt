@@ -1,0 +1,10 @@
+﻿5100015 = {
+	name = Ping_Zhoungsu #Ruler of Kingdom
+	dynasty = 80000015
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	dna = Ping_Zhoungsu_dna_entry
+}

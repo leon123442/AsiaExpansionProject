@@ -1,0 +1,10 @@
+﻿120000006 = {
+	name = Yangzhi_Shifu #Ruler of dutchy
+	dynasty = 61000006
+	religion = shaman
+	culture = balhae 
+	809.1.1 = {
+		birth = yes
+	}
+	dna = Yangzhi_Shifu_dna_entry
+}

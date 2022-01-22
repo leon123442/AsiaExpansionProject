@@ -1,0 +1,10 @@
+﻿5100028 = {
+	name = Zhong_Chundong #Ruler of Tang Empire
+	dynasty = 80000028
+	religion = shangqing
+	culture = han 
+	830.1.1 = {
+		birth = yes
+	}
+	dna = Zhong_Chundong_dna_entry
+}

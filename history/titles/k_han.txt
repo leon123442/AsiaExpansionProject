@@ -1,0 +1,113 @@
+k_han = {   
+    865.1.1 = {
+		liege = "e_celestia"
+	}
+	866.1.1 = {
+		holder = 5100028
+}
+}
+d_ba = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_bazhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_gouzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_langzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_qozhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+d_hanzhong = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_fengzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_lizhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_nanzheng = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_xingzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_yangzhou= {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+d_jinshang = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_jinzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_shangzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_ziwudao = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+d_ningjiang = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_fuzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_kuizhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_wanzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_zhongzhou = {
+	866.1.1 = {
+		holder = 5100028
+}
+}
+c_zigui = {
+	866.1.1 = {
+		holder = 5100028
+}
+}

@@ -1,0 +1,10 @@
+﻿5100006 = {
+	name = Gao_Hong #Ruler of Tang Empire
+	dynasty = 80000006
+	religion = vajrayana
+	culture = tuyuhun
+	830.1.1 = {
+		birth = yes
+	}
+	dna = Gao_Hong_dna_entry
+}

@@ -1,0 +1,10 @@
+﻿5100005 = {
+	name = Duo_Helian #Ruler of Tang Empire
+	dynasty = 80000005
+	religion = melieism
+	culture = tangut 
+	840.1.1 = {
+		birth = yes
+	}
+	dna = Duo_Helian_dna_entry
+}

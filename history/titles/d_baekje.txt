@@ -1,0 +1,23 @@
+d_baekje = { 
+	865.1.1 = {
+		liege = "k_goryeo"
+	}
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_faluozhou = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_wanshanzzhou = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}
+c_xiongshanzhou = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+}

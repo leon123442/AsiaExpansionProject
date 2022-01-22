@@ -1,0 +1,23 @@
+d_buyeo = { 
+	865.1.1={
+		liege = "k_jurchen"
+	}    
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_changling = {
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_fuyu = {
+	866.1.1 = {
+		holder = 120000004
+	}
+}
+c_huanglong = {
+	866.1.1 = {
+		holder = 120000004
+	} 
+}

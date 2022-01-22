@@ -1,0 +1,10 @@
+﻿5100001 = {
+	name = Li_Cui #Ruler of Tang Empire
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	dna = Li_Cui_dna_entry
+}
