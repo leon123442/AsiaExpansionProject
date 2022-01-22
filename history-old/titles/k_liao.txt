@@ -1,4 +1,0 @@
-k_liao = {
-	867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 } 
-}

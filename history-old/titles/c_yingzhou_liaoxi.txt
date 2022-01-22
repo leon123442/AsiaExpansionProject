@@ -1,9 +1,0 @@
-c_yingzhou = {
-    867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 }
-
-	864.1.1 = {
-		government = tribal_government
-		holder = 4550007
-	} 
-}
