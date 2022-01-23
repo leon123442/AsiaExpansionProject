@@ -30,7 +30,7 @@
 #c_xunzhou
 #b_Longchuan_Xunzhou
 10360 = {
-    culture = min
+    culture = han
 	religion = pagan 
 	holding = tribal_holding
 }
