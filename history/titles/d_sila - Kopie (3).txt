@@ -1,0 +1,23 @@
+d_sila = {  
+	865.1.1={
+		liege = "k_goryeo"
+	}    
+	866.1.1 = {
+		holder = 110000005
+	}
+}
+c_dalseong = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}
+c_shaliangzhou = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}
+c_shangfazhou = { 
+	866.1.1 = {
+		holder = 110000005
+	} 
+}

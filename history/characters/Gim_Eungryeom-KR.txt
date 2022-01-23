@@ -1,8 +1,8 @@
 ﻿110000001 = {
 	name = Gim_Eungryeom #Ruler of Korea Kingdom
 	dynasty = 60000001
-	religion = shangqing
-	culture = goguryeo 
+	religion = mahayana
+	culture = senhan
 	844.1.1 = {
 		birth = yes
 	}

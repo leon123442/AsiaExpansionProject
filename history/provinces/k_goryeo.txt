@@ -3,8 +3,8 @@
 #c_hexizhou #何瑟罗州/河西/溟州/悉直
 #b_kangnung
 10872 = {
-    culture = yemo
-	religion = pagan 
+    culture = senhan
+	religion = muism
 	holding = castle_holding
 }
 
@@ -39,8 +39,8 @@
 #c_shouruozhou #首若州/朔州/比列忽州
 #b_chunchon
 10876 = {
-    culture = yemo
-	religion = pagan 
+    culture = senhan
+	religion = muism
 	holding = castle_holding
 }
 #b_wonju
@@ -72,7 +72,7 @@
 #c_hanju #汉山州/汉州/京畿道gyeonggido
 #b_weili
 10885 = {
-    culture = goguryeo
+    culture = senhan
 	religion = mahayana
 	holding = castle_holding
 }
@@ -105,7 +105,7 @@
 #b_kaeseong
 10883 = {
     culture = goguryeo
-	religion = maitreya
+	religion = zenzong
 	holding = castle_holding
 }
 #b_hwangju
@@ -137,8 +137,8 @@
 #c_xiongshanzhou #熊川州/所夫里/忠清道
 #b_gongju_buyeo_sibi
 10892 = {
-    culture = buyeo
-	religion = zenzong 
+    culture = senhan
+	religion = zenzong
 	holding = castle_holding
 }
 #b_chongju
@@ -157,8 +157,8 @@
 #c_wanshanzhou  #完山州
 #b_chonju
 10894 = {
-    culture = buyeo
-	religion = kegon 
+    culture = baekje
+	religion = zenzong
 	holding = castle_holding
 }
 #b_iksan
@@ -177,8 +177,8 @@
 #c_faluozhou #武珍州/发罗
 #b_naju
 10897 = {
-    culture = buyeo
-	religion = zenzong 
+    culture = baekje
+	religion = mahayana
 	holding = castle_holding
 }
 #b_yosn
@@ -191,8 +191,8 @@
 #c_danluo
 #b_danluo
 10890 = {
-    culture = gayaa
-	religion = vajrayana 
+    culture = tamnanese
+	religion = mahayana 
 	holding = castle_holding
 }
 
@@ -201,7 +201,7 @@
 #b_gyeogju
 10903 = {
     culture = senhan
-	religion = zenzong 
+	religion = mahayana
 	holding = castle_holding
 }
 #b_yangsan
@@ -234,7 +234,7 @@
 #b_sanju
 10908 = {
     culture = senhan
-	religion = zenzong 
+	religion = zenzong
 	holding = castle_holding
 }
 #b_anton
@@ -247,7 +247,7 @@
 #c_gaya #迦倻
 #b_kimhae
 10901 = {
-    culture = gayaa
+    culture = senhan
 	religion = zenzong 
 	holding = castle_holding
 }
@@ -260,8 +260,8 @@
 #c_juliezhou #居烈州/菁州/康州
 #b_jinju
 10899 = {
-    culture = gayaa
-	religion = zenzong 
+    culture = senhan
+	religion = zenzong
 	holding = city_holding
 }
 #b_sachon

@@ -1,8 +1,8 @@
 ﻿110000005 = {
 	name = Seoyoung_Kwon #Ruler of  dutchy
 	dynasty = 60000005
-	religion = shangqing
-	culture = gayaa 
+	religion = mahayana
+	culture = senhan
 	849.1.1 = {
 		birth = yes
 	}

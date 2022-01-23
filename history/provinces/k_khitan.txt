@@ -151,12 +151,9 @@
 #c_yikun
 #b_YikunzhouGuangyi
 10633 = {
-    culture = qay
+    culture = khitan
 	religion = tengri_pagan
-		holding = tribal_holding
-		907.1.1 = {
-			culture = khitan
-		}		
+		holding = tribal_holding		
 	}
 #b_YongzhouChangning
 10634 = {
@@ -170,7 +167,7 @@
 #c_dayan
 #b_Guangjihu_Dayanli
 10638 = {
-    culture = siber
+    culture = khitan
 	religion = tengri_pagan
 		holding = tribal_holding	
 	}
@@ -190,7 +187,7 @@
 #c_sadenor
 #b_Dashuipo_Sadenniao
 10637 = {
-    culture = siber
+    culture = khitan
 	religion = tengri_pagan
 		holding = tribal_holding	
 	}
@@ -206,8 +203,8 @@
 #c_fuyu
 #b_Fuyufu_Tongzhou
 10681 = {
-	culture = siber
-	religion = shaman
+	culture = khitan
+	religion = tengri_pagan
 	holding = tribal_holding	
 }
 #b_XinzhouWucjurcheng
@@ -232,7 +229,7 @@
 #c_huanglong
 #b_Huanglongfu
 10684 = {
-	culture = jurchen
+	culture = khitan
 	religion = shaman
 	holding = tribal_holding	
 }
@@ -252,7 +249,7 @@
 #c_changling
 #b_Huibacheng
 10690 = {
-	culture = jurchen
+	culture = balhae
 	religion = shaman
 	holding = tribal_holding	
 }
@@ -281,8 +278,8 @@
 #c_changchun
 #b_Taizhou_Lekang
 10791 = {
-	culture = siber
-	religion = shaman
+	culture = shiwei
+	religion = tengri_pagan
 	holding = tribal_holding	
 }
 #b_Changchunzhou_Yellowhead
@@ -306,7 +303,7 @@
 #c_dargu
 #b_Dalugucheng
 10733 = {
-	culture = siber
+	culture = shiwei
 	religion = shaman
 	holding = tribal_holding	
 }
@@ -320,8 +317,8 @@
 #c_ningzhou_khitan
 #b_Ningzhou_Ledesjurchen
 10655 = {
-	culture = siber
-	religion = shaman
+	culture = khitan
+	religion = tengri_pagan
 	holding = tribal_holding
 	907.1.1 = { culture = khitan }
 }

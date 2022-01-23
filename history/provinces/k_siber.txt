@@ -3,7 +3,7 @@
 #c_uroghu
 #b_wuluohou_xingguo
 10788 = {
-    culture = siber
+    culture = shiwei
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -23,7 +23,7 @@
 #c_udgur
 #b_Ruzhe
 10784 = {
-    culture = siber
+    culture = shiwei
 	religion = pagan 
 	holding = tribal_holding	
 }
@@ -45,7 +45,7 @@
 #c_nem
 #b_Nemor_ShiweiKing
 10776 = {
-    culture = siber
+    culture = evenk
 	religion = pagan 
 	holding = tribal_holding	
 }
@@ -77,7 +77,7 @@
 #c_puyu
 #b_Puyulu
 10773 = {
-    culture = evenk
+    culture = shiwei
 	religion = pagan 
 	holding = tribal_holding	
 }
@@ -138,7 +138,7 @@
 #c_hailar
 #b_Hailar
 10804 = {
-    culture = siber
+    culture = shiwei
 	religion = pagan
 	holding = tribal_holding	
 }
@@ -170,8 +170,8 @@
 #c_gen
 #b_GenRiver_Kulerwend
 10806 = {
-    culture = siber
-	religion = pagan 
+    culture = evenk
+	religion = tengri_pagan
 	holding = tribal_holding	
 }
 #b_Dobher
