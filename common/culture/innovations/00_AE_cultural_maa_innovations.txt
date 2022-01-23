@@ -230,4 +230,3 @@ innovation_emishi_riders = {
 
 	flag = global_maa
 }
-

@@ -32,66 +32,6 @@
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
 ##Chinese Innovations
-innovation_china_west = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_china_qin
-	icon = @maa_01
-
-	unlock_maa = china_west_modao
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_china_north = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_china_yanzhao
-	icon = @maa_01
-
-	unlock_maa = china_north_cavalry
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_china_east = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_china_wuyue
-	icon = @maa_01
-
-	unlock_maa = china_east_ms
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_china_centre = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_china_centre
-	icon = @maa_01
-
-	unlock_maa = china_centre_jj
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_china_south = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_china_shu
-	icon = @special_maa_02
-
-	unlock_maa = china_south_wd
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
 innovation_world_asia_korea  = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
@@ -119,18 +59,6 @@ innovation_world_cathay  = {
 	unlock_maa = cathay_ps
 	unlock_law = single_heir_dynasty_house
 	custom = unlock_single_heir_dynasty_house_changing
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_target_region_liangjing  = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = target_region_liangjing
-	icon = @maa_01
-
-	unlock_maa = tiancejun
 
 	flag = global_regional
 	flag = tribal_era_regional
