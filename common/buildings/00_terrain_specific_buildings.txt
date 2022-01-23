@@ -6694,7 +6694,7 @@ hill_forts_08 = {
 		ai_general_building_modifier = yes
 	}
 }
-### Juchang
+### 榷场
 bianzhen = {
 
     asset = {
@@ -6787,7 +6787,7 @@ quechang = {
 	type_icon = "icon_building_market_villages.dds"
 	
 }
-#Horse City
+#马市
 machang = {
 
 	construction_time = slow_construction_time
@@ -6867,7 +6867,7 @@ mashi = {
 	
 }
 
-#saltworks
+#盐场
 yankuang_1 = {
 
 	asset = {

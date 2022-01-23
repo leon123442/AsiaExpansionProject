@@ -1,5 +1,5 @@
 ﻿1600001 = {
-	name = Yoshifusa #Ruler of Yamato Kingdom
+	name = Fujiwara_Yoshifusa #Ruler of Yamato Kingdom
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato 

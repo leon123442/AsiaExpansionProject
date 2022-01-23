@@ -1,4 +1,4 @@
-#shinto
+#Shinto
 
 #Atsuta
 atsuta = {
@@ -42,65 +42,115 @@ suwa = {
 	}
 }
 
+
+
+
 # AINU #
-kameda = {
-	county = c_kameda
+
+#MountFuji
+mount_fuji = {
+	county = c_suruga
+	barony = b_suruga
 	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
 }
+
+rikugo = {
+	county = c_rikugo
+	barony = b_nukanobu
+	
+	character_modifier = {
+		light_cavalry_damage_mult = 0.20
+	}
+}
+#Kussharo
 akan = {
-	county = c_akan
+	county = c_kushiro
+	barony = b_akkeshi
 	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
-}
-#also NIVKH
-kamchatka = {
-	county = c_kamchatka
-	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
-}
-#also NIVKH
-kamikawa = {
-	county = c_kamikawa
-	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
-}
-otchishi = {
-	county = c_otchishi
-	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
+	character_modifier = {
+		men_at_arms_cap = 1
+	}
 }
 
-# NIVKH #
+#Sakhalin
+kar_put = {
+	county = c_kuvieh
+	barony = b_KuviehSough
+	
+	character_modifier = {
+		men_at_arms_cap = 1
+	}
+}
 
-sapporo = {
-	county = c_sapporo
+nurgan = {
+	county = c_nivkh
 	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
 }
-shisuka = {
-	county = c_shisuka
+
+kangnung = {
+	county = c_hexizhou
 	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
 }
-okha = {
-	county = c_okha
+
+dulizhen = {
+	county = c_jilizhou
 	
-	#character_modifier = {
-	#	learning_per_piety_level = 0
-	#}
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+tamna = {
+	county = c_danluo
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+baishan = {
+	county = c_baishan
+
+	character_modifier = {
+		name = holy_site_baishan_effect_name
+		monthly_prestige_gain_mult = 0.3
+		archers_damage_mult = 0.2
+	}
+}
+urd = {
+	county = c_urd
+
+	character_modifier = {
+		name = holy_site_urd_effect_name
+		forest_attrition_mult = -0.4
+		forest_advantage = 3
+	}
+}
+nem = {
+	county = c_nem
+	barony = b_SiberTemple
+	character_modifier = {
+		name = holy_site_nem_effect_name
+		prowess = 3
+		martial = 3
+	}
+}
+
+uroghu = {
+	county = c_uroghu
+       	barony = b_Nali_Jinshan
+	character_modifier = {
+		name = holy_site_uroghu_effect_name
+		max_combat_roll =5
+		men_at_arms_maintenance = -0.2
+	}
 }

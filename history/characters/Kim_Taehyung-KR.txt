@@ -1,8 +1,8 @@
 ﻿110000002 = {
 	name = Kim_Taehyung #Ruler of Baekje dutchy
 	dynasty = 60000002
-	religion = shangqing
-	culture = goguryeo 
+	religion = mahayana
+	culture = senhan
 	819.1.1 = {
 		birth = yes
 	}

@@ -15434,7 +15434,7 @@ e_nippon = {
 			color = { 133 45 55 }
 			color2 = { 255 255 255 }
 
-			capital = c_mino
+			capital = c_ise
 
 			c_ise = {
 				color = { 133 45 55 }
@@ -15567,8 +15567,32 @@ e_nippon = {
 			color = { 178 202 89 }
 			color2 = { 255 255 255 }
 
-			capital = c_echizen
+			capital = c_suwa
+			
+			c_suwa = {
+				color = { 91 112 76 }
+				color2 = { 255 255 255 }
 
+				b_suwa= {
+					province = 11369
+
+					color = { 91 112 76 }
+					color2 = { 255 255 255 }
+				}
+				b_azumi= {
+					province = 11260
+
+					color = { 91 112 76 }
+					color2 = { 255 255 255 }
+				}
+				b_chikuma= {
+					province = 11176
+
+					color = { 91 112 76 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
 			c_echizen = {
 				color = { 177 201 115 }
 				color2 = { 255 255 255 }
@@ -15691,30 +15715,6 @@ e_nippon = {
 					province = 11354
 
 					color = { 119 153 147 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_suwa = {
-				color = { 91 112 76 }
-				color2 = { 255 255 255 }
-
-				b_suwa= {
-					province = 11369
-
-					color = { 91 112 76 }
-					color2 = { 255 255 255 }
-				}
-				b_azumi= {
-					province = 11260
-
-					color = { 91 112 76 }
-					color2 = { 255 255 255 }
-				}
-				b_chikuma= {
-					province = 11176
-
-					color = { 91 112 76 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -16136,11 +16136,42 @@ e_nippon = {
 				}
 			}
 		}
+
 		d_saikai = {
 			color = { 175 195 197 }
 			color2 = { 255 255 255 }
 
-			capital = c_tsukushi
+			capital = c_hyuga
+			
+			c_hyuga = {
+				color = { 82 58 46 }
+				color2 = { 255 255 255 }
+
+				b_koyu= {
+					province = 11257
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_usuki= {
+					province = 11256
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_morokata= {
+					province = 11255
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_miyazaki= {
+					province = 11258
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_tsukushi = {
 				color = { 196 194 195 }
@@ -16240,36 +16271,6 @@ e_nippon = {
 					province = 11235
 
 					color = { 1 79 52 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_hyuga = {
-				color = { 82 58 46 }
-				color2 = { 255 255 255 }
-
-				b_koyu= {
-					province = 11257
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_usuki= {
-					province = 11256
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_morokata= {
-					province = 11255
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_miyazaki= {
-					province = 11258
-
-					color = { 82 58 46 }
 					color2 = { 255 255 255 }
 				}
 			}

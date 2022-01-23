@@ -56,7 +56,7 @@
 #c_jianzhou_bohai #建州
 #b_Jianzhou_Dongning
 10721 = {
-    culture = jurchen
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -77,7 +77,7 @@
 #c_ulch #越里吉/胡里改
 #b_Yueliji_Huligai
 10743 = {
-    culture = heishui
+    culture = udege
 	religion = shaman 
 	holding = tribal_holding
 	}
@@ -97,7 +97,7 @@
 #c_penur #盆奴里
 #b_Pennuli_Tunhe
 10745 = {
-    culture = heishui
+    culture = udege
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -111,7 +111,7 @@
 #c_urd #越里笃
 #b_Yuelidu
 10747 = {
-    culture = heishui
+    culture = udege
 	religion = shaman 
 	holding = tribal_holding	
 	}
@@ -129,7 +129,7 @@
 #c_orim #奥里米
 #b_Olimi
 10750 = {
-    culture = heishui
+    culture = udege
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -164,8 +164,8 @@
 #c_nivkh #兀的改/奴儿干
 #b_Nurgan_Gilime
 10758 = {
-    culture = mishihase
-	religion = pagan
+    culture = gilyak
+	religion = yzng
 	holding = tribal_holding	
 	}
 #b_Udege_Wure
@@ -198,8 +198,8 @@
 #c_kuvieh #骨嵬/窟说/库页
 #b_KuviehNorth
 10767 = {
-    culture = mishihase
-	religion = pagan
+    culture = gilyak
+	religion = yzng
 	holding = tribal_holding	
 	}
 #b_KuviehSough
@@ -219,7 +219,7 @@
 #c_shuaibin #率宾/速频
 #b_Shuaibinfu_Huazhou
 10722 = {
-    culture = yilou
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -233,7 +233,7 @@
 #c_dongping_yulou #东平/湄沱/Khanka
 #b_YizhouDongpingfu
 10726 = {
-    culture = yilou
+    culture = mohese
 	religion = shaman 
 	holding = tribal_holding	
 	}
@@ -253,7 +253,7 @@
 #c_anyuan #安远
 #b_NingzhouAnyuanfu
 10727 = {
-    culture = udege
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -273,7 +273,7 @@
 #c_dingli #定理/牙兰
 #b_Dinglifu
 10723 = {
-    culture = yilou
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -287,7 +287,7 @@
 #c_anbian #安边/虞娄/挹娄
 #b_Anbianfu_Orga
 10724 = {
-    culture = yilou
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -308,7 +308,7 @@
 #c_longyuan #龙原/东沃沮
 #b_Longyuanfu
 10710 = {
-    culture = yemo
+    culture = mohese
 	religion = shaman 
 	holding = tribal_holding	
 	}
@@ -334,7 +334,7 @@
 #c_helan #曷懒/合兰
 #b_Helan_Yiligu
 10759 = {
-    culture = yemo
+    culture = mohese
 	religion = shaman
 	holding = tribal_holding
 	}
@@ -347,8 +347,8 @@
 #c_nanhai_okjeo #南海/南沃沮
 #b_Okjeo_Wojo_Nanhaifu
 10702 = {
-    culture = yemo
-	religion = shaman
+    culture = goguryeo
+	religion = muism
 	holding = castle_holding
 }
 #b_Tianjing_Lianchi
@@ -374,7 +374,7 @@
 #c_achu
 #b_Anchuhu_Wanyan
 10735 = {
-    culture = jurchen
+    culture = udege
 	religion = shaman
 	holding = tribal_holding	
 	}
@@ -400,7 +400,7 @@
 #c_udger
 #b_Wurecheng
 10741 = {
-    culture = jurchen
+    culture = udege
 	religion = shaman
 		holding = tribal_holding	
 	}
@@ -414,7 +414,7 @@
 #c_teli
 #b_Tielifu
 10739 = {
-    culture = jurchen
+    culture = udege
 	religion = shaman
 		holding = tribal_holding	
 	}

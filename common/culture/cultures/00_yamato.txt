@@ -18,7 +18,6 @@
 			"dynn_mino"
 			"dynn_wada"
 			"dynn_kiyotake"
-			"dynn_nishidate"
 		}
 
 		dynasty_names = {
@@ -29,7 +28,6 @@
 			 "dynn_mino"
 			 "dynn_wada"
 			 "dynn_kiyotake"
-			 "dynn_nishidate"
 		}
 		
 		
@@ -49,6 +47,98 @@
 		mat_grm_name_chance = 50
 		mother_name_chance = 5
 		
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+	ryukyu = { 
+
+		graphical_cultures = {
+			burman_group_coa_gfx
+			austronesian_group_coa_gfx
+			indian_building_gfx
+			ryukyu_clothing_gfx indian_clothing_gfx 
+			austronesian_unit_gfx
+		}
+		
+		color = { 232 293 203 }
+		
+		cadet_dynasty_names = {
+			"dynn_fujiwara"
+			"dynn_oguri"
+			"dynn_taizai"
+			"dynn_echigo"
+			"dynn_mino"
+			"dynn_wada"
+			"dynn_kiyotake"
+			"dynn_nishidate"
+		}
+
+		dynasty_names = {
+			 "dynn_fujiwara"
+			 "dynn_oguri"
+			 "dynn_taizai"
+			 "dynn_echigo"
+			 "dynn_mino"
+			 "dynn_wada"
+			 "dynn_kiyotake"
+			 "dynn_nishidate"
+		}
+	
+		male_names = { Someimaru Fudomaru Onimushamaru Ushiwakamaru Oniwakamaru Komaomaru Shojumaru Tamonmaru Senjuo Kidomaru Takechiyo Manchiyo Chofukumaru Turuchiyo Kamechiyo Inuchiyo Saematsumaru Ryuomaru Hogikumaru Shojumaru Katsuchiyo Torachiyo Tsurumatsumaru Tsurumaru Toramaru Kamemaru Toraomaru Kipposhi Hiyoshimaru Tensaimaru Kimyomaru Bontenmaru Hiroimaru Sutemaru Haruomaru Harutoramaru Senzaimaru Kikudomaru Kameomaru Chachamaru Ranmaru Senjumaru Turujumaru Tokujumaru Chojumaru Taromaru Jiromaru Saburomaru Shiromaru Goromaru Rokuromaru Shichiromaru Hachiromaru Kuromaru Juromaru Kongo Nabenosuke Yoshimatsu Hansuke Chachamaro Sanboshi Taro Jiro Saburo Shiro Goro Rokuro Shichiro Hachiro Kuro Juro Yoichi Yoni Yogo Yataro Yajiro Yasaburo Yashiro Yagoro Yarokuro Yashichiro Yahachiro Yakuro Yajuro Jirota Saburota Shirota Gorota Rokurota Shichirota Hachirota Kurota Jurota Gentaro Genjiro Genzaburo Genshiro Gengoro Genrokuro Genshichiro Genhachiro Genkuro Genjuro Totaro Tojiro Tosaburo Toshiro Togoro Torokuro Toshichiro Tohachiro Tokuro Tojuro Matataro Matajiro Matasaburo Matashiro Matagoro Matarokuro Matashichiro Matahachiro Matakuro Matajuro Kotaro Kojiro Kosaburo Koshiro Kogoro Magotaro Magojiro Magosaburo Magoshiro Magogoro Hikotaro Hikojiro Hikosaburo Hikoshiro Hikogoro Yotaro Yojiro Yosaburo Yoshiro Yogoro Genta Genji Genzo Gengo Genroku Genhachi Heita Heiji Heizo Heigo Heiroku Heishichi Heihachi Tota Toji Tozo Kitta Kichiji Kichizo Kichishi Kichigo Tanzo Shinta Shinji Shinzo Shingo Shinroku Shinhachi Kiroku Yata Yaji Yazo Koroku Magoroku
+		}
+		female_names = {  Sai Fuse Tomoe Uta Uta Uta Mai Tsukasa Fumi Yume Nozomi Nozomi Mitsu Sakae Akira Megumi Yoshi Kotobuki Fuku Sachi Yui Shinobu Shizuka Sei Tomo Haruka Yuu Hide Yuu Aya Miyabi Tae Rei Yoshi Yoshi Sato Miyako Miyako Shiori Suzu Koto Yumi Nishiki Kinu Mari Takara Tama Tama Tamaki Madoka Hitomi Hikari Hikaru Hoshi Tsuki Cho Hotaru Tsuru Mio Migiwa Ushio Nami Nagisa Tsuyu Kiri Kasumi Yuki Fuu Kaoru Moe Kozue Hana Hana Satsuki Tsuta Asa Yuzu An Ran Shino Azusa Kiri Katsura Kaede Tsuabaki Aoi Tachibana Fuji Kiku Momo Sakura Aya Midori Midori Ao Ai Akane Murasaki Kurenai Aki Fue Fuyu Haru Hibiki Izumi Minami Mutsumi Natsu Ren Sen Shizuku Sumire Toku Yukari Hina Ina Kaori Kyo Kiyo Makoto Matsu Mayu Michi Miki Minato Misaki Mizuki Rin Saki Suzume Take Tsubame Tsubasa Ume Yasu
+		}
+		
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		
+		ethnicities = {
+			10 = asian
+		}
+	}
+	hayato = { 
+		
+		graphical_cultures = {
+			burman_group_coa_gfx
+			austronesian_group_coa_gfx
+			indian_building_gfx
+			ryukyu_clothing_gfx indian_clothing_gfx 
+			austronesian_unit_gfx
+		}
+
+		color = { 180 294 299 }
+		
+		cadet_dynasty_names = {
+			"dynn_fujiwara"
+			"dynn_oguri"
+			"dynn_taizai"
+			"dynn_echigo"
+			"dynn_mino"
+			"dynn_wada"
+			"dynn_kiyotake"
+			"dynn_nishidate"
+		}
+
+		dynasty_names = {
+			 "dynn_fujiwara"
+			 "dynn_oguri"
+			 "dynn_taizai"
+			 "dynn_echigo"
+			 "dynn_mino"
+			 "dynn_wada"
+			 "dynn_kiyotake"
+			 "dynn_nishidate"
+		}
+	
+		male_names = { Someimaru Fudomaru Onimushamaru Ushiwakamaru Oniwakamaru Komaomaru Shojumaru Tamonmaru Senjuo Kidomaru Takechiyo Manchiyo Chofukumaru Turuchiyo Kamechiyo Inuchiyo Saematsumaru Ryuomaru Hogikumaru Shojumaru Katsuchiyo Torachiyo Tsurumatsumaru Tsurumaru Toramaru Kamemaru Toraomaru Kipposhi Hiyoshimaru Tensaimaru Kimyomaru Bontenmaru Hiroimaru Sutemaru Haruomaru Harutoramaru Senzaimaru Kikudomaru Kameomaru Chachamaru Ranmaru Senjumaru Turujumaru Tokujumaru Chojumaru Taromaru Jiromaru Saburomaru Shiromaru Goromaru Rokuromaru Shichiromaru Hachiromaru Kuromaru Juromaru Kongo Nabenosuke Yoshimatsu Hansuke Chachamaro Sanboshi Taro Jiro Saburo Shiro Goro Rokuro Shichiro Hachiro Kuro Juro Yoichi Yoni Yogo Yataro Yajiro Yasaburo Yashiro Yagoro Yarokuro Yashichiro Yahachiro Yakuro Yajuro Jirota Saburota Shirota Gorota Rokurota Shichirota Hachirota Kurota Jurota Gentaro Genjiro Genzaburo Genshiro Gengoro Genrokuro Genshichiro Genhachiro Genkuro Genjuro Totaro Tojiro Tosaburo Toshiro Togoro Torokuro Toshichiro Tohachiro Tokuro Tojuro Matataro Matajiro Matasaburo Matashiro Matagoro Matarokuro Matashichiro Matahachiro Matakuro Matajuro Kotaro Kojiro Kosaburo Koshiro Kogoro Magotaro Magojiro Magosaburo Magoshiro Magogoro Hikotaro Hikojiro Hikosaburo Hikoshiro Hikogoro Yotaro Yojiro Yosaburo Yoshiro Yogoro Genta Genji Genzo Gengo Genroku Genhachi Heita Heiji Heizo Heigo Heiroku Heishichi Heihachi Tota Toji Tozo Kitta Kichiji Kichizo Kichishi Kichigo Tanzo Shinta Shinji Shinzo Shingo Shinroku Shinhachi Kiroku Yata Yaji Yazo Koroku Magoroku
+		}
+		female_names = {  Sai Fuse Tomoe Uta Uta Uta Mai Tsukasa Fumi Yume Nozomi Nozomi Mitsu Sakae Akira Megumi Yoshi Kotobuki Fuku Sachi Yui Shinobu Shizuka Sei Tomo Haruka Yuu Hide Yuu Aya Miyabi Tae Rei Yoshi Yoshi Sato Miyako Miyako Shiori Suzu Koto Yumi Nishiki Kinu Mari Takara Tama Tama Tamaki Madoka Hitomi Hikari Hikaru Hoshi Tsuki Cho Hotaru Tsuru Mio Migiwa Ushio Nami Nagisa Tsuyu Kiri Kasumi Yuki Fuu Kaoru Moe Kozue Hana Hana Satsuki Tsuta Asa Yuzu An Ran Shino Azusa Kiri Katsura Kaede Tsuabaki Aoi Tachibana Fuji Kiku Momo Sakura Aya Midori Midori Ao Ai Akane Murasaki Kurenai Aki Fue Fuyu Haru Hibiki Izumi Minami Mutsumi Natsu Ren Sen Shizuku Sumire Toku Yukari Hina Ina Kaori Kyo Kiyo Makoto Matsu Mayu Michi Miki Minato Misaki Mizuki Rin Saki Suzume Take Tsubame Tsubasa Ume Yasu
+		}
+		
+		dynasty_title_names = no
+		founder_named_dynasties = no
 		
 		ethnicities = {
 			10 = asian
