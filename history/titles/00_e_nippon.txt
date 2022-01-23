@@ -2,6 +2,12 @@ e_nippon = {
 
 }
 
+d_yamato_imperial = {
+	858.1.1 = {
+		holder = 1600004
+	}
+}
+
 k_yamato = {
 	866.1.1 = {
 		holder = 1600001

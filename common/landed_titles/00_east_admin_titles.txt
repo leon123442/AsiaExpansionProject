@@ -50,3 +50,25 @@ d_tianshi = { #Tianshi Palace
 	male_names = { Daoxian Daoxuan Daoyi  Daoyin Daozheng Daozong  Daoan Daoguang Daoming  Daoqing Daosheng}
  
 }
+
+d_yamato_imperial = { #yamato imperial family
+	color = { 135 134 28 }
+	color2 = { 255 255 255 }
+    capital = c_yamato
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:yamato
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+}

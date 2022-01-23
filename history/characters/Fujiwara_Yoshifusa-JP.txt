@@ -28,3 +28,12 @@
 		birth = yes
 	}
 }
+1600004 = {
+	name = seiwa #emperor seiwa
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	850.5.12 = {
+		birth = yes
+	}
+}
