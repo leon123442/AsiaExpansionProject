@@ -1,4 +1,4 @@
-# Asia-Erweiterung-Extended
+# Asia Extended
 Welcome to the Github page for the mod.
 
 

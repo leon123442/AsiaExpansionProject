@@ -8,5 +8,5 @@ tags={
 	"Map"
 	"Historical"
 }
-name="Asia-Erweiterung-Extended"
+name="AsiaExtended"
 supported_version="1.4.4"
