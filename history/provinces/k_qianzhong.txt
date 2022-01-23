@@ -16,8 +16,8 @@
 #c_Enshi
 #b_Enshi_Qingjiang 
 10305 = {
-    culture = yi
-	religion = hmong
+    culture = tujia
+	religion = pagan
 	holding = castle_holding
 
 }
@@ -66,8 +66,8 @@
 #c_ligao 
 #b_Zhenzhou_Ligao 
 10315 = {
-    culture = yi
-	religion = hmong
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 
 }
@@ -81,8 +81,8 @@
 #c_rongyi
 #b_Rongyi_Fuhuan_Qinzhou 
 10316 = {
-    culture = yi
-	religion = hmong
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 
 }
@@ -130,8 +130,8 @@
 #c_xizhou_qian
 #b_Xizhou_Daxiang 
 10325 = {
-    culture = yi
-	religion = hmong
+    culture = tujia
+	religion = pagan
 	holding = tribal_holding
 
 }
@@ -167,8 +167,8 @@
 #c_langxi
 #b_Longbiao_Wuzhou 
 10329 = {
-    culture = yi
-	religion = hmong
+    culture = kam_sui
+	religion = pagan
 	holding = tribal_holding
 
 }
@@ -194,8 +194,8 @@
 #c_luyang
 #b_Jinzhou_Luyang 
 10333 = {
-    culture = yi
-	religion = hmong
+    culture = tujia
+	religion = pagan
 	holding = tribal_holding
 
 }
@@ -268,8 +268,8 @@
 #c_fushuizhou
 #b_Fushuizhou_Duopeng 
 10351 = {
-    culture = yi
-	religion = hmong 
+    culture = kam_sui
+	religion = pagan
 	holding = tribal_holding
 	
 }

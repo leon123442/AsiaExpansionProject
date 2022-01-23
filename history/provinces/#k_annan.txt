@@ -29,7 +29,7 @@
 #c_jinlongzhou
 #b_Jinlongzhou_Guangyuanzhou
 10421 = { 
-	culture = tai
+	culture = tay
 	religion = pagan
 	holding = tribal_holding		
 }
@@ -123,7 +123,7 @@
 #c_huanzhou
 #b_HuanzhouJiude
 10440 = { 
-	culture = jiaozhi
+	culture = tay
 	religion = pagan
 	holding = tribal_holding		
 }

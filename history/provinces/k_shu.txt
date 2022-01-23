@@ -206,8 +206,8 @@
 #c_puzhou_dongchuan
 #b_PuzhouAnyue
 9928 = {
-	culture = yi
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = castle_holding	
 }
 #b_Anju
@@ -221,8 +221,8 @@
 #c_luzhou_dongchuan
 #b_Luzhou
 9947 = {
-	culture = yi
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = castle_holding	
 }
 #b_DazuChangyuan
@@ -241,8 +241,8 @@
 #c_siezhou
 #b_Jingnan_Jiangan
 9953 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Siyanzhou
@@ -260,8 +260,8 @@
 #c_xizhou_dongchuan
 #b_XizhouNengzhou
 9952 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Shunzhou_Qushui
@@ -280,8 +280,8 @@
 #c_lingzhou_xichuan
 #b_Lingzhou_Renshou
 9932 = {
-	culture = pu
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_RongzhouXuchuan
@@ -300,8 +300,8 @@
 #c_rongzhou_xichuan
 #b_RongzhouYibin
 9954 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Nixizhen

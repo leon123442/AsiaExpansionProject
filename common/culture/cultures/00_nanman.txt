@@ -1,17 +1,17 @@
 ﻿nanman_group = {
 
-        graphical_cultures = {
+    graphical_cultures = {
 		burman_group_coa_gfx
 		indian_building_gfx
 		indian_clothing_gfx
 		indian_unit_gfx
-	        }
+	}
 
 	bai = {  #白/纳西
 
 		dynasty_name_first = no
 		
-		color = { 111 144 44 }
+		color = { 216 106 62 }
 
 		dynasty_names = {
 			"dynn_Duan"
@@ -35,102 +35,6 @@
 		ethnicities = {
 			10 = asian
 			6 = indian
-		}
-		
-		mercenary_names = {
-			{ name = "mercenary_sadhuim_company" }
-			{ name = "mercenary_company_mon_host" }
-		}
-	}
-
-
-	wuman = {  #乌蛮/爨/彝哈尼
-
-		dynasty_name_first = no
-		
-		color = { 135 148 48 }
-		
-		dynasty_names = {
-			"dynn_Mon"
-			"dynn_Meng"
-			"dynn_Muang"
-			"dynn_Kusumi"
-			"dynn_Hinthada"
-			"dynn_Sittaung"
-			"dynn_Muttina"
-			"dynn_Mawlamyine"
-			"dynn_Wareru"
-			"dynn_Dalla"
-		}
-		
-		male_names = {
-			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
-			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
-			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
-		}
-		
-		female_names = {
-			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
-			
-			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
-			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = asian
-			8 = indian
-		}
-		
-		mercenary_names = {
-			{ name = "mercenary_sadhuim_company" }
-			{ name = "mercenary_company_mon_host" }
-		}
-	}
-
-
-	yi = {  #苗瑶
-
-
-		dynasty_name_first = no
-		
-		color = { 159 222 252 }
-
-		
-		dynasty_names = {
-			"dynn_Luodian"
-			"dynn_Phyu"
-			"dynn_Wuling"
-			"dynn_Krapan"
-			"dynn_Luoshgui"
-			"dynn_Yelang"
-			"dynn_Dagon"
-			"dynn_Zangke"
-			"dynn_Wareru"
-			"dynn_Dalla"
-		}
-		
-		male_names = {
-			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
-			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
-			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
-		}
-		
-		female_names = {
-			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
-			
-			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
-			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = asian
-			10 = indian
 		}
 		
 		mercenary_names = {
