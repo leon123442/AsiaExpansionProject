@@ -14622,6 +14622,36 @@ e_nippon = {
 			
 			capital = c_uzen_jp
 			
+			c_uzen_jp = {
+				color = { 118 172 188 }
+				color2 = { 255 255 255 }
+			
+				b_tagawa= {
+					province = 11330
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_murayama= {
+					province = 11332
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_mogami= {
+					province = 11331
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_okitama= {
+					province = 11349
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
 			c_ugo = {
 				color = { 138 142 168 }
 				color2 = { 255 255 255 }
@@ -14654,36 +14684,6 @@ e_nippon = {
 					province = 11341
 
 					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_uzen_jp = {
-				color = { 118 172 188 }
-				color2 = { 255 255 255 }
-			
-				b_tagawa= {
-					province = 11330
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_murayama= {
-					province = 11332
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_mogami= {
-					province = 11331
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_okitama= {
-					province = 11349
-
-					color = { 156 111 93 }
 					color2 = { 255 255 255 }
 				}
 			}

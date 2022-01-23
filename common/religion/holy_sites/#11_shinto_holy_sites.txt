@@ -71,7 +71,7 @@ akan = {
 	barony = b_akkeshi
 	
 	character_modifier = {
-		men_at_arms_cap = 1
+		monthly_prestige_gain_mult = 0.2
 	}
 }
 
@@ -81,7 +81,7 @@ kar_put = {
 	barony = b_KuviehSough
 	
 	character_modifier = {
-		men_at_arms_cap = 1
+		monthly_prestige_gain_mult = 0.2
 	}
 }
 
