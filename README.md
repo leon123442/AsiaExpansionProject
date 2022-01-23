@@ -7,7 +7,7 @@ This version is the development version of the mod so it may have different feat
 
 This version updates frequently when changes are made
 
-##How to Install
+## How to Install
 To install this version, first clone/download the repository
 
 then, extract the folder to your ck3 mods directory.
