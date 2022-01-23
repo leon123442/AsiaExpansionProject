@@ -10,7 +10,9 @@ This version updates frequently when changes are made
 ## How to Install
 To install this version, first clone/download the repository by clicking the green code button in the top left, then downloading as zip
 
-then, extract the folder to your ck3 mods directory, the common, history, etc folders should be in a folder called Asia-Erweiterung-Extended.
+then, extract the folder to your ck3 mods directory, the common, history, etc folders should be in a folder called Asia-Erweiterung-Extended-main.
+
+Next, rename the folder Asia-Erweiterung-Extended-main to Asia-Erweiterung-Extended
 
 it should look something like this documents/paradox interactive/crusader kings 3/mod/Asia-Erweiterung-Extended
 
