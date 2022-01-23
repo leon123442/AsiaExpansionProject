@@ -469,8 +469,8 @@
 #b_miyagi
 11254 = {
 	culture = emishi
-	religion = moshir
-	holding = tribal_holding
+	religion = shinto
+	holding = castle_holding
 }
 #b_kami_mt
 11251 = {
@@ -515,7 +515,7 @@
 11168 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_namekata
 11170 = {}
@@ -528,7 +528,7 @@
 11169 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_shinobu
 11167 = {}
@@ -546,9 +546,11 @@
 #b_akumi
 11333 = {}
 #b_ogachi
-11145 = {}
+11145 = {
+}
 #b_hiraka
-11144 = {}
+11144 = {
+}
 #b_hinai
 11341 = {}
 #c_ugo 
@@ -556,7 +558,7 @@
 11330 = {
 	culture = emishi
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_murayama
 11332 = {

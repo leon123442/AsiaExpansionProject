@@ -8,3 +8,23 @@
 	}
 	dna = Fujiwara_Yoshifusa_dna_entry
 }
+
+1600002 = {
+	name = Fujiwara_Koyo #Was actually in charge in 811, couldnt find anything after that
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+1600003 = {
+	name = Fujiwara_Shimazaki #Pulled out of my ass, I don't speak Japanese
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	849.1.1 = {
+		birth = yes
+	}
+}

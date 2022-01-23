@@ -14615,7 +14615,83 @@ e_nippon = {
 		color2 = { 255 255 255 }
 
 		capital = c_rikuzen
+		
+		d_dewa = {
+			color = { 148 145 201 }
+			color2 = { 255 255 255 }
+			
+			capital = c_uzen_jp
+			
+			c_ugo = {
+				color = { 138 142 168 }
+				color2 = { 255 255 255 }
 
+				b_akita= {
+					province = 11340
+
+					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+				b_akumi= {
+					province = 11333
+
+					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+				b_ogachi= {
+					province = 11145
+
+					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+				b_hiraka= {
+					province = 11144
+
+					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+				b_hinai= {
+					province = 11341
+
+					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_uzen_jp = {
+				color = { 118 172 188 }
+				color2 = { 255 255 255 }
+			
+				b_tagawa= {
+					province = 11330
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_murayama= {
+					province = 11332
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_mogami= {
+					province = 11331
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_okitama= {
+					province = 11349
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		}
+			
+			
+			
 		d_ou = {
 			color = { 118 135 191 }
 			color2 = { 255 255 255 }
@@ -14778,71 +14854,6 @@ e_nippon = {
 				}
 			}
 
-			c_ugo = {
-				color = { 138 142 168 }
-				color2 = { 255 255 255 }
-
-				b_akita= {
-					province = 11340
-
-					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-				b_akumi= {
-					province = 11333
-
-					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-				b_ogachi= {
-					province = 11145
-
-					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-				b_hiraka= {
-					province = 11144
-
-					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-				b_hinai= {
-					province = 11341
-
-					color = { 79 64 78 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_uzen_jp = {
-				color = { 118 172 188 }
-				color2 = { 255 255 255 }
-			
-				b_tagawa= {
-					province = 11330
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_murayama= {
-					province = 11332
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_mogami= {
-					province = 11331
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_okitama= {
-					province = 11349
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-			}
 		}
 
 		d_hokkai = {

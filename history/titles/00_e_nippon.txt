@@ -9,7 +9,28 @@ k_yamato = {
 	867.1.1 = { change_development_level = 16 }
 	1066.1.1 = { change_development_level = 22 }
 }
-
+d_dewa = {
+	866.1.1 = {
+		holder = 1600002
+		liege = "k_yamato"
+	}
+}
+c_rikuzen = {
+	866.1.1 = {
+		holder = 1600003
+		liege = "k_yamato"
+	}
+}
+c_iwaki = {
+	866.1.1 = {
+		holder = 1600003
+	}
+}
+c_iwase = {
+	866.1.1 = {
+		holder = 1600003
+	}
+}
 d_kansai = {
 	866.1.1 = {
 		holder = 1600001
