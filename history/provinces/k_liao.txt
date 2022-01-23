@@ -3,8 +3,8 @@
 #c_liaoxi 
 #b_Liaoxizhou_Changqing
 10661 = {
-    culture = sogdian
-	religion = mazdayasna
+    culture = han
+	religion = zenzong
 	holding = castle_holding
 }	
 
@@ -41,8 +41,8 @@
 #c_yingzhou_liaoxi
 #b_LiuchengYingzhou
 10642 = {
-    culture = sogdian
-	religion = mazdayasna
+    culture = han
+	religion = zenzong
 	holding = castle_holding
 }
 #b_Bailangshan
@@ -222,7 +222,7 @@
 #b_anju
 10914 = {
     culture = goguryeo
-	religion = maitreya
+	religion = mahayana
 	holding = castle_holding
 }
 #b_chongju
@@ -245,7 +245,7 @@
 #b_Nyongbyon
 10917 = {
     culture = goguryeo
-	religion = maitreya
+	religion = mahayana
 	holding = castle_holding
 }
 #b_kanggye

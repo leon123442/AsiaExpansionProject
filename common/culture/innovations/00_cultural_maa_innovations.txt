@@ -855,7 +855,6 @@ master_of_bow = {
 
 	flag = global_maa
 }
-
 mountain_pattern_armour = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal

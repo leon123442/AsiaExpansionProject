@@ -4239,7 +4239,7 @@ special_greenhouse_01 = {
 }
 
 ##########
-# Daming Palace
+# 大明宫
 ##########
 
 daminggong_01 = {
@@ -4334,7 +4334,7 @@ daminggong_02 = {
 }
 
 ##########
-# Shencefu
+# 神策府
 ##########
 
 shence_01 = {
@@ -4401,7 +4401,7 @@ shence_02 = {
 }
 
 ##########
-# Confucian Temple
+# 孔庙
 ##########
 
 kongmiao_01 = {
@@ -4439,7 +4439,7 @@ kongmiao_01 = {
 }
 
 ##########
-# Longmen Grottoes
+# 龙门石窟
 ##########
 
 longmenshiku_01 = {
@@ -4487,7 +4487,7 @@ longmenshiku_01 = {
 }
 
 ##########
-# Tiancefu
+# 天策府
 ##########
 
 tiance_01 = {
@@ -4559,7 +4559,7 @@ tiance_02 = {
 }
 
 ##########
-# Dujiangyan
+# 都江堰
 ##########
 
 dujiangyan_01 = {
@@ -4598,7 +4598,7 @@ dujiangyan_01 = {
 }
 
 ##########
-# Yumen Pass and Yang Pass
+# 玉门关和阳关
 ##########
 
 yumenguan = {
@@ -4663,7 +4663,7 @@ yangguan = {
 	type = special
 }
 
-#Daxiangguo Temple
+#大相国寺
 daxiangguosi = {
 
 	construction_time = very_slow_construction_time
@@ -4709,7 +4709,7 @@ daxiangguosi = {
 	type = special
 }
 
-#Yellow Emperor Mausoleum
+#黄帝陵
 huangdiling = {
 
 	construction_time = very_slow_construction_time
@@ -4751,7 +4751,7 @@ huangdiling = {
 	type = special
 }
 
-#Changbai Mountain Temple
+#长白山神庙
 changbaishenmiao_1 = {
 
 	construction_time = very_slow_construction_time
@@ -4817,7 +4817,7 @@ changbaishenmiao_2 = {
 		
 	type = special
 }
-#Lingqu
+#灵渠
 lingqu_1 = {
 
 	construction_time = very_slow_construction_time
@@ -4880,7 +4880,7 @@ lingqu_2 = {
 	type = special
 }
 
-#Pija Khan Monument
+#毗伽可汗碑
 pijiakehanbei = {
 
 	construction_time = slow_construction_time
@@ -4925,7 +4925,7 @@ pijiakehanbei = {
 	type = special
 }
 
-#Wolf Juxu Stone Stele
+#狼居胥石碑
 langjuxubei = {
 
 	construction_time = slow_construction_time
@@ -4971,7 +4971,7 @@ langjuxubei = {
 	type = special
 }
 
-#Yanranle Stone
+#燕然勒石
 yanranleshi = {
 
 	construction_time = slow_construction_time
@@ -5017,7 +5017,7 @@ yanranleshi = {
 	type = special
 }
 
-#Tianning Temple
+#天宁寺
 tianningsi = {
 
 	construction_time = very_slow_construction_time
@@ -5058,7 +5058,7 @@ tianningsi = {
 	type = special
 }
 
-#Yungang Grottoes
+#云冈石窟
 yungangshiku = {
 
 	construction_time = very_slow_construction_time
@@ -5102,7 +5102,7 @@ yungangshiku = {
 	type = special
 }
 
-#Mogao Grottoes
+#莫高窟
 mogaoku = {
 
 	construction_time = very_slow_construction_time
@@ -5146,7 +5146,7 @@ mogaoku = {
 	type = special
 }
 
-#Subashi Buddhist Temple
+#苏巴什佛寺
 subashifosi = {
 
 	construction_time = very_slow_construction_time
@@ -5187,7 +5187,7 @@ subashifosi = {
 	type = special
 }
 
-#Rewak Buddhist Temple
+#热瓦克佛寺
 rewakefosi = {
 
 	construction_time = very_slow_construction_time
@@ -5228,7 +5228,7 @@ rewakefosi = {
 	type = special
 }
 
-#Xianbei Stone Room
+#鲜卑石室
 xianbeishishi = {
 
 	construction_time = very_slow_construction_time
@@ -5266,7 +5266,7 @@ xianbeishishi = {
 	
 	type = special
 }
-#Ziwei Palace
+#紫微宫
 ziweigong = {
 
 	construction_time = very_slow_construction_time
@@ -5311,7 +5311,7 @@ ziweigong = {
 	type = special
 }
 
-#Wuhou Temple
+#武侯祠
 wuhouci = {
 
 	construction_time = very_slow_construction_time
@@ -5347,7 +5347,7 @@ wuhouci = {
 	
 	type = special
 }
-#Jiankang Palace Ruins
+#建康宫遗址
 jiankanggong_1 = {
 
 	asset = {
@@ -5437,7 +5437,7 @@ jiankanggong_2 = {
 	
 	type = special
 }
-#Huaqing Palace
+#华清宫
 huaqinggong = {
 
 	construction_time = very_slow_construction_time
@@ -5472,7 +5472,7 @@ huaqinggong = {
 	
 	type = special
 }
-#Potala Palace
+#布达拉宫
 budalagong = {
 
 	construction_time = very_slow_construction_time
@@ -5515,7 +5515,7 @@ budalagong = {
 	
 	type = duchy_capital
 }
-#Jokhang Temple
+#大昭寺
 dazhaosi = {
 
 	construction_time = very_slow_construction_time
@@ -5555,7 +5555,7 @@ dazhaosi = {
 	
 	type = special
 }
-#Yandi Mausoleum
+#炎帝陵
 yandiling = {
 
 	construction_time = very_slow_construction_time
@@ -5594,7 +5594,7 @@ yandiling = {
 	
 	type = special
 }
-#Yueyang Tower
+#岳阳楼
 yueyanglou_1 = {
 
 	construction_time = very_slow_construction_time
@@ -5663,7 +5663,7 @@ yueyanglou_2 = {
 	
 	type = special
 }
-#Yellow Crane Tower
+#黄鹤楼
 huanghelou = {
 
 	construction_time = very_slow_construction_time
@@ -5698,7 +5698,7 @@ huanghelou = {
 	
 	type = special
 }
-#Tengwang Pavilion
+#滕王阁
 tengwangge = {
 
 	construction_time = very_slow_construction_time
@@ -5733,7 +5733,7 @@ tengwangge = {
 	
 	type = special
 }
-#Wa Palace
+#娲皇宫
 wohuanggong = {
 
 	construction_time = very_slow_construction_time
@@ -5769,7 +5769,7 @@ wohuanggong = {
 	
 	type = special
 }
-#Shandan Racecourse
+#山丹马场
 shandanmachang = {
 
 	construction_time = very_slow_construction_time
@@ -5805,7 +5805,7 @@ shandanmachang = {
 }
 
 ##########
-# Shoushan copper mine
+# 首山铜矿
 ##########
 shoushan_mines_01 = {
 
@@ -5980,7 +5980,7 @@ shoushan_mines_04 = {
 }
 
 ##########
-# Daye Mine
+# 大冶矿
 ##########
 daye_mines_01 = {
 
@@ -6147,7 +6147,7 @@ daye_mines_04 = {
 }
 
 ##########
-# Taiyuan Mine
+# 太原矿
 ##########
 taiyuan_mines_01 = {
 
@@ -6314,7 +6314,7 @@ taiyuan_mines_04 = {
 }
 
 ##########
-# Jiaodong Gold Mine
+# 胶东金矿
 ##########
 jiaodong_mines_01 = {
 
@@ -6473,7 +6473,7 @@ jiaodong_mines_04 = {
 }
 
 ##########
-# Weicheng Iron Mine
+# 卫城铁矿
 ##########
 weicheng_mines_01 = {
 
@@ -6641,7 +6641,7 @@ weicheng_mines_04 = {
 
 
 ##########
-# Shaozhou Silver Mine
+# 韶州银矿
 ##########
 shaozhou_mines_01 = {
 
@@ -6800,7 +6800,7 @@ shaozhou_mines_04 = {
 
 
 ##########
-# Liaodong Silver Iron Mine
+# 辽东银铁矿
 ##########
 liaodong_mines_01 = {
 

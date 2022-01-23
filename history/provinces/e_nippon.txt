@@ -157,7 +157,7 @@
 #c_echigo 
 #b_kubiki
 11270 = {
-	culture = koshibito
+	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
@@ -469,7 +469,7 @@
 #b_miyagi
 11254 = {
 	culture = emishi
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_kami_mt
@@ -486,7 +486,7 @@
 #b_iwate
 11143 = {
 	culture = emishi
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_shiwa
@@ -503,7 +503,7 @@
 #b_tsugaru
 11146 = {
 	culture = ainu
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_nukanobu
@@ -513,8 +513,8 @@
 #c_iwaki 
 #b_iwaki
 11168 = {
-	culture = emishi
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = tribal_holding
 }
 #b_namekata
@@ -526,8 +526,8 @@
 #c_iwase 
 #b_iwase
 11169 = {
-	culture = emishi
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = tribal_holding
 }
 #b_shinobu
@@ -540,7 +540,7 @@
 #b_akita
 11340 = {
 	culture = emishi
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_akumi
@@ -555,7 +555,7 @@
 #b_tagawa
 11330 = {
 	culture = emishi
-	religion = pagan
+	religion = shinto
 	holding = tribal_holding
 }
 #b_murayama
@@ -571,7 +571,7 @@
 #b_edo
 11322 = {
 	culture = yamato
-	religion = pagan
+	religion = shinto
 	holding = castle_holding
 }
 #b_tama
@@ -588,7 +588,7 @@
 #b_kamakura
 11231 = {
 	culture = yamato
-	religion = pagan
+	religion = shinto
 	holding = castle_holding
 }
 #b_ashigara
@@ -596,8 +596,8 @@
 #c_kozuke 
 #b_gunma
 11182 = {
-	culture = saeki
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = tribal_holding
 }
 #b_kataoka
@@ -611,8 +611,8 @@
 #c_shimotsuke 
 #b_tsuga
 11317 = {
-	culture = emishi
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = tribal_holding
 }
 #b_aso
@@ -625,7 +625,7 @@
 #b_ihara
 11309 = {
 	culture = yamato
-	religion = pagan
+	religion = shinto
 	holding = castle_holding
 }
 #b_suruga
@@ -635,8 +635,8 @@
 #c_hitachi 
 #b_niihari
 11216 = {
-	culture = emishi
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = tribal_holding
 }
 #b_kashima
@@ -650,8 +650,8 @@
 #c_kazusa 
 #b_ichihara
 11150 = {
-	culture = saeki
-	religion = pagan
+	culture = yamato
+	religion = shinto
 	holding = castle_holding
 }
 #b_musha
@@ -667,7 +667,7 @@
 #b_hakodate
 11386 = {
 	culture = ainu
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_hiyama
@@ -682,7 +682,7 @@
 #b_saru
 11193 = {
 	culture = ainu
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_samani
@@ -691,7 +691,7 @@
 #b_ishikari
 11194 = {
 	culture = ainu
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_sorachi
@@ -704,7 +704,7 @@
 #b_mashike
 11198 = {
 	culture = mishihase
-	religion = pagan
+	religion = yzng
 	holding = tribal_holding
 }
 #b_teshio
@@ -717,7 +717,7 @@
 #b_kushiro
 11197 = {
 	culture = ainu
-	religion = pagan
+	religion = moshir
 	holding = tribal_holding
 }
 #b_akkeshi
@@ -732,7 +732,7 @@
 #b_nemuro
 11201 = {
 	culture = mishihase
-	religion = pagan
+	religion = yzng
 	holding = tribal_holding
 }
 #b_chishima

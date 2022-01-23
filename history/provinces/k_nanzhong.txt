@@ -577,7 +577,7 @@
 #c_mongnai
 #b_Kunxin
 10551 = {
-    culture = shan
+    culture = karenic
 	religion = pagan
 	holding = tribal_holding
 }

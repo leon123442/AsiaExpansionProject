@@ -4966,30 +4966,12 @@ k_jurchen = {
 		holder = 120000001
 	}
 }
-k_liao = {
-	867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 }
+k_motgit = {
+	867.1.1 = { change_development_level = 2 }
+    1066.1.1 = { change_development_level = 8 }
 
 	864.1.1 = {
-		government = feudal_government
+		government = tribal_government
 		holder = 120000001
 	} 
 }
-k_khitan = {
-	867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 }
-
-	864.1.1 = {
-		government = tribal_government
-		holder = 4550007
-	} 
-}
-k_tengri = [
-	867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 }
-
-	864.1.1 = {
-		government = tribal_government
-		holder = 303238	
-	}
-]

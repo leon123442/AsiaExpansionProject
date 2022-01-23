@@ -1,0 +1,37 @@
+k_motgit = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 10 } 
+}
+d_yolou = {
+	865.1.1={
+		liege = "k_jurchen"
+	}   
+	866.1.1 = {
+		holder = 120000006
+	}
+}
+c_anbian = {
+	866.1.1 = {
+		holder = 120000006
+	}
+}
+c_ynyuan = {
+	866.1.1 = {
+		holder = 120000006
+	}
+}
+c_dingli = {
+	866.1.1 = {
+		holder = 120000006
+	} 
+}
+c_dongping = {
+	866.1.1 = {
+		holder = 120000006
+	}  
+}
+c_shuaibin = {
+	866.1.1 = {
+		holder = 120000006
+	}  
+}

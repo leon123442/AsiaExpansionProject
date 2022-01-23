@@ -54,7 +54,9 @@ c_mikawa = {
 		holder = 2600001
 	}	
 }
-
+c_kai = {
+	
+}
 c_mino= {
 	866.1.1 = {
 		holder = 2600001
@@ -227,54 +229,6 @@ c_tsushima= {
     }
 }
 
-d_kanto = {
-	865.1.1 = {
-		liege = "k_yamato"
-	}
-	866.1.1 = {
-        holder = 2400001
-    }
-}
-c_kai = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_musashi = {
-	866.1.1 = {
-		holder = 2400001
-    }	
-}
-c_sagami = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_kozuke = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_shimotsuke = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_suruga = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_hitachi = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
-c_kazusa = {
-	866.1.1 = {
-		holder = 2400001
-    }
-}
 
 k_hitakami = {
 	867.1.1 = { change_development_level = 8 }
@@ -316,6 +270,27 @@ d_tokai = {
     }
 }
 
+c_musashi = {
+	
+}
+c_sagami = {
+	
+}
+c_kozuke = {
+	
+}
+c_shimotsuke = {
+	
+}
+c_suruga = {
+	
+}
+c_hitachi = {
+	
+}
+c_kazusa = {
+	
+}
 
 d_hokkai = {
 
