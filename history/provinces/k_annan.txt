@@ -5,9 +5,9 @@
 #c_kinh_bac
 #b_bab_ha
 10437 = {
-	culture = tay
-	religion = pagan
-	holding = castle_holding
+
+
+
 }
 #b_thanh_long
 10438 = {
@@ -21,7 +21,9 @@
     
 #b_thai_binh
 10430 = {
-
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
 }
     
 #b_lang_giang
@@ -31,9 +33,7 @@
     
 #b_lang_son
 10440 = {
-	culture = tay
-	religion = pagan
-	holding = castle_holding
+
 }
     
 
@@ -42,7 +42,7 @@
 #b_tan_an
 10434 = {
 	culture = jiaozhi
-	religion = pagan
+	religion = mahayana
 	holding = castle_holding
 }
     
@@ -96,7 +96,7 @@
 #b_ai_chau
 10433 = {
 	culture = jiaozhi
-	religion = pagan
+	religion = mahayana
 	holding = castle_holding
 }
     
@@ -115,7 +115,7 @@
 #b_viet_thuong
 10422 = {
 	culture = jiaozhi
-	religion = pagan
+	religion = mahayana
 	holding = castle_holding
 }
     
@@ -143,8 +143,8 @@
 #c_muong
 #b_ma_nam
 11879 = {
-	culture = tai
-	religion = pagan
+	culture = jiaozhi
+	religion = mahayana
 	holding = castle_holding
 }
     
@@ -201,7 +201,7 @@
 #b_phu_hoa
 11888 = {
 	culture = tay
-	religion = pagan
+	religion = mahayana
 	holding = castle_holding
 }
     

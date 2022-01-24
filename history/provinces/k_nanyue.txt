@@ -116,15 +116,15 @@
 }
 #b_Yashan_Xiangshan
 10373 = {
-
-
-	holding = none
+	culture = pu
+	religion = zhengyi
+	holding = tribal_holding
 }
 #b_Huaiji_Sihui
 10375 = {
-
-
-	holding = none
+	culture = pu
+	religion = zhengyi
+	holding = tribal_holding
 }
 
 #c_duanzhou
@@ -256,9 +256,8 @@
 #c_changwu
 #b_Hezhou_Linhe
 10376 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
+
+	holding = none
 }
 #b_Wuzhou_Cangwu
 10378 = {
@@ -281,7 +280,8 @@
 }
 #b_Zhaozhou_Pingle
 10398 = {
-
+    culture = pu
+	religion = pagan 
 	holding = tribal_holding
 }
 #b_Yongfu_Dingli
@@ -378,7 +378,7 @@
 #b_Luzhou_Wulei
 10427 = { 
 	culture = pu
-	religion = pagan 
+	religion = mahayana
 	holding = tribal_holding		
 }
 #b_Sumaozhou
@@ -404,19 +404,19 @@
 #c_luolong 
 #b_Luolong_Wuqin
 10412 = {
-    culture = tay
+    culture = pu
 	religion = pagan 
 	holding = tribal_holding
 }
 #b_Simingzhou_Shixizhou
 10413 = {
   
-	holding = tribal_holding
+	holding = none
 }
 #b_Shangsizhou_Rangzhou
 10411 = {
   
-	holding = tribal_holding
+	holding = none
 }
 
 #c_baise 

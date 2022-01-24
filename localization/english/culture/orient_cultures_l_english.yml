@@ -46,24 +46,28 @@
  hebei_collective_noun:0 "Sino-Sogdian"
  hexi:0 "Sino-Tibetan"
  hexi_collective_noun:0 "Sino-Tibetan"
- ba_shu:0 "Ba-Shu"
- ba_shu_collective_noun:0 "Ba-Shu"
+ ba_shu:0 "Bashu"
+ ba_shu_collective_noun:0 "Bashu"
  #ba_shu:0 "Sichuanese"
  #ba_shu_collective_noun:0 "Sichuan"
  
  #kradai
  kradai_group:0 "Kra-Dai"
+ kradai_group_collective_noun:0 "Kra-Dais"
  kam_sui:0 "Kam-Sui"
- kam_sui_collective_noun:0 "Kam-Sui"
- tay:0 "Tay"
+ kam_sui_collective_noun:0 "Kam-Suis"
+ tay:0 "Tay-Nung"
+ tay_collective_noun:0 "Tay-Nungs"
+ liliao:0 "Be-Hlai"
+ liliao_collective_noun:0 "Be-Hlais"
  
  
  #lolo
- lolo_group:0 "Loloish"
+ lolo_group:0 "Yi"
+ lolo_group_collective_noun:0 "Yi"
  tujia:0 "Tujia"
- tujia_collective_noun:0 "Tujian"
- liliao:0 "Liliao"
- Liliao_collective_noun:0 "Liliaoian"
+ tujia_collective_noun:0 "Tujias"
+ 
  #hmong
  hmong_group:0 "Hmong-Mien"
  yao:0 "Yao"
