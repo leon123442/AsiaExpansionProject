@@ -371,12 +371,12 @@
 #c_xiangkhouang
 #b_xiangkhouang
 10543 = {
-	culture = khmu
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
     
 #b_houaphanh
 10544 = {
-
+	holding = none
 }
