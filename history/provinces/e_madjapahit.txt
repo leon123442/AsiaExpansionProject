@@ -255,36 +255,31 @@
 }
 
 #c_siak
-#b_dumai
-11598 = {
+#b_indragiri
+11602 = {
 	culture = lampung
 	religion = vaishnavism
 	holding = tribal_holding
 }
+#b_dumai
+11598 = {
+	holding = none
+}
 #b_kampar
 11599 = {
-
+	holding = none
 }
 #b_east_kampar
 11600 = {
-
+	holding = none
 }
-					
 #b_siak
 11601 = {
-
-}
-#b_indragiri
-11602 = {
-	11613 = {
-		culture = lampung
-		religion = pagan
-		holding = tribal_holding
-	}
+	holding = none
 }
 #b_pelalawan
 11603 = {
-
+	holding = none
 }
 
 #c_riau_islands
@@ -680,11 +675,6 @@
 11558 = {
 
 }
-					
-
-}
-
-
 #k_bornie
 
 #d_banjar
@@ -695,10 +685,9 @@
 	religion = pagan
 	holding = tribal_holding
 }
-					
 #b_tabalong
 11406 = {
-
+	holding = none
 }
 					
 #b_central_kapuas
@@ -1046,10 +1035,6 @@
 11463 = {
 
 }
-					
-
-}
-
 
 #k_sulawesi
 
@@ -1062,18 +1047,14 @@
 	religion = pagan
 	holding = tribal_holding
 }
-					
 #b_pipikoro
 11466 = {
 
 }
-					
 #b_pasangkayu
 11467 = {
 
 }
-					
-
 #c_tolitoli
 #b_tolitoli
 11468 = {
@@ -1295,10 +1276,6 @@ c_butungmuna = {
 11519 = {
 
 }
-					
-
-
-}
 
 #k_panyupayana
 
@@ -1313,17 +1290,15 @@ c_butungmuna = {
 }
 #b_pangil
 11769 = {
-	culture = austronesian
-	religion = pagan
-	holding = tribal_holding
+	holding = none
 }
 #b_tangway
 11770 = {
-
+	holding = none
 }
 #b_tondo
 11775 = {
-
+	holding = none
 }
 
 #c_pangpang

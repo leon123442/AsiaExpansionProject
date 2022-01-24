@@ -123,7 +123,7 @@
 #c_longzhou_shu
 #b_Longzhou_jiangyou
 9890 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -137,7 +137,7 @@
 #c_jianzhou_shu
 #b_Jiange
 9891 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -151,7 +151,7 @@
 #c_mianzhou
 #b_Mianzhou_Bax
 9894 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -171,7 +171,7 @@
 #c_zizhou_dongchuan
 #b_Zizhouqixian
 9923 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -192,7 +192,7 @@
 #c_suizhou_dongchuan
 #b_Suizhoufangyi
 9926 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -206,8 +206,8 @@
 #c_puzhou_dongchuan
 #b_PuzhouAnyue
 9928 = {
-	culture = yi
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = castle_holding	
 }
 #b_Anju
@@ -221,8 +221,8 @@
 #c_luzhou_dongchuan
 #b_Luzhou
 9947 = {
-	culture = yi
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = castle_holding	
 }
 #b_DazuChangyuan
@@ -241,8 +241,8 @@
 #c_siezhou
 #b_Jingnan_Jiangan
 9953 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Siyanzhou
@@ -260,8 +260,8 @@
 #c_xizhou_dongchuan
 #b_XizhouNengzhou
 9952 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Shunzhou_Qushui
@@ -280,8 +280,8 @@
 #c_lingzhou_xichuan
 #b_Lingzhou_Renshou
 9932 = {
-	culture = pu
-	religion = hmong
+	culture = ba_shu
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_RongzhouXuchuan
@@ -300,8 +300,8 @@
 #c_rongzhou_xichuan
 #b_RongzhouYibin
 9954 = {
-	culture = pu
-	religion = hmong
+	culture = wuman
+	religion = pagan
 	holding = tribal_holding	
 }
 #b_Nixizhen
@@ -315,7 +315,7 @@
 #c_chengdu
 #b_Chengdu
 9916 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding
     special_building = wuhouci	
@@ -349,7 +349,7 @@
 #c_hanzhou_shu
 #b_Hanzhou_Luoxian
 9900 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -375,7 +375,7 @@
 #c_pengzhou
 #b_Pengzhou
 9901 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -388,7 +388,7 @@
 #c_qingchengshan
 #b_Qingchengshan
 9905 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = church_holding	
 }
@@ -402,7 +402,7 @@
 #c_jianzhou_shu
 #b_Jianzhouyangan
 9921 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -416,7 +416,7 @@
 #c_zizhou_xichuan
 #b_Zizhou_Panshi
 9930 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -430,7 +430,7 @@
 #c_meizhou_xichuan
 #b_Meizhou 
 9934 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding
 	1066.1.1 = { 
@@ -453,7 +453,7 @@
 #c_jiazhou_xichuan
 #b_JiazhouLongyou 
 9937 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi 
 	holding = castle_holding
 	1066.1.1 = { 
@@ -552,7 +552,7 @@
 #c_bazhou_ba
 #b_Bazhou_Damu
 9973 = {
-	culture = yi
+	culture = ba_shu
 	religion = hmong
 	holding = castle_holding	
 }
@@ -572,7 +572,7 @@
 #c_langzhou_ba
 #b_Langzhong
 9971 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -592,7 +592,7 @@
 #c_guozhou_ba
 #b_Guozhou_Nanchong
 9978 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -606,7 +606,7 @@
 #c_quzhou_ba
 #b_Pengzhou_Dayin
 9974 = {
-	culture = yi
+	culture = ba_shu
 	religion = hmong
 	holding = castle_holding	
 }
@@ -626,7 +626,7 @@
 #c_hezhou_ba
 #b_Hezhou_Shijing
 9979 = {
-	culture = han
+	culture = ba_shu
 	religion = zhengyi
 	holding = castle_holding	
 }
@@ -675,7 +675,7 @@
 #c_fuzhou_ba
 #b_Fuling
 9983 = {
-	culture = yi
+	culture = han
 	religion = hmong
 	holding = castle_holding	
 }
@@ -701,7 +701,7 @@
 #c_zhongzhou_ba
 #b_Zhongzhou_Linjiang
 9987 = {
-	culture = yi
+	culture = han
 	religion = hmong
 	holding = castle_holding	
 }

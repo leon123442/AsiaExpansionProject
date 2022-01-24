@@ -5,7 +5,7 @@
 #c_kinh_bac
 #b_bab_ha
 10437 = {
-	culture = han
+	culture = tay
 	religion = pagan
 	holding = castle_holding
 }
@@ -31,7 +31,9 @@
     
 #b_lang_son
 10440 = {
-
+	culture = tay
+	religion = pagan
+	holding = castle_holding
 }
     
 
@@ -39,7 +41,7 @@
 #c_hai_dong
 #b_tan_an
 10434 = {
-	culture = han
+	culture = jiaozhi
 	religion = pagan
 	holding = castle_holding
 }
@@ -59,7 +61,7 @@
 #c_nong
 #b_nong
 10531 = {
-	culture = pu
+	culture = tay
 	religion = pagan
 	holding = castle_holding
 }
@@ -141,7 +143,7 @@
 #c_muong
 #b_ma_nam
 11879 = {
-	culture = laos
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
@@ -169,7 +171,7 @@
 #c_muang_thaeng #勐唐
 #b_muang_thaeng
 10441 = {
-	culture = laos
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
@@ -198,7 +200,7 @@
 #c_son_tay
 #b_phu_hoa
 11888 = {
-	culture = laos
+	culture = tay
 	religion = pagan
 	holding = castle_holding
 }
@@ -227,7 +229,7 @@
 #c_lao_nhai
 #b_van_ban
 11883 = {
-	culture = laos
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
@@ -251,7 +253,7 @@
 #c_lo
 #b_tu_long
 10446 = {
-	culture = laos
+	culture = tay
 	religion = pagan
 	holding = castle_holding
 }
@@ -282,7 +284,7 @@
 #c_muangswa
 #b_Menglao_LuangPrabang
 10536 = {
-	culture = laos
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
@@ -369,12 +371,12 @@
 #c_xiangkhouang
 #b_xiangkhouang
 10543 = {
-	culture = jiaozhi
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
     
 #b_houaphanh
 10544 = {
-
+	holding = none
 }

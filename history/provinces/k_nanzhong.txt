@@ -3,7 +3,7 @@
 #c_jianshui
 #b_Tonghaifu_Qujiangguan
 10462 = {
-    culture = wuman
+    culture = hani
 	religion = ari
 	holding = tribal_holding	
 }
@@ -21,7 +21,7 @@
 #c_muze
 #b_Muze_Sifuguan
 10451 = {
-    culture = mon
+    culture = hani
 	religion = ari 
 	holding = tribal_holding
 }
@@ -39,7 +39,7 @@
 #c_laos
 #b_Laos_Baogu
 10452 = {
-    culture = laos
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -88,7 +88,7 @@
 #c_heman
 #b_Hemanbu_Tengtiao
 10458 = {
-    culture = wuman
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -175,8 +175,8 @@
 #c_wusa 
 #b_Wusabu
 10479 = {
-    culture = yi
-	religion = pagan 
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Momidianbu
@@ -195,8 +195,8 @@
 #c_huichuan
 #b_Huichuan_Huili
 10487 = {
-    culture = yi  #越嶲/纳西
-	religion = hmong
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Ezhuntianguan_Nuodan
@@ -213,7 +213,7 @@
 #c_jianchang
 #b_Jianchang_Sanfucheng
 10485 = {
-    culture = yi
+    culture = wuman
 	religion = pagan
 	holding = tribal_holding
 }
@@ -312,7 +312,7 @@
 #c_nongdong
 #b_Nongdong
 10503 = {
-    culture = bai
+    culture = wuman
 	religion = ari 
 	holding = tribal_holding
 }
@@ -332,7 +332,7 @@
 #c_kainan
 #b_Yinshengfu_Kainan
 10505 = {
-    culture = tai
+    culture = hani
 	religion = pagan 
 	holding = castle_holding
 }
@@ -345,7 +345,7 @@
 #c_puer
 #b_Buri
 10507 = {
-    culture = tai
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }

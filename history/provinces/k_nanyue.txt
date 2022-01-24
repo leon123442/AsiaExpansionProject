@@ -30,7 +30,7 @@
 #c_xunzhou
 #b_Longchuan_Xunzhou
 10360 = {
-    culture = min
+    culture = han
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -65,7 +65,7 @@
 #c_shaoguan_guang 
 #b_Shaozhou_Qujiang
 10365 = {
-    culture = yi
+    culture = yao
 	religion = pagan 
 	holding = castle_holding
 	special_building_slot = shaozhou_mines_01
@@ -131,7 +131,7 @@
 #b_Duanzhou_Gaoyao
 10374 = {
     culture = pu
-	religion = pagan 
+	religion = zhengyi
 	holding = tribal_holding
 }
 #b_Fengzhou_Fengchuan
@@ -148,7 +148,7 @@
 #c_xinhui
 #b_Xinxing_Fulin
 10380 = {
-    culture = jiaozhi
+    culture = han
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -194,7 +194,7 @@
 #c_gaozhou
 #b_Gaozhou_Dianbai
 10382 = {
-    culture = jiaozhi
+    culture = liliao
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -216,7 +216,7 @@
 #c_rongzhou_gui
 #b_Rongzhou_Beiliu
 10391 = {
-    culture = han
+    culture = pu
 	religion = pagan 
 	holding = castle_holding
 }
@@ -246,7 +246,7 @@
 #c_lianzhou_gui
 #b_Lianzhou_Hepu
 10389 = {
-    culture = liliao
+    culture = pu
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -269,8 +269,8 @@
 #c_guilin
 #b_Guilin
 10397 = {
-    culture = yi
-	religion = pagan
+    culture = yao
+	religion = hmong
 	holding = castle_holding
 	special_building = lingqu_1
 }
@@ -332,8 +332,8 @@
 #c_rongshui
 #b_Rongzhou_Rongshui
 10402 = {
-    culture = pu
-	religion = pagan 
+    culture = kam_sui
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Longsheng_Sanjiang
@@ -346,7 +346,7 @@
 #c_nanning
 #b_Yongzhou_Nanning
 10410 = {
-    culture = han
+    culture = pu
 	religion = pagan
 	holding = castle_holding
 }
@@ -377,8 +377,8 @@
 #c_luzhou_annan
 #b_Luzhou_Wulei
 10427 = { 
-	culture = jiaozhi
-	religion = pagan
+	culture = pu
+	religion = pagan 
 	holding = tribal_holding		
 }
 #b_Sumaozhou
@@ -404,7 +404,7 @@
 #c_luolong 
 #b_Luolong_Wuqin
 10412 = {
-    culture = pu
+    culture = tay
 	religion = pagan 
 	holding = tribal_holding
 }
