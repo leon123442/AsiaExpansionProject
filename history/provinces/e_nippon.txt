@@ -470,18 +470,16 @@
 11254 = {
 	culture = emishi
 	religion = shinto
-	holding = castle_holding
-}
-#b_kami_mt
-11251 = {
 	holding = tribal_holding
 }
+#b_kami_mt
+11251 = {holding = none}
 #b_tamatsukuri
-11253 = {}
+11253 = {holding = none}
 #b_monou
-11250 = {}
+11250 = {holding = none}
 #b_kesen
-11252 = {}
+11252 = {holding = none}
 #c_rikuchu 
 #b_iwate
 11143 = {
@@ -490,15 +488,13 @@
 	holding = tribal_holding
 }
 #b_shiwa
-11224 = {
-	holding = tribal_holding
-}
+11224 = {holding = none}
 #b_shiiwai
-11223 = {}
+11223 = {holding = none}
 #b_hei
-11221 = {}
+11221 = {holding = none}
 #b_kunohe
-11222 = {}
+11222 = {holding = none}
 #c_rikugo 
 #b_tsugaru
 11146 = {
@@ -507,22 +503,22 @@
 	holding = tribal_holding
 }
 #b_nukanobu
-11148 = {}
+11148 = {holding = none}
 #b_hachinohe
-11147 = {}
+11147 = {holding = none}
 #c_iwaki 
 #b_iwaki
 11168 = {
 	culture = yamato
 	religion = shinto
-	holding = castle_holding
+	holding = tribal_holding
 }
 #b_namekata
-11170 = {}
+11170 = {holding = none}
 #b_uda_iwk
-11171 = {}
+11171 = {holding = none}
 #b_shirakawa
-11172 = {}
+11172 = {holding = none}
 #c_iwase 
 #b_iwase
 11169 = {
@@ -531,12 +527,12 @@
 	holding = castle_holding
 }
 #b_shinobu
-11167 = {}
+11167 = {holding = none}
 #b_aizu
-11165 = {}
+11165 = {holding = none}
 #b_yama
-11166 = {}
-#c_uzen 
+11166 = {holding = none}
+#c_ugo
 #b_akita
 11340 = {
 	culture = emishi
@@ -544,30 +540,26 @@
 	holding = tribal_holding
 }
 #b_akumi
-11333 = {}
+11333 = {holding = none}
 #b_ogachi
-11145 = {
-}
+11145 = {holding = none}
 #b_hiraka
-11144 = {
-}
+11144 = {holding = none}
 #b_hinai
-11341 = {}
-#c_ugo 
+11341 = {holding = none}
+#c_uzen 
 #b_tagawa
 11330 = {
 	culture = emishi
 	religion = shinto
-	holding = castle_holding
-}
-#b_murayama
-11332 = {
 	holding = tribal_holding
 }
+#b_murayama
+11332 = {holding = none}
 #b_mogami
-11331 = {}
+11331 = {holding = none}
 #b_okitama
-11349 = {}
+11349 = {holding = none}
 #d_tokai 
 #c_musashi 
 #b_edo
@@ -603,13 +595,13 @@
 	holding = tribal_holding
 }
 #b_kataoka
-11179 = {}
+11179 = {holding = none}
 #b_seta
-11181 = {}
+11181 = {holding = none}
 #b_agatsuma
-11180 = {}
+11180 = {holding = none}
 #b_hatara
-11295 = {}
+11295 = {holding = none}
 #c_shimotsuke 
 #b_tsuga
 11317 = {
@@ -618,11 +610,11 @@
 	holding = tribal_holding
 }
 #b_aso
-11315 = {}
+11315 = {holding = none}
 #b_haga
-11314 = {}
+11314 = {holding = none}
 #b_shioya
-11316 = {}
+11316 = {holding = none}
 #c_suruga 
 #b_ihara
 11309 = {
@@ -642,13 +634,13 @@
 	holding = tribal_holding
 }
 #b_kashima
-11217 = {}
+11217 = {holding = none}
 #b_ibaraki
-11346 = {}
+11346 = {holding = none}
 #b_kuji
-11345 = {}
+11345 = {holding = none}
 #b_yuki
-11347 = {}
+11347 = {holding = none}
 #c_kazusa 
 #b_ichihara
 11150 = {
@@ -673,13 +665,13 @@
 	holding = tribal_holding
 }
 #b_hiyama
-11191 = {}
+11191 = {holding = none}
 #b_yamakoshi
-11202 = {}
+11202 = {holding = none}
 #b_yufutsu
-11192 = {}
+11192 = {holding = none}
 #b_abuta
-11196 = {}
+11196 = {holding = none}
 #c_hidaka 
 #b_saru
 11193 = {
@@ -688,7 +680,7 @@
 	holding = tribal_holding
 }
 #b_samani
-11204 = {}
+11204 = {holding = none}
 #c_ishikari 
 #b_ishikari
 11194 = {
@@ -697,11 +689,11 @@
 	holding = tribal_holding
 }
 #b_sorachi
-11188 = {}
+11188 = {holding = none}
 #b_kamikawa
-11195 = {}
+11195 = {holding = none}
 #b_shiribeshi
-11203 = {}
+11203 = {holding = none}
 #c_teshio 
 #b_mashike
 11198 = {
@@ -710,11 +702,11 @@
 	holding = tribal_holding
 }
 #b_teshio
-11207 = {}
+11207 = {holding = none}
 #b_nakagawa
-11200 = {}
+11200 = {holding = none}
 #b_soya
-11205 = {}
+11205 = {holding = none}
 #c_kushiro 
 #b_kushiro
 11197 = {
@@ -723,13 +715,13 @@
 	holding = tribal_holding
 }
 #b_akkeshi
-11189 = {}
+11189 = {holding = none}
 #b_ashoro
-11190 = {}
+11190 = {holding = none}
 #b_tokachi
-11208 = {}
+11208 = {holding = none}
 #b_shihoro
-11206 = {}
+11206 = {holding = none}
 #c_nemuro 
 #b_nemuro
 11201 = {
@@ -738,8 +730,8 @@
 	holding = tribal_holding
 }
 #b_chishima
-11373 = {}
+11373 = {holding = none}
 #b_monbetsu
-11199 = {}
+11199 = {holding = none}
 #b_abashiri
-11187 = {}
+11187 = {holding = none}
