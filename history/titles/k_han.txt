@@ -1,3 +1,39 @@
+e_celestia = {	
+	867.1.1 = { change_development_level = 15 }
+    1066.1.1 = { change_development_level = 25 }
+	
+	862.1.1 = {
+		holder = 5100001
+	}
+}
+k_nanyue = {
+	865.1.1 = {
+		liege = "e_celestia"
+	}
+    866.1.1 = {
+		holder = 5100015
+}
+}
+d_chaoshan = {
+    866.1.1 = {
+		holder = 5100015
+}
+}
+c_chaozhou = {
+    866.1.1 = {
+		holder = 5100015
+}
+}
+c_haka = {
+    866.1.1 = {
+		holder = 5100015
+}
+}
+c_xunzhou = {
+    866.1.1 = {
+		holder = 5100015
+}
+}
 k_han = {   
     865.1.1 = {
 		liege = "e_celestia"

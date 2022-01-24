@@ -1,8 +1,0 @@
-40000001 = {
-	name = "dynn_fujiwara"
-	culture = "yamato"
-}
-40000101 = {
-	name = "dynn_yamato"
-	culture = "yamato"
-}

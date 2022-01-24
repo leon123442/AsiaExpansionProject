@@ -1,3 +1,11 @@
+k_goryeo = { 
+    867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+
+	864.1.1 = {
+		holder = 110000001
+	}
+}
 d_dongya = { 
 	865.1.1={
 		liege = "k_goryeo"

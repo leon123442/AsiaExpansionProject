@@ -9,25 +9,13 @@
 	yamato = {
 		
 		color = { 240 240 240 }
+		dynasty_title_names = yes
+		dynasty_name_first = yes
 		
-		cadet_dynasty_names = {
-			"dynn_fujiwara"
-			"dynn_oguri"
-			"dynn_taizai"
-			"dynn_echigo"
-			"dynn_mino"
-			"dynn_wada"
-			"dynn_kiyotake"
+		cadet_dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 
-		dynasty_names = {
-			 "dynn_fujiwara"
-			 "dynn_oguri"
-			 "dynn_taizai"
-			 "dynn_echigo"
-			 "dynn_mino"
-			 "dynn_wada"
-			 "dynn_kiyotake"
+		dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 		
 		
@@ -64,26 +52,10 @@
 		
 		color = { 232 293 203 }
 		
-		cadet_dynasty_names = {
-			"dynn_fujiwara"
-			"dynn_oguri"
-			"dynn_taizai"
-			"dynn_echigo"
-			"dynn_mino"
-			"dynn_wada"
-			"dynn_kiyotake"
-			"dynn_nishidate"
+		cadet_dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 
-		dynasty_names = {
-			 "dynn_fujiwara"
-			 "dynn_oguri"
-			 "dynn_taizai"
-			 "dynn_echigo"
-			 "dynn_mino"
-			 "dynn_wada"
-			 "dynn_kiyotake"
-			 "dynn_nishidate"
+		dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 	
 		male_names = { Someimaru Fudomaru Onimushamaru Ushiwakamaru Oniwakamaru Komaomaru Shojumaru Tamonmaru Senjuo Kidomaru Takechiyo Manchiyo Chofukumaru Turuchiyo Kamechiyo Inuchiyo Saematsumaru Ryuomaru Hogikumaru Shojumaru Katsuchiyo Torachiyo Tsurumatsumaru Tsurumaru Toramaru Kamemaru Toraomaru Kipposhi Hiyoshimaru Tensaimaru Kimyomaru Bontenmaru Hiroimaru Sutemaru Haruomaru Harutoramaru Senzaimaru Kikudomaru Kameomaru Chachamaru Ranmaru Senjumaru Turujumaru Tokujumaru Chojumaru Taromaru Jiromaru Saburomaru Shiromaru Goromaru Rokuromaru Shichiromaru Hachiromaru Kuromaru Juromaru Kongo Nabenosuke Yoshimatsu Hansuke Chachamaro Sanboshi Taro Jiro Saburo Shiro Goro Rokuro Shichiro Hachiro Kuro Juro Yoichi Yoni Yogo Yataro Yajiro Yasaburo Yashiro Yagoro Yarokuro Yashichiro Yahachiro Yakuro Yajuro Jirota Saburota Shirota Gorota Rokurota Shichirota Hachirota Kurota Jurota Gentaro Genjiro Genzaburo Genshiro Gengoro Genrokuro Genshichiro Genhachiro Genkuro Genjuro Totaro Tojiro Tosaburo Toshiro Togoro Torokuro Toshichiro Tohachiro Tokuro Tojuro Matataro Matajiro Matasaburo Matashiro Matagoro Matarokuro Matashichiro Matahachiro Matakuro Matajuro Kotaro Kojiro Kosaburo Koshiro Kogoro Magotaro Magojiro Magosaburo Magoshiro Magogoro Hikotaro Hikojiro Hikosaburo Hikoshiro Hikogoro Yotaro Yojiro Yosaburo Yoshiro Yogoro Genta Genji Genzo Gengo Genroku Genhachi Heita Heiji Heizo Heigo Heiroku Heishichi Heihachi Tota Toji Tozo Kitta Kichiji Kichizo Kichishi Kichigo Tanzo Shinta Shinji Shinzo Shingo Shinroku Shinhachi Kiroku Yata Yaji Yazo Koroku Magoroku
@@ -107,29 +79,14 @@
 			ryukyu_clothing_gfx indian_clothing_gfx 
 			austronesian_unit_gfx
 		}
+		dynasty_name_first = yes
 
 		color = { 180 294 299 }
 		
-		cadet_dynasty_names = {
-			"dynn_fujiwara"
-			"dynn_oguri"
-			"dynn_taizai"
-			"dynn_echigo"
-			"dynn_mino"
-			"dynn_wada"
-			"dynn_kiyotake"
-			"dynn_nishidate"
+		cadet_dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 
-		dynasty_names = {
-			 "dynn_fujiwara"
-			 "dynn_oguri"
-			 "dynn_taizai"
-			 "dynn_echigo"
-			 "dynn_mino"
-			 "dynn_wada"
-			 "dynn_kiyotake"
-			 "dynn_nishidate"
+		dynasty_names = { "Akai" "Ando" "Annaka" "Asaka" "Asari" "Ashikaga" "Ashina" "Asonuma" "Chiba" "Daihoji" "Daijo" "Date" "Edo" "Endo" "Hachinohe" "Haga" "Hamada" "Hara" "Hasekura" "Hei" "Hienuki" "Hirata" "Hojo" "Inawashiro" "Ise" "Ishigame" "Ishikawa" "Ishimoda" "Iwaki" "Kakeda" "Kanagami" "Kasahara" "Kasai" "Kashima" "Kashiyama" "Katakura" "Kawarada" "Kemanai" "Kiryu" "Kita" "Kokubun" "Kori" "Kosuiji" "Koyanagawa" "Kunohe" "Kurokawa" "Makabe" "Makino" "Makuwari" "Mariyatsu" "Mibu" "Minagawa" "Minami" "Mita" "Mogami" "Nagano" "Naganuma" "Nakaduma" "Nakano" "Namioka" "Nanbu" "Narisawa" "Narita" "Nasu" "Nawa" "Nihonmatsu" "Niida" "Nikaho" "Nikaido" "Nikko" "Nimo" "Nobesawa" "Numata" "Obata" "Oda" "Oeda" "Okamoto" "Omori" "Oniwa" "Onodera" "Osaki" "Oura" "Oyama" "Rusu" "Sagoshi" "Saito" "Sakai" "Sakenobe" "Sannohe" "Sano" "Satake" "Satomi" "Senoue" "Shiba" "Shimizu" "Shineha" "Shirai" "Shirakawa" "Shiroishi" "Soma" "Sugenoya" "Suzuki" "Tagaya" "Takeda" "Takusari" "Tamura" "Tateoka" "Tendo" "Tokihara" "Tominaga" "Tomita" "Tozawa" "Tsugaru" "Tsukahara" "Uesugi" "Usuginu" "Utsunomiya" "Wada" "Waga" "Watari" "Yamakawa" "Yamanouchi" "Yanada" "Yokose" "Yuki" "Yura"
 		}
 	
 		male_names = { Someimaru Fudomaru Onimushamaru Ushiwakamaru Oniwakamaru Komaomaru Shojumaru Tamonmaru Senjuo Kidomaru Takechiyo Manchiyo Chofukumaru Turuchiyo Kamechiyo Inuchiyo Saematsumaru Ryuomaru Hogikumaru Shojumaru Katsuchiyo Torachiyo Tsurumatsumaru Tsurumaru Toramaru Kamemaru Toraomaru Kipposhi Hiyoshimaru Tensaimaru Kimyomaru Bontenmaru Hiroimaru Sutemaru Haruomaru Harutoramaru Senzaimaru Kikudomaru Kameomaru Chachamaru Ranmaru Senjumaru Turujumaru Tokujumaru Chojumaru Taromaru Jiromaru Saburomaru Shiromaru Goromaru Rokuromaru Shichiromaru Hachiromaru Kuromaru Juromaru Kongo Nabenosuke Yoshimatsu Hansuke Chachamaro Sanboshi Taro Jiro Saburo Shiro Goro Rokuro Shichiro Hachiro Kuro Juro Yoichi Yoni Yogo Yataro Yajiro Yasaburo Yashiro Yagoro Yarokuro Yashichiro Yahachiro Yakuro Yajuro Jirota Saburota Shirota Gorota Rokurota Shichirota Hachirota Kurota Jurota Gentaro Genjiro Genzaburo Genshiro Gengoro Genrokuro Genshichiro Genhachiro Genkuro Genjuro Totaro Tojiro Tosaburo Toshiro Togoro Torokuro Toshichiro Tohachiro Tokuro Tojuro Matataro Matajiro Matasaburo Matashiro Matagoro Matarokuro Matashichiro Matahachiro Matakuro Matajuro Kotaro Kojiro Kosaburo Koshiro Kogoro Magotaro Magojiro Magosaburo Magoshiro Magogoro Hikotaro Hikojiro Hikosaburo Hikoshiro Hikogoro Yotaro Yojiro Yosaburo Yoshiro Yogoro Genta Genji Genzo Gengo Genroku Genhachi Heita Heiji Heizo Heigo Heiroku Heishichi Heihachi Tota Toji Tozo Kitta Kichiji Kichizo Kichishi Kichigo Tanzo Shinta Shinji Shinzo Shingo Shinroku Shinhachi Kiroku Yata Yaji Yazo Koroku Magoroku

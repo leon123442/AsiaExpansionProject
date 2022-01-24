@@ -1,0 +1,178 @@
+#yamato clan
+1600004 = {
+	name = Seiwa #emperor montoku
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = 1600007
+	850.5.12 = {
+		birth = yes
+	}
+	866.1.1 = {
+		add_spouse = 1600006
+	}
+}
+
+1600007 = {
+	name = Montoku #emperor seiwa
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	827.8.1 = {
+		birth = yes
+	}
+	858.10.7 = {
+		death = yes
+	}
+}
+
+#1600009 - 1600100 reserved for future char
+#fujiwara clan
+1600001 = {
+	name = Yoshifusa
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	804.1.1 = {
+		birth = yes
+	}
+	871.1.1 = {
+		death = yes
+	}
+	#dna = Fujiwara_Yoshifusa_dna_entry
+}
+1600005 = {
+	name = Mototsune #Mototsune Fujiwara adopted son of His uncle Yoshifusa
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = 1600001
+	836.1.1 = {
+		birth = yes
+	}
+	891.1.1 = {
+		death = yes
+	}
+}
+1600006 = {
+	name = Takako #Fujiwara no Nagaras daughter, spouse of Seiwa
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	female = yes
+	842.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+1600008 = {
+	name = Akirakeiko #fujiwara Dauhter of Yoshifusa, consort of Seiwa Yamato
+	dynasty = 40000001
+	female = yes
+	religion = shinto
+	culture = yamato
+	father = 1600001
+	829.1.1 = {
+		birth = yes
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+1600002 = {
+	name = Koyo #Was actually in charge in 811, couldnt find anything after that
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	845.1.1 = {
+		birth = yes
+	}
+}
+
+1600003 = { #non histoical
+	name = Shimazaki
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato 
+	849.1.1 = {
+		birth = yes
+	}
+}
+
+#others
+2300001 = {
+	name = Echigo_Yukinobu #Ruler of Echigo Dutchy
+	dynasty = 40000008
+	religion = shinto
+	culture = yamato 
+	845.1.1 = {
+		birth = yes
+	}
+	dna = Echigo_Yukinobu_dna_entry
+}
+
+1900001 = {
+	name = Kiyotake_Michimori #Ruler of Kiyotake Dutchy
+	dynasty = 40000004
+	religion = shinto
+	culture = yamato 
+	837.1.1 = {
+		birth = yes
+	}
+	dna = Kiyotake_Michimori_dna_entry
+}
+2600001 = {
+	name = Mino_Yoshisada #Ruler of Mino Dutchy
+	dynasty = 40000011
+	religion = shinto
+	culture = yamato 
+	829.1.1 = {
+		birth = yes
+	}
+	dna = Mino_Yoshisada_dna_entry
+}
+2400001 = {
+	name = Nishidate_Ryoi #Ruler of Nishidate Dutchy
+	dynasty = 40000009
+	religion = shinto
+	culture = yamato 
+	841.1.1 = {
+		birth = yes
+	}
+	dna = Nishidate_Ryoi_dna_entry
+}
+
+1700001 = {
+    name = Tsunahito_Taizai #Ruler of Saikai Duchy
+    dynasty = 40000002
+    religion = shinto
+    culture = yamato 
+    836.1.1 = {
+        birth = yes
+    }
+    dna = Tsunahito_Taizai_dna_entry
+}
+
+1800001 = {
+	name = Oguri_Kanemoto #Ruler of Nankai Dutchy
+	dynasty = 40000003
+	religion = shinto
+	culture = yamato 
+	842.1.1 = {
+		birth = yes
+	}
+	dna = Oguri_Kanemoto_dna_entry
+}
+
+2000001 = {
+	name = Wada_Yorimoto #Ruler of Wada Dutchy
+	dynasty = 40000005
+	religion = shinto
+	culture = yamato 
+	847.1.1 = {
+		birth = yes
+	}
+	dna = Wada_Yorimoto_dna_entry
+}
