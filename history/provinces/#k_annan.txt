@@ -3,9 +3,7 @@
 #c_jiaozhi
 #b_Longbian_Pingdao
 10430 = { 
-	culture = han
-	religion = pagan
-	holding = castle_holding		
+	
 }			
 #b_Jiaozhi_Songping
 10429 = { 
@@ -142,7 +140,7 @@
 #b_Tanglinzhou_Anyuan
 10438 = { 
 	culture = jiaozhi
-	religion = pagan
+	religion = mahayana
 	holding = tribal_holding		
 }
 #b_Luofuzhou_Haiwan
@@ -156,7 +154,7 @@
 #b_TangzhouRiluo
 10441 = { 
 	culture = jiaozhi
-	religion = pagan
+	religion = mahayana
 	holding = tribal_holding
 }
 #b_Wenyang_Beishan

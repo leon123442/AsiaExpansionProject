@@ -200,7 +200,7 @@
 #c_son_tay
 #b_phu_hoa
 11888 = {
-	culture = tay
+	culture = jiaozhi
 	religion = mahayana
 	holding = castle_holding
 }
@@ -323,7 +323,7 @@
 #c_kengtung  #景龙/kengtung
 #b_kengtung
 10508 = {
-	culture = tai
+	culture = waic
 	religion = pagan
 	holding = castle_holding
 }
@@ -348,7 +348,7 @@
 #c_phon_hong
 #b_phon_hong # Vientiane / Chantaburi
 10545 = {
-	culture = mon
+	culture = tai
 	religion = pagan
 	holding = castle_holding
 }
@@ -371,7 +371,7 @@
 #c_xiangkhouang
 #b_xiangkhouang
 10543 = {
-	culture = tai
+	culture = khmu
 	religion = pagan
 	holding = castle_holding
 }
