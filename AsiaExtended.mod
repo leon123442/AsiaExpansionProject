@@ -11,3 +11,4 @@ tags={
 name="AsiaExtended"
 supported_version="1.4.4"
 path="mod/AsiaExtended"
+remote_file_id="2706635752"
