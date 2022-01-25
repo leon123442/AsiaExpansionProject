@@ -6083,6 +6083,7 @@ e_celestia = {
             }
     
             c_lang_giang = {
+			
                 color = { 169 204 71 }
                 color2 = { 255 255 255 }
 
@@ -12280,12 +12281,6 @@ e_celestia = {
 					color = { 187 18 87 }
 					color2 = { 255 255 255 }
 				}
-				b_Yongxin = {
-					province = 10261
-
-					color = { 187 18 87 }
-					color2 = { 255 255 255 }
-				}
 				b_Taihe_Suichuan = {
 					province = 10262
 
@@ -12307,6 +12302,12 @@ e_celestia = {
 					province = 10259
 
 					color = { 183 25 85 }
+					color2 = { 255 255 255 }
+				}
+				b_Yongxin = {
+					province = 10261
+
+					color = { 187 18 87 }
 					color2 = { 255 255 255 }
 				}
 				b_Xinyu_Yuanzhou = {
@@ -12728,11 +12729,11 @@ e_celestia = {
 					color = { 185 61 106 }
 					color2 = { 255 255 255 }
 				}
-				b_Yingde_Zhenyang = {
-					province = 10367
-
-					color = { 185 61 106 }
-					color2 = { 255 255 255 }
+				b_Duanzhou_Gaoyao = {
+					province = 10374
+				
+					color = { 205 200 95 }
+					color2= { 255 255 255 }
 				}
 				b_Zengcheng = {
 					province = 10368
@@ -12752,18 +12753,6 @@ e_celestia = {
 					color = { 185 61 106 }
 					color2 = { 255 255 255 }
 				}
-				b_Yashan_Xiangshan = {
-					province = 10373
-
-					color = { 185 61 106 }
-					color2 = { 255 255 255 }
-				}
-				b_Huaiji_Sihui = {
-					province = 10375
-
-					color = { 185 61 106 }
-					color2 = { 255 255 255 }
-				}
 			}
 			c_shaoguan_guang = {  #韶关
 				color = { 183 58 103 }
@@ -12773,6 +12762,12 @@ e_celestia = {
 					province = 10365
 
 					color = { 183 58 103 }
+					color2 = { 255 255 255 }
+				}
+				b_Yingde_Zhenyang = {
+					province = 10367
+
+					color = { 185 61 106 }
 					color2 = { 255 255 255 }
 				}
 				b_Nanxiongzhou_Baochang = {
@@ -12792,11 +12787,11 @@ e_celestia = {
 				color = { 205 200 95 }
 				color2= { 255 255 255 }
 				
-				b_Duanzhou_Gaoyao = {
-					province = 10374
-				
-					color = { 205 200 95 }
-					color2= { 255 255 255 }
+				b_Huaiji_Sihui = {
+					province = 10375
+
+					color = { 185 61 106 }
+					color2 = { 255 255 255 }
 				}
 				b_Fengzhou_Fengchuan = {
 					province = 10377
@@ -12826,6 +12821,12 @@ e_celestia = {
 				
 					color = { 205 175 85 }
 					color2= { 255 255 255 }
+				}
+				b_Yashan_Xiangshan = {
+					province = 10373
+
+					color = { 185 61 106 }
+					color2 = { 255 255 255 }
 				}
 				b_Nanenzhou_Yangjiang = {
 					province = 10381
@@ -13097,33 +13098,10 @@ e_celestia = {
 					color = { 83 61 5 }
 					color2= { 255 255 255 }
 				}
-				b_Zhaozhou_Pingle = {
-					province = 10398
-				
-					color = { 83 61 5 }
-					color2= { 255 255 255 }
-				}
 				b_Yongfu_Dingli = {
 					province = 10405
 				
 					color = { 83 61 5 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_changwu = { #梧州/贺州
-				color = { 66 55 10 }
-				color2= { 255 255 255 }
-				
-				b_Hezhou_Linhe = {
-					province = 10376
-				
-					color = { 66 55 10 }
-					color2= { 255 255 255 }
-				}
-				b_Wuzhou_Cangwu = {
-					province = 10378
-				
-					color = { 66 55 10 }
 					color2= { 255 255 255 }
 				}
 			}
@@ -13170,6 +13148,29 @@ e_celestia = {
 					province = 10403
 				
 					color = { 100 72 15 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_changwu = { #梧州/贺州
+				color = { 66 55 10 }
+				color2= { 255 255 255 }
+				
+				b_Zhaozhou_Pingle = {
+					province = 10398
+				
+					color = { 83 61 5 }
+					color2= { 255 255 255 }
+				}
+				b_Hezhou_Linhe = {
+					province = 10376
+				
+					color = { 66 55 10 }
+					color2= { 255 255 255 }
+				}
+				b_Wuzhou_Cangwu = {
+					province = 10378
+				
+					color = { 66 55 10 }
 					color2= { 255 255 255 }
 				}
 			}
@@ -13248,12 +13249,6 @@ e_celestia = {
 					color = { 176 102 16 }
 					color2= { 255 255 255 }
 				}
-				b_Simingzhou_Shixizhou = {
-					province = 10413
-				
-					color = { 176 102 16 }
-					color2= { 255 255 255 }
-				}
 				b_Shangsizhou_Rangzhou = {
 					province = 10411
 				
@@ -13299,6 +13294,12 @@ e_celestia = {
 
 					color = { 66 36 87 }
 					color2 = { 255 255 255 }
+				}
+				b_Simingzhou_Shixizhou = {
+					province = 10413
+				
+					color = { 176 102 16 }
+					color2= { 255 255 255 }
 				}
 				b_Napo = {
 					province = 10420

@@ -358,21 +358,17 @@
 #c_mueang_hai
 #b_sibsongbanna
 11875 = {
-	culture = mon
+	culture = waic
 	religion = pagan
 	holding = tribal_holding
 }
 #b_Lirun_Mengla
 10511 = {
-    culture = mon
-	religion = pagan
-	holding = tribal_holding
+
 }
 #b_Menglian
 10512 = {
-    culture = mon
-	religion = pagan
-	holding = tribal_holding
+
 }
 
 
@@ -399,7 +395,7 @@
 #c_wa
 #b_Waiyu_Wa
 10513 = {
-    culture = ava
+    culture = waic
 	religion = pagan
 	holding = tribal_holding
 }
@@ -526,7 +522,7 @@
 #c_hsenwi #腊戍
 #b_Lashu  #hsenwi/lashio
 10549 = {
-    culture = shan
+    culture = tai
 	religion = pagan
 	holding = tribal_holding
 }
@@ -543,7 +539,7 @@
 #c_hsipaw
 #b_hsipaw
 11866 = {
-    culture = ava
+    culture = palaungic
 	religion = pagan
 	holding = tribal_holding
 }
@@ -560,7 +556,7 @@
 #c_yawnghwe
 #b_yawnghwe
 9570 = {
-    culture = shan
+    culture = karenic
 	religion = pagan
 	holding = tribal_holding
 }#b_loi_long
