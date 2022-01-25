@@ -103,7 +103,7 @@
 
 #others
 2300001 = {
-	name = Echigo_Yukinobu #Ruler of Echigo Dutchy
+	name = Yukinobu #Ruler of Echigo Dutchy
 	dynasty = 40000008
 	religion = shinto
 	culture = yamato 
@@ -114,7 +114,7 @@
 }
 
 1900001 = {
-	name = Kiyotake_Michimori #Ruler of Kiyotake Dutchy
+	name = Michimori #Ruler of Kiyotake Dutchy
 	dynasty = 40000004
 	religion = shinto
 	culture = yamato 
@@ -124,7 +124,7 @@
 	dna = Kiyotake_Michimori_dna_entry
 }
 2600001 = {
-	name = Mino_Yoshisada #Ruler of Mino Dutchy
+	name = Yoshisada #Ruler of Mino Dutchy
 	dynasty = 40000011
 	religion = shinto
 	culture = yamato 
@@ -134,7 +134,7 @@
 	dna = Mino_Yoshisada_dna_entry
 }
 2400001 = {
-	name = Nishidate_Ryoi #Ruler of Nishidate Dutchy
+	name = Ryoi #Ruler of Nishidate Dutchy
 	dynasty = 40000009
 	religion = shinto
 	culture = yamato 
@@ -145,7 +145,7 @@
 }
 
 1700001 = {
-    name = Tsunahito_Taizai #Ruler of Saikai Duchy
+    name = Taizai #Ruler of Saikai Duchy
     dynasty = 40000002
     religion = shinto
     culture = yamato 
@@ -156,7 +156,7 @@
 }
 
 1800001 = {
-	name = Oguri_Kanemoto #Ruler of Nankai Dutchy
+	name = Kanemoto #Ruler of Nankai Dutchy
 	dynasty = 40000003
 	religion = shinto
 	culture = yamato 
@@ -167,7 +167,7 @@
 }
 
 2000001 = {
-	name = Wada_Yorimoto #Ruler of Wada Dutchy
+	name = Yorimoto #Ruler of Wada Dutchy
 	dynasty = 40000005
 	religion = shinto
 	culture = yamato 

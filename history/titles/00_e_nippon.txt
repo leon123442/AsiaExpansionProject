@@ -3,18 +3,27 @@ e_nippon = {
 }
 
 d_yamato_imperial = {
-	858.1.1 = {
+	858.10.6 = {
+		holder = 1600007
+	}
+	858.10.6 = {
 		holder = 1600004
 	}
 }
 c_yamashiro = {
-	858.1.1 = {
+	858.10.6 = {
+		holder = 1600007
+	}
+	858.10.6 = {
 		holder = 1600004
 	}
 }
 
 k_yamato = {
-	866.1.1 = {
+	858.10.6 = {
+		holder = 1600007
+	}
+	866.10.6 = {
 		holder = 1600004
 	}
 	867.1.1 = { change_development_level = 16 }

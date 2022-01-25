@@ -32,7 +32,7 @@ e_song = {
 
 }
 
-e_cathay = { #北朝帝国/拓跋/中秦
+e_cathay = {
 	color = { 192 175 136 }
 	color2 = { 255 255 255 }
 	capital = c_youzhou
@@ -72,7 +72,6 @@ k_silla = {
 			add = @always_primary_score
 		}
 	}
-
 }
 
 
@@ -3731,7 +3730,7 @@ k_khitan = {   #契丹
 }
 
 
-e_jurchen = {  #肃慎
+e_jurchen = {
 	color = { 110 110 160 }
 	color2 = { 255 255 255 }
 	
@@ -5172,25 +5171,28 @@ e_jurchen = {  #肃慎
 		}
 	}
 
-	k_goryeo = { #高丽/非高句丽
+	k_goryeo = {
 		color = { 80 205 255 }
 		color2 = { 255 255 255 }
 		
 		capital = c_hanju
 
 		cultural_names = {
+			
 			han = cn_andong
-			buyeo = d_buyeo
-			yemo = d_baekje
+			senhan = Silla
+			baekje = Baekje
+			tamnanese = Silla
+			goguryeo = Goguryeo
 		}
 
-		d_goguryeo = {  #高句丽
+		d_goguryeo = {
 			color = { 68 95 205 }
 			color2 = { 255 255 255 }
 			
 			capital = c_hanju
 			
-			c_hanju = {  #汉山州/汉州/京畿道gyeonggido
+			c_hanju = {
 				color = { 75 95 240 }
 				color2 = { 255 255 255 }
 			
@@ -5225,7 +5227,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_hwanghae = { #黄海道
+			c_hwanghae = {
 				color = { 85 215 130 }
 				color2 = { 255 255 255 }
 			
@@ -5262,13 +5264,13 @@ e_jurchen = {  #肃慎
 			}
 		}
 
-		d_baekje = {  #百济
+		d_baekje = {
 			color = { 80 190 45 }
 			color2 = { 255 255 255 }
 			
 			capital = c_xiongshanzhou
 
-			c_xiongshanzhou = { #熊川州/所夫里/忠清道
+			c_xiongshanzhou = {
 				color = { 70 190 55 }
 				color2 = { 255 255 255 }
 			
@@ -5291,7 +5293,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_wanshanzhou = { #完山州/全州
+			c_wanshanzhou = {
 				color = { 65 205 40 }
 				color2 = { 255 255 255 }
 			
@@ -5314,7 +5316,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}			
-			c_faluozhou = { #武珍州/发罗
+			c_faluozhou = {
 				color = { 75 185 40 }
 				color2 = { 255 255 255 }
 			
@@ -5331,7 +5333,15 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_danluo = {  #耽罗
+		}
+
+		d_tamna = {
+			color = { 85 190 50 }
+			color2 = { 255 255 255 }
+			
+			capital = c_danluo
+
+			c_danluo = {
 				color = { 85 190 50 }
 				color2 = { 255 255 255 }
 			
@@ -5343,7 +5353,9 @@ e_jurchen = {  #肃慎
 				}
 			}
 		}
-		d_sila = { #新罗/庆尚道
+
+
+		d_sila = {
 			color = { 86 133 61 }
 			color2 = { 255 255 255 }
 			
@@ -5372,7 +5384,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_dalseong = { #达伐
+			c_dalseong = {
 				color = { 81 143 61 }
 				color2 = { 255 255 255 }
 				
@@ -5389,7 +5401,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_shangfazhou = {   #沙伐州/尚州
+			c_shangfazhou = {
 				color = { 81 133 61 }
 				color2 = { 255 255 255 }
 				
@@ -5407,13 +5419,13 @@ e_jurchen = {  #肃慎
 				}
 			}
 		}
-		d_gaya = {   #迦倻
+		d_gaya = {
 			color = { 50 75 50 }
 			color2 = { 255 255 255 }
 			
 			capital = c_gayaa
 			
-			c_gayaa = {   #迦倻
+			c_gayaa = {
 				color = { 50 75 50 }
 				color2 = { 255 255 255 }
 			
@@ -5430,7 +5442,7 @@ e_jurchen = {  #肃慎
 					color2 = { 255 255 255 }
 				}
 			}
-			c_juliezhou = {  #居烈州/菁州/康州
+			c_juliezhou = {
 				color = { 62 95 44 }
 				color2 = { 255 255 255 }
 			
@@ -5461,13 +5473,13 @@ e_jurchen = {  #肃慎
 			}
 		}
 
-		d_dongya = {  #东濊/江原道
+		d_dongya = {
 			color = { 150 100 150 }
 			color2 = { 255 255 255 }
 
 			capital = c_shouruozhou
 
-			c_shouruozhou = { #首若州/朔州/比列忽州
+			c_shouruozhou = {
 				color = { 195 95 145 }
 				color2 = { 255 255 255 }
 			
@@ -5503,7 +5515,7 @@ e_jurchen = {  #肃慎
 				}
 			}
 			
-			c_hexizhou = {  #何瑟罗州/河西/溟州/悉直
+			c_hexizhou = {
 				color = { 105 205 255 }
 				color2 = { 255 255 255 }
 			
@@ -5539,11 +5551,11 @@ e_jurchen = {  #肃慎
 				}
 			}
 		}		
+	
 	}
 } 
-#内亚帝国界
 
-e_celestia = {  #天下/天朝
+e_celestia = {
 	color = { 46 6 51 }
 	color2 = { 255 255 255 }
 
@@ -5576,13 +5588,13 @@ e_celestia = {  #天下/天朝
 
 		}
 
-	k_qin = {   #秦
+	k_qin = {
 		color = { 10 10 25 }
 		color2 = { 255 255 255 }
 		
 		capital = c_changan
 		
-		d_xijing = { #西京
+		d_xijing = {
 			color = { 171 167 159 }
 			color2 = { 255 255 255 }
 			
@@ -5635,7 +5647,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_xianyang = { #咸阳
+			c_xianyang = {
 				color = { 119 127 145 }
 				color2 = { 255 255 255 }
 				
@@ -5664,7 +5676,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_wugong = {  #武功
+			c_wugong = {
 				color = { 161 157 191 }
 				color2 = { 255 255 255 }
 				
@@ -5683,13 +5695,13 @@ e_celestia = {  #天下/天朝
 			}
 		}
 		
-		d_pingyi = {  #冯翊
+		d_pingyi = { 
 			color = { 84 82 78 }
 			color2 = { 255 255 255 }
 			
 			capital = c_huazhou_pingyi
 			
-			c_huazhou_pingyi = { #华州
+			c_huazhou_pingyi = {
 				color = { 64 62 59 }
 				color2 = { 255 255 255 }
 				
@@ -5712,7 +5724,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_tongguan = {  #潼关防御使
+			c_tongguan = {
 				color = { 77 76 76 }
 				color2 = { 255 255 255 }
 				
@@ -5735,7 +5747,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_tongzhou_pingyi = { #同州防御使
+			c_tongzhou_pingyi = {
 				color = { 110 108 104 }
 				color2 = { 255 255 255 }
 				
@@ -5765,13 +5777,13 @@ e_celestia = {  #天下/天朝
 				}
 			}
 		}
-		d_jingyuan = {  #泾原
+		d_jingyuan = { 
 			color = { 121 153 247 }
 			color2 = { 255 255 255 }
 			
 			capital = c_yuanzou_xia
 			
-			c_yuanzou_xia = {  #原州
+			c_yuanzou_xia = { 
 				color = { 96 128 224 }
 				color2 = { 255 255 255 }
 				
@@ -5806,7 +5818,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_jingzhou_xia = {  #泾州
+			c_jingzhou_xia = { 
 				color = { 77 117 240 }
 				color2 = { 255 255 255 }
 				
@@ -5844,7 +5856,7 @@ e_celestia = {  #天下/天朝
 
 		}
 		
-		d_binning = {  #邠宁
+		d_binning = { 
 			color = { 143 150 134 }
 			color2 = { 255 255 255 }
 			
@@ -5914,13 +5926,13 @@ e_celestia = {  #天下/天朝
 				}
 			}
 		}
-		d_fufang = {  #鄜坊
+		d_fufang = { 
 			color = { 135 123 100 }
 			color2 = { 255 255 255 }
 			
 			capital = c_fuzhou_qin
 
-			c_fuzhou_qin = {   #鄜州
+			c_fuzhou_qin = {  
 			color = { 173 148 69 }
 			color2 = { 255 255 255 }
 			
@@ -5986,7 +5998,7 @@ e_celestia = {  #天下/天朝
 				}
 			}
 			
-			c_fangzhou = {  #坊州
+			c_fangzhou = { 
 				color = { 168 138 40 }
 				color2 = { 255 255 255 }
 				
@@ -6009,7 +6021,7 @@ e_celestia = {  #天下/天朝
 					color2 = { 255 255 255 }
 				}
 			}
-			c_danzhou = {  #丹州
+			c_danzhou = { 
 				color = { 145 136 116 }
 				color2 = { 255 255 255 }
 				
@@ -6039,7 +6051,7 @@ e_celestia = {  #天下/天朝
             laos = cn_laos
         }
     
-        d_jiaozhi = {  #交趾
+        d_jiaozhi = { 
             color = { 97 56 55 }
             color2 = { 255 255 255 }        
             capital = c_kinh_bac
@@ -6156,7 +6168,7 @@ e_celestia = {  #天下/天朝
         }
     
     
-        d_jiuzhen = { #九真
+        d_jiuzhen = {
             color = { 97 80 62 }
             color2 = { 255 255 255 }
             
@@ -6255,7 +6267,7 @@ e_celestia = {  #天下/天朝
             color = { 67 140 79 }
             color2 = { 255 255 255 }
     
-            c_muang_thaeng = { #勐唐
+            c_muang_thaeng = {
                 color = { 67 140 79 }
                 color2 = { 255 255 255 }
     
@@ -6392,7 +6404,7 @@ e_celestia = {  #天下/天朝
         }
     }
 	
-	k_nanzhong = {  #云南
+	k_nanzhong = { 
 		color = { 170 226 65 }
 		color2 = { 255 255 255 }
 		destroy_if_invalid_heir = yes
@@ -6421,7 +6433,7 @@ e_celestia = {  #天下/天朝
 		    }
 	    }
 
-		d_dali = {  #大理
+		d_dali = { 
 			color = { 146 255 92 }
 			color2 = { 255 255 255 }
 			
@@ -6475,7 +6487,7 @@ e_celestia = {  #天下/天朝
 			}
 		}		
 		
-		d_tonghai = {  #通海
+		d_tonghai = { 
 			color = { 134 173 35 }
 			color2 = { 255 255 255 }
 			
@@ -6592,7 +6604,7 @@ e_celestia = {  #天下/天朝
 			}
 		}
 
-		d_tuodong = {  #拓东
+		d_tuodong = { 
 			color = { 56 55 97 }
 			color2 = { 255 255 255 }
 			
@@ -6722,7 +6734,7 @@ e_celestia = {  #天下/天朝
 			}
 		}
 		
-		d_huichuan = { #会川/越嶲
+		d_huichuan = {
 			color = { 203 224 63 }
 			color2 = { 255 255 255 }
 			
@@ -6781,8 +6793,8 @@ e_celestia = {  #天下/天朝
 				}
 			}
 		}
-		
-		d_jianchuan = {  #剑川
+	
+		d_jianchuan = { 
 			color = { 124 222 20 }
 			color2 = { 255 255 255 }
 			
@@ -6859,7 +6871,7 @@ e_celestia = {  #天下/天朝
 			}
 		}
 		
-		d_yinsheng = { #银生
+		d_yinsheng = { 
 			color = { 119 138 11 }
 			color2 = { 255 255 255 }
 			
@@ -6923,7 +6935,7 @@ e_celestia = {  #天下/天朝
             }
 		}
 		
-		d_yongchang = { #永昌
+		d_yongchang = { 
 			color = { 200 30 0 }
 			color2 = { 255 255 255 }
 			
@@ -7001,7 +7013,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_zhao = {  #赵
+	k_zhao = {  
 		color = { 20 26 105 }
 		color2 = { 255 255 255 }
 		
@@ -7242,7 +7254,7 @@ e_celestia = {  #天下/天朝
 		}
 	}
 
-	k_yan = {   #燕
+	k_yan = {   
 		color = { 210 110 210 } 
 		color2= { 255 255 255 }
 		
@@ -7569,14 +7581,14 @@ e_celestia = {  #天下/天朝
 	}
 
 
-	k_wei = { #魏
+	k_wei = { 
 		color = { 139 110 85 }
 		color2 = { 255 255 255 }
 		
 		capital = c_weizhou
 		
 		
-		d_weibo = {  #魏博
+		d_weibo = { 
 			color = { 155 254 86 }
 			color2 = { 255 255 255 }
 			
@@ -7671,7 +7683,7 @@ e_celestia = {  #天下/天朝
 
 		}
 		
-		d_xiangwei = {  #相卫
+		d_xiangwei = { 
 			color = { 209 170 75 }
 			color2 = { 255 255 255 }
 			
@@ -7719,7 +7731,7 @@ e_celestia = {  #天下/天朝
 				}
 			}
 		}
-		d_heyang = { #河阳
+		d_heyang = {
 			color = { 210 240 20 }
 			color2 = { 255 255 255 }
 			
@@ -7772,7 +7784,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_jin = {    #晋/河东
+	k_jin = {    
 		color = { 244 227 160 }
 		color2 = { 255 255 255 }
 		
@@ -8348,7 +8360,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_xia_east = {  #夏
+	k_xia_east = {  
 		color = { 177 185 184 }
 		color2 = { 255 255 255 }
 		
@@ -8752,7 +8764,7 @@ e_celestia = {  #天下/天朝
 	}
 
 
-	k_longxi = {  #岐/陇西
+	k_longxi = {  
 		color = { 67 96 179 }
 		color2 = { 255 255 255 }
 		
@@ -9148,7 +9160,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_shu = {  #蜀
+	k_shu = {  
 		color = { 104 109 50 }
 		color2 = { 255 255 255 }
 		
@@ -10153,7 +10165,7 @@ e_celestia = {  #天下/天朝
 		}
 	}
 	
-	k_zhou = {  #周
+	k_zhou = {  
 		color = { 218 234 33 }
 		color2 = { 255 255 255 }
 		
@@ -10488,7 +10500,7 @@ e_celestia = {  #天下/天朝
 		}
 	}
 
-	k_liang = { #梁
+	k_liang = { 
 		color = { 132 235 75 }
 		color2 = { 255 255 255 }
 		
@@ -10765,7 +10777,7 @@ e_celestia = {  #天下/天朝
 	}
 
 
-	k_qi = {  #齐
+	k_qi = {  
 		color = { 49 110 230 }
 		color2 = { 255 255 255 }
 		
@@ -11026,7 +11038,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_chu = {  #楚
+	k_chu = {  
 		color = { 32 116 126 }
 		color2 = { 255 255 255 }
 
@@ -11681,7 +11693,7 @@ e_celestia = {  #天下/天朝
 		}
 	}
 
-	k_wu = {  #吴
+	k_wu = {  
 		color = { 240 95 20 }
 		color2 = { 255 255 255 }
 
@@ -12343,7 +12355,7 @@ e_celestia = {  #天下/天朝
 	}
 
 
-	k_yue = { #越
+	k_yue = { 
 		color = { 222 222 8 }
 		color2 = { 255 255 255 }
 
@@ -12694,7 +12706,7 @@ e_celestia = {  #天下/天朝
 
 
 
-	k_nanyue = {  #南越
+	k_nanyue = {  
 		color = { 193 42 93 }
 		color2 = { 255 255 255 }
 		
@@ -14154,7 +14166,7 @@ e_celestia = {  #天下/天朝
 			}
 		}
 	}
-    k_qianzhong = {  #黔中/武陵/黔夔
+    k_qianzhong = { 
 		color = { 209 144 4 }
 		color2 = { 255 255 255 }
 		
@@ -14594,7 +14606,7 @@ e_celestia = {  #天下/天朝
 			}
 		}
 	}
-} #中华帝国界
+}
 
 
 
