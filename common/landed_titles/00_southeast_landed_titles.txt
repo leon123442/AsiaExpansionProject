@@ -3665,15 +3665,116 @@ e_champa = {
         }
     }
 	
-	k_tungning = { #why even put chinese characters in here, we get it, we know our geography
+	k_tungning = { 
 		color = { 112 165 204 }
 		color2 = { 255 255 255 }	
 		
-		d_liuqiu = {  #琉虬
-			color = { 165 115 79 }
+		capital = c_beiliuqiu
+		
+		d_shanqu = {
+			color = { 197 243 255 }
 			color2 = { 255 255 255 }
 			
-			capital = c_penghu
+			capital = c_paiwan
+			
+			c_amisguo = {
+				color = { 226 226 127 }
+				color2 = { 255 255 255 }
+				
+				b_north_amisa = {
+					province = 11986
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_south_amisa = {
+					province = 11985
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_nataoran = {
+					province = 11987
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_paiwan = {
+				color = { 246 246 147 }
+				color2 = { 255 255 255 }
+				
+				b_paiwan = {
+					province = 11984
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_rukaia = {
+					province = 11991
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				
+			}
+			
+			c_beishanqu = {
+				color = { 160 160 147 }
+				color2 = { 255 255 255 }
+				
+				b_atalyada = {
+					province = 11996
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_tsolea = {
+					province = 11990
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_seediqa = {
+					province = 11995
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_nanshanqu = {
+				color = { 180 180 167 }
+				color2 = { 255 255 255 }
+				
+				b_siwada = {
+					province = 11992
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_tsoua = {
+					province = 11993
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_bununa = {
+					province = 11994
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+		}
+		
+		d_liuqiu = {  #琉虬
+			color = { 167 213 235 }
+			color2 = { 255 255 255 }
+			
+			capital = c_beiliuqiu
 			
 			c_penghu = {  #澎湖
 				color = { 165 115 81 }
@@ -3686,29 +3787,83 @@ e_champa = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_liuqiu = {  #流虬
+			c_beiliuqiu = { 
 				color = { 165 115 80 }
 				color2 = { 255 255 255 }
 			
-				b_nanliuqiu = {
-					province = 10924
-
-					color = { 165 115 80 }
-					color2 = { 255 255 255 }
-				}
 				b_beiliuqiu = {
 					province = 10922
 
 					color = { 165 115 80 }
 					color2 = { 255 255 255 }
 				}
+				b_kavalana = {
+					province = 11988
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_basaia = {
+					province = 11989
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_zhongliuqiu = {
+				color = { 195 145 120 }
+				color2 = { 255 255 255 }
+				
 				b_zhongliuqiu = {
 					province = 10923
 
 					color = { 165 115 80 }
 					color2 = { 255 255 255 }
 				}
+				b_taokas = {
+					province = 11980
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_hoanya = {
+					province = 11981
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_east_hoanya = {
+					province = 11997
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
 			}
+			c_nanliuqiu = {
+				color = { 235 175 150 }
+				color2 = { 255 255 255 }
+				
+				b_nanliuqiu = {
+					province = 10924
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_siraya = {
+					province = 11982
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_taivoa = {
+					province = 11983
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}	
+				
+			}
+			
 		}
 		
 	}
