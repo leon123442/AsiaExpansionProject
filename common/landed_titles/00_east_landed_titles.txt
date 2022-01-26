@@ -5170,7 +5170,7 @@ e_jurchen = {
 			}
 		}
 	}
-
+	#korea/silla
 	k_goryeo = {
 		color = { 80 205 255 }
 		color2 = { 255 255 255 }
@@ -5273,7 +5273,9 @@ e_jurchen = {
 			c_xiongshanzhou = {
 				color = { 70 190 55 }
 				color2 = { 255 255 255 }
-			
+				cultural_names = {
+					han = Xiongshanzhou
+				}
 				b_gongju_buyeo_sibi = {
 					province = 10892
 
@@ -5296,7 +5298,9 @@ e_jurchen = {
 			c_wanshanzhou = {
 				color = { 65 205 40 }
 				color2 = { 255 255 255 }
-			
+				cultural_names = {
+					han = Wanshanzhou
+				}
 				b_chonju = {
 					province = 10894
 
@@ -5319,7 +5323,9 @@ e_jurchen = {
 			c_faluozhou = {
 				color = { 75 185 40 }
 				color2 = { 255 255 255 }
-			
+				cultural_names = {
+					han = Faluozhou
+				}
 				b_naju = {
 					province = 10897
 
@@ -5364,7 +5370,9 @@ e_jurchen = {
 			c_shaliangzhou = {
 				color = { 86 143 61 }
 				color2 = { 255 255 255 }
-				
+				cultural_names = {
+					han = Shaliangzhou
+				}
 				b_gyeogju = {
 					province = 10903
 					
@@ -5404,7 +5412,9 @@ e_jurchen = {
 			c_shangfazhou = {
 				color = { 81 133 61 }
 				color2 = { 255 255 255 }
-				
+				cultural_names = {
+					han = Shangfazhou
+				}
 				b_sanju = {
 					province = 10908
 					
@@ -5482,7 +5492,9 @@ e_jurchen = {
 			c_shouruozhou = {
 				color = { 195 95 145 }
 				color2 = { 255 255 255 }
-			
+				cultural_names = {
+					han = Shouruozhou
+				}
 				b_chunchon = {
 					province = 10876
 
@@ -5518,7 +5530,9 @@ e_jurchen = {
 			c_hexizhou = {
 				color = { 105 205 255 }
 				color2 = { 255 255 255 }
-			
+				cultural_names = {
+					han = Hexizhou
+				}
 				b_kangnung = {
 					province = 10872
 

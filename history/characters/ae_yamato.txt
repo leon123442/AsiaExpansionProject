@@ -11,6 +11,7 @@
 	866.1.1 = {
 		add_spouse = 1600006
 	}
+	dna = Mino_Yoshisada_dna_entry
 }
 
 1600007 = {
@@ -39,7 +40,7 @@
 	871.1.1 = {
 		death = yes
 	}
-	#dna = Fujiwara_Yoshifusa_dna_entry
+	dna = Fujiwara_Yoshifusa_dna_entry
 }
 1600005 = {
 	name = Mototsune #Mototsune Fujiwara adopted son of His uncle Yoshifusa
@@ -131,7 +132,6 @@
 	829.1.1 = {
 		birth = yes
 	}
-	dna = Mino_Yoshisada_dna_entry
 }
 2400001 = {
 	name = Ryoi #Ruler of Nishidate Dutchy

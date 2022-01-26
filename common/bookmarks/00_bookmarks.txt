@@ -633,3 +633,41 @@ bm_867_carolingians = {
 		}
 	}
 }
+
+
+bm_867_asia = {
+	start_date = 867.1.1
+	is_playable = yes
+	default = yes
+	# Emperor Seiwa of japan
+	character = {
+		name = "bookmark_yamato_imperial_family"
+		dynasty = 40000101
+		dynasty_splendor_level = 1
+		type = male
+		birth = 850.5.12
+		title = k_yamato
+		#title_text_override = "WEST_FRANCIA"
+		#government = feudal_government
+		culture = yamato
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 1600004
+		position = { 800 550 }
+		
+		animation = love
+		# Yoshifusa, regent of emperor Seiwa
+		character = {
+			name = "bookmark_yamato_imperial_family_alt_fujiwara"
+			dynasty = 40000001
+			type = male
+			birth = 804.1.1
+			title = d_kansai
+			#government = feudal_government
+			culture = yamato
+			religion = shinto
+			history_id = 1600001
+			animation = personality_irrational
+		}
+	}
+}
