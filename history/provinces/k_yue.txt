@@ -151,7 +151,7 @@
 #c_wenzhou_yue
 #b_Wenzhou_Yongjia 
 10204 = {
-    culture = min
+    culture = han
 	religion = zenzong
 	holding = castle_holding 
 }
@@ -165,8 +165,8 @@
 #c_kuozhou 
 #b_Kuozhou_Kuocang 
 10215 = {
-    culture = min
-	religion = pagan
+    culture = han
+	religion = zenzong
 	holding = castle_holding 
 }
 
@@ -236,7 +236,7 @@
 #c_jianzhou_min
 #b_Jianzhou_Jianou 
 10218 = {
-    culture = min
+    culture = sheren
 	religion = pagan
 	holding = castle_holding 
 }
@@ -262,7 +262,7 @@
 #c_tingzhou_min
 #b_Tingzhou_Changting 
 10231 = {
-    culture = min
+    culture = sheren
 	religion = pagan
 	holding = castle_holding 
 }

@@ -495,8 +495,8 @@
 #c_qianzhou_jiangxi
 #b_Qianhua 
 10264 = {
-    culture = han
-	religion = pagan 
+    culture = sheren
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Yudu_Ruijin 
