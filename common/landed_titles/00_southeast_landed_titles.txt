@@ -3230,6 +3230,16 @@ e_champa = {
                     color = { 74 105 168 }
                     color2 = { 255 255 255 }
                 }
+				b_sapa = {
+                    province = 11998
+                    color = { 204 60 95 }
+                    color2 = { 255 255 255 }
+                }
+				b_taytay_morong = {
+                    province = 11777
+                    color = { 200 192 48 }
+                    color2 = { 255 255 255 }
+                }
                 b_pangil = {
                     province = 11769
                     color = { 163 88 135 }
@@ -3243,6 +3253,16 @@ e_champa = {
                 b_tondo = {
                     province = 11775
                     color = { 212 102 102 }
+                    color2 = { 255 255 255 }
+                }
+                b_binwangan = {
+                    province = 12011
+                    color = { 204 125 127 }
+                    color2 = { 255 255 255 }
+                }
+                b_pulilan = {
+                    province = 11776
+                    color = { 48 200 137 }
                     color2 = { 255 255 255 }
                 }
             }
@@ -3361,7 +3381,22 @@ e_champa = {
                     color = { 92 48 140 }
                     color2 = { 255 255 255 }
                 }
-                b_paluan = {
+                b_mangarin = {
+                    province = 12009
+                    color = { 60 204 130 }
+                    color2 = { 255 255 255 }
+                }
+                b_ilin = {
+                    province = 12008
+                    color = { 163 171 102 }
+                    color2 = { 255 255 255 }
+                }
+                b_bongabong = {
+                    province = 12010
+                    color = { 111 123 22 }
+                    color2 = { 255 255 255 }
+                }
+                b_lubang = {
                     province = 11791
                     color = { 151 102 204 }
                     color2 = { 255 255 255 }
@@ -3411,13 +3446,28 @@ e_champa = {
                     color = { 98 134 38 }
                     color2 = { 255 255 255 }
                 }
+                b_lingayen = { # 
+                province = 11999
+                    color = { 188 180 2 }
+                    color2 = { 255 255 255 }
+                }
+                b_umingan = { # 
+                province = 12000
+                    color = { 98 134 38 }
+                    color2 = { 255 255 255 }
+                }
+                b_agoo = { # Ilocano
+                province = 12001
+                    color = { 188 180 2 }
+                    color2 = { 255 255 255 }
+                }
                 b_bolinao = {
                     province = 11798
                     color = { 82 186 127 }
                     color2 = { 255 255 255 }
 
                 }
-                b_agoo = { # Ilocano
+                b_balawan = { # Ilocano
                 province = 11799
                     color = { 181 158 43 }
                     color2 = { 255 255 255 }
@@ -3645,6 +3695,11 @@ e_champa = {
                     color = { 217 221 33 }
                     color2 = { 255 255 255 }
                 }
+                b_limasawa = {
+                    province = 12007
+                    color = { 160 68 68 }
+                    color2 = { 255 255 255 }
+                }
             }
         }
         d_butuan = {
@@ -3717,7 +3772,7 @@ e_champa = {
                 }
             }
         }
-        d_maguinadao = {
+        d_maguindanao = {
             color = { 249 218 4 }
             color2 = { 255 255 255 }
 
@@ -3730,6 +3785,16 @@ e_champa = {
                     color = { 249 218 4 }
                     color2 = { 255 255 255 }
                 }
+				b_ilianen = {
+                    province = 12005
+                    color = { 186 102 175 }
+                    color2 = { 255 255 255 }
+                }
+				b_buayan = {
+                    province = 12006
+                    color = { 86 132 61 }
+                    color2 = { 255 255 255 }
+                }
                 b_isulan = {
                     province = 11846
                     color = { 1 175 80 }
@@ -3740,7 +3805,7 @@ e_champa = {
                     color = { 105 199 55 }
                     color2 = { 255 255 255 }
                 }
-                b_buayan = {
+                b_sarangani = {
                     province = 11848
                     color = { 104 178 64 }
                     color2 = { 255 255 255 }
@@ -3758,6 +3823,16 @@ e_champa = {
                 b_banoi = {
                     province = 11850
                     color = { 84 106 50 }
+                    color2 = { 255 255 255 }
+                }
+                b_masiu = {
+                    province = 12003
+                    color = { 203 99 76 }
+                    color2 = { 255 255 255 }
+                }
+                b_bayabao = {
+                    province = 12004
+                    color = { 171 78 144 }
                     color2 = { 255 255 255 }
                 }
             }
