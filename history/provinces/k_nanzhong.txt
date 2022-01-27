@@ -488,16 +488,20 @@
 
 
 #c_yebyu
-#b_rew
-11869 = {
-    culture = mon
+# Mawlamyine
+9629 = {
+	culture = mon
 	religion = vaishnavism
 	holding = tribal_holding
+}
+#b_rew
+11869 = {
+	holding = none
 }
 
 #b_kawkareik
 11870 = {
-
+	holding = none
 }
 
 #c_tanintharyi
@@ -510,12 +514,12 @@
 
 #b_myeik
 11872 = {
-
+	holding = none
 }
 
 #b_kainggyaung
 11873 = {
-
+	holding = none
 }
 
 #d_shan #掸
@@ -546,30 +550,23 @@
 
 #b_mongkung
 11867 = {
-
+	holding = none
 }
 #b_laikha
 11868 = {
-
+	holding = none
 }
 
 #c_yawnghwe
-#b_yawnghwe
-9570 = {
+#b_loi_long
+11891 = {
     culture = karenic
 	religion = pagan
 	holding = tribal_holding
-}#b_loi_long
-11891 = {
-
 }#b_hsatung
 11892 = {
 
-}#b_mong_pai
-9594 = {
-
 }
-
 #c_mongnai
 #b_Kunxin
 10551 = {

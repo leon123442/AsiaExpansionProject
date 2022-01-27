@@ -127,7 +127,7 @@ sea_zones = RANGE { 8692 8700 } #West Africa & Gulf of Guinea
 sea_zones = LIST { 1062 1064 }
 
 # Non-accessible sea zones
-sea_zones = LIST { 944 1470 }
+sea_zones = LIST { 944 }
 sea_zones = LIST { 8623 8624 8625 }
 
 ###############

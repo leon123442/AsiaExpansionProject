@@ -1254,7 +1254,7 @@
 #1466=plains #IMPASSABLE
 #1468=plains #IMPASSABLE
 #1469=plains #IMPASSABLE
-1470=plains
+#1470=plains #IMPASSABLE
 1472=plains
 1473=plains
 1474=plains
