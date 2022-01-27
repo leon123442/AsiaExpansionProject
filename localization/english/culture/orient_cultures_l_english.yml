@@ -79,11 +79,17 @@
  lolo_group_collective_noun:0 "Yi"
  tujia:0 "Tujia"
  tujia_collective_noun:0 "Tujias"
+ hani:0 "Hani"
+ hani_collective_noun:0 "Hanis"
  
  #hmong
  hmong_group:0 "Hmong-Mien"
  yao:0 "Yao"
- yao_collective_noun:0 "Yao"
+ yao_collective_noun:0 "Yaos"
+ yi:0 "Miao"
+ yi_collective_noun:0 "Miaos"
+ sheren:0 "She"
+ sheren_collective_noun:0 "Shes"
   
  #Mongolic
  mongolic_group:0 "Mongolia"

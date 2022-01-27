@@ -16,7 +16,7 @@
 #c_haka
 #b_Meizhou_Chengxiang
 10356 = {
-    culture = min
+    culture = sheren
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -130,7 +130,7 @@
 #c_duanzhou
 #b_Duanzhou_Gaoyao
 10374 = {
-    culture = pu
+    culture = han
 	religion = zhengyi
 	holding = tribal_holding
 }
