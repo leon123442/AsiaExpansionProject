@@ -10,7 +10,7 @@
         color2 = { 255 255 255 }
     
 		d_maynila = {
-            color = { 56  32  120 }
+            color = { 106  132  220 }
             color2 = { 255 255 255 }
     
             c_maynila = {
@@ -158,7 +158,7 @@
         }
 		
 		d_pangasinan = {
-            color = { 69  22  59 }
+            color = { 69  120  299 }
             color2 = { 255 255 255 }
     
             c_binalatongan = {
@@ -234,7 +234,7 @@
                 }
             }
             c_ifugao = { #
-                color = { 4 35 24 }
+                color = { 4 35 124 }
                 color2 = { 255 255 255 }
 
                 b_lagawe = {

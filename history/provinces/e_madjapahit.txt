@@ -1058,7 +1058,7 @@
 #c_gorontalo
 #b_hulondalo
 11473 = {
-	culture = austronesian
+	culture = gorontalo
 	religion = pagan
 	holding = tribal_holding
 }
@@ -1077,7 +1077,7 @@
 #c_mongondow
 #b_manado
 11478 = {
-	culture = austronesian
+	culture = minahasa
 	religion = pagan
 	holding = tribal_holding
 }

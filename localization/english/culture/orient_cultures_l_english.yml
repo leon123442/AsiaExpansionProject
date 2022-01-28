@@ -165,10 +165,10 @@
  min_collective_noun:0 "Min"
 
  # Sea
- chamic_group:0 "Champ"
- chamic_group_collective_noun:0 "Champ"
- champ:0 "Champ"
- champ_collective_noun:0 "Champ"
+ chamic_group:0 "Cham"
+ chamic_group_collective_noun:0 "Cham"
+ champ:0 "Cham"
+ champ_collective_noun:0 "Cham"
  ryukyu:0 "Ryukyu"
  ryukyu_collective_noun:0 "Ryukyu"
  aceh:0 "Aceh"

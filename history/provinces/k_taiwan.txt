@@ -145,7 +145,7 @@
 }
 #b_miyakojima  #b_saki
 11285 = {
-	culture = siwaish
-	religion = pagan
+	culture = batanic
+	religion = kabunian
 	holding = tribal_holding
 }

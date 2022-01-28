@@ -1,0 +1,794 @@
+﻿
+#e_panyupayana
+
+
+#k_lusong
+#c_maynila	
+#b_maynila
+11768 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+#b_pangil
+11769 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+#b_tangway
+11770 = {
+	holding = none
+}
+#b_tondo
+11775 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+
+#c_pangpang
+#b_bakulud
+11771 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+#b_hubek
+11772 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+
+#b_masinloc
+11773 = {
+	holding = none
+}
+#b_pinagpanaan
+11774 = {
+	holding = none
+}
+
+#c_tayabas
+#b_tayabas
+11778 = {
+	culture = tawo
+	religion = dayaw
+	holding = tribal_holding
+}
+#b_malindug # Marinduque
+11779 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+                religion = anito
+            }
+}
+
+#c_kumintang
+#b_kumintang #
+11780 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+                religion = anito
+            }
+}
+#b_taysan
+11781 = {
+	holding = none
+}
+#b_balayan
+11782 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+                religion = anito
+            }
+}
+
+#c_bicol # Bikol region
+#b_albay
+11783 = {
+	culture = tawo
+            religion = dayaw
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bikolano
+            }
+}
+#b_sorsogon
+11784 = {
+	culture = tawo
+            religion = dayaw
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+            }
+}
+#b_naga_ph
+11785 = {
+	culture = tawo
+            religion = dayaw
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bikolano
+            }
+}
+#b_katanduan
+11786 = {
+	holding = none
+}
+#b_daet
+11787 = {
+	culture = tawo
+            religion = dayaw
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+            }
+}
+
+#c_dumagat
+#b_kasiguran
+11788 = {
+	culture = aeta
+            religion = kadai
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+                religion = anito
+            }
+}
+#b_binangonan
+11789 = {
+	culture = aeta
+            religion = kadai
+
+            holding = tribal_holding
+
+}
+
+#c_minolo
+#b_mait_ph
+11790 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+				religion = anito
+            }
+}
+#b_lubang
+11791 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+				religion = anito
+            }
+}
+#b_mamburao
+11792 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+				religion = anito
+            }
+}
+#b_minolo
+11793 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+				religion = anito
+            }
+}
+
+#d_amianan
+
+#c_samtoy
+#b_laoag # 
+11794 = {
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+}
+#b_bigan
+11795 = {
+	holding = none
+}
+#b_kandong
+11796 = {
+	holding = none
+}
+
+11797 = {
+	culture = pangasinan
+	religion = kabunian
+	holding = tribal_holding
+}
+11999 = {
+	culture = pangasinan
+	religion = kabunian
+	holding = tribal_holding
+}
+12000 = {
+	culture = pangasinan
+	religion = kabunian
+	holding = tribal_holding
+}
+#b_bolinao
+11798 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+
+#b_balawan # Ilocano
+11799 = {
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+}
+
+#b_agoo # Ilocano
+12001 = {
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+}
+
+#c_ifugao # Ifugao culture
+#b_lagawe
+11800 = {
+	culture = ifugao
+	religion = kabunian
+	holding = tribal_holding
+}
+#b_apayao # Isnag culture
+11801 = {
+	holding = none
+}
+#b_bugyas
+11802 = {
+	holding = none
+}
+#b_kalinga
+11803 = {
+	holding = none
+}
+
+#c_cagayan_valley
+#b_aparri # Isnag/Gaddang culture
+11804 = {
+	culture = ibanag
+	religion = kabunian
+	holding = tribal_holding
+}
+#b_cauayan # Gaddang
+11805 = {
+	holding = none
+}
+#b_bayombong
+11806 = {
+	culture = ifugao
+	religion = kabunian
+	holding = tribal_holding
+}
+#b_baggao # Isnag culture
+11807 = {
+	holding = none
+}
+#b_dupaningan
+11808 = {
+	culture = aeta
+	religion = kadai
+	holding = tribal_holding
+}
+#b_bolo_ph # Gaddang culture
+11810 = {
+	holding = none
+}
+#b_burubur # Gaddang culture
+11811 = {
+	holding = none
+}
+#b_balintang #
+11809 = {
+	
+	culture = batanic
+    religion = kabunian
+
+    holding = tribal_holding
+
+}
+
+#d_bisaya
+
+#c_sugbu
+#b_sugbu
+11812 = {
+	culture = tawo
+    religion = dayaw
+
+    holding = tribal_holding
+
+    1060.1.1 = {
+		culture = bisaya
+        religion = dayaw
+                }      
+}
+#b_nahalin
+11813 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_sialo
+11814 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+
+#b_maktan
+12002 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#c_panay
+#b_irong_irong
+11815 = {
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_akean
+11816 = {
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_dumangas
+11817 = {
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_donblon
+11818 = {
+	holding = none
+}
+#b_hantik
+11819 = {
+	holding = none
+}
+
+
+#c_buglas
+#b_minagahat
+11820 = {
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_magsungay
+11821 = {
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_ilog
+11822 = {
+	holding = none
+}
+#b_binalbagan
+11823 = {
+	holding = none
+}
+#b_diyolongan
+11824 = {
+	holding = none
+}
+
+
+#c_masbat
+#b_masbat
+11825 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+
+
+#c_bo_ol
+#b_bo_ol
+11827 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+
+#c_east_bisaya
+#b_tiayban
+11828 = {
+	holding = tribal_holding
+}
+#b_basay
+11829 = {
+	holding = none
+}
+#b_borongan
+11830 = {
+	holding = none
+}
+#b_ibabao
+11831 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_ormok
+11832 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_kankabatok
+11833 = {
+	holding = none
+}
+#b_abuyog
+11834 = {
+	holding = none
+}
+
+#b_limasawa
+12007 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+
+#d_butuan
+
+#c_kalagan
+#b_butuan
+11835 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_suligaw
+11836 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_tandag
+11837 = {
+	holding = none
+}
+#b_agusan
+11838 = {
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+
+}
+
+#c_dabaw
+#b_tagum
+11839 = {
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = mansaka
+				religion = dayaw
+            }
+}
+#b_dabaw
+11840 = {
+	holding = none
+}
+#b_nabunturan
+11841 = {
+	culture = tawo
+                religion = tulumanon
+
+                holding = tribal_holding
+
+                1060.1.1 = {
+                    culture = mansaka
+                }
+}
+#b_baganga
+11842 = {
+	culture = tawo
+                religion = dayaw
+
+                holding = tribal_holding
+
+                1060.1.1 = {
+                    culture = mansaka
+                }
+}
+
+#c_kagayan
+#b_kagayan
+11843 = {
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+
+            1060.1.1 = {
+                culture = bisaya
+				religion = dayaw
+            }
+}
+#b_bukidnon
+11844 = {
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+}
+
+#d_maguinadao
+
+#c_kotabatu
+#b_kotabatu
+11845 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+#c_buayan
+12006 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+#c_ilianen
+12005 = {
+	culture = manobo
+	religion = tulumanon
+	holding = tribal_holding
+}
+#b_isulan
+11846 = {
+	culture = manobo
+	religion = tulumanon
+	holding = tribal_holding
+}
+#b_flomlok
+11847 = {
+	holding = none
+}
+#b_buayan
+11848 = {
+	holding = none
+}
+
+#c_lanaw
+#b_unayan
+11849 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+#b_banoi
+11850 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+#b_masiu
+12003 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+#b_bayabao
+12004 = {
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+#c_samboangan
+#b_samboangan
+11851 = {
+	culture = subanen
+	religion = tulumanon
+	holding = tribal_holding
+}
+#b_kumalarang
+11852 = {
+	culture = subanen
+	religion = tulumanon
+	holding = tribal_holding
+}
+#b_sindangan
+11853 = {
+	culture = subanen
+	religion = tulumanon
+	holding = tribal_holding
+}
+
+#d_sulu
+
+#c_lupah_sug
+#b_maimbung
+11854 = {
+	culture = buranun
+	religion = umboh
+	holding = tribal_holding
+}
+#b_tagima
+11855 = {
+	culture = buranun
+	religion = umboh
+	holding = tribal_holding
+}
+#b_jawi_jawi
+11856 = {
+	culture = buranun
+	religion = umboh
+	holding = tribal_holding
+}
+
+#c_pulaoan
+#b_ipolote
+11857 = {
+	culture = palawan
+	religion = kadai
+	holding = tribal_holding
+}
+#b_taytay
+11858 = {
+	culture = palawan
+	religion = malyari
+	holding = tribal_holding
+}
+#b_busuanga
+11859 = {
+	holding = none
+}
+#b_aborlan
+11860 = {
+	holding = none
+}
+
+#c_sandakan
+#b_sandakan
+11861 = {
+	culture = austronesian
+	religion = pagan
+	holding = tribal_holding
+}
+#b_kudat
+11862 = {
+	holding = none
+}
+#b_tawau
+11863 = {
+	holding = none
+}
