@@ -10,6 +10,12 @@
 	religion = malyari
 	holding = tribal_holding
 }
+#b_sapa
+11998 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
 #b_pila_ph
 11769 = {
 	culture = sinauna

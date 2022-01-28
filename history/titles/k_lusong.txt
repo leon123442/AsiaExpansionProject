@@ -1,0 +1,136 @@
+﻿
+c_sambali = {
+	860.1.1 = {
+		holder = sambal001
+		government = tribal_government
+	}		
+	1065.1.1 = {
+			holder = tagalog003 # Fictional ruler
+		}
+}
+d_tondo = {
+	860.1.1 = { 
+		holder = tondo008 # 
+		government = tribal_government
+	}
+	1065.1.1 = {
+		holder = kapampangan001 # 
+	}
+}
+	c_tondo = {
+		867.1.1 = { change_development_level = 5 }
+
+		860.1.1 = {
+			holder = tondo008 #
+		}
+		
+		1065.1.1 = {
+			holder = kapampangan001 #
+		}
+	}
+		b_binwangan = {
+			860.1.1 = {
+				holder = tondo004 # 
+			}
+			
+		1065.1.1 = {
+			holder = tagalog005 # 
+		}
+		}
+	b_pulilan = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo002 #
+			liege = d_tondo
+		}	
+		1065.1.1 = {
+			holder = tagalog005 # 
+		}
+	}
+	c_maynila = {
+		867.1.1 = { change_development_level = 5 }
+
+		860.1.1 = {
+			holder = tondo003 # Fictional ruler
+			liege = d_tondo
+		}	
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+			liege = d_tondo
+		}
+	}
+	c_pila_ph = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo009 # Fictional ruler
+			liege = d_tondo
+		}
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+		}
+	}
+	b_tangway = {
+		867.1.1 = { change_development_level = 2 }
+
+		860.1.1 = {
+			holder = tondo006 # Fictional ruler
+		}
+	}
+	b_taytay_morong = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo007 # Fictional ruler
+		}
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+			liege = d_tondo
+		}
+	}
+
+## pangpang
+
+c_pangpang= {
+	867.1.1 = { change_development_level = 2 }
+}
+
+c_binalatongan = {
+	860.1.1 = {
+		holder = pangasinan001
+	}
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+c_bolinao = {
+	860.1.1 = {
+		holder = pangasinan001
+	}
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+
+        c_agoo = {
+        	860.1.1 = {
+        		holder = pangasinan001
+        	}
+		
+			1065.1.1 = {
+				holder = kapampangan002
+			}
+        }
+
+d_pangasinan = {
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+
+c_tulay = {
+	860.1.1 = {
+		holder = tagalog006
+	}
+}
