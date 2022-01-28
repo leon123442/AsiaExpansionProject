@@ -10,8 +10,14 @@
 	religion = malyari
 	holding = tribal_holding
 }
-#b_pangil
+#b_pila_ph
 11769 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+#b_taytay_morong
+11777 = {
 	culture = sinauna
 	religion = malyari
 	holding = tribal_holding
@@ -30,6 +36,26 @@
 #c_pangpang
 #b_bakulud
 11771 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+12015 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+12014 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+11776 = {
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+}
+12011 = {
 	culture = sinauna
 	religion = malyari
 	holding = tribal_holding
@@ -185,6 +211,16 @@
 				religion = anito
             }
 }
+#b_bongabong
+12010 = {
+
+            holding = none
+}
+#b_ilin
+12008 = {
+
+            holding = none
+}
 #b_lubang
 11791 = {
 	culture = sinauna
@@ -199,6 +235,18 @@
 }
 #b_mamburao
 11792 = {
+	culture = sinauna
+            religion = malyari
+
+            holding = tribal_holding
+
+            1060.1.1 = {
+                culture = tagalog
+				religion = anito
+            }
+}
+#b_mangarin
+12009 = {
 	culture = sinauna
             religion = malyari
 
@@ -585,6 +633,20 @@
 }
 #b_agusan
 11838 = {
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+
+}
+#b_linao
+12012 = {
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+
+}
+#b_kulilay
+12013 = {
 	culture = manobo
     religion = tulumanon
 	holding = tribal_holding
