@@ -118,8 +118,18 @@
                 color = { 74 105 168 }
                 color2 = { 255 255 255 }
 
-                b_bakulud = {
+                b_lubao = {
                     province = 11771
+                    color = { 110 135 211 }
+                    color2 = { 255 255 255 }
+                }
+				b_tarlak = {
+                    province = 12014
+                    color = { 110 135 211 }
+                    color2 = { 255 255 255 }
+                }
+				b_kandaba = {
+                    province = 12015
                     color = { 110 135 211 }
                     color2 = { 255 255 255 }
                 }
@@ -699,6 +709,16 @@
 				
                 b_agusan = {
                     province = 11838
+                    color = { 200 62 55 }
+                    color2 = { 255 255 255 }
+                }
+				b_linao = {
+                    province = 12012
+                    color = { 200 62 55 }
+                    color2 = { 255 255 255 }
+                }
+				b_kulilay = {
+                    province = 12013
                     color = { 200 62 55 }
                     color2 = { 255 255 255 }
                 }
