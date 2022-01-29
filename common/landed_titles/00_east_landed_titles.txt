@@ -15070,6 +15070,52 @@ e_nippon = {
 			}
 		}
 	}
+	k_ryukyu = {
+		color = { 221 188 112 }
+		color2 = { 255 255 255 }
+		
+		capital = c_ryukyu
+
+		d_ryukyu = {
+			color = { 215 177 108 }
+			color2 = { 255 255 255 }
+			
+			capital = c_ryukyu
+
+			c_ryukyu = {  #三山
+				color = { 158 115 72 }
+				color2 = { 255 255 255 }
+			
+				b_ryukyu = {
+					province = 11286
+
+					color = { 158 115 72 }
+					color2 = { 255 255 255 }
+				}
+            }
+            c_saki = {
+                color = { 148 181 168 }
+                color2 = { 255 255 255 }
+
+				b_saki = {
+					province = 11285
+
+					color = { 158 115 72 }
+					color2 = { 255 255 255 }
+				}
+            }
+            c_amami = {
+                color = { 108 101 168 }
+                color2 = { 255 255 255 }
+				b_amami = {
+					province = 11227
+
+					color = { 158 115 72 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+	}
 
 	k_yamato = {
 		color = { 80 134 103 }
