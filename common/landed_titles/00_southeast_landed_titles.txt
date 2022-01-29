@@ -733,13 +733,6 @@ e_suvarnabhumi = {
 						
 
 				}
-				b_kainggyaung = {
-                    province = 11873
-					color = { 10 223 176 }
-					color2 = { 255 255 255 }
-
-							
-				}
 			}
         }
 

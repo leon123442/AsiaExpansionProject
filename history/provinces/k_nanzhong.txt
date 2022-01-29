@@ -517,11 +517,6 @@
 	holding = none
 }
 
-#b_kainggyaung
-11873 = {
-	holding = none
-}
-
 #d_shan #掸
 #c_hsenwi #腊戍
 #b_Lashu  #hsenwi/lashio
