@@ -4852,9 +4852,13 @@ e_jurchen = {
 		}
 		
 		cultural_names = {
-			goguryeo = cn_goguryeo
-			balhae = cn_goguryeo
-			buyeo = cn_goguryeo
+			goguryeo = cn_goguryeo_korean
+			balhae = cn_goguryeo_korean
+			buyeo = cn_goguryeo_korean
+			tamnanese = cn_goguryeo_korean
+			jurchen = cn_goguryeo_manchu
+			han = cn_goguryeo_chinese
+			buyeo = cn_goguryeo_buyeo
 		}
 
 		d_liaodong = {   #辽东/玄菟
