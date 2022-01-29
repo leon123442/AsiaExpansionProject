@@ -10101,8 +10101,8 @@
 #10863=plains
 #10864=plains
 10865=mountains
-#10866=plains
-#10867=plains
+10866=plains
+10867=plains
 #10868=plains
 #10869=plains
 10870=mountains
@@ -10160,6 +10160,8 @@
 10922=jungle
 10923=jungle
 10924=jungle
+10925=jungle
+10926=jungle
 
 11243=farmlands#
 11239=farmlands#

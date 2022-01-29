@@ -82,13 +82,7 @@
 	holding = none
 }
 
-#c_luanshan
-#b_Luanshan_Laos
-10533 = {
-    culture = mon
-	religion = pagan 
-	holding = tribal_holding
-}
+
 #b_Kenta_Fumianshan
 10548 = {
  

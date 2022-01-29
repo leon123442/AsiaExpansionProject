@@ -27,7 +27,7 @@ impassable_mountains = RANGE { 9660 9667 }
 impassable_mountains = LIST { 9738 9800 10304 10477 }
 impassable_mountains = LIST { 9913 }   #Dadu river
 
-impassable_mountains = LIST { 10047 10866 10867 10869 }  #Eggs
+impassable_mountains = LIST { 10047 10869 }  #Eggs
 impassable_mountains = LIST { 10864 }  #Cave Temple
 
 #WASTELANDS#
@@ -52,7 +52,8 @@ impassable_mountains = RANGE { 11387 11404 }
 # Japan
 #####################
 
-impassable_mountains = RANGE { 10925 10927 }  #old Ryukyu
+impassable_mountains = RANGE { 10925 }  #old Ryukyu
+impassable_mountains = RANGE { 10927 } 
 
 impassable_mountains = RANGE { 11379 11385 }
 impassable_mountains = LIST { 11372 11307 11313 }
@@ -123,6 +124,9 @@ sea_zones = LIST { 8683 8691 }	#Maldives
 
 #African Seas
 sea_zones = RANGE { 8692 8700 } #West Africa & Gulf of Guinea
+
+#Eastern Indonesian Seas
+sea_zones = RANGE { 12028 12039 } 
 
 sea_zones = LIST { 1062 1064 }
 
