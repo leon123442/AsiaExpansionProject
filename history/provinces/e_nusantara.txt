@@ -1096,7 +1096,7 @@
 #c_salua
 #b_luwuk
 11483 = {
-	culture = austronesian
+	culture = salua
 	religion = pagan
 	holding = tribal_holding
 }

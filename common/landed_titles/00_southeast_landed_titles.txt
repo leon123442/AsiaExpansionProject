@@ -2181,11 +2181,11 @@ e_nusantara = {
 			}
 		}
 		d_banda = {
-            color = { 50 66 168 }
+            color = { 150 166 68 }
             color2 = { 255 255 255 }
 
             c_ambon = {
-                color = { 120 126 178 }
+                color = { 120 126 78 }
                 color2 = { 255 255 255 }
 
                 b_ambon = {
@@ -2202,7 +2202,7 @@ e_nusantara = {
                 }
 			}
 			c_buru = {
-                color = { 120 126 198 }
+                color = { 120 126 98 }
                 color2 = { 255 255 255 }
 
                 b_buru = {
@@ -2213,7 +2213,7 @@ e_nusantara = {
                 }
 			}
 			c_sula = {
-                color = { 120 86 198 }
+                color = { 120 86 98 }
                 color2 = { 255 255 255 }
 
                 b_sula = {
@@ -2224,7 +2224,7 @@ e_nusantara = {
                 }
 			}
 			c_sahulau = {
-                color = { 120 56 198 }
+                color = { 120 156 98 }
                 color2 = { 255 255 255 }
 
                 b_sahulau = {
@@ -2241,7 +2241,7 @@ e_nusantara = {
                 }
 			}
 			c_wahai = {
-                color = { 190 16 118 }
+                color = { 190 116 18 }
                 color2 = { 255 255 255 }
 
                 b_wahai = {
@@ -2258,7 +2258,7 @@ e_nusantara = {
                 }
 			}
 			c_aru = {
-                color = { 102 86 133 }
+                color = { 102 86 33 }
                 color2 = { 255 255 255 }
 
                 b_aru = {
@@ -2282,7 +2282,7 @@ e_nusantara = {
 			}
 		}
 		d_timor = {
-            color = { 50 66 168 }
+            color = { 150 166 168 }
             color2 = { 255 255 255 }
 
             c_wehali = {
@@ -2297,7 +2297,7 @@ e_nusantara = {
                 }
 			}
 			c_kupang = {
-                color = { 120 126 178 }
+                color = { 109 122 108 }
                 color2 = { 255 255 255 }
 
                 b_kupang = {
@@ -2308,7 +2308,7 @@ e_nusantara = {
                 }
 			}
 			c_sonbay = {
-                color = { 120 126 178 }
+                color = { 127 113 145 }
                 color2 = { 255 255 255 }
 
                 b_amanuban = {
@@ -2325,7 +2325,7 @@ e_nusantara = {
                 }
 			}
 			c_likusaen = {
-                color = { 120 126 178 }
+                color = { 180 136 180 }
                 color2 = { 255 255 255 }
 
                 b_baukau = {
@@ -2342,7 +2342,7 @@ e_nusantara = {
                 }
 			}
 			c_sumba = {
-                color = { 120 126 178 }
+                color = { 110 136 158 }
                 color2 = { 255 255 255 }
 
                 b_sumba = {
@@ -2353,7 +2353,7 @@ e_nusantara = {
                 }
 			}
 			c_nipa = {
-                color = { 120 126 178 }
+                color = { 178 142 136 }
                 color2 = { 255 255 255 }
 
                 b_nipa = {
@@ -2364,7 +2364,7 @@ e_nusantara = {
                 }
 			}
 			c_larantuka = {
-                color = { 120 126 178 }
+                color = { 160 136 118 }
                 color2 = { 255 255 255 }
 
                 b_larantuka = {
@@ -2380,19 +2380,8 @@ e_nusantara = {
                         
                 }
 			}
-			c_nipa = {
-                color = { 120 126 178 }
-                color2 = { 255 255 255 }
-
-                b_nipa = {
-                    province = 12017
-                    color = { 195 144 52 }
-                    color2 = { 255 255 255 }
-                        
-                }
-			}
 			c_alor = {
-                color = { 120 126 178 }
+                color = { 112 136 156 }
                 color2 = { 255 255 255 }
 
                 b_alor = {
@@ -2403,7 +2392,7 @@ e_nusantara = {
                 }
 			}
 			c_wetar = {
-                color = { 120 126 178 }
+                color = { 113 151 138 }
                 color2 = { 255 255 255 }
 
                 b_wetar = {

@@ -57,12 +57,6 @@
 
 #d_chenla
 #c_viengchan
-#b_Wanxiang_Mengzhang
-10534 = {
-    culture = khmer
-	religion = pagan
-	holding = tribal_holding
-}
 #b_Langkai_Laos
 10545 = {
 
