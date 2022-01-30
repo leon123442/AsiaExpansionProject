@@ -1,4 +1,55 @@
-﻿
+﻿mount_nunusaku = {
+	county = c_sahulau
+	barony = b_sahulau
+
+	character_modifier = {
+		name = holy_site_mount_larantuka_effect_name
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+}
+belogili = {
+	county = c_larantuka
+	barony = b_larantuka
+
+	character_modifier = {
+		name = holy_site_belogili_effect_name
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+mount_arfak = {
+	county = c_sougb
+	barony = b_sougb
+
+	character_modifier = {
+		name = holy_site_mount_arfak_effect_name
+		different_culture_opinion = 10
+	}
+}
+
+bud_bongao = {
+	county = c_jawi_jawi
+	barony = b_jawi_jawi
+
+	character_modifier = {
+		name = holy_site_mount_bud_bongao_effect_name
+		knight_effectiveness_mult = 0.1
+		life_expectancy = 1
+	}
+}
+
+goa_keramat = {
+	county = c_waigama
+	barony = b_waigama
+
+	character_modifier = {
+		name = holy_site_mount_goa_keramat_effect_name
+		development_growth_factor = 0.05
+		domain_tax_mult = 0.02
+	}
+}
+
 phnom_kulen = {
 	county = c_aninditapura
 	barony = b_kbal_spean
@@ -240,6 +291,7 @@ lake_ranau = {
 
 lake_lanao = {
 	county = c_masiu
+	barony = b_masiu
 
 	character_modifier = {
 		name = holy_site_lake_lanao_effect_name

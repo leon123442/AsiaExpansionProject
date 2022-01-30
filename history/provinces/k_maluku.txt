@@ -74,7 +74,7 @@
 			#c_raja_ampat
                 11485 = { # b_waigeo
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }
@@ -90,7 +90,7 @@
             #c_fakfak
                 11491 = { # b_fakfak
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }
@@ -101,7 +101,7 @@
 			#c_mairasi 
                 11516 = { # b_mairasi
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }
@@ -112,7 +112,7 @@
 			#c_wamesa
                 11498 = { # b_wamesa
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }
@@ -124,14 +124,14 @@
                 11513 = { # b_arandai
 
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }
 			#c_soren
                 11505 = { # b_soren
                 culture = papuan
-                religion = papuan
+                religion = penunggu
 
                 holding = tribal_holding   
                 }

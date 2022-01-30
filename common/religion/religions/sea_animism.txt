@@ -3381,8 +3381,8 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 		}
 		nunusaku = { 
 			color = { 154 181 33 }
-			icon = pagan
-			reformed_icon = pagan_reformed
+			icon = nunusaku
+			reformed_icon = nunusaku_reformed
 
 
 			localization = {
@@ -3537,14 +3537,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				GHWNamePlural = ghw_purifications
 			}
 
-			holy_site = laguna_de_bay #Mt. Nunusaku in West Seram
-			holy_site = mount_mayon
-			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = toba
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_nunusaku
+			holy_site = belogili
+			holy_site = mount_arfak
+			holy_site = lake_lanao
+			holy_site = goa_keramat
 
 			doctrine = unreformed_faith_doctrine
 
@@ -3578,7 +3575,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			doctrine = doctrine_clerical_marriage_disallowed
 			doctrine = doctrine_clerical_succession_spiritual_appointment
 		}
-		papuan = { 
+		penunggu = { 
 			color = { 127 0 0 }
 			icon = pagan
 			reformed_icon = pagan_reformed
@@ -3586,87 +3583,87 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 
 			localization = {
 				#HighGod
-				HighGodName = papuan_high_god_name
-				HighGodNamePossessive = papuan_high_god_name_possessive
+				HighGodName = penunggu_high_god_name
+				HighGodNamePossessive = penunggu_high_god_name_possessive
 				HighGodNameSheHe = CHARACTER_SHEHE_HE
 				HighGodHerselfHimself = CHARACTER_HIMSELF
 				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = papuan_high_god_name_alternate
-				HighGodNameAlternatePossessive = papuan_high_god_name_alternate_possessive
+				HighGodNameAlternate = penunggu_high_god_name_alternate
+				HighGodNameAlternatePossessive = penunggu_high_god_name_alternate_possessive
 
 				#Creator
-				CreatorName = papuan_creator_god_name
-				CreatorNamePossessive = papuan_creator_god_name_possessive
+				CreatorName = penunggu_creator_god_name
+				CreatorNamePossessive = penunggu_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_SHEHE_HE
 				CreatorHerHis = CHARACTER_HERHIS_HIS
 				CreatorHerHim = CHARACTER_HERHIM_HIM
 
 				#HealthGod
-				HealthGodName = papuan_health_god_name
-				HealthGodNamePossessive = papuan_health_god_name_possessive
+				HealthGodName = penunggu_health_god_name
+				HealthGodNamePossessive = penunggu_health_god_name_possessive
 				HealthGodSheHe = CHARACTER_SHEHE_HE
 				HealthGodHerHis = CHARACTER_HERHIS_HIS
 				HealthGodHerHim = CHARACTER_HERHIM_HIM
 
 				#FertilityGod
-				FertilityGodName = papuan_fertility_god_name
-				FertilityGodNamePossessive = papuan_fertility_god_name_possessive
+				FertilityGodName = penunggu_fertility_god_name
+				FertilityGodNamePossessive = penunggu_fertility_god_name_possessive
 				FertilityGodSheHe = CHARACTER_SHEHE_SHE
 				FertilityGodHerHis = CHARACTER_HERHIS_HER
 				FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 				#WealthGod
-				WealthGodName = papuan_wealth_god_name
-				WealthGodNamePossessive = papuan_wealth_god_name_possessive
+				WealthGodName = penunggu_wealth_god_name
+				WealthGodNamePossessive = penunggu_wealth_god_name_possessive
 				WealthGodSheHe = CHARACTER_SHEHE_HE
 				WealthGodHerHis = CHARACTER_HERHIS_HIS
 				WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 				#HouseholdGod
-				HouseholdGodName = papuan_household_god_name
-				HouseholdGodNamePossessive = papuan_household_god_name_possessive
+				HouseholdGodName = penunggu_household_god_name
+				HouseholdGodNamePossessive = penunggu_household_god_name_possessive
 				HouseholdGodSheHe = CHARACTER_SHEHE_HE
 				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
 				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 
 				#FateGod
-				FateGodName = papuan_fate_god_name
-				FateGodNamePossessive = papuan_fate_god_name_possessive
+				FateGodName = penunggu_fate_god_name
+				FateGodNamePossessive = penunggu_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
 				FateGodHerHis = CHARACTER_HERHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
-				KnowledgeGodName = papuan_knowledge_god_name
-				KnowledgeGodNamePossessive = papuan_knowledge_god_name_possessive
+				KnowledgeGodName = penunggu_knowledge_god_name
+				KnowledgeGodNamePossessive = penunggu_knowledge_god_name_possessive
 				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 				#WarGod
-				WarGodName = papuan_war_god_name
-				WarGodNamePossessive = papuan_war_god_name_possessive
+				WarGodName = penunggu_war_god_name
+				WarGodNamePossessive = penunggu_war_god_name_possessive
 				WarGodSheHe = CHARACTER_SHEHE_HE
 				WarGodHerHis = CHARACTER_HERHIS_HIS
 				WarGodHerHim = CHARACTER_HERHIM_HIM
 
 				#TricksterGod
-				TricksterGodName = papuan_trickster_god_name
-				TricksterGodNamePossessive = papuan_trickster_god_name_possessive
+				TricksterGodName = penunggu_trickster_god_name
+				TricksterGodNamePossessive = penunggu_trickster_god_name_possessive
 				TricksterGodSheHe = CHARACTER_SHEHE_HE
 				TricksterGodHerHis = CHARACTER_HERHIS_HIS
 				TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 				#NightGod
-				NightGodName = papuan_night_god_name
-				NightGodNamePossessive = papuan_night_god_name_possessive
+				NightGodName = penunggu_night_god_name
+				NightGodNamePossessive = penunggu_night_god_name_possessive
 				NightGodSheHe = CHARACTER_SHEHE_SHE
 				NightGodHerHis = CHARACTER_HERHIS_HER
 				NightGodHerHim = CHARACTER_HERHIM_HER
 
 				#WaterGod
-				WaterGodName = papuan_water_god_name
-				WaterGodNamePossessive = papuan_water_god_name_possessive
+				WaterGodName = penunggu_water_god_name
+				WaterGodNamePossessive = penunggu_water_god_name_possessive
 				WaterGodSheHe = CHARACTER_SHEHE_HE
 				WaterGodHerHis = CHARACTER_HERHIS_HIS
 				WaterGodHerHim = CHARACTER_HERHIM_HIM
@@ -3674,58 +3671,58 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				PantheonTerm = religion_the_gods
 				PantheonTermHasHave = pantheon_term_have
 				GoodGodNames = {
-					papuan_high_god_name
-					papuan_high_god_name_alternate
-					papuan_good_god_mubyasei
-					papuan_good_god_abba_chi
-					papuan_good_god_abba_sei
-					papuan_good_god_abba_mullah
-					papuan_good_god_mutsitsu
-					papuan_good_god_tugantsu
-					papuan_good_god_mupitha
+					penunggu_high_god_name
+					penunggu_high_god_name_alternate
+					penunggu_good_god_mubyasei
+					penunggu_good_god_abba_chi
+					penunggu_good_god_abba_sei
+					penunggu_good_god_abba_mullah
+					penunggu_good_god_mutsitsu
+					penunggu_good_god_tugantsu
+					penunggu_good_god_mupitha
 				}
-				DevilName = papuan_devil_name
-				DevilNamePossessive = papuan_devil_name_possessive
+				DevilName = penunggu_devil_name
+				DevilNamePossessive = penunggu_devil_name_possessive
 				DevilSheHe = CHARACTER_SHEHE_HE
 				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = papuan_devil_herselfhimself
+				DevilHerselfHimself = penunggu_devil_herselfhimself
 				EvilGodNames = {
-					papuan_devil_name
-					papuan_evil_god_dul
+					penunggu_devil_name
+					penunggu_evil_god_dul
 				}
-				HouseOfWorship = papuan_house_of_worship
-				HouseOfWorshipPlural = papuan_house_of_worship_plural
-				ReligiousSymbol = papuan_religious_symbol
-				ReligiousText = papuan_religious_text
-				ReligiousHeadName = papuan_religious_head_title
-				ReligiousHeadTitleName = papuan_religious_head_title_name
-				DevoteeMale = papuan_devotee_male
-				DevoteeMalePlural = papuan_devotee_male_plural
-				DevoteeFemale = papuan_devotee_female
-				DevoteeFemalePlural = papuan_devotee_female_plural
-				DevoteeNeuter = papuan_devotee_neuter
-				DevoteeNeuterPlural = papuan_devotee_neuter_plural
-				PriestMale = papuan_priest
-				PriestMalePlural = papuan_priest_plural
-				PriestFemale = papuan_priest
-				PriestFemalePlural = papuan_priest_plural
-				PriestNeuter = papuan_priest
-				PriestNeuterPlural = papuan_priest_plural
-				AltPriestTermPlural = papuan_priest_term_plural
-				BishopMale = papuan_bishop
-				BishopMalePlural = papuan_bishop_plural
-				BishopFemale = papuan_bishop
-				BishopFemalePlural = papuan_bishop_plural
-				BishopNeuter = papuan_bishop
-				BishopNeuterPlural = papuan_bishop_plural
-				DivineRealm = papuan_divine_realm
-				PositiveAfterLife = papuan_positive_afterlife
-				NegativeAfterLife = papuan_negative_afterlife
-				DeathDeityName = papuan_death_name
-				DeathDeityNamePossessive = papuan_death_name_possessive
+				HouseOfWorship = penunggu_house_of_worship
+				HouseOfWorshipPlural = penunggu_house_of_worship_plural
+				ReligiousSymbol = penunggu_religious_symbol
+				ReligiousText = penunggu_religious_text
+				ReligiousHeadName = penunggu_religious_head_title
+				ReligiousHeadTitleName = penunggu_religious_head_title_name
+				DevoteeMale = penunggu_devotee_male
+				DevoteeMalePlural = penunggu_devotee_male_plural
+				DevoteeFemale = penunggu_devotee_female
+				DevoteeFemalePlural = penunggu_devotee_female_plural
+				DevoteeNeuter = penunggu_devotee_neuter
+				DevoteeNeuterPlural = penunggu_devotee_neuter_plural
+				PriestMale = penunggu_priest
+				PriestMalePlural = penunggu_priest_plural
+				PriestFemale = penunggu_priest
+				PriestFemalePlural = penunggu_priest_plural
+				PriestNeuter = penunggu_priest
+				PriestNeuterPlural = penunggu_priest_plural
+				AltPriestTermPlural = penunggu_priest_term_plural
+				BishopMale = penunggu_bishop
+				BishopMalePlural = penunggu_bishop_plural
+				BishopFemale = penunggu_bishop
+				BishopFemalePlural = penunggu_bishop_plural
+				BishopNeuter = penunggu_bishop
+				BishopNeuterPlural = penunggu_bishop_plural
+				DivineRealm = penunggu_divine_realm
+				PositiveAfterLife = penunggu_positive_afterlife
+				NegativeAfterLife = penunggu_negative_afterlife
+				DeathDeityName = penunggu_death_name
+				DeathDeityNamePossessive = penunggu_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
-				WitchGodName = papuan_evil_god_dul
+				WitchGodName = penunggu_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
 				WitchGodSheHe = CHARACTER_SHEHE_SHE
 				WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -3736,14 +3733,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				GHWNamePlural = ghw_purifications
 			}
 
-			holy_site = laguna_de_bay
-			holy_site = mount_mayon
-			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = toba
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_nunusaku
+			holy_site = belogili
+			holy_site = mount_arfak
+			holy_site = bud_bongao
+			holy_site = goa_keramat
 
 			doctrine = unreformed_faith_doctrine
 
