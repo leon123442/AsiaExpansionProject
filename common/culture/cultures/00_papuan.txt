@@ -8,11 +8,6 @@
 		austronesian_unit_gfx 
 	}
 
-	mercenary_names = {
-		{ name = "mercenary_company_arakan_band" }
-		{ name = "mercenary_company_of_the_valley" }
-	}
-
 	abui = {
 		color = { 137 88 33 }
 
