@@ -123,6 +123,9 @@
 			#c_arandai
                 11513 = { # b_arandai
 
+                culture = papuan
+                religion = papuan
+
                 holding = tribal_holding   
                 }
 			#c_soren
@@ -165,7 +168,7 @@
                 holding = tribal_holding   
                 }
 			#c_sula
-                province = 10453 = { # b_sula
+                10453 = { # b_sula
                 culture = salua
                 religion = nunusaku
 

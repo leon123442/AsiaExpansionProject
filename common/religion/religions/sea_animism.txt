@@ -1833,7 +1833,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 		}
 
 		dayaw = { # Bisaya/Tawo people
-			color = { 154 181 33 }
+			color = { 54 81 233 }
 			icon = pagan
 			reformed_icon = pagan_reformed
 
@@ -3380,7 +3380,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			doctrine = doctrine_clerical_succession_spiritual_appointment
 		}
 		nunusaku = { 
-			color = { 128 17 206 }
+			color = { 154 181 33 }
 			icon = pagan
 			reformed_icon = pagan_reformed
 
@@ -3550,7 +3550,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_human_sacrifice #headhunting
 
 			#Main Group
 			doctrine = doctrine_no_head
@@ -3579,7 +3579,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			doctrine = doctrine_clerical_succession_spiritual_appointment
 		}
 		papuan = { 
-			color = { 128 17 206 }
+			color = { 127 0 0 }
 			icon = pagan
 			reformed_icon = pagan_reformed
 
@@ -3748,8 +3748,8 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_human_sacrifice #headhunting
+			doctrine = tenet_sanctity_of_nature
 
 			#Main Group
 			doctrine = doctrine_no_head
