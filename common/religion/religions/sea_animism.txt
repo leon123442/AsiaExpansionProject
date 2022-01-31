@@ -1265,17 +1265,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt mayon
 			# mt apo
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
+			holy_site = mount_madyaas
+			holy_site = apo
 			holy_site = mount_mayon
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_banahaw
 
 			doctrine = unreformed_faith_doctrine
 
@@ -1447,17 +1441,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
-			holy_site = mount_mayon
-			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = apo
+			holy_site = lake_lanao
+			holy_site = mount_madyaas
+			holy_site = mount_arayat
+			holy_site = kayangan
 
 			doctrine = unreformed_faith_doctrine
 
@@ -1630,17 +1618,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
-			holy_site = mount_mayon
+			holy_site = apo
+			holy_site = kayangan
+			holy_site = lake_lanao
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_arayat
 
 			doctrine = unreformed_faith_doctrine
 
@@ -1813,17 +1795,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
+			holy_site = mount_arayat
+			holy_site = kayangan
 			holy_site = mount_mayon
-			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_pulag
+			holy_site = laguna_de_bay
 
 			doctrine = unreformed_faith_doctrine
 
@@ -1996,17 +1972,12 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
+			holy_site = lake_lanao
+			holy_site = kayangan
 			holy_site = mount_mayon
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_madyaas
+
 
 			doctrine = unreformed_faith_doctrine
 
@@ -2179,17 +2150,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
-			holy_site = mount_mayon
+			holy_site = apo
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_madyaas
+			holy_site = kayangan
+			holy_site = gunung_jerai
 
 			doctrine = unreformed_faith_doctrine
 
@@ -2362,17 +2327,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = phnom_kulen
-			holy_site = laguna_de_bay
+			holy_site = mount_pulag
+			holy_site = mount_arayat
 			holy_site = mount_mayon
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = popa
-			holy_site = toba
-			holy_site = ha_long
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = mount_madyaas
 
 			doctrine = unreformed_faith_doctrine
 
@@ -4134,14 +4093,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			# mt arayat
 			# mt mayon
 
-			holy_site = laguna_de_bay
-			holy_site = mount_mayon
+			holy_site = bud_bongao
 			holy_site = kinabalu
-			holy_site = tonle_sap
-			holy_site = po_nagar
-			holy_site = toba
-			holy_site = mount_agung
-			holy_site = mount_bromo
+			holy_site = samboangan
+			holy_site = gunung_jerai
+			holy_site = phang_nga
 
 			doctrine = unreformed_faith_doctrine
 

@@ -3,7 +3,7 @@
 	barony = b_sahulau
 
 	character_modifier = {
-		name = holy_site_mount_larantuka_effect_name
+		name = holy_site_mount_nunusaku_effect_name
 		martial = 1
 		prowess_per_prestige_level = 1
 	}
@@ -18,6 +18,38 @@ belogili = {
 	}
 }
 
+
+kayangan = {
+	county = c_taytay
+	barony = b_busuanga
+
+	character_modifier = {
+		name = holy_site_kayangan_effect_name
+		fertility = 0.2
+	}
+}
+
+samboangan = {
+	county = c_samboangan
+	barony = b_samboangan
+
+	character_modifier = {
+		name = holy_site_samboangan_effect_name
+		monthly_prestige_gain_per_happy_powerful_vassal_mult = 0.03
+	}
+}
+
+gunung_jerai = {
+	county = c_kedah
+	barony = b_kedah
+
+	character_modifier = {
+		name = holy_site_gunung_jerai_effect_name
+		development_growth_factor = 0.05
+		domain_tax_mult = 0.02
+	}
+}
+
 mount_arfak = {
 	county = c_sougb
 	barony = b_sougb
@@ -25,6 +57,38 @@ mount_arfak = {
 	character_modifier = {
 		name = holy_site_mount_arfak_effect_name
 		different_culture_opinion = 10
+	}
+}
+
+mount_madyaas = {
+	county = c_oton
+	barony = b_hantik
+
+	character_modifier = {
+		name = holy_site_mount_madyaas_effect_name
+		supply_duration = 0.25
+		development_growth_factor = 0.05
+	}
+}
+
+mount_pulag = {
+	county = c_bugyas
+	barony = b_bugyas
+
+	character_modifier = {
+		name = holy_site_mount_pulag_effect_name
+		councillor_opinion = 5
+	}
+}
+
+mount_arayat = {
+	county = c_pangpang
+	barony = b_kandaba
+
+	character_modifier = {
+		name = holy_site_mount_arayat_effect_name
+		defender_advantage = 5
+		monthly_piety_gain_mult = 0.1
 	}
 }
 
@@ -84,7 +148,8 @@ mount_mayon = {
 }
 
 kinabalu = {
-	county = c_kinabalu
+	county = c_kota_kinabalu
+	barony = b_kota_kinabalu
 
 	character_modifier = {
 		name = holy_site_kinabalu_effect_name
@@ -298,6 +363,39 @@ lake_lanao = {
 
 		men_at_arms_maintenance = -0.1
 		fertility = 0.2
+	}
+}
+
+phang_nga = {
+	county = c_takola
+	barony = b_takola
+
+	character_modifier = {
+		name = holy_site_phang_nga_effect_name
+		development_growth_factor = 0.1
+		piety_level_impact_mult = 0.5
+	}
+}
+
+mount_banahaw = {
+	county = c_tayabas
+	barony = b_tayabas
+
+	character_modifier = {
+		name = holy_site_mount_banahaw_effect_name
+		monthly_lifestyle_xp_gain_mult = 0.1
+		men_at_arms_cap = 1
+	}
+}
+
+apo = {
+	county = c_dabaw
+	barony = b_dabaw
+
+	character_modifier = {
+		name = holy_site_mount_banahaw_effect_name
+		direct_vassal_opinion = 10
+		same_culture_opinion = 10
 	}
 }
 
