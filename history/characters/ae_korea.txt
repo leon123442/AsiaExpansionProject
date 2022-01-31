@@ -6,6 +6,9 @@
 	844.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Gim_Eungryeom_dna_entry
 }
 110000002 = {
@@ -15,6 +18,9 @@
 	culture = senhan
 	819.1.1 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
 	}
 	dna = Kim_Taehyung_dna_entry
 }
@@ -26,6 +32,9 @@
 	819.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Pak_Juhee_dna_entry
 }
 110000004 = {
@@ -36,6 +45,9 @@
 	836.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Shiwon_Yong_dna_entry
 }
 110000005 = {
@@ -45,6 +57,9 @@
 	culture = senhan
 	849.1.1 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
 	}
 	dna = Seoyoung_Kwon_dna_entry
 }

@@ -6,5 +6,8 @@
 	845.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Lu_Fan_dna_entry
 }

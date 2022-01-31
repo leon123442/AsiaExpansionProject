@@ -14632,7 +14632,7 @@ e_nippon = {
 	capital = c_yamashiro
 
 	cultural_names = {
-		ainu = k_hitakami
+		ainu = Ezo
 		yilou = cn_yilou
 		udege = cn_urge
 	}
@@ -14642,6 +14642,11 @@ e_nippon = {
 		color2 = { 255 255 255 }
 
 		capital = c_rikuzen
+		
+		cultural_names = {
+			yamato = Hitakami
+			ainu = Ezo
+		}
 		
 		d_dewa = {
 			color = { 148 145 201 }
@@ -14716,8 +14721,6 @@ e_nippon = {
 			}
 			
 		}
-			
-			
 			
 		d_ou = {
 			color = { 118 135 191 }

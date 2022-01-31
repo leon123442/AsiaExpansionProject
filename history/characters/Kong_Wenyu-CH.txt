@@ -6,5 +6,8 @@
 	835.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Kong_Wenyu_dna_entry
 }

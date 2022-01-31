@@ -11,6 +11,9 @@
 	866.1.1 = {
 		add_spouse = 1600006
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Mino_Yoshisada_dna_entry
 }
 
@@ -90,6 +93,9 @@
 	845.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 }
 
 1600003 = { #non histoical
@@ -99,6 +105,9 @@
 	culture = yamato 
 	849.1.1 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
 	}
 }
 
@@ -111,6 +120,9 @@
 	845.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Echigo_Yukinobu_dna_entry
 }
 
@@ -122,6 +134,9 @@
 	837.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Kiyotake_Michimori_dna_entry
 }
 2600001 = {
@@ -132,6 +147,9 @@
 	829.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 }
 2400001 = {
 	name = Ryoi #Ruler of Nishidate Dutchy
@@ -140,6 +158,9 @@
 	culture = yamato 
 	841.1.1 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
 	}
 	dna = Nishidate_Ryoi_dna_entry
 }
@@ -152,6 +173,9 @@
     836.1.1 = {
         birth = yes
     }
+	1066.1.1 = {
+		death = yes
+	}
     dna = Tsunahito_Taizai_dna_entry
 }
 
@@ -163,6 +187,9 @@
 	842.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Oguri_Kanemoto_dna_entry
 }
 
@@ -173,6 +200,9 @@
 	culture = yamato 
 	847.1.1 = {
 		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
 	}
 	dna = Wada_Yorimoto_dna_entry
 }

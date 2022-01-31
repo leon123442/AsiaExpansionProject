@@ -6,5 +6,8 @@
 	809.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Yangzhi_Shifu_dna_entry
 }

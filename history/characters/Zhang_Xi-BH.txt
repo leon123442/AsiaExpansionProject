@@ -6,5 +6,8 @@
 	841.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Zhang_Xi_dna_entry
 }

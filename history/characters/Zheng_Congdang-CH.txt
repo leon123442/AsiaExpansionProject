@@ -6,5 +6,8 @@
 	824.1.1 = {
 		birth = yes
 	}
+	1066.1.1 = {
+		death = yes
+	}
 	dna = Zheng_Congdang_dna_entry
 }
