@@ -3,7 +3,7 @@
 	barony = b_sahulau
 
 	character_modifier = {
-		name = holy_site_mount_larantuka_effect_name
+		name = holy_site_mount_nunusaku_effect_name
 		martial = 1
 		prowess_per_prestige_level = 1
 	}
