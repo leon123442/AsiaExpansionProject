@@ -17,10 +17,12 @@
  siwaish_collective_noun:1 "Siwans"
  limaish:0 "Atayal"
  limaish_collective_noun:1 "Atayals"
- sirayic:0 "Siraya"
- sirayic_collective_noun:1 "Sirayas"
+ sirayic:0 "Amisiraya"
+ sirayic_collective_noun:1 "Amisirayas"
  pituish:0 "Pitu"
  pituish_collective_noun:1 "Pitus"
+ paiwanese:0 "Paiwan"
+ paiwanese_collective_noun:1 "Paiwans"
 
 
  #Turkic
@@ -70,8 +72,12 @@
  kam_sui_collective_noun:0 "Kam-Suis"
  tay:0 "Tay-Nung"
  tay_collective_noun:0 "Tay-Nungs"
- liliao:0 "Be-Hlai"
- liliao_collective_noun:0 "Be-Hlais"
+ liliao:0 "Hlai"
+ liliao_collective_noun:0 "Hlais"
+ biao:0 "Biao"
+ biao_collective_noun:0 "Biaos"
+ beish:0 "Be"
+ beish_collective_noun:0 "Bes"
  
  
  #lolo

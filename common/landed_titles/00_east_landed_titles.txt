@@ -6060,7 +6060,7 @@ e_celestia = {
 	}
 	
 	k_annan = {
-        color = { 84 163 69 }
+        color = { 223 72 123 }
         color2 = { 255 255 255 }
         capital = c_kinh_bac
         cultural_names = {
@@ -6068,8 +6068,8 @@ e_celestia = {
             jiaozhi = cn_viet
             laos = cn_laos
         }
-    
-        d_jiaozhi = { 
+		
+		d_jiaozhi = { 
             color = { 97 56 55 }
             color2 = { 255 255 255 }        
             capital = c_kinh_bac
@@ -6281,8 +6281,216 @@ e_celestia = {
                 }
             }
         } 
+		
+		d_yongguan = {  #邕管
+			color = { 110 65 29 }
+			color2= { 255 255 255 }
+			
+			capital = c_nanning
+			
+			c_nanning = {  #邕州
+				color = { 85 50 22 }
+				color2= { 255 255 255 }
+				
+				b_Yongzhou_Nanning = {
+					province = 10410
+				
+					color = { 85 50 22 }
+					color2= { 255 255 255 }
+				}
+				b_Sitong_Zuozhou = {
+					province = 10415
+				
+					color = { 85 50 22 }
+					color2= { 255 255 255 }
+				}
+				b_Wuming_Wandezhou = {
+					province = 10414
+				
+					color = { 85 50 22 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_qinzhou_gui = {  #钦州
+				color = { 54 25 8 }
+				color2= { 255 255 255 }
+				
+				b_Qinzhou_Qinjiang = {
+					province = 10390
+				
+					color = { 54 25 8 }
+					color2= { 255 255 255 }
+				}
+				b_Luzhou_Wulei = {
+					province = 10427
+
+					color = { 96 52 80 }
+					color2 = { 255 255 255 }
+				}
+				b_Sumaozhou = {
+					province = 10423
+
+					color = { 96 52 80 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_luolong = { #罗龙
+				color = { 176 102 16 }
+				color2= { 255 255 255 }
+				
+				b_Luolong_Wuqin = {
+					province = 10412
+				
+					color = { 176 102 16 }
+					color2= { 255 255 255 }
+				}
+				b_Shangsizhou_Rangzhou = {
+					province = 10411
+				
+					color = { 176 102 16 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_baise = {  #田州
+				color = { 202 125 19 }
+				color2= { 255 255 255 }
+				
+				b_Tianzhou_Baise = {
+					province = 10417
+				
+					color = { 202 125 19 }
+					color2= { 255 255 255 }
+				}
+				b_Bama = {
+					province = 10416
+				
+					color = { 202 125 19 }
+					color2= { 255 255 255 }
+				}
+				b_Sicheng_Guilezhou= {
+					province = 10418
+				
+					color = { 202 125 19 }
+					color2= { 255 255 255 }
+				}
+				b_Houzhou_Lunzhou= {
+					province = 10419
+				
+					color = { 202 125 19 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_jinlongzhou = {  #金龙州
+				color = { 66 36 87 }
+				color2 = { 255 255 255 }
+			
+				b_Jinlongzhou_Guangyuanzhou = {
+					province = 10421
+
+					color = { 66 36 87 }
+					color2 = { 255 255 255 }
+				}
+				b_Simingzhou_Shixizhou = {
+					province = 10413
+				
+					color = { 176 102 16 }
+					color2= { 255 255 255 }
+				}
+				b_Napo = {
+					province = 10420
+
+					color = { 66 36 87 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
     
-        d_muangthaeng = {  
+    }
+	
+	k_nanzhong = { 
+		color = { 170 226 65 }
+		color2 = { 255 255 255 }
+		destroy_if_invalid_heir = yes
+		definite_form = yes
+		
+		capital = c_yanjim
+
+		cultural_names = {
+			mon = cn_nanzhao
+			qiang = cn_daning
+			wuman = cn_cuan
+			han = cn_changhe
+			bai = cn_dali
+			jiaozhi = cn_yue
+			pu = cn_pu
+			yi = cn_jiuli
+		}
+ 
+	    ai_primary_priority = {
+		    if = {
+			    limit = {
+				    culture = culture:bai
+				    culture = culture:wuman
+			    }
+			    add = @correct_culture_primary_score
+		    }
+	    }
+
+		d_dali = { 
+			color = { 146 255 92 }
+			color2 = { 255 255 255 }
+			
+			capital = c_yanjim
+
+			c_yanjim = {
+				color = { 93 176 4 }
+				color2 = { 255 255 255 }
+				
+				b_Dali_Yangjumie = {
+                    province = 10500
+
+					color = { 93 176 4 }
+					color2 = { 255 255 255 }
+				}
+				b_Yunnandan = {
+                    province = 10502
+
+					color = { 93 176 4 }
+					color2 = { 255 255 255 }
+				}
+				b_Mengshe_TianlongTemple = {
+                    province = 10501
+
+					color = { 93 176 4 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_nongdong = { #弄栋
+				color = { 92 150 30 }
+				color2 = { 255 255 255 }
+				
+				b_Nongdong = {
+                    province = 10503
+
+					color = { 92 150 30 }
+					color2 = { 255 255 255 }
+				}
+				b_Shisangjun_Chuxiong = {
+                    province = 10504
+
+					color = { 92 150 30 }
+					color2 = { 255 255 255 }
+				}
+				b_Ludan_Shaciguan = {
+                    province = 10509
+
+					color = { 92 150 30 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}	
+
+		d_muangthaeng = {  
             color = { 67 140 79 }
             color2 = { 255 255 255 }
     
@@ -6420,91 +6628,7 @@ e_celestia = {
                         
                 }
             }
-        }
-    }
-	
-	k_nanzhong = { 
-		color = { 170 226 65 }
-		color2 = { 255 255 255 }
-		destroy_if_invalid_heir = yes
-		definite_form = yes
-		
-		capital = c_yanjim
-
-		cultural_names = {
-			mon = cn_nanzhao
-			qiang = cn_daning
-			wuman = cn_cuan
-			han = cn_changhe
-			bai = cn_dali
-			jiaozhi = cn_yue
-			pu = cn_pu
-			yi = cn_jiuli
-		}
- 
-	    ai_primary_priority = {
-		    if = {
-			    limit = {
-				    culture = culture:bai
-				    culture = culture:wuman
-			    }
-			    add = @correct_culture_primary_score
-		    }
-	    }
-
-		d_dali = { 
-			color = { 146 255 92 }
-			color2 = { 255 255 255 }
-			
-			capital = c_yanjim
-
-			c_yanjim = {
-				color = { 93 176 4 }
-				color2 = { 255 255 255 }
-				
-				b_Dali_Yangjumie = {
-                    province = 10500
-
-					color = { 93 176 4 }
-					color2 = { 255 255 255 }
-				}
-				b_Yunnandan = {
-                    province = 10502
-
-					color = { 93 176 4 }
-					color2 = { 255 255 255 }
-				}
-				b_Mengshe_TianlongTemple = {
-                    province = 10501
-
-					color = { 93 176 4 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_nongdong = { #弄栋
-				color = { 92 150 30 }
-				color2 = { 255 255 255 }
-				
-				b_Nongdong = {
-                    province = 10503
-
-					color = { 92 150 30 }
-					color2 = { 255 255 255 }
-				}
-				b_Shisangjun_Chuxiong = {
-                    province = 10504
-
-					color = { 92 150 30 }
-					color2 = { 255 255 255 }
-				}
-				b_Ludan_Shaciguan = {
-                    province = 10509
-
-					color = { 92 150 30 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}		
+        }		
 		
 		d_tonghai = { 
 			color = { 134 173 35 }
@@ -7039,6 +7163,110 @@ e_celestia = {
 		capital = c_zhaozhou  #赵州
 		
 		
+	}
+
+	k_yan = {   
+		color = { 79 140 255 } 
+		color2= { 255 255 255 }
+		
+		capital = c_youzhou
+		
+		
+		d_youzhou = {   #幽州
+			color = { 60 60 60 }
+			color2 = { 255 255 255 }
+			
+			capital = c_youzhou
+			
+			c_youzhou = {
+				color = { 60 60 60 }
+				color2 = { 255 255 255 }
+				
+				b_YouzhouJixian = {
+					province = 10606
+					
+					color = { 60 60 60 }
+					color2 = { 255 255 255 }
+				}
+				b_XuanzhouFanyang = {
+					province = 10604
+					
+					color = { 60 60 60 }
+					color2 = { 255 255 255 }
+				}
+				b_Yongnu = {
+					province = 10602
+					
+					color = { 60 60 60 }
+					color2 = { 255 255 255 }
+				}
+				b_ChangdaoLongshan = {
+					province = 10603
+					
+					color = { 60 60 60 }
+					color2 = { 255 255 255 }
+				}
+				b_WeihuaShikubao = {
+					province = 10605
+					
+					color = { 60 60 60 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_guzhu = {   #檀州/带州孤竹
+				color = { 95 90 90 }
+				color2 = { 255 255 255 }
+				
+				b_Guzhu_Juyongguan = {
+					province = 10607
+					
+					color = { 95 90 90 }
+					color2 = { 255 255 255 }
+				}
+				b_Huairou = {
+					province = 10608
+					
+					color = { 95 90 90 }
+					color2 = { 255 255 255 }
+				}
+				b_TanzhouMiyun = {
+					province = 10609
+					
+					color = { 95 90 90 }
+					color2 = { 255 255 255 }
+				}				
+			}
+			c_guizhou_yan = { #妫州
+				color = { 125 115 115 }
+				color2 = { 255 255 255 }
+				
+				b_GuizhouHuairong_Kehanzhou = {
+					province = 10612
+					
+					color = { 125 115 115 }
+					color2 = { 255 255 255 }
+				}
+				b_Zhuolu_Yongxing = {
+					province = 10613
+					
+					color = { 125 115 115 }
+					color2 = { 255 255 255 }
+				}
+				b_Wende_Guihuazhou = {
+					province = 10614
+					
+					color = { 125 115 115 }
+					color2 = { 255 255 255 }
+				}
+				b_Longmen_Wangyun = {
+					province = 10615
+					
+					color = { 125 115 115 }
+					color2 = { 255 255 255 }
+				}
+			}		
+		}
+		
 		d_chengde = {   #成德
 			color = { 200 50 50 }
 			color2 = { 255 255 255 }
@@ -7198,181 +7426,148 @@ e_celestia = {
 			}
 		}
 		
-		d_zelu = {  #泽潞
-			color = { 203 86 66 }
+		d_weibo = { 
+			color = { 155 254 86 }
 			color2 = { 255 255 255 }
 			
-			capital = c_luzhou_jin
+			capital = c_weizhou
 			
-			c_luzhou_jin = { #潞州
-				color = { 203 66 86 }
-				color2 = { 255 255 255 }
-			
-				b_Shangdang = {
-					province = 9756
-					
-					color = { 203 76 76 }
-					color2 = { 255 255 255 }
-					
-				}
-				b_Yaoguling = {
-					province = 9752
-					
-					color = { 203 76 76 }
-					color2 = { 255 255 255 }
-				}
-				b_Xiangyuan = {
-					province = 9753
-					
-					color = { 203 76 76 }
-					color2 = { 255 255 255 }
-				}
-				b_Shexian = {
-					province = 9754
-					
-					color = { 203 76 76 }
-					color2 = { 255 255 255 }
-				}
-				b_Tunliu = {
-					province = 9755
-					
-					color = { 203 76 76 }
-					color2 = { 255 255 255 }
-					
-				}
-			}
-			c_zezhou = { #泽州
-				color = { 195 82 88 }
+			c_weizhou = {
+				color = { 155 254 86 }
 				color2 = { 255 255 255 }
 				
-				b_Zezhou = {  #Jincheng
-					province = 9758
+				b_Weizhou_Yuancheng = {
+					province = 10560
 					
-					color = { 195 82 88 }
+					color = { 155 254 86 }
 					color2 = { 255 255 255 }
 				}
-				b_Changpingguan = {
-					province = 9757
+				b_Guantao = {
+					province = 10561
 					
-					color = { 195 82 88 }
+					color = { 155 254 86 }
 					color2 = { 255 255 255 }
 				}
-				b_Duanshi = {
-					province = 9759
+				b_Changle = {
+					province = 10562
 					
-					color = { 195 82 88 }
+					color = { 155 254 86 }
 					color2 = { 255 255 255 }
 				}
-				b_Yangcheng = {
-					province = 9760
-					
-					color = { 195 82 88 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-	}
+				b_Zhaocheng_Xinxian = {
+					province = 10563
 
-	k_yan = {   
-		color = { 210 110 210 } 
-		color2= { 255 255 255 }
+					color = { 155 254 86 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_chanzhou = { #澶州
+				color = { 160 210 100 }
+				color2 = { 255 255 255 }
+
+				b_Tanyuan = {  #澶渊/顿丘
+					province = 10559
+
+					color = { 155 254 86 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_bozhou_wei = {
+				color = { 160 210 100 }
+				color2 = { 255 255 255 }
+				
+				b_BozhouLiaocheng = {
+					province = 10564
+					
+					color = { 160 210 100 }
+					color2 = { 255 255 255 }
+				}
+				b_Tangyi_Bozhou = {
+					province = 10565
+					
+					color = { 160 210 100 }
+					color2 = { 255 255 255 }
+				}
+				b_Gaotang = {
+					province = 10566
+					
+					color = { 160 210 100 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_beizhou = {
+				color = { 115 195 85 }
+				color2 = { 255 255 255 }
+				
+				b_Wucheng_Beizhou = {
+					province = 10570
+					
+					color = { 115 195 85 }
+					color2 = { 255 255 255 }
+				}
+				b_BeizhouQinghe = {
+					province = 10571
+					
+					color = { 115 195 85 }
+					color2 = { 255 255 255 }
+				}
+				b_Yongjixian = {
+					province = 10572
+					
+					color = { 115 195 85 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+		}
 		
-		capital = c_youzhou
-		
-		
-		d_youzhou = {   #幽州
-			color = { 60 60 60 }
+		d_xiangwei = { 
+			color = { 209 170 75 }
 			color2 = { 255 255 255 }
 			
-			capital = c_youzhou
+			capital = c_weizhou_ji
 			
-			c_youzhou = {
-				color = { 60 60 60 }
+			c_weizhou_ji = {
+				color = { 189 150 55 }
 				color2 = { 255 255 255 }
 				
-				b_YouzhouJixian = {
-					province = 10606
+				b_WeizhouJixian = {
+					province = 10554
 					
-					color = { 60 60 60 }
+					color = { 189 150 55 }
 					color2 = { 255 255 255 }
 				}
-				b_XuanzhouFanyang = {
-					province = 10604
+				b_Gongcheng_Sumenshan = {
+					province = 10553
 					
-					color = { 60 60 60 }
+					color = { 189 150 55 }
 					color2 = { 255 255 255 }
 				}
-				b_Yongnu = {
-					province = 10602
+				b_Liyang_Weixian = {
+					province = 10555
 					
-					color = { 60 60 60 }
+					color = { 189 150 55 }
 					color2 = { 255 255 255 }
 				}
-				b_ChangdaoLongshan = {
-					province = 10603
+				
+			}
+			c_xiangzhou = {
+				color = { 169 150 45 }
+				color2 = { 255 255 255 }
+				
+				b_Xiangzhou_Anyang = {
+					province = 10557
 					
-					color = { 60 60 60 }
+					color = { 169 150 45 }
 					color2 = { 255 255 255 }
 				}
-				b_WeihuaShikubao = {
-					province = 10605
+				b_Linlv = {
+					province = 10556
 					
-					color = { 60 60 60 }
+					color = { 169 150 45 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_guzhu = {   #檀州/带州孤竹
-				color = { 95 90 90 }
-				color2 = { 255 255 255 }
-				
-				b_Guzhu_Juyongguan = {
-					province = 10607
-					
-					color = { 95 90 90 }
-					color2 = { 255 255 255 }
-				}
-				b_Huairou = {
-					province = 10608
-					
-					color = { 95 90 90 }
-					color2 = { 255 255 255 }
-				}
-				b_TanzhouMiyun = {
-					province = 10609
-					
-					color = { 95 90 90 }
-					color2 = { 255 255 255 }
-				}				
-			}
-			c_guizhou_yan = { #妫州
-				color = { 125 115 115 }
-				color2 = { 255 255 255 }
-				
-				b_GuizhouHuairong_Kehanzhou = {
-					province = 10612
-					
-					color = { 125 115 115 }
-					color2 = { 255 255 255 }
-				}
-				b_Zhuolu_Yongxing = {
-					province = 10613
-					
-					color = { 125 115 115 }
-					color2 = { 255 255 255 }
-				}
-				b_Wende_Guihuazhou = {
-					province = 10614
-					
-					color = { 125 115 115 }
-					color2 = { 255 255 255 }
-				}
-				b_Longmen_Wangyun = {
-					province = 10615
-					
-					color = { 125 115 115 }
-					color2 = { 255 255 255 }
-				}
-			}		
 		}
 		
 		d_lulong = {   #卢龙
@@ -7607,196 +7802,6 @@ e_celestia = {
 		capital = c_weizhou
 		
 		
-		d_weibo = { 
-			color = { 155 254 86 }
-			color2 = { 255 255 255 }
-			
-			capital = c_weizhou
-			
-			c_weizhou = {
-				color = { 155 254 86 }
-				color2 = { 255 255 255 }
-				
-				b_Weizhou_Yuancheng = {
-					province = 10560
-					
-					color = { 155 254 86 }
-					color2 = { 255 255 255 }
-				}
-				b_Guantao = {
-					province = 10561
-					
-					color = { 155 254 86 }
-					color2 = { 255 255 255 }
-				}
-				b_Changle = {
-					province = 10562
-					
-					color = { 155 254 86 }
-					color2 = { 255 255 255 }
-				}
-				b_Zhaocheng_Xinxian = {
-					province = 10563
-
-					color = { 155 254 86 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_chanzhou = { #澶州
-				color = { 160 210 100 }
-				color2 = { 255 255 255 }
-
-				b_Tanyuan = {  #澶渊/顿丘
-					province = 10559
-
-					color = { 155 254 86 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_bozhou_wei = {
-				color = { 160 210 100 }
-				color2 = { 255 255 255 }
-				
-				b_BozhouLiaocheng = {
-					province = 10564
-					
-					color = { 160 210 100 }
-					color2 = { 255 255 255 }
-				}
-				b_Tangyi_Bozhou = {
-					province = 10565
-					
-					color = { 160 210 100 }
-					color2 = { 255 255 255 }
-				}
-				b_Gaotang = {
-					province = 10566
-					
-					color = { 160 210 100 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_beizhou = {
-				color = { 115 195 85 }
-				color2 = { 255 255 255 }
-				
-				b_Wucheng_Beizhou = {
-					province = 10570
-					
-					color = { 115 195 85 }
-					color2 = { 255 255 255 }
-				}
-				b_BeizhouQinghe = {
-					province = 10571
-					
-					color = { 115 195 85 }
-					color2 = { 255 255 255 }
-				}
-				b_Yongjixian = {
-					province = 10572
-					
-					color = { 115 195 85 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-		}
-		
-		d_xiangwei = { 
-			color = { 209 170 75 }
-			color2 = { 255 255 255 }
-			
-			capital = c_weizhou_ji
-			
-			c_weizhou_ji = {
-				color = { 189 150 55 }
-				color2 = { 255 255 255 }
-				
-				b_WeizhouJixian = {
-					province = 10554
-					
-					color = { 189 150 55 }
-					color2 = { 255 255 255 }
-				}
-				b_Gongcheng_Sumenshan = {
-					province = 10553
-					
-					color = { 189 150 55 }
-					color2 = { 255 255 255 }
-				}
-				b_Liyang_Weixian = {
-					province = 10555
-					
-					color = { 189 150 55 }
-					color2 = { 255 255 255 }
-				}
-				
-			}
-			c_xiangzhou = {
-				color = { 169 150 45 }
-				color2 = { 255 255 255 }
-				
-				b_Xiangzhou_Anyang = {
-					province = 10557
-					
-					color = { 169 150 45 }
-					color2 = { 255 255 255 }
-				}
-				b_Linlv = {
-					province = 10556
-					
-					color = { 169 150 45 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		d_heyang = {
-			color = { 210 240 20 }
-			color2 = { 255 255 255 }
-			
-			capital = c_mengzhou
-			
-			c_mengzhou = {  #孟州
-				color = { 212 242 22 }
-				color2 = { 255 255 255 }
-				
-				b_Heyang = {
-					province = 10861
-					
-					color = { 212 242 22 }
-					color2 = { 255 255 255 }
-				}
-				b_Yuanxian = {
-					province = 9761
-					
-					color = { 212 242 22 }
-					color2 = { 255 255 255 }
-				}
-				b_Wangwu = {
-					province = 10052
-					
-					color = { 212 242 22 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_huaizhou_zhou = { #怀州
-				color = { 214 245 18 }
-				color2 = { 255 255 255 }
-				
-				b_Henei_Huaizhou = {
-					province = 10057
-					
-					color = { 214 245 18 }
-					color2 = { 255 255 255 }
-				}
-				b_Wuzhi = {
-					province = 10058
-					
-					color = { 214 245 18 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
     }
 
 
@@ -8017,6 +8022,80 @@ e_celestia = {
 					color2 = { 255 255 255 }
 				}
 			}		
+		}
+		
+		d_zelu = {  #泽潞
+			color = { 203 86 66 }
+			color2 = { 255 255 255 }
+			
+			capital = c_luzhou_jin
+			
+			c_luzhou_jin = { #潞州
+				color = { 203 66 86 }
+				color2 = { 255 255 255 }
+			
+				b_Shangdang = {
+					province = 9756
+					
+					color = { 203 76 76 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_Yaoguling = {
+					province = 9752
+					
+					color = { 203 76 76 }
+					color2 = { 255 255 255 }
+				}
+				b_Xiangyuan = {
+					province = 9753
+					
+					color = { 203 76 76 }
+					color2 = { 255 255 255 }
+				}
+				b_Shexian = {
+					province = 9754
+					
+					color = { 203 76 76 }
+					color2 = { 255 255 255 }
+				}
+				b_Tunliu = {
+					province = 9755
+					
+					color = { 203 76 76 }
+					color2 = { 255 255 255 }
+					
+				}
+			}
+			c_zezhou = { #泽州
+				color = { 195 82 88 }
+				color2 = { 255 255 255 }
+				
+				b_Zezhou = {  #Jincheng
+					province = 9758
+					
+					color = { 195 82 88 }
+					color2 = { 255 255 255 }
+				}
+				b_Changpingguan = {
+					province = 9757
+					
+					color = { 195 82 88 }
+					color2 = { 255 255 255 }
+				}
+				b_Duanshi = {
+					province = 9759
+					
+					color = { 195 82 88 }
+					color2 = { 255 255 255 }
+				}
+				b_Yangcheng = {
+					province = 9760
+					
+					color = { 195 82 88 }
+					color2 = { 255 255 255 }
+				}
+			}
 		}
 		
 		d_yunzhong = {  #云中
@@ -9180,7 +9259,7 @@ e_celestia = {
 
 
 	k_shu = {  
-		color = { 104 109 50 }
+		color = { 229 164 24 }
 		color2 = { 255 255 255 }
 		
 		capital = c_chengdu
@@ -9748,7 +9827,7 @@ e_celestia = {
 	}
 
 	k_han = {
-		color = { 250 200 90 }
+		color = { 52 136 156 }
 		color2 = { 255 255 255 }
 
 		capital = c_nanzheng
@@ -10189,7 +10268,7 @@ e_celestia = {
 		color2 = { 255 255 255 }
 		
 		capital	= c_luoyang
-
+		
 		d_heluo = {  #河洛/东都
 			color = { 230 240 40 }
 			color2 = { 255 255 255 }
@@ -10324,6 +10403,54 @@ e_celestia = {
 				}
 			}
 		}
+		
+		d_heyang = {
+			color = { 210 240 20 }
+			color2 = { 255 255 255 }
+			
+			capital = c_mengzhou
+			
+			c_mengzhou = {  #孟州
+				color = { 212 242 22 }
+				color2 = { 255 255 255 }
+				
+				b_Heyang = {
+					province = 10861
+					
+					color = { 212 242 22 }
+					color2 = { 255 255 255 }
+				}
+				b_Yuanxian = {
+					province = 9761
+					
+					color = { 212 242 22 }
+					color2 = { 255 255 255 }
+				}
+				b_Wangwu = {
+					province = 10052
+					
+					color = { 212 242 22 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_huaizhou_zhou = { #怀州
+				color = { 214 245 18 }
+				color2 = { 255 255 255 }
+				
+				b_Henei_Huaizhou = {
+					province = 10057
+					
+					color = { 214 245 18 }
+					color2 = { 255 255 255 }
+				}
+				b_Wuzhi = {
+					province = 10058
+					
+					color = { 214 245 18 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
 
 		d_shaanguo = {  #陕虢观察使
 			color = { 220 230 30 }
@@ -10372,6 +10499,97 @@ e_celestia = {
 				}
 			}
 		}
+
+	}
+
+	k_liang = { 
+		color = { 132 235 75 }
+		color2 = { 255 255 255 }
+		
+		capital = c_bianzhou
+		
+	}
+
+
+	k_qi = {  
+		color = { 49 110 230 }
+		color2 = { 255 255 255 }
+		
+		capital = c_qingzhou_qi
+		
+		d_ziqing = {
+			color = { 70 170 200 }
+			color2 = { 255 255 255 }
+			
+			capital = c_qingzhou_qi
+
+			c_qingzhou_qi = { #青州
+				color = { 76 176 205 }
+				color2 = { 255 255 255 }
+			
+				b_Qingzhou_Yidu = {
+					province = 10108
+
+					color = { 76 176 205 }
+					color2 = { 255 255 255 }
+				}
+				b_Beihai = {
+					province = 10109
+
+					color = { 76 176 205 }
+					color2 = { 255 255 255 }
+				}
+				b_Linqu_Qingzhou = {
+					province = 10110
+
+					color = { 76 176 205 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_zibo = {  #淄州
+				color = { 73 173 203 }
+				color2 = { 255 255 255 }
+			
+				b_Zizhou_Zichuan = {
+					province = 10106
+
+					color = { 73 173 203 }
+					color2 = { 255 255 255 }
+				}
+				b_Zouping = {
+					province = 10105
+
+					color = { 73 173 203 }
+					color2 = { 255 255 255 }
+				}
+				b_Linzi = {
+					province = 10107
+
+					color = { 73 173 203 }
+					color2 = { 255 255 255 }
+				}
+			}
+
+			c_qizhou_qi = {  #齐州
+				color = { 79 171 209 }
+				color2 = { 255 255 255 }
+			
+				b_Qizhou_Licheng = {
+					province = 10104
+
+					color = { 79 171 209 }
+					color2 = { 255 255 255 }
+				}
+				b_Linji = {
+					province = 10103
+
+					color = { 79 171 209 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
 		
 		d_zhenghua = {  #郑滑/义成
 			color = { 240 250 50 }
@@ -10517,13 +10735,6 @@ e_celestia = {
 				}
 			}
 		}
-	}
-
-	k_liang = { 
-		color = { 132 235 75 }
-		color2 = { 255 255 255 }
-		
-		capital = c_bianzhou
 		
 		d_biansong = {  #汴宋
 			color = { 208 240 15 }
@@ -10790,87 +11001,6 @@ e_celestia = {
 					color = { 200 190 0 }
 					color2 = { 255 255 255 }
 					
-				}
-			}
-		}
-	}
-
-
-	k_qi = {  
-		color = { 49 110 230 }
-		color2 = { 255 255 255 }
-		
-		capital = c_qingzhou_qi
-		
-		d_ziqing = {
-			color = { 70 170 200 }
-			color2 = { 255 255 255 }
-			
-			capital = c_qingzhou_qi
-
-			c_qingzhou_qi = { #青州
-				color = { 76 176 205 }
-				color2 = { 255 255 255 }
-			
-				b_Qingzhou_Yidu = {
-					province = 10108
-
-					color = { 76 176 205 }
-					color2 = { 255 255 255 }
-				}
-				b_Beihai = {
-					province = 10109
-
-					color = { 76 176 205 }
-					color2 = { 255 255 255 }
-				}
-				b_Linqu_Qingzhou = {
-					province = 10110
-
-					color = { 76 176 205 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
-			c_zibo = {  #淄州
-				color = { 73 173 203 }
-				color2 = { 255 255 255 }
-			
-				b_Zizhou_Zichuan = {
-					province = 10106
-
-					color = { 73 173 203 }
-					color2 = { 255 255 255 }
-				}
-				b_Zouping = {
-					province = 10105
-
-					color = { 73 173 203 }
-					color2 = { 255 255 255 }
-				}
-				b_Linzi = {
-					province = 10107
-
-					color = { 73 173 203 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_qizhou_qi = {  #齐州
-				color = { 79 171 209 }
-				color2 = { 255 255 255 }
-			
-				b_Qizhou_Licheng = {
-					province = 10104
-
-					color = { 79 171 209 }
-					color2 = { 255 255 255 }
-				}
-				b_Linji = {
-					province = 10103
-
-					color = { 79 171 209 }
-					color2 = { 255 255 255 }
 				}
 			}
 		}
@@ -11539,177 +11669,6 @@ e_celestia = {
 			}
 		}
 		
-		d_hunan = {  #湖南
-			color = { 110 195 110 }
-			color2 = { 255 255 255 }
-			
-			capital = c_changsha
-			
-			c_changsha = {
-				color = { 113 195 113 }
-				color2 = { 255 255 255 }
-			
-				b_Changsha_Tanzhou = {
-					province = 10283
-
-					color = { 113 195 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Yiyang_Tanzhou = {
-					province = 10282
-
-					color = { 113 195 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Liuyang = {
-					province = 10284
-
-					color = { 113 195 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Xiangxiang = {
-					province = 10285
-
-					color = { 113 195 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Liling = {
-					province = 10286
-
-					color = { 113 195 113 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_hengshan = { #衡州
-				color = { 116 197 110 }
-				color2 = { 255 255 255 }
-			
-				b_Hengyang_Hengzhou = {
-					province = 10288
-
-					color = { 116 197 110 }
-					color2 = { 255 255 255 }
-				}
-				b_Hengshan_Xiangtan = {
-					province = 10287
-
-					color = { 116 197 110 }
-					color2 = { 255 255 255 }
-				}
-				b_Chaling_Youxian = {
-					province = 10289
-
-					color = { 116 197 110 }
-					color2 = { 255 255 255 }
-				}
-				b_Leiyang = {
-					province = 10290
-
-					color = { 116 197 110 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_chenzhou_hunan = {  #郴州
-				color = { 119 199 113 }
-				color2 = { 255 255 255 }
-			
-				b_Chenzhou_Chenxian = {
-					province = 10291
-					color = { 119 199 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Rucheng_Luyang = {
-					province = 10292
-					color = { 119 199 113 }
-					color2 = { 255 255 255 }
-				}
-				b_Guiyang_Pingyang = {
-					province = 10293
-					color = { 119 199 113 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_lianzhou = { #连州
-				color = { 21 212 208 }
-				color2 = { 255 255 255 }
-			
-				b_Lianzhou_Guiyang = {
-					province = 10294
-
-					color = { 21 212 208 }
-					color2 = { 255 255 255 }
-				}
-				b_Lianshan = {
-					province = 10295
-
-					color = { 21 212 208 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_daozhou = {  #道州
-				color = { 23 215 213 }
-				color2 = { 255 255 255 }
-			
-				b_Yingdao_Daozhou = {
-					province = 10297
-
-					color = { 23 215 213 }
-					color2 = { 255 255 255 }
-				}
-				b_Jianghua_Mengzhuqiao = {
-					province = 10296
-
-					color = { 23 215 213 }
-					color2 = { 255 255 255 }
-				}
-				b_Dalixian_Ningyuan = {
-					province = 10298
-
-					color = { 23 215 213 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_yongzhou_hunan = {  #永州
-				color = { 15 212 215 }
-				color2 = { 255 255 255 }
-			
-				b_Yongzhou_Lingling = {
-					province = 10299
-
-					color = { 15 212 215 }
-					color2 = { 255 255 255 }
-				}
-				b_Guanyang_Quanzhou = {
-					province = 10300
-
-					color = { 15 212 215 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_shaozhou_hunan = { #邵州
-				color = { 21 205 211 }
-				color2 = { 255 255 255 }
-			
-				b_Shaozhou_Shaoyang = {
-					province = 10302
-
-					color = { 21 205 211 }
-					color2 = { 255 255 255 }
-				}
-				b_Wugang_Chengbu = {
-					province = 10301
-
-					color = { 21 205 211 }
-					color2 = { 255 255 255 }
-				}
-				b_Longhuiguan = {
-					province = 10303
-
-					color = { 21 205 211 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
 	}
 
 	k_wu = {  
@@ -11936,113 +11895,182 @@ e_celestia = {
 				}
 			}
 		}
+
+	}
+	
+	k_nanping = {
+		color = { 255 255 38 }
+		color2 = { 255 255 255 }
 		
-		d_zhenhai = {  #镇海
-			color = { 245 80 5 }
+		capital = c_changsha
+		
+		d_hunan = {  #湖南
+			color = { 110 195 110 }
 			color2 = { 255 255 255 }
 			
-			capital = c_suzhou_wu
+			capital = c_changsha
 			
-			c_suzhou_wu = {  #苏州
-				color = { 243 82 7 }
+			c_changsha = {
+				color = { 113 195 113 }
 				color2 = { 255 255 255 }
 			
-				b_Suzhou_Wuxian = {
-					province = 10183
+				b_Changsha_Tanzhou = {
+					province = 10283
 
-					color = { 243 82 7 }
+					color = { 113 195 113 }
 					color2 = { 255 255 255 }
 				}
-				b_Changshu = { 
-					province = 10181
+				b_Yiyang_Tanzhou = {
+					province = 10282
 
-					color = { 243 82 7 }
+					color = { 113 195 113 }
 					color2 = { 255 255 255 }
 				}
-				b_Jiaxing_Haiyan = {
-					province = 10184
+				b_Liuyang = {
+					province = 10284
 
-					color = { 235 105 1 }
+					color = { 113 195 113 }
 					color2 = { 255 255 255 }
 				}
-				b_Huating_Kunshan = {
-					province = 10185
+				b_Xiangxiang = {
+					province = 10285
 
-					color = { 235 105 1 }
+					color = { 113 195 113 }
+					color2 = { 255 255 255 }
+				}
+				b_Liling = {
+					province = 10286
+
+					color = { 113 195 113 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_jinling = {  #建邺/金陵
-				color = { 245 84 10 }
+			c_hengshan = { #衡州
+				color = { 116 197 110 }
 				color2 = { 255 255 255 }
 			
-				b_Jiangning_Jianye = {
-					province = 10175
+				b_Hengyang_Hengzhou = {
+					province = 10288
 
-					color = { 245 84 10 }
+					color = { 116 197 110 }
 					color2 = { 255 255 255 }
 				}
-				b_Gourong = {
-					province = 10176
+				b_Hengshan_Xiangtan = {
+					province = 10287
 
-					color = { 245 84 10 }
+					color = { 116 197 110 }
+					color2 = { 255 255 255 }
+				}
+				b_Chaling_Youxian = {
+					province = 10289
+
+					color = { 116 197 110 }
+					color2 = { 255 255 255 }
+				}
+				b_Leiyang = {
+					province = 10290
+
+					color = { 116 197 110 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_runzhou = {  #润州
-				color = { 248 87 8 }
+			c_chenzhou_hunan = {  #郴州
+				color = { 119 199 113 }
 				color2 = { 255 255 255 }
 			
-				b_Dantu_Runzhou = {
-					province = 10177
-
-					color = { 248 87 8 }
+				b_Chenzhou_Chenxian = {
+					province = 10291
+					color = { 119 199 113 }
 					color2 = { 255 255 255 }
 				}
-				b_Maoshan = {
-					province = 10178
-
-					color = { 248 87 8 }
+				b_Rucheng_Luyang = {
+					province = 10292
+					color = { 119 199 113 }
+					color2 = { 255 255 255 }
+				}
+				b_Guiyang_Pingyang = {
+					province = 10293
+					color = { 119 199 113 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_changzhou = {  #常州
-				color = { 116 62 79 }
+			c_lianzhou = { #连州
+				color = { 21 212 208 }
 				color2 = { 255 255 255 }
 			
-				b_Changzhou_Jinling = {
-					province = 10179
+				b_Lianzhou_Guiyang = {
+					province = 10294
 
-					color = { 187 23 82 }
+					color = { 21 212 208 }
 					color2 = { 255 255 255 }
 				}
-				b_Jiangyin_Junshan = {
-					province = 10180
+				b_Lianshan = {
+					province = 10295
 
-					color = { 187 23 82 }
-					color2 = { 255 255 255 }
-				}
-				b_Wuxi = {
-					province = 10182
-
-					color = { 187 23 82 }
+					color = { 21 212 208 }
 					color2 = { 255 255 255 }
 				}
 			}
-			c_huzhou_wu = {  #湖州
-				color = { 106 72 79 }
+			c_daozhou = {  #道州
+				color = { 23 215 213 }
 				color2 = { 255 255 255 }
 			
-				b_Huzhou_Wucheng = {
-					province = 10186
+				b_Yingdao_Daozhou = {
+					province = 10297
 
-					color = { 189 25 84 }
+					color = { 23 215 213 }
 					color2 = { 255 255 255 }
 				}
-				b_Deqing_Wukang = {
-					province = 10187
+				b_Jianghua_Mengzhuqiao = {
+					province = 10296
 
-					color = { 189 25 84 }
+					color = { 23 215 213 }
+					color2 = { 255 255 255 }
+				}
+				b_Dalixian_Ningyuan = {
+					province = 10298
+
+					color = { 23 215 213 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_yongzhou_hunan = {  #永州
+				color = { 15 212 215 }
+				color2 = { 255 255 255 }
+			
+				b_Yongzhou_Lingling = {
+					province = 10299
+
+					color = { 15 212 215 }
+					color2 = { 255 255 255 }
+				}
+				b_Guanyang_Quanzhou = {
+					province = 10300
+
+					color = { 15 212 215 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_shaozhou_hunan = { #邵州
+				color = { 21 205 211 }
+				color2 = { 255 255 255 }
+			
+				b_Shaozhou_Shaoyang = {
+					province = 10302
+
+					color = { 21 205 211 }
+					color2 = { 255 255 255 }
+				}
+				b_Wugang_Chengbu = {
+					province = 10301
+
+					color = { 21 205 211 }
+					color2 = { 255 255 255 }
+				}
+				b_Longhuiguan = {
+					province = 10303
+
+					color = { 21 205 211 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -12147,7 +12175,7 @@ e_celestia = {
 				}
 			}
 		}
-
+		
 		d_jiangxi = {  #江西/豫章
 			color = { 186 32 79 }
 			color2 = { 255 255 255 }
@@ -12371,8 +12399,8 @@ e_celestia = {
 				}
 			}
 		}
+		
 	}
-
 
 	k_yue = { 
 		color = { 222 222 8 }
@@ -12469,6 +12497,117 @@ e_celestia = {
 					province = 10214
 
 					color = { 172 109 62 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_zhenhai = {  #镇海
+			color = { 245 80 5 }
+			color2 = { 255 255 255 }
+			
+			capital = c_suzhou_wu
+			
+			c_suzhou_wu = {  #苏州
+				color = { 243 82 7 }
+				color2 = { 255 255 255 }
+			
+				b_Suzhou_Wuxian = {
+					province = 10183
+
+					color = { 243 82 7 }
+					color2 = { 255 255 255 }
+				}
+				b_Changshu = { 
+					province = 10181
+
+					color = { 243 82 7 }
+					color2 = { 255 255 255 }
+				}
+				b_Jiaxing_Haiyan = {
+					province = 10184
+
+					color = { 235 105 1 }
+					color2 = { 255 255 255 }
+				}
+				b_Huating_Kunshan = {
+					province = 10185
+
+					color = { 235 105 1 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_jinling = {  #建邺/金陵
+				color = { 245 84 10 }
+				color2 = { 255 255 255 }
+			
+				b_Jiangning_Jianye = {
+					province = 10175
+
+					color = { 245 84 10 }
+					color2 = { 255 255 255 }
+				}
+				b_Gourong = {
+					province = 10176
+
+					color = { 245 84 10 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_runzhou = {  #润州
+				color = { 248 87 8 }
+				color2 = { 255 255 255 }
+			
+				b_Dantu_Runzhou = {
+					province = 10177
+
+					color = { 248 87 8 }
+					color2 = { 255 255 255 }
+				}
+				b_Maoshan = {
+					province = 10178
+
+					color = { 248 87 8 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_changzhou = {  #常州
+				color = { 116 62 79 }
+				color2 = { 255 255 255 }
+			
+				b_Changzhou_Jinling = {
+					province = 10179
+
+					color = { 187 23 82 }
+					color2 = { 255 255 255 }
+				}
+				b_Jiangyin_Junshan = {
+					province = 10180
+
+					color = { 187 23 82 }
+					color2 = { 255 255 255 }
+				}
+				b_Wuxi = {
+					province = 10182
+
+					color = { 187 23 82 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_huzhou_wu = {  #湖州
+				color = { 106 72 79 }
+				color2 = { 255 255 255 }
+			
+				b_Huzhou_Wucheng = {
+					province = 10186
+
+					color = { 189 25 84 }
+					color2 = { 255 255 255 }
+				}
+				b_Deqing_Wukang = {
+					province = 10187
+
+					color = { 189 25 84 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -12766,22 +12905,33 @@ e_celestia = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_gaozhou = { #高州
+				color = { 202 52 82 }
+				color2 = { 255 255 255 }
+				
+				b_Gaozhou_Dianbai = {
+					province = 10382
+					
+					color = { 202 52 82 }
+					color2 = { 255 255 255 }
+				}
+				b_Huazhou_Shilong = {
+					province = 10383
+					
+					color = { 202 52 82 }
+					color2 = { 255 255 255 }
+				}
+				b_Leizhou_Haikang = {
+					province = 10384
+					
+					color = { 202 52 82 }
+					color2 = { 255 255 255 }
+				}
+			}	
 			c_changwu = { #梧州/贺州
 				color = { 66 55 10 }
 				color2= { 255 255 255 }
 				
-				b_Zhaozhou_Pingle = {
-					province = 10398
-				
-					color = { 83 61 5 }
-					color2= { 255 255 255 }
-				}
-				b_Hezhou_Linhe = {
-					province = 10376
-				
-					color = { 66 55 10 }
-					color2= { 255 255 255 }
-				}
 				b_Huaiji_Sihui = {
 					province = 10375
 
@@ -12826,12 +12976,6 @@ e_celestia = {
 					province = 10374
 				
 					color = { 205 200 95 }
-					color2= { 255 255 255 }
-				}
-				b_Wuzhou_Cangwu = {
-					province = 10378
-				
-					color = { 66 55 10 }
 					color2= { 255 255 255 }
 				}
 				b_Fengzhou_Fengchuan = {
@@ -12955,6 +13099,7 @@ e_celestia = {
 				}
 			}
 		}
+    
 
 		d_qiongya = {  #琼崖
 			color = { 200 50 80 }
@@ -12993,82 +13138,6 @@ e_celestia = {
 			}
 		}
 
-		d_hepu = {  #合浦
-			color = { 99 81 17 }
-			color2= { 255 255 255 }
-			
-			capital = c_gaozhou
-			
-			c_gaozhou = { #高州
-				color = { 202 52 82 }
-				color2 = { 255 255 255 }
-				
-				b_Gaozhou_Dianbai = {
-					province = 10382
-					
-					color = { 202 52 82 }
-					color2 = { 255 255 255 }
-				}
-				b_Huazhou_Shilong = {
-					province = 10383
-					
-					color = { 202 52 82 }
-					color2 = { 255 255 255 }
-				}
-				b_Leizhou_Haikang = {
-					province = 10384
-					
-					color = { 202 52 82 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_lianzhou_gui = { #廉州
-				color = { 69 59 15 }
-				color2= { 255 255 255 }
-
-				b_Lianzhou_Hepu = { #合浦+蔡龙
-					province = 10389
-				
-					color = { 151 118 30 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_qinzhou_gui = {  #钦州
-				color = { 54 25 8 }
-				color2= { 255 255 255 }
-				
-				b_Qinzhou_Qinjiang = {
-					province = 10390
-				
-					color = { 54 25 8 }
-					color2= { 255 255 255 }
-				}
-				b_Nanbin_Lingshan = {
-					province = 10862
-				
-					color = { 54 25 8 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_luzhou_annan = {  #陆州
-				color = { 96 52 80 }
-				color2 = { 255 255 255 }
-			
-				b_Luzhou_Wulei = {
-					province = 10427
-
-					color = { 96 52 80 }
-					color2 = { 255 255 255 }
-				}
-				b_Sumaozhou = {
-					province = 10423
-
-					color = { 96 52 80 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-
 		d_rongguan = {  #容管经略使
 			color = { 143 92 21 }
 			color2= { 255 255 255 }
@@ -13098,12 +13167,65 @@ e_celestia = {
 					color2= { 255 255 255 }
 				}
 			}
+			c_binzhou_gui = {  #宾州
+				color = { 100 44 16 }
+				color2= { 255 255 255 }
+				
+				b_Binzhou_Lingfang = {
+					province = 10401
+				
+					color = { 100 44 16 }
+					color2= { 255 255 255 }
+				}
+				b_Nanbin_Lingshan = {
+					province = 10862
+				
+					color = { 54 25 8 }
+					color2= { 255 255 255 }
+				}
+				b_Hengzhou_Ningpu = {
+					province = 10409
+				
+					color = { 100 44 16 }
+					color2= { 255 255 255 }
+				}
+			}
+			c_zhaozhou_gui = {
+				color = { 96 85 70 }
+				color2= { 255 255 255 }
+				
+				b_Zhaozhou_Pingle = {
+					province = 10398
+				
+					color = { 83 61 5 }
+					color2= { 255 255 255 }
+				}
+				b_Wuzhou_Cangwu = {
+					province = 10378
+				
+					color = { 66 55 10 }
+					color2= { 255 255 255 }
+				}
+				b_Hezhou_Linhe = {
+					province = 10376
+				
+					color = { 66 55 10 }
+					color2= { 255 255 255 }
+				}
+				
+			}
 			c_yulinzhou = {  #郁林州
 				color = { 151 118 30 }
 				color2= { 255 255 255 }
 				
 				b_Yulinzhou = {
 					province = 10392
+				
+					color = { 151 118 30 }
+					color2= { 255 255 255 }
+				}
+				b_Lianzhou_Hepu = { #合浦+蔡龙
+					province = 10389
 				
 					color = { 151 118 30 }
 					color2= { 255 255 255 }
@@ -13211,122 +13333,6 @@ e_celestia = {
 			}
 		}
 
-		d_yongguan = {  #邕管
-			color = { 110 65 29 }
-			color2= { 255 255 255 }
-			
-			capital = c_nanning
-			
-			c_nanning = {  #邕州
-				color = { 85 50 22 }
-				color2= { 255 255 255 }
-				
-				b_Yongzhou_Nanning = {
-					province = 10410
-				
-					color = { 85 50 22 }
-					color2= { 255 255 255 }
-				}
-				b_Sitong_Zuozhou = {
-					province = 10415
-				
-					color = { 85 50 22 }
-					color2= { 255 255 255 }
-				}
-				b_Wuming_Wandezhou = {
-					province = 10414
-				
-					color = { 85 50 22 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_binzhou_gui = {  #宾州
-				color = { 100 44 16 }
-				color2= { 255 255 255 }
-				
-				b_Binzhou_Lingfang = {
-					province = 10401
-				
-					color = { 100 44 16 }
-					color2= { 255 255 255 }
-				}
-				b_Hengzhou_Ningpu = {
-					province = 10409
-				
-					color = { 100 44 16 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_luolong = { #罗龙
-				color = { 176 102 16 }
-				color2= { 255 255 255 }
-				
-				b_Luolong_Wuqin = {
-					province = 10412
-				
-					color = { 176 102 16 }
-					color2= { 255 255 255 }
-				}
-				b_Shangsizhou_Rangzhou = {
-					province = 10411
-				
-					color = { 176 102 16 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_baise = {  #田州
-				color = { 202 125 19 }
-				color2= { 255 255 255 }
-				
-				b_Tianzhou_Baise = {
-					province = 10417
-				
-					color = { 202 125 19 }
-					color2= { 255 255 255 }
-				}
-				b_Bama = {
-					province = 10416
-				
-					color = { 202 125 19 }
-					color2= { 255 255 255 }
-				}
-				b_Sicheng_Guilezhou= {
-					province = 10418
-				
-					color = { 202 125 19 }
-					color2= { 255 255 255 }
-				}
-				b_Houzhou_Lunzhou= {
-					province = 10419
-				
-					color = { 202 125 19 }
-					color2= { 255 255 255 }
-				}
-			}
-			c_jinlongzhou = {  #金龙州
-				color = { 66 36 87 }
-				color2 = { 255 255 255 }
-			
-				b_Jinlongzhou_Guangyuanzhou = {
-					province = 10421
-
-					color = { 66 36 87 }
-					color2 = { 255 255 255 }
-				}
-				b_Simingzhou_Shixizhou = {
-					province = 10413
-				
-					color = { 176 102 16 }
-					color2= { 255 255 255 }
-				}
-				b_Napo = {
-					province = 10420
-
-					color = { 66 36 87 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
 	}
 	k_xia = { # Minya/Minyak
 		color = { 110 90 230 }

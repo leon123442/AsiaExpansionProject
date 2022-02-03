@@ -553,7 +553,7 @@
 #b_Bazhou_Damu
 9973 = {
 	culture = ba_shu
-	religion = hmong
+	religion = shangqing
 	holding = castle_holding	
 }
 #b_Jizhou_Nanjiang
@@ -607,7 +607,7 @@
 #b_Pengzhou_Dayin
 9974 = {
 	culture = ba_shu
-	religion = hmong
+	religion = shangqing
 	holding = castle_holding	
 }
 #b_Quzhou_Liujiang
@@ -676,7 +676,7 @@
 #b_Fuling
 9983 = {
 	culture = han
-	religion = hmong
+	religion = shangqing
 	holding = castle_holding	
 }
 #b_Wulong
@@ -702,7 +702,7 @@
 #b_Zhongzhou_Linjiang
 9987 = {
 	culture = han
-	religion = hmong
+	religion = shangqing
 	holding = castle_holding	
 }
 #b_Fengdu

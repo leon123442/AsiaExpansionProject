@@ -73,7 +73,7 @@
 7456 = {	# 7456 - Turpan
 	
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = city_holding
@@ -88,7 +88,7 @@
 7457 = {	# 7457 - Yidu
 	
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = none
@@ -133,7 +133,7 @@
 7460 = {	# 7460 - Fukang
 	
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = none
@@ -178,7 +178,7 @@
 7463 = {	# 7463 - Beilu
 	
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = none
@@ -304,7 +304,7 @@
 7472 = {	# 7472 - Yizhi
 	
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = none

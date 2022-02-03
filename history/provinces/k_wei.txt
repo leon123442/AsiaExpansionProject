@@ -3,7 +3,7 @@
 #c_weizhou
 #b_Weizhou_Yuancheng
 10560 = {
-    culture = hebei
+    culture = han
 	religion = mazdayasna
 	holding = castle_holding	
 }
@@ -28,7 +28,7 @@
 #c_chanzhou
 #b_Tanyuan
 10559 = {
-    culture = hebei
+    culture = han
 	religion = mazdayasna
 	holding = castle_holding
 }
@@ -36,7 +36,7 @@
 #c_bozhou_wei
 #b_BozhouLiaocheng
 10564 = {
-    culture = hebei
+    culture = han
 	religion = mazdayasna
 	holding = castle_holding	
 }
@@ -56,7 +56,7 @@
 #c_beizhou
 #b_Wucheng_Beizhou
 10570 = {
-    culture = hebei
+    culture = han
 	religion = mazdayasna
 	holding = castle_holding	
 }

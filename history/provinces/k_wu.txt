@@ -127,7 +127,7 @@
 #b_Guangzhou_Dingcheng
 10146 = {
     culture = han
-	religion = taiping 
+	religion = shangqing 
 	holding = castle_holding
 }
 #b_Yincheng_Gushi 
@@ -326,7 +326,7 @@
 #b_Guangde_Suian 
 10235 = {
     culture = han
-	religion = pagan 
+	religion = shangqing
 	holding = castle_holding
 	1066.1.1 = { 
 		religion = lixue
@@ -440,7 +440,7 @@
  
 	holding = none
 }
-#b_Nanfeng_TaipingSilver 
+#b_Nanfeng_shangqingSilver 
 10255 = {
  
 	holding = church_holding
@@ -455,7 +455,7 @@
 #b_Yichun_Yuanzhou 
 10259 = {
     culture = yao
-	religion = pagan 
+	religion = hmong
 	holding = tribal_holding
 }
 #b_Xinyu_Yuanzhou 
@@ -468,7 +468,7 @@
 #b_Luling_Jizhou 
 10260 = {
     culture = han
-	religion = pagan 
+	religion = zenzong
 	holding = tribal_holding
 }
 #b_Xingan_Qingjiang 
@@ -496,7 +496,7 @@
 #b_Qianhua 
 10264 = {
     culture = sheren
-	religion = pagan
+	religion = hmong
 	holding = tribal_holding
 }
 #b_Yudu_Ruijin 

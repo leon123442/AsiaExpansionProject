@@ -37,7 +37,7 @@
 #b_Longzhouqianyuan
 9813 = {
     culture = han
-	religion = zenzong
+	religion = nestorian
 	holding = castle_holding	
 }
 #b_Huating
