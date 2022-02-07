@@ -162,7 +162,7 @@
 #b_Yizhou_Linyi
 10120 = {
 	culture = han
-	religion = taiping
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Mulingguan_Yishui
@@ -182,7 +182,7 @@
 #b_Haizhou_Qushan
 10131 = {
 	culture = han
-	religion = taiping
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Yuzhou_Donghai

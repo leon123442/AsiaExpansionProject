@@ -50,7 +50,7 @@
 #c_beiliuqiu
 #b_beiliuqiu
 10922 = {
-	culture = siwaish
+	culture = sirayic
 	religion = pagan
 	holding = tribal_holding
 }
@@ -101,7 +101,7 @@
 #c_paiwan
 #b_paiwan
 11984 = {
-	culture = siwaish
+	culture = paiwanese
 	religion = pagan
 	holding = tribal_holding
 }
@@ -113,7 +113,7 @@
 #c_amisguo
 #b_north_amisa
 11986 = {
-	culture = siwaish
+	culture = sirayic
 	religion = pagan
 	holding = tribal_holding
 }

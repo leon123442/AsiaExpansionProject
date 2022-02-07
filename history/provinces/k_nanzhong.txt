@@ -53,7 +53,7 @@
 #c_temo
 #b_Temo_Guangnan
 10454 = {
-    culture = pu
+    culture = tay
 	religion = hmong
 	holding = tribal_holding
 }

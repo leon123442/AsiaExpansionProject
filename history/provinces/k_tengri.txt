@@ -130,7 +130,7 @@
 #c_ordos
 #b_Ordos
 9766 = {
-	culture = tuyuhun
+	culture = tangut
 	religion = vajrayana
 	holding = tribal_holding
 }
@@ -182,9 +182,10 @@
 	# History
 	800.1.1 = {
 
-		culture = ongud
+		culture = shatuo
 		religion = nestorian	
 	}
+	900.1.1 = { culture = ongud }
 	1050.1.1 = {
 
 		holding = castle_holding
@@ -207,18 +208,13 @@
 ###c_wuda
 9542 = {	# Wuda/Ud
 	# Misc
-	culture = shatuo
-	religion = tengri_pagan
+	culture = tangut
+	religion = melieism
 	holding = castle_holding
 	# History
 	800.1.1 = {
 		holding = castle_holding
 	}
-	1002.1.1 = {
-
-		culture = tangut
-		religion = melieism
-	} #Lingzhou/Lingwu area captured by Tanguts
 	1050.1.1 = {
 
 		holding = castle_holding

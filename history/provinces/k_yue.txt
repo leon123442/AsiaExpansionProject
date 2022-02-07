@@ -209,7 +209,7 @@
 #b_Quanzhou_Jinjiang 
 10226 = {
     culture = min
-	religion = pagan
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Putian 
@@ -223,7 +223,7 @@
 #b_Zhangzhou_Zhangpu 
 10228 = {
     culture = min
-	religion = pagan
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Longxi_Zhangzhou 
@@ -237,7 +237,7 @@
 #b_Jianzhou_Jianou 
 10218 = {
     culture = sheren
-	religion = pagan
+	religion = hmong
 	holding = castle_holding 
 }
 #b_Tangxing_Pucheng 
@@ -263,7 +263,7 @@
 #b_Tingzhou_Changting 
 10231 = {
     culture = sheren
-	religion = pagan
+	religion = hmong
 	holding = castle_holding 
 }
 #b_Huanglian_Jiulongxi 

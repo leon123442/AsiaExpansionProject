@@ -1,0 +1,103 @@
+5100100 = {
+	name = Pian #Zhenhai Circuit, Huainan
+	dynasty = 80000100 #Gao
+	religion = shangqing
+	culture = han 
+	821.1.1 = {
+		birth = yes
+	}
+	886.9.9 = {
+		death = yes
+	}
+}
+
+5100101 = {
+	name = Neng #Henan Circuit
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	823.1.1 = {
+		birth = yes
+	}
+	880.9.9 = {
+		death = yes
+	}
+}
+
+5100102 = {
+	name = Zongquan #Zhongwu Circuit, Henan
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	889.4.4 = {
+		death = yes
+	}
+}
+
+5100103 = {
+	name = Chong #Tianping Circuit, Henan
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	875.9.9 = {
+		death = yes
+	}
+}
+
+5100104 = {
+	name = Fang #Yicheng Circuit, Henan
+	dynasty = 80000103 #Xiao
+	religion = shangqing
+	culture = han 
+	796.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+5100105 = {
+	name = Wen #Chenxu, Henan
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+
+5100106 = {
+	name = Zheng #Hebei Circuit, Prince of Yan
+	dynasty = 80000104 #Ju
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+
+5100107 = {
+	name = Ye #Hedong Circuit, Apparently was quite the undistinguished fella
+	dynasty = 80000105 #Xiao
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}

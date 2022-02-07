@@ -52,6 +52,94 @@
 			5 = asian_austronesian_4
 		}
 	}
+	
+	biao = {  #Biao of Canton
+		color = { 70 175 34 }
+		
+		
+		dynasty_names = {
+			"dynn_Kusumi"
+			"dynn_Hinthada"
+			"dynn_Sittaung"
+			"dynn_Muttina"
+			"dynn_Mawlamyine"
+			"dynn_Wareru"
+			"dynn_Dalla"
+			"dynn_Ngaputawo"
+		}
+		
+		male_names = {
+			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
+			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
+			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
+		}
+		
+		female_names = {
+			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
+			
+			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
+			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
+		}
+		
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		
+		ethnicities = {
+			10 = asian
+			15  = asian_southeast_asian_1
+			25  = asian_southeast_asian_2
+			15  = asian_southeast_asian_3
+			15  = asian_southeast_asian_4
+			5 = asian_austronesian_1
+			5 = asian_austronesian_2
+			5 = asian_austronesian_3
+			5 = asian_austronesian_4
+		}
+	}
+	
+	beish = {  #Be of Leizhou prior to their migration to Hainan
+		color = { 94 170 69 }
+		
+		
+		dynasty_names = {
+			"dynn_Kusumi"
+			"dynn_Hinthada"
+			"dynn_Sittaung"
+			"dynn_Muttina"
+			"dynn_Mawlamyine"
+			"dynn_Wareru"
+			"dynn_Dalla"
+			"dynn_Ngaputawo"
+		}
+		
+		male_names = {
+			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
+			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
+			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
+		}
+		
+		female_names = {
+			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
+			
+			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
+			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
+		}
+		
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		
+		ethnicities = {
+			10 = asian
+			15  = asian_southeast_asian_1
+			25  = asian_southeast_asian_2
+			15  = asian_southeast_asian_3
+			15  = asian_southeast_asian_4
+			5 = asian_austronesian_1
+			5 = asian_austronesian_2
+			5 = asian_austronesian_3
+			5 = asian_austronesian_4
+		}
+	}
 
 	tai = {
 		color = { 84 160 59 }
