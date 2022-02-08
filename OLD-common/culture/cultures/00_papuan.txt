@@ -1,0 +1,89 @@
+﻿papuan_group = {
+
+	graphical_cultures = {
+		burman_group_coa_gfx dravidian_group_coa_gfx indo_aryan_group_coa_gfx
+		austronesian_group_coa_gfx
+		indian_building_gfx
+		#austronesian_clothing_gfx
+		indian_clothing_gfx
+		austronesian_unit_gfx 
+	}
+
+	abui = {
+		color = { 137 88 33 }
+
+		cadet_dynasty_names = {
+			"dynn_Aka" "dynn_Agid" "dynn_Biadut" "dynn_Biagel" "dynn_Degi" "dynn_Desu" "dynn_Dupu" "dynn_Ganda" "dynn_Gerey" "dynn_Gilang" "dynn_Kabuan" "dynn_Karat" "dynn_Kaksan" "dynn_Kudur" "dynn_Hayin" "dynn_Ian" "dynn_Lapsay" "dynn_Lumlum" "dynn_Limlim" "dynn_Puned" "dynn_Sangay" "dynn_Selub"
+		}
+
+		dynasty_names = {
+			"dynn_Aka" "dynn_Agid" "dynn_Biadut" "dynn_Biagel" "dynn_Degi" "dynn_Desu" "dynn_Dupu" "dynn_Ganda" "dynn_Gerey" "dynn_Gilang" "dynn_Kabuan" "dynn_Karat" "dynn_Kaksan" "dynn_Kudur" "dynn_Hayin" "dynn_Ian" "dynn_Lapsay" "dynn_Lumlum" "dynn_Limlim" "dynn_Puned" "dynn_Sangay" "dynn_Selub" "dynn_Senad" "dynn_Silit" "dynn_Sipang"
+		}
+
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa}
+
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		dynasty_name_first = no
+
+		ethnicities = { # temp
+			80 = melanesian_1
+			10 = asian_austronesian_1
+			10 = asian_austronesian_2
+		}
+	}
+
+	papuan = {
+		color = { 117 123 91 }
+
+		cadet_dynasty_names = {
+			"dynn_Aka" "dynn_Agid" "dynn_Biadut" "dynn_Biagel" "dynn_Degi" "dynn_Desu" "dynn_Dupu" "dynn_Ganda" "dynn_Gerey" "dynn_Gilang" "dynn_Kabuan" "dynn_Karat" "dynn_Kaksan" "dynn_Kudur" "dynn_Hayin" "dynn_Ian" "dynn_Lapsay" "dynn_Lumlum" "dynn_Limlim" "dynn_Puned" "dynn_Sangay" "dynn_Selub"
+		}
+
+		dynasty_names = {
+			"dynn_Aka" "dynn_Agid" "dynn_Biadut" "dynn_Biagel" "dynn_Degi" "dynn_Desu" "dynn_Dupu" "dynn_Ganda" "dynn_Gerey" "dynn_Gilang" "dynn_Kabuan" "dynn_Karat" "dynn_Kaksan" "dynn_Kudur" "dynn_Hayin" "dynn_Ian" "dynn_Lapsay" "dynn_Lumlum" "dynn_Limlim" "dynn_Puned" "dynn_Sangay" "dynn_Selub" "dynn_Senad" "dynn_Silit" "dynn_Sipang"
+		}
+
+		male_names = {
+			Agolave Akelika-Yaga Amborn Andagalimp-Wak Barunoma Buassi Endemongo Ewunga-Goiba Gaima-Yokumul Gasowe 
+			Gavey-Akamo Gerigl-Gande Gesupo Gopie-Ataiamelaho Isakoa-Hepu Isakoa-Hepu Jokuri-Hari Kaglnogl Kainaro-Kravia 
+			Kaura Kepagane-Peone Kerenga Kerika-Rebia Khaswaho-Baitoheiro Kiakoa Kimba-Kopol Kirupano-Eza'e 
+			Kize Kize-Obaneso Klimbil Koin Kombagle Komp-Nikints Kondon-Agaundo Konia-Taglba KopiaKerika-Kubal Koritoia-Ope 
+			Korpore Korua-Kolta Korul-Korul Kuan Kubal-Nori Kubarl Kumai-Kana Kumi-Kispe Kut Kwipi-Nembil Loo Lowai 
+			Maasi-Pinjinga Maba Maepkang-Miti Miok Mirani-Gena Moropia Mukuka-Wingti Naia-Imulan Namborn Nambuka-Ninji 
+			Nambuka-Titip Napornga-Mare Narmu-Varnu Nonggorr Obi Okame Onguglo-Komugl Opa Opramb-Rumint Ot Owa Pal Pena 
+			Penapul Peng Petro-Pisine Pinketa Pok Pora Powa Pupun Rompinjimp-Nanganbia Seriate Sinamoi Sole-Sole Subul 
+			Teatakan Towa-Ulta Tupia-Osiro Ulaline Ulka-Wena Vojavona Wager Wai Wak Wamp-Wan Wera-Mori Wia-Tugl Xomerang 
+			Yakamup Yanopa-Kai Yasa
+		}
+
+		female_names = {
+			Aglem-Ter Amp-Biam Amp-Kwimbe Amp-Nemong Amp-Wenta Ife Jara Kentiga Koina Kompamp-Kengakama Kompamp-Mancy 
+			Kompamp-Meta Kumbi Kundika-Marpa Kwimbe Mogumand Nambuka Nengka-Ampdau Palantina Rossa Sirizo Yerema
+		}
+
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		dynasty_name_first = no
+
+		ethnicities = { # temp
+			90 = melanesian_1
+			10 = asian_austronesian_1
+		}
+	}
+}

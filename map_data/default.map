@@ -10,7 +10,6 @@ continent = "continent.txt"
 adjacencies = "adjacencies.csv"
 #climate = "climate.txt"
 island_region = "island_region.txt"
-geographical_region = "geographical_region.txt"
 seasons = "seasons.txt"
 
 #####################
@@ -293,7 +292,7 @@ impassable_mountains = LIST { 1408 9621 }  #Gobi Desert
 #Tartaria Mountains
 impassable_mountains = RANGE { 8704 8708 }	#Altaishan
 impassable_mountains = LIST { 1495 } #Altaishan
-impassable_mountains = LIST { 734 1501 1550 1614 8709 2486 2539 } #Tianshan  
+impassable_mountains = LIST { 734 1501 1550 1614 8709 2486 2539 9886 9887 9885} #Tianshan  
 impassable_mountains = LIST { 3037 3071 3104 3123 3150 3179 3255 3293 3612 4059 4255 4281 4282 } #Kunlunshan
 impassable_mountains = LIST { 5913 5997 7787 7941} #Tibet impassable
 impassable_mountains = RANGE { 8526 8538 } #Tibet impassable

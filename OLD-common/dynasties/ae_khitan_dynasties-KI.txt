@@ -1,0 +1,44 @@
+﻿46600008 = {
+	name = "dynn_Murong"
+	culture = "khitan"
+}
+46600009 = {
+	name = "dynn_Qudug"
+	culture = "khitan"
+}
+46600011 = {
+	name = "dynn_Unkut"
+	culture = "khitan"
+}
+46600007 = {
+	name = "dynn_Yelu"
+	culture = "khitan"
+}
+46600010 = {
+	name = "dynn_Yuwen"
+	culture = "khitan"
+}
+61000005 = {
+	name = "dynn_Shou"
+	culture = "balhae"
+}
+61000001 = {
+	name = "dynn_Tae"
+	culture = "balhae"
+}
+61000006 = {
+	name = "dynn_Yangzhi"
+	culture = "balhae"
+}
+61000003 = {
+	name = "dynn_Yin"
+	culture = "balhae"
+}
+61000004 = {
+	name = "dynn_Zhang"
+	culture = "balhae"
+}
+61000002 = {
+	name = "dynn_Zhi"
+	culture = "balhae"
+}

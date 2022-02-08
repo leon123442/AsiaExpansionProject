@@ -1,0 +1,8 @@
+﻿46600003 = {
+	name = "dynn_simhapura"
+	culture = "champ"
+}
+46600002 = {
+	name = "dynn_Vijaya"
+	culture = "champ"
+}

@@ -1,155 +1,77 @@
-﻿hmong_group = {
+﻿yi = {  
+	color = { 255 178 23 }
 
-    graphical_cultures = {
-		burman_group_coa_gfx
-		indian_building_gfx
-		indian_clothing_gfx
-		indian_unit_gfx
-	}
-
-
-	yi = {  
-
-
-		dynasty_name_first = no
-		
-		color = { 255 178 23 }
-
-		
-		dynasty_names = {
-			"dynn_Luodian"
-			"dynn_Phyu"
-			"dynn_Wuling"
-			"dynn_Krapan"
-			"dynn_Luoshgui"
-			"dynn_Yelang"
-			"dynn_Dagon"
-			"dynn_Zangke"
-			"dynn_Wareru"
-			"dynn_Dalla"
-		}
-		
-		male_names = {
-			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
-			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
-			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
-		}
-		
-		female_names = {
-			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
-			
-			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
-			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = asian
-			10 = indian
-		}
-		
-		mercenary_names = {
-			{ name = "mercenary_sadhuim_company" }
-			{ name = "mercenary_company_mon_host" }
-		}
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
 	}
 	
-	yao = {  
+	name_list = name_list_han
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+	}
+}
+	
+yao = {  
+	color = { 255 198 53 }
 
-
-		dynasty_name_first = no
-		
-		color = { 255 198 53 }
-
-		
-		dynasty_names = {
-			"dynn_Luodian"
-			"dynn_Phyu"
-			"dynn_Wuling"
-			"dynn_Krapan"
-			"dynn_Luoshgui"
-			"dynn_Yelang"
-			"dynn_Dagon"
-			"dynn_Zangke"
-			"dynn_Wareru"
-			"dynn_Dalla"
-		}
-		
-		male_names = {
-			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
-			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
-			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
-		}
-		
-		female_names = {
-			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
-			
-			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
-			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = asian
-			10 = indian
-		}
-		
-		mercenary_names = {
-			{ name = "mercenary_sadhuim_company" }
-			{ name = "mercenary_company_mon_host" }
-		}
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
 	}
 	
-	sheren = {  
-
-
-		dynasty_name_first = no
-		
-		color = { 255 225 85 }
-
-		
-		dynasty_names = {
-			"dynn_Luodian"
-			"dynn_Phyu"
-			"dynn_Wuling"
-			"dynn_Krapan"
-			"dynn_Luoshgui"
-			"dynn_Yelang"
-			"dynn_Dagon"
-			"dynn_Zangke"
-			"dynn_Wareru"
-			"dynn_Dalla"
-		}
-		
-		male_names = {
-			Adara Angula Anuyama Araka Areindama Atha Athinkha Attatha Dipa Einkura Ekkathamanda Geinda Geissadiya Karawika Kutha Mahintha Migadeippa Manuha Narathu Pontarika Pyinzala
-			Thaduka Thamala Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Wimala Zambudipa Zawta
-			Bawlawkyantaw Dhammazedi Gada Gadu Kyan Law Leik_Munhtaw Razadarit Than_Bon Waru Wareru Zein
-		}
-		
-		female_names = {
-			Jamadevi Hnin_An_Po Mi_Pakahtaw Mwei_It Mwei_Maneit Mwei_Zeik Sawbu Thuddhamaya
-			
-			Botum Boupha Champei Champey Channary Chantou Chantrea Chenda Chhean Darareaksmey Jorani Kalliyan Kanha Kolab Kunthea Maly Mealea Mibaya
-			Pheakkley Phhoung Puthykol Raksa Solyna Sreykeo Sreyneang Thida Vatey Veata
-		}
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-		
-		ethnicities = {
-			10 = asian
-			10 = indian
-		}
-		
-		mercenary_names = {
-			{ name = "mercenary_sadhuim_company" }
-			{ name = "mercenary_company_mon_host" }
-		}
+	name_list = name_list_han
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
 	}
-
-}	
+}
+	
+sheren = {  
+	color = { 255 225 85 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_court_eunuchs
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_han
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+	}
+}

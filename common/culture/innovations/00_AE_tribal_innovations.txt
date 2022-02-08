@@ -70,7 +70,7 @@ innovation_battleships = {
 	icon = @longboats
 
 	potential = {
-		this.culture_group = culture_group:chinese_group
+		has_cultural_pillar = heritage_chinese
 	}
 
 	modifier = {

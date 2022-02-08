@@ -37,7 +37,7 @@ innovation_centralization_of_authority = {
 	icon = @majesty_01
 	
 	potential = {
-		this.culture_group = culture_group:chinese_group
+		has_cultural_pillar = heritage_chinese
 	}
 	
 	modifier = {
@@ -61,93 +61,6 @@ innovation_centralization_of_authority = {
  	custom = unlock_palatinate_contract
  	custom = unlock_fortification_rights_contract
  	custom = unlock_coinage_rights_contract
-	
-	flag = global_maa
-}
-
-innovation_mongolic_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_01
-	
-	potential = {
-		this.culture_group = culture_group:mongolic_group
-	}
-	
-	modifier = {
-		heavy_cavalry_damage_mult = 0.1
-		light_cavalry_damage_mult = 0.1
-		skirmishers_damage_mult = 0.1
-	}
-	
-	
-	flag = global_maa
-}
-
-innovation_goryeo_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_01
-	
-	potential = {
-		this.culture_group = culture_group:goryeo_group
-	}
-	
-	modifier = {
-		skirmishers_screen_mult = 0.1
-		skirmishers_toughness_mult = 0.1
-	}
-	
-	
-	flag = global_maa
-}
-
-innovation_nanman_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_02
-	
-	potential = {
-		this.culture_group = culture_group:nanman_group
-	}
-	
-	modifier = {
-		skirmishers_damage_mult = 0.1
-	}
-	
-	#unlock_maa = war_elephant
-	
-	flag = global_maa
-}
-
-innovation_tunguse_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_01
-	
-	potential = {
-		this.culture_group = culture_group:tunguse_group
-	}
-	
-	modifier = {
-		skirmishers_damage_mult = 0.2
-	}
-		
-	flag = global_maa
-}
-
-innovation_yues_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_02
-	
-	potential = {
-		this.culture_group = culture_group:yues_group
-	}
-	
-	modifier = {
-		levy_reinforcement_rate = 0.1
-	}
 	
 	flag = global_maa
 }
@@ -211,7 +124,6 @@ innovation_emishi_riders = {
 	potential = {
 		OR = {
 			this = culture:emishi
-			this = culture:saeki
 			AND = {
 				this = culture:ainu
 				culture_head = {

@@ -1,7 +1,7 @@
 ﻿han_government = {
 	primary_holding = castle_holding
-	primary_culture_groups = { chinese_group yamato_group goryeo_group }
-	primary_cultures = { yamato }
+	
+	primary_heritages = { heritage_chinese }
 	
 	fallback = 2
 	
