@@ -1,3 +1,0 @@
-house_yelu = { 
-        name = "dynn_Yelu" 
-        dynasty = 46600007 }

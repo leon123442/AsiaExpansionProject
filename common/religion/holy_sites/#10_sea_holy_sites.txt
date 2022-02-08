@@ -51,7 +51,7 @@ gunung_jerai = {
 }
 
 mount_arfak = {
-	county = c_sougb
+	county = c_soren
 	barony = b_sougb
 
 	character_modifier = {
@@ -72,7 +72,7 @@ mount_madyaas = {
 }
 
 mount_pulag = {
-	county = c_bugyas
+	county = c_ifugao
 	barony = b_bugyas
 
 	character_modifier = {
@@ -104,7 +104,7 @@ bud_bongao = {
 }
 
 goa_keramat = {
-	county = c_waigama
+	county = c_raja_ampat
 	barony = b_waigama
 
 	character_modifier = {
@@ -126,7 +126,7 @@ phnom_kulen = {
 }
 
 laguna_de_bay = {
-	county = c_pangil
+	county = c_pila
 	barony = b_pila_ph
 
 	character_modifier = {

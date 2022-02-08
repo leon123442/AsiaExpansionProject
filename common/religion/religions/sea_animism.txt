@@ -3,7 +3,7 @@
 	# https://www.culturalsurvival.org/publications/cultural-survival-quarterly/spirits-forest-cambodias-kuy-people-practice-spirit-based
 	# Holy site at Svay Damnak (south Preah Vihear near Rovieng)
 
-	family = rf_animism
+	family = rf_pagan
 	graphical_faith = pagan_gfx
 	doctrine = animism_hostility_doctrine
 
@@ -222,7 +222,7 @@
 }
 
 wa_religion = { # Folk religions of Wa peoples
-	family = rf_animism
+	family = rf_pagan
 	graphical_faith = pagan_gfx
 	doctrine = animism_hostility_doctrine
 
@@ -464,7 +464,7 @@ wa_religion = { # Folk religions of Wa peoples
 
 burmic_religion = { # Folk religions of Burmese peoples
 
-	family = rf_animism
+	family = rf_pagan
 	graphical_faith = dharmic_gfx
 	doctrine = animism_hostility_doctrine
 
@@ -683,7 +683,7 @@ tai_religion = { # Folk religions of Tai peoples
 
 	# They should play nice with Buddhism etc
 
-	family = rf_animism
+	family = rf_pagan
 	graphical_faith = dharmic_gfx
 	doctrine = animism_hostility_doctrine
 
@@ -906,7 +906,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 	# https://en.wikipedia.org/wiki/Indigenous_Philippine_folk_religions
 	# https://en.wikipedia.org/wiki/Indigenous_Philippine_shrines_and_sacred_grounds
 
-	family = rf_animism
+	family = rf_pagan
 	doctrine = animism_hostility_doctrine
 
 	pagan_roots = yes
@@ -2503,9 +2503,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -2702,9 +2702,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -2902,9 +2902,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -3102,9 +3102,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -3302,9 +3302,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -3893,9 +3893,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			holy_site = kinabalu
 			holy_site = tonle_sap
 			holy_site = po_nagar
-			holy_site = toba
+			#holy_site = toba
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -4266,10 +4266,10 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			}
 
 			holy_site = kinabalu
-			holy_site = toba
+			#holy_site = toba
 			holy_site = simalungun
-			holy_site = lake_ranau
-			holy_site = batuwara
+			#holy_site = lake_ranau
+			#holy_site = batuwara
 
 			doctrine = unreformed_faith_doctrine
 
@@ -4440,12 +4440,12 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			}
 
 			holy_site = kinabalu
-			holy_site = toba
+			#holy_site = toba
 			holy_site = simalungun
-			holy_site = lake_ranau
-			holy_site = batuwara
+			#holy_site = lake_ranau
+			#holy_site = batuwara
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 			doctrine = doctrine_concubines
@@ -4617,12 +4617,12 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			}
 
 			holy_site = kinabalu
-			holy_site = toba
+			#holy_site = toba
 			holy_site = simalungun
-			holy_site = lake_ranau
-			holy_site = batuwara
+			#holy_site = lake_ranau
+			#holy_site = batuwara
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -4792,12 +4792,12 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 			}
 
 			holy_site = kinabalu
-			holy_site = toba
+			#holy_site = toba
 			holy_site = simalungun
-			holy_site = lake_ranau
-			holy_site = batuwara
+			#holy_site = lake_ranau
+			#holy_site = batuwara
 			holy_site = mount_agung
-			holy_site = mount_bromo
+			#holy_site = mount_bromo
 
 			doctrine = unreformed_faith_doctrine
 
@@ -4813,7 +4813,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 
 loloish_religion = { # Folk religions of Loloish (Yi/Nosu) peoples
 
-	family = rf_animism
+	family = rf_pagan
 	doctrine = animism_hostility_doctrine
 
 	pagan_roots = yes
