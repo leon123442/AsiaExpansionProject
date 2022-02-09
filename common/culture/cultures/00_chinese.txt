@@ -6,7 +6,7 @@
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -32,7 +32,7 @@ gan = { # 贛 Gan Chinese, spoken primarily in Jiangxi
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -58,7 +58,7 @@ xiang = { # 湘 Xiang Chinese, spoken primarily in Hunan
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -83,7 +83,7 @@ hakka = { # 客家 Hakka Chinese, has no associated province, mainly inhabit lan
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -108,7 +108,7 @@ cantonese = { # 粵 Yue Chinese/ Cantonese, not to be confused with the pre-chin
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -133,7 +133,7 @@ ba_shu = { # 巴蜀 Named after the ancient states of Ba and Shu, local pre-ming
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -160,7 +160,7 @@ min = { #闽should probably be divided into early south and early east and early
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -186,8 +186,8 @@ han = {
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
-		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_ruling_caste
 		tradition_court_eunuchs
 		tradition_philosopher_culture
 	}
@@ -212,7 +212,7 @@ hebei = {  #河朔
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture
@@ -238,7 +238,7 @@ hexi = {  #河西
 	language = language_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_chinese_characters
 		tradition_mystical_ancestors
 		tradition_court_eunuchs
 		tradition_philosopher_culture

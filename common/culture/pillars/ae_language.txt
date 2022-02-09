@@ -1,0 +1,51 @@
+﻿language_korean = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_korean
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_korean }
+			multiply = 10
+		}
+	}
+	
+	color = { 160 240 185 }
+}
+language_japan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_japan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_japan }
+			multiply = 10
+		}
+	}
+	
+	color = { 240 240 240 }
+}
+language_ezo = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ezo
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ezo }
+			multiply = 10
+		}
+	}
+	
+	color = { 0 113 193 }
+}

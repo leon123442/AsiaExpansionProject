@@ -33,7 +33,8 @@ Shogun = {
 	special = holder
 	tier = empire
 	priority = 280
-	culture_groups = ( yamato_group )
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 	faiths = { shinto }
 	titles = { e_nippon }
 }
@@ -44,7 +45,8 @@ grand_daimyo_title = {
 	priority = 100
 	#gender = female
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 grand_daimyo_character = {
 	type = character
@@ -53,7 +55,8 @@ grand_daimyo_character = {
 	priority = 100
 	#gender = female
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 daimyo_character = {
@@ -62,14 +65,16 @@ daimyo_character = {
 	tier = duchy
 	priority = 50
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 daimyo_title = {
 	type = title
 	tier = duchy
 	priority = 50
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 Lord = {
@@ -78,14 +83,16 @@ Lord = {
 	tier = county
 	priority = 20
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 Lordship = {
 	type = title
 	tier = county
 	priority = 20
 	only_independent = yes
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 zuryo_character = {
@@ -93,13 +100,15 @@ zuryo_character = {
 	special = holder
 	tier = duchy
 	priority = 49
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 zuryo_title = {
 	type = title
 	tier = duchy
 	priority = 49
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 kokushi_character = {
@@ -107,13 +116,15 @@ kokushi_character = {
 	special = holder
 	tier = county
 	priority = 20
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 kokushi_title = {
 	type = title
 	tier = county
 	priority = 20
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 joshu_character = {
@@ -121,13 +132,15 @@ joshu_character = {
 	special = holder
 	tier = barony
 	priority = 10
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 joshu_title = {
 	type = title
 	tier = barony
 	priority = 10
-	culture_groups = { yamato_group }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 
 Ouji = {
@@ -136,7 +149,8 @@ Ouji = {
 	tier = empire
 	gender = male
 	priority = 30
-	cultures = { imperial_family }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }
 Oujo = {
 	type = character
@@ -144,5 +158,6 @@ Oujo = {
 	tier = empire
 	gender = female
 	priority = 30
-	cultures = { imperial_family }
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
 }

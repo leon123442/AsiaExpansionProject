@@ -1291,8 +1291,7 @@ c_guilin = {
 
 e_nippon = { #nippon
 	pattern = "pattern_solid.dds"	
-	color1 = "{ 255 0 0 }"
-	color2 = "{ 255 0 0 }"
+	color1 = "red"
 	colored_emblem = {
 		texture = "ce_h_yamato.dds"
 		color1 = "yellow"

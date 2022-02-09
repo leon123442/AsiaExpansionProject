@@ -1,0 +1,9 @@
+﻿heritage_korean = {
+	type = heritage
+}
+heritage_japan = {
+	type = heritage
+}
+heritage_ezo = {
+	type = heritage
+}

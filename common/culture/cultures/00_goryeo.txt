@@ -2,19 +2,19 @@
 	color = { 0 206 167 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_korean
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_chinese_characters
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_han
+	name_list = name_list_korean
 	
-	coa_gfx = { chinese_group_coa_gfx }
+	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -27,19 +27,19 @@ goryeon = {
 	color = { 160 240 185 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_korean
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_chinese_characters
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_han
+	name_list = name_list_korean
 	
-	coa_gfx = { chinese_group_coa_gfx }
+	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -53,19 +53,19 @@ baekje = {
 	color = { 9 175 126 }
 			
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_korean
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_chinese_characters
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_han
+	name_list = name_list_korean
 	
-	coa_gfx = { chinese_group_coa_gfx }
+	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -79,19 +79,19 @@ tamnanese = {
 	color = { 0 206 41 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_korean
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_chinese_characters
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_han
+	name_list = name_list_korean
 	
-	coa_gfx = { chinese_group_coa_gfx }
+	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
@@ -105,19 +105,19 @@ senhan = {
 	color = { 86 215 155 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_korean
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_chinese_characters
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_han
+	name_list = name_list_korean
 	
-	coa_gfx = { chinese_group_coa_gfx }
+	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
