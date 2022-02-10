@@ -209,3 +209,24 @@
 					color2 = { 255 255 255 }
 				}
 			}
+
+
+
+#adjust its color iguess
+e_kirghiz_khanate = {
+	color = { 1 66 31 }
+	color2= { 0 250 250 }
+
+	definite_form = yes
+	
+	capital = c_karabalgasun
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:kirghiz
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
