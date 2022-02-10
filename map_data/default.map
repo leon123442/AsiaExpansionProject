@@ -51,8 +51,8 @@ impassable_mountains = RANGE { 11387 11404 }
 # Japan
 #####################
 
-impassable_mountains = RANGE { 10925 }  #old Ryukyu
-impassable_mountains = RANGE { 10927 } 
+impassable_mountains = LIST { 10925 }  #old Ryukyu
+impassable_mountains = LIST { 10927 } 
 
 impassable_mountains = RANGE { 11379 11385 }
 impassable_mountains = LIST { 11372 11307 11313 }

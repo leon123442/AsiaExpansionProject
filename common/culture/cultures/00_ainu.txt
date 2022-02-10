@@ -16,7 +16,7 @@
 	
 	coa_gfx = { ainu_group_coa_gfx }
 	building_gfx = { norse_building_gfx }
-	clothing_gfx = { ainu_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -43,7 +43,7 @@ emishi = {
 	
 	coa_gfx = { ainu_group_coa_gfx }
 	building_gfx = { norse_building_gfx }
-	clothing_gfx = { ainu_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -66,7 +66,7 @@ kaizuka = {
 	
 	coa_gfx = { ainu_group_coa_gfx }
 	building_gfx = { norse_building_gfx }
-	clothing_gfx = { ainu_clothing_gfx northern_clothing_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {

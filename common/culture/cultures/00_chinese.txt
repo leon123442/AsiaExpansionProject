@@ -16,7 +16,7 @@
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -42,7 +42,7 @@ gan = { # 贛 Gan Chinese, spoken primarily in Jiangxi
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -68,7 +68,7 @@ xiang = { # 湘 Xiang Chinese, spoken primarily in Hunan
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -93,7 +93,7 @@ hakka = { # 客家 Hakka Chinese, has no associated province, mainly inhabit lan
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -118,7 +118,7 @@ cantonese = { # 粵 Yue Chinese/ Cantonese, not to be confused with the pre-chin
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -143,7 +143,7 @@ ba_shu = { # 巴蜀 Named after the ancient states of Ba and Shu, local pre-ming
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -170,7 +170,7 @@ min = { #闽should probably be divided into early south and early east and early
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -196,7 +196,7 @@ han = {
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -222,7 +222,7 @@ hebei = {  #河朔
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -248,7 +248,7 @@ hexi = {  #河西
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {

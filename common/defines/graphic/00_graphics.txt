@@ -65,6 +65,12 @@ NGraphics = {
 	WINTER_GRAPHICS_FADE_SPEEDS = { 0 0 0 0.05 0.085 } 		# Snow fade speed based on the current game speed if the game is unpaused. If 0 is defined for a speed, it will use WINTER_GRAPHICS_DEFAULT_FADE_SPEED instead
 
 	ERRORHOOF_DIVISOR = 100
+
+	# Court
+	COURT_EMISSIVE_STRENGTH = 5			# Strength of all emissive materials in the court shader
+	COURT_GEMCUBE_STRENGTH = 1			# Strength of cubemap in the gemcube shader
+	COURT_HOVER_GROW = 2.5				# Speed for hover effect increase in royal court scene
+	COURT_HOVER_FADE = -8.				# Speed for hover effect fade in royal court scene
 }
 
 NCamera = {

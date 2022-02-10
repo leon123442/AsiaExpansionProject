@@ -648,12 +648,12 @@ bm_867_asia = {
 		birth = 850.5.12
 		title = k_yamato
 		#title_text_override = "WEST_FRANCIA"
-		#government = feudal_government
+		government = feudal_government
 		culture = yamato
 		religion = shinto
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = 1600004
-		position = { 800 550 }
+		position = { 1150 450 }
 		
 		animation = love
 		# Yoshifusa, regent of emperor Seiwa
