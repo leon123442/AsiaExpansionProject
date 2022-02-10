@@ -15,17 +15,17 @@
 	
 	color = { 160 240 185 }
 }
-language_japan = {
+language_japonic = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_japan
+			LANGUAGE = language_japonic
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_japan }
+			limit = { has_cultural_pillar = language_japonic }
 			multiply = 10
 		}
 	}

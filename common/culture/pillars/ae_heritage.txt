@@ -7,3 +7,6 @@ heritage_japan = {
 heritage_ezo = {
 	type = heritage
 }
+heritage_tungusic = {
+	type = heritage
+}

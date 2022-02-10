@@ -6,7 +6,7 @@
 
 	ethos = ethos_courtly
 	heritage = heritage_japan
-	language = language_japan
+	language = language_japonic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -35,7 +35,7 @@ ryukyu = {
 
 	ethos = ethos_courtly
 	heritage = heritage_japan
-	language = language_japan
+	language = language_japonic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -64,7 +64,7 @@ hayato = {
 
 	ethos = ethos_courtly
 	heritage = heritage_japan
-	language = language_japan
+	language = language_japonic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

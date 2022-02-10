@@ -4,7 +4,7 @@
   name_list_korean:0 "Korean"
   
   heritage_japan_name:0 "Japonic"
-  language_japan_name:0 "Japonic"
+  language_japonic_name:0 "Japonic"
   yamato_group_coa_gfx:0 "Japonic"
   name_list_japan:0 "Japanese"
   yamato_clothing_gfx:0 "Japanese"
@@ -16,3 +16,5 @@
   name_list_emishi:0 "Emishi"
   name_list_kaizuka:0 "Kaizuka"
   ainu_clothing_gfx:0 "Ezo"
+  
+  language_tunguisic_name:0 "Tunguisic"
