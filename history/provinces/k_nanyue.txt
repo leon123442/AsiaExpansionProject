@@ -343,31 +343,9 @@
 }
 
 #d_yongguan
-#c_nanning
-#b_Yongzhou_Nanning
-10410 = {
-    culture = pu
-	religion = pagan
-	holding = castle_holding
-}
-#b_Sitong_Zuozhou
-10415 = {
 
-	holding = tribal_holding
-}
-#b_Wuming_Wandezhou
-10414 = {
 
-	holding = tribal_holding
-}
 
-#c_qinzhou_gui	
-#b_Qinzhou_Qinjiang
-10390 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
-}
 #b_Nanbin_Lingshan
 10862 = {
 
@@ -375,18 +353,6 @@
 }
 
 #c_luzhou_annan
-#b_Luzhou_Wulei
-10427 = { 
-	culture = pu
-	religion = mahayana
-	holding = tribal_holding		
-}
-#b_Sumaozhou
-10423 = { 
-
-	
-	holding = tribal_holding
-}
 
 #c_binzhou_gui
 #b_Binzhou_Lingfang
@@ -399,45 +365,4 @@
 10409 = {
 
 	holding = none
-}
-
-#c_luolong 
-#b_Luolong_Wuqin
-10412 = {
-    culture = tay
-	religion = pagan 
-	holding = tribal_holding
-}
-#b_Simingzhou_Shixizhou
-10413 = {
-  
-	holding = none
-}
-#b_Shangsizhou_Rangzhou
-10411 = {
-  
-	holding = none
-}
-
-#c_baise 
-#b_Tianzhou_Baise
-10417 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
-}
-#b_Bama
-10416 = {
-  
-	holding = none
-}
-#b_Sicheng_Guilezho
-10418 = {
-  
-	holding = tribal_holding
-}
-#b_Houzhou_Lunzho
-10419 = {
-  
-	holding = tribal_holding
 }

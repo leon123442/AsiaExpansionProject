@@ -1,43 +1,95 @@
 #e_nanzhong
 
 #k_annan
+
+#c_baise 
+#b_Tianzhou_Baise
+10417 = {
+    culture = pu
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Bama
+10416 = {
+  
+	holding = none
+}
+#b_Sicheng_Guilezho
+10418 = {
+  
+	holding = none
+}
+#b_Houzhou_Lunzho
+10419 = {
+  
+	holding = none
+}
+#c_nanning
+#b_Yongzhou_Nanning
+10410 = {
+    culture = pu
+	religion = pagan
+	holding = tribal_holding
+}
+#b_Sitong_Zuozhou
+10415 = {
+
+	holding = none
+}
+#b_Wuming_Wandezhou
+10414 = {
+
+	holding = none
+}
+#c_qinzhou_gui	
+#b_Qinzhou_Qinjiang
+10390 = {
+    culture = pu
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Luzhou_Wulei
+10427 = { 
+	holding = none
+}
+#b_Sumaozhou
+10423 = { 
+	holding = none
+}
+
+
+
 #d_jiaozhi  #交趾
 #c_kinh_bac
-#b_bab_ha
-10437 = {
-
-
-
-}
 #b_thanh_long
 10438 = {
-
-}
-    
-#b_truong_an
-10429 = {
-
-}
-    
-#b_thai_binh
-10430 = {
 	culture = jiaozhi
 	religion = mahayana
-	holding = castle_holding
+	holding = tribal_holding
+}  
+#b_hau_lu
+10429 = {
+	holding = none
+}
+#b_thai_binh
+10430 = {
+	holding = none
 }
     
 #b_lang_giang
 10439 = {
-
+	culture = tay
+	religion = mahayana
+	holding = tribal_holding	
 }
-    
 #b_lang_son
 10440 = {
-
+	holding = none
 }
-    
-
-    
+#b_bab_ha
+10437 = {
+	holding = none
+}
 #c_hai_dong
 #b_tan_an
 10434 = {
@@ -116,27 +168,27 @@
 10422 = {
 	culture = jiaozhi
 	religion = mahayana
-	holding = castle_holding
+	holding = tribal_holding
 }
     
 #b_xu_nghe
 10424 = {
-
+	holding = none
 }
     
 #b_tra_lan
 10425 = {
-
+	holding = none
 }
     
 #b_anh_son
 10426 = {
-
+	holding = none
 }
     
 #b_hoan_chau
 10428 = {
-
+	holding = none
 }
     
 
@@ -174,8 +226,12 @@
 	culture = tai
 	religion = pagan
 	holding = castle_holding
+	#culture = jiaozhi
+	#religion = mahayana
+	#holding = tribal_holding
 }
-    
+   
+
 #b_tung_lang
 10442 = {
 
@@ -270,7 +326,9 @@
     
 #b_con_linh
 10449 = {
-
+	culture = laos
+	religion = pagan
+	holding = tribal_holding	
 }
     
 #b_bao_lac
@@ -378,5 +436,37 @@
     
 #b_houaphanh
 10544 = {
+	holding = none
+}
+
+
+#c_luolong 
+#b_Luolong_Wuqin
+10412 = {
+    culture = tay
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Shangsizhou_Rangzhou
+10411 = {
+  
+	holding = none
+}
+#c_jinlongzhou
+#b_jinlongzhou
+10421 = { 
+	culture = tay
+	religion = pagan
+	holding = tribal_holding		
+}
+#b_Napo
+10420 = { 
+
+	
+	holding = none
+}
+#b_Simingzhou_Shixizhou
+10413 = {
+  
 	holding = none
 }

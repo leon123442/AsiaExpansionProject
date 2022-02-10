@@ -4,7 +4,7 @@ udege = {
 
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -17,7 +17,7 @@ udege = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_khitan
+	name_list = name_list_korean
 
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
 	building_gfx = { steppe_building_gfx } 
@@ -34,7 +34,7 @@ mohese = {
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -47,7 +47,7 @@ mohese = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_khitan
+	name_list = name_list_korean
 
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
 	building_gfx = { steppe_building_gfx } 
@@ -65,7 +65,7 @@ balhae = {
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -78,7 +78,7 @@ balhae = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_khitan
+	name_list = name_list_korean
 
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 
 	building_gfx = { steppe_building_gfx } 

@@ -1,4 +1,5 @@
 ﻿l_english:
+  heritage_tungusic_name:0 "Tungusic"
   heritage_korean_name:0 "Koreanic"
   language_korean_name:0 "Koreanic"
   name_list_korean:0 "Korean"
@@ -16,5 +17,3 @@
   name_list_emishi:0 "Emishi"
   name_list_kaizuka:0 "Kaizuka"
   ainu_clothing_gfx:0 "Ezo"
-  
-  heritage_tunguisic_name:0 "Tunguisic"
