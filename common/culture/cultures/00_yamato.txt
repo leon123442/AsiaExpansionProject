@@ -23,7 +23,7 @@
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = yamato
 	}
 }
 	
@@ -52,7 +52,7 @@ ryukyu = {
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = ryukyu
 	}
 }
 	

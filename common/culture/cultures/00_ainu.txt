@@ -20,7 +20,7 @@
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = ainu
 	}
 }
 
@@ -47,7 +47,7 @@ emishi = {
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = ainu
 	}	
 }	
 
@@ -70,6 +70,6 @@ kaizuka = {
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = ainu
 	}
 }

@@ -495,6 +495,19 @@ coat_of_arms_template_lists = {
 			# larger bend for larger charge, those could be used for arabic calligraphy (ie Nasrid)
 		}
 		
+		
+		#chinese
+		special_selection = {
+			trigger = {
+				scope:culture = {
+					OR = {
+						has_coa_gfx = chinese_group_coa_gfx
+					}
+				}
+			}
+			5000 = chinese_basic		
+		}
+		
 		###SHOGUNATE MOD BEGIN
 		special_selection = {
 			trigger = {
@@ -829,7 +842,7 @@ coat_of_arms_template_lists = {
 		###SHOGUNATE MOD END
 		
 	}
-
+	
 	religious_title = {
 		100 = religious_icon_01
 		100 = religious_icon_01_metal

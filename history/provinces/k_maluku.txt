@@ -96,7 +96,7 @@
                 }
 				11495 = { # b_buruwai
 
-                holding = tribal_holding   
+                holding = none   
                 }
 			#c_mairasi 
                 11516 = { # b_mairasi
@@ -107,7 +107,7 @@
                 }
 				11518 = { # b_mer
 
-                holding = tribal_holding   
+                holding = none   
                 }
 			#c_wamesa
                 11498 = { # b_wamesa
@@ -118,7 +118,7 @@
                 }
 				11496 = { # b_irarutu
 
-                holding = tribal_holding   
+                holding = none   
                 }
 			#c_arandai
                 11513 = { # b_arandai
@@ -137,15 +137,15 @@
                 }
 				11506 = { # b_maybrat
 
-                holding = tribal_holding   
+                holding = none
                 }
 				11500 = { # b_abun
 
-                holding = tribal_holding   
+                holding = none   
                 }
 				11510 = { # b_sougb
 
-                holding = tribal_holding   
+                holding = none   
                 }
 		#d_banda
             #c_ambon
@@ -158,14 +158,14 @@
                 }
 				10533 = { # b_huamual
 
-                holding = tribal_holding   
+                holding = none   
                 }
 			#c_buru
                 10456 = { # b_buru
                 culture = nunusaku
                 religion = nunusaku
 
-                holding = tribal_holding   
+                holding = none   
                 }
 			#c_sula
                 10453 = { # b_sula
