@@ -9,6 +9,18 @@
  tangut_collective_noun:1 "Tangut"
  zhangzhung:0 "Xiangxiong"
  zhangzhung_collective_noun:1 "Xiangxiong"
+ 
+ #Taiwanese
+ taiwanese_group:0 "Taiwanese"
+ taiwanese_group_collective_noun:0 "Taiwanese"
+ siwaish:0 "Siwa"
+ siwaish_collective_noun:1 "Siwans"
+ limaish:0 "Atalya"
+ limaish_collective_noun:1 "Atalyans"
+ sirayic:0 "Siraya"
+ sirayic_collective_noun:1 "Sirayas"
+ pituish:0 "Pitu"
+ pituish_collective_noun:1 "Pitus"
 
 
  #Turkic
@@ -46,6 +58,32 @@
  hebei_collective_noun:0 "Sino-Sogdian"
  hexi:0 "Sino-Tibetan"
  hexi_collective_noun:0 "Sino-Tibetan"
+ ba_shu:0 "Bashu"
+ ba_shu_collective_noun:0 "Bashu"
+ #ba_shu:0 "Sichuanese"
+ #ba_shu_collective_noun:0 "Sichuan"
+ 
+ #kradai
+ kradai_group:0 "Kra-Dai"
+ kradai_group_collective_noun:0 "Kra-Dais"
+ kam_sui:0 "Kam-Sui"
+ kam_sui_collective_noun:0 "Kam-Suis"
+ tay:0 "Tay-Nung"
+ tay_collective_noun:0 "Tay-Nungs"
+ liliao:0 "Be-Hlai"
+ liliao_collective_noun:0 "Be-Hlais"
+ 
+ 
+ #lolo
+ lolo_group:0 "Yi"
+ lolo_group_collective_noun:0 "Yi"
+ tujia:0 "Tujia"
+ tujia_collective_noun:0 "Tujias"
+ 
+ #hmong
+ hmong_group:0 "Hmong-Mien"
+ yao:0 "Yao"
+ yao_collective_noun:0 "Yao"
   
  #Mongolic
  mongolic_group:0 "Mongolia"
@@ -71,6 +109,12 @@
  siber_collective_noun:0 "Siber"
  evenk:0 "Evenk"
  evenk_collective_noun:0 "Evenk"
+ tataric:0 "Tatar"
+ tataric_collective_noun:0 "Tatars"
+ khamag:0 "Khamag"
+ khamag_collective_noun:0 "Khamag"
+ shiwei:0 "Shiwei"
+ shiwei_collective_noun:0 "Shiweis"
 
  kachin:0 "Kachin"
  kachin_collective_noun:0 "Kachin"
@@ -155,22 +199,50 @@
  yilou_collective_noun:0 "Yilou"
  udege:0 "Udege"
  udege_collective_noun:0 "Udege"
+ mohese:0 "Mohe"
+ mohese_collective_noun:0 "Mohens"
 
 
  #Goryeo
- goryeo_group:0 "Yemo"
- goryeo_group_collective_noun:0 "Yemo"
- yemo:0 "Yemo"
- yemo_collective_noun:0 "Yemo"
+ goryeo_group:0 "Korean"
+ goryeo_group_collective_noun:0 "Koreans"
+ tamnanese:0 "Tamnan"
+ tamnanese_collective_noun:0 "Tamnans"
  senhan:0 "Silla"
  senhan_collective_noun:0 "Silla"
- buyeo:0 "Buyeo"
- buyeo_collective_noun:0 "Buyeo"
- goguryeo:0 "Goryeo"
- goguryeo_collective_noun:0 "Goryeo"
- gayaa:0 "Gayaa"
- gayaa_collective_noun:0 "Gayaa"
+ baekje:0 "Baekje"
+ baekje_collective_noun:0 "Baekjes"
+ goguryeo:0 "Goguryeo"
+ goguryeo_collective_noun:0 "Goguryeos"
+ goryeon:0 "Goryeo"
+ goryeon_collective_noun:0 "Goryeos"
 
  #Yamato
  yamato_group:0 "Yamato"
  yamato_group_collective_noun:0 "Yamato"
+ yamato:0 "Yamato"
+ yamato_collective_noun:0 "Yamato"
+ hayato:0 "Hayato"
+ hayato_collective_noun:0 "Hayato"
+
+ #Ainu
+ ainu_group:0 "Ezo"
+ ainu_group_collective_noun:0 "Ezos"
+ ainu:0 "Ainu"
+ ainu_collective_noun:0 "Ainus"
+ koshibito:0 "Koshibito"
+ koshibito_collective_noun:0 "Koshibitos"
+ saeki:0 "Saeki"
+ saeki_collective_noun:0 "Saekis"
+ emishi:0 "Emishi"
+ emishi_collective_noun:0 "Emishis"
+ kaizuka:0 "Kaizuka"
+ kaizuka_collective_noun:0 "Kaizukas"
+ 
+ nivkh_group:0 "Nivkh"
+ nivkh_group_collective_noun:0 "Nivkhs"
+ mishihase:0 "Mishihase"
+ mishihase_collective_noun:0 "Mishihases"
+ gilyak:0 "Gilyak"
+ gilyak_collective_noun:0 "Gilyaks"
+
