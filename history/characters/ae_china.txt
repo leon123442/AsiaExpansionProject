@@ -1,0 +1,307 @@
+﻿5100029 = {
+	name = Fang #Chiau Ruler of Dache Bozhou 
+	dynasty = 80000029
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100021 = {
+	name = Cong #Du Ruler of county dingzhou
+	dynasty = 80000021
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100005 = {
+	name = Helian # Duo_Ruler of Tang Empire
+	dynasty = 80000005
+	religion = melieism
+	culture = tangut 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100006 = {
+	name = Hong #Gao_Ruler of Tang Empire
+	dynasty = 80000006
+	religion = vajrayana
+	culture = tuyuhun
+	830.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100011 = {
+	name = Congdang #Heng_Ruler of Tang Empire
+	dynasty = 80000011
+	religion = shangqing
+	culture = han 
+	832.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100007 = {
+	name = Gu #Hao_Ruler of Tang Empire
+	dynasty = 80000007
+	religion = mahayana
+	culture = han 
+	828.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100100 = {
+	name = Pian #Zhenhai Circuit, Huainan
+	dynasty = 80000100 #Gao
+	religion = shangqing
+	culture = han 
+	821.1.1 = {
+		birth = yes
+	}
+	886.9.9 = {
+		death = yes
+	}
+}
+
+5100101 = {
+	name = Neng #Henan Circuit
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	823.1.1 = {
+		birth = yes
+	}
+	880.9.9 = {
+		death = yes
+	}
+}
+
+5100102 = {
+	name = Zongquan #Zhongwu Circuit, Henan
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	889.4.4 = {
+		death = yes
+	}
+}
+
+5100103 = {
+	name = Chong #Tianping Circuit, Henan
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	875.9.9 = {
+		death = yes
+	}
+}
+
+5100104 = {
+	name = Fang #Yicheng Circuit, Henan
+	dynasty = 80000103 #Xiao
+	religion = shangqing
+	culture = han 
+	796.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+
+5100105 = {
+	name = Wen #Chenxu, Henan
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+
+5100106 = {
+	name = Zheng #Hebei Circuit, Prince of Yan
+	dynasty = 80000104 #Ju
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+
+5100107 = {
+	name = Ye #Hedong Circuit, Apparently was quite the undistinguished fella
+	dynasty = 80000105 #Xiao
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+5100027 = {
+	name = Wenyu #Kong_Ruler of Dache Fufang
+	dynasty = 80000027
+	religion = shangqing
+	culture = han 
+	835.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100008 = {
+	name = Jianfang #La_Ruler of Tang Empire
+	dynasty = 80000008
+	religion = zhengyi
+	culture = han 
+	837.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100001 = {
+	name = Cui #Li_Ruler of Tang Empire
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100004 = {
+	name = Fan #Lu_Ruler of Tang Empire
+	dynasty = 80000004
+	religion = tengri_pagan
+	culture = tuyuhun
+	845.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100015 = {
+	name = Zhoungsu #Ping_Ruler of Kingdom
+	dynasty = 80000015
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100012 = {
+	name = Zhu #Qian_Ruler of Tang Empire
+	dynasty = 80000012
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100013 = {
+	name = Sigong #Tuoba_Ruler of Tang Empire
+	dynasty = 800000013
+	religion = shangqing
+	culture = han 
+	835.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100009 = {
+	name = Jingchnog #Wang_Ruler of Dache Yanmen
+	dynasty = 80000009
+	religion = shangqing
+	culture = han 
+	838.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100022 = {
+	name = Zi #Xiahou_Ruler of Dache Chengde
+	dynasty = 80000022
+	religion = shangqing
+	culture = han 
+	824.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100020 = {
+	name = Congdang #Zheng _Ruler of Dache Henghai
+	dynasty = 80000020
+	religion = shangqing
+	culture = han 
+	824.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100028 = {
+	name = Chundong #Zhong_Ruler of Tang Empire
+	dynasty = 80000028
+	religion = shangqing
+	culture = han 
+	830.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
