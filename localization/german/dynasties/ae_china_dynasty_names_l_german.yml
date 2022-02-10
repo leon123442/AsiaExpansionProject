@@ -8,7 +8,7 @@
  dynn_Kang:0 "Kang"
  dynn_sogdian_Mi:0 "sogdian_Mi"
  dynn_sogdian_Yi:0 "sogdian_Yi"
-
+ dynn_Du:0 "Du"
 
  #Nanman-Bai
  dynn_Zhong:0 "Zhong"
@@ -17,8 +17,11 @@
  dynn_Cai:0 "Cai"
  dynn_Mon:0 "Mon"
  dynn_Cuan:0 "Cuan"
+ #added
  dynn_Nong:0 "Nong"
-
+ dynn_Deng:0 "Deng"
+ dynn_Min:0 "Min"
+ dynn_Karibari:0 "Karibari"
 
  #Nanman-Yi
  dynn_Luodian:0 "Luodian"
@@ -108,6 +111,11 @@ dynn_Wen:0 "Wen"
 dynn_Aan:0 "Aan"
 dynn_Yizhi:0 "Yizhi"
 dynn_YUan:0 "YUan"
+dynn_Gim:0 "Gim"
+dynn_Pak:0 "Pak"
+dynn_Shiwon:0 "Shiwon"
+dynn_Seoyoung:0 "Seoyoung"
+
 
 #Lanxang
 dynn_ChamaThevi:0 "ChamaThevi"
@@ -121,3 +129,12 @@ dynn_Jing:0 "Jing"
 
 #add
 dynn_Tian:0 "Tian"
+dynn_Niu:0 "Niu"
+
+#Balhae
+dynn_Tae:0 "Tae"
+dynn_Shou:0 "Shou"
+dynn_Yangzhi:0 "Yangzhi"
+dynn_Yin:0 "Yin"
+dynn_Zhang:0 "Zhang"
+dynn_Zhi:0 "Zhi"
