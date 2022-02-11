@@ -34,3 +34,7 @@ heritage_yilou = {
 heritage_samhan = {
 	type = heritage
 }
+
+heritage_austronesian = {
+	type = heritage
+}
