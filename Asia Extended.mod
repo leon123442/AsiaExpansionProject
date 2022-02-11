@@ -9,5 +9,6 @@ tags={
 	"Historical"
 }
 name="AsiaExtended"
-supported_version="1.4.4"
+supported_version="1.5.*"
 path="mod/AsiaExtended"
+remote_file_id="2706635752"
