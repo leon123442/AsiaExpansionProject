@@ -31,6 +31,8 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+#Chinese innovation#######################################################################
+
 innovation_centralization_of_authority = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
@@ -62,83 +64,5 @@ innovation_centralization_of_authority = {
  	custom = unlock_fortification_rights_contract
  	custom = unlock_coinage_rights_contract
 	
-	flag = global_maa
-}
-
-innovation_horse_archery = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			#Yamato
-			this = culture:yamato
-		}
-	}
-
-	unlock_maa = mounted_samurai
-
-	flag = global_maa
-}
-
-master_of_bow = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			#Yamato
-			this = culture:yamato
-		}
-	}
-
-	unlock_maa = bow_samurai
-
-	flag = global_maa
-}
-
-mountain_pattern_armour = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @leadership_2
-
-	potential = {
-		OR = {
-			#han
-			this = culture:han
-		}
-	}
-
-	unlock_maa = han_heavy_spearmann
-
-	flag = global_maa
-}
-
-innovation_emishi_riders = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			this = culture:emishi
-			AND = {
-				this = culture:ainu
-				culture_head = {
-					any_sub_realm_county = {
-						count > 1
-						#target_is_de_jure_liege_or_above = title:d_kanto
-						#culture = culture:ainu
-						culture = culture:emishi
-					}
-				}
-			}
-		}
-	}
-
-	unlock_maa = emishi_horse_archers
-
 	flag = global_maa
 }

@@ -40,6 +40,7 @@ emishi = {
 		tradition_hit_and_run
 		tradition_medicinal_plants
 		tradition_adaptive_skirmishing
+		tradition_emishi_horse_archers
 	}
 	
 	name_list = name_list_emishi

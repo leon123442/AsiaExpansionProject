@@ -2,7 +2,7 @@
 	color = { 137 88 33 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -19,7 +19,8 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		5 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }
 
@@ -27,7 +28,7 @@ papuan = {
 	color = { 117 123 91 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -44,6 +45,6 @@ papuan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = melanesian_1
 	}
 }

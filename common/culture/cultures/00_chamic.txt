@@ -2,7 +2,7 @@
 	color = { 252 255 102 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 
@@ -27,7 +27,7 @@ malay = {
 	color = { 252 255 51 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -44,14 +44,14 @@ malay = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}}
 
 aceh = {
 	color = { 252 255 51 }
 	
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -68,14 +68,14 @@ aceh = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}}
 
 brunei = {
 	color = { 102 135 72 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -92,5 +92,6 @@ brunei = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
-	}}
+		10 = asian_austronesian_1
+	}
+}

@@ -2,7 +2,7 @@
 	color = { 155 210 165 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -27,7 +27,7 @@ siwaish = {
 	color = { 145 200 155 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -44,7 +44,7 @@ siwaish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -52,7 +52,7 @@ paiwanese = {
 	color = { 85 160 135 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -69,7 +69,7 @@ paiwanese = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -77,7 +77,7 @@ limaish = {
 	color = { 195 250 205 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -94,7 +94,7 @@ limaish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -102,7 +102,7 @@ pituish = {
 	color = { 115 190 165 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -119,6 +119,6 @@ pituish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }

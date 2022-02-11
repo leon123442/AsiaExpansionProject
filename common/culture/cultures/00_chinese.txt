@@ -66,6 +66,7 @@ han = {
 		tradition_ruling_caste
 		tradition_court_eunuchs
 		tradition_philosopher_culture
+		tradition_han_maa
 	}
 	
 	name_list = name_list_han
