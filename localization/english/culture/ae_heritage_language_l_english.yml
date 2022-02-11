@@ -1,17 +1,17 @@
 ﻿l_english:
-  heritage_korean_name:0 "Korean"
+  heritage_korean_name:0 "Koreanic"
   heritage_samhan_name:0 "Samhan"
-  language_korean_name:0 "Korean"
+  language_korean_name:0 "Koreanic"
   language_goguryeo_name:0 "Goguryeon"
   language_sillanese_name:0 "Sillan"
   language_tamnanese_name:0 "Tamnanese"
-  name_list_korean:0 "Korean"
+  name_list_korean:0 "Koreanic"
   
   heritage_japan_name:0 "Yayoi"
-  language_japonic_name:0 "Japanese"
+  language_japonic_name:0 "Japonic"
   yamato_group_coa_gfx:0 "Japonic"
   name_list_japan:0 "Japanese"
-  yamato_clothing_gfx:0 "Japanese"
+  japanese_clothing_gfx:0 "Japanese"
   
   heritage_ezo_name:0 "Jomon"
   language_ezo_name:0 "Ezo"
