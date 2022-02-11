@@ -10,3 +10,27 @@ heritage_ezo = {
 heritage_tungusic = {
 	type = heritage
 }
+heritage_kradai = {
+	type = heritage
+}
+heritage_san_miao = {
+	type = heritage
+}
+heritage_yue = {
+	type = heritage
+}
+heritage_mon_khmer = {
+	type = heritage
+}
+heritage_yi = {
+	type = heritage
+}
+heritage_bai = {
+	type = heritage
+}
+heritage_yilou = {
+	type = heritage
+}
+heritage_samhan = {
+	type = heritage
+}

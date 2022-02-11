@@ -2,8 +2,8 @@
 	color = { 150 110 193 }
 		
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yi
+	language = language_tujia
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -28,8 +28,8 @@ hani = {
 	color = { 132 69 198 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yi
+	language = language_loloish
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -54,8 +54,8 @@ wuman = {
 	color = { 130 90 173 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yi
+	language = language_loloish
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

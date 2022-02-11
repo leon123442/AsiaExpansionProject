@@ -2,8 +2,8 @@
 	color = { 214 151 92 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yue
+	language = language_vietnamese
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

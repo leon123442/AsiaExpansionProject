@@ -1,6 +1,9 @@
 ﻿ainu = {
 	color = { 0 113 193 }
 	
+	created = 850.1.1
+	parents = { emishi mishihase }
+	
 	ethos = ethos_stoic
 	heritage = heritage_ezo
 	language = language_ezo

@@ -3,8 +3,8 @@ pu = {  #Zhuang
 	color = { 50 155 14 }
 		
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_tai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -29,8 +29,8 @@ biao = {  #Biao of Canton
 	color = { 70 175 34 }
 		
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_biao
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -55,8 +55,8 @@ beish = {  #Be of Leizhou prior to their migration to Hainan
 	color = { 94 170 69 }
 		
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_beish
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -81,8 +81,8 @@ tai = {
 	color = { 84 160 59 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_tai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -103,12 +103,12 @@ tai = {
 	}
 }
 	
-	tay = {
+tay = {
 	color = { 74 130 39 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_tai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -133,8 +133,8 @@ kam_sui = {
 	color = { 10 132 24 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_tai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -159,8 +159,8 @@ liliao = {  #俚
 	color = { 80 185 54 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_kradai
+	language = language_hlai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

@@ -1,136 +1,9 @@
-﻿wu = { # 吳 Named after the ancient state of Wu - descends from Tang Era Middle Chinese, local variety around shanghai and eastern china
-	color = { 245 64 64 }
-
-	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chinese_characters
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_han
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}
-}
-	
-gan = { # 贛 Gan Chinese, spoken primarily in Jiangxi
-	color = { 235 64 64 }
-
-	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chinese_characters
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_han
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}
-}
-	
-xiang = { # 湘 Xiang Chinese, spoken primarily in Hunan
-	color = { 225 64 64 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chinese_characters
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_han
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}}
-	
-hakka = { # 客家 Hakka Chinese, has no associated province, mainly inhabit lands in Guangdong and Jiangxi
-	color = { 185 54 54 }
-
-	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chinese_characters
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_han
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}}
-	
-cantonese = { # 粵 Yue Chinese/ Cantonese, not to be confused with the pre-chinese natives 越 Yue; also descends from middle chinese
-	color = { 235 64 64 }
-
-	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chinese_characters
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_han
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}}
-	
-ba_shu = { # 巴蜀 Named after the ancient states of Ba and Shu, local pre-ming era sinitic language
+﻿ba_shu = { # 巴蜀 Named after the ancient states of Ba and Shu, local pre-ming era sinitic language
 	color = { 255 64 64 }
 	
 	ethos = ethos_courtly
 	heritage = heritage_chinese
-	language = language_chinese
+	language = language_shu_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_chinese_characters
@@ -143,7 +16,7 @@ ba_shu = { # 巴蜀 Named after the ancient states of Ba and Shu, local pre-ming
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -155,9 +28,12 @@ min = { #闽should probably be divided into early south and early east and early
 
 	color = { 241 74 74 }
 	
+	created = 150.1.1
+	parents = { han }
+	
 	ethos = ethos_courtly
 	heritage = heritage_chinese
-	language = language_chinese
+	language = language_min_chinese
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_chinese_characters
@@ -170,7 +46,7 @@ min = { #闽should probably be divided into early south and early east and early
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -195,8 +71,8 @@ han = {
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -222,7 +98,7 @@ hebei = {  #河朔
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
@@ -248,7 +124,7 @@ hexi = {  #河西
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
