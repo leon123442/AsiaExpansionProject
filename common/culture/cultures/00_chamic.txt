@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 
@@ -44,7 +44,7 @@ malay = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}}
 
 aceh = {
@@ -68,7 +68,7 @@ aceh = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}}
 
 brunei = {
@@ -92,5 +92,6 @@ brunei = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
-	}}
+		10 = asian_austronesian_1
+	}
+}

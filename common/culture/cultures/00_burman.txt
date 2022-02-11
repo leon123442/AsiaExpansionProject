@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}}
 	
 burmese = {
@@ -43,7 +43,7 @@ burmese = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 
@@ -69,6 +69,6 @@ kachin = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }

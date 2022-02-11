@@ -19,7 +19,8 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }
 
@@ -44,7 +45,8 @@ halmahera = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }
 
@@ -69,7 +71,8 @@ timor = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }
 
@@ -94,6 +97,7 @@ sumba = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }

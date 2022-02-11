@@ -20,7 +20,7 @@ tomini = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -45,7 +45,7 @@ kaili = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -70,7 +70,7 @@ salua = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -96,7 +96,7 @@ bungku = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -121,7 +121,7 @@ munan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -147,7 +147,7 @@ bugis = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -172,7 +172,7 @@ makassar = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -197,6 +197,6 @@ mandar = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }

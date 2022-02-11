@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 	
@@ -44,7 +44,7 @@ lawa = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 	
@@ -69,7 +69,7 @@ waic = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }
 
@@ -94,6 +94,6 @@ khmu = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_southeast_asian_1
 	}
 }

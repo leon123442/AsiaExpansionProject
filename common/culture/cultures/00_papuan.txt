@@ -19,7 +19,8 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		5 = asian_austronesian_1
+		10 = melanesian_1
 	}
 }
 
@@ -44,6 +45,6 @@ papuan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = melanesian_1
 	}
 }

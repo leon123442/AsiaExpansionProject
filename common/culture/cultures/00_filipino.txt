@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -44,7 +44,7 @@ aeta = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = melanesian_1
 	}
 }
 
@@ -69,7 +69,7 @@ tawo = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -93,7 +93,7 @@ buranun = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -139,7 +139,7 @@ manobo = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -164,7 +164,7 @@ sinauna = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -189,7 +189,7 @@ danao = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -214,7 +214,7 @@ palawan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 pangasinan = {
@@ -238,7 +238,7 @@ pangasinan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	# Philippine cultures present on Sulawesi
@@ -264,7 +264,7 @@ gorontalo = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -289,7 +289,7 @@ minahasa = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	# 1066 cultures
@@ -315,7 +315,7 @@ tagalog = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -340,7 +340,7 @@ bisaya = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -365,7 +365,7 @@ pampangan = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -390,7 +390,7 @@ ilokano = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -415,7 +415,7 @@ ibanag = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -440,7 +440,7 @@ sambal = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 
@@ -465,6 +465,6 @@ ifugao = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }

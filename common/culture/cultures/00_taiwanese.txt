@@ -19,7 +19,7 @@
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -44,7 +44,7 @@ siwaish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -69,7 +69,7 @@ paiwanese = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -94,7 +94,7 @@ limaish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
 	
@@ -119,6 +119,6 @@ pituish = {
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = indian
+		10 = asian_austronesian_1
 	}
 }
