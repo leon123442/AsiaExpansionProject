@@ -2,7 +2,7 @@
 	color = { 174 184 46 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -27,7 +27,7 @@ lampung = {
 	color = { 202 205 102 }
 	
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
+	heritage = heritage_austronesian
 	language = language_magadhan
 	martial_custom = martial_custom_male_only
 	traditions = {

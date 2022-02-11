@@ -10,3 +10,7 @@ heritage_ezo = {
 heritage_tungusic = {
 	type = heritage
 }
+
+heritage_austronesian = {
+	type = heritage
+}

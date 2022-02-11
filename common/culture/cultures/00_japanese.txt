@@ -13,6 +13,7 @@
 		tradition_ruling_caste
 		tradition_chinese_characters
 		tradition_isolationist
+		tradition_japanese_samurai
 	}
 	
 	name_list = name_list_japan

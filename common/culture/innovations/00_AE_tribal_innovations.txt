@@ -31,39 +31,6 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
-##Chinese Innovations
-innovation_world_asia_korea  = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	region = world_asia_korea
-	icon = @maa_02
-
-	unlock_maa = asia_korea_ss
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_world_cathay  = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_01
-
-	potential = {
-		OR = {
-			this = culture:khitan
-			this = culture:shatuo
-		}
-	}
-
-	unlock_maa = cathay_ps
-	unlock_law = single_heir_dynasty_house
-	custom = unlock_single_heir_dynasty_house_changing
-
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
 innovation_battleships = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
@@ -79,7 +46,6 @@ innovation_battleships = {
 		raid_speed = 0.1
 	}
 
-	custom = unlocks_naval_raiding
 	custom = unlocks_sailable_major_rivers
 
 	flag = global_regional
@@ -89,8 +55,11 @@ innovation_battleships = {
 innovation_outrigger_boats = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	region = world_asia_southeast_madjapahit
 	icon = @longboats
+
+	potential = {
+		has_cultural_pillar = heritage_austronesian
+	}
 
 	modifier = {
 		embarkation_cost_mult = -0.90
