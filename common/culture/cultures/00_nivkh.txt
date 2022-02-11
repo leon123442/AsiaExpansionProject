@@ -2,8 +2,8 @@
 	color = { 131 127 144 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yilou
+	language = language_nivkh
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
@@ -28,8 +28,8 @@ mishihase = {
 	color = { 101 97 114 }
 
 	ethos = ethos_courtly
-	heritage = heritage_chinese
-	language = language_chinese
+	heritage = heritage_yilou
+	language = language_nivkh
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship

@@ -2,8 +2,8 @@
 	color = { 216 106 62 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
+	heritage = heritage_bai
+	language = language_bai
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_philosopher_culture

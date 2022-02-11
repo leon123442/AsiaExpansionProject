@@ -1,15 +1,19 @@
 ﻿l_english:
-  heritage_korean_name:0 "Koreanic"
-  language_korean_name:0 "Koreanic"
+  heritage_korean_name:0 "Korean"
+  heritage_samhan_name:0 "Samhan"
+  language_korean_name:0 "Korean"
+  language_goguryeo_name:0 "Goguryeon"
+  language_sillanese_name:0 "Sillan"
+  language_tamnanese_name:0 "Tamnanese"
   name_list_korean:0 "Korean"
   
-  heritage_japan_name:0 "Japonic"
-  language_japonic_name:0 "Japonic"
+  heritage_japan_name:0 "Yayoi"
+  language_japonic_name:0 "Japanese"
   yamato_group_coa_gfx:0 "Japonic"
   name_list_japan:0 "Japanese"
   yamato_clothing_gfx:0 "Japanese"
   
-  heritage_ezo_name:0 "Ezo"
+  heritage_ezo_name:0 "Jomon"
   language_ezo_name:0 "Ezo"
   ainu_group_coa_gfx:0 "Ezo"
   name_list_ainu:0 "Ainu"
@@ -17,4 +21,32 @@
   name_list_kaizuka:0 "Kaizuka"
   ainu_clothing_gfx:0 "Ezo"
   
-  heritage_tunguisic_name:0 "Tunguisic"
+  heritage_tungusic_name:0 "Tunguse"
+  language_jurchen_name:0 "Jurchenian"
+  language_evenki_name:0 "Evenki"
+  
+  heritage_yilou_name:0 "Yilou"
+  language_nivkh_name:0 "Nivkh"
+  
+  language_min_chinese_name:0 "Minhua"
+  language_shu_chinese_name:0 "Bashuhua"
+  
+  heritage_san_miao_name:0 "San Miao"
+  language_hmong_name:0 "Hmong"
+  language_mien_name:0 "Mien"
+  
+  heritage_yi_name:0 "Yi"
+  language_tujia_name:0 "Tujia"
+  language_loloish_name:0 "Loloish"
+  
+  heritage_kradai_name:0 "Kra-Dai"
+  language_tai_name:0 "Tai"
+  language_beish_name:0 "Be"
+  language_biao_name:0 "Biao"
+  language_hlai_name:0 "Hlai"
+  
+  heritage_bai_name:0 "Bainese"
+  language_bai_name:0 "Baipho"
+  
+  heritage_yue_name:0 "Vietic"
+  language_vietnamese_name:0 "Vietnamese"

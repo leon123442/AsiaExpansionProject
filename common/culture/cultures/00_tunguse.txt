@@ -4,7 +4,7 @@ udege = {
 
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_evenki
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -34,7 +34,7 @@ mohese = {
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_jurchen
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -63,9 +63,12 @@ mohese = {
 balhae = {
 	color = { 160 160 134 }
 	
+	created = 700.1.1
+	parents = { goguryeo mohese }
+	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_jurchen
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -96,7 +99,7 @@ heishui = {
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_jurchen
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -126,7 +129,7 @@ evenk = {  #鄂温克
 	
 	ethos = ethos_communal
 	heritage = heritage_tungusic
-	language = language_mongolic
+	language = language_evenki
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists

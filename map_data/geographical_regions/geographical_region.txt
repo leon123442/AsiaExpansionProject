@@ -3159,3 +3159,30 @@ divergence_island_regions = {
 	}
 }
 
+### AE Custom Regions
+
+korea_custom_region = {
+	duchies = {
+		d_goguryeo
+		d_baekje
+		d_tamna
+		d_sila
+		d_gaya
+		d_dongya
+		d_rangnang
+		d_okjeo
+	}
+}
+
+custom_manchuria = {
+	duchies = {
+		d_liaodong
+		d_liaoxi
+		d_gewu
+		d_balhae
+		d_malgal
+		d_sumo
+		d_buyeo
+	}
+}
+
