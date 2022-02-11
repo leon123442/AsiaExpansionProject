@@ -273,9 +273,12 @@ language_nivkh = {
 
 language_sillanese = {
 	type = language
+	
 	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sillanese
+		scope:character = {
+			culture = {
+				has_cultural_pillar = heritage_korean
+			}
 		}
 	}
 	ai_will_do = {
