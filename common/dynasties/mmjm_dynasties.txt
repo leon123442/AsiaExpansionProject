@@ -8,13 +8,13 @@ dynn_rajasa = {
 
 dynn_warmadewa = {
 	name= "dynn_warmadewa"
-	culture = "bali"
+	culture = "java"
 	motto = dynn_warmadewaa_motto
 }
 
 dynn_sunda = {
 	name= "dynn_sunda"
-	culture = "sunda"
+	culture = "java"
 	motto = dynn_sunda_motto
 }
 

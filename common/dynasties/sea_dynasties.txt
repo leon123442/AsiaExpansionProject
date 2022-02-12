@@ -23,6 +23,7 @@
 4210000 = {
 	name = "dynn_Mung"
 	culture = "yi"
+    motto = dynn_Mung_motto
 }
 4210005 = {
 	name = "dynn_Duan"
@@ -35,6 +36,10 @@ dali_d010 = {
 }
 dali_d011 = {
     name = "dynn_Gao"
+    culture = "bai"
+}
+dali_d012 = {
+    name = "dynn_Wang"
     culture = "bai"
 }
 
@@ -135,70 +140,6 @@ mond_0058 = {
     culture = "wa"
 }
 
-# Cham
-4210007 = {
-	name = "dynn_Simhapura"
-	culture = "champ"
-}
-4210008 = {
-	name = "dynn_Indrapura"
-	culture = "champ"
-}
-4210009 = {
-	name = "dynn_Bhrigu"
-	culture = "champ"
-}
-
-cham_d101 = {
-    name = "dynn_Vrddhakula"
-    culture = "champ"
-}
-cham_d102 = {
-    name = "dynn_Gangesvara"
-    culture = "champ"
-}
-cham_d103 = {
-    name = "dynn_Hanroak"
-    culture = "champ"
-}
-cham_d104 = {
-    name = "dynn_Kramula"
-    culture = "champ"
-}
-cham_d105 = {
-    name = "dynn_Narikela"
-    culture = "champ"
-}
-cham_d106 = {
-    name = "dynn_Kauthara"
-    culture = "champ"
-}
-cham_d107 = {
-    name = "dynn_Shrestapura"
-    culture = "champ"
-}
-
-cham_d109 = {
-    name = "dynn_Indrapura" # 7th dynasty
-    culture = "champ"
-}
-cham_d108 = {
-    name = "dynn_Vijaya" # Probably not real name; 8th dynasty
-    culture = "champ"
-}
-cham_d110 = {
-    name = "dynn_Sud" # 9th dynasty
-    culture = "champ"
-}
-cham_d111 = {
-    name = "dynn_Vijaya" # 10th dynasty
-    culture = "champ"
-}
-cham_d112 = {
-    name = "dynn_Vijaya" # 11th dynasty
-    culture = "champ"
-}
-
 # Randies
 4210010 = {
 	name = "dynn_Baaen"
@@ -228,28 +169,28 @@ cham_d112 = {
 # Hill tribes of Vietnam, Cambodia, and Laos
 kuy2001 = {
     name = "dynn_Um"
-    culture = "khmer"
+    culture = "kuy"
 }
 kuy2002 = {
     name = "dynn_Kong"
-    culture = "khmer"
+    culture = "kuy"
 }
 kuy2003 = {
     name = "dynn_Mom"
-    culture = "khmer"
+    culture = "kuy"
 }
 kuy2004 = {
     name = "dynn_Li"
-    culture = "khmer"
+    culture = "kuy"
 }
 kuy2005 = {
     name = "dynn_Cheng"
-    culture = "khmer"
+    culture = "kuy"
 }
 
 kuyd2006 = {
     name = "dynn_Phan"
-    culture = "khmer"
+    culture = "kuy"
 }
 kuyd2007 = {
     name = "dynn_Ros"
@@ -482,6 +423,10 @@ yid011 = {
     name = "dynn_Hxie_Zzy"
     culture = "yi"
 }
+yid012 = {
+    name = "dynn_U_Mung"
+    culture = "yi"
+}
 
 # Hani
 hanid001 = {
@@ -596,56 +541,56 @@ nagad002 = {
 # Viet
 viet_d001 = {
     name = "dynn_Khuc"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d002 = {
     name = "dynn_Hoang"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d003 = {
     name = "dynn_Pham"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d004 = {
     name = "dynn_Duong"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d005 = {
     name = "dynn_Kieu"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d006 = {
     name = "dynn_Ngo"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d007 = {
     name = "dynn_Ho"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d008 = {
     name = "dynn_Le"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d009 = {
     name = "dynn_Dinh"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d010 = {
     name = "dynn_Ly"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d011 = {
     name = "dynn_Tran"
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 
 viet_d012 = {
     name = "dynn_Ly_vn" # Lý
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 viet_d013 = {
     name = "dynn_Tran_vn" # Trần
-    culture = "jiaozhi"
+    culture = "kinh"
 }
 
 han_d001 = {
@@ -681,6 +626,10 @@ muong_d005 = {
 muong_d006 = {
     name = "dynn_Trinh"
     culture = "muong"
+}
+muong_d007 = {
+    name = "dynn_Chu"
+    culture = "muong" # Tho
 }
 
 
@@ -982,31 +931,31 @@ pyud008 = {
 
 lusong001 = {
     name = "dynn_Laksamana"
-    culture = nauna
+    culture = sinauna
 }
 lusong002 = {
     name = "dynn_Galura"
-    culture = nauna
+    culture = sinauna
 }
 lusong003 = {
     name = "dynn_Laksina"
-    culture = nauna
+    culture = sinauna
 }
 lusong004 = {
     name = "dynn_Lakanlale"
-    culture = nauna
+    culture = sinauna
 }
 lusong005 = {
     name = "dynn_Manansala"
-    culture = nauna
+    culture = sinauna
 }
 lusong006 = {
     name = "dynn_Lakandanum"
-    culture = nauna
+    culture = sinauna
 }
 lusong007 = {
     name = "dynn_Gatbonton"
-    culture = nauna
+    culture = sinauna
 }
 maguindanao001 = {
     name = "dynn_Siyagu"

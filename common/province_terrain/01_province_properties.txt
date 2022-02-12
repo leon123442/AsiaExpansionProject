@@ -38940,9 +38940,6 @@
 944 = {
 	winter_severity_bias = 0.0
 }
-1470 = {
-	winter_severity_bias = 0.0
-}
 8623 = {
 	winter_severity_bias = 0.0
 }
@@ -40775,6 +40772,9 @@
 	winter_severity_bias = 0.0
 }
 1469 = {
+	winter_severity_bias = 0.0
+}
+1470 = {
 	winter_severity_bias = 0.0
 }
 3390 = {

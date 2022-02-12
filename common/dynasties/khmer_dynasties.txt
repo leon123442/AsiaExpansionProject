@@ -1,4 +1,4 @@
-2636000 = {
+﻿2636000 = {
 	name = "dynn_varman"
 	culture = "khmer"
 }

@@ -1,4 +1,0 @@
-80000015 = {
-	name = "dynn_Ping"
-	culture = "Han"
-}

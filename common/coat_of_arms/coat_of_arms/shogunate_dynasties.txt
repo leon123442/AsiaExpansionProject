@@ -1721,7 +1721,7 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.46 0.46 }  }
 	}
 }
-10000460 = { #Wada
+40000005 = { #Wada
 	pattern = "pattern_solid.dds"	
 	color1 = "black"
 	colored_emblem = {
@@ -3003,7 +3003,7 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
-10001000 = { #Fujiwara
+40000001 = { #Fujiwara
 	pattern = "pattern_solid.dds"	
 	color1 = "green"
 	colored_emblem = {
@@ -3130,7 +3130,7 @@
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-10006017 = { #Mino Sato
+400000011 = { #Mino Sato
 	pattern = "pattern_solid.dds"	
 	color1 = "blue"
 	colored_emblem = {

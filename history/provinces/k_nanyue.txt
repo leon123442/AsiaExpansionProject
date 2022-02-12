@@ -4,7 +4,7 @@
 #b_Chaozhou_Haiyang
 10354 = {
     culture = min
-	religion = pagan 
+	religion = shangqing
 	holding = tribal_holding
 }
 #b_Chaoyang_Swatow
@@ -16,8 +16,8 @@
 #c_haka
 #b_Meizhou_Chengxiang
 10356 = {
-    culture = min
-	religion = pagan 
+    culture = sheren
+	religion = hmong
 	holding = tribal_holding
 }
 #b_Jiaoling
@@ -30,8 +30,8 @@
 #c_xunzhou
 #b_Longchuan_Xunzhou
 10360 = {
-    culture = min
-	religion = pagan 
+    culture = han
+	religion = zenzong
 	holding = tribal_holding
 }
 	
@@ -65,8 +65,8 @@
 #c_shaoguan_guang 
 #b_Shaozhou_Qujiang
 10365 = {
-    culture = yi
-	religion = pagan 
+    culture = yao
+	religion = hmong
 	holding = castle_holding
 	special_building_slot = shaozhou_mines_01
 }
@@ -87,7 +87,7 @@
 #b_Guangzhou_Nanhai
 10370 = {
     culture = han
-	religion = pagan
+	religion = zenzong
 	holding = castle_holding
 }
 #b_Yingde_Zhenyang
@@ -116,22 +116,22 @@
 }
 #b_Yashan_Xiangshan
 10373 = {
-
-
-	holding = none
+	culture = pu
+	religion = zhengyi
+	holding = tribal_holding
 }
 #b_Huaiji_Sihui
 10375 = {
-
-
-	holding = none
+	culture = biao
+	religion = zhengyi
+	holding = tribal_holding
 }
 
 #c_duanzhou
 #b_Duanzhou_Gaoyao
 10374 = {
-    culture = pu
-	religion = pagan 
+    culture = han
+	religion = zenzong
 	holding = tribal_holding
 }
 #b_Fengzhou_Fengchuan
@@ -148,8 +148,8 @@
 #c_xinhui
 #b_Xinxing_Fulin
 10380 = {
-    culture = jiaozhi
-	religion = pagan 
+    culture = han
+	religion = zenzong
 	holding = tribal_holding
 }
 #b_Xinhui_Jiangmen
@@ -194,7 +194,7 @@
 #c_gaozhou
 #b_Gaozhou_Dianbai
 10382 = {
-    culture = jiaozhi
+    culture = beish
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -216,7 +216,7 @@
 #c_rongzhou_gui
 #b_Rongzhou_Beiliu
 10391 = {
-    culture = han
+    culture = pu
 	religion = pagan 
 	holding = castle_holding
 }
@@ -246,7 +246,7 @@
 #c_lianzhou_gui
 #b_Lianzhou_Hepu
 10389 = {
-    culture = liliao
+    culture = pu
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -256,9 +256,8 @@
 #c_changwu
 #b_Hezhou_Linhe
 10376 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
+
+	holding = none
 }
 #b_Wuzhou_Cangwu
 10378 = {
@@ -269,8 +268,8 @@
 #c_guilin
 #b_Guilin
 10397 = {
-    culture = yi
-	religion = pagan
+    culture = yao
+	religion = hmong
 	holding = castle_holding
 	special_building = lingqu_1
 }
@@ -281,7 +280,8 @@
 }
 #b_Zhaozhou_Pingle
 10398 = {
-
+    culture = pu
+	religion = pagan 
 	holding = tribal_holding
 }
 #b_Yongfu_Dingli
@@ -332,8 +332,8 @@
 #c_rongshui
 #b_Rongzhou_Rongshui
 10402 = {
-    culture = pu
-	religion = pagan 
+    culture = kam_sui
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Longsheng_Sanjiang
@@ -343,31 +343,9 @@
 }
 
 #d_yongguan
-#c_nanning
-#b_Yongzhou_Nanning
-10410 = {
-    culture = han
-	religion = pagan
-	holding = castle_holding
-}
-#b_Sitong_Zuozhou
-10415 = {
 
-	holding = tribal_holding
-}
-#b_Wuming_Wandezhou
-10414 = {
 
-	holding = tribal_holding
-}
 
-#c_qinzhou_gui	
-#b_Qinzhou_Qinjiang
-10390 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
-}
 #b_Nanbin_Lingshan
 10862 = {
 
@@ -375,18 +353,6 @@
 }
 
 #c_luzhou_annan
-#b_Luzhou_Wulei
-10427 = { 
-	culture = jiaozhi
-	religion = pagan
-	holding = tribal_holding		
-}
-#b_Sumaozhou
-10423 = { 
-
-	
-	holding = tribal_holding
-}
 
 #c_binzhou_gui
 #b_Binzhou_Lingfang
@@ -399,45 +365,4 @@
 10409 = {
 
 	holding = none
-}
-
-#c_luolong 
-#b_Luolong_Wuqin
-10412 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
-}
-#b_Simingzhou_Shixizhou
-10413 = {
-  
-	holding = tribal_holding
-}
-#b_Shangsizhou_Rangzhou
-10411 = {
-  
-	holding = tribal_holding
-}
-
-#c_baise 
-#b_Tianzhou_Baise
-10417 = {
-    culture = pu
-	religion = pagan 
-	holding = tribal_holding
-}
-#b_Bama
-10416 = {
-  
-	holding = none
-}
-#b_Sicheng_Guilezho
-10418 = {
-  
-	holding = tribal_holding
-}
-#b_Houzhou_Lunzho
-10419 = {
-  
-	holding = tribal_holding
 }

@@ -49,7 +49,6 @@ special_genes = {
 					1 = male_hair_steppe_01
 					1 = male_hair_steppe_02
 					1 = male_hair_fp1_08
-					1 = male_hair_chinese_01
 				}
 
 				female = {
@@ -81,11 +80,6 @@ special_genes = {
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
-					1 = female_hair_chinese_01
-				    1 = female_hair_chinese_02
-				    1 = female_hair_chinese_03
-				    1 = female_hair_chinese_04
-				    1 = female_hair_chinese_05
 				}
 				boy = male
 				girl = female
@@ -124,7 +118,6 @@ special_genes = {
 					1 = male_hair_northern_03
 					1 = male_hair_steppe_01
 					1 = male_hair_steppe_02
-					1 = male_hair_chinese_01
 				}
 
 				female = {
@@ -156,11 +149,6 @@ special_genes = {
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
-					1 = female_hair_chinese_01
-				    1 = female_hair_chinese_02
-				    1 = female_hair_chinese_03
-				    1 = female_hair_chinese_04
-				    1 = female_hair_chinese_05
 				}
 				boy = male
 				girl = female
@@ -823,7 +811,6 @@ special_genes = {
 				girl = female
 			}
 
-
 			scripted_character_hairstyles_01 = { # THIS TEMPLATE SHOULD NOT BE CHANGED IN ANY WAY! If new hairstyles are added for scripted characters they should be added in a new template.
 				index = 36
 				male = {
@@ -907,96 +894,86 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
-			chinese_hairstyles_straight = {
+
+			# Harald Fairhair's vow-hair.
+			scripted_character_hairstyles_02 = {
 				index = 37
-			male = {
-				1 = male_hair_chinese_01
-				
-			}
-
-			female = {
-			    1 = female_hair_chinese_01
-				1 = female_hair_chinese_02
-				1 = female_hair_chinese_03
-				1 = female_hair_chinese_04
-				1 = female_hair_chinese_05
-			}
+				male = { 1 = male_hair_northern_01 }		   
+				female = male
 				boy = male
-				girl = female
+				girl = male
 			}
 
-			chinese_hairstyles_wavy = {
+
+
+			### JAPANESE HAIRSTYLES ###
+
+			japanese_hairstyles_straight = {
 				index = 38
 				male = {
-				1 = male_hair_chinese_01
-				
-			}
-
-			female = {
-			    1 = female_hair_chinese_01
-				1 = female_hair_chinese_02
-				1 = female_hair_chinese_03
-				1 = female_hair_chinese_04
-				1 = female_hair_chinese_05
-			}
-				boy = male
-				girl = female
-			}
-
-			chinese_hairstyles_curly = {
-				index = 39
-				male = {
-				1 = male_hair_chinese_01
-				
-			}
-
-			female = {
-			    1 = female_hair_chinese_01
-				1 = female_hair_chinese_02
-				1 = female_hair_chinese_03
-				1 = female_hair_chinese_04
-				1 = female_hair_chinese_05
-			}
-				boy = male
-				girl = female
-			}
-			
-			chinese_hairstyles_afro = {
-				index = 40
-				male = {
-				1 = male_hair_chinese_01
-				
-			}
-
-			female = {
-			    1 = female_hair_chinese_01
-				1 = female_hair_chinese_02
-				1 = female_hair_chinese_03
-				1 = female_hair_chinese_04
-				1 = female_hair_chinese_05
-			}
-				boy = male
-				girl = female
-			}
-			
-			# Shogunate hairstyles
-
-			japanese_hairstyles = {
-				index = 41
-				male = {
 					#weight = <object in gfx/portrait/accessories/>
-					10 = male_hair_indian_03
+					3 = male_hair_indian_03
+					
 				}
 
 				female = {
-					10 = female_hair_western_05
-#					10 = female_hair_steppe_02
+					3 = female_hair_western_05
+					
 				}
 				boy = male
 				girl = female
-			}					   
+			}
 
+			japanese_hairstyles_wavy = {
+				index = 39
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					3 = male_hair_indian_03
+					
+				}
+
+				female = {
+					3 = female_hair_steppe_01 # Twin braids with ribbons and earrings
+					3 = female_hair_steppe_02 # Tight with twin braids rolled up into two balls, earrings
+					5 = female_hair_western_05
+				}
+				boy = male
+				girl = female
+			}
+
+			japanese_hairstyles_curly = {
+				index = 40
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					2 = male_hair_mena_04 # Medium curly
+
+				}
+
+				female = {
+					2 = female_hair_western_05 # Behind head wavy
+					2 = female_hair_indian_03 # Let out wavy with jewelry					
+				}
+				boy = male
+				girl = female
+			}
+
+			japanese_hairstyles_afro = {
+				index = 41
+				male = {
+					2 = male_hair_sub_saharan_01 # Short african 
+					2 = male_hair_sub_saharan_02 # Small afro
+					2 = male_hair_sub_saharan_03 # Short dreads
+				}
+				
+				female = {
+					2 = female_hair_sub_saharan_01 # Medium afro
+					2 = female_hair_sub_saharan_02 # Long Rasta braids
+					2 = female_hair_sub_saharan_03 # Short Rasta braids
+				}
+				boy = male
+				girl = female
+			}
+			
 			ainu_hairstyles = {
 				index = 42
 				male = {
@@ -1021,7 +998,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-		
+			
+			
+			
 		}
 
 	}

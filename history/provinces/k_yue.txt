@@ -35,7 +35,7 @@
 #c_wuzhou_yue 
 #b_Yiwu 
 10206 = {
-    culture = min
+    culture = han
 	religion = zenzong
 	holding = castle_holding 
 }
@@ -49,7 +49,7 @@
 #c_muzhou_yue
 #b_Muzhou_Jiande 
 10208 = {
-    culture = min
+    culture = han
 	religion = zenzong
 	holding = castle_holding
 }
@@ -151,7 +151,7 @@
 #c_wenzhou_yue
 #b_Wenzhou_Yongjia 
 10204 = {
-    culture = min
+    culture = han
 	religion = zenzong
 	holding = castle_holding 
 }
@@ -165,8 +165,8 @@
 #c_kuozhou 
 #b_Kuozhou_Kuocang 
 10215 = {
-    culture = min
-	religion = pagan
+    culture = han
+	religion = zenzong
 	holding = castle_holding 
 }
 
@@ -209,7 +209,7 @@
 #b_Quanzhou_Jinjiang 
 10226 = {
     culture = min
-	religion = pagan
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Putian 
@@ -223,7 +223,7 @@
 #b_Zhangzhou_Zhangpu 
 10228 = {
     culture = min
-	religion = pagan
+	religion = shangqing
 	holding = castle_holding 
 }
 #b_Longxi_Zhangzhou 
@@ -236,8 +236,8 @@
 #c_jianzhou_min
 #b_Jianzhou_Jianou 
 10218 = {
-    culture = min
-	religion = pagan
+    culture = sheren
+	religion = hmong
 	holding = castle_holding 
 }
 #b_Tangxing_Pucheng 
@@ -262,8 +262,8 @@
 #c_tingzhou_min
 #b_Tingzhou_Changting 
 10231 = {
-    culture = min
-	religion = pagan
+    culture = sheren
+	religion = hmong
 	holding = castle_holding 
 }
 #b_Huanglian_Jiulongxi 
@@ -276,57 +276,5 @@
 10230 = {
 
  
-	holding = tribal_holding
-}
-
-
-
-
-#d_ryukyu #琉虬
-#c_penghu #澎湖
-#b_Penghu
-10921 = { 
-	culture = min
-	religion = pagan
-	holding = tribal_holding
-}
-
-#c_liuqiu  #流虬
-#b_nanliuqiu
-10924 = { 
-	culture = austronesian
-	religion = pagan
-	holding = tribal_holding
-}
-
-#b_beiliuqiu
-10922 = {
-	
-}
-
-#b_zhongliuqiu
-10923 = {
-
-}
-
-#k_ryukyu 
-#d_ryukyu 
-#c_ryukyu 
-#b_ryukyu
-11286 = {
-	culture = kaizuka
-	religion = pagan
-	holding = tribal_holding
-}
-#b_amami
-11227 = {
-	culture = kaizuka
-	religion = pagan
-	holding = tribal_holding
-}
-#b_miyakojima  #b_saki
-11285 = {
-	culture = austronesian
-	religion = pagan
 	holding = tribal_holding
 }

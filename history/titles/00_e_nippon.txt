@@ -3,14 +3,28 @@ e_nippon = {
 }
 
 d_yamato_imperial = {
-	858.1.1 = {
+	858.10.6 = {
+		holder = 1600007
+	}
+	858.10.6 = {
+		holder = 1600004
+	}
+}
+c_yamashiro = {
+	858.10.6 = {
+		holder = 1600007
+	}
+	858.10.6 = {
 		holder = 1600004
 	}
 }
 
 k_yamato = {
-	866.1.1 = {
-		holder = 1600001
+	858.10.6 = {
+		holder = 1600007
+	}
+	866.10.6 = {
+		holder = 1600004
 	}
 	867.1.1 = { change_development_level = 16 }
 	1066.1.1 = { change_development_level = 22 }
@@ -40,11 +54,13 @@ c_iwase = {
 d_kansai = {
 	866.1.1 = {
 		holder = 1600001
-	}
-}
-c_yamashiro = {
-	866.1.1 = {
-		holder = 1600001
+		liege = "k_yamato"
+		OBLIGATION_TYPE = title_revocation_rights_protected
+		OBLIGATION_TYPE = council_rights_guaranteed
+		OBLIGATION_TYPE = war_declaration_rights_allowed
+		OBLIGATION_TYPE = religious_rights_protected
+		OBLIGATION_TYPE = feudal_tax_exempt
+		OBLIGATION_TYPE = feudal_levies_exempt
 	}
 }
 c_yamato = {

@@ -203,17 +203,9 @@
 	holding = tribal_holding	
 	}
 #b_KuviehSough
-10768 = {
-
-	
-	holding = tribal_holding
-}
+10768 = {holding = none}
 #b_KuviehEast
-10769 = {
-
-
-	holding = none
-}
+10769 = {holding = none}
 		
 #d_yulou #虞娄/挹娄/东海 #Eumnu/Ŭmnu
 #c_shuaibin #率宾/速频

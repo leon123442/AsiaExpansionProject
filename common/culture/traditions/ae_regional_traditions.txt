@@ -1,0 +1,305 @@
+﻿################################
+# REGIONAL CULTURAL TRADITIONS #
+################################
+
+
+tradition_chinese_characters = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3 copy 2.dds
+		3 = 2.dds
+		4 = han.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_chinese
+			has_cultural_pillar = heritage_japan
+			has_cultural_pillar = heritage_korean
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_chinese
+		has_cultural_pillar = heritage_japan
+		has_cultural_pillar = heritage_korean
+	}
+	
+	parameters = {
+	}
+
+	culture_modifier = {
+		cultural_acceptance_gain_mult = 0.10
+	}
+	character_modifier = {
+		learn_language_scheme_power_mult = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+
+tradition_japanese_samurai = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3 copy 2.dds
+		3 = 2.dds
+		4 = samurai_bow.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_japan
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_japan
+	}
+	
+	parameters = {
+		unlock_maa_samurai = yes
+	}
+
+	culture_modifier = {
+	}
+	character_modifier = {
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_emishi_horse_archers = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3 copy 2.dds
+		3 = 2.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_ezo
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_ezo
+	}
+	
+	parameters = {
+		unlock_maa_emishi = yes
+	}
+
+	culture_modifier = {
+	}
+	character_modifier = {
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_han_maa = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3 copy 2.dds
+		3 = 2.dds
+		4 = han_pikemen.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_chinese
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_chinese
+	}
+	
+	parameters = {
+		unlock_maa_han = yes
+	}
+
+	culture_modifier = {
+	}
+	character_modifier = {
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_khitan_maa = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3 copy 2.dds
+		3 = 2.dds
+		4 = heavy_cav_kithan.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_khitan
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_khitan
+	}
+	
+	parameters = {
+		unlock_maa_khitan = yes
+	}
+
+	culture_modifier = {
+	}
+	character_modifier = {
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}

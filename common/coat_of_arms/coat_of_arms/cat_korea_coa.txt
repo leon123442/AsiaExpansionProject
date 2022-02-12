@@ -368,7 +368,7 @@ c_helan = { # 테스트
 ################
 ## 대만 Taiwan ##
 ################
-d_liuqiu = { # 테스트
+k_tungning = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "blue" # 
 	textured_emblem = {

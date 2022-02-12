@@ -88,7 +88,7 @@
 #c_yanzhou_shuofang
 #b_YanzhouWuyuan
 9788 = {
-    culture = tuyuhun
+    culture = tangut
 	religion = melieism
 	holding = castle_holding		
 }
@@ -102,7 +102,7 @@
 #c_anle
 #b_Wenchi
 9790 = {
-    culture = tuyuhun
+    culture = tangut
 	religion = melieism
 	holding = tribal_holding		
 }
@@ -122,7 +122,7 @@
 #c_gaolan
 #b_Mingsha
 9792 = {
-    culture = tuyuhun
+    culture = tangut
 	religion = vajrayana
 	holding = tribal_holding		
 }
@@ -171,15 +171,14 @@
 ###c_xingqing (Iryai)
 9546 = {	# Xingqing
 	# Misc
-	culture = tuyuhun
+	culture = tangut
 	religion = melieism
 	
 	holding = castle_holding
 	# History
 	1002.1.1 = {
-		culture = tangut
 		religion = vajrayana
-	} #Lingzhou/Lingwu area captured by Tanguts
+	}
 	1230.1.1 = {
 		culture = han
 		religion = mahayana
@@ -198,15 +197,10 @@
 ###c_shunzhou
 9545 = {	# Shunzhou (Qingtongxia)
 	# Misc
-	culture = tuyuhun
+	culture = tangut
 	religion = vajrayana
 	
 	holding = castle_holding
-	# History
-	1002.1.1 = {
-		culture = tangut
-		religion = vajrayana
-	} #Lingzhou/Lingwu area captured by Tanguts
 	1230.1.1 = {
 		culture = han
 		religion = mahayana

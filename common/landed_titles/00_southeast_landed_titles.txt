@@ -278,845 +278,6 @@ e_suvarnabhumi = {
         }
     }
 	
-	k_pagan = {
-		color = { 166 40 224 }
-		color2 = { 255 255 255 }
-		
-		capital = c_pagan
-		
-		ai_primary_priority = {
-			if = {
-				limit = {
-					culture_group = culture_group:burman_group
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-		
-		d_pagan = {
-			color = { 136 20 194 }
-			color2 = { 255 255 255 }
-			
-			capital = c_pagan #Pagan
-			
-			c_pagan = {
-				color = { 116 10 174 }
-				color2 = { 255 255 255 }
-				
-				b_pagan = {
-                    province = 9550
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-				b_popa = {
-                    province = 9551
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-				b_myitche = {
-                    province = 9554
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-				b_tantkyitaung = {
-                    province = 9553
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-				b_nyaung_u = {
-                    province = 9552
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-				b_powundaung = {
-                    province = 9555
-
-					color = { 116 10 174 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_ava = {
-				color = { 86 10 194 }
-				color2 = { 255 255 255 }
-				
-				b_ava = {
-                    province = 9556
-
-					color = { 86 10 194 }
-					color2 = { 255 255 255 }
-				}
-				b_pinya = {
-                    province = 9557
-
-					color = { 86 10 194 }
-					color2 = { 255 255 255 }
-				}
-				b_taungbyon = {
-                    province = 9558
-
-					color = { 86 10 194 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_kyaukse = {
-				color = { 106 40 194 }
-				color2 = { 255 255 255 }
-				
-				b_kyaukse = {
-                    province = 9559
-
-					color = { 106 40 194 }
-					color2 = { 255 255 255 }
-				}
-				b_maingmaw = {
-                    province = 9560
-
-					color = { 106 40 194 }
-					color2 = { 255 255 255 }
-				}
-				b_mekkhaya = {
-                    province = 9561
-
-					color = { 106 40 194 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_minbu = {
-				color = { 96 50 204 }
-				color2 = { 255 255 255 }
-				
-				b_minbu = {
-                    province = 9562
-
-					color = { 96 50 204 }
-					color2 = { 255 255 255 }
-				}
-				b_salin = {
-                    province = 9563
-
-					color = { 96 50 204 }
-					color2 = { 255 255 255 }
-				}
-				b_ngape = {
-                    province = 9564
-
-					color = { 96 50 204 }
-					color2 = { 255 255 255 }
-				}
-				b_shwesettaw = {
-                    province = 9565
-
-					color = { 96 50 204 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_sagaing = {
-				color = { 146 0 194 }
-				color2 = { 255 255 255 }
-				
-				b_sagaing = {
-                    province = 9568
-
-					color = { 146 0 194 }
-					color2 = { 255 255 255 }
-				}
-				b_halin = {
-                    province = 9569
-
-					color = { 146 0 194 }
-					color2 = { 255 255 255 }
-				}
-				b_myinmu = {
-                    province = 9639
-
-					color = { 146 0 194 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_yamethin = {
-				color = { 86 0 144 }
-				color2 = { 255 255 255 }
-				
-				b_yamethin = {
-                    province = 9571
-
-					color = { 86 0 144 }
-					color2 = { 255 255 255 }
-				}
-				b_peikthanomyo = {
-                    province = 9574
-
-					color = { 86 0 144 }
-					color2 = { 255 255 255 }
-				}
-				b_binnaka = {
-                    province = 9573
-
-					color = { 86 0 144 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_llishui = {   #丽水
-			color = { 241 79 15 }
-			color2 = { 255 255 255 }
-			
-			capital = c_lishui
-			
-			c_lishui = { #丽水
-				color = { 89 99 24 }
-				color2 = { 255 255 255 }
-				
-				b_Lishui_Xunchuandachuan = {
-                    province = 10524
-
-					color = { 89 99 24 }
-					color2 = { 255 255 255 }
-				}
-				b_Jinbaocheng_Moulang = {
-                    province = 10523
-
-					color = { 89 99 24 }
-					color2 = { 255 255 255 }
-				}
-				b_Wangcang_Zhenxi = {
-                    province = 10525
-
-					color = { 89 99 24 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_guangdang = {  #广荡
-				color = { 119 130 51 }
-				color2 = { 255 255 255 }
-				
-				b_Guangdang = {
-                    province = 10498
-
-					color = { 119 130 51 }
-					color2 = { 255 255 255 }
-				}
-				b_Changbangcheng = {
-                    province = 10521
-
-					color = { 119 130 51 }
-					color2 = { 255 255 255 }
-				}
-				b_ZhugeTemple = {
-                    province = 10499
-
-					color = { 119 130 51 }
-					color2 = { 255 255 255 }
-				}
-				b_MailikaiRiver = {
-                    province = 10522
-
-					color = { 119 130 51 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_qixian = { #祁鲜
-				color = { 245 85 20 }
-				color2 = { 255 255 255 }
-			
-				b_Menggong_Anxi_Huposhan = {
-                    province = 10526
-					
-
-					color = { 245 85 20 }
-					color2 = { 255 255 255 }
-				}
-				b_Xiangbai_Qixian = {
-                    province = 10527
-					
-
-					color = { 245 85 20 }
-					color2 = { 255 255 255 }
-				}
-				b_Minuo_River = {
-                    province = 10528
-					
-
-					color = { 245 85 20 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_tagaung  = {
-			color = { 204 67 190 }
-			color2 = { 255 255 255 }
-			
-			capital = c_takon # Takon
-			
-			c_takon = {
-				color = { 184 57 170 }
-				color2 = { 255 255 255 }
-				
-				b_takon = { #AKA Tagaung
-                province = 9643
-
-					color = { 184 57 170 }
-					color2 = { 255 255 255 }
-				}
-				b_katha = {
-                    province = 9644
-
-					color = { 184 57 170 }
-					color2 = { 255 255 255 }
-				}
-				b_htigyaing = {
-                    province = 9645
-
-					color = { 184 57 170 }
-					color2 = { 255 255 255 }
-				}
-				b_myedu = {
-                    province = 9646
-
-					color = { 184 57 170 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_madaya = {
-				color = { 164 77 170 }
-				color2 = { 255 255 255 }
-				
-				b_madaya = {
-                    province = 9640
-
-					color = { 164 77 170 }
-					color2 = { 255 255 255 }
-				}
-				b_momeik = {
-                    province = 9642
-
-					color = { 164 77 170 }
-					color2 = { 255 255 255 }
-				}
-				b_singu = {
-                    province = 9641
-
-					color = { 164 77 170 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_hanlan = {
-				color = { 154 57 180 }
-				color2 = { 255 255 255 }
-				
-				b_hanlan = {
-                    province = 9647
-
-					color = { 154 57 180 }
-					color2 = { 255 255 255 }
-				}
-				b_maukkadaw = {
-                    province = 9622
-
-					color = { 154 57 180 }
-					color2 = { 255 255 255 }
-				}
-				b_mingiu = {
-                    province = 9623
-
-					color = { 154 57 180 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_kale = {
-				color = { 214 87 150 }
-				color2 = { 255 255 255 }
-				
-				b_kale = {
-                    province = 9624
-
-					color = { 214 87 150 }
-					color2 = { 255 255 255 }
-				}
-				b_chin = {
-                    province = 9625
-
-					color = { 214 87 150 }
-					color2 = { 255 255 255 }
-				}
-				b_thaungdut = {
-                    province = 9658
-
-					color = { 214 87 150 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_sriksetra = {
-			color = { 156 50 103 }
-			color2 = { 255 255 255 }
-			
-			capital = c_sriksetra
-			
-			c_sriksetra = {
-				color = { 136 30 83 }
-				color2 = { 255 255 255 }
-				
-				b_sriksetra = {
-                    province = 9588
-
-					color = { 136 30 83 }
-					color2 = { 255 255 255 }
-				}
-				b_myede = {
-                    province = 9589
-
-					color = { 136 30 83 }
-					color2 = { 255 255 255 }
-				}
-				b_thayetmyo = {
-                    province = 9590
-
-					color = { 136 30 83 }
-					color2 = { 255 255 255 }
-				}
-				b_taungdwingyi = {
-                    province = 9634
-
-					color = { 136 30 83 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_magwe = {
-				color = { 136 60 73 }
-				color2 = { 255 255 255 }
-				
-				b_magwe = {
-                    province = 9575
-
-					color = { 136 60 73 }
-					color2 = { 255 255 255 }
-				}
-				b_shwemyo = {
-                    province = 9572
-
-					color = { 136 60 73 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_hinthada = {
-				color = { 146 20 103 }
-				color2 = { 255 255 255 }
-				
-				b_hinthada = {
-                    province = 9591
-
-					color = { 146 20 103 }
-					color2 = { 255 255 255 }
-				}
-				b_myanaung = {
-                    province = 9592
-
-					color = { 146 20 103 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_toungoo = {
-				color = { 156 60 93 }
-				color2 = { 255 255 255 }
-				
-				b_toungoo = {
-                    province = 9593
-
-					color = { 156 60 93 }
-					color2 = { 255 255 255 }
-				}
-				b_swa = {
-                    province = 9595
-
-					color = { 156 60 93 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_arakan = {
-			color = { 230 37 82 }
-			color2 = { 255 255 255 }
-			
-			capital = c_vaisali
-			
-			c_vaisali = {
-				color = { 210 17 62 }
-				color2 = { 255 255 255 }
-				
-				cultural_names = {
-					burmese = cn_waithali
-				}
-				
-				b_vaisali = {
-                    province = 9576
-
-					color = { 210 17 62 }
-					color2 = { 255 255 255 }
-cultural_names = {
-						burmese = cn_waithali
-					}
-				}
-				b_launggyet = {
-                    province = 9577
-
-					color = { 210 17 62 }
-					color2 = { 255 255 255 }
-				}
-				b_mrauk_u = {
-                    province = 9578
-
-					color = { 210 17 62 }
-					color2 = { 255 255 255 }
-				}
-				b_mahamuni = {
-                    province = 9579
-
-					color = { 210 17 62 }
-					color2 = { 255 255 255 }
-				}
-				b_akyab = {
-                    province = 9580
-
-					color = { 210 17 62 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_ramu = {
-				color = { 230 67 42 }
-				color2 = { 255 255 255 }
-				
-				b_ramu = {
-                    province = 9581
-
-					color = { 230 67 42 }
-					color2 = { 255 255 255 }
-				}
-				b_dianga = {
-                    province = 9582
-
-					color = { 230 67 42 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_thabeik_taung = {
-				color = { 230 57 52 }
-				color2 = { 255 255 255 }
-				
-				b_thabeik_taung = {
-                    province = 9583
-
-					color = { 230 57 52 }
-					color2 = { 255 255 255 }
-				}
-				b_matamuhuri = {
-                    province = 9584
-
-					color = { 230 57 52 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_sandoway = {
-				color = { 230 47 102 }
-				color2 = { 255 255 255 }
-				
-				b_sandoway = {
-                    province = 9585
-
-					color = { 230 47 102 }
-					color2 = { 255 255 255 }
-				}
-				b_ramree = {
-                    province = 9586
-
-					color = { 230 47 102 }
-					color2 = { 255 255 255 }
-				}
-				b_an = {
-                    province = 9587
-
-					color = { 230 47 102 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-		d_ramannadesa = {
-			color = { 76 30 241 }
-			color2 = { 255 255 255 }
-			
-			capital = c_pegu
-
-			c_pegu = {
-				color = { 76 120 241 }
-				color2 = { 255 255 255 }
-				
-				b_pegu = {
-                    province = 9596
-
-					color = { 76 120 241 }
-					color2 = { 255 255 255 }
-				}
-				b_tharrawaddy = {
-                    province = 9635
-
-					color = { 76 120 241 }
-					color2 = { 255 255 255 }
-				}
-				b_phyu = {
-                    province = 9636
-
-					color = { 76 120 241 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_dagon = {
-				color = { 56 90 251 }
-				color2 = { 255 255 255 }
-				
-				b_dagon = {
-                    province = 9598
-
-					color = { 56 90 251 }
-					color2 = { 255 255 255 }
-				}
-				b_syriam = {
-                    province = 9597
-
-					color = { 56 90 251 }
-					color2 = { 255 255 255 }
-				}
-				b_krapan = {
-                    province = 9599
-
-					color = { 56 90 251 }
-					color2 = { 255 255 255 }
-				}
-				b_bogale = {
-                    province = 9626
-
-					color = { 56 90 251 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_kusumi = {
-				color = { 46 150 251 }
-				color2 = { 255 255 255 }
-				
-				b_kusumi = { #AKA Bassein
-                province = 9632
-
-					color = { 46 150 251 }
-					color2 = { 255 255 255 }
-				}
-				b_myaungmya = {
-                    province = 9633
-
-					color = { 46 150 251 }
-					color2 = { 255 255 255 }
-				}
-				b_negrais = {
-                    province = 9631
-
-					color = { 46 150 251 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-
-        d_thaton = {
-            color = { 28 189 85 }
-			color2 = { 255 255 255 }
-			
-            capital = c_thaton
-
-			c_thaton = {
-				color = { 56 20 181 }
-				color2 = { 255 255 255 }
-				
-				b_thaton = {
-                    province = 9627
-
-					color = { 56 20 181 }
-					color2 = { 255 255 255 }
-				}
-				b_muttina = {
-                    province = 9628
-
-					color = { 56 20 181 }
-					color2 = { 255 255 255 }
-				}
-				b_taikkala = {
-                    province = 9630
-
-					color = { 56 20 181 }
-					color2 = { 255 255 255 }
-				}
-				b_hpa_an = {
-                    province = 11874
-                    color = { 245 66 164 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						mon =  cn_duwop
-					}
-                }
-			}
-            c_sittaung = {
-				color = { 66 40 221 }
-				color2 = { 255 255 255 }
-				
-				b_sittaung = {
-                    province = 9637
-
-					color = { 66 40 221 }
-					color2 = { 255 255 255 }
-				}
-				b_shwegyin = {
-                    province = 9638
-
-					color = { 66 40 221 }
-					color2 = { 255 255 255 }
-				}
-			}
-        }
-
-		d_shan = { #掸
-            color = { 133 80 64 }
-            color2 = { 255 255 255 }
-
-			capital = c_hsenwi
-
-            c_hsenwi = { #腊戍
-                color = { 23 153 155 }
-                color2 = { 255 255 255 }
-
-
-				b_Lashu = {  #hsenwi/lashio
-                province = 10549
-					
-
-					color = { 250 55 15 }
-					color2 = { 255 255 255 }
-				}
-                b_mong_mit = {
-                    province = 11864
-                    color = { 178 119 128 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						laos = cn_gandalarattha
-					}
-                }
-                b_loi_leng = {
-                    province = 11865
-                    color = { 123 153 155 }
-                    color2 = { 255 255 255 }
-                }
-            }
-			c_hsipaw = {
-				color = { 178 119 128 }
-				color2 = { 255 255 255 }
-	
-				b_hsipaw = {
-                    province = 11866
-					color = { 178 119 128 }
-					color2 = { 255 255 255 }	
-					cultural_names = {
-						han = cn_xibo
-						burmese = cn_thibaw
-					}				}
-				b_mongkung = {
-                    province = 11867
-					color = { 127 27 41 }
-					color2 = { 255 255 255 }
-                }
-				b_laikha = {
-                    province = 11868
-					color = { 189 106 81 }
-					color2 = { 255 255 255 }	
-					cultural_names = {
-						laos = cn_hansavadi
-					}
-                }				
-			}
-            c_yawnghwe = {
-                color = { 120 38 13 }
-                color2 = { 255 255 255 }
-
-				cultural_names = {
-					laos = cn_rathawadi
-					burmese = cn_inle
-				}
-                b_yawnghwe = {
-                    province = 9570
-                    color = { 120 38 13 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						laos = cn_kambojarattha
-					}
-                }
-                b_loi_long = {
-                    province = 11891
-                    color = { 120 38 13 }
-                    color2 = { 255 255 255 }
-
-                }
-                b_hsatung = {
-                    province = 11892
-                    color = { 120 38 13 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						laos = cn_kambojarattha
-					}
-                }	
-                b_mong_pai = {
-                    province = 9594
-
-					color = { 156 60 93 }
-					color2 = { 255 255 255 }
-				}
-            }
-            c_mongnai = {
-                color = { 212 159 144 }
-                color2 = { 255 255 255 }
-			
-				b_Kunxin = {
-                    province = 10551
-					
-                    color = { 212 159 144 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						laos = cn_saturambha
-					}
-				}
-				b_Dongzhi = {
-                    province = 10552
-					
-
-                    color = { 240 141 113 }
-                    color2 = { 255 255 255 }
-
-					cultural_names = {
-						burmese = cn_mobye
-					}
-				}
-			}
-        }
-	}
-
     k_chenla = {
         color = { 252 186 3 }
         color2 = { 255 255 255 }
@@ -1572,13 +733,6 @@ cultural_names = {
 						
 
 				}
-				b_kainggyaung = {
-                    province = 11873
-					color = { 10 223 176 }
-					color2 = { 255 255 255 }
-
-							
-				}
 			}
         }
 
@@ -1881,7 +1035,7 @@ cultural_names = {
     }
 }
 
-e_madjapahit = {
+e_nusantara = {
     color = { 228 75 18 }
     color2 = { 255 255 255 }
 
@@ -2488,7 +1642,7 @@ e_madjapahit = {
             }
         }
     }
-
+	
     k_java = {
         color = { 200 200 200 }
         color2 = { 255 255 255 }
@@ -2791,7 +1945,465 @@ e_madjapahit = {
             }
         }
     }
-    
+    k_maluku = {
+        color = { 235 124 52 }
+        color2 = { 255 255 255 }
+
+    	capital = c_ambon
+
+        d_ternate = {
+            color = { 235 84 52 }
+            color2 = { 255 255 255 }
+
+            c_ternate = {
+                color = { 235 84 52 }
+                color2 = { 255 255 255 }
+
+                b_ternate = {
+                    province = 11472
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_jailolo = {
+                color = { 215 4 25 }
+                color2 = { 255 255 255 }
+
+                b_jailolo = {
+                    province = 12040
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_moro = {
+                color = { 235 84 22 }
+                color2 = { 255 255 255 }
+				
+                b_loloda = {
+                    province = 11476
+                    color = { 120 83 20 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_moro = {
+                    province = 11477
+                    color = { 93 248 87 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+			c_gane = {
+                color = { 253 48 27 }
+                color2 = { 255 255 255 }
+
+                b_gane = {
+                    province = 11470
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_bacan = {
+                color = { 253 48 27 }
+                color2 = { 255 255 255 }
+
+                b_bacan = {
+                    province = 11465
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_obi = {
+                    province = 10926
+                    color = { 235 44 22 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+        }
+		d_tidore = {
+            color = { 195 144 52 }
+            color2 = { 255 255 255 }
+
+            c_tidore = {
+                color = { 195 144 52 }
+                color2 = { 255 255 255 }
+
+                b_tidore = {
+                    province = 11471
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_weda = {
+                color = { 215 144 52 }
+                color2 = { 255 255 255 }
+
+                b_weda = {
+                    province = 11480
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wasile = {
+                color = { 215 144 22 }
+                color2 = { 255 255 255 }
+
+                b_wasile = {
+                    province = 11482
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_raja_ampat = {
+                color = { 205 114 62 }
+                color2 = { 255 255 255 }
+
+                b_waigeo = {
+                    province = 11485
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_salawati = {
+                    province = 11486
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_waigama = {
+                    province = 11489
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_wanin = {
+            color = { 252 186 3 }
+            color2 = { 255 255 255 }
+
+            c_fakfak = {
+                color = { 202 186 33 }
+                color2 = { 255 255 255 }
+
+                b_fakfak = {
+                    province = 11491
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_buruwai = {
+                    province = 11495
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_mairasi = {
+                color = { 202 146 33 }
+                color2 = { 255 255 255 }
+
+                b_mairasi = {
+                    province = 11516
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_mer = {
+                    province = 11518
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wamesa = {
+                color = { 202 126 33 }
+                color2 = { 255 255 255 }
+
+                b_wamesa = {
+                    province = 11498
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_irarutu = {
+                    province = 11496
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_arandai = {
+                color = { 202 106 33 }
+                color2 = { 255 255 255 }
+
+                b_arandai = {
+                    province = 11513
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_soren = {
+                color = { 195 144 52 }
+                color2 = { 255 255 255 }
+
+                b_soren = {
+                    province = 11505
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_maybrat = {
+                    province = 11506
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_abun = {
+                    province = 11500
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_sougb = {
+                    province = 11510
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_banda = {
+            color = { 150 166 68 }
+            color2 = { 255 255 255 }
+
+            c_ambon = {
+                color = { 120 126 78 }
+                color2 = { 255 255 255 }
+
+                b_ambon = {
+                    province = 10457
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_huamual = {
+                    province = 10533
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_buru = {
+                color = { 120 126 98 }
+                color2 = { 255 255 255 }
+
+                b_buru = {
+                    province = 10456
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sula = {
+                color = { 120 86 98 }
+                color2 = { 255 255 255 }
+
+                b_sula = {
+                    province = 10453
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sahulau = {
+                color = { 120 156 98 }
+                color2 = { 255 255 255 }
+
+                b_sahulau = {
+                    province = 10534
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_tehoru = {
+                    province = 10550
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wahai = {
+                color = { 190 116 18 }
+                color2 = { 255 255 255 }
+
+                b_wahai = {
+                    province = 10867
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_bobot = {
+                    province = 10866
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_aru = {
+                color = { 102 86 33 }
+                color2 = { 255 255 255 }
+
+                b_aru = {
+                    province = 11520
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_kei = {
+                    province = 11826
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_yamdena = {
+                    province = 11865
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_timor = {
+            color = { 150 166 168 }
+            color2 = { 255 255 255 }
+
+            c_wehali = {
+                color = { 120 126 178 }
+                color2 = { 255 255 255 }
+
+                b_wehali = {
+                    province = 12025
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_kupang = {
+                color = { 109 122 108 }
+                color2 = { 255 255 255 }
+
+                b_kupang = {
+                    province = 12022
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sonbay = {
+                color = { 127 113 145 }
+                color2 = { 255 255 255 }
+
+                b_amanuban = {
+                    province = 12024
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_ambeno = {
+                    province = 12023
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_likusaen = {
+                color = { 180 136 180 }
+                color2 = { 255 255 255 }
+
+                b_baukau = {
+                    province = 12027
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_maubara = {
+                    province = 12026
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sumba = {
+                color = { 110 136 158 }
+                color2 = { 255 255 255 }
+
+                b_sumba = {
+                    province = 12016
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_nipa = {
+                color = { 178 142 136 }
+                color2 = { 255 255 255 }
+
+                b_nipa = {
+                    province = 12017
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_larantuka = {
+                color = { 160 136 118 }
+                color2 = { 255 255 255 }
+
+                b_larantuka = {
+                    province = 12018
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_lembata = {
+                    province = 12019
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_alor = {
+                color = { 112 136 156 }
+                color2 = { 255 255 255 }
+
+                b_alor = {
+                    province = 12020
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wetar = {
+                color = { 113 151 138 }
+                color2 = { 255 255 255 }
+
+                b_wetar = {
+                    province = 12021
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+    }
     k_kalimantan = {
         color = { 41 126 138 }
         color2 = { 255 255 255 }
@@ -3610,9 +3222,6 @@ e_champa = {
             }
 			
 		}
-			
-			
-
         d_panduranga = {
             color = { 86 86 158 }
             color2 = { 255 255 255 }
@@ -3664,55 +3273,6 @@ e_champa = {
             }
         }
     }
-	
-	k_tungning = { #why even put chinese characters in here, we get it, we know our geography
-		color = { 112 165 204 }
-		color2 = { 255 255 255 }	
-		
-		d_liuqiu = {  #琉虬
-			color = { 165 115 79 }
-			color2 = { 255 255 255 }
-			
-			capital = c_penghu
-			
-			c_penghu = {  #澎湖
-				color = { 165 115 81 }
-				color2 = { 255 255 255 }
-			
-				b_Penghu = {
-					province = 10921
-
-					color = { 162 112 78 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_liuqiu = {  #流虬
-				color = { 165 115 80 }
-				color2 = { 255 255 255 }
-			
-				b_nanliuqiu = {
-					province = 10924
-
-					color = { 165 115 80 }
-					color2 = { 255 255 255 }
-				}
-				b_beiliuqiu = {
-					province = 10922
-
-					color = { 165 115 80 }
-					color2 = { 255 255 255 }
-				}
-				b_zhongliuqiu = {
-					province = 10923
-
-					color = { 165 115 80 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-		
-	}
-
     k_bornie = {
         color = { 94 43 212 }
         color2 = { 255 255 255 }
@@ -3844,694 +3404,6 @@ e_champa = {
                 b_anambas = {
                     province = 11616
                     color = { 81 226 154 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-    }
-
-	k_ryukyu = {
-		color = { 221 188 112 }
-		color2 = { 255 255 255 }
-		
-		capital = c_ryukyu
-
-		d_ryukyu = {
-			color = { 215 177 108 }
-			color2 = { 255 255 255 }
-			
-			capital = c_ryukyu
-
-			c_ryukyu = {  #三山
-				color = { 158 115 72 }
-				color2 = { 255 255 255 }
-			
-				b_ryukyu = {
-					province = 11286
-
-					color = { 158 115 72 }
-					color2 = { 255 255 255 }
-				}
-            }
-            c_saki = {
-                color = { 148 181 168 }
-                color2 = { 255 255 255 }
-
-				b_saki = {
-					province = 11285
-
-					color = { 158 115 72 }
-					color2 = { 255 255 255 }
-				}
-            }
-            c_amami = {
-                color = { 108 101 168 }
-                color2 = { 255 255 255 }
-				b_amami = {
-					province = 11227
-
-					color = { 158 115 72 }
-					color2 = { 255 255 255 }
-				}
-			}
-		}
-	}
-    k_panyupayana = {
-        color = { 255 255 79 }
-        color2 = { 255 255 255 }
-
-        capital = c_lupah_sug
-
-        d_luzon = {
-            color = { 74 105 168 }
-            color2 = { 255 255 255 }
-            c_maynila = {
-                color = { 74 105 168 }
-                color2 = { 255 255 255 }
-
-                b_maynila = {
-                    province = 11768
-                    color = { 74 105 168 }
-                    color2 = { 255 255 255 }
-                }
-                b_pangil = {
-                    province = 11769
-                    color = { 163 88 135 }
-                    color2 = { 255 255 255 }
-                }
-                b_tangway = {
-                    province = 11770
-                    color = { 74 105 168 }
-                    color2 = { 255 255 255 }
-                }
-                b_tondo = {
-                    province = 11775
-                    color = { 212 102 102 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_pangpang = {
-                color = { 148 181 168 }
-                color2 = { 255 255 255 }
-
-                b_bakulud = {
-                    province = 11771
-                    color = { 110 135 211 }
-                    color2 = { 255 255 255 }
-                }
-                b_hubek = {
-                    province = 11772
-                    color = { 148 181 168 }
-                    color2 = { 255 255 255 }
-
-                }
-                b_masinloc = {
-                    province = 11773
-                    color = { 82 186 127 }
-                    color2 = { 255 255 255 }
-                }
-                b_pinagpanaan = {
-                    province = 11774
-                    color = { 98 214 89 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_tayabas = {
-                color = { 128 61 135 }
-                color2 = { 255 255 255 }
-
-                b_tayabas = {
-                    province = 11778
-                    color = { 128 61 135 }
-                    color2 = { 255 255 255 }
-                }
-                b_malindug = { # Marinduque
-                province = 11779
-                    color = { 128 61 135 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_kumintang = {
-                color = { 63 117 138 }
-                color2 = { 255 255 255 }
-
-                b_kumintang = { # Batangas
-                province = 11780
-                    color = { 63 117 138 }
-                    color2 = { 255 255 255 }
-                }
-                b_taysan = {
-                    province = 11781
-                    color = { 63 117 138 }
-                    color2 = { 255 255 255 }
-                }
-                b_balayan = {
-                    province = 11782
-                    color = { 63 117 138 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_bicol = { # Bikol region
-                color = { 130 178 194 }
-                color2 = { 255 255 255 }
-
-                b_albay = {
-                    province = 11783
-                    color = { 130 178 194 }
-                    color2 = { 255 255 255 }
-                }
-                b_sorsogon = {
-                    province = 11784
-                    color = { 130 178 194 }
-                    color2 = { 255 255 255 }
-                }
-                b_naga_ph = {
-                    province = 11785
-                    color = { 68 100 120 }
-                    color2 = { 255 255 255 }
-                }
-                b_katanduan = {
-                    province = 11786
-                    color = { 68 100 120 }
-                    color2 = { 255 255 255 }
-                }
-                b_daet = {
-                    province = 11787
-                    color = { 67 114 117 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_dumagat = {
-                color = { 195 230 21 }
-                color2 = { 255 255 255 }
-
-                b_kasiguran = {
-                    province = 11788
-                    color = { 195 230 21 }
-                    color2 = { 255 255 255 }
-                }
-                b_binangonan = {
-                    province = 11789
-                    color = { 163 88 135 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_minolo = {
-                color = { 92 48 140 }
-                color2 = { 255 255 255 }
-
-                b_mait_ph = {
-                    province = 11790
-                    color = { 92 48 140 }
-                    color2 = { 255 255 255 }
-                }
-                b_paluan = {
-                    province = 11791
-                    color = { 151 102 204 }
-                    color2 = { 255 255 255 }
-                }
-                b_mamburao = {
-                    province = 11792
-                    color = { 151 102 204 }
-                    color2 = { 255 255 255 }
-                }
-                b_minolo = {
-                    province = 11793
-                    color = { 151 102 204 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-        d_amianan = {
-            color = { 79 66 0 }
-            color2 = { 255 255 255 }
-
-            c_samtoy = {
-                color = { 79 66 0 }
-                color2 = { 255 255 255 }
-
-                b_laoag = { # Ilocano
-                province = 11794
-                    color = { 79 66 0 }
-                    color2 = { 255 255 255 }
-                }
-                b_bigan = {
-                    province = 11795
-                    color = { 79 66 0 }
-                    color2 = { 255 255 255 }
-                }
-                b_kandong = {
-                    province = 11796
-                    color = { 138 118 21 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_pangasinan = {
-                color = { 98 134 38 }
-                color2 = { 255 255 255 }
-
-                b_binalatongan = {
-                    province = 11797
-                    color = { 98 134 38 }
-                    color2 = { 255 255 255 }
-                }
-                b_bolinao = {
-                    province = 11798
-                    color = { 82 186 127 }
-                    color2 = { 255 255 255 }
-
-                }
-                b_agoo = { # Ilocano
-                province = 11799
-                    color = { 181 158 43 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_ifugao = { # Ifugao culture
-                color = { 204 135 24 }
-                color2 = { 255 255 255 }
-
-                b_lagawe = {
-                    province = 11800
-                    color = { 204 135 24 }
-                    color2 = { 255 255 255 }
-                }
-                b_apayao = { # Isnag culture
-                province = 11801
-                    color = { 173 122 40 }
-                    color2 = { 255 255 255 }
-                }
-                b_bugyas = {
-                    province = 11802
-                    color = { 204 135 24 }
-                    color2 = { 255 255 255 }
-                }
-                b_kalinga = {
-                    province = 11803
-                    color = { 173 122 40 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_cagayan_valley = {
-                color = { 234 217 18 }
-                color2 = { 255 255 255 }
-
-                b_aparri = { # Isnag/Gaddang culture
-                province = 11804
-                    color = { 121 181 89 }
-                    color2 = { 255 255 255 }
-                }
-                b_cauayan = { # Gaddang
-                province = 11805
-                    color = { 234 217 18 }
-                    color2 = { 255 255 255 }
-                }
-                b_bayombong = {
-                    province = 11806
-                    color = { 234 196 18 }
-                    color2 = { 255 255 255 }
-                }
-                b_baggao = { # Isnag culture
-                province = 11807
-                    color = { 121 181 89 }
-                    color2 = { 255 255 255 }
-                }
-
-                b_dupaningan = {
-                    province = 11808
-                    color = { 121 181 89 }
-                    color2 = { 255 255 255 }
-                }
-                b_balintang = { # Isnag culture
-                province = 11809
-                    color = { 119 209 71 }
-                    color2 = { 255 255 255 }
-                }
-                b_bolo_ph = { # Gaddang culture
-                province = 11810
-                    color = { 123 196 63 }
-                    color2 = { 255 255 255 }
-                }
-                b_burubur = { # Gaddang culture
-                province = 11811
-                    color = { 195 230 21 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-        d_bisaya = {
-            color = { 255 255 79 }
-            color2 = { 255 255 255 }
-
-            c_sugbu = {
-                color = { 255 255 79 }
-                color2 = { 255 255 255 }
-
-                b_sugbu = {
-                    province = 11812
-                    color = { 255 255 79 }
-                    color2 = { 255 255 255 }
-
-                }
-
-                b_nahalin = {
-                    province = 11813
-                    color = { 176 133 59 }
-                    color2 = { 255 255 255 }
-                }
-
-                b_sialo = {
-                    province = 11814
-                    color = { 204 190 76 }
-                    color2 = { 255 255 255 }
-                }
-            }
-
-            c_panay = {
-                color = { 64 129 134 }
-                color2 = { 255 255 255 }
-
-                b_irong_irong = {
-                    province = 11815
-                    color = { 0 255 129 }
-                    color2 = { 255 255 255 }
-                }
-                b_akean = {
-                    province = 11816
-                    color = { 64 129 134 }
-                    color2 = { 255 255 255 }
-                }
-                b_dumangas = {
-                    province = 11817
-                    color = { 64 129 134 }
-                    color2 = { 255 255 255 }
-                }
-                b_donblon = {
-                    province = 11818
-                    color = { 136 77 19 }
-                    color2 = { 255 255 255 }
-                }
-                b_hantik = {
-                    province = 11819
-                    color = { 95 48 200 }
-                    color2 = { 255 255 255 }
-                }
-            }
-
-            c_buglas = {
-                color = { 194 76 83 }
-                color2 = { 255 255 255 }
-
-                b_minagahat = {
-                    province = 11820
-                    color = { 225 57 67 }
-                    color2 = { 255 255 255 }
-                }
-                b_magsungay = {
-                    province = 11821
-                    color = { 194 76 83 }
-                    color2 = { 255 255 255 }
-                }
-                b_ilog = {
-                    province = 11822
-                    color = { 51 223 54 }
-                    color2 = { 255 255 255 }
-                }
-                b_binalbagan = {
-                    province = 11823
-                    color = { 194 76 83 }
-                    color2 = { 255 255 255 }
-                }
-                b_diyolongan = {
-                    province = 11824
-                    color = { 200 48 117 }
-                    color2 = { 255 255 255 }
-                }
-            }
-
-            c_masbate = {
-                color = { 177 225 231 }
-                color2 = { 255 255 255 }
-
-                b_masbate = {
-                    province = 11825
-                    color = { 177 225 231 }
-                    color2 = { 255 255 255 }
-                }
-            }
-
-            c_bo_ol = {
-                color = { 136 19 121 }
-                color2 = { 255 255 255 }
-
-                b_bo_ol = {
-                    province = 11827
-                    color = { 165 29 148 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_east_bisaya = {
-                color = { 124 236 7 }
-                color2 = { 255 255 255 }
-
-                b_tiayban = {
-                    province = 11828
-                    color = { 124 236 7 }
-                    color2 = { 255 255 255 }
-                }
-                b_basay = {
-                    province = 11829
-                    color = { 57 236 7 }
-                    color2 = { 255 255 255 }
-                }
-                b_borongan = {
-                    province = 11830
-                    color = { 178 236 7 }
-                    color2 = { 255 255 255 }
-                }
-                b_ibabao = {
-                    province = 11831
-                    color = { 237 238 15 }
-                    color2 = { 255 255 255 }
-                }
-                b_ormok = {
-                    province = 11832
-                    color = { 236 160 7 }
-                    color2 = { 255 255 255 }
-                }
-                b_kankabatok = {
-                    province = 11833
-                    color = { 236 60 7 }
-                    color2 = { 255 255 255 }
-                }
-                b_abuyog = {
-                    province = 11834
-                    color = { 217 221 33 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-        d_butuan = {
-            color = { 90 40 23 }
-            color2 = { 255 255 255 }
-
-            c_kalagan = {
-                color = { 194 146 58 }
-                color2 = { 255 255 255 }
-
-                b_butuan = {
-                    province = 11835
-                    color = { 174 204 74 }
-                    color2 = { 255 255 255 }
-                }
-                b_suligaw = {
-                    province = 11836
-                    color = { 194 146 58 }
-                    color2 = { 255 255 255 }
-                }
-                b_tandag = {
-                    province = 11837
-                    color = { 194 120 58 }
-                    color2 = { 255 255 255 }
-                }
-                b_agusan = {
-                    province = 11838
-                    color = { 200 62 55 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_dabaw = {
-                color = { 90 40 23 }
-                color2 = { 255 255 255 }
-
-                b_tagum = {
-                    province = 11839
-                    color = { 251 109 4 }
-                    color2 = { 255 255 255 }
-                }
-                b_dabaw = {
-                    province = 11840
-                    color = { 90 40 23 }
-                    color2 = { 255 255 255 }
-                }
-                b_nabunturan = {
-                    province = 11841
-                    color = { 178 64 58 }
-                    color2 = { 255 255 255 }
-                }
-                b_baganga = {
-                    province = 11842
-                    color = { 200 167 108 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_kagayan = {
-                color = { 212 211 41 }
-                color2 = { 255 255 255 }
-
-                b_kagayan = {
-                    province = 11843
-                    color = { 212 211 41 }
-                    color2 = { 255 255 255 }
-                }
-                b_bukidnon = {
-                    province = 11844
-                    color = { 161 194 48 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-        d_maguinadao = {
-            color = { 249 218 4 }
-            color2 = { 255 255 255 }
-
-            c_kotabatu = {
-                color = { 249 218 4 }
-                color2 = { 255 255 255 }
-
-                b_kotabatu = {
-                    province = 11845
-                    color = { 249 218 4 }
-                    color2 = { 255 255 255 }
-                }
-                b_isulan = {
-                    province = 11846
-                    color = { 1 175 80 }
-                    color2 = { 255 255 255 }
-                }
-                b_flomlok = {
-                    province = 11847
-                    color = { 105 199 55 }
-                    color2 = { 255 255 255 }
-                }
-                b_buayan = {
-                    province = 11848
-                    color = { 104 178 64 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_lanaw = {
-                color = { 54 80 13 }
-                color2 = { 255 255 255 }
-
-                b_unayan = {
-                    province = 11849
-                    color = { 54 80 13 }
-                    color2 = { 255 255 255 }
-                }
-                b_banoi = {
-                    province = 11850
-                    color = { 84 106 50 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_samboangan = {
-                color = { 247 247 26 }
-                color2 = { 255 255 255 }
-
-                b_samboangan = {
-                    province = 11851
-                    color = { 247 247 26 }
-                    color2 = { 255 255 255 }
-                }
-                b_kumalarang = {
-                    province = 11852
-                    color = { 54 55 74 }
-                    color2 = { 255 255 255 }
-                }
-                b_sindangan = {
-                    province = 11853
-                    color = { 158 60 21 }
-                    color2 = { 255 255 255 }
-                }
-            }
-        }
-        d_sulu = {
-            color = { 51 37 158 }
-            color2 = { 255 255 255 }
-
-            c_lupah_sug = {
-                color = { 135 124 33 }
-                color2 = { 255 255 255 }
-
-                b_maimbung = {
-                    province = 11854
-                    color = { 135 124 33 }
-                    color2 = { 255 255 255 }
-                }
-                b_tagima = {
-                    province = 11855
-                    color = { 135 124 33 }
-                    color2 = { 255 255 255 }
-                }
-                b_jawi_jawi = {
-                    province = 11856
-                    color = { 135 124 33 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_pulaoan = {
-                color = { 67 52 140 }
-                color2 = { 255 255 255 }
-
-                b_ipolote = {
-                    province = 11857
-                    color = { 62 54 99 }
-                    color2 = { 255 255 255 }
-                }
-                b_taytay = {
-                    province = 11858
-                    color = { 67 52 140 }
-                    color2 = { 255 255 255 }
-                }
-                b_busuanga = {
-                    province = 11859
-                    color = { 67 52 140 }
-                    color2 = { 255 255 255 }
-                }
-                b_aborlan = {
-                    province = 11860
-                    color = { 62 54 99 }
-                    color2 = { 255 255 255 }
-                }
-            }
-            c_sandakan = {
-                color = { 82 189 191 }
-                color2 = { 255 255 255 }
-
-                b_sandakan = {
-                    province = 11861
-                    color = { 82 189 191 }
-                    color2 = { 255 255 255 }
-                }
-                b_kudat = {
-                    province = 11862
-                    color = { 173 71 124 }
-                    color2 = { 255 255 255 }
-                }
-                b_tawau = {
-                    province = 11863
-                    color = { 145 247 55 }
                     color2 = { 255 255 255 }
                 }
             }

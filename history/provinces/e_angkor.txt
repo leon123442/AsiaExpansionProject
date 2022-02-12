@@ -242,7 +242,7 @@
 #c_savannakhet
 #b_savannakhet
 11670 = {
-	culture = mon
+	culture = katuic
 	religion = shaivism
 	holding = castle_holding
 }
@@ -510,49 +510,49 @@
 11697 = {
 	culture = mon
 	religion = vaishnavism
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 #b_wiang_sa
 11698 = {
-
+	holding = none
 }
 #b_chaiya
 11699 = {
-
+	holding = none
 }
 #b_mokhlan
 11700 = {
-
+	holding = none
 }
 #c_takola
 #b_takola
 11701 = {
 	culture = mon
 	religion = vaishnavism
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 #b_salang
 11702 = {
-
+	holding = none
 }
 
 #b_pantai_smor
 11703 = {
-
+	holding = none
 }
 #c_kra
 #b_uthomporn
 11704 = {
 	culture = mon
 	religion = vaishnavism
-	holding = castle_holding
+	holding = tribal_holding
 }
 
 #b_pribpri
 11705 = {
-
+	holding = none
 }
 #b_ratchaburi
 11706 = {
@@ -562,14 +562,12 @@
 }
 #b_kraburi
 11707 = {
-	culture = mon
-	religion = vaishnavism
-	holding = tribal_holding
+	holding = none
 }
 
 #b_tanangsi
 11708 = {
-
+	holding = none
 }
 
 #k_haripunjaya
@@ -595,7 +593,7 @@
 #c_chiang_mai
 #b_chiang_mai
 11720 = {
-	culture = tai
+	culture = lawa
 	religion = theravada
 	holding = castle_holding
 }
@@ -633,8 +631,8 @@
 #c_nan
 #b_nan
 11728 = {
-	culture = mon
-	religion = shaivism
+	culture = tai
+	religion = theravada
 	holding = castle_holding
 }
 #b_phichai

@@ -31,13 +31,15 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+#Chinese innovation#######################################################################
+
 innovation_centralization_of_authority = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	icon = @majesty_01
 	
 	potential = {
-		this.culture_group = culture_group:chinese_group
+		has_cultural_pillar = heritage_chinese
 	}
 	
 	modifier = {
@@ -62,171 +64,5 @@ innovation_centralization_of_authority = {
  	custom = unlock_fortification_rights_contract
  	custom = unlock_coinage_rights_contract
 	
-	flag = global_maa
-}
-
-innovation_mongolic_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_01
-	
-	potential = {
-		this.culture_group = culture_group:mongolic_group
-	}
-	
-	modifier = {
-		heavy_cavalry_damage_mult = 0.1
-		light_cavalry_damage_mult = 0.1
-		skirmishers_damage_mult = 0.1
-	}
-	
-	
-	flag = global_maa
-}
-
-innovation_goryeo_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_01
-	
-	potential = {
-		this.culture_group = culture_group:goryeo_group
-	}
-	
-	modifier = {
-		skirmishers_screen_mult = 0.1
-		skirmishers_toughness_mult = 0.1
-	}
-	
-	
-	flag = global_maa
-}
-
-innovation_nanman_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_02
-	
-	potential = {
-		this.culture_group = culture_group:nanman_group
-	}
-	
-	modifier = {
-		skirmishers_damage_mult = 0.1
-	}
-	
-	#unlock_maa = war_elephant
-	
-	flag = global_maa
-}
-
-innovation_tunguse_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_01
-	
-	potential = {
-		this.culture_group = culture_group:tunguse_group
-	}
-	
-	modifier = {
-		skirmishers_damage_mult = 0.2
-	}
-		
-	flag = global_maa
-}
-
-innovation_yues_group = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @maa_02
-	
-	potential = {
-		this.culture_group = culture_group:yues_group
-	}
-	
-	modifier = {
-		levy_reinforcement_rate = 0.1
-	}
-	
-	flag = global_maa
-}
-
-innovation_horse_archery = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			#Yamato
-			this = culture:yamato
-		}
-	}
-
-	unlock_maa = mounted_samurai
-
-	flag = global_maa
-}
-
-master_of_bow = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			#Yamato
-			this = culture:yamato
-		}
-	}
-
-	unlock_maa = bow_samurai
-
-	flag = global_maa
-}
-
-mountain_pattern_armour = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @leadership_2
-
-	potential = {
-		OR = {
-			#han
-			this = culture:han
-		}
-	}
-
-	unlock_maa = han_heavy_spearmann
-
-	flag = global_maa
-}
-
-innovation_emishi_riders = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @special_maa_02
-
-	potential = {
-		OR = {
-			this = culture:emishi
-			this = culture:saeki
-			AND = {
-				this = culture:ainu
-				culture_head = {
-					any_sub_realm_county = {
-						count > 1
-						#target_is_de_jure_liege_or_above = title:d_kanto
-						#culture = culture:ainu
-						culture = culture:emishi
-					}
-				}
-			}
-		}
-	}
-
-	unlock_maa = emishi_horse_archers
-
 	flag = global_maa
 }

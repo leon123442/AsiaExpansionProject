@@ -4,7 +4,7 @@
 ###c_zhenfan (Minqin/Sogo Khoto)
 9518 = {	# Zhenfan/Sogo Khoto (Minqin)
 	# Misc
-	culture = hexi
+	culture = han
 	religion = mahayana
 	
 	holding = tribal_holding #farmlands
@@ -34,8 +34,6 @@
 	# History
 	700.1.1 = {
 		religion = melieism
-	}
-	1032.1.1 = {
 		culture = tangut
 	}
 	1250.1.1 = {
@@ -62,6 +60,7 @@
 	# History
 	700.1.1 = {
 		religion = melieism
+		culture = tangut
 	}
 	1250.1.1 = {
 		culture = mongol
@@ -96,7 +95,7 @@
 	}
 	1250.1.1 = {
 		culture = han
-		religion = zenzong
+		religion = zenzongzong
 	}#Tangut culture begins to be absorbed
 }
 9521 = {	# Liangzhou (Wuwei)
@@ -123,7 +122,7 @@
 ###c_dajing
 9525 = {	# Dajing
 	# Misc
-	culture = hexi
+	culture = han
 	religion = mahayana
 	
 	holding = castle_holding
@@ -145,13 +144,13 @@
 ###c_baiyin
 9531 = {	# Baiyin
 	# Misc
-	culture = hexi
+	culture = han
 	religion = mahayana
 	holding = castle_holding
 	
 	# History
 	866.1.1={
-		culture = hexi
+		culture = han
 		religion = mahayana
 	}
 	1027.1.1={
@@ -274,7 +273,7 @@
 ###c_ganzhou
 9513 = {	# Ganzhou (Zhangye)
 	# Misc
-	culture = hexi
+	culture = han
 	religion = zenzong
 	
 	holding = castle_holding
@@ -298,7 +297,7 @@
 ###c_linze
 9501 = {	# Linze
 	# Misc
-	culture = hexi
+	culture = han
 	religion = zenzong
 	
 	holding = castle_holding
@@ -318,7 +317,7 @@
 ###c_gaotai
 9502 = {	# Gaotai
 	# Misc
-	culture = hexi
+	culture = han
 	religion = mahayana
 	
 	holding = castle_holding
@@ -436,8 +435,6 @@
 	# History
 	700.1.1 = {
 		religion = melieism
-	}
-	1032.1.1 = {
 		culture = tangut
 	}
 	1250.1.1 = {
@@ -452,7 +449,7 @@
 ###c_heihe
 9505 = {	# Hangtian
 	# Misc
-	culture = hexi
+	culture = tangut
 	religion = maitreya
 	
 	holding = castle_holding
@@ -461,10 +458,6 @@
 	894.1.1 = {
 		culture = yughur
 		religion = manichean
-	}
-	1050.1.1 = {
-		culture = tangut
-		religion = vajrayana
 	}
 	1250.1.1 = {
 		culture = mongol
@@ -507,7 +500,7 @@
 ###c_guazhou
 9482 = {	# Guazhou
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vajrayana
 	
 	holding = castle_holding
@@ -524,7 +517,7 @@
 ###c_changma
 9485 = {	# Changma
 	# Misc
-	culture = hexi
+	culture = han
 	religion = mahayana
 	
 	holding = castle_holding
@@ -538,7 +531,7 @@
 ###c_hongliuyuan
 9483 = {	# Hongliuyuan
 	# Misc
-	culture = hexi
+	culture = han
 	religion = vijna
 	
 	holding = castle_holding

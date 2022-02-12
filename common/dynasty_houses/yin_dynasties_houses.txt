@@ -1,3 +1,0 @@
- house_Yin= { 
-        name = "dynn_Yin" 
-        dynasty = 61000003 }

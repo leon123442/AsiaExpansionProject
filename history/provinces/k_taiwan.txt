@@ -1,0 +1,151 @@
+﻿#k_tungning
+#d_liuqiu
+#c_penghu
+#b_Penghu
+10921 = { 
+	culture = min
+	religion = pagan
+	holding = tribal_holding
+}
+
+#c_nanliuqiu
+#b_nanliuqiu
+10924 = { 
+	culture = sirayic
+	religion = pagan
+	holding = tribal_holding
+}
+#b_siraya
+11982 = {
+
+	holding = none
+}
+#b_taivoa
+11983 = {
+
+	holding = none
+}
+#c_zhongliuqiu
+#b_zhongliuqiu
+10923 = {
+	culture = pituish
+	religion = pagan
+	holding = tribal_holding
+}
+#b_hoanya
+11981 = {
+
+	holding = none
+}
+#b_east_hoanya
+11997 = {
+
+	holding = none
+}
+#b_toakas
+11980 = {
+
+	holding = none
+}
+#c_beiliuqiu
+#b_beiliuqiu
+10922 = {
+	culture = sirayic
+	religion = pagan
+	holding = tribal_holding
+}
+#b_basaia
+11989 = {
+
+	holding = none
+}
+#b_kavalana
+11988 = {
+
+	holding = none
+}
+#c_beishanqu
+#b_atalyada
+11996 = {
+	culture = limaish
+	religion = pagan
+	holding = tribal_holding
+}
+#b_seediqa
+11995 = {
+
+	holding = none
+}
+#b_tsolea
+11990 = {
+
+	holding = none
+}
+#c_nanshanqu
+#b_siwada
+11992 = {
+	culture = siwaish
+	religion = pagan
+	holding = tribal_holding
+}
+#b_tsoua
+11993 = {
+
+	holding = none
+}
+#b_bununa
+11994 = {
+
+	holding = none
+}
+#c_paiwan
+#b_paiwan
+11984 = {
+	culture = paiwanese
+	religion = pagan
+	holding = tribal_holding
+}
+#b_rukaia
+11991 = {
+
+	holding = none
+}
+#c_amisguo
+#b_north_amisa
+11986 = {
+	culture = sirayic
+	religion = pagan
+	holding = tribal_holding
+}
+#b_south_amisa
+11985 = {
+
+	holding = none
+}
+#b_nataoran
+11987 = {
+
+	holding = none
+}
+
+#k_ryukyu 
+#d_ryukyu 
+#c_ryukyu 
+#b_ryukyu
+11286 = {
+	culture = kaizuka
+	religion = pagan
+	holding = tribal_holding
+}
+#b_amami
+11227 = {
+	culture = kaizuka
+	religion = pagan
+	holding = tribal_holding
+}
+#b_miyakojima  #b_saki
+11285 = {
+	culture = batanic
+	religion = kabunian
+	holding = tribal_holding
+}

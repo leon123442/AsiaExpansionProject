@@ -4,3 +4,14 @@
 	WORLD_EXTENTS_Z = 5759
 	WATERLEVEL = 3.8
 }
+NSetup = {
+GENERATED_POOL_CHARACTER_TEMPLATES = {
+		"pool_repopulate_spouse"
+		"pool_repopulate_prowess"
+		"pool_repopulate_diplomacy"
+		"pool_repopulate_martial"
+		"pool_repopulate_stewardship"
+		"pool_repopulate_intrigue"
+		"pool_repopulate_learning"
+	}
+}

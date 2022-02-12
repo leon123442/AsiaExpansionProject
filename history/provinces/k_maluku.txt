@@ -1,0 +1,283 @@
+##k_maluku
+        ###d_ternate
+            #c_ternate			
+				11472 = { # b_ternate
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding
+				}
+			#c_jailolo
+                12040 = { # b_jailolo
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding
+                        
+                }
+			#c_moro			
+                11476= { # b_loloda
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding
+                        
+                }
+                11477= { # b_moro
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding
+                        
+                }
+			#c_gane 
+				11470 = { # b_gane
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_bacan
+                11465 = { # b_bacan
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				10926 = { # b_obi
+
+                holding = none 
+                }
+		#d_tidore
+
+            #c_tidore
+				11471 = { # b_tidore
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_weda
+                11480 = { # b_weda
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_wasile
+                11482 = { # b_wasile
+                culture = halmahera
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_raja_ampat
+                11485 = { # b_waigeo
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+				11486 = { # b_salawati
+
+                holding = none 
+                }
+				11489 = { # b_waigama
+
+                holding = none 
+                }
+		#d_wanin
+            #c_fakfak
+                11491 = { # b_fakfak
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+				11495 = { # b_buruwai
+
+                holding = none   
+                }
+			#c_mairasi 
+                11516 = { # b_mairasi
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+				11518 = { # b_mer
+
+                holding = none   
+                }
+			#c_wamesa
+                11498 = { # b_wamesa
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+				11496 = { # b_irarutu
+
+                holding = none   
+                }
+			#c_arandai
+                11513 = { # b_arandai
+
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+			#c_soren
+                11505 = { # b_soren
+                culture = papuan
+                religion = penunggu
+
+                holding = tribal_holding   
+                }
+				11506 = { # b_maybrat
+
+                holding = none
+                }
+				11500 = { # b_abun
+
+                holding = none   
+                }
+				11510 = { # b_sougb
+
+                holding = none   
+                }
+		#d_banda
+            #c_ambon
+
+                10457 = { # b_ambon
+                culture = nunusaku
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				10533 = { # b_huamual
+
+                holding = none   
+                }
+			#c_buru
+                10456 = { # b_buru
+                culture = nunusaku
+                religion = nunusaku
+
+                holding = none   
+                }
+			#c_sula
+                10453 = { # b_sula
+                culture = salua
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_sahulau
+                10534 = { # b_sahulau
+                culture = nunusaku
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				10550 = { # b_tehoru
+
+                holding = none 
+                }
+			#c_wahai
+                10867 = { # b_wahai
+                culture = nunusaku
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				10866 = { # b_bobot
+                holding = none 
+                }
+			#c_aru
+               11520 = { # b_aru
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				11826 = { # b_kei
+                holding = none 
+                }
+				11865 = { # b_yamadena
+                holding = none 
+                }
+		#d_timor
+            #c_wehali
+                12025 = { # b_wehali
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_kupang
+                12022 = { # b_kupang
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_sonbay
+                12024 = { # b_amanuban
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				12023 = { # b_ambeno
+                holding = none  
+                }
+			#c_likusaen
+                12027 = { # b_baukau
+                culture = abui
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				12026 = { # b_maubara
+                holding = none   
+                }
+			#c_sumba
+				12016 = { # b_sumba
+                culture = sumba
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_nipa
+                12017 = { # b_nipa
+                culture = sumba
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_larantuka
+                12018 = { # b_larantuka
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+				12019 = { # b_lembata
+                holding = none   
+                }
+			#c_alor = {
+                12020 = { # b_alor
+                culture = abui
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }
+			#c_wetar
+                12021 = { # b_wetar
+                culture = timor
+                religion = nunusaku
+
+                holding = tribal_holding   
+                }

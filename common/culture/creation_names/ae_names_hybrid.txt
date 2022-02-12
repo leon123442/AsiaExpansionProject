@@ -1,0 +1,18 @@
+﻿# joke/easteregg/test hybrid
+weeaboo = {
+	trigger = {
+		scope:culture = {
+			has_cultural_pillar = heritage_japan
+		}
+		scope:other_culture = {
+			has_cultural_pillar = heritage_west_germanic
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = scope:culture
+				culture = scope:other_culture
+			}
+		}
+	}
+	hybrid = yes
+}

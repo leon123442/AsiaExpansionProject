@@ -3,8 +3,8 @@
 #c_youzhou
 #b_YouzhouJixian
 10606 = {
-    culture = hebei
-	religion = mazdayasna
+    culture = han
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_XuanzhouFanyang
@@ -31,8 +31,8 @@
 #c_guzhu
 #b_Guzhu_Juyongguan
 10607 = {
-    culture = hebei
-	religion = mazdayasna
+    culture = han
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_Huairou
@@ -49,8 +49,8 @@
 #c_guizhou_yan
 #b_GuizhouHuairong_Kehanzhou
 10612 = {
-    culture = hebei
-	religion = mazdayasna
+    culture = shatuo
+	religion = tengri_pagan
 	holding = castle_holding	
 }
 #b_Zhuolu_Yongxing
@@ -75,8 +75,8 @@
 #c_pingzhou
 #b_Lulong_Pingzhou
 10616 = {
-    culture = hebei
-	religion = mazdayasna
+    culture = han
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_LuanzhouYifeng_Liuchengjun
@@ -93,8 +93,8 @@
 #c_jizhou_yan
 #b_Yuyang
 10610 = {
-    culture = sogdian
-	religion = mazdayasna
+    culture = shatuo
+	religion = tengri_pagan
 	holding = castle_holding	
 }
 #b_Yutian_Jizhou
@@ -130,8 +130,8 @@
 #c_mozhou
 #b_Mozhou
 10594 = {
-    culture = sogdian
-	religion = mazdayasna
+    culture = shatuo
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_Qingyuan_mo
@@ -146,7 +146,7 @@
 #b_Yizhou
 10601 = {
     culture = sogdian
-	religion = mazdayasna
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_Suicheng_Yi
@@ -158,8 +158,8 @@
 #c_dingzhou
 #b_DingzhouAnxi
 10585 = {
-    culture = sogdian
-	religion = mazdayasna
+    culture = shatuo
+	religion = zenzong
 	holding = castle_holding	
 }
 #b_Wuji

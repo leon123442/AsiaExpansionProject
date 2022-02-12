@@ -1,4 +1,4 @@
-version="1.4.4"
+version="1.5.*"
 tags={
 	"Alternative History"
 	"Culture"
@@ -9,4 +9,5 @@ tags={
 	"Historical"
 }
 name="AsiaExtended"
-supported_version="1.4.4"
+supported_version="1.5.*"
+remote_file_id="2706635752"

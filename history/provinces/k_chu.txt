@@ -73,7 +73,7 @@
 #b_Tangzhou_Miyang 
 10007 = {
 	culture = han
-	religion = hmong
+	religion = shangqing
 	holding = castle_holding	
 	1066.1.1 = { 
 		religion = lixue
@@ -195,12 +195,9 @@
 #c_yingzhou_chu
 #b_Jingshan_Yingzhou 
 10018 = {
-	culture = yi
-	religion = hmong
-	holding = castle_holding
-	1066.1.1 = { 
-		religion = jingshi
-	}			
+	culture = han
+	religion = jingshi
+	holding = castle_holding		
 }
 #b_Changshou_Zhongxiang 
 10017 = {
@@ -212,12 +209,9 @@
 #c_fuzhou_chu
 #b_Mianyang_Fuzhou 
 10020 = {
-	culture = yi
-	religion = hmong
-	holding = castle_holding
-	1066.1.1 = { 
-		religion = jingshi
-	}			
+	culture = han
+	religion = jingshi
+	holding = castle_holding		
 }
 #b_Jingling_Tianmen 
 10019 = {
@@ -235,8 +229,8 @@
 #c_xiazhou_chu
 #b_Yidu_chu
 10026 = {
-	culture = yi
-	religion = hmong
+	culture = tujia
+	religion = pagan
 	holding = castle_holding			
 }
 #b_Yiling_Xiazhou 
@@ -255,8 +249,8 @@
 #c_lizhou_chu
 #b_Liyang_Lizhou 
 10276 = {
-	culture = yi
-	religion = hmong
+	culture = tujia
+	religion = pagan
 		holding = castle_holding			
 	}
 #b_Shimen_Pushui 
@@ -473,7 +467,7 @@
 #c_hengshan
 #b_Hengyang_Hengzhou 
 10288 = {
-	culture = yi
+	culture = yao
 	religion = hmong
 	holding = tribal_holding	
 	882.1.1 = { 
@@ -502,7 +496,7 @@
 #c_chenzhou_hunan
 #b_Chenzhou_Chenxian 
 10291 = {
-	culture = yi
+	culture = yao
 	religion = hmong
 		holding = tribal_holding
 		882.1.1 = { 
@@ -527,7 +521,7 @@
 #c_lianzhou
 #b_Lianzhou_Guiyang 
 10294 = {
-	culture = yi
+	culture = yao
 	religion = hmong
 		holding = tribal_holding	
 		882.1.1 = { 
@@ -543,7 +537,7 @@
 #c_daozhou
 #b_Yingdao_Daozhou 
 10297 = {
-	culture = yi
+	culture = yao
 	religion = hmong
 	holding = tribal_holding				
 }
@@ -562,7 +556,7 @@
 #c_yongzhou_hunan
 #b_Yongzhou_Lingling 
 10299 = {
-	culture = yi
+	culture = yao
 	religion = hmong
 		holding = tribal_holding
 		882.1.1 = { 
@@ -580,8 +574,8 @@
 #c_shaozhou_hunan
 #b_Shaozhou_Shaoyang 
 10302 = {
-	culture = yi
-	religion = hmong
+	culture = kam_sui
+	religion = pagan
 	holding = tribal_holding			
 }
 #b_Wugang_Chengbu 

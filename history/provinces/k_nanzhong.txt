@@ -3,7 +3,7 @@
 #c_jianshui
 #b_Tonghaifu_Qujiangguan
 10462 = {
-    culture = wuman
+    culture = hani
 	religion = ari
 	holding = tribal_holding	
 }
@@ -21,7 +21,7 @@
 #c_muze
 #b_Muze_Sifuguan
 10451 = {
-    culture = mon
+    culture = hani
 	religion = ari 
 	holding = tribal_holding
 }
@@ -39,15 +39,11 @@
 #c_laos
 #b_Laos_Baogu
 10452 = {
-    culture = laos
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }
-#b_Maguan_Malipo
-10453 = {
 
-	holding = tribal_holding
-}
 #b_Zuining_Hamibu
 10459 = {
 
@@ -57,7 +53,7 @@
 #c_temo
 #b_Temo_Guangnan
 10454 = {
-    culture = pu
+    culture = tay
 	religion = hmong
 	holding = tribal_holding
 }
@@ -72,23 +68,10 @@
 	holding = none
 }
 
-#c_tangmo	
-#b_Mengmadian_Mengpengbu
-10456 = {
-    culture = tai
-	religion = pagan
-	holding = tribal_holding
-}
-#b_Mengdangdian_Tangmobu
-10457 = {
-
-	holding = tribal_holding
-}
-
 #c_heman
 #b_Hemanbu_Tengtiao
 10458 = {
-    culture = wuman
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -175,8 +158,8 @@
 #c_wusa 
 #b_Wusabu
 10479 = {
-    culture = yi
-	religion = pagan 
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Momidianbu
@@ -195,8 +178,8 @@
 #c_huichuan
 #b_Huichuan_Huili
 10487 = {
-    culture = yi  #越嶲/纳西
-	religion = hmong
+    culture = wuman
+	religion = pagan
 	holding = tribal_holding
 }
 #b_Ezhuntianguan_Nuodan
@@ -213,7 +196,7 @@
 #c_jianchang
 #b_Jianchang_Sanfucheng
 10485 = {
-    culture = yi
+    culture = wuman
 	religion = pagan
 	holding = tribal_holding
 }
@@ -312,7 +295,7 @@
 #c_nongdong
 #b_Nongdong
 10503 = {
-    culture = bai
+    culture = wuman
 	religion = ari 
 	holding = tribal_holding
 }
@@ -332,7 +315,7 @@
 #c_kainan
 #b_Yinshengfu_Kainan
 10505 = {
-    culture = tai
+    culture = hani
 	religion = pagan 
 	holding = castle_holding
 }
@@ -345,7 +328,7 @@
 #c_puer
 #b_Buri
 10507 = {
-    culture = tai
+    culture = hani
 	religion = pagan 
 	holding = tribal_holding
 }
@@ -358,21 +341,17 @@
 #c_mueang_hai
 #b_sibsongbanna
 11875 = {
-	culture = mon
+	culture = waic
 	religion = pagan
 	holding = tribal_holding
 }
 #b_Lirun_Mengla
 10511 = {
-    culture = mon
-	religion = pagan
-	holding = tribal_holding
+
 }
 #b_Menglian
 10512 = {
-    culture = mon
-	religion = pagan
-	holding = tribal_holding
+
 }
 
 
@@ -399,7 +378,7 @@
 #c_wa
 #b_Waiyu_Wa
 10513 = {
-    culture = ava
+    culture = waic
 	religion = pagan
 	holding = tribal_holding
 }
@@ -492,16 +471,20 @@
 
 
 #c_yebyu
-#b_rew
-11869 = {
-    culture = mon
+# Mawlamyine
+9629 = {
+	culture = mon
 	religion = vaishnavism
 	holding = tribal_holding
+}
+#b_rew
+11869 = {
+	holding = none
 }
 
 #b_kawkareik
 11870 = {
-
+	holding = none
 }
 
 #c_tanintharyi
@@ -514,19 +497,14 @@
 
 #b_myeik
 11872 = {
-
-}
-
-#b_kainggyaung
-11873 = {
-
+	holding = none
 }
 
 #d_shan #掸
 #c_hsenwi #腊戍
 #b_Lashu  #hsenwi/lashio
 10549 = {
-    culture = shan
+    culture = tai
 	religion = pagan
 	holding = tribal_holding
 }
@@ -543,37 +521,30 @@
 #c_hsipaw
 #b_hsipaw
 11866 = {
-    culture = ava
+    culture = palaungic
 	religion = pagan
 	holding = tribal_holding
 }
 
 #b_mongkung
 11867 = {
-
+	holding = none
 }
 #b_laikha
 11868 = {
-
+	holding = none
 }
 
 #c_yawnghwe
-#b_yawnghwe
-9570 = {
-    culture = shan
+#b_loi_long
+11891 = {
+    culture = karenic
 	religion = pagan
 	holding = tribal_holding
-}#b_loi_long
-11891 = {
-
 }#b_hsatung
 11892 = {
 
-}#b_mong_pai
-9594 = {
-
 }
-
 #c_mongnai
 #b_Kunxin
 10551 = {
@@ -583,9 +554,5 @@
 }
 #b_Dongzhi
 10552 = {
-
-}
-#b_jiaomai
-10550 = {
 
 }

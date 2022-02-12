@@ -1,0 +1,65 @@
+﻿110000001 = {
+	name = Eungryeom #Ruler of Korea Kingdom, Gim Dynasty
+	dynasty = 60000001
+	religion = mahayana
+	culture = senhan
+	844.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Gim_Eungryeom_dna_entry
+}
+110000002 = {
+	name = Taehyung #Ruler of Baekje dutchy, Kim Dynasty
+	dynasty = 60000002
+	religion = mahayana
+	culture = senhan
+	819.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Kim_Taehyung_dna_entry
+}
+110000003 = {
+	name = Juhee #Ruler of  dutchy, Pak Dynasty
+	dynasty = 60000003
+	religion = mahayana
+	culture = senhan
+	819.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Pak_Juhee_dna_entry
+}
+110000004 = {
+	name = Yong #Ruler of  dutchy Shiwon Dynasty
+	dynasty = 60000004
+	religion = mahayana
+	culture = senhan
+	836.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Shiwon_Yong_dna_entry
+}
+110000005 = {
+	name = Kwon #Ruler of  dutchy, Seoyoung dynasty
+	dynasty = 60000005
+	religion = mahayana
+	culture = senhan
+	849.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Seoyoung_Kwon_dna_entry
+}

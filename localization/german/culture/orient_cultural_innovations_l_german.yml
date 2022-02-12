@@ -30,24 +30,6 @@
  innovation_world_asia_korea:0 "Jäger aus Goryeo "
  innovation_world_asia_korea_desc:0 "Das Land der Goryeo ist von dichten Wäldern und Bergketten bedeckt, daher sind sie gut in der Herstellung von Jagdwerkzeugen, insbesondere Bögen. Wenn sie in die Armee eingezogen würden, wären sie sehr gute Bogenschützen."
  
- innovation_china_south:0 "Wudang`s Fliegende Armee"
- innovation_china_south_desc:0 "Alle fliegenden Truppen von Wudang tragen eiserne Rüstungen und können Berge und Wälder erklimmen. Sie sind gut im Umgang mit Bögen, Armbrüsten und Giftpfeilen und gut im Feldeinsatz. Sie sind auch sehr gut bei Verteidigungsoperationen, da sie Waffen, Pferdenägel, Armbrüste und Pfeile haben."
-
- innovation_china_centre:0 "Massenrekrutierungssystem"
- innovation_china_centre_desc:0 "Nach Höhen und Tiefen von Dynastien sowie Kriegen zwischen Warlords entwickelten die vereinigten Dynastien Chinas, wie Han und Tang, ein fortschrittliches Militärsystem mit hoher Disziplin und großem Ausmaß. Starke nationale Stärke, Arbeitskräfte und eine ausgezeichnete Kriegsstrategie erschweren es der Armee, besiegt zu werden, aber wenn der Kaiser dieses System nicht gut nutzt, wird es zur Quelle des Chaos."
- 
- innovation_china_east:0 "Wu Hook"
- innovation_china_east_desc:0 "Ein gebogener Haken, der von den alten Kriegern des Königreichs Wu als Waffe verwendet wurde. Das östlich des Yangtze-Flusses gelegene Wu-Gebiet ist ein Land von Fisch und Reis, aber es hat auch eine große Anzahl von Helden in der Geschichte hervorgebracht, darunter viele berühmte Generäle, Premierminister und sogar Schöpfer von Dynastien."
-
- innovation_china_north:0 "Youzhou`s Kriegspferde"
- innovation_china_north_desc:0 "Youzhou, ein Staat in der Nordchinesischen Tiefebene, bot dem Imperium eine seltene Pferdefarm, um seine eigenen Kavallerien gegen die Nomadenstämme auszubilden. Youzhou war auch der Vorposten aller Dynastien Chinas gegen Nomaden im Norden. Hier steht die große Mauer
- 
- innovation_china_west:0 "Mo-Dao"
- innovation_china_west_desc:0 "Mo-Dao ist ein Breitschwert mit langem Griff, das in der Tang-Dynastie erfunden wurde. Es wurde speziell verwendet, um Kavalleriepferde zu töten, was sogar der Infanterie der Tang-Armee einen Vorteil gegenüber der Kavallerie im Krieg verschaffte."
- 
- innovation_target_region_liangjing:0 "Wachen der verbotenen Stadt"
- innovation_target_region_liangjing_desc:0 "Viele Dynastien Chinas verwalteten zwei Hauptstädte in Ost und West, Luoyang und Chang'an. Obwohl die Zahl der zum Schutz der kaiserlichen Familie aufgestellten Wachen der verbotenen Stadt, nicht sehr groß war, waren sie doch äußerst mächtig und nur dem Kaiser gegenüber loyal."
- 
  innovation_battleships:0 "Großes Kriegsschiff"
  innovation_battleships_desc:0 "Entwickelt aus alten Kriegsschiffen, die außen mit Rindsleder und hohen Türmen auf dem Deck geschützt waren, waren diese Kriegsschiffe so groß, dass Soldaten darauf laufen und sogar auf einem Pferd reiten konnten."
  
@@ -63,12 +45,9 @@
  mountain_pattern_armour:0 "Bergmusterrüstung"
  mountain_pattern_armour_desc:0 "Am Ende des 8. Jahrhunderts änderte sich die Doktrin der chinesischen kaiserlichen Armee von einer auf Kavallerie ausgerichteten zu einer auf Infanterie ausgerichteten Doktrin. Das Ineinandergreifen kleiner Eisen- und Stahlstücke auf Lederrücken ermöglichte es dem Han, eine flexible und bequeme, aber dennoch stark schützende Rüstung zu schaffen. Diese Rüstung ermöglichte es dem Han-Soldat, sowohl Kavallerie- als auch Bogenschützenangriffen zu widerstehen und gleichzeitig effektiv gegen Infanterie zu bleiben."
  
- innovation_emishi_riders:0 "Emishi Horse Archers"
- innovation_emishi_riders_desc:0 "Emishi Horse Archers"
+ innovation_emishi_riders:0 "Berittene Bogenreiter der Emishi"
+ innovation_emishi_riders_desc:0 "Flink, Tötlich & Effektiv"
  
- emishi_horse_archers:0 "Emishi Horse Archers"
- emishi_horse_archers_flavor:0 "Emishi Horse Archers"
+ emishi_horse_archers:0 "Berittene Bogenreiter der Emishi"
+ emishi_horse_archers_flavor:0 "Flink, Tötlich & Effektiv"
  
- d_yamato_imperial:0 "Imperial Court"
- seiwa:0 "Seiwa"
- dynn_yamato:0 "Yamato"

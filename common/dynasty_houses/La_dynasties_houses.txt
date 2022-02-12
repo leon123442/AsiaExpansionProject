@@ -1,3 +1,0 @@
- house_La = { 
-        name = "dynn_La" 
-        dynasty = 80000008 }

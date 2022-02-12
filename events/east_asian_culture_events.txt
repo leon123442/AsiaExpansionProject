@@ -1,0 +1,267 @@
+﻿namespace = east_asian_global_culture
+
+# Automatically triggered culture shifts
+#	0001 - 0009: Uniting the Koreanics into a single culture
+#	1001 - 1009: Uniting the Mohe and Balhae into a single culture
+
+east_asian_global_culture.0001 = {
+	type = empty
+	hidden = yes
+	
+	immediate = {
+		# Save scopes for player notification events.
+		culture:goguryeo = { save_scope_as = korean }
+		culture:senhan = { save_scope_as = korean }
+		culture:baekje = { save_scope_as = korean }
+		culture:goryeon = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:goguryeo
+			get_all_innovations_from = culture:senhan
+			get_all_innovations_from = culture:baekje
+
+			# Save scope for player notification events.
+			save_scope_as = new_korean
+		}
+
+
+		every_county = {
+			limit = {
+				OR = {
+					culture = culture:goguryeo
+					culture = culture:senhan
+					culture = culture:baekje
+				}
+				title_province = {		
+					geographical_region = korea_custom_region	
+				}
+			}
+			add_to_list = korean_counties
+		}
+		
+		every_county = {
+			limit = {
+				OR = {
+					culture = culture:goguryeo
+					culture = culture:senhan
+					culture = culture:baekje
+				}
+				title_province = {		
+					geographical_region = custom_manchuria
+				}
+			}
+			add_to_list = manchurian_counties
+		}
+
+		every_in_list = {
+			list = korean_counties
+			limit = {
+				NOT = {
+					holder = {
+						OR = {
+							AND = {
+								is_ai = no
+								culture = culture:goguryeo
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:goguryeo
+							}
+							AND = {
+								is_ai = no
+								culture = culture:senhan
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:senhan
+							}
+							AND = {
+								is_ai = no
+								culture = culture:baekje
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:baekje
+							}
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_samhan }
+				}
+				set_county_culture = culture:goryeon
+
+				holder = {
+					if = {
+						limit = {
+							culture = { has_cultural_pillar = heritage_samhan }
+							capital_province = {
+								geographical_region = korea_custom_region
+							}
+						}
+						set_culture = culture:goryeon
+					}
+				}
+			}
+		}
+		
+		every_in_list = {
+			list = manchurian_counties
+			limit = {
+				NOT = {
+					holder = {
+						OR = {
+							AND = {
+								is_ai = no
+								culture = culture:goguryeo
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:goguryeo
+							}
+							AND = {
+								is_ai = no
+								culture = culture:senhan
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:senhan
+							}
+							AND = {
+								is_ai = no
+								culture = culture:baekje
+							}
+							any_liege_or_above = {
+								is_ai = no
+								culture = culture:baekje
+							}
+						}
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_samhan }
+				}
+				set_county_culture = culture:balhae
+
+				holder = {
+					if = {
+						limit = {
+							culture = { has_cultural_pillar = heritage_samhan }
+							capital_province = {
+								geographical_region = custom_manchuria
+							}
+						}
+						set_culture = culture:balhae
+					}
+				}
+			}
+		}
+
+		# Send the appropraite notification event to each player.
+		every_player = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:goguryeo
+						culture = culture:senhan
+						culture = culture:baekje
+					}
+					any_sub_realm_county = {
+						OR = {
+							culture = culture:goguryeo
+							culture = culture:senhan
+							culture = culture:baekje
+						}
+						title_province = {
+							OR = {
+								geographical_region = korea_custom_region
+								geographical_region = custom_manchuria
+							}
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							any_liege_or_above = {
+								is_ai = no
+							}
+						}
+					}
+					trigger_event = east_asian_global_culture.0002
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						is_ai = no
+						save_temporary_scope_as = player
+						any_in_list = {
+							list = korean_counties
+							holder = {
+								is_within_diplo_range = { CHARACTER = scope:player }
+							}
+						}
+					}
+					trigger_event = east_asian_global_culture.0003
+				}
+			}
+		}
+	}
+}
+
+
+east_asian_global_culture.0002 = {
+	type = character_event
+	title = east_asian_global_culture.0002.t
+	desc = east_asian_global_culture.0002.desc
+	theme = culture_change
+	left_portrait = root
+
+	immediate = {
+		if = {
+			limit = {
+				geographical_region = custom_manchuria
+			}
+			culture:balhae = { save_scope_as = my_new_culture }
+		}
+		else_if = {
+			limit = {
+				capital_province = {
+					geographical_region = korea_custom_region
+				}
+			}
+			culture:goryeon = { save_scope_as = my_new_culture }
+		}
+
+		culture = { save_scope_as = old_culture }
+	}
+
+	#Accept the culture conversion.
+	option = {
+		name = east_asian_global_culture.0002.a
+		convert_player_realm_from_old_culture_to_new_effect = {
+			OLD_CULTURE = culture:goguryeo
+			OLD_CULTURE = culture:senhan
+			OLD_CULTURE = culture:baekje
+			NEW_CULTURE = scope:my_new_culture
+		}
+	}
+}
+
+# As this is purely an informative event for players, it doesn't actually have any gameplay effects.
+east_asian_global_culture.0003 = {
+	type = character_event
+	title = east_asian_global_culture.0003.t
+	desc = east_asian_global_culture.0003.desc
+	theme = culture_change
+
+	option = {
+		name = east_asian_global_culture.0003.a
+	}
+}
