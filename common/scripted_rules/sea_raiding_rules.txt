@@ -7,6 +7,7 @@ can_raid_across_water = {
 				has_innovation = innovation_longboats
 				has_innovation = innovation_african_canoes
 				has_innovation = innovation_outrigger_boats
+				has_cultural_parameter = culture_can_raid_at_sea_even_if_feudal
 			}
 		}
 		AND = {
@@ -25,6 +26,7 @@ can_traverse_river = {
 				has_innovation = innovation_longboats
 				has_innovation = innovation_african_canoes
 				has_innovation = innovation_outrigger_boats
+				has_cultural_parameter = can_travel_along_rivers
 			}
 		}
 		AND = {
