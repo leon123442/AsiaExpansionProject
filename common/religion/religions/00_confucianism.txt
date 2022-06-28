@@ -290,7 +290,7 @@
 
 		rangyi = {
 			color = { 58 50 131 }
-			icon = custom_faith_fp1_fenrir
+			icon = rangyi
 
 			holy_site = uliastai
 			holy_site = selenga
