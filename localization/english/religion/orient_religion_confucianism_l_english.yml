@@ -130,7 +130,7 @@
  # "理学门生"
  lixue_adherent_plural:0 "Lixue disciples"
  # "理学是吸收了释道哲学而形成的宋代新儒学，认为“气”乃宇宙本原，“理”即万物规律，反映在人间就是“礼”的秩序，纲常乃国家基石。"
- lixue_desc:0 "Neo-Confucianism is the Song Dynasty Neo-Confucianism formed by absorbing the philosophy of Buddhism and Taoism. It believes that "qi" is the origin of the universe, "li" is the law of all things, and reflected in the human world as the order of "ritual", and Gangchang is the cornerstone of the country."
+ lixue_desc:0 "A Neo-Confucianist Philosophy of the Song Dynasty that was formed by absorbing the teachings of Buddhism and Taoism. It believes that “qi” emanates from Taiji or The Great Ultimate, through “li” the law of all things. Qi is manifest through yin and yang modes as “wuxing” or the Five Phases, which are basic processes defining the Universe."
  
  #jingshi
  # "新学"
@@ -142,7 +142,7 @@
  # "新学门生"
  jingshi_adherent_plural:0 "Jingshi disciples"
  # "新学门生更推崇《易》的教诲，面对现实中的弊端，他们重新阐释儒家经典，发掘出“经世致用”之学，以变法维新再造太平盛世。"
- jingshi_desc:0 "The new school students admired the teachings of the "Yi" even more. Faced with the shortcomings in reality, they reinterpreted the Confucian classics and discovered the "practical and practical" theory, and reformed the law to recreate a peaceful and prosperous age."
+ jingshi_desc:0 "A new Confucian School that admired the teachings of the “Yi.” Faced with the shortcomings of reality, Confucian classics were reinterpreted, and reforms of Imperial law were instituted in the hopes of creating a peaceful and prosperous age "
 
  #xinxue
  # "心学"
