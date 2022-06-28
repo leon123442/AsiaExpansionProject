@@ -267,7 +267,7 @@
 
 		jingxue = {
 			color = { 48 40 131 }
-			icon = waaqism_reformed
+			icon = jingxue
 
             holy_site = luoyang
             holy_site = shuzhou_huai					
