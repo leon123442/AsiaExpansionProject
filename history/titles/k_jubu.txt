@@ -1,0 +1,6 @@
+k_jubu = {
+	840.1.2 = {
+		holder = 303238		#fictional Uzur Enisey Kyrgyz
+		government = tribal_government
+	}
+}

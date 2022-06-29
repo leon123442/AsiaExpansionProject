@@ -1,0 +1,861 @@
+﻿# Indochina
+# Burmese
+name_list_burmese = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+		Khelu Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein Theinga Theingapati Abhiyaza Yathekyaung
+		Abhiyaza Alaungpaya Anaukpetlun Athinkaya Badon Bandula Bagyidaw Bayinnaung Hmauk Htilominlo Kanaung Khamaung Kyaswa Kyawswa Kyawhtin 
+		Kyit Kywe Minkhaung Mingyi_Nyo Mingyi_Swa Minyedeippa Narapati Narathihapate Narathu Narawara Narazeya Natshinnaung Nyaungyan 
+		Phalaung Pindale Pyit Pyusawhti Sawlon Sekkya Sawrahan Sithu Swasawke Tabinshwehti Taik Tarabya Thalun Thinkhaya Theiddat Theinkhathu Thihathu 
+		Thihathura Thilwa Thinga_Datha Uzana Yahawlaw Yathekyaung Yazathingyan Yazathu Kunhsaw Naungdawgyi Ye_Htut Ananda_Thuriya
+		
+		Ananda Arkar Aung Hein Htin Htut Jeyya Khant Khin Kjaw Kyaw Lin Lwin Maung Nanda Nyan Phyu Sein Siha Sithu 
+		Thang Thaun Thukha Thura Thuriya Ukka Wanna Wizaya Wunna Yarzar Yit Ywa Zarni Zaw Zayar Zeya Zeyar
+	}
+
+	female_names = {
+		Ahlwan Bo_Me Datu_Kalaya Dhamma_Dewi Hla_Hlut Hla_Myat Hla_Nyet Hsinbyume Khame_Mi Khin_Gyi Khin_Me Khin_Saw Khin_Htut 
+		Kodawgyi Nant_tha Myo_Myat Myat_Lay Natshin_Medaw Pabawadi Soe_Min Salin_Mibaya Salin_Minthami Ta_Lat Pwadawgyi Sanda_Dewi 
+		Shwekodawgale Shwekodawgyi Supayagalay Supayagyi Supayalat Supayalay Thakhingyi Thupabadewi Wadanthika Weluwaddy Yadana_Dewi
+
+		Bawk Beza Chit Cho Eindra Ekari Gadau Gawa Haymar Heman Hkyac Hkyairi Hkyam Hnin Hwe Ingyin Inzali Kalya Khway Kra 
+		Kyaukni Kyi Linlun Mala Manyju Marlar Mibaya Mra Mru Myine Myintzu Nadi Nilar Nwe Nyein
+		Ohmar Paannsee Payang Phway Pulai Sabai Sajang Sanda Santa Sauta Singgi Thandar Tharahpi Thawdar Thawka Thazin Theingi Thidar 
+		Thinzar Thiri Thitkwa Thuzar Wah Waddy Wittyi Yadanar Yuzana Yamin Yun_San
+	}
+
+	founder_named_dynasties = yes
+
+
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+name_list_rakhine = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+		Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein
+		Abhiyaza Alaungpaya Bayinnaung Hmauk Htilominlo Kyaswa Kyawswa Kyit Kywe Minkhaung Narapati Narathihapate Narathu Pyit Pyusawhti Sawrahan Sithu
+		Tabinshwehti Taik Tarabya Thihathu Uzana Yahawlaw Yathekyaung Yazathingyan
+
+		Arkar Hein Htin Htut Jeyya Khant Kjaw Kyaw Lin Maung Nyan Sein Siha Sithu Thang Thaun Thukha Thura Ukka Wanna Wunna Yarzar Zarni Zaw Zayar Zeya Zeyar
+	}
+
+	female_names = {
+		Bo_Me Dhamma_Dewi Khame_Mi Nant_tha Myo_Myat Soe_Min Salin_Mibaya Salin_Minthami Ta_Lat
+
+		Apeyadana Bawk Chit Cho Eindra Ekari Gadau Haymar Heman Hkyac Hkyairi Hkyam Hkindan Hnin Ingyin Inzali Kalya Kra Kyaukni Linlun Manyju Marlar Mibaya Mra Mru Myine Myintzu Nadi Nilar Nwe Taung Myauk Manisanda Thanbula Yadanabon
+		Ohmar Paannsee Payang Phway Pulai Sabai Sajang Sanda Sauta Singgi Thandar Tharahpi Thawdar Thawka Theingi Thidar Thinzar Thiri Thitkwa Thuzar Wah Wittyi Yadanar Yamin
+	}
+
+	founder_named_dynasties = yes
+
+
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+name_list_manipur = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+		Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein
+		Abhiyaza Alaungpaya Bayinnaung Hmauk Htilominlo Kyaswa Kyawswa Kyit Kywe Minkhaung Narapati Narathihapate Narathu Pyit Pyusawhti Sawrahan Sithu
+		Tabinshwehti Taik Tarabya Thihathu Uzana Yahawlaw Yathekyaung Yazathingyan
+
+		Arkar Hein Htin Htut Jeyya Khant Kjaw Kyaw Lin Maung Nyan Sein Siha Sithu Thang Thaun Thukha Thura Ukka Wanna Wunna Yarzar Zarni Zaw Zayar Zeya Zeyar
+	}
+
+	female_names = {
+		Bo_Me Dhamma_Dewi Khame_Mi Nant_tha Myo_Myat Soe_Min Salin_Mibaya Salin_Minthami Ta_Lat
+
+		Bawk Chit Cho Eindra Ekari Gadau Haymar Heman Hkyac Hkyairi Hkyam Hnin Ingyin Inzali Kalya Kra Kyaukni Linlun Manyju Marlar Mibaya Mra Mru Myine Myintzu Nadi Nilar Nwe
+		Ohmar Paannsee Payang Phway Pulai Sabai Sajang Sanda Sauta Singgi Thandar Tharahpi Thawdar Thawka Theingi Thidar Thinzar Thiri Thitkwa Thuzar Wah Wittyi Yadanar Yamin
+	}
+
+	founder_named_dynasties = yes
+
+
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+name_list_karen = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+		Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein
+		Abhiyaza Alaungpaya Bayinnaung Hmauk Htilominlo Kyaswa Kyawswa Kyit Kywe Minkhaung Narapati Narathihapate Narathu Pyit Pyusawhti Sawrahan Sithu
+		Tabinshwehti Taik Tarabya Thihathu Uzana Yahawlaw Yathekyaung Yazathingyan
+
+		Arkar Hein Htin Htut Jeyya Khant Kjaw Kyaw Lin Maung Nyan Sein Siha Sithu Thang Thaun Thukha Thura Ukka Wanna Wunna Yarzar Zarni Zaw Zayar Zeya Zeyar
+	}
+
+	female_names = {
+		Bo_Me Dhamma_Dewi Khame_Mi Nant_tha Myo_Myat Soe_Min Salin_Mibaya Salin_Minthami Ta_Lat
+
+		Bawk Chit Cho Eindra Ekari Gadau Haymar Heman Hkyac Hkyairi Hkyam Hnin Ingyin Inzali Kalya Kra Kyaukni Linlun Manyju Marlar Mibaya Mra Mru Myine Myintzu Nadi Nilar Nwe
+		Ohmar Paannsee Payang Phway Pulai Sabai Sajang Sanda Sauta Singgi Thandar Tharahpi Thawdar Thawka Theingi Thidar Thinzar Thiri Thitkwa Thuzar Wah Wittyi Yadanar Yamin
+	}
+
+	founder_named_dynasties = yes
+
+
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+name_list_pyu = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+		Kyansittha Kyiso Saw_Lu Sokkate Tannet Theinhko Thurein
+		Abhiyaza Alaungpaya Bayinnaung Hmauk Htilominlo Kyaswa Kyawswa Kyit Kywe Minkhaung Narapati Narathihapate Narathu Pyit Pyusawhti Sawrahan Sithu
+		Tabinshwehti Taik Tarabya Thihathu Uzana Yahawlaw Yathekyaung Yazathingyan
+
+		Arkar Hein Htin Htut Jeyya Khant Kjaw Kyaw Lin Maung Nyan Sein Siha Sithu Thang Thaun Thukha Thura Ukka Wanna Wunna Yarzar Zarni Zaw Zayar Zeya Zeyar
+	}
+
+	female_names = {
+		Bo_Me Dhamma_Dewi Khame_Mi Nant_tha Myo_Myat Soe_Min Salin_Mibaya Salin_Minthami Ta_Lat
+
+		Bawk Chit Cho Eindra Ekari Gadau Haymar Heman Hkyac Hkyairi Hkyam Hnin Ingyin Inzali Kalya Kra Kyaukni Linlun Manyju Marlar Mibaya Mra Mru Myine Myintzu Nadi Nilar Nwe
+		Ohmar Paannsee Payang Phway Pulai Sabai Sajang Sanda Sauta Singgi Thandar Tharahpi Thawdar Thawka Theingi Thidar Thinzar Thiri Thitkwa Thuzar Wah Wittyi Yadanar Yamin
+	}
+
+	founder_named_dynasties = yes
+
+
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+name_list_kachin = {
+
+	cadet_dynasty_names = {
+		"dynn_MO_ng_Pai"
+		"dynn_Shwemyo"
+		"dynn_Taungdwingyi"
+		"dynn_Thayetmyo"
+		"dynn_Myede"
+		"dynn_Thaungdut"
+		"dynn_Chin"
+		"dynn_Mingiu"
+		"dynn_Maukkadaw"
+		"dynn_Momeik"
+		"dynn_Katha"
+		"dynn_Myedu"
+		"dynn_Peikthanomyo"
+		"dynn_Binnaka"
+		"dynn_Yawnghwe"
+		"dynn_Taungbyon"
+		"dynn_Singu"
+	}
+
+	dynasty_names = {
+		"dynn_Sagaing"
+		"dynn_Ava"
+		"dynn_Prome"
+		"dynn_Toungoo"
+		"dynn_Sriksetra"
+		"dynn_Takon"
+		"dynn_Kale"
+		"dynn_Swa"
+		"dynn_Magwe"
+		"dynn_Hanlan"
+		"dynn_Madaya"
+		"dynn_Yamethin"
+		"dynn_Minbu"
+		"dynn_Shwesettaw"
+		"dynn_Kyaukse"
+		"dynn_Maingmaw"
+		"dynn_Pinya"
+	}
+
+	male_names = {
+        An Baw Chydwoi Dot Gam Gdlu Grawng Gumja Gumna Gun Gunhtang Hka Hkum Hkun Hpung Htang Htung Jali Jdhtung Kabang Karat Kdsang Kringkrawn Kumhtan Kying La Labya Lawn Ldhkwi Ldhtwi Ldmyam Lum Madai Magam Maran Mauhte Mdgun Mikaw Minggawn Myihkyi Nang Nau Naw Nawn Nhkum Ni Ninggawn Ningshawng Ntu Numlang Puhtum Pungwum Rang Ri Seng Sengli Shawng Shdroi Shinglang Shingra Tang Tawm Ting Tsan Tsit Tsup Tu Un Wahkyet Woishun Xala Yaw Yawng Ying Yun
+	}
+
+	female_names = {
+        Baw Chyanun Chydnun Chyem Hka Hkin Hpraw Htang Htu Ji Kai Kaw Kdbang Kringnawn Kying Ldtsaw Lu Lum Mahtu Majan Manhpddam Mddai Mddainumhpraw Mdgawng Mdjan Mu Mun Myithoi Nan Nang Nau Nawn Ndnghkut Nem Nhtu Pri Rang Roi Roiji Roinau Seng Shawng Shddip Sumbwi Sutnam Szi Tawm Tawng Ti Tsup Yun
+	}
+
+	founder_named_dynasties = yes
+
+	mercenary_names = {
+		{ name = "mercenary_company_company_of_the_irrawaddy" }
+		{ name = "mercenary_company_burmese_host" }
+	}
+}
+
+# Mon-Khmer
+name_list_khmer = {
+
+	cadet_dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Heng" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Moau" "dynn_Mom" "dynn_Nang" "dynn_Nuon" "dynn_Phan" "dynn_Phon" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Sin" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Yan" "dynn_Yym" "dynn_Sinn" "dynn_Danh" "dynn_Ampor"
+		"dynn_Virak" "dynn_Dy" "dynn_Saom" "dynn_Prim" "dynn_Pisith" "dynn_Tep" dynn_Brak" "dynn_Nhoek" "dynn_Duong" "dynn_Vong" "dynn_Soeang" "dynn_Khlot" "dynn_Samouth"
+	}
+
+	dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Heng" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Moau" "dynn_Mom" "dynn_Nang" "dynn_Nuon" "dynn_Phan" "dynn_Phon" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Sin" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Yan" "dynn_Yym" "dynn_Yasodhara" "dynn_Sinn" "dynn_Danh" "dynn_Ampor"
+		"dynn_Virak" "dynn_Dy" "dynn_Saom" "dynn_Prim" "dynn_Pisith" "dynn_Tep" dynn_Brak" "dynn_Nhoek" "dynn_Duong" "dynn_Vong" "dynn_Soeang" "dynn_Khlot" "dynn_Samouth"
+	}
+
+	male_names = {
+		Acharya Akra Amara Anchaly Ang_Chan Ang_Chea Ang_Duong Ang_Em Ang_Eng Ang_Nan Ang_Non Ang_Sngoun Ang_Sor Ang_Sur Ang_Tham Ang_Ton Ang_Tong 
+		Ang_Yong Arun Atith Barom_Reachea Bona Bora Boran Borey Bourey Bunroeun Chakara Chakra Chamroeun Chankrisna Chann Chanthou Chantaraingsey 
+		Chandarith Chantrea Chanvatey Charya Chea Chey_Chettha Chhay Chhaya Damkhat_Sukonthor Dara Darany Davuth Devi Dharmaraja Dharmarajadhiraja Heng 
+		Kantol Kea Keo_Ban_On Keo_Hua Khean Khemera Kiri Kong Kosal Kravann Leap Makara Many Mao Meaker Mittapheap Montha Munny Narayanaraja 
+		Narin Narith Ney_Khan Nhean Nimith Nimol Nisay Noreaksey Noreay_Ramathipatei Oudom Outey_Reachea Padumaraja Phala Pheakdei Phirum Phirun 
+		Pich Piseth Pisey Poeu Ponhea_An Ponhea_Chan Ponhea_Nhom Ponhea_To Ponhea_Yat Ponhea_Yor Ponleak Ponleu Ponlok Prak Preah_Ram Pros 
+		Puthyrith Rachana Ranariddh Rainsey Raksmei Ramathipadi Rathana Rathanak Reachea_Ramathipatei Ream_Reachea Reamea_Chungprey Reasmey 
+		Rith Rithipol Rithisak Rithy Rothanak Sakngea Samang Samay Sambath Samlain Samnang Samphy Samrin Sangha Sann Satha Sathea Sokha Sokhem 
+		Sokhom Sokun Somnang Sonith Sopath Sophaep Sopheaktra Sopheap Sopheara Soriyotei Sorya Sotha Sothea Sothear Sothiya Sothy Sourkeat
+		Sov Sovann Sovannar Sovannarith Srei_Soriyopear Srey_Sukonthor Sri_Raja Sros Suramarit Sutharot Thom Thommo_Reachea Udayaraja 
+		Vanna Vannak Vannsak Veasna Veha Vibol Vichear Vichet Vireak Vireakboth Visal Viseth Visna Visoth Visothirith Vithara Vithu
+	}
+
+	female_names = {
+		"Anak_Moneang_Krachap" "Ang_Mey" "Boupha" "Neang_Pou" "Sakngea" Achariya Akara Anchali Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan 
+		Chanda Chang Chankrisna Chanlina Chanmony Channary Channiroth Chanthavy Chantou Chantrea Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean 
+		Chhorvin Chhorvon Chivy Choum Da Dalin Daevy Dara Darareaksmey Davi Doung Jorani Kalianne Kaliyanei Kalliyan Kanleakhana Kannareth Kannitha Kanya 
+		Kesor Kethnari Kimsuor Kolab Kolthida Kravann Kun Kunthea Leak Leakena Leap Mach Makara Malis Maly Mau Mealea Mean Methavy Mliss Mom Mony Monisophea
+		Moniringsy Nakry Nary Nearidei Neary Nisa Nuon Peou Phalla Phally Phary Pheakdei Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Pongneary 
+		Pongsirya Punthea Putrea Rachana Rachany Rangsei Reach Reaksmey Reachana Reasmey Rom Rotha Roumduol Roumjong Saley Samnang Samphy Savady Seda 
+		Seyha Sikha Sinuon Sita Sijhata Soboen Socheat Sodavy Sok Sokha Sokhanya Sokhom Sokunkanha Sombo Sonisay Sonith Sophal Sophea Sopheap Sopheary 
+		Sophon Sophorn Soportevy Soriya Sorpheny Sotear Sotheara Sotheary Sothy Sourkea Sovannaroth Sovanara Sovandary Sovaneary Sovanna Sovanpanha Sovannai 
+		Sraem Srey Sreymau Sreynuon Sreypich Sros Suorsdey Taevy Thavary Thea Theary Thom Thyda Tina Toch Tola Vanna Vannary Veasna Veata Vimean Yutheary
+	}
+
+	founder_named_dynasties = no
+	always_use_patronym = yes
+	dynasty_name_first = no
+
+	pat_grf_name_chance = 20
+	mat_grf_name_chance = 20
+	father_name_chance = 10
+
+	pat_grm_name_chance = 20
+	mat_grm_name_chance = 20
+	mother_name_chance = 10
+}
+name_list_mon = {
+
+	cadet_dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Bogale" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Dagon" "dynn_Dalla" "dynn_Heng" "dynn_Hinthada" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Krapan" "dynn_Kusumi" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Mawlamyine" "dynn_Moau" "dynn_Mom" "dynn_Muttina" "dynn_Myanaung" "dynn_Myaungmya" "dynn_Nang" "dynn_Negrais" "dynn_Ngaputawo" "dynn_Nuon" "dynn_Pegu" "dynn_Phan" "dynn_Phon" "dynn_Phyu" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Shwegyin" "dynn_Sin" "dynn_Sittaung" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Syriam" "dynn_Taikkala" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Wareru" "dynn_Yan" "dynn_Yym"
+	}
+
+	dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Bogale" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Dagon" "dynn_Dalla" "dynn_Heng" "dynn_Hinthada" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Krapan" "dynn_Kusumi" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Mawlamyine" "dynn_Moau" "dynn_Mom" "dynn_Muttina" "dynn_Myanaung" "dynn_Myaungmya" "dynn_Nang" "dynn_Negrais" "dynn_Ngaputawo" "dynn_Nuon" "dynn_Pegu" "dynn_Phan" "dynn_Phon" "dynn_Phyu" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Shwegyin" "dynn_Sin" "dynn_Sittaung" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Syriam" "dynn_Taikkala" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Wareru" "dynn_Yan" "dynn_Yym"
+	}
+
+	male_names = {
+		Acharya Adara Akra Amara Anchaly Angula Anuyama Araka Areindama Arun Atha Athinkha Atith Attatha Athayi Bala Bawlawkyantaw Bona Bora Boran Borey Bourey Bunroeun Bwe Chakara Chakra Chamroeun Chankrisna Chann Chanthou Chantrea Chanvatey Charya Chea Chhay Chhaya Dara Darany Davuth Devi Dhammazedi Dipa Einkura Ekkathamanda Gada Gadu Geinda Geissadiya Heng Karawika Kea Khean Khemera Kiri Kong Kosal Kravann Kutha Kyan Law Leap Leik_Munhtaw Mahintha Makara Manuha Many Mao Meaker Migadeippa Mittapheap Montha Munny Narathu Narin Narith Nhean Nimith Nimol Nisay Noreaksey Oudom Phala Pheakdei Phirum Phirun Pich Piseth Pisey Poeu Ponleak Ponleu Ponlok Pontarika Prak Pros Puthyrith Pyinzala Rachana Ran Rainsey Raksmei Rathana Rathanak Razadarit Reasmey Rith Rithipol Rithisak Rithy Rothanak Sakngea Samang Samay Sambath Samlain Samnang Samphy Samrin Sangha Sann Sathea Sawhtut Sokha Sokhem Sokhom Sokun Somnang Sonith Sopath Sophaep Sopheaktra Sopheap Sopheara Sorya Sotha Sothea Sothear Sothiya Sothy Sourkeat Sov Sovann Sovannar Sovannarith Sros Takayutpi Thaduka Thamala Than_Bon Thom Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Vanna Vannak Veasna Veha Vibol Vichear Vichet Vireak Vireakboth Visal Viseth Visna Visoth Visothirith Vithara Vithu Wareru Waru Wimala Zambudipa Zawta Zein
+	}
+
+	female_names = {
+		Achariya Akara Anchali Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan Chang Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Chantrea Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara Darareaksmey Davi Doung Hnin_An_Po Jamadevi Jorani Kalianne Kaliyanei Kalliyan Kanha Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida Kravann Kun Kunthea Leak Leakena Leap Mach Makara Malis Maly Maneit Mau Mealea Mean Mi_Pakahtaw Mibaya Mliss Mom Mony Mwei_It Mwei_Maneit Mwei_Zeik Nakry Nary Nearidei Neary Nuon Peou Phally Phary Pheakdei Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Punthea Puthykol Putrea Rachana Rachany Raksa Rangsei Reach Reaksmey Reasmey Rom Rotha Roumduol Roumjong Saley Samnang Samphy Savady Sawatdee Sawbu Seda Seyha Sikha Sinuon Sita Soboen Socheat Sok Sokha Sokhanya Sokhom Solyna Sombo Sonisay Sophal Sophea Sopheap Sopheary Sophon Sophorn Soportevy Soriya Sorpheny Sotear Sotheara Sothy Sourkea Sovanara Sovandary Sovaneary Sovanna Sovannai Sraem Srey Sreykeo Sreymau Sreyneang Sreynuon Sreypich Sros Suorsdey Taevy Thavary Thea Theary Thida Thom Thuddhamaya Thyda Tina Toch Tola Vanna Vatey Veasna Veata Vimean
+	}
+
+	founder_named_dynasties = no
+
+	mercenary_names = {
+		{ name = "mercenary_sadhuim_company" }
+		{ name = "mercenary_company_mon_host" }
+	}
+}
+
+# Loloish
+name_list_yi = {
+
+	dynasty_name_first = yes
+
+	cadet_dynasty_names = {
+		dynn_A_Chi_Sse_Suo dynn_A_Chy_Sse_Ggu dynn_A_Chy_Sse_Suo dynn_A_Ge_Sse_Nge dynn_A_Ge_Sse_Suo dynn_A_Ha_Sse_Ggu dynn_A_Ha_Sse_Nge dynn_A_Ko_Sse_Ggu dynn_A_Ko_Sse_Nge dynn_A_Ko_Sse_Suo dynn_A_Mo_Sse_Ggu dynn_A_Mo_Sse_Nge dynn_A_Mo_Sse_Shy dynn_A_Ne_Sse_Suo dynn_A_Nyi_Sse_Ggu dynn_A_Nyi_Sse_Shy dynn_A_Nyo_Sse_Suo dynn_A_Rrie_Sse_Nge dynn_A_Shyr_Sse_Ggu dynn_A_Shyr_Sse_Nge dynn_A_Sy_Sse_Shy dynn_A_Sy_Sse_Suo dynn_A_Zu_Sse_Suo dynn_Bbi_We_Sse_Nge dynn_Bbi_We_Sse_Shy dynn_Bbi_We_Sse_Suo dynn_Bbu_Ddur_Sse_Ggu dynn_Bbu_Ddur_Sse_Shy dynn_Bbu_Jji_Sse_Nge dynn_Bbu_Nju_Sse_Ggu dynn_Bbu_Nju_Sse_Shy dynn_Bbu_Nju_Sse_Suo dynn_Bbu_Xi_Sse_Ggu dynn_Bbu_Xi_Sse_Nge dynn_Bi_Ga_Sse_Shy dynn_Bi_Qu_Sse_Ggu dynn_Bi_Ti_Sse_Suo dynn_Bu_Nzu_Sse_Nge dynn_Chi_A_Sse_Suo dynn_Chy_A_Sse_Suo dynn_Chy_Sse_Ggu dynn_Chy_Sse_Suo dynn_Ddie_Wa_Sse_Ggu dynn_Ddu_Sse_Ggu dynn_Ga_Yi_Sse_Nge dynn_Jji_Nu_Sse_Suo dynn_Jji_Zze_Sse_Ggu dynn_Jo_Ddur_Sse_Nge dynn_Jo_Ddur_Sse_Suo dynn_Jo_Jji_Sse_Shy dynn_Jo_Jji_Sse_Suo dynn_Jo_Mo_Sse_Nge dynn_Jo_Nuo_Sse_Shy dynn_Jo_Sse_Sse_Ggu dynn_Jo_Sse_Sse_Nge dynn_Kak_Khuon_Sse_Suo dynn_Kak_Sse_Shy dynn_Kak_Sse_Suo dynn_Ke_Ddi_Sse_Ggu dynn_Ke_Ddi_Sse_Nge dynn_Ke_Ddi_Sse_Suo dynn_Ke_Qie_Sse_Ggu dynn_Ke_Qie_Sse_Suo dynn_Ken_Jy_Sse_Nge dynn_La_Bbu_Sse_Nge dynn_La_Bwi_Sse_Nge dynn_La_Da_Sse_Shy dynn_La_Huo_Sse_Shy dynn_La_Hxa_Sse_Nge dynn_La_Hxa_Sse_Suo dynn_La_Ji_Sse_Nge dynn_La_Ji_Sse_Suo dynn_La_Rry_Sse_Shy dynn_La_Sse_Ggu dynn_Li_Jieng_Sse_Ggu dynn_Lo_Na_Sse_Suo dynn_Lu_Ddi_Sse_Nge dynn_Lu_Ddi_Sse_Suo dynn_Lu_Ddie_Sse_Nge dynn_Lu_Ddie_Sse_Shy dynn_Lu_Ndy_Sse_Ggu dynn_Lu_Pu_Sse_Suo dynn_Lu_Sho_Sse_Ggu dynn_Lu_Xi_Sse_Nge dynn_Lu_Ze_Sse_Ggu dynn_Lu_Ze_Sse_Suo dynn_Lur_Da_Sse_Shy dynn_Lur_Da_Sse_Suo dynn_Lur_Ha_Sse_Ggu dynn_Lur_Nji_Sse_Ggu dynn_Lur_Nji_Sse_Nge dynn_Lur_Nji_Sse_Shy dynn_Lur_Nji_Sse_Suo dynn_Lur_Po_Sse_Nge dynn_Lur_Shy_Sse_Suo dynn_Mu_Gu_Sse_Ggu dynn_Mu_Gu_Sse_Suo dynn_Mu_Wu_Sse_Ggu dynn_Mu_Zim_Sse_Ggu dynn_Na_Ku_Sse_Ggu dynn_Na_Zhe_Sse_Nge dynn_Na_Zhyr_Sse_Ggu dynn_Nde_Wa_Sse_Nge dynn_Nji_Sse_Ggu dynn_Nji_Sse_Shy dynn_Nji_Sse_Suo dynn_Njy_Jy_Sse_Nge dynn_Nyi_Bbu_Sse_Suo dynn_Nyi_Da_Sse_Suo dynn_Nyi_Ddur_Sse_Ggu dynn_Nyi_Ddur_Sse_Shy dynn_Nyi_Ha_Sse_Ggu dynn_Nyi_Ha_Sse_Shy dynn_Nyi_Jjo_Sse_Suo dynn_Nyi_Po_Sse_Shy dynn_Nyi_Po_Sse_Suo dynn_Phu_Xe_Sse_Suo dynn_Po_Hle_Sse_Suo dynn_Po_Rryr_Sse_Ggu dynn_Po_Rryr_Sse_Nge dynn_Qu_Da_Sse_Ggu dynn_Qu_Ha_Sse_Shy dynn_Qu_Ji_Sse_Shy dynn_Qu_Po_Sse_Suo dynn_Rru_Sse_Sse_Suo dynn_Rru_Wa_Sse_Ggu dynn_Rru_Wa_Sse_Shy dynn_Shu_Ha_Sse_Nge dynn_Shu_Huo_Sse_Ggu dynn_Shu_Huo_Sse_Shy dynn_Shu_Sse_Nge dynn_Shu_Sse_Shy dynn_Shu_Wa_Sse_Nge dynn_Shu_Wa_Sse_Suo dynn_Shwin_Sse_Suo dynn_Shy_Bbu_Sse_Ggu dynn_Shy_Du_Sse_Shy dynn_Shy_Ha_Sse_Ggu dynn_Shy_Po_Sse_Ggu dynn_Shy_Po_Sse_Shy dynn_Shy_Po_Sse_Suo dynn_Sse_We_Sse_Suo dynn_Ssu_Da_Sse_Ggu dynn_Ssu_Ha_Sse_Nge dynn_Ssu_Huo_Sse_Ggu dynn_Ssu_Huo_Sse_Shy dynn_Ssu_Qi_Sse_Ggu dynn_Ssy_Bbu_Sse_Nge dynn_Ssy_Da_Sse_Nge dynn_Ssy_Huo_Sse_Ggu dynn_Ssy_Huo_Sse_Nge dynn_Ssy_Hxa_Sse_Ggu dynn_Ssy_Mo_Sse_Nge dynn_Ssy_Pu_Sse_Ggu dynn_Ssy_Pu_Sse_Nge dynn_Ssy_Shy_Sse_Nge dynn_Ssy_Shy_Sse_Shy dynn_Su_Nyi_Sse_Suo dynn_Ta_Wa_Sse_Suo dynn_Va_Da_Sse_Suo dynn_Va_Huo_Sse_Ggu dynn_Va_Hxe_Sse_Shy dynn_Va_Qie_Sse_Ggu dynn_Ve_A_Sse_Nge dynn_Ve_A_Sse_Shy dynn_Ve_Sse_Suo dynn_Vo_Qie_Sse_Nge dynn_Vo_Qie_Sse_Shy dynn_Vo_Sse_Sse_Ggu dynn_Wa_Ddie_Sse_Suo dynn_Wa_Nde_Sse_Ggu dynn_Wa_Nde_Sse_Nge dynn_Wa_Ta_Sse_Suo dynn_We_Ddie_Sse_Ggu dynn_We_Ddie_Sse_Shy dynn_We_Fi_Sse_Suo dynn_We_Nyi_Sse_Nge dynn_Wo_Da_Sse_Ggu dynn_Wo_Ke_Sse_Nge dynn_Wo_Mo_Sse_Nge dynn_Wo_Nuo_Sse_Ggu dynn_Wo_Sse_Sse_Shy dynn_Yi_Jje_Sse_Suo dynn_Yi_Ze_Sse_Suo dynn_Yo_Ga_Sse_Nge dynn_Yo_Ga_Sse_Shy dynn_Yo_Ga_Sse_Suo dynn_Yo_Nuo_Sse_Ggu dynn_Yo_Se_Sse_Ggu dynn_Yo_Se_Sse_Nge dynn_Yo_Se_Sse_Suo dynn_Yo_Si_Sse_Suo dynn_Yy_Bbu_Sse_Ggu dynn_Yy_Ga_Sse_Shy dynn_Yy_Gge_Sse_Nge dynn_Yy_Hmu_Sse_Suo dynn_Yy_Ke_Sse_Ggu dynn_Yy_Ke_Sse_Shy dynn_Yy_Ke_Sse_Suo dynn_Yy_Vu_Sse_Ggu
+	}
+
+	dynasty_names = {
+		dynn_A_Chi_Sse_Suo dynn_A_Chy_Sse_Ggu dynn_A_Chy_Sse_Suo dynn_A_Ge_Sse_Nge dynn_A_Ge_Sse_Suo dynn_A_Ha_Sse_Ggu dynn_A_Ha_Sse_Nge dynn_A_Ko_Sse_Ggu dynn_A_Ko_Sse_Nge dynn_A_Ko_Sse_Suo dynn_A_Mo_Sse_Ggu dynn_A_Mo_Sse_Nge dynn_A_Mo_Sse_Shy dynn_A_Ne_Sse_Suo dynn_A_Nyi_Sse_Ggu dynn_A_Nyi_Sse_Shy dynn_A_Nyo_Sse_Suo dynn_A_Rrie_Sse_Nge dynn_A_Shyr_Sse_Ggu dynn_A_Shyr_Sse_Nge dynn_A_Sy_Sse_Shy dynn_A_Sy_Sse_Suo dynn_A_Zu_Sse_Suo dynn_Bbi_We_Sse_Nge dynn_Bbi_We_Sse_Shy dynn_Bbi_We_Sse_Suo dynn_Bbu_Ddur_Sse_Ggu dynn_Bbu_Ddur_Sse_Shy dynn_Bbu_Jji_Sse_Nge dynn_Bbu_Nju_Sse_Ggu dynn_Bbu_Nju_Sse_Shy dynn_Bbu_Nju_Sse_Suo dynn_Bbu_Xi_Sse_Ggu dynn_Bbu_Xi_Sse_Nge dynn_Bi_Ga_Sse_Shy dynn_Bi_Qu_Sse_Ggu dynn_Bi_Ti_Sse_Suo dynn_Bu_Nzu_Sse_Nge dynn_Chi_A_Sse_Suo dynn_Chy_A_Sse_Suo dynn_Chy_Sse_Ggu dynn_Chy_Sse_Suo dynn_Ddie_Wa_Sse_Ggu dynn_Ddu_Sse_Ggu dynn_Ga_Yi_Sse_Nge dynn_Jji_Nu_Sse_Suo dynn_Jji_Zze_Sse_Ggu dynn_Jo_Ddur_Sse_Nge dynn_Jo_Ddur_Sse_Suo dynn_Jo_Jji_Sse_Shy dynn_Jo_Jji_Sse_Suo dynn_Jo_Mo_Sse_Nge dynn_Jo_Nuo_Sse_Shy dynn_Jo_Sse_Sse_Ggu dynn_Jo_Sse_Sse_Nge dynn_Kak_Khuon_Sse_Suo dynn_Kak_Sse_Shy dynn_Kak_Sse_Suo dynn_Ke_Ddi_Sse_Ggu dynn_Ke_Ddi_Sse_Nge dynn_Ke_Ddi_Sse_Suo dynn_Ke_Qie_Sse_Ggu dynn_Ke_Qie_Sse_Suo dynn_Ken_Jy_Sse_Nge dynn_La_Bbu_Sse_Nge dynn_La_Bwi_Sse_Nge dynn_La_Da_Sse_Shy dynn_La_Huo_Sse_Shy dynn_La_Hxa_Sse_Nge dynn_La_Hxa_Sse_Suo dynn_La_Ji_Sse_Nge dynn_La_Ji_Sse_Suo dynn_La_Rry_Sse_Shy dynn_La_Sse_Ggu dynn_Li_Jieng_Sse_Ggu dynn_Lo_Na_Sse_Suo dynn_Lu_Ddi_Sse_Nge dynn_Lu_Ddi_Sse_Suo dynn_Lu_Ddie_Sse_Nge dynn_Lu_Ddie_Sse_Shy dynn_Lu_Ndy_Sse_Ggu dynn_Lu_Pu_Sse_Suo dynn_Lu_Sho_Sse_Ggu dynn_Lu_Xi_Sse_Nge dynn_Lu_Ze_Sse_Ggu dynn_Lu_Ze_Sse_Suo dynn_Lur_Da_Sse_Shy dynn_Lur_Da_Sse_Suo dynn_Lur_Ha_Sse_Ggu dynn_Lur_Nji_Sse_Ggu dynn_Lur_Nji_Sse_Nge dynn_Lur_Nji_Sse_Shy dynn_Lur_Nji_Sse_Suo dynn_Lur_Po_Sse_Nge dynn_Lur_Shy_Sse_Suo dynn_Mu_Gu_Sse_Ggu dynn_Mu_Gu_Sse_Suo dynn_Mu_Wu_Sse_Ggu dynn_Mu_Zim_Sse_Ggu dynn_Na_Ku_Sse_Ggu dynn_Na_Zhe_Sse_Nge dynn_Na_Zhyr_Sse_Ggu dynn_Nde_Wa_Sse_Nge dynn_Nji_Sse_Ggu dynn_Nji_Sse_Shy dynn_Nji_Sse_Suo dynn_Njy_Jy_Sse_Nge dynn_Nyi_Bbu_Sse_Suo dynn_Nyi_Da_Sse_Suo dynn_Nyi_Ddur_Sse_Ggu dynn_Nyi_Ddur_Sse_Shy dynn_Nyi_Ha_Sse_Ggu dynn_Nyi_Ha_Sse_Shy dynn_Nyi_Jjo_Sse_Suo dynn_Nyi_Po_Sse_Shy dynn_Nyi_Po_Sse_Suo dynn_Phu_Xe_Sse_Suo dynn_Po_Hle_Sse_Suo dynn_Po_Rryr_Sse_Ggu dynn_Po_Rryr_Sse_Nge dynn_Qu_Da_Sse_Ggu dynn_Qu_Ha_Sse_Shy dynn_Qu_Ji_Sse_Shy dynn_Qu_Po_Sse_Suo dynn_Rru_Sse_Sse_Suo dynn_Rru_Wa_Sse_Ggu dynn_Rru_Wa_Sse_Shy dynn_Shu_Ha_Sse_Nge dynn_Shu_Huo_Sse_Ggu dynn_Shu_Huo_Sse_Shy dynn_Shu_Sse_Nge dynn_Shu_Sse_Shy dynn_Shu_Wa_Sse_Nge dynn_Shu_Wa_Sse_Suo dynn_Shwin_Sse_Suo dynn_Shy_Bbu_Sse_Ggu dynn_Shy_Du_Sse_Shy dynn_Shy_Ha_Sse_Ggu dynn_Shy_Po_Sse_Ggu dynn_Shy_Po_Sse_Shy dynn_Shy_Po_Sse_Suo dynn_Sse_We_Sse_Suo dynn_Ssu_Da_Sse_Ggu dynn_Ssu_Ha_Sse_Nge dynn_Ssu_Huo_Sse_Ggu dynn_Ssu_Huo_Sse_Shy dynn_Ssu_Qi_Sse_Ggu dynn_Ssy_Bbu_Sse_Nge dynn_Ssy_Da_Sse_Nge dynn_Ssy_Huo_Sse_Ggu dynn_Ssy_Huo_Sse_Nge dynn_Ssy_Hxa_Sse_Ggu dynn_Ssy_Mo_Sse_Nge dynn_Ssy_Pu_Sse_Ggu dynn_Ssy_Pu_Sse_Nge dynn_Ssy_Shy_Sse_Nge dynn_Ssy_Shy_Sse_Shy dynn_Su_Nyi_Sse_Suo dynn_Ta_Wa_Sse_Suo dynn_Va_Da_Sse_Suo dynn_Va_Huo_Sse_Ggu dynn_Va_Hxe_Sse_Shy dynn_Va_Qie_Sse_Ggu dynn_Ve_A_Sse_Nge dynn_Ve_A_Sse_Shy dynn_Ve_Sse_Suo dynn_Vo_Qie_Sse_Nge dynn_Vo_Qie_Sse_Shy dynn_Vo_Sse_Sse_Ggu dynn_Wa_Ddie_Sse_Suo dynn_Wa_Nde_Sse_Ggu dynn_Wa_Nde_Sse_Nge dynn_Wa_Ta_Sse_Suo dynn_We_Ddie_Sse_Ggu dynn_We_Ddie_Sse_Shy dynn_We_Fi_Sse_Suo dynn_We_Nyi_Sse_Nge dynn_Wo_Da_Sse_Ggu dynn_Wo_Ke_Sse_Nge dynn_Wo_Mo_Sse_Nge dynn_Wo_Nuo_Sse_Ggu dynn_Wo_Sse_Sse_Shy dynn_Yi_Jje_Sse_Suo dynn_Yi_Ze_Sse_Suo dynn_Yo_Ga_Sse_Nge dynn_Yo_Ga_Sse_Shy dynn_Yo_Ga_Sse_Suo dynn_Yo_Nuo_Sse_Ggu dynn_Yo_Se_Sse_Ggu dynn_Yo_Se_Sse_Nge dynn_Yo_Se_Sse_Suo dynn_Yo_Si_Sse_Suo dynn_Yy_Bbu_Sse_Ggu dynn_Yy_Ga_Sse_Shy dynn_Yy_Gge_Sse_Nge dynn_Yy_Hmu_Sse_Suo dynn_Yy_Ke_Sse_Ggu dynn_Yy_Ke_Sse_Shy dynn_Yy_Ke_Sse_Suo dynn_Yy_Vu_Sse_Ggu
+	}
+
+	male_names = {
+		A_Chi A_Chy A_Fo A_Ge A_Ha A_Ko A_Mo A_Ne A_Nyi A_Nyo A_Rrie A_Shyr A_Sy A_Vi A_Zu Ba_Cha Bbi_We Bbu_Ddur Bbu_Jji Bbu_Nju Bbu_Xi Bi_Ga Bi_Hxa Bi_Qu Bi_Ti Bu_Nzu Chi_A Chy Chy_A Da_Wo Ddie_Wa Ddu Ddu_A Fe_Lo Fung_U Ga_Yi Hwae_Trieng Hxie_Zzy Jji_Ha Jji_Nu Jji_Zze Jo_Ddur Jo_Ha Jo_Jji Jo_Mo Jo_Nuo Jo_Sse Kak Kak_Khuon Ke_Ddi Ke_Qie Ken_Jy La La_Bbu La_Bwi La_Da La_Huo La_Hxa La_Ji La_Pu La_Rry La_Sy La_Vung Li_Jieng Lo_Na Lu_Ddi Lu_Ddie Lu_Ndy Lu_Ne Lu_Pu Lu_Sho Lu_Xi Lu_Ze Lu_Zhe Lu_Zzu Luong_Dok Luong_Jieng Lur_Bbu Lur_Da Lur_Ha Lur_Nji Lur_Po Lur_Shy Mu_Gu Mu_Wu Mu_Zim Mu_Lhe Na_Ku Na_Zhe Na_Zhyr Nde_Wa Nji Nji_Wa Njy_Jy Nya_Zu Nyi_Bbu Nyi_Da Nyi_Ddur Nyi_Ga Nyi_Ha Nyi_Jjo Nyi_Nji Nyi_Po Phu_We Phu_Xe Po_Hle Po_Rryr Qu_Bbu Qu_Da Qu_Ha Qu_Ji Qu_Ka Qu_Po Qu_Qi Qu_Vie Rrie_A Rru Rru_Sse Rru_Wa Rru_Xe Rryr_Bba Rryr_Wu Shiei_Lung Shu Shu_Da Shu_Ha Shu_Huo Shu_Qi Shu_Sse Shu_Wa Shwin Shy_Bbu Shy_Da Shy_Du Shy_Ha Shy_Ji Shy_Mo Shy_Nzy Shy_Po Shy_Qi Shy_Vie Sse_We Ssu_Da Ssu_Ha Ssu_Huo Ssu_Qi Ssu_Sse Ssy_Bbu Ssy_Da Ssy_Huo Ssy_Hxa Ssy_Mo Ssy_Nuo Ssy_Pu Ssy_Shy Su_Nyi Ta_Wa Va_Da Va_Huo Va_Hxe Va_Qie Va_Sa Ve Ve_A Vo_Qie Vo_Sse Wa_Ddie Wa_Nde Wa_Ta We_Ddie We_Fi We_Nyi Wo_Da Wo_Ji Wo_Ke Wo_Mo Wo_Nuo Wo_Sse Yem_Jieng Yi_Jje Yi_Ze Yo_Ga Yo_Ha Yo_Nuo Yo_Po Yo_Qie Yo_Se Yo_Si Yuo_Bbu Yy_Bbu Yy_Ga Yy_Gge Yy_Hmu Yy_Ke Yy_Vu
+	}
+
+	female_names = {
+		Bbu_Ddur Bbu_Jji Ge_Da Ge_Hxa Jji_Ha Jji_Nu Jo_Ddur Jo_Ha Jo_Jji Jo_Mo Jo_Mu Jo_Nuo Ke_Ddi Ke_Njy Ke_Qie La_Bbu La_Da La_Hxa La_Ji La_Pu La_Rry La_Sy Lu_Ddi Lur_Bbu Lur_Da Lur_Ha Lur_Nji Lur_Po Lur_Shy Nyi_Bbu Nyi_Da Nyi_Ddur Nyi_Ga Nyi_Ha Nyi_Jjo Nyi_Nji Nyi_Po Nzy_Da Nzy_Hxa Nzy_Ke Nzy_Po Nzy_Sa Nzy_Shu Qu_Bbu Qu_Da Qu_Ha Qu_Ji Qu_Ka Qu_Po Qu_Qi Qu_Vie Shu_Da Shu_Ha Shu_Huo Shu_Mu Shu_Qi Shy_Bbu Shy_Da Shy_Du Shy_Ha Shy_Ji Shy_Mo Shy_Nzy Shy_Po Shy_Qi Shy_Vie Ssu_Da Ssu_Ha Ssu_Huo Ssu_Mu Ssu_Qi Ssy_Bbu Ssy_Da Ssy_Huo Ssy_Hxa Ssy_Mo Ssy_Nuo Ssy_Pu Ssy_Shy Va_Da Va_Huo Va_Hxe Va_Qie Va_Sa Vi_Du Vi_Hxa Vi_Hxuo Vi_Ji Vi_Ka Vi_Lur Vi_Mo Vi_Pu Vi_Qi Vo_Mu Vo_Qie Wo_Da Wo_Ji Wo_Ke Wo_Mo Wo_Mu Wo_Nuo Yo_Ga Yo_Ha Yo_Nuo Yo_Po Yo_Qie Yo_Se Yo_Si Yuo_Bbu Yy_Bbu Yy_Ga Yy_Gge Yy_Hmu Yy_Ke Yy_Vu
+	}
+}
+
+name_list_bai = {
+
+	dynasty_name_first = yes
+
+	cadet_dynasty_names = {
+		"dynn_Gao" "dynn_Zheng" "dynn_Duan" "dynn_Zhao" "dynn_Yang" "dynn_Dong" "dynn_Zhang" "dynn_Yin" "dynn_Du" "dynn_Li"
+
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	dynasty_names = {
+		"dynn_Gao" "dynn_Zheng" "dynn_Duan" "dynn_Zhao" "dynn_Yang" "dynn_Dong" "dynn_Zhang" "dynn_Yin" "dynn_Du" "dynn_Li"
+
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	male_names = {
+		"Pala_Ming" "Molo_Mei" "Daho_Jian" "Vajra_Tian" "Sinzon_Zhong" "Avalokitesvara_Jin" "Sinzon_Shi" "Pala_Guang" "Bhaisajya_Xiang" "Vajra_Jian" "Vairocana_Xian" "Avalokitesvara_De" "Prajna_Shi" "Tsonglo_Qi" "Deangsei_Lo" "Zobak_Shi" "Prajna_He" "Vajra_Zhi" "Loktsong_Xian"
+
+		Anqi Anshi Benli Bi Bo Can Cha Changliang Changtu Che Chen Chengqi Chengqing Chengsi Chong Chuan Chuhou Chujun Chuke Chuna Chuyue Congdang Congyi Da_an Daijia Daiju Dan Daoguang Dewei Dexuan Deyi Deyu Dezhen Di Dunli Dunxin Duo Fangqing Fangzhi Fengji Fu Fuguo Fuyuan Gongfu Gongren Gou Guan Guangfu Guangqi Guangting Guanzhi Gui Guicong Gun Guozhong Guyan Heng Hong Hongjian Hongjin Hongmin Hongwu Hua Huai Huaiguang Huaishen Huaiyuan Huaizhen Huang Huangshang Hui Hun Ji Jiafu Jian Jiang Jiansu Jianzhi Jiazhen Jie Jifu Jin Jing Jingchen Jingquan Jingxian Jingxuan Jingze Jingzong Jinqin Jiongxiu Jishan Jiuling Judao Junji Junliang Juyuan Kang Kui Lang Liangsi Liben Lin Linfu Longji LU_bing Luo Mai Maojiang Maozhen Mei Mian Minzhong Mo Na Pan Pu Qi Qianyao Qiao Qinke Qinming Qinwang Que Qun Rangneng Rangyi Renben Rengui Renjie Renshi Renyuan Riyong Rizhi Rong Ruhui Rui Sansi Sengru Shang Shaojing She Shen Sheng Shenji Shenquan Shenxi Shenyou Shi Shidao Shifang Shiji Shilian Shizhi Shou Shouli Shouyi Shuda Shuji Shuo Sifu Sihui Sili Siqian Song Su Sui Suiliang Sun Tan Tao Ting Tong Wei Weidao Weiqian Weizhi Wenben Wenchang Wenguan Wenjie Wenjing Wenwei Wo Wuji Wuzi Xi Xian Xiangdao Xiangxian Xianke Xiaojie Xilie Xinfu Xingben Xingcheng Xisheng Xiujing Xu Xuanling Xuantong Xuanwei Xun Xunyu Yan Yanbo Yanchang Yanfan Yanjing Yanruo Yanshang Yanwei Yanzhao Yaoqin Yaxiang Ye Yi Yifu Yijian Yin Ying Yixing Yiyan Yizhi Yong Youdao Youfu Youning Youqiu Youyi Yu Yuan Yuanchao Yuanchong Yuanfang Yuanheng Yuanhong Yuanji Yuanshi Yuansu Yuanying Yuanyu Yuanzhen Yuanzhong Yuanzong Yun Yunyuan Yuqing Yushi Zai Zaisi Zao Zhan Zhaode Zhaodu Zheng Zhenglun Zhengyi Zhi Zhide Zhigu Zhihong Zhining Zhirou Zhiwen Zhiyi Zhizhong Zhizhou Zhongchen Zhou Zhuan Ziyi Zongmin Zongru Zunqing
+	}
+	female_names = {
+		Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+
+	}
+}
+
+name_list_hani = { # Includes Akha
+	# https://en.wikipedia.org/wiki/Akha_people#Belief_system
+
+	dynasty_name_first = yes
+
+	cadet_dynasty_names = {
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	dynasty_names = {
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	male_names = {
+		Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da_an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi LU_bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+	}
+	female_names = {
+		Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+	}
+}
+
+name_list_lisu = { # Includes Lahu
+
+	dynasty_name_first = yes
+
+	cadet_dynasty_names = {
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	dynasty_names = {
+		"dynn_Li" "dynn_Wu" "dynn_Ren" "dynn_Wang" "dynn_Liu" "dynn_Fan" "dynn_Wang" "dynn_Sun" "dynn_Li" "dynn_Yao" "dynn_Wu" "dynn_Qian" "dynn_Liu" "dynn_Chen" "dynn_Chu" "dynn_Han" "dynn_Zhu" "dynn_Qin" "dynn_You" "dynn_He" "dynn_Shi" "dynn_Kong" "dynn_Cao" "dynn_Hua" "dynn_Jin" "dynn_Tao" "dynn_Jiaang" "dynn_Qi" "dynn_Xie" "dynn_Zou" "dynn_Yu" "dynn_Bai" "dynn_Yun" "dynn_Pan" "dynn_Ge" "dynn_Xi" "dynn_Peng" "dynn_Lang" "dynn_Chang" "dynn_Ma" "dynn_Bao" "dynn_Fei" "dynn_Lian" "dynn_Cen" "dynn_Lei" "dynn_Ni" "dynn_Teng" "dynn_Luo" "dynn_Bi" "dynn_Hao" "dynn_An" "dynn_Yue" "dynn_Pi" "dynn_Bian" "dynn_Kang" "dynn_Bu" "dynn_Gu" "dynn_Mung" "dynn_Ping" "dynn_Huang" "dynn_Mu" "dynn_Shao" "dynn_Zhan" "dynn_Mao" "dynn_Di" "dynn_Mi" "dynn_Bei" "dynn_Ping" "dynn_Zang" "dynn_Sima" "dynn_Ouyang" "dynn_Xiahou" "dynn_Zhuge" "dynn_Wenren" "dynn_Dongfang" "dynn_Huangfu" "dynn_Yuchi" "dynn_Gongyang" "dynn_Gongsun" "dynn_Zhongsun" "dynn_Xuanyan" "dynn_Linghu" "dynn_Zhongli" "dynn_Yuwen" "dynn_Murong" "dynn_Huyan" "dynn_Nangong" "dynn_Wu" "dynn_Li" "dynn_Jinming" "dynn_Ding" "dynn_Ju" "dynn_Liang" "dynn_Wang" "dynn_Luo" "dynn_Cao" "dynn_Wu" "dynn_Gongsun" "dynn_Qin" "dynn_Huyan" "dynn_Hua" "dynn_Li" "dynn_Zhu" "dynn_Wu" "dynn_Liu" "dynn_Li" "dynn_Shi" "dynn_Mu" "dynn_Lei" "dynn_Li" "dynn_Shi" "dynn_Xie" "dynn_Sun"
+	}
+
+	male_names = {
+		Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da_an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi LU_bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+	}
+	female_names = {
+		Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+	}
+}
+
+# Palaungic
+name_list_palaungic = {
+
+	cadet_dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Bogale" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Dagon" "dynn_Dalla" "dynn_Heng" "dynn_Hinthada" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Krapan" "dynn_Kusumi" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Mawlamyine" "dynn_Moau" "dynn_Mom" "dynn_Muttina" "dynn_Myanaung" "dynn_Myaungmya" "dynn_Nang" "dynn_Negrais" "dynn_Ngaputawo" "dynn_Nuon" "dynn_Pegu" "dynn_Phan" "dynn_Phon" "dynn_Phyu" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Shwegyin" "dynn_Sin" "dynn_Sittaung" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Syriam" "dynn_Taikkala" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Wareru" "dynn_Yan" "dynn_Yym"
+	}
+
+	dynasty_names = {
+		"dynn_An" "dynn_Baaen" "dynn_Bogale" "dynn_Brak" "dynn_Bun" "dynn_Chan" "dynn_Chea" "dynn_Cheng" "dynn_Chim" "dynn_Chin" "dynn_Chon" "dynn_Cum" "dynn_Dagon" "dynn_Dalla" "dynn_Heng" "dynn_Hinthada" "dynn_Keo" "dynn_Khan" "dynn_Kim" "dynn_Kong" "dynn_Krapan" "dynn_Kusumi" "dynn_Leng" "dynn_Li" "dynn_Lim" "dynn_Long" "dynn_Mas" "dynn_Mawlamyine" "dynn_Moau" "dynn_Mom" "dynn_Muttina" "dynn_Myanaung" "dynn_Myaungmya" "dynn_Nang" "dynn_Negrais" "dynn_Ngaputawo" "dynn_Nuon" "dynn_Pegu" "dynn_Phan" "dynn_Phon" "dynn_Phyu" "dynn_Poe" "dynn_Ros" "dynn_Sa" "dynn_Sam" "dynn_San" "dynn_Sat" "dynn_Seang" "dynn_Sem" "dynn_Seng" "dynn_Shwegyin" "dynn_Sin" "dynn_Sittaung" "dynn_Sok" "dynn_Som" "dynn_Suan" "dynn_Sum" "dynn_Sun" "dynn_Sym" "dynn_Syriam" "dynn_Taikkala" "dynn_Touch" "dynn_Uk" "dynn_Um" "dynn_Un" "dynn_Voan" "dynn_Wareru" "dynn_Yan" "dynn_Yym"
+	}
+
+	male_names = {
+		Acharya Adara Akra Amara Anchaly Angula Anuyama Araka Areindama Arun Atha Athinkha Atith Attatha Bawlawkyantaw Bona Bora Boran Borey Bourey Bunroeun Chakara Chakra Chamroeun Chankrisna Chann Chanthou Chantrea Chanvatey Charya Chea Chhay Chhaya Dara Darany Davuth Devi Dhammazedi Dipa Einkura Ekkathamanda Gada Gadu Geinda Geissadiya Heng Karawika Kea Khean Khemera Kiri Kong Kosal Kravann Kutha Kyan Law Leap Leik_Munhtaw Mahintha Makara Manuha Many Mao Meaker Migadeippa Mittapheap Montha Munny Narathu Narin Narith Nhean Nimith Nimol Nisay Noreaksey Oudom Phala Pheakdei Phirum Phirun Pich Piseth Pisey Poeu Ponleak Ponleu Ponlok Pontarika Prak Pros Puthyrith Pyinzala Rachana Rainsey Raksmei Rathana Rathanak Razadarit Reasmey Rith Rithipol Rithisak Rithy Rothanak Sakngea Samang Samay Sambath Samlain Samnang Samphy Samrin Sangha Sann Sathea Sokha Sokhem Sokhom Sokun Somnang Sonith Sopath Sophaep Sopheaktra Sopheap Sopheara Sorya Sotha Sothea Sothear Sothiya Sothy Sourkeat Sov Sovann Sovannar Sovannarith Sros Thaduka Thamala Than_Bon Thom Thuganda Tissa Udinna Upadewa Uppala Urunnata Uttara Vanna Vannak Veasna Veha Vibol Vichear Vichet Vireak Vireakboth Visal Viseth Visna Visoth Visothirith Vithara Vithu Wareru Waru Wimala Zambudipa Zawta Zein
+	}
+
+	female_names = {
+		Achariya Akara Anchali Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan Chang Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Chantrea Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara Darareaksmey Davi Doung Hnin_An_Po Jamadevi Jorani Kalianne Kaliyanei Kalliyan Kanha Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida Kravann Kun Kunthea Leak Leakena Leap Mach Makara Malis Maly Mau Mealea Mean Mi_Pakahtaw Mibaya Mliss Mom Mony Mwei_It Mwei_Maneit Mwei_Zeik Nakry Nary Nearidei Neary Nuon Peou Phally Phary Pheakdei Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Punthea Puthykol Putrea Rachana Rachany Raksa Rangsei Reach Reaksmey Reasmey Rom Rotha Roumduol Roumjong Saley Samnang Samphy Savady Sawatdee Sawbu Seda Seyha Sikha Sinuon Sita Soboen Socheat Sok Sokha Sokhanya Sokhom Solyna Sombo Sonisay Sophal Sophea Sopheap Sopheary Sophon Sophorn Soportevy Soriya Sorpheny Sotear Sotheara Sothy Sourkea Sovanara Sovandary Sovaneary Sovanna Sovannai Sraem Srey Sreykeo Sreymau Sreyneang Sreynuon Sreypich Sros Suorsdey Taevy Thavary Thea Theary Thida Thom Thuddhamaya Thyda Tina Toch Tola Vanna Vatey Veasna Veata Vimean
+	}
+}
+
+# Tai
+name_list_tai = {
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Pathumsuriyawong"
+		"dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Phuanchetchueng"
+		"dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul"				"dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Disatha" "dynn_Chungwatana" "dynn_Nilawong" "dynn_Saiphuwiang"
+		"dynn_Jivacate" "dynn_Chitphentom" "dynn_Ariyanuntaka" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Sawangpattana"
+		"dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Itsrasena" 
+		"dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Phromwilai" "dynn_Thonubol" "dynn_Saengsura"
+		"dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" 
+		"dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan" "dynn_Saenthipnabua" "dynn_Thippachak" "dynn_Suwanpangkham" 
+		"dynn_Arayawosuantan" "dynn_Lavachangraj" "dynn_Wiangsaendok" "dynn_Wiangpangkham" "dynn_Khemmarat" "dynn_Woranakhon" "dynn_Ketthong" 
+		"dynn_Asachai" "dynn_Phukha" "dynn_Chaisiri" "dynn_Sirorot" "dynn_Thewawong" "dynn_Singhanavati" "dynn_Khachaseni" "dynn_Singhaseni" 
+		"dynn_Phraruang" "dynn_Namtum" "dynn_Aphaiyakul" "dynn_Bunkhamkoert" "dynn_Bunlong" "dynn_Thongkhamdee" "dynn_Thammawongsa" "dynn_Sarawongsa" 
+		"dynn_Siansewi" "dynn_Mongkholtham" "dynn_Manosakul" "dynn_Sombunthong" "dynn_Sophonsiri" "dynn_Chantarangsu" "dynn_Intharangsu" "dynn_Waiwongsa" 
+		"dynn_Silakup" "dynn_Suwannaratna" "dynn_Suwanmongkhol" "dynn_Sukhuminda" "dynn_Chanthawong" "dynn_Aphaiyaphakdi" "dynn_Lavasuta" "dynn_Wongsila"
+		"dynn_Khamwongsa" "dynn_Rattanawong" "dynn_Wongkhamkaew" "dynn_Chaiyaphakdi" "dynn_Wiangkhamngoen" "dynn_Saiphuthong" "dynn_Sriphuwiang"
+		"dynn_Siha-Urai" "dynn_Amartyakul" "dynn_Suphamitr" "dynn_Chuto" "dynn_Phalangkura" "dynn_Surakupt" "dynn_Krairiksh" "dynn_Mahanaranga"
+		"dynn_Saithongkham" "dynn_Wiangsaenna" "dynn_Wiangketklao" "dynn_Mongkholtham" "dynn_Phanongsaeng" "dynn_Pharungyod" "dynn_Tularak"
+		"dynn_Butsalobol" "dynn_Singhasiri" "dynn_Rueangsuwan" "dynn_Wongpatsa" "dynn_Phosri" "dynn_Saengsingkaew" "dynn_Thongphitak" "dynn_Tinmahawong"
+		"dynn_Sarutanon" "dynn_Wongpatsa" "dynn_Phonlawong" "dynn_Sornsongkhram" "dynn_Sintawanarong" "dynn_Sithanakon" "dynn_Ramangkun" "dynn_Intharangsi"
+		"dynn_Saiphukham" "dynn_Yodsrichan" "dynn_Chanthrarangsi" "dynn_Rueangratsami" "dynn_Chitrakani" "dynn_Srichaphan" "dynn_Sawangsri"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Pathumsuriyawong"
+		"dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Phuanchetchueng"
+		"dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul"				"dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Disatha" "dynn_Chungwatana" "dynn_Nilawong" "dynn_Saiphuwiang"
+		"dynn_Jivacate" "dynn_Chitphentom" "dynn_Ariyanuntaka" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Sawangpattana"
+		"dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Itsrasena" 
+		"dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Phromwilai" "dynn_Thonubol" "dynn_Saengsura"
+		"dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" 
+		"dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan" "dynn_Saenthipnabua" "dynn_Thippachak" "dynn_Suwanpangkham" 
+		"dynn_Arayawosuantan" "dynn_Lavachangraj" "dynn_Wiangsaendok" "dynn_Wiangpangkham" "dynn_Khemmarat" "dynn_Woranakhon" "dynn_Ketthong" 
+		"dynn_Asachai" "dynn_Phukha" "dynn_Chaisiri" "dynn_Sirorot" "dynn_Thewawong" "dynn_Singhanavati" "dynn_Khachaseni" "dynn_Singhaseni" 
+		"dynn_Phraruang" "dynn_Namtum" "dynn_Aphaiyakul" "dynn_Bunkhamkoert" "dynn_Bunlong" "dynn_Thongkhamdee" "dynn_Thammawongsa" "dynn_Sarawongsa" 
+		"dynn_Siansewi" "dynn_Mongkholtham" "dynn_Manosakul" "dynn_Sombunthong" "dynn_Sophonsiri" "dynn_Chantarangsu" "dynn_Intharangsu" "dynn_Waiwongsa" 
+		"dynn_Silakup" "dynn_Suwannaratna" "dynn_Suwanmongkhol" "dynn_Sukhuminda" "dynn_Chanthawong" "dynn_Aphaiyaphakdi" "dynn_Lavasuta" "dynn_Wongsila"
+		"dynn_Khamwongsa" "dynn_Rattanawong" "dynn_Wongkhamkaew" "dynn_Chaiyaphakdi" "dynn_Wiangkhamngoen" "dynn_Saiphuthong" "dynn_Sriphuwiang"
+		"dynn_Siha-Urai" "dynn_Amartyakul" "dynn_Suphamitr" "dynn_Chuto" "dynn_Phalangkura" "dynn_Surakupt" "dynn_Krairiksh" "dynn_Mahanaranga"
+		"dynn_Saithongkham" "dynn_Wiangsaenna" "dynn_Wiangketklao" "dynn_Mongkholtham" "dynn_Phanongsaeng" "dynn_Pharungyod" "dynn_Tularak"
+		"dynn_Butsalobol" "dynn_Singhasiri" "dynn_Rueangsuwan" "dynn_Wongpatsa" "dynn_Phosri" "dynn_Saengsingkaew" "dynn_Thongphitak" "dynn_Tinmahawong"
+		"dynn_Sarutanon" "dynn_Wongpatsa" "dynn_Phonlawong" "dynn_Sornsongkhram" "dynn_Sintawanarong" "dynn_Sithanakon" "dynn_Ramangkun" "dynn_Intharangsi"
+		"dynn_Saiphukham" "dynn_Yodsrichan" "dynn_Chanthrarangsi" "dynn_Rueangratsami" "dynn_Chitrakani" "dynn_Srichaphan" "dynn_Sawangsri" 
+	}
+
+	male_names = {
+		10 = { # Pure Tai
+			Ai Ai_Kham Am_Pom Ban_Mueang Boon Cha_Saeng Chai Chai_Luang Chai_Saeng Chang Cheng Choi Chueang Chuen Fa_Kam Fa_Kiao Fa_Ngiao Fa_Ngum 
+			Fa_Rung Fa_Yan Homfa In_Mueang Intha Inthalaeng Jom Kaew Kaew_Fa Kaew_Mueangma Kan_Mueang Kon_Kaew Kon_Kham Kong_Mueang Kong_Tai 
+			Kham Kham_Bong Kham_Chong Kham_Daeng Kham_Fa Kham_Fan Kham_Fu Kham_Kha Kham_Kong Kham_Koet Kham_Laeng Kham_Lue Kham_Luea Kham_Mun Kham_Ngoen 
+			Kham_Oun Kham_Rueang Kham_Rung Kham_Saeng Kham_Sing Kham_Som Kham_Suek Kham_Suk Kham_Tan Kham_Tai Kham_Thian Kham_Thong Kham_Ton 
+			Kham_Um Kham_Yai Khan_Fa Khanong Khantoke Khanthong Khong Khun_Fong Khun_Mueang Khun_Sai Khun_Seuk Khun_Song Kruea Kuena Lan Lang 
+			Lao Lao_Chong Lao_Kham Lao_Khim Lao_Khiang Lao_Meng Lao_Mueang Lao_Ngoen Lao_Sin Lao_Som Lithai Lok Loethai Lue Luechai Luesai Luethai 
+			Marn_Fa Marn_Kham Mangrai Mangsaen Mangsom Metha Mok_Fa Ming_Mueang Mueang Mueang_Kham Nam Nam_Nan Nam_Thuam Ngam_Mueang Nao_Numtum 
+			Ngoen Ngua Nor_Kaew Nor_Fa Nor_Kham Nor_Mueang Nor_Ngam Nor_Saeng Ou_Muang Oun Oun_Huan Oun_Kham Oun_Rueang Pan Pa_Ngua Pangkham Payu Phan 
+			Phao Pha_Khong Pha_Kong Pha_Mueang Pha_Nong Pha_Saeng Pheng Phin Plaek Prem Phukha Phupha Ram Ramkhamhaeng Romfa Rung_Mueang Ruang Saeng 
+			Saeng_Mueang Saeng_Nak Saen_Mueang Saen_Mueangma Saenphu Sai Sai_Mong Sai_Mueang Sai_Nampueng Sam Sam_Fangkaen Sawang Sema 
+			Suea_Mueang Suwan Taeng Taen_Kham Taen_Thai Tanao Than Thanom Thian Tong Waen Wao Yan_Mueang Yi Yod_Fa Yod_Kaew Yod_Lek Yod_Mueang Yod_Suek
+		}
+		5 = { # Pali names in Lanna, Lao, Shan, Tai lue and some extened in Siam, and Siamese native names
+			Ananda Anirut Anurut Anothai Anuvong Borom Bunthawong Chaikaew Chaiyasiri Chaiyasongkhram Chaiyasen Ditsapong Intavaroros Inthachom Inthanon 
+			Inthaphrom Inthasuwan Inthawong Inthasen Jetsada Kaew_Mongkhol Kawila Kawilorot Ketklao Kham_Chai Kham_Wong Kingkitsarat Kraisee Kraisorn 
+			Kraisingha Krongpob Mahakhanan Mahawan Mahawang Mahawong Mekuti Nanthasen Phangkharat Photisarat Phrommachak Phromma Phromlue Phrommathat 
+			Phrommawong Ratchadanai Rotthasen Saikham Saisongkhram Sangkhathat Sarawan Sakharin Suphrom Suriya Suriyawong Suthisan Suwannachak Thada 
+			Thadasen Thammathian Thukkhita Wattanawong Worachet Worajak Woradej Yanphichian Yanrangsi Yutthithira Yutthasen
+			Bunchan Bunchai Bunchit Bunchong Bundej Bundee Bunlert Bunluea Bunma Bunmee Bunnam Bunrueang Bunrod Bunsom Dej Khamhaeng Lek Ma Or_Saen Phet 
+			Rueang_Rit Seni Singha Sombat Somboon Somchai Somkiat Somkid Somphong Somthong Sin Suphrom Techo Thammachot Thong_Daeng Thong_Di Thong_Ek
+			Thong_In Thong_Kham Thong_Kon Thong_Lan Thong_Lek Thong_Pan Thong_Suk Thong_Thaeng Thong_Yu Wichai Yod_Rueang Yod_Thong Yod_Rak
+		}
+		1 = { # Pali-Sanskrit Mix, present day Thai names
+			Aat Aawut Anuman Anurak Aphirak Aran Aroon Asnee Athit Atsada Chanan Chaichana Chai_Son Chairat Chaisai Chaisak Chaiwat Chaiya 
+			Chaiyo Chakan Chalerm Chalermchai Chaloem Channarong Charn_Chai Charan Chartchai Charoen Charong Charun Chatalerm Chatchai Chatchom 
+			Chatri Chayan Chet Chongrak Choochai Chuachai Chuanchen Chula Chulamai Damrong Danai Decha Direk Ekkathat Jiraphat Jiraphong
+			Jirayu Kamnan Kanawut Kasem Kasemchai Kasemsuk Khemkhaeng Kiet Kimhan Kitti Kittibun Kittichai Kittichat Kittisak Kla Kla_Han Klaew_Kla 
+			Klahan Kob_Sinn Kob_Sook Koson Kovit Kriang_Krai Kriang_Sak Kris Krisada Kukrit Kusol Kwanchai Lamon Montri Narin Narong Natthanon 
+			Natthawut Nattawin Niran Pakorn Paitoon Panya Phanumas Phassakorn Phichai Phichit Phuri Piyabutr Porama Poramat Poramet Pramot 
+			Praphan Praphon Prasert Prawat Prayut Pricha Pridi Puenthai Rama Ritthirong Rom_Ran Ronnachai Ronnapi Ronnarit Rueang_Sak Rungrot 
+			Sa_Nguan Sajja Sakchai Sakda Samak Sanoh Sanya Santichai Sanun Sap Sarit Sarut Santi Satra Seri Sila Sisin Sonchai Sonthi Sornram 
+			Su_Suk Sud_Saming Sumitr Sunthorn Suphawut Suchao Suthat Suwannarit Termsak Thanat Thanin Thaklaew Tham_Boon Thawin Thinnakorn Thira 
+			Thirayuth Thotsaphon Thuanthong Udom Uthai Uthomphon Wanchai Wasin Wichian Withoon Winai Wira Wirote Yotsakorn Yotsaphum Yuthakon
+		}
+	} 
+
+	female_names = {
+		10 = { # Pure Tai
+			Amphan Bua Bua_Chum Bua_Kaew Bua_Kham Bua_Khli Bua_Khiew Bua_Lai Bua_Noi Bua_Pun Bua_Sai Bua_Tha Bua_Thiang Bua_Tong Bua_Thip Chaba 
+			Chaba_Kaew Champa Champi Champoon Chamriang Chan_Fong Chan_Kaew Daeng Dao Dao_Jai Dao_Rung Dao_Rueang Duang_Dao Duang_Duen Duang_Jai 
+			Duang_Kaew Duang_Kham Duang_Thip Fa_Sai Fong_Chan Fong_Kaew Fong_Nuan Fong_Thip Fueang_Fa Hom Karb_Kaew Kaew Kaew_Kham Kalong Karb_Mueang
+			Kham_Bai Kham_Chan Kham_Fong Kham_Kaew Kham_La Kham_Lhao Kham_Oun Kham_Pa Kham_Pao Kham_Pin Kham_Plong Kham_Pong Kham_Paeng Kham_Por 
+			Kham_Ruean Kham_Sai Kham_Taen Kham_Tuan Kham_Thip Khom_Thong Kham_Yuang Kiang Kiang_Kham King_Kaew Kon_Paeng Kon_Saeng Kruea_Kaew 
+			Kwan Kwan_Jai La Lamai Lamiat Lamduan Lamphu Lamyong Malai Mali Malee Maprang Meng Mok_Kaew Mukda Nam_Thip Nak Nabdao Ngam Nim 
+			Orn_Kaew Pandao Panjai Panwat Phaikham Phaeng Phaengsaen Phao Phikun Piangkwan Pim Pimploi Pimpha Pin Pin_Kaew Ploi Ploi_Dao Ploi_Fa 
+			Ploi_Jai Ploi_Kwan Praewa Praewprao Prang Prik Puangkaew Puttan Rerai Ruean_Kaew Ruean_Kham Ruean_Thip Rung_Thip Saeng_Dao Saeng_La 
+			Sai_Pan Simma Soibua Soichan Soidao Soifa Soikaew Soikham Soimuang Soinuan Soithip Sueang Tatdao Tapao Tawan Tong_Nuan Thapthim Thip Tho_Fan 
+			Tho_Saeng Ua_Sim Urai Waen_Kaew Waen_Kham Waen_Thip Waen_Thong Wanthong Wong_Kaew Yaem Yiwha Yod_Khamthip Yuang_Kaew Yuang_Kham Yuang_Thip
+		}
+		5 = { # Pali names in Lanna, Lao, Shan, Tai lue and some extened in Siam, and Siamese native name 
+		 	Amporn Anocha Bunruean Buppha Bua_Puean Bua_Sri Bunpha Bunsri Budsabong Bunyuang Chailai Chammari Chamariwong Chanwad Chiraprapha Chongkho 
+			Churai Dara Duang_Dara Duang_Mala Dokmaduea Kaew_Mala Kaew_Supha Kamala Kanha Kalaya Karaket Kham_Mala Kettawa Ketsara Khankham 
+			Krongkaew Kunthon Ladda Lakkhana Lamphu Maengmao Mani Manichan Manikham Manirat Manithip Maniwan Maniyart Manocha Manora Meri Napha 
+			Nimnuan Nocha Pathum Pathumma Piangdao Piangkwan Pimpilalai Pinmanee Poonkaew Rada Radamas Rampha Ramphai Ramphoei Ratsami Renu Renuchan 
+			Renumas Renunuan Sarocha Sida Sirithida Siriwanna Soichan Soiphet Somchit Somsri Somying Sopha Srikwan Siriprakai Sirimala Srimueang 
+			Srinuan Srisom Srisopha Srisupha Suchada Sumang Sukhita Sukhantha Sukhon Sukonta Sunantha Suphanna Suthamma Suwanna Tara Tong_Chan 
+			Thep_Khamkhai Thong_Bai Thong_Soi Thong_Thip Thong_Dam Thong_Khao Thong_Thaem Thong_Thao Thip_Kesorn Thippawan Thumma Ubol Ubolwan 
+			Ubolwanna Wilaiwan Wimonphat Yada	
+		}
+		1 = { # Pali-Sanskrit Mix 
+			Achara Adranuch Amara Ambhom Anchali Araya Aruni Apinya Apsara Bunthida Bunsita Bussaba Chaem_Choi Chai_Charoen Chaisee Chalermwan 
+			Chamchuri Chantana Chanthira Charanya Chariya Charoen Charoenrasamee Charunee Chatchada Chatmanee Chatrasuda Chaveevan Chawisa 
+			Chimlin Chinda Chintana Chirawan Cholada Chomechai Chomesri Chuachan Chuasiri Chuenchai Chutima Duangkamol Duangkhae Dueanpen 
+			Dusadi Hansa Hathai Hom Inthira Isra Ittiporn Janjira Jintara Jiranan Karnda Kaew Kamlai Kanchana Kannika Kanok Kanya Karawek Karnchana 
+			Kawisara Khiew_Wan Kohsoom Komon Kosum Kulap Kwang Kwanjai Lamai Lawan Linda Madee Malee Mali Maliwan Mathawee Mayuree Mekhala Methanee
+			Muan_Nang Naiyana Naphawan Narisa Naruemon Nattha Nesara Ngam_Chit Ngam_Phan Nopjira Nin Nittaya Nong_Yao On On_Choi Ornjira Pakpao Pasuta
+			Praya Preeda Penphak Pen_Chan Penkhae Pensri Phaibun Phailin Phairoh Phawta Phitsamai Phueng Pimchan Poonsook Pranee Praya Prisana Pundit 
+			Ramida Ramita Ranee Ratana Ratsami Ratha Ratanaporn Rochana Risa Saengdao Samorn Sanan_Nam Sawatdi Sawika Si Si_Fah Si_Mok Sirinthra  
+			Somruedi Songsuda Sonthaya Suchin Suda Sukanya Sumalee Sumana Sumitra Sunee Sunari Sunisa Supha Taeng Tansanee Tha_Kai_Bok Thitima Thong 
+			Tida Tukata Uraiwan Wanida Waan Wanrasa Wassana Waen Wilai Wimarn Winai Wipa Ya_Chai Yanin Yindee Ying Yong_Yut Yu_Pha Yu_Phin
+		}
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_zhuang = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_shan = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_lanna = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_pak_tai = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_ahom = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+name_list_sukhothai = { # Placeholder
+
+	cadet_dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	dynasty_names = {
+		"dynn_Chuntaketta" "dynn_Bidaya" "dynn_Chuerboonchai" "dynn_Horayangkura" "dynn_Chaiwong" "dynn_Jiratatprasot" "dynn_Chakkaphak" "dynn_Chaipatana" "dynn_Guptarak" "dynn_Bunnag" "dynn_Jarupanivh" "dynn_Inchareon" "dynn_Arunanondchai" "dynn_Ekpanyaskun" "dynn_Chantaviriyavit" "dynn_Chutiwongse" "dynn_Chaiyasan" "dynn_Choonhavon" "dynn_Dabaransi" "dynn_Hongsakul" "dynn_Bhokhasathit" "dynn_Bintasan" "dynn_Jaidee" "dynn_Chulavachana" "dynn_Ganjarerndee" "dynn_Chaiyaporn" "dynn_Disatha" "dynn_Chungwatana" "dynn_Jivacate" "dynn_Chitphentom" "dynn_Adulyadej" "dynn_Ariyanuntaka" "dynn_Devakul" "dynn_Jaturapattarapong" "dynn_Benjawan" "dynn_Cheosakul" "dynn_Dantanavanawong" "dynn_Hoontrakul" "dynn_Hongladaromp" "dynn_Baramichai" "dynn_Jitjang" "dynn_Jotikasthira" "dynn_Chaichana" "dynn_Chaimongkol" "dynn_Charoensuk" "dynn_Chakpitak" "dynn_Chakrabonse" "dynn_Duchanee" "dynn_Bowornjaratpong" "dynn_Boonma" "dynn_Futrakul" "dynn_Banlengchit" "dynn_Anyamani" "dynn_Butsuntorn" "dynn_Bhayungvej" "dynn_Devakula" "dynn_Chinarungsri" "dynn_Apichart" "dynn_Harivarawongse" "dynn_Boonkham" "dynn_Chatusripitak" "dynn_Chutinan"
+	}
+
+	male_names = {
+		Ai Boon Chai Chai_Luang Chang Cheng Chueang Chuen Intha Jom Kaew Kaung Kawng_Kham Kawng_Tai Kham Kham_Kha Kham_Ton Kham_Um Khong Khun_Mueang Khun_Seuk Lan Lang Lao Lao_Kham Lok Lue Mueang Nam Nam_Nan Nam_Thuam Ngam_Mueang Ngoen Ngua Ou_Muang Oun Oun_Kham Phan Phao Pheng Saeng Saeng_Nak Sai Sam Sao_Win Suwan Taeng Than Thian Tong Waen Wao Yi Yod_Mueang Zan
+	}
+
+	female_names = {
+		Bua Bua_Kham Bua_Khiew Bua_Lai Bua_Pun Bua_Sai Bua_Taung Bua_Tip Chan_Fong Chan_Kaew Daeng Dao Fong_Chan Hom Hom Kaew Kaew_Kham Kawng_Paeng Kawng_Saeng Kham_Kaew Kham_La Kiang La Meng Ngam Orn_Kaew Soidao Sueang Thapthim Thip Waen_Kaew Waen_Tip
+	}
+
+	founder_named_dynasties = no
+}
+
+# Vietnamese
+name_list_vietnamese = {
+
+	dynasty_name_first = yes
+
+	cadet_dynasty_names = {
+		"dynn_Nguyen" "dynn_Tran" "dynn_Pham" "dynn_Huynh" "dynn_Ngo" "dynn_Truong" "dynn_Vu" "dynn_Phan" "dynn_Le" "dynn_Do" "dynn_Vo" "dynn_Hoang" "dynn_Dang" "dynn_Duong" "dynn_Van" "dynn_Bui" "dynn_Luong" "dynn_Trinh" "dynn_Dinh" "dynn_Luu" "dynn_Xuan" "dynn_Hue" "dynn_Luy" "dynn_Chu" "dynn_Loi" "dynn_Vi" "dynn_Mai" "dynn_Trung" "dynn_Trac" "dynn_Hau" "dynn_Hong" "dynn_Yen" "dynn_Doan" "dynn_Tuong" "dynn_Tang" "dynn_Chung" "dynn_Nghi" "dynn_Man" "dynn_Giang" "dynn_Nguyentran" "dynn_Phi" "dynn_Ken" "dynn_Tonthat" "dynn_Cun" "dynn_Trannguyen" "dynn_Lieu" "dynn_Nghiem" "dynn_Qui" "dynn_Ton" "dynn_Den" "dynn_My" "dynn_Hua" "dynn_Sam" "dynn_Huu" "dynn_Dao" "dynn_Hai" "dynn_Kuo" "dynn_Danh" "dynn_Ong" "dynn_Phuong" "dynn_Han" "dynn_Cu" "dynn_Nguyenvan" "dynn_Lenh" "dynn_Tanh" "dynn_Kiu" "dynn_Lien" "dynn_Nhung" "dynn_Thi" "dynn_Khac" "dynn_Ngan" "dynn_Xa" "dynn_Tonnu" "dynn_Tra" "dynn_Lan" "dynn_Hy" "dynn_Toan" "dynn_Hanh" "dynn_Thich" "dynn_Uo" "dynn_Giap" "dynn_Le_Thi" "dynn_Ma" "dynn_Quy" "dynn_Phong" "dynn_Huan" "dynn_Tong" "dynn_Dich" "dynn_Khuong" "dynn_Khuc" "dynn_Buu" "dynn_Vinh" "dynn_Tat" "dynn_Ninh" "dynn_Nguyenthanh" "dynn_Sa" "dynn_Li" "dynn_Qu" "dynn_Diem" "dynn_Lam" "dynn_Chuc"
+	}
+
+	dynasty_names = {
+		"dynn_Nguyen" "dynn_Tran" "dynn_Pham" "dynn_Huynh" "dynn_Ngo" "dynn_Truong" "dynn_Vu" "dynn_Phan" "dynn_Le" "dynn_Do" "dynn_Vo" "dynn_Hoang" "dynn_Dang" "dynn_Duong" "dynn_Van" "dynn_Bui" "dynn_Luong" "dynn_Trinh" "dynn_Dinh" "dynn_Luu" "dynn_Xuan" "dynn_Hue" "dynn_Luy" "dynn_Chu" "dynn_Loi" "dynn_Vi" "dynn_Mai" "dynn_Trung" "dynn_Trac" "dynn_Hau" "dynn_Hong" "dynn_Yen" "dynn_Doan" "dynn_Tuong" "dynn_Tang" "dynn_Chung" "dynn_Nghi" "dynn_Man" "dynn_Giang" "dynn_Nguyentran" "dynn_Phi" "dynn_Ken" "dynn_Tonthat" "dynn_Cun" "dynn_Trannguyen" "dynn_Lieu" "dynn_Nghiem" "dynn_Qui" "dynn_Ton" "dynn_Den" "dynn_My" "dynn_Hua" "dynn_Sam" "dynn_Huu" "dynn_Dao" "dynn_Hai" "dynn_Kuo" "dynn_Danh" "dynn_Ong" "dynn_Phuong" "dynn_Han" "dynn_Cu" "dynn_Nguyenvan" "dynn_Lenh" "dynn_Tanh" "dynn_Kiu" "dynn_Lien" "dynn_Nhung" "dynn_Thi" "dynn_Khac" "dynn_Ngan" "dynn_Xa" "dynn_Tonnu" "dynn_Tra" "dynn_Lan" "dynn_Hy" "dynn_Toan" "dynn_Hanh" "dynn_Thich" "dynn_Uo" "dynn_Giap" "dynn_Le_Thi" "dynn_Ma" "dynn_Quy" "dynn_Phong" "dynn_Huan" "dynn_Tong" "dynn_Dich" "dynn_Khuong" "dynn_Buu" "dynn_Vinh" "dynn_Tat" "dynn_Ninh" "dynn_Nguyenthanh" "dynn_Sa" "dynn_Li" "dynn_Qu" "dynn_Diem" "dynn_Lam" "dynn_Chuc"
+	}
+
+	male_names = {
+		An Anh Anh_Tai Anhthuy Anh_Tuan Anh_Viet Bac Bang Bao Ba_Quat Bieu_Duc Binh Bui Buu Cadao Cam Can Cao Cham Chan Chau Chi Chien Chieu_Giang Chim Chinh Chuong Cong Cuong Da Dam Dan Dang Dang_Quang Danh Dat Dien Diep Dieu_Hien Dinh Dinh_Die Dinh_Ho Do Doan Doanh Don Dong Dong_Pha Du Duc Duc Y Dung Duoc Duong Duy Duy_Hien Duy_Viet Dzanh Dzoan Dzung Dzuy Gap Giahuy Giang_Chau Ha Hac Hai Han Hao Hao_Ngoc Hau Hien Hiep Hieu Hoa Hoai_Viet Hoang Hoang_Anh Hoang_Nam Hoang_Nguyen Hoang_Quan Hoang_Thien Hoang_Vu Hong Ho_Phong Huan Hung Huong Huu_Kiet Huu_Thuc Huy Huy_Lam Huynh Hy Kha Khai Khang Khanh Khiem Khoa Khoi Khuong Kien_Tanh Kiet Kim Kim_Long Kinh Lich Lien Linh Loan Loc Loi Long Luan Luc Luong Mac Mai Manh Minh Minh_Hoang Minh_Huy Minh_Quan Minh_Thien Minh_Tri Minh_Vu Muoi My Nam Nam_Dzi Nghia Nghiep Ngoc Nguyen Nhan Nhat Nhat_Vu Nhieu Pham Phat Phi Phi_Son Phong Phu Phuc Phuc Hai Phuoc Phuong Pin Quan Quang Quoc Quoc_Bao Quoc_Hung Quoc_Huy Quoc_Trung Quoc_Viet Quy Quyen Quynh Sahn Sang Sanh So Son Son_Huy Tai Tam Tan Tanh Tao Thach Thai Thai_Son Than Thang Thanh The_Huy Thi Thiem Thien Thien_An Thien_Dinh Thieu Thinh Tho Thoai Thong Thu Thuan Thuc Thuong Thuy Tien Tiep Tieu Tin Tinh Toan Tohn Tong Trac Trai Tri Triet Trieu Trieuvi Trong Truc Trung Truong Tu Tuan Tuan_Dung Tuan_Kiet Tuan_Minh Tung Tuong Tuy Tuyen Van Van_Lang Van_Son Vien Viet Vietlong Vinh Vo Vu Vui Vuong Xao Xuan Xuan_Binh Xuyen
+	}
+	female_names = {
+		Ai Ai_Quynh Am An An_Binh Anh Anhthu Anhthuy Au Bao_Chau Bao_Tram Be Bich Bich_Mai Bich_Ngoc Bich_Thuy Binh Bua Cac_Tien Cam_Anh Cam_Hong Cam_Thi Cam_Tu Can Catphuong Chau Chi Chieu Chieu_Anh Chinh Chuon Chuon Dai Dep Dianauyen Diem Diem_Hoang Diet Dieu_Kiem Doan Dung Duyen Giang Giang_Linh Gung Ha Hai_Trieu Hai_Van Ha_Minh Han Hang Hanh Hao Hien Hien_Thy Hieu Hoa Hoai Hoaithaomi Hoan Hoang Hoangoang Hoangquyen Hong Hong_Lan Hue Huong Huyen Huyen_Dung Kha Khanh_Lan Khanh_Van Khe Khiem Khoa Kieu Kim Kim_Anh Kim_Dung Kimmai Kimmi Kim_Oanh Kim_Thu Kim_Xuyen Lai_Giang Lan Lan_Chi Lang Le Le_Mai Lien Lieu Linh Linh_Mai Loan Luan Lui Ly Lyly Mai Mai_An Mai_Lan Mai_Linh Mai_Ly Mai_Trang Mai_Trinh Mi Mieu Minh Minh_Chau Minh_Ha Minh_Ly Minh_Ngoc Minh_Thu Moc My Myan Myanh My_Hanh My_Khanh Mylan Mylien Mylinh My_Tien My_Trinh Namphuon Namphuong Nga Ngan Ngoc Ngoc_Mai Ngoc_Thao Ngoc_Tran Ngoc_Vy Nguyen Nguyet Nha Nhan Nha_Quyen Nhi Nhu Nhung Nhu_Van Nu Oanh Phan Phi_Phuong Phi_Van Phong_Van Phu Phung Phung_Lan Phuoc Phuong Phuong_Anh Phuong_Thanh Phuong_Vu Phu_Qui Quy Quyen Quyendi Quynh Quynh_Anh Quynh_Mai Quynh_Nhu Sau So Suong Tam Tam_Trang Tan_Xuan Tao Thai_Vi Thang Thanh Thanh_Han Thanh_Huong Thanh_Tam Thanh_Tien Thanh_Tuy Thao The Thi Thi_Diem Thien Thien_Huong Thien_Mai Thi_Trinh Tho Thoa Thong Thu Thuam Thuc_Nga Thuc_Tran Thu_Hoa Thu_Hong Thu_Kim Thu_Lan Thu_Lee Thuy Thuy_Doan Thuydy Thuyen Thuy_Hong Thuy_Linh Thuy_Tien Thuy_Van Thuyvi Thuy_Vu Thuyvy Thy Thyan Tien To_Khuyen Trac Tram Tram Kimmi Tran Trang Trinh Trini Tron Truc Truong_Giang Tuongvi Tu_Quyen Tu_Trinh Tuyen_Thanh Tuyet Tuyet_Minh Ut Uyen Uyen_Nghi Uyen_Phuo Van Van_Quyen Vi Vinh Vy Vyvy Xuan Xuan_Lan Xuan_Phuong Yen
+	}
+
+}

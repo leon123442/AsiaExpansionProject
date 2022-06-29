@@ -1,0 +1,234 @@
+﻿# standard costs
+@maa_buy_cost = 150
+@maa_low_maintenance_cost = 1.0
+@maa_high_maintenance_cost = 5.0
+@cultural_maa_extra_ai_score = 25 # Equivalent to having 2.5 extra regiments beyond what the code scoring would indicate (see NEGATIVE_SCORE_PER_EXISTING_REGIMENT)
+
+#Japanese Units#######################################################################
+
+mounted_samurai = {
+	type = archer_cavalry
+	
+	damage = 45
+	toughness = 20
+	pursuit = 40
+	screen = 30
+	
+	terrain_bonus = {
+		farmlands = { damage = 20 }
+		plains = { damage = 35 }
+		drylands = { damage = 20 }
+		jungle = { damage = -20 pursuit = -20 }
+		wetlands = { damage = -30 pursuit = -30 }
+		mountains = { damage = -30 pursuit = -30 }
+		desert_mountains = { damage = -30 pursuit = -30 }
+	}
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_samurai }
+	}
+
+	buy_cost = { gold = horse_archers_recruitment_cost }
+	low_maintenance_cost = { gold = horse_archers_low_maint_cost }
+	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	holy_order_fallback = yes
+	icon = samurai_bow
+}
+
+bow_samurai = {
+	type = skirmishers
+	
+	damage = 25
+	toughness = 20
+	pursuit = 0
+	screen = 10
+	
+    terrain_bonus = {
+		hills = { damage = 10 toughness = 4 }
+		mountains = { damage = 8 toughness = 2 }
+		desert_mountains = { damage = 8 toughness = 2 }
+	}
+
+	counters = {
+		heavy_infantry = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_samurai }
+	}
+	
+	buy_cost = { gold = shomer_recruitment_cost }
+	low_maintenance_cost = { gold = shomer_low_maint_cost }
+	high_maintenance_cost = { gold = shomer_high_maint_cost }
+	
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	holy_order_fallback = yes
+	icon = samurai_bow2
+}
+
+tachi_samurai = {
+	type = heavy_infantry
+	
+	damage = 35
+	toughness = 25
+	pursuit = 0
+	screen = 0
+	
+	counters = {
+		pikemen = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_samurai }
+	}
+	
+	buy_cost = { gold = heavy_infantry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+	
+	stack = 100
+	ai_quality = { value = culture_ai_weight_heavy_infantry }
+	icon = samurai_tachi
+}
+
+#Emishi/Ainu Units#######################################################################
+
+emishi_horse_archers = {
+	type = archer_cavalry
+	
+	damage = 35
+	toughness = 18
+	pursuit = 40
+	screen = 30
+	
+	terrain_bonus = {
+		farmlands = { damage = 20 }
+		plains = { damage = 20 }
+		drylands = { damage = 20 }
+		jungle = { damage = -20 pursuit = -20 }
+		wetlands = { damage = -30 pursuit = -30 }
+		mountains = { damage = -30 pursuit = -30 }
+		desert_mountains = { damage = -30 pursuit = -30 }
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_emishi }
+	}
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+
+	buy_cost = { gold = horse_archers_recruitment_cost }
+	low_maintenance_cost = { gold = horse_archers_low_maint_cost }
+	high_maintenance_cost = { gold = horse_archers_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = horse_archers
+}
+
+#Chinese Units#######################################################################
+
+han_heavy_spearmann = {
+	type = pikemen
+	
+	damage = 28
+	toughness = 42
+	pursuit = 0
+	screen = 0
+	
+	terrain_bonus = {
+		plains = { damage = 5 }
+		hills = { toughness = 5 }
+		mountains = { toughness = 10 }
+		desert_mountains = { toughness = 10 }
+		jungle = { damage = -20 pursuit = -20 }
+		wetlands = { damage = -30 pursuit = -30 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_han }
+	}
+
+	buy_cost = { gold = schiltron_recruitment_cost }
+	low_maintenance_cost = { gold = schiltron_low_maint_cost }
+	high_maintenance_cost = { gold = schiltron_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	holy_order_fallback = yes
+	icon = han_pikemen
+}
+
+#Khitan Units#######################################################################
+
+heavy_khitan_cavalary = {
+	type = heavy_cavalry
+	
+	damage = 100
+	toughness = 40
+	pursuit = 20
+	screen = 0
+	
+	terrain_bonus = {
+		plains = { damage = 30 }
+		drylands = { damage = 30 }
+		hills = { damage = -20 }
+		mountains = { damage = -75 }
+		desert_mountains = { damage = -75 }
+		wetlands = { damage = -75 toughness = -10 pursuit = -10 }
+	}
+
+	counters = {
+		archers = 1	
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -10 toughness = -5 }
+		harsh_winter = { damage = -20 toughness = -10 }
+	}
+
+	can_recruit = {
+		AND = {
+			culture = { has_cultural_parameter = unlock_maa_khitan }
+			culture = { has_innovation = innovation_knighthood }
+		}
+	}
+
+	buy_cost = { gold = heavy_cavalry_recruitment_cost }
+	low_maintenance_cost = { gold = heavy_cavalry_low_maint_cost }
+	high_maintenance_cost = { gold = heavy_cavalry_high_maint_cost }
+	
+	mercenary_fallback = yes
+	holy_order_fallback = yes
+
+	stack = 50
+	ai_quality = { value = culture_ai_weight_heavy_cavalry }
+	icon = heavy_cav_kithan
+	fallback_in_hired_troops_if_unlocked = yes
+}

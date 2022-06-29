@@ -1,0 +1,51 @@
+﻿# Use in events, not filled by default
+kneeling = {}
+
+event_group_1 = {
+	group = event_group
+}
+event_group_2 = {
+	group = event_group
+}
+event_group_3 = {
+	group = event_group
+}
+petitioners_1 = {
+	group = petitioners_group
+	scripted_animation = {
+		triggered_animation = {
+			trigger = { always = yes }
+			animation = { throne_room_kneel_1 throne_room_kneel_2 }
+		}
+	}
+}
+petitioners_2 = {
+	group = petitioners_group
+	scripted_animation = {
+		triggered_animation = {
+			trigger = { always = yes }
+			animation = { throne_room_kneel_1 }
+		}
+	}
+}
+petitioners_3 = {
+	group = petitioners_group
+	scripted_animation = {
+		triggered_animation = {
+			trigger = { always = yes }
+			animation = { throne_room_kneel_1 }
+		}
+	}
+}
+
+# Court Position Holders
+
+position_holders = {
+	effect = {
+		scope:ruler = {
+			every_court_position_holder = {
+				add_to_list = characters
+			}
+		}
+	}
+}

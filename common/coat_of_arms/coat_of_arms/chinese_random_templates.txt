@@ -1,0 +1,16 @@
+template = {
+	chinese_basic = {
+		pattern = "pattern_solid.dds"	
+		color1 = list "dark_colors"
+		color2 = list "dark_colors"
+		color3 = list "light_colors"
+		color4 = list "light_colors"
+
+		colored_emblem = {
+			texture = list "chinese_basic_list"
+			color1 = color3
+			color2 = color4
+			instance = { position = { 0.5 0.5 }  scale = { 0.9 0.9 }  }			
+		}
+	}
+}

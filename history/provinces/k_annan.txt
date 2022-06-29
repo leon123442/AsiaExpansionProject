@@ -1,0 +1,472 @@
+#e_nanzhong
+
+#k_annan
+
+#c_baise 
+#b_Tianzhou_Baise
+10417 = {
+    culture = pu
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Bama
+10416 = {
+  
+	holding = none
+}
+#b_Sicheng_Guilezho
+10418 = {
+  
+	holding = none
+}
+#b_Houzhou_Lunzho
+10419 = {
+  
+	holding = none
+}
+#c_nanning
+#b_Yongzhou_Nanning
+10410 = {
+    culture = pu
+	religion = pagan
+	holding = tribal_holding
+}
+#b_Sitong_Zuozhou
+10415 = {
+
+	holding = none
+}
+#b_Wuming_Wandezhou
+10414 = {
+
+	holding = none
+}
+#c_qinzhou_gui	
+#b_Qinzhou_Qinjiang
+10390 = {
+    culture = pu
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Luzhou_Wulei
+10427 = { 
+	holding = none
+}
+#b_Sumaozhou
+10423 = { 
+	holding = none
+}
+
+
+
+#d_jiaozhi  #交趾
+#c_kinh_bac
+#b_thanh_long
+10438 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
+}  
+#b_hau_lu
+10429 = {
+	holding = none
+}
+#b_thai_binh
+10430 = {
+	holding = none
+}
+    
+#b_lang_giang
+10439 = {
+	culture = tay
+	religion = mahayana
+	holding = tribal_holding	
+}
+#b_lang_son
+10440 = {
+	holding = none
+}
+#b_bab_ha
+10437 = {
+	holding = none
+}
+#c_hai_dong
+#b_tan_an
+10434 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
+}
+    
+#b_kinh_mon
+10435 = {
+
+}
+    
+#b_nam_sac
+10436 = {
+
+}
+    
+
+    
+#c_nong
+#b_nong
+10531 = {
+	culture = tay
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_bab_kan
+10532 = {
+
+}
+    
+#b_yen_lo
+11889 = {
+
+}
+    
+#b_cao_bang
+11890 = {
+
+}
+    
+#b_cingsae_si
+10535 = {
+
+}
+    
+
+    
+#d_jiuzhen #九真
+            
+        
+    
+#c_cuu_chan
+#b_ai_chau
+10433 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
+}
+    
+#b_quy_chau
+10431 = {
+
+}
+    
+#b_lam_son
+10432 = {
+
+}
+    
+
+#c_cu_duc
+#b_viet_thuong
+10422 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = tribal_holding
+}
+    
+#b_xu_nghe
+10424 = {
+	holding = none
+}
+    
+#b_tra_lan
+10425 = {
+	holding = none
+}
+    
+#b_anh_son
+10426 = {
+	holding = none
+}
+    
+#b_hoan_chau
+10428 = {
+	holding = none
+}
+    
+
+#c_muong
+#b_ma_nam
+11879 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
+}
+    
+#b_yen_moc
+11878 = {
+
+}
+    
+#b_da_bac
+11877 = {
+
+}
+    
+#b_hoa_binh
+11876 = {
+
+}
+    
+
+ 
+    
+#d_muangthaeng  
+    
+#c_muang_thaeng #勐唐
+#b_muang_thaeng
+10441 = {
+	culture = tai
+	religion = pagan
+	holding = castle_holding
+	#culture = jiaozhi
+	#religion = mahayana
+	#holding = tribal_holding
+}
+   
+
+#b_tung_lang
+10442 = {
+
+}
+    
+#b_na_kang
+10443 = {
+
+}
+    
+#b_muang_lay
+10444 = {
+
+}
+    
+#b_son_la
+10445 = {
+
+}
+    
+
+#c_son_tay
+#b_phu_hoa
+11888 = {
+	culture = jiaozhi
+	religion = mahayana
+	holding = castle_holding
+}
+    
+#b_van_chan
+11887 = {
+
+}
+    
+#b_yen_bai
+11886 = {
+
+}
+    
+#b_tam_dai
+11885 = {
+
+}
+    
+#b_lam_thao
+11884 = {
+
+}
+    
+
+#c_lao_nhai
+#b_van_ban
+11883 = {
+	culture = tai
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_quynh_nhai
+11882 = {
+
+}
+    
+#b_muang_so
+11881 = {
+
+}
+    
+#b_thuy_vi
+11880 = {
+
+}
+    
+
+#c_lo
+#b_tu_long
+10446 = {
+	culture = tay
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_tuyen_quang
+10447 = {
+
+}
+    
+#b_lo
+10448 = {
+
+}
+    
+#b_con_linh
+10449 = {
+	culture = laos
+	religion = pagan
+	holding = tribal_holding	
+}
+    
+#b_bao_lac
+10530 = {
+
+}
+    
+#k_lanxang
+    
+#d_heichi
+#c_muangswa
+#b_Menglao_LuangPrabang
+10536 = {
+	culture = tai
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_viengkham
+10537 = {
+
+}
+    
+#b_phongsaly
+10538 = {
+
+}
+    
+#b_houakhong
+10539 = {
+
+}
+    
+#b_luang_namtha
+10540 = {
+
+}
+    
+#b_oudomhay
+10541 = {
+
+}
+    
+#b_moung_xai
+10542 = {
+
+}
+    
+
+#c_kengtung  #景龙/kengtung
+#b_kengtung
+10508 = {
+	culture = waic
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_sibsongbanna #芒乃
+11875 = {
+
+}
+    
+#b_mong_hsat #勐交
+10529 = {
+
+}
+    
+#b_mengla #利润
+10511 = {
+
+}
+
+#d_phon_hong
+
+#c_phon_hong
+#b_phon_hong # Vientiane / Chantaburi
+10545 = {
+	culture = tai
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_vangvieng
+10546 = {
+
+}
+    
+#b_sainyabuli
+10547 = {
+
+}
+    
+#b_bolikhamsai
+10548 = {
+
+}
+    
+#c_xiangkhouang
+#b_xiangkhouang
+10543 = {
+	culture = khmu
+	religion = pagan
+	holding = castle_holding
+}
+    
+#b_houaphanh
+10544 = {
+	holding = none
+}
+
+
+#c_luolong 
+#b_Luolong_Wuqin
+10412 = {
+    culture = tay
+	religion = pagan 
+	holding = tribal_holding
+}
+#b_Shangsizhou_Rangzhou
+10411 = {
+  
+	holding = none
+}
+#c_jinlongzhou
+#b_jinlongzhou
+10421 = { 
+	culture = tay
+	religion = pagan
+	holding = tribal_holding		
+}
+#b_Napo
+10420 = { 
+
+	
+	holding = none
+}
+#b_Simingzhou_Shixizhou
+10413 = {
+  
+	holding = none
+}

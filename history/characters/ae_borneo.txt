@@ -1,0 +1,407 @@
+﻿# Brunei
+barune_001 = { # Fictional
+	name = "Awang Pateh Betatar"
+	dna = sri_dharmaraja_barune_dna
+    dynasty = house_Barune
+	religion = mahayana
+	culture = brunei
+	trait = temperate
+	trait = stubborn
+	trait = just
+    trait = education_diplomacy_3
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+# Sarawak
+serawak_001 = { # Fictional
+	name = "Paduka Kuting"
+    dynasty = house_Serawak
+	religion = mahayana
+	culture = malay
+	trait = stubborn
+	trait = temperate
+	trait = content # So he would less likely go to war as there would be a Sarawak kingdom by then if he conquers more lands
+    trait = education_stewardship_3 # Famous trading settlement
+	843.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+### Kutai characters, special thanks to Rajas of Asia :D
+
+kutai001 = {
+	name = "Kudungga" # first king of Kutai
+	religion = "shaivism"
+	culture = "malay"
+	
+	# Rule from 300 - 325
+	270.1.1 = { # Approx. Date
+		birth = yes
+	}
+	300.1.1 = {
+		add_spouse = kutai002
+	}
+	325.1.1 = {
+		death = yes
+	}
+}
+
+kutai002 = {
+	name = "Gabok" # wife of Kudungga
+	religion = "shaivism"
+	culture = "malay"
+	female = yes
+	
+	# Rule from
+	270.1.1 = { # Approx. Date
+		birth = yes
+	}
+	300.1.1 = {
+		add_spouse = kutai001
+	}
+	325.1.1 = {
+		death = yes
+	}
+}
+
+kutai003 = {
+	name = "Dewi_Gari" # daughter of Kudungga
+	religion = "shaivism"
+	culture = "malay"
+	female = yes
+	father = kutai001
+	mother = kutai002
+	
+	# Rule from 325 - 390
+	305.1.1 = { # Approx. Date
+		birth = yes
+	}
+	325.1.1 = {
+		add_spouse = kutai004
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+kutai004 = {
+	name = "Acwawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	
+	# Rule from 325 - 390
+	305.1.1 = { # Approx. Date
+		birth = yes
+	}
+	325.1.1 = {
+		add_spouse = kutai003
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+
+kutai005 = {
+	name = "Gunawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai004
+	mother = kutai003
+	
+	# Rule from Approx. 390 - 395
+	340.1.1 = { # Approx. Date
+		birth = yes
+	}
+	395.1.1 = {
+		death = yes
+	}
+}
+
+kutai006 = {
+	name = "Jayawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai004
+	mother = kutai003
+	
+	# Rule from Approx. 395 - 400
+	345.1.1 = { # Approx. Date
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+
+kutai007 = {
+	name = "Mulawarman" # one of the well-known king
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai004
+	mother = kutai003
+	
+	# Rule from 400 - 446
+	350.1.1 = { # Approx. Date
+		birth = yes
+	}
+	446.1.1 = {
+		death = yes
+	}
+}
+
+kutai008 = {
+	name = "Wangsawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai007
+	
+	# Rule from 446-495
+	400.1.1 = { # Approx. Date
+		birth = yes
+	}
+	495.1.1 = {
+		death = yes
+	}
+}
+
+kutai009 = {
+	name = "Mahawijayawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai008
+	
+	# Rule from 495 - 543
+	450.1.1 = { # Approx. Date
+		birth = yes
+	}
+	543.1.1 = {
+		death = yes
+	}
+}
+
+kutai010 = {
+	name = "Gajayanawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai009
+	
+	# Rule from 543 - 590
+	500.1.1 = { # Approx. Date
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+	}
+}
+
+kutai011 = {
+	name = "Wijayatunggawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai010
+	
+	# Rule from 590 - 637
+	550.1.1 = { # Approx. Date
+		birth = yes
+	}
+	637.1.1 = {
+		death = yes
+	}
+}
+
+kutai012 = {
+	name = "Jayatungganagawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai011
+	
+	# Rule from 637 - 686
+	600.1.1 = { # Approx. Date
+		birth = yes
+	}
+	686.1.1 = {
+		death = yes
+	}
+}
+
+kutai013 = {
+	name = "Nalasingawarman"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai012
+	
+	# Rule from 686 - 736
+	650.1.1 = { # Approx. Date
+		birth = yes
+	}
+	736.1.1 = {
+		death = yes
+	}
+}
+
+kutai014 = {
+	name = "Nalaperanatungga_Warmandewa"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai013
+	
+	# Rule from 736 - 783
+	700.1.1 = { # Approx. Date
+		birth = yes
+	}
+	783.1.1 = {
+		death = yes
+	}
+}
+
+kutai015 = {
+	name = "Gadingga_Warmandewa"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai014
+	
+	# Rule from 783 - 832
+	750.1.1 = { # Approx. Date
+		birth = yes
+	}
+	832.1.1 = {
+		death = yes
+	}
+}
+
+kutai016 = {
+	name = "Indra_Warmandewa"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai015
+	
+	# Rule from 832 - 879
+	800.1.1 = { # Approx. Date
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+kutai017 = {
+	name = "Singawirama_Warmandewa"
+	religion = "shaivism"
+	culture = "malay"
+	dynasty = "house_Warman"
+	father = kutai016
+	
+	# Rule from 879 - 926
+	850.1.1 = { # Approx. Date
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+
+# Sulu
+easteregg_sama_bajau = {
+	name = "Awang Sakti Samudra"
+	dna = easteregg_sama_bajau_dna
+	religion = umboh
+	culture = sama_bajau
+	trait = intellect_good_1
+	trait = temperate
+	trait = humble
+	trait = brave
+    trait = education_martial_3
+	base_weight = 1
+	847.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = {
+				flag = has_scripted_appearance
+			}
+		}
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+# Kalimantan
+tanjungpura_001 = {
+	name = "Bhumijaya"
+	religion = vajrayana
+	culture = malay
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = { # Estimation
+		death = yes
+	}
+}
+tanjungpura_002 = {
+	name = "Tanjungputra"
+	religion = vajrayana
+	culture = malay
+	847.1.1 = {
+		birth = yes
+	}
+	900.1.1 = { # Estimation
+		death = yes
+	}
+}
+tanjungpura_003 = {
+	name = "Apoiwala"
+	religion = kaharingan
+	culture = ot_danum
+	840.1.1 = {
+		birth = yes
+	}
+	890.1.1 = { # Estimation
+		death = yes
+	}
+}
+nan_sarunai_001 = {
+	name = "Jayawarsa"
+	religion = vajrayana
+	culture = malay
+	843.1.1 = {
+		birth = yes
+	}
+	850.1.1 = {
+		set_realm_capital = title:c_katingan_kuala
+	}
+	900.1.1 = { # Estimation
+		death = yes
+	}
+}
+nan_sarunai_002 = {
+	name = "Bayuputra"
+	religion = vajrayana
+	culture = malay
+	844.1.1 = {
+		birth = yes
+	}
+	900.1.1 = { # Estimation
+		death = yes
+	}
+}

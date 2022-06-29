@@ -1,0 +1,86 @@
+﻿heritage_korean = {
+	type = heritage
+}
+heritage_japan = {
+	type = heritage
+}
+heritage_ezo = {
+	type = heritage
+}
+heritage_tungusic = {
+	type = heritage
+}
+
+# Mainland SEA / Indochina
+heritage_kradai = {
+	type = heritage
+}
+heritage_san_miao = {
+	type = heritage
+}
+heritage_yue = {
+	type = heritage
+}
+heritage_mon = {
+	type = heritage
+}
+heritage_khmer = {
+	type = heritage
+}
+heritage_katuic = {
+	type = heritage
+}
+heritage_burman = {
+	type = heritage
+}
+heritage_yi = {
+	type = heritage
+}
+heritage_bai = {
+	type = heritage
+}
+heritage_yilou = {
+	type = heritage
+}
+heritage_samhan = {
+	type = heritage
+}
+heritage_palaungic = {
+	type = heritage
+}
+
+# Maritime SEA / Austronesian
+heritage_formosan = {
+	type = heritage
+}
+# Island Southeast Asia
+heritage_north_borneo = {
+	type = heritage
+}
+heritage_dayak = {
+	type = heritage
+}
+heritage_filipino = {
+	type = heritage
+}
+heritage_java = {
+	type = heritage
+}
+heritage_malay = {
+	type = heritage
+}
+
+## Wallace's Line
+heritage_sulawesi = {
+	type = heritage
+}
+heritage_timor = {
+	type = heritage
+}
+heritage_papuan = {
+	type = heritage
+}
+
+heritage_negrito = {
+	type = heritage
+}

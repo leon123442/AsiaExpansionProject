@@ -1,0 +1,9 @@
+﻿2636000 = {
+	name = "dynn_varman"
+	culture = "khmer"
+}
+
+2636001 = {
+	name = "dynn_Lavo"
+	culture = "mon"
+}

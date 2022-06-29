@@ -1,0 +1,291 @@
+﻿##k_java
+#d_bali_sea
+#c_bali_sea
+#b_bali_sea	
+11521 = {
+	culture = bali
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_lombok
+11522 = {
+	culture = bali
+	religion = shaivism
+	holding = castle_holding
+}
+
+
+
+#c_bima
+#b_bima
+11523 = {
+	culture = samawa
+	religion = shaivism
+	holding = tribal_holding
+}
+
+#b_dompo
+11524 = {
+	culture = samawa
+	religion = shaivism
+	holding = tribal_holding
+}
+
+#b_samawa
+11525 = {
+	culture = samawa
+	religion = shaivism
+	holding = tribal_holding
+}
+
+
+
+#d_jawa
+
+#c_panjalu
+#b_kadiri	
+11526 = {
+	culture = java
+	religion = javanist
+	holding = castle_holding
+}
+
+#b_tumapel
+11527 = {
+	culture = java
+	religion = javanist
+	holding = castle_holding
+}
+
+#b_wwatan
+11528 = {
+	culture = java
+	religion = javanist
+	holding = castle_holding
+}
+
+#b_wanagiri
+11529 = {
+	culture = java
+	religion = javanist
+	holding = castle_holding
+}
+
+
+#c_mataram
+#b_jagaraga
+11530 = {	
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_warak
+11531 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_panunggalan
+11532 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_mataram
+11533 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_mamrati
+11534 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+
+#c_kalingga
+#b_kayuwangi
+#wangy wangy?
+11535 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_pikatan
+11536 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_watuhumalang
+11537 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_panaraban
+11538 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+
+#c_lumajang
+#b_pakembangan
+11539 = {
+	culture = java
+	religion = javanist
+	holding = castle_holding
+}
+
+#b_wirabhumi
+11540 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_lumajang
+11541 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+
+#c_janggala
+#b_pamotan
+11542 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_medang
+11543 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_kahuripan
+11544 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_lwaram
+11545 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_walaing
+11546 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+#b_madura
+11547 = {
+	culture = java
+	religion = shaivism
+	holding = castle_holding
+}
+
+
+
+#d_sunda
+	
+#c_galuh
+#b_galuh
+11548 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_patapan
+11549 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_watukura
+11550 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_nusalarang
+11551 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_panumwangan
+11552 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_pamanukan
+11553 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+
+#c_sunda
+#b_sundakalapa
+11554 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+#b_pakuanpajajaran
+11555 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_parahyangan
+11556 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_salakanagara
+11557 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}
+
+#b_banten
+11558 = {
+	culture = sunda
+	religion = jatisunda
+	holding = castle_holding
+}

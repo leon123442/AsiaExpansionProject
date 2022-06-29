@@ -1,0 +1,84 @@
+﻿# Sumatera
+house_Srivijaya = {
+    name = "dynn_Srivijaya"
+    culture = "malay"
+}
+
+house_Lamuri = {
+    name = "dynn_Lamuri"
+    culture = "malay"
+}
+house_Jeumpa = {
+    name = "dynn_Jeumpa"
+    culture = "malay"
+}
+house_Podak = {
+    name = "dynn_Podak"
+    culture = "malay"
+}
+house_Gayo = {
+    name = "dynn_Gayo"
+    culture = "batak"
+}
+house_Toba = {
+    name = "dynn_Toba"
+    culture = "batak"
+}
+house_Panai_Tua = {
+    name = "dynn_Panai_Tua"
+    culture = "malay"
+}
+house_Riou = {
+    name = "dynn_Riou"
+    culture = "malay"
+}
+
+# Peninsula
+house_Gangganu = {
+    name = "dynn_Gangganu"
+    culture = "malay"
+}
+house_Mahang = {
+    name = "dynn_Mahang"
+    culture = "malay"
+}
+house_Malaka = {
+    name = "dynn_Malaka"
+    culture = malay
+}
+house_Bernam = {
+    name = "dynn_Bernam"
+    culture = malay
+}
+house_Kataha = {
+    name = "dynn_Kataha"
+    culture = "mon"
+}
+house_Langkhasukha = {
+    name = "dynn_Langkhasukha"
+    culture = "mon"
+}
+
+# Java
+house_Sailendra = {
+    name = "dynn_Sailendra"
+    culture = "java"
+}
+house_Galuh = {
+    name = "dynn_Galuh"
+    culture = "sunda"
+}
+
+# Borneo
+house_Barune = {
+    name = "dynn_Barune"
+    culture = "malay"
+}
+house_Serawak = {
+    name = "dynn_Serawak"
+    culture = "malay"
+}
+house_Warman = {
+    name = "dynn_Warman"
+    culture = "malay"
+}

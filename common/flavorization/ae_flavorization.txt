@@ -1,0 +1,40 @@
+# Princes (children of Kings/Emperors, sorted by culture)
+# Localisations is under culture/_culture_titles_l_english.yml
+
+### Austronesian
+prince_male_austronesian_group = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	heritages = { heritage_austronesian }
+	top_liege = no
+}
+prince_female_austronesian_group = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	priority = 40
+	heritages = { heritage_austronesian }
+	top_liege = no
+}
+prince_male_austronesian_group_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	priority = 40
+	heritages = { heritage_austronesian }
+	top_liege = no
+}
+prince_female_austronesian_group_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	priority = 40
+	heritages = { heritage_austronesian }
+	top_liege = no
+}

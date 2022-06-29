@@ -1,0 +1,72 @@
+﻿120000005 = {
+	name = Xingzhou #Shou_Ruler of dutchy
+	dynasty = 61000005
+	religion = shaman
+	culture = balhae 
+	846.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000001 = {
+	name = Hŭngmu #Tae_Ruler of Balhae Kingdom
+	dynasty = 61000001
+	religion = shaman
+	culture = balhae 
+	851.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000006 = {
+	name = Shifu #Yangzhi_Ruler of dutchy
+	dynasty = 61000006
+	religion = shaman
+	culture = balhae 
+	809.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000003 = {
+	name = Lizen #Yin_Ruler of dutchy
+	dynasty = 61000003
+	religion = shaman
+	culture = balhae 
+	833.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000004 = {
+	name = Xi #Zhang_XRuler of dutchy
+	dynasty = 61000004
+	religion = shaman
+	culture = balhae 
+	841.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+120000002 = {
+	name = Ying #Zhi_Ruler of dutchy
+	dynasty = 61000002
+	religion = shaman
+	culture = balhae 
+	836.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}

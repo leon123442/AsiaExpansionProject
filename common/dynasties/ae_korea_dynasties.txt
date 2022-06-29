@@ -1,0 +1,28 @@
+﻿60000001 = {
+	name = "dynn_Isageum" # Ruling family since Talhae, later known as Park and Seok Clan
+	culture = "saro"
+}
+60000002 = {
+	name = "dynn_Geoseogan" # Hyeokgeose Beolgeunuri Geoseogan name, later known as Miryang Park Clan
+	culture = "saro"
+}
+60000003 = {
+	name = "dynn_Maripgan" # Kim Alji/Alcheon, later known as Gyeongju Kim Clan
+	culture = "saro"
+}
+60000004 = {
+	name = "dynn_Isageum_Talhae" # Ruling family since Talhae, Seok Clan
+	culture = "saro"
+}
+60000005 = {
+	name = "dynn_Mireugan" # Another title, "Dragon Ruler"
+	culture = "saro"
+}
+60000006 = {
+	name = "dynn_Itgeum" # Another title, related to Isageum
+	culture = "saro"
+}
+60000007 = {
+	name = "dynn_Chachaung" # Title of the second ruler, Namhae Isageum
+	culture = "saro"
+}

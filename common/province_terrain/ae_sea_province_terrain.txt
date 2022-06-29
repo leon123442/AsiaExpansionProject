@@ -1,0 +1,105 @@
+﻿### Taiwan
+10921=jungle # Penghu
+10922=jungle # Beiliuqiu / Kulun
+10923=jungle # Zhongliuqiu / Babuza
+10924=jungle # Nanliuqiu / Makatao
+
+11980=jungle # Taokas
+11981=jungle # Hoanya
+11982=jungle # Siraya
+11983=hills # Taivoa
+11984=mountains # Paiwan
+11985=hills # South Amisa
+11986=hills # North Amisa
+11987=hills # Nataoran
+11988=jungle # Kavalana
+11989=hills # Basaia / Taipei
+11990=mountains # Tsolea
+11991=mountains # Rukaia
+11992=mountains # Siwa
+11993=mountains # Tsoua
+11994=mountains # Bununa
+11995=mountains # Seediqa
+11996=mountains # Atalyada
+11997=mountains # East Hoanya
+
+### Borneo
+# Sabah / North Borneo
+11429=wetlands # Kota Kinabalu
+11430=hills # Keningau
+11431=jungle # Tongod
+11862=jungle # Kudat
+11861=floodplains # Kinabatangan
+11863=wetlands # Tawau
+
+12131=jungle # Beaufort/Klias
+12132=jungle # Kuala Penyu
+12133=jungle # Labuan
+12134=jungle # Sipitang
+12135=hills # Nabawan
+12136=hills # Tenom
+12137=hills # Tambunan
+12138=jungle # Papar
+12139=jungle # Penampang
+12140=jungle # Tuaran
+12141=hills # Ranau
+12142=jungle # Kota Belud
+12143=jungle # Pitas
+12144=hills # Kota Marudu
+12145=jungle # Beluran
+12146=wetlands # Sandakan
+12147=jungle # Lahad Datu
+12148=jungle # Kunak
+12149=mountains # Kundasang
+12150=mountains # Nabalu
+12153=wetlands # Menumbok
+12154=floodplains # Semporna
+12155=jungle # Banggi
+12156=jungle # North Sebatik
+12157=jungle # South Sebatik
+12158=jungle # Nunukan
+
+# Brunei
+11432=wetlands # Kota Batu
+
+12183=jungle # Tutong
+12184=jungle # Belait
+12185=wetlands # Temburong
+12186=wetlands # Limbang
+12187=jungle # Lawas
+12188=jungle # Layong
+12189=jungle # Labi
+12190=jungle # Batang Duri
+
+# Sarawak / East Borneo
+11426=floodplains # Kuching
+11428=wetlands # Samarahan
+11427=wetlands # Sarikei
+11425=wetlands # Sibu
+11424=jungle # Mabong
+11423=hills # Belaga
+11422=wetlands # Mukah
+11421=jungle # Sebauh
+
+12160=jungle # Sibuti
+12161=jungle # Baram
+12162=jungle # Tatau
+12163=wetlands # Kuala Tatau
+12164=jungle # Bintulu
+12165=jungle # Selangau
+12166=jungle # Dalat
+12167=jungle # Matu
+12169=jungle # Asap
+12170=jungle # Nanga Merit
+12171=jungle # Kapit
+12172=jungle # Song
+12173=floodplains # Tanjung Manis
+12174=jungle # Pakan
+12175=jungle # Julau
+12176=jungle # Betong
+12177=jungle # Simanggang
+12178=jungle # Lubok Antu
+12179=wetlands # Lundu
+12180=jungle # Serian
+12181=wetlands # Sematan
+12182=jungle # Kanowit

@@ -1,0 +1,16 @@
+version="1.5.*"
+tags={
+	"Map"
+	"Religion"
+	"Gameplay"
+	"Events"
+	"Decisions"
+	"Culture"
+	"Character Interactions"
+	"Bookmarks"
+	"Portraits"
+	"Total Conversion"
+}
+name="Asia Expansion [Developer Version]"
+supported_version="1.6.1.1"
+remote_file_id="2826413856"

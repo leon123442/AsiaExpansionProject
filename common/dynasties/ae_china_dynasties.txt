@@ -1,0 +1,85 @@
+﻿80000029 = {
+	name = "dynn_Chiau"
+	culture = "han"
+}
+80000021 = {
+	name = "dynn_Du"
+	culture = "han"
+}
+80000005 = {
+	name = "dynn_Duo"
+	culture = "han"
+}
+80000006 = {
+	name = "dynn_Gao"
+	culture = "tuyuhun"
+}
+80000023 = {
+	name = "dynn_He"
+	culture = "han"
+}
+80000011 = {
+	name = "dynn_Heng"
+	culture = "han"
+}
+80000007 = {
+	name = "dynn_Hao"
+	culture = "han"
+}
+80000027 = {
+	name = "dynn_Kong"
+	culture = "han"
+}
+80000001 = {
+	name = "dynn_Li"
+	culture = "han"
+}
+80000008 = {
+	name = "dynn_La"
+	culture = "han"
+}
+80000004 = {
+	name = "dynn_Lu"
+	culture = "han"
+}
+80000015 = {
+	name = "dynn_Ping"
+	culture = "han"
+}
+80000012 = {
+	name = "dynn_Qian"
+	culture = "han"
+}
+80000013 = {
+	name = "dynn_Tuoba"
+	culture = "han"
+}
+80000009 = {
+	name = "dynn_Wang"
+	culture = "han"
+}
+80000022 = {
+	name = "dynn_Xiahou"
+	culture = "han"
+}
+80000028 = {
+	name = "dynn_Zhong"
+	culture = "han"
+}
+80000020 = {
+	name = "dynn_Zheng"
+	culture = "han"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

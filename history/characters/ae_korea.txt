@@ -1,0 +1,91 @@
+﻿110000001 = {
+	name = Ŭngryŏm # Ruler of Silla
+	dynasty = 60000003
+	religion = gyodan
+	culture = saro
+	843.1.1 = { # 
+		birth = yes
+	}
+	875.7.9 = { # 
+		death = yes
+	}
+	dna = Gim_Eungryeom_dna_entry
+}
+110000002 = {
+	name = Taehyung #Ruler of Baekje province, Kim Clan
+	dynasty = 60000002
+	religion = gyodan
+	culture = baekje
+	819.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Kim_Taehyung_dna_entry
+}
+110000003 = {
+	name = Juhee #Ruler of province, Pak clan
+	dynasty = 60000001
+	religion = gyodan
+	culture = saro
+	819.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Pak_Juhee_dna_entry
+}
+110000004 = {
+	name = Yong #Ruler of province, Shiwon clan
+	dynasty = 60000004
+	religion = gyodan
+	culture = saro
+	836.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Shiwon_Yong_dna_entry
+}
+110000005 = {
+	name = Kwon #Ruler of province, Seoyoung clan
+	dynasty = 60000005
+	religion = gyodan
+	culture = saro
+	849.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+	dna = Seoyoung_Kwon_dna_entry
+}
+110000006 = {
+	name = Kŏn # baekje
+	dynasty = 60000003
+	religion = gyodan
+	culture = saro
+	843.1.1 = { # 
+		birth = yes
+	}
+	875.7.9 = { # 
+		death = yes
+	}
+	dna = Gim_Eungryeom_dna_entry
+}
+### Balhae ###
+1100000100 = {
+	name = Chiri
+	dynasty = "dynn_choi"
+	religion = mahayana
+	culture = goguryeo
+	853.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}

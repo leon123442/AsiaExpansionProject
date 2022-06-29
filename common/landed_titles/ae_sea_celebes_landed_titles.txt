@@ -1,0 +1,767 @@
+﻿e_celebes = {
+
+	color = { 26 55 5 }
+	color2 = { 255 255 255 }
+	
+	capital = c_makassar
+
+	k_celebes = {
+        color = { 26 55 5 }
+        color2 = { 255 255 255 }
+        capital = c_makassar
+
+        d_sulawesi = {
+            color = { 25 255 179 }
+            color2 =  { 255 255 255 }
+
+            c_kaili = {
+                color = { 25 255 179 }
+                color2 =  { 255 255 255 }
+
+                b_palu = {
+                    province = 11464
+                    color = { 25 255 79 }
+                    color2 =  { 255 255 255 }
+                        
+                }
+                b_pipikoro = {
+                    province = 11466
+                    color = { 225 125 119 }
+                    color2 =  { 255 255 255 }
+                        
+                }
+                b_pasangkayu = {
+                    province = 11467
+                    color = { 45 3 22 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_tolitoli = {
+                color = { 25 125 119 }
+                color2 =  { 255 255 255 }
+
+                b_tolitoli = {
+                    province = 11468
+                    color = { 25 125 119 }
+                    color2 =  { 255 255 255 }
+                        
+                }
+                b_tinombo = {
+                    province = 11469
+                    color = { 125 205 79 }
+                    color2 =  { 255 255 255 }
+                        
+                }
+            }
+            c_gorontalo = {
+                color = { 123 57 65 }
+                color2 = { 255 255 255 }
+
+                b_hulondalo = {
+                    province = 11473
+                    color = { 123 57 65 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_lolak = {
+                    province = 11474
+                    color = { 93 242 123 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_molibagu = {
+                    province = 11475
+                    color = { 109 85 213 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_mongondow = {
+                color = { 65 46 132 }
+                color2 = { 255 255 255 }
+
+                b_manado = {
+                    province = 11478
+                    color = { 65 46 132 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_karakelong_island = {
+                    province = 11479
+                    color = { 32 123 0 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_tondano = {
+                    province = 11481
+                    color = { 9 85 213 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_salua = {
+                color = { 223 206 245 }
+                color2 = { 255 255 255 }
+
+                b_luwuk = {
+                    province = 11483
+                    color = { 223 206 245 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_banggai = {  #Salakan
+                province = 11484
+                    color = { 123 6 244 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_pamona = {
+                color = { 123 56 44 }
+                color2 = { 255 255 255 }
+
+                b_poso = {
+                    province = 11487
+                    color = { 123 56 44 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_beturube = {
+                    province = 11488
+                    color = { 123 216 245 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+        }
+        d_bungku = {
+            color = { 65 185 146 }
+            color2 = { 255 255 255 }
+
+            c_bungku = {
+                color = { 65 185 146 }
+                color2 = { 255 255 255 }
+
+                b_bungku = {
+                    province = 11490
+                    color = { 65 185 146 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_malili = {
+                    province = 11492
+                    color = { 165 185 146 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_butungmuna = {
+                color = { 89 45 26 }
+                color2 = { 255 255 255 }
+
+                b_muna = {
+                    province = 11493
+                    color = { 89 45 26 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_buton = {
+                    province = 11494
+                    color = { 89 245 126 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_south_bungku = {
+                color = { 78 74 52 }
+                color2 = { 255 255 255 }
+
+                b_tinanggea = {
+                    province = 11497
+                    color = { 78 74 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_bombana = {
+                    province = 11499
+                    color = { 189 45 126 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_kendari = {
+                    province = 11501
+                    color = { 189 245 226 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_mekongka = {
+                color = { 95 64 132 }
+                color2 = { 255 255 255 }
+
+                b_lasusua = {
+                    province = 11502
+                    color = { 95 64 132 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_kolaka = {
+                    province = 11503
+                    color = { 89 45 126 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+        }
+        d_south_sulawesi = {
+            color = { 26 55 5 }
+            color2 = { 255 255 255 }
+
+            c_bugis = {
+                color = { 26 55 5 }
+                color2 = { 255 255 255 }
+
+                b_sopeng = {
+                    province = 11504
+                    color = { 26 55 5 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_parepare = {
+                    province = 11507
+                    color = { 126 155 205 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_luwu = {
+                color = { 68 31 35 }
+                color2 = { 255 255 255 }
+
+                b_burau = {
+                    province = 11508
+                    color = { 68 31 35 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_larompong = {
+                    province = 11509
+                    color = { 68 21 135 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_mandar = {
+                color = { 100 254 26 }
+                color2 = { 255 255 255 }
+
+                b_topoyo = {
+                    province = 11511
+                    color = { 1 254 86 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_seko = {
+                    province = 11512
+                    color = { 221 254 86 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_mamuju = {
+                color = { 21 254 186 }
+                color2 = { 255 255 255 }
+
+                b_mamuju = {
+                    province = 11514
+                    color = { 21 254 186 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_polewali = {
+                    province = 11515
+                    color = { 21 254 86 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+            c_makassar = {
+                color = { 57 86 54 }
+                color2 = { 255 255 255 }
+
+                b_makassar = {
+                    province = 11517
+                    color = { 57 86 54 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_bulukumba = {
+                    province = 11519
+                    color = { 157 186 24 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            } 
+        }
+    }
+    k_maluku = {
+        color = { 235 124 52 }
+        color2 = { 255 255 255 }
+
+    	capital = c_ambon
+
+        d_ternate = {
+            color = { 235 84 52 }
+            color2 = { 255 255 255 }
+
+            c_ternate = {
+                color = { 235 84 52 }
+                color2 = { 255 255 255 }
+
+                b_ternate = {
+                    province = 11472
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_jailolo = {
+                color = { 215 4 25 }
+                color2 = { 255 255 255 }
+
+                b_jailolo = {
+                    province = 12040
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_moro = {
+                color = { 235 84 22 }
+                color2 = { 255 255 255 }
+				
+                b_loloda = {
+                    province = 11476
+                    color = { 120 83 20 }
+                    color2 = { 255 255 255 }
+                        
+                }
+                b_moro = {
+                    province = 11477
+                    color = { 93 248 87 }
+                    color2 = { 255 255 255 }
+                        
+                }
+            }
+			c_gane = {
+                color = { 253 48 27 }
+                color2 = { 255 255 255 }
+
+                b_gane = {
+                    province = 11470
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_bacan = {
+                color = { 253 48 27 }
+                color2 = { 255 255 255 }
+
+                b_bacan = {
+                    province = 11465
+                    color = { 120 83 120 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_obi = {
+                    province = 10926
+                    color = { 235 44 22 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+        }
+		d_tidore = {
+            color = { 195 144 52 }
+            color2 = { 255 255 255 }
+
+            c_tidore = {
+                color = { 195 144 52 }
+                color2 = { 255 255 255 }
+
+                b_tidore = {
+                    province = 11471
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_weda = {
+                color = { 215 144 52 }
+                color2 = { 255 255 255 }
+
+                b_weda = {
+                    province = 11480
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wasile = {
+                color = { 215 144 22 }
+                color2 = { 255 255 255 }
+
+                b_wasile = {
+                    province = 11482
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_raja_ampat = {
+                color = { 205 114 62 }
+                color2 = { 255 255 255 }
+
+                b_waigeo = {
+                    province = 11485
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_salawati = {
+                    province = 11486
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_waigama = {
+                    province = 11489
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_wanin = {
+            color = { 252 186 3 }
+            color2 = { 255 255 255 }
+
+            c_fakfak = {
+                color = { 202 186 33 }
+                color2 = { 255 255 255 }
+
+                b_fakfak = {
+                    province = 11491
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_buruwai = {
+                    province = 11495
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_mairasi = {
+                color = { 202 146 33 }
+                color2 = { 255 255 255 }
+
+                b_mairasi = {
+                    province = 11516
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_mer = {
+                    province = 11518
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wamesa = {
+                color = { 202 126 33 }
+                color2 = { 255 255 255 }
+
+                b_wamesa = {
+                    province = 11498
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_irarutu = {
+                    province = 11496
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_arandai = {
+                color = { 202 106 33 }
+                color2 = { 255 255 255 }
+
+                b_arandai = {
+                    province = 11513
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_soren = {
+                color = { 195 144 52 }
+                color2 = { 255 255 255 }
+
+                b_soren = {
+                    province = 11505
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_maybrat = {
+                    province = 11506
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_abun = {
+                    province = 11500
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_sougb = {
+                    province = 11510
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_banda = {
+            color = { 150 166 68 }
+            color2 = { 255 255 255 }
+
+            c_ambon = {
+                color = { 120 126 78 }
+                color2 = { 255 255 255 }
+
+                b_ambon = {
+                    province = 10457
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_huamual = {
+                    province = 10533
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_buru = {
+                color = { 120 126 98 }
+                color2 = { 255 255 255 }
+
+                b_buru = {
+                    province = 10456
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sula = {
+                color = { 120 86 98 }
+                color2 = { 255 255 255 }
+
+                b_sula = {
+                    province = 10453
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sahulau = {
+                color = { 120 156 98 }
+                color2 = { 255 255 255 }
+
+                b_sahulau = {
+                    province = 10534
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_tehoru = {
+                    province = 10550
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wahai = {
+                color = { 190 116 18 }
+                color2 = { 255 255 255 }
+
+                b_wahai = {
+                    province = 10867
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_bobot = {
+                    province = 10866
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_aru = {
+                color = { 102 86 33 }
+                color2 = { 255 255 255 }
+
+                b_aru = {
+                    province = 11520
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_kei = {
+                    province = 11826
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_yamdena = {
+                    province = 11865
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+		d_timor = {
+            color = { 150 166 168 }
+            color2 = { 255 255 255 }
+
+            c_wehali = {
+                color = { 120 126 178 }
+                color2 = { 255 255 255 }
+
+                b_wehali = {
+                    province = 12025
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_kupang = {
+                color = { 109 122 108 }
+                color2 = { 255 255 255 }
+
+                b_kupang = {
+                    province = 12022
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sonbay = {
+                color = { 127 113 145 }
+                color2 = { 255 255 255 }
+
+                b_amanuban = {
+                    province = 12024
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_ambeno = {
+                    province = 12023
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_likusaen = {
+                color = { 180 136 180 }
+                color2 = { 255 255 255 }
+
+                b_baukau = {
+                    province = 12027
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_maubara = {
+                    province = 12026
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_sumba = {
+                color = { 110 136 158 }
+                color2 = { 255 255 255 }
+
+                b_sumba = {
+                    province = 12016
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_nipa = {
+                color = { 178 142 136 }
+                color2 = { 255 255 255 }
+
+                b_nipa = {
+                    province = 12017
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_larantuka = {
+                color = { 160 136 118 }
+                color2 = { 255 255 255 }
+
+                b_larantuka = {
+                    province = 12018
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+				b_lembata = {
+                    province = 12019
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_alor = {
+                color = { 112 136 156 }
+                color2 = { 255 255 255 }
+
+                b_alor = {
+                    province = 12020
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+			c_wetar = {
+                color = { 113 151 138 }
+                color2 = { 255 255 255 }
+
+                b_wetar = {
+                    province = 12021
+                    color = { 195 144 52 }
+                    color2 = { 255 255 255 }
+                        
+                }
+			}
+		}
+    }
+}
