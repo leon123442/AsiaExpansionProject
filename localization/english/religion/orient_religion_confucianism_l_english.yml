@@ -12,7 +12,7 @@
  # "门生"
  confucianism_religion_adjerent_plural:0 "Confucians"
  # "仁，统摄天理人心，仁政即君君、臣臣、父父、子子之道。仁者爱人，格物致知，正心诚意，修身齐家，治国平天下。"
- confucianism_religion_desc:0 "Benevolence governs the principles of heaven and human heart, and benevolent governance is the way of the emperor, ministers, father, father, and son. The benevolent loves others, understands things, and is sincere, self-cultivation and family, and rule the country."
+ confucianism_religion_desc:0 "Confucians believe benevolence is the governing principle of heaven and the human heart. A benevolent government is virtuous, it must be the way of Emperor, who his the spiritual father to his subjects. The good Confucian loves others, is understanding, sincere, self-cultivated, filially pious and an effective ruler."
 
  # "理"
  confucianism_high_god_name:0 "Reason"
@@ -154,7 +154,7 @@
  # "心学门生"
  xinxue_adherent_plural:0 "Xinxue disciples"
  # "心学门生反抗既定的天理和命数，认为通过内修仁心，外立事功，人人皆可以为尧舜，即“内圣外王”之道。"
- xinxue_desc:0 "Students of Xinxue resisted the established laws and destiny, and believed that by cultivating benevolence internally and doing deeds externally, everyone can be Yao and Shun, that is, the way of "internal sage and external king"."
+ xinxue_desc:0 "Students of Xinxue resisted established laws and norms, believing that by cultivating benevolence internally and doing good deeds to others, everyone can follow the way of Yao and Shun, the “internal Sage and external King.” "
 
  #jingxue
  # "经学"
@@ -166,7 +166,7 @@
  # "博士"
  jingxue_adherent_plural:0 "Jingxue disciples"
  # "经学博士遵循儒家原典“十三经”的教诲，通过严密的考据，辨析经义，阐释齐家治国之道，并以此论证天子的无上权威。"
- jingxue_desc:0 "The Doctor of Confucian Classics follows the teachings of the \"Thirteen Classics\" of the original Confucian classics, through rigorous textual research, analyzes the meaning of the classics, explains the Qi family's way of governing the country, and demonstrates the supreme authority of the emperor."
+ jingxue_desc:0 "The Students of the Confucian Classics follow the teachings in the \"Thirteen Classics\", through rigorous textual research analysing the books’ meanings, they explain the proper ways of governing, and demonstrate the supreme authority of the Emperor."
 
  #rangyi
  # "攘夷派"
@@ -178,4 +178,4 @@
  # "攘夷派儒生"
  rangyi_adherent_plural:0 "Rangyi disciples"
  # "儒生们相信中华文化和儒家圣教至高无上，应当上奉天子，外攘贼寇，扬汉家威德，命四夷宾服。"
- rangyi_desc:0 "Confucian students believe that Chinese culture and Confucian sacred teachings are supreme, and they should serve the emperor, fight against thieves and bandits, promote the mighty virtue of the Han family, and order the four barbarians to serve."
+ rangyi_desc:0 "Students of Rangyi believe that Chinese culture and the sacred Confucian teachings are supreme to all others. Indeed, all should serve the Emperor, keep China stable, promote the mighty virtue of the Han and order the external barbarians to serve."
