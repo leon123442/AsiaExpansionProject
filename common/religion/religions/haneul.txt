@@ -1,0 +1,439 @@
+﻿haneul = {
+	family = rf_pagan
+	graphical_faith = dharmic_gfx
+	doctrine = eastern_hostility_doctrine
+	pagan_roots = yes
+	
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_monogamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_disallowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+	
+	traits = {
+		virtues = {
+			generous
+			honest
+			calm
+		}
+		sins = {
+			deceitful
+			impatient
+			wrathful
+		}
+	}
+	
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+	}
+
+	localization = {
+		#HighGodName
+		HighGodName = haneul_high_god_name
+		HighGodNamePossessive = haneul_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = haneul_high_god_name_alternate
+		HighGodNameAlternatePossessive = haneul_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = haneul_creator_god_name
+		CreatorNamePossessive = haneul_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_IT
+		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHim = CHARACTER_HERHIM_IT
+
+		#HealthGod
+		HealthGodName = haneul_health_god_name
+		HealthGodNamePossessive = haneul_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = haneul_fertility_god_name
+		FertilityGodNamePossessive = haneul_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WealthGod
+		WealthGodName = haneul_wealth_god_name
+		WealthGodNamePossessive = haneul_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+		#HouseholdGod
+		HouseholdGodName = haneul_household_god_name
+		HouseholdGodNamePossessive = haneul_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = haneul_fate_god_name
+		FateGodNamePossessive = haneul_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+
+		#KnowledgeGod
+		KnowledgeGodName = haneul_knowledge_god_name
+		KnowledgeGodNamePossessive = haneul_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = haneul_war_god_name
+		WarGodNamePossessive = haneul_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = haneul_trickster_god_name
+		TricksterGodNamePossessive = haneul_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+		#NightGod
+		NightGodName = haneul_night_god_name
+		NightGodNamePossessive = haneul_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = haneul_water_god_name
+		WaterGodNamePossessive = haneul_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		
+		PantheonTerm = buddhism_samsara
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			haneul_high_god_name
+			haneul_high_god_alternate
+			haneul_good_god_yuhwa
+			haneul_good_god_haemosu
+			haneul_good_god_haeburu
+			haneul_good_god_yushin
+		}
+		DevilName = haneul_devil_name
+		DevilNamePossessive = haneul_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HER
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = {
+			haneul_devil_name
+			haneul_evil_god_tanha
+			haneul_evil_god_arati
+			haneul_evil_god_raga
+		}
+		HouseOfWorship = haneul_house_of_worship
+		HouseOfWorshipPlural = haneul_house_of_worship_plural
+		ReligiousSymbol = haneul_religious_symbol
+		ReligiousText = haneul_religious_text
+		ReligiousHeadName = haneul_religious_head_title
+		ReligiousHeadTitleName = haneul_religious_head_title_name
+		DevoteeMale = haneul_devotee_male
+		DevoteeMalePlural = haneul_devotee_male_plural
+		DevoteeFemale = haneul_devotee_female
+		DevoteeFemalePlural = haneul_devotee_female_plural
+		DevoteeNeuter = haneul_devotee_male
+		DevoteeNeuterPlural = haneul_devotee_male_plural
+		PriestMale = haneul_devotee_male
+		PriestMalePlural = haneul_devotee_male_plural
+		PriestFemale = haneul_devotee_female
+		PriestFemalePlural = haneul_devotee_female_plural
+		PriestNeuter = haneul_devotee_male
+		PriestNeuterPlural = haneul_devotee_male_plural
+		AltPriestTermPlural = haneul_alt_priest_term
+		BishopMale = haneul_devotee_male
+		BishopMalePlural = haneul_devotee_male_plural
+		BishopFemale = haneul_devotee_female
+		BishopFemalePlural = haneul_devotee_female_plural
+		BishopNeuter = haneul_devotee_male
+		BishopNeuterPlural = haneul_devotee_male_plural
+		DivineRealm = haneul_divine_realm
+		PositiveAfterLife = haneul_divine_realm
+		NegativeAfterLife = haneul_negative_afterlife
+		DeathDeityName = haneul_death_god_name
+		DeathDeityNamePossessive = haneul_death_god_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		WitchGodName = haneul_witchgodname
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}
+	
+	faiths = {
+		palgeuinuri = { # Korean ethnic religion as the State religion prior to arrival of Buddhism (3rd - 6th century) - ᄇᆞᆰ의 뉘
+			colour = { 201 201 255 }
+			religious_head = { k_silla }
+			icon = nivkh
+			doctrine = pagan_hostility_doctrine
+			
+			holy_site = gyerim
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = gyeryongsan # Gyeryongsan
+			holy_site = asadal # Asadal
+
+			doctrine = doctrine_head_temporal
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_theocracy_lay_clergy
+
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_legitimization
+			doctrine = doctrine_consanguinity_cousins
+
+			#Crimes
+			doctrine = doctrine_homosexuality_shunned
+			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_kinslaying_extended_family_crime
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_witchcraft_accepted
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_recruitment # Hwarang
+			doctrine = doctrine_clerical_gender_either
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_appointment
+			
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_communal_identity # Korean ethnic religion
+			
+			GHWName = ghw_great_holy_war
+			GHWNamePlural = ghw_great_holy_wars
+		}
+		gyodan = { # Ethnic religion incorporated into the Buddhist State religion - important concepts of 호국 불교 and 자장 and also called Buru 부루
+			colour = { 19 137 228 }
+			religious_head = { k_goryeo }
+			icon = nivkh
+			
+			holy_site = gyerim
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = gyeryongsan # Gyeryongsan
+			holy_site = asadal # Asadal
+			
+			doctrine = doctrine_temporal_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_pluralism_pluralistic
+			doctrine = doctrine_theocracy_lay_clergy
+
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_legitimization
+			doctrine = doctrine_consanguinity_restricted
+
+			#Crimes
+			doctrine = doctrine_homosexuality_shunned
+			doctrine = doctrine_adultery_men_crime
+			doctrine = doctrine_adultery_women_crime
+			doctrine = doctrine_kinslaying_any_dynasty_member_crime
+			doctrine = doctrine_deviancy_shunned
+			doctrine = doctrine_witchcraft_accepted
+
+			#Clerical Functions
+			doctrine = doctrine_clerical_function_recruitment # Hwarang
+			doctrine = doctrine_clerical_gender_men_only
+			doctrine = doctrine_clerical_marriage_allowed
+			doctrine = doctrine_clerical_succession_temporal_appointment
+			
+			doctrine = tenet_dharmic_pacifism
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_monasticism
+			
+			localization = {
+				#HighGodName
+				HighGodName = gyodan_high_god_name
+				HighGodNamePossessive = gyodan_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = gyodan_high_god_name_alternate
+				HighGodNameAlternatePossessive = gyodan_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = haneul_creator_god_name
+				CreatorNamePossessive = haneul_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_IT
+				CreatorHerHis = CHARACTER_HERHIS_ITS
+				CreatorHerHim = CHARACTER_HERHIM_IT
+
+				#HealthGod
+				HealthGodName = haneul_health_god_name
+				HealthGodNamePossessive = haneul_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = haneul_fertility_god_name
+				FertilityGodNamePossessive = haneul_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_HE
+				FertilityGodHerHis = CHARACTER_HERHIS_HIS
+				FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WealthGod
+				WealthGodName = haneul_wealth_god_name
+				WealthGodNamePossessive = haneul_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_HE
+				WealthGodHerHis = CHARACTER_HERHIS_HIS
+				WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+				#HouseholdGod
+				HouseholdGodName = haneul_household_god_name
+				HouseholdGodNamePossessive = haneul_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_HE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+				#FateGod
+				FateGodName = haneul_fate_god_name
+				FateGodNamePossessive = haneul_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_IT
+				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHim = CHARACTER_HERHIM_IT
+
+				#KnowledgeGod
+				KnowledgeGodName = haneul_knowledge_god_name
+				KnowledgeGodNamePossessive = haneul_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WarGod
+				WarGodName = haneul_war_god_name
+				WarGodNamePossessive = haneul_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+
+				#TricksterGod
+				TricksterGodName = haneul_trickster_god_name
+				TricksterGodNamePossessive = haneul_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_SHE
+				TricksterGodHerHis = CHARACTER_HERHIS_HER
+				TricksterGodHerHim = CHARACTER_HERHIM_HER
+
+				#NightGod
+				NightGodName = haneul_night_god_name
+				NightGodNamePossessive = haneul_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+
+				#WaterGod
+				WaterGodName = haneul_water_god_name
+				WaterGodNamePossessive = haneul_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_HE
+				WaterGodHerHis = CHARACTER_HERHIS_HIS
+				WaterGodHerHim = CHARACTER_HERHIM_HIM
+				
+				PantheonTerm = buddhism_samsara
+				PantheonTermHasHave = pantheon_term_has
+				GoodGodNames = {
+					haneul_high_god_name
+					haneul_high_god_alternate
+					haneul_good_god_buddha
+					haneul_good_god_arhat
+					haneul_good_god_perfected_ones
+				}
+				DevilName = haneul_devil_name
+				DevilNamePossessive = haneul_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_HE
+				DevilHerHis = CHARACTER_HERHIS_HER
+				DevilHerselfHimself = CHARACTER_HIMSELF
+				EvilGodNames = {
+					haneul_devil_name
+					haneul_evil_god_tanha
+					haneul_evil_god_arati
+					haneul_evil_god_raga
+				}
+				HouseOfWorship = haneul_house_of_worship
+				HouseOfWorshipPlural = haneul_house_of_worship_plural
+				ReligiousSymbol = haneul_religious_symbol
+				ReligiousText = haneul_religious_text
+				ReligiousHeadName = haneul_religious_head_title
+				ReligiousHeadTitleName = haneul_religious_head_title_name
+				DevoteeMale = haneul_devotee_male
+				DevoteeMalePlural = haneul_devotee_male_plural
+				DevoteeFemale = haneul_devotee_female
+				DevoteeFemalePlural = haneul_devotee_female_plural
+				DevoteeNeuter = haneul_devotee_male
+				DevoteeNeuterPlural = haneul_devotee_male_plural
+				PriestMale = haneul_devotee_male
+				PriestMalePlural = haneul_devotee_male_plural
+				PriestFemale = haneul_devotee_female
+				PriestFemalePlural = haneul_devotee_female_plural
+				PriestNeuter = haneul_devotee_male
+				PriestNeuterPlural = haneul_devotee_male_plural
+				AltPriestTermPlural = haneul_alt_priest_term
+				BishopMale = haneul_devotee_male
+				BishopMalePlural = haneul_devotee_male_plural
+				BishopFemale = haneul_devotee_female
+				BishopFemalePlural = haneul_devotee_female_plural
+				BishopNeuter = haneul_devotee_male
+				BishopNeuterPlural = haneul_devotee_male_plural
+				DivineRealm = haneul_divine_realm
+				PositiveAfterLife = haneul_divine_realm
+				NegativeAfterLife = haneul_negative_afterlife
+				DeathDeityName = haneul_death_god_name
+				DeathDeityNamePossessive = haneul_death_god_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				WitchGodName = haneul_witchgod_mara
+				WitchGodHerHis = CHARACTER_HERHIS_HIS
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HIM
+				WitchGodMistressMaster = master
+				WitchGodMotherFather = father
+			
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}
+		}
+	}
+}
