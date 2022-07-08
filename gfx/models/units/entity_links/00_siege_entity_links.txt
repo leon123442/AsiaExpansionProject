@@ -1,0 +1,32 @@
+﻿default_siege = {
+	type = siege
+	entity = unit_western_siege_03_trebuchet_entity
+}
+
+default_siege_01 = {
+	type = siege
+	graphical_cultures = { western_unit_gfx mena_unit_gfx eastern_unit_gfx northern_unit_gfx indian_unit_gfx mongol_unit_gfx }
+	entity = unit_western_siege_01_onager_entity
+	quality = 1
+}
+
+default_siege_02 = {
+	type = siege
+	graphical_cultures = { western_unit_gfx mena_unit_gfx eastern_unit_gfx northern_unit_gfx indian_unit_gfx mongol_unit_gfx }
+	entity = unit_western_siege_02_mangonel_entity
+	quality = 2
+}
+
+default_siege_03 = {
+	type = siege
+	graphical_cultures = { western_unit_gfx mena_unit_gfx eastern_unit_gfx northern_unit_gfx indian_unit_gfx mongol_unit_gfx }
+	entity = unit_western_siege_03_trebuchet_entity
+	quality = 3
+}
+
+default_siege_04 = {
+	type = siege
+	graphical_cultures = { western_unit_gfx mena_unit_gfx eastern_unit_gfx northern_unit_gfx indian_unit_gfx mongol_unit_gfx }
+	entity = unit_western_siege_04_bombard_entity
+	quality = 4
+}

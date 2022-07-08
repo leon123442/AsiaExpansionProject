@@ -1,0 +1,26 @@
+﻿default_fleet = {
+	type = fleet
+	
+	entity = "unit_western_ship_01_cog_entity"
+}
+
+fp1_norse_fleet = {
+	requires_dlc_flag = the_northern_lords
+	type = fleet
+	graphical_cultures = { norse_unit_gfx }
+	entity = unit_fp1_ship_01_knarr_entity
+}
+
+fp2_mediterranean_fleet = {
+	requires_dlc_flag = the_fate_of_iberia
+	type = fleet
+	graphical_cultures = { iberian_christian_unit_gfx }
+	entity = unit_fp2_mediterranean_ship_01_entity
+}
+
+fp2_mena_fleet = {
+	requires_dlc_flag = the_fate_of_iberia
+	type = fleet
+	graphical_cultures = { mena_unit_gfx iberian_muslim_unit_gfx }
+	entity = unit_fp2_mena_ship_01_entity
+}

@@ -1,3 +1,16 @@
 ﻿has_graphical_yamato_culture_group_trigger = {
 	has_culture = culture:yamato
 }
+has_graphical_japanese_culture_group_trigger = {
+	has_building_gfx = japanese_building_gfx
+}
+
+has_graphical_chinese_culture_group_trigger = {
+	has_building_gfx = chinese_building_gfx
+}
+has_graphical_tibetan_culture_group_trigger = {
+	has_building_gfx = tibetan_building_gfx
+}
+has_graphical_sea_culture_group_trigger = {
+	has_building_gfx = sea_building_gfx
+}

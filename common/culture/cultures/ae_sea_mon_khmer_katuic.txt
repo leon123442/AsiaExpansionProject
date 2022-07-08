@@ -9,7 +9,7 @@
 	name_list = name_list_khmer
 
 	coa_gfx = { burman_group_coa_gfx  }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -36,7 +36,7 @@ kuy = {
 	name_list = name_list_khmer
 
 	coa_gfx = { burman_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -66,7 +66,7 @@ dega = {
 	name_list = name_list_khmer
 
 	coa_gfx = { burman_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
@@ -101,7 +101,7 @@ bahnaric = {
 	name_list = name_list_bengali
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
@@ -131,7 +131,7 @@ mon = {
 	}
 
 	coa_gfx = { burman_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { sea_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	

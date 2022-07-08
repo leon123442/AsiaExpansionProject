@@ -1218,6 +1218,78 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			#### CHINESE HAIRSTYLES from CHINESE CLOTHING MOD ####
+			chinese_hairstyles_straight = {
+				index = 49
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
+
+			chinese_hairstyles_wavy = {
+				index = 50
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+					boy = male
+					girl = female
+			}
+
+			chinese_hairstyles_curly = {
+				index = 51
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
+			
+			chinese_hairstyles_afro = {
+				index = 52
+				male = {
+					1 = male_hair_chinese_01
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
 
 		}
 
