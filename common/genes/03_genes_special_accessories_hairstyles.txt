@@ -1129,7 +1129,7 @@ special_genes = {
 			### JAPANESE HAIRSTYLES ###
 
 			japanese_hairstyles_straight = {
-				index = 44
+				index = 60
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
@@ -1145,7 +1145,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_wavy = {
-				index = 45
+				index = 61
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
@@ -1162,7 +1162,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_curly = {
-				index = 46
+				index = 62
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					2 = male_hair_mena_04 # Medium curly
@@ -1178,7 +1178,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_afro = {
-				index = 47
+				index = 63
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
@@ -1195,7 +1195,7 @@ special_genes = {
 			}
 
 			ainu_hairstyles = {
-				index = 48
+				index = 64
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_northern_02
@@ -1221,7 +1221,7 @@ special_genes = {
 			
 			#### CHINESE HAIRSTYLES from CHINESE CLOTHING MOD ####
 			chinese_hairstyles_straight = {
-				index = 49
+				index = 65
 				male = {
 					1 = male_hair_chinese_01
 					
@@ -1239,7 +1239,7 @@ special_genes = {
 			}
 
 			chinese_hairstyles_wavy = {
-				index = 50
+				index = 66
 				male = {
 					1 = male_hair_chinese_01
 					
@@ -1257,7 +1257,7 @@ special_genes = {
 			}
 
 			chinese_hairstyles_curly = {
-				index = 51
+				index = 67
 				male = {
 					1 = male_hair_chinese_01
 					
@@ -1275,7 +1275,7 @@ special_genes = {
 			}
 			
 			chinese_hairstyles_afro = {
-				index = 52
+				index = 68
 				male = {
 					1 = male_hair_chinese_01
 				}

@@ -32,7 +32,7 @@ pdxmesh = {
 	animation = { id = "winlose_defensive_seq_1_animation" 		type = "../animations/infantry_01_axe_winlose_defensive_seq_1.anim" }
 	animation = { id = "pursuit_defensive_seq_1_animation" 		type = "../animations/infantry_01_axe_pursuit_defensive_seq_1.anim" }
 	animation = { id = "even_winlose_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_even_winlose_tx_defensive_1.anim" }
-	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }	
+	animation = { id = "winlose_even_tx_defensive_1_animation" 	type = "../animations/infantry_01_axe_winlose_even_tx_defensive_1.anim" }		
 
 	meshsettings = {
 		name = "unit_japanese_infantry_02Shape"
@@ -133,7 +133,7 @@ entity = {
 	
 	state = {
 		name = "move_attack"
-		animation = "idle_tx_battle_axes_animation"
+		animation = "idle_tx_battle_swords_animation"
 		animation_blend_time = 0.3
 		looping = no
 		next_state = move_attack_continue

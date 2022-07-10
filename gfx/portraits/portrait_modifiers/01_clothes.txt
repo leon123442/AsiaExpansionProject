@@ -4371,7 +4371,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 20
+				add = 100
 				scope:highest_held_title_tier < tier_county
 				trigger_if = {
 					limit = { exists = this }
@@ -4422,7 +4422,7 @@ clothes = {
 				portrait_japanese_clothing_trigger = yes
 			}
 			modifier = {
-				add = 50
+				add = 100
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
@@ -4495,7 +4495,7 @@ clothes = {
 				portrait_japanese_clothing_trigger = yes
 			}
 			modifier = {
-				add = 50
+				add = 100
 				trigger_if = {
 					limit = { exists = this }
 					OR = {
@@ -5037,7 +5037,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 80
+				add = 100
 				highest_held_title_tier < tier_county
 				NOR = {
 					AND = {
@@ -5081,7 +5081,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 80
+				add = 100
 				OR = {
 					AND = {
 						highest_held_title_tier = tier_county
@@ -5141,7 +5141,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 80
+				add = 100
 				OR = {
 					AND = {
 						OR = {
@@ -5200,7 +5200,7 @@ clothes = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 200
 				highest_held_title_tier = tier_empire
 				NOR = {
 					AND = { is_ruler = yes has_government = mercenary_government  }
