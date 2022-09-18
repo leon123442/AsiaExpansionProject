@@ -1,44 +1,79 @@
-﻿#northern Korean
+﻿# goguryeo - central and northern Korea
 goguryeo = {
 	color = { 0 206 167 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_korean
-	language = language_goguryeon
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_family_entrepreneurship
-		tradition_mystical_ancestors
-		tradition_chinese_characters
-		tradition_philosopher_culture
-	}
-	
-	name_list = name_list_korean
-	
-	coa_gfx = { steppe_coa_gfx }
-	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { han_clothing_gfx mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-	ethnicities = {
-		10 = asian
-	}
-}
-#merge Korean?
-goryeon = {
-	color = { 50 200 50 }
-	
-	created = 918.1.1
-	parents = { goguryeo senhan }
 	
 	ethos = ethos_courtly
 	heritage = heritage_korean
 	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_castle_keepers
 		tradition_mystical_ancestors
 		tradition_chinese_characters
+		tradition_stalwart_defenders
+		tradition_korean_maa
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+	}
+}
+# Koreanic elite from Goguryeo that ruled the northern state of Balhae
+balhae = {
+	color = { 160 160 134 }
+	
+	created = 700.1.1
+	parents = { goguryeo mohese }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_castle_keepers
+		tradition_chinese_characters
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_korean
+
+	coa_gfx = { steppe_coa_gfx } 
+	building_gfx = { chinese_building_gfx } 
+	clothing_gfx = { mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 		
+
+	ethnicities = {
+		10 = asian
+	}
+}
+# Korean during Goryeo - from previous Koreanic cultures (for ingame purposes from Goguryeo and Silla)
+goryeon = {
+	color = { 50 200 50 }
+	
+	created = 918.1.1
+	parents = { goguryeo saro }
+	
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_korean_maa
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_astute_diplomats
 		tradition_philosopher_culture
 	}
 	
@@ -46,85 +81,114 @@ goryeon = {
 	
 	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { han_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
 		10 = asian
 	}
 }
+# silla
+saro = { # Saro
+	color = { 86 215 155 }
 
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_korean_maa
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_ruling_caste
+		tradition_isolationist
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = asian
+	}
+}
+# baekje
 baekje = {
 	color = { 9 175 126 }
 			
 	ethos = ethos_courtly
 	heritage = heritage_korean
-	language = language_sillanese
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
+		tradition_korean_maa
 		tradition_mystical_ancestors
 		tradition_chinese_characters
-		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_maritime_mercantilism
 	}
 	
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { han_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
 		10 = asian
 	}
 }
-#jeju
-tamnanese = {
+# jeju
+tamna = {
 	color = { 0 206 41 }
 	
-	ethos = ethos_courtly
-	heritage = heritage_korean
-	language = language_tamnanese
+	ethos = ethos_communal
+	heritage = heritage_japan
+	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_chinese_characters
-		tradition_philosopher_culture
+		tradition_fishermen
+		tradition_korean_maa
 	}
 	
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { han_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { japanese_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
 		10 = asian
 	}
 }
-#silla
-senhan = {
-	color = { 86 215 155 }
-
-	ethos = ethos_courtly
+# yemaek
+yemaek = {
+	color = { 85 187 191 }
+	
+	ethos = ethos_communal
 	heritage = heritage_korean
-	language = language_sillanese
+	heritage = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_family_entrepreneurship
-		tradition_mystical_ancestors
-		tradition_chinese_characters
-		tradition_philosopher_culture
+		tradition_sacred_mountains
+		tradition_sacred_groves
+		tradition_forest_folk
+		tradition_pastoralists
+		tradition_korean_maa
 	}
 	
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { han_clothing_gfx mongol_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {

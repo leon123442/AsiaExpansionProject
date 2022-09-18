@@ -1,0 +1,43 @@
+﻿l_russian:
+ doctrine_sampradaya_name:0 "Сампрадая"
+ doctrine_sampradaya_desc:0 "В индуизме существует ряд сампрадаев, связывающих различные традиции и обычаи воедино и имеющих общий авторитет."
+
+ sampradaya_vaishnavism_doctrine_name:0 "Вайшнава"
+ sampradaya_vaishnavism_doctrine_desc:0 "Вайшнава - это традиция индуизма, которая поклоняется Вишну как Сваям-бхагавану."
+ doctrine_parameter_hostility_override_sampradaya_vaishnavism_doctrine_1:0 "Считает другие вайшнавские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_vaishnavism_doctrine:0 "Считает другие вайшнавские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_shaivism_doctrine_name:0 "Шайвизм"
+ sampradaya_shaivism_doctrine_desc:0 "Шайвизм - это традиция индуизма, которая поклоняется Шиве как Сваям-бхагавану."
+ doctrine_parameter_hostility_override_sampradaya_shaivism_doctrine_1:0 "Считает другие шайвистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_shaivism_doctrine:0 "Считает другие шайвистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_shaktism_doctrine_name:0 "Шактизм"
+ sampradaya_shaktism_doctrine_desc:0 "Шакты поклоняются Богине как Матери Шакти, в различных формах."
+ doctrine_parameter_hostility_override_sampradaya_shaktism_doctrine_1:0 "Считает другие шактистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_shaktism_doctrine:0 "Считает другие шактистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_smartism_doctrine_name:0 "Смартизм"
+ sampradaya_smartism_doctrine_desc:0 "Смарта - индуистская традиция синтеза, основанная Ади Шанкарой"
+ doctrine_parameter_hostility_override_sampradaya_smartism_doctrine_1:0 "Считает другие индуистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_smartism_doctrine:0 "Считает другие индуистские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_saurism_doctrine_name:0 "Сауризм"
+ sampradaya_saurism_doctrine_desc:0 "Сауризм - это традиция индуизма, которая поклоняется Сурье как Сваям Бхагавану."
+ doctrine_parameter_hostility_override_sampradaya_saurism_doctrine_1:0 "Считает другие сауристские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_saurism_doctrine:0 "Считает другие сауристские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_ganapatism_doctrine_name:0 "Ганаптья"
+ sampradaya_ganapatism_doctrine_desc:0 "Ганапатья - это традиция индуизма, которая поклоняется Ганеше как Сваям Бхагавану."
+ doctrine_parameter_hostility_override_sampradaya_ganapatism_doctrine_1:0 "Считает другие ганаптьские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_ganapatism_doctrine:0 "Считает другие ганаптьские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_kaumaram_doctrine_name:0 "Каумарам"
+ sampradaya_kaumaram_doctrine_desc:0 "Каумарам - традиция индуизма, поклоняющаяся Каумараму, также известному как Муруган, как Сваям Бхагаван"
+ doctrine_parameter_hostility_override_sampradaya_kaumaram_doctrine_1:0 "Считает другие каумарамские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_kaumaram_doctrine:0 "Считает другие каумарамские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+
+ sampradaya_shrautism_doctrine_name:0 "Шраутизм"
+ sampradaya_shrautism_doctrine_desc:0 "Шраута или шраутизм - ультраортодоксальная традиция, которая придерживается практики шраутов, изложенной в ведах."
+ doctrine_parameter_hostility_ovhostility_override_sampradaya_smhrautism_doctrine_1:0 "Считает другие шраутские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_sampradaya_smhrautism_doctrine:0 "Считает другие шраутские [faiths|E] [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]"

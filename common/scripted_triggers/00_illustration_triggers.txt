@@ -117,6 +117,38 @@ graphical_wilderness_steppe_trigger = {
 		}
 	}
 }
+graphical_drylands_trigger = {
+	terrain = drylands
+}
+
+graphical_wilderness_wetlands_trigger = {
+	OR = {
+		terrain = wetlands
+		terrain = floodplains
+	}
+}
+
+graphical_wilderness_jungle_trigger = {
+	OR = {
+		terrain = jungle
+		AND = {
+			terrain = hills
+			geographical_region = graphical_india
+		}
+	}
+}
+
+graphical_plains_trigger = {
+	terrain = plains
+}
+
+graphical_wilderness_ocean_trigger = {
+	is_sea_province = yes
+}
+
+graphical_hills_trigger = {
+	terrain = hills
+}
 
 ### Scripted illustrations
 

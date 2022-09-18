@@ -1129,7 +1129,7 @@ special_genes = {
 			### JAPANESE HAIRSTYLES ###
 
 			japanese_hairstyles_straight = {
-				index = 60
+				index = 44
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
@@ -1145,7 +1145,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_wavy = {
-				index = 61
+				index = 45
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
@@ -1162,7 +1162,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_curly = {
-				index = 62
+				index = 46
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					2 = male_hair_mena_04 # Medium curly
@@ -1178,7 +1178,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_afro = {
-				index = 63
+				index = 47
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
@@ -1195,7 +1195,7 @@ special_genes = {
 			}
 
 			ainu_hairstyles = {
-				index = 64
+				index = 48
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_northern_02
@@ -1214,78 +1214,6 @@ special_genes = {
 					10 = female_hair_western_03
 					10 = female_hair_western_02
 					20 = female_hair_rtt_02
-				}
-				boy = male
-				girl = female
-			}
-			
-			#### CHINESE HAIRSTYLES from CHINESE CLOTHING MOD ####
-			chinese_hairstyles_straight = {
-				index = 65
-				male = {
-					1 = male_hair_chinese_01
-					
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
-				}
-				boy = male
-				girl = female
-			}
-
-			chinese_hairstyles_wavy = {
-				index = 66
-				male = {
-					1 = male_hair_chinese_01
-					
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
-				}
-					boy = male
-					girl = female
-			}
-
-			chinese_hairstyles_curly = {
-				index = 67
-				male = {
-					1 = male_hair_chinese_01
-					
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
-				}
-				boy = male
-				girl = female
-			}
-			
-			chinese_hairstyles_afro = {
-				index = 68
-				male = {
-					1 = male_hair_chinese_01
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
 				}
 				boy = male
 				girl = female

@@ -12,5 +12,5 @@ tags={
 	"Total Conversion"
 }
 name="Asia Expansion [Developer Version]"
-supported_version="1.6.1.1"
+supported_version="1.7.1.*"
 remote_file_id="2826413856"

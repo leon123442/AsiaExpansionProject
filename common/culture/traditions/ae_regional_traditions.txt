@@ -89,7 +89,7 @@ tradition_japanese_samurai = {
 	can_pick = {
 		has_cultural_pillar = heritage_japan
 	}
-	
+
 	parameters = {
 		unlock_maa_samurai = yes
 	}
@@ -268,6 +268,67 @@ tradition_khitan_maa = {
 	
 	parameters = {
 		unlock_maa_khitan = yes
+	}
+
+	culture_modifier = {
+	}
+	character_modifier = {
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						any_in_list = { list = traits this = flag:ethos_bellicose }
+						any_in_list = { list = traits this = flag:ethos_communal }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+#Korean
+
+tradition_korean_maa = {
+	category = regional
+
+	layers = {
+		0 = default5.dds
+		1 = default_todo.dds
+		2 = rec3_copy_2.dds
+		3 = 2.dds
+		4 = soldiers.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_korean
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_korean
+	}
+	
+	parameters = {
+		unlock_maa_korea = yes
 	}
 
 	culture_modifier = {

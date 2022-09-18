@@ -191,7 +191,8 @@
 #c_danluo
 #b_danluo
 10890 = {
-    culture = tamnanese
+    #culture = tamnanese
+	culture = baekje
 	religion = mahayana 
 	holding = castle_holding
 }

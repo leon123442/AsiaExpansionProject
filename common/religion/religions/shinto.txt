@@ -206,6 +206,7 @@
 			holy_site = takamori
 			holy_site = atsuta
 			holy_site = suwa
+			holy_site = suruga
 
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_theocracy_lay_clergy

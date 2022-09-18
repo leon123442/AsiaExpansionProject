@@ -7,8 +7,8 @@
 @illustration_northern_pagan = "gfx/interface/illustrations/holding_types/temple_northern_pagan.dds"
 @illustration_iberian_christian = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_christian.dds"
 @illustration_iberian_islamic = "gfx/interface/illustrations/holding_types/fp2_temple_iberian_islamic.dds"
-@illustration_pagoda = "gfx/interface/illustrations/holding_types/temple_china.dds"
 @illustration_japan = "gfx/interface/illustrations/holding_types/temple_japan.dds"
+@illustration_china = "gfx/interface/illustrations/holding_types/temple_china.dds"
 
 temple_01 = {
 	construction_time = slow_construction_time
@@ -227,7 +227,7 @@ temple_01 = {
 	asset = {
 		type = pdxmesh
 		name = "pagoda_01_mesh"
-		illustration = @illustration_pagoda
+		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
@@ -618,7 +618,7 @@ temple_02 = {
 	asset = {
 		type = pdxmesh
 		name = "pagoda_02_mesh"
-		illustration = @illustration_pagoda
+		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
@@ -913,7 +913,7 @@ temple_03 = {
 	asset = {
 		type = pdxmesh
 		name = "pagoda_02_mesh"
-		illustration = @illustration_pagoda
+		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }
@@ -1206,7 +1206,7 @@ temple_04 = {
 	asset = {
 		type = pdxmesh
 		name = "pagoda_03_mesh"
-		illustration = @illustration_pagoda
+		illustration = @illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { chinese_building_gfx japanese_building_gfx }

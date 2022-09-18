@@ -15281,7 +15281,7 @@ e_nippon = {
 			color = { 44 50 77 }
 			color2 = { 255 255 255 }
 
-			capital = c_tanba
+			capital = c_izumo
 
 			c_tanba = {
 				color = { 37 59 87 }

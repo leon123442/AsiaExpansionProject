@@ -70,7 +70,7 @@ city_01 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh
@@ -111,7 +111,7 @@ city_01 = {
 		names = {
 			"building_mena_city_01_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mena_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -431,7 +431,7 @@ city_02 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh
@@ -443,7 +443,7 @@ city_02 = {
 	asset = {
 		type = pdxmesh
 		name = "building_sea_city_01_mesh"
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/indian_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { sea_building_gfx }
 	}
@@ -472,7 +472,7 @@ city_02 = {
 		names = {
 			"building_mena_city_01_indian_mesh"
 		}
-		illustration = @holding_illustration_india
+		illustration = @holding_illustration_indian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mena_building_gfx }		
 		graphical_regions = { graphical_india }
@@ -746,7 +746,7 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_chinese_city_02_mesh"
-		illustration = @holding_illustration_china
+		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
 		graphical_regions = { graphical_asia_china graphical_india graphical_mediterranean graphical_mena }
@@ -754,10 +754,10 @@ city_03 = {
 	asset = {
 		type = pdxmesh
 		name = "building_korean_city_02_mesh"
-		illustration = @holding_illustration_china
+		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh
@@ -1081,10 +1081,10 @@ city_04 = {
 	asset = {
 		type = pdxmesh
 		name = "building_korean_city_02_mesh"
-		illustration = @holding_illustration_china
+		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh

@@ -58,6 +58,8 @@
 # world_burma
 # > custom_arakan_mountains
 
+#world_asia_japan
+
  
 world_europe_west_britannia = {
 	duchies = {

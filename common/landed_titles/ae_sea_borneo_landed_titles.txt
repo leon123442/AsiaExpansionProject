@@ -1,6 +1,6 @@
 ﻿
 e_borneo = {
-    color = { 252 227 0 }
+    color = { 210 163 0 }
     color2 = { 255 255 255 }
     capital = c_brunei
 

@@ -1,4 +1,4 @@
-yizong_huangdi_dna = {
+﻿yizong_huangdi_dna = {
     portrait_info = {
         genes={ 		hair_color={ 5 251 109 244 }
             skin_color={ 253 76 132 97 }

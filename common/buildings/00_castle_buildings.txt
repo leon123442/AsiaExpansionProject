@@ -66,7 +66,7 @@ castle_01 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western }
+		graphical_regions = { graphical_asia_korea } 
 	}
 	asset = {
 		type = pdxmesh
@@ -380,7 +380,7 @@ castle_02 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western  }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh
@@ -684,7 +684,7 @@ castle_03 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western  }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh
@@ -989,7 +989,7 @@ castle_04 = {
 		illustration = @holding_illustration_china
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { chinese_building_gfx }
-		graphical_regions = { graphical_asia_korea graphical_western  }
+		graphical_regions = { graphical_asia_korea }
 	}
 	asset = {
 		type = pdxmesh

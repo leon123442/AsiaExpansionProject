@@ -1,4 +1,4 @@
-﻿#Shinto
+﻿###Shinto###
 
 #Atsuta
 atsuta = {
@@ -39,6 +39,14 @@ suwa = {
 	
 	character_modifier = {
 		defender_advantage = 5
+	}
+}
+suruga = {
+	county = c_suruga
+	barony = b_suruga
+	
+	character_modifier = {
+		piety_gain = 0.2
 	}
 }
 
@@ -99,7 +107,7 @@ sanggiyan_alin = {
 
 	character_modifier = {
 		name = holy_site_baishan_effect_name
-		monthly_prestige_gain_mult = 0.3
+		monthly_piety_gain_mult = 0.1
 		archers_damage_mult = 0.2
 	}
 }
