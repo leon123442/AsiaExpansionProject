@@ -1,7 +1,7 @@
 ﻿#黄齐
 e_huang_qi = {
 	color = { 102 105 136 }
-	color2 = { 255 255 255 }
+	
 	capital = c_changan
 	ai_primary_priority = {
 		add = @always_primary_score
@@ -11,31 +11,31 @@ e_huang_qi = {
 
 e_liang = {
 	color = { 132 235 75 }
-	color2 = { 255 255 255 }	
+		
 	capital = c_bianzhou
 	destroy_if_invalid_heir = yes
 }
 e_later_tang = {
 	color = { 92 175 136 }
-	color2 = { 255 255 255 }
+	
 	capital = c_bianzhou
 	destroy_if_invalid_heir = yes
 }
 e_later_jin = {
 	color = { 244 227 160 }
-	color2 = { 255 255 255 }
+	
 	capital = c_bianzhou
 	destroy_if_invalid_heir = yes
 }
 e_later_han = {
 	color = { 192 105 186 }
-	color2 = { 255 255 255 }
+	
 	capital = c_bianzhou
 	destroy_if_invalid_heir = yes
 }
 e_later_zhou = {
 	color = { 218 234 33 }
-	color2 = { 255 255 255 }
+	
 	capital = c_bianzhou
 	destroy_if_invalid_heir = yes
 }

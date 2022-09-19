@@ -2,7 +2,7 @@
 	k_pagan = {
 		#vanilla copy
 		color = { 166 40 224 }
-		color2 = { 255 255 255 }
+		
 		
 		capital = c_pagan
 		
@@ -17,164 +17,164 @@
 		#end vanilla copy
 		d_llishui = {
 			color = { 241 79 15 }
-			color2 = { 255 255 255 }
+			
 			
 			capital = c_lishui
 			
 			c_lishui = {
 				color = { 89 99 24 }
-				color2 = { 255 255 255 }
+				
 				
 				b_Lishui_Xunchuandachuan = {
 					province = 10524
 					
 					color = { 89 99 24 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Jinbaocheng_Moulang = {
 					province = 10523
 					
 					color = { 89 99 24 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Wangcang_Zhenxi = {
 					province = 10525
 					
 					color = { 89 99 24 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 			c_guangdang = {
 				color = { 119 130 51 }
-				color2 = { 255 255 255 }
+				
 				
 				b_Guangdang = {
 					province = 10498
 					
 					color = { 119 130 51 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Changbangcheng = {
 					province = 10521
 					
 					color = { 119 130 51 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_ZhugeTemple = {
 					province = 10499
 					
 					color = { 119 130 51 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_MailikaiRiver = {
 					province = 10522
 					
 					color = { 119 130 51 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 			c_qixian = {
 				color = { 245 85 20 }
-				color2 = { 255 255 255 }
+				
 				
 				b_Menggong_Anxi_Huposhan = {
 					province = 10526
 					
 					color = { 245 85 20 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Xiangbai_Qixian = {
 					province = 10527
 					
 					color = { 245 85 20 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Minuo_River = {
 					province = 10528
 					
 					color = { 245 85 20 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 		}
 		d_shan = {
 			color = { 133 80 64 }
-			color2 = { 255 255 255 }
+			
 			
 			capital = c_hsenwi
 			
 			c_hsenwi = {
 				color = { 23 153 155 }
-				color2 = { 255 255 255 }
+				
 				
 				b_Lashu = {
 					province = 10549
 					
 					color = { 23 153 155 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_mong_mit = {
 					province = 11864
 					
 					color = { 23 153 155 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 			c_hsipaw = {
 				color = { 178 119 128 }
-				color2 = { 255 255 255 }
+				
 				
 				b_hsipaw = {
 					province = 11866
 					
 					color = { 178 119 128 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_mongkung = {
 					province = 11867
 					
 					color = { 178 119 128 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_laikha = {
 					province = 11868
 					
 					color = { 178 119 128 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 			c_yawnghwe = {
 				color = { 120 38 13 }
-				color2 = { 255 255 255 }
+				
 				
 				b_loi_long = {
 					province = 11891
 					
 					color = { 120 38 13 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_hsatung = {
 					province = 11892
 					
 					color = { 120 38 13 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 			c_mongnai = {
 				color = { 212 159 144 }
-				color2 = { 255 255 255 }
+				
 				
 				b_Kunxin = {
 					province = 10551
 					
 					color = { 212 159 144 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_Dongzhi = {
 					province = 10552
 					
 					color = { 212 159 144 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 		}
@@ -182,31 +182,31 @@
 		#Edit of vanilla county to add a new barony
 			c_thaton = {
 				color = { 28 189 85 }
-				color2 = { 255 255 255 }
+				
 				
 				b_thaton = {
 					province = 9627
 					
 					color = { 28 189 85 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_muttina = {
 					province = 9628
 					
 					color = { 28 189 85 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_taikkala = {
 					province = 9630
 					
 					color = { 28 189 85 }
-					color2 = { 255 255 255 }
+					
 				}
 				b_hpa_an = {
 					province = 11874
 					
 					color = { 28 189 85 }
-					color2 = { 255 255 255 }
+					
 				}
 			}
 
@@ -215,7 +215,6 @@
 #adjust its color iguess
 e_kirghiz_khanate = {
 	color = { 1 66 31 }
-	color2= { 0 250 250 }
 
 	definite_form = yes
 	

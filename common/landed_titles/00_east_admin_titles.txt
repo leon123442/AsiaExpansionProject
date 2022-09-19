@@ -7,7 +7,7 @@
 
 d_confucius = { #Yansheng Gong, Taichang Temple
 	color = { 135 134 28 }
-	color2 = { 255 255 255 }
+	
     capital = c_kongmeng
 	landless = yes
 	ai_primary_priority = {
@@ -28,7 +28,7 @@ d_confucius = { #Yansheng Gong, Taichang Temple
 
 d_tianshi = { #Tianshi Palace
 	color = { 135 134 28 }
-	color2 = { 255 255 255 }
+	
     capital = c_raozhou
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -53,7 +53,7 @@ d_tianshi = { #Tianshi Palace
 
 d_yamato_imperial = { #yamato imperial family
 	color = { 135 134 28 }
-	color2 = { 255 255 255 }
+	
     capital = c_yamato
 	definite_form = yes
 	ruler_uses_title_name = no
