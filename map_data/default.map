@@ -16,12 +16,6 @@ seasons = "seasons.txt"
 # China
 #####################
 
-#LAKES
-lakes = RANGE { 8984 8988 }  #great lakes
-sea_zones = RANGE { 8980 8983 }  #great lakes & Channels
-sea_zones = RANGE { 8989 8992 }  #great lakes
-sea_zones = RANGE { 11129 11135 }  #great lakes
-
 impassable_mountains = RANGE { 9660 9667 }
 impassable_mountains = LIST { 9738 9800 10304 10477 }
 impassable_mountains = LIST { 9913 }   #Dadu river
@@ -44,17 +38,13 @@ sea_zones = LIST { 11136 11137 11095 11979 }
 
 
 #UNUSED#
-impassable_mountains = RANGE { 11387 11404 }
+impassable_mountains = RANGE { 11387 11403 }
 
 #####################
 # Japan
 #####################
 
-impassable_mountains = LIST { 10925 }  #old Ryukyu
-impassable_mountains = LIST { 10927 } 
-
 impassable_mountains = RANGE { 11379 11385 }
-impassable_mountains = LIST { 11372 11307 11313 }
 
 sea_zones = LIST { 11299 11338 11339 11343 11344 11356 11357 11365 }
 sea_zones = RANGE { 11374 11378 }
@@ -67,6 +57,7 @@ impassable_mountains = RANGE { 11896 11897 }
 sea_zones = RANGE { 11898 11974 }
 river_provinces = RANGE { 11893 11895 }  #Mekong River
 river_provinces = RANGE { 11975 11978 }  #Mekong River
+river_provinces = LIST { 11905 12151 12152 12159 }  #Bornean Rivers
 
 #############
 # SEA ZONES
@@ -193,6 +184,8 @@ lakes = LIST { 7208 }	#Oghuz lakes
 lakes = LIST { 7513 }	#Dzungar lakes
 lakes = RANGE { 8519 8525 }	#African lakes
 lakes = LIST { 9000 9001 }	#Lop Nur Lake & Bosten Lake
+lakes = RANGE { 8980 8992 }	#Asian lakes
+lakes = RANGE { 11129 11135 }	#Asian lakes
 
 #####################
 # IMPASSABLE TERRAIN
@@ -331,5 +324,4 @@ impassable_seas = LIST { 660 976 978 984 998 1293 1465 1467 8690 8701 11063 1109
 # These provinces cause issues because they are passable land, but not part of any title.
 # They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
 
-impassable_mountains = RANGE { 8802 8992 }
-impassable_mountains = LIST { 3222 }
+impassable_mountains = LIST { 3222 8802 }

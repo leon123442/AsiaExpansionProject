@@ -6,6 +6,9 @@
     culture = han
 	religion = zenzong
 	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan 
+	}
 }	
 
 #b_Yizhou_Yanjun
@@ -24,8 +27,11 @@
 #b_Liaobin_Huaiyuan
 10663 = {
     culture = khitan
-	religion = pagan
-	holding = castle_holding
+	religion = zenzong
+	holding = tribal_holding
+	916.1.1 = {
+		holding = castle_holding
+	}
 }
 #b_Yiwulvshan_Xianzhou 
 10658 = {
@@ -44,6 +50,9 @@
     culture = han
 	religion = zenzong
 	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan 
+	}
 }
 #b_Bailangshan
 10641 = {
@@ -63,12 +72,16 @@
     culture = han
 	religion = zenzong
 	holding = castle_holding
+	916.1.1 = { 
+		culture = balhae 
+		religion = shaman
+	}
 }
 #b_Baiyacheng
 10665 = {
 
 
-	holding = castle_holding
+	holding = none
 }
 #b_SheenzhouLejiao
 10679 = {
@@ -101,6 +114,10 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	916.1.1 = { 
+		culture = jurchen
+		religion = shaman
+	}
 }
 #b_Jiananzhou 
 10667 = {
@@ -119,6 +136,10 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	916.1.1 = { 
+		culture = jurchen
+		religion = shaman
+	}
 }
 #b_Beishacheng 
 10670 = {
@@ -137,6 +158,10 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	916.1.1 = { 
+		culture = jurchen
+		religion = shaman
+	}
 }
 #b_Shicheng_Shirenzhu 
 10669 = {
@@ -148,7 +173,7 @@
 10674 = {
 
 
-	holding = tribal_holding
+	holding = none
 }
 #b_Muzhouhuinong
 10672 = {
@@ -162,21 +187,25 @@
 #c_yalu
 #b_Shenlu_Yalufu
 10696 = {
-    culture = goguryeo
-	religion = mahayana
+    culture = balhae
+	religion = shaman
 	holding = castle_holding
+	916.1.1 = { 
+		holding = tribal_holding
+		culture = jurchen 
+	}
 }
 #b_Anfeng_Changbaishan
 10697 = {
 
 
-	holding = church_holding
+	holding = none
 }
 #b_Zhengzhou_Yalu
 10695 = {
 
 
-	holding = city_holding
+	holding = none
 }
 
 
@@ -184,16 +213,15 @@
 #b_Wandushancheng
 10694 = {
     culture = goguryeo
-	religion = mahayana
+	religion = muism
 	holding = castle_holding
+	916.1.1 = { 
+		culture = jurchen
+		religion = shaman
+	}
 }
 #b_Heshenggucheng 
 10693 = {
-
-	holding = none
-}
-#b_Qishui
-10698 = {
 
 	holding = none
 }
@@ -206,6 +234,9 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon
+	}
 }
 #b_yonggang
 10913 = {
@@ -224,6 +255,9 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+	}
 }
 #b_chongju
 10915 = {
@@ -245,11 +279,26 @@
 #b_Nyongbyon
 10917 = {
     culture = goguryeo
-	religion = mahayana
+	religion = muism
 	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+		religion = gyodan
+	}
 }
 #b_kanggye
 10919 = {
 
 	holding = none
+}
+#c_Qishui
+#b_Qishui
+10698 = {
+	culture = goguryeo
+	religion = muism
+	holding = castle_holding
+	916.1.1 = { 
+		culture = jurchen
+		religion = shaman
+	}
 }

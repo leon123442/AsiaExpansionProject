@@ -1,10 +1,10 @@
 ﻿l_english:
-
+ 
  k_mongolia:0 "Terek" 
  k_mongolia_adj:0 "Terek" 
  k_xia:0 "Hexi" 
- k_xia_adj:0 "Hexi" 
-
+ k_xia_adj:0 "Hexi"
+ 
  cn_great_uyghur:0 "Great Uyghur"
  cn_great_uyghur_adj:0 "Great Uyghur"
  cn_qocho:0 "Qocho"
@@ -21,3 +21,5 @@
  cn_jiaohe_adj:0 "Jiaohe"
  cn_tulufan:0 "Anle"
  cn_tulufan_adj:0 "Anle"
+ 
+ dynn_Liao:0 "Yelü"

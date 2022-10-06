@@ -658,16 +658,6 @@
 	religion = kaharingan
 	holding = tribal_holding
 }
-# b_kinarut
-12151 = {
-	# Misc
-	holding = none
-}
-# b_kimanis
-12152 = {
-	# Misc
-	holding = none
-}
 # c_kota_belud
 # b_kota_belud
 12142 = {

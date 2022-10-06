@@ -1,31 +1,229 @@
-e_nippon = {
-
+# Add a year to dates bc to display properly in game
+e_nippon = { # de facto rulers of Japan
+	703.1.13 = {
+		holder = monmu_tenno # only takes de facto control after the death of Empress Jitō
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = fujiwara_nakamaro # became de facto ruler after becoming taishi
+	}
+	764.10.21 = {
+		holder = shotoku_tenno # Imperial authority regained following the battle of Arachi
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Montoku
+	}
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa, begining of Fujiwara Regency
+	}
+	872.10.7 = {
+		holder = 1600005 # Sesshō and Kampaku Fujiwara no Mototsune
+	}
+	891.2.25 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = fujiwara_tadahira
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.31 = {
+		holder = fujiwara_saneyori
+	}
+	970.6.24 = {
+		holder = fujiwara_koretada
+	}
+	972.1.1 = {
+		holder = fujiwara_kanemichi
+	}
+	977.12.20 = {
+		holder = fujiwara_yoritada
+	}
+	986.1.1 = {
+		holder = fujiwara_kaneie
+	}
+	990.5.8 = {
+		holder = fujiwara_michitaka
+	}
+	995.4.28 = {
+		holder = fujiwara_michikane
+	}
+	995.5.8 = {
+		holder = fujiwara_michinaga
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
 }
 
-d_yamato_imperial = {
-	# Legendary Emperors
-	-660.2.11 = { # 660 BC
-		holder = jimmu_tenno
+k_yamato = { # de facto rulers of Yamato
+	-98.1.1 = { # 97 BC
+		holder = sujin_tenno
 	}
-	-581.1.1 = { # 581 BC
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = jingu_kougou # Empress Regent
+	}
+	270.1.1 = {
+		holder = ojin_tenno
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	484.3.1 = {
+		holder = yamato_iitoyo # Regency
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.10.3 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+	}
+	593.5.15 = {
+		holder = shotoku_taishi # Regency
+	}
+	622.4.8 = {
+		holder = soga_umako # Soga domination of the imperial court
+	}
+	626.6.19 = {
+		holder = soga_emishi
+	}
+	645.7.2 = {
+		holder = tenji_tenno # rules as de facto head of government after the Isshi incident
+	}
+	672.2.1 = {
+		holder = kobun_tenno # forced to commit suicide after the Jinshin War
+	}
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	681.1.1 = {
+		holder = yamato_kusakabe # Regency
+	}
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	703.1.13 = {
+		holder = 0 # Emperor Monmu takes direct control and a centralized government is formed following the adoption of the Taiho Code
+	}
+}
+
+d_yamato_imperial = { # Emperors of Japan (Includes Legendary Emperors)
+	-661.2.11 = { # 660 BC
+		holder = jimmu_tenno
+		government = feudal_government
+		succession_laws = {
+			temporal_head_of_faith_succession_law
+		}
+	}
+	-582.1.1 = { # 581 BC
 		holder = suizei_tenno
 	}
-	-549.1.1 = { # 549 BC
+	-550.1.1 = { # 549 BC
 		holder = annei_tenno
 	}
 	-511.1.1 = { # 511 BC
 		holder = itoku_tenno
 	}
-	-477.1.1 = { # 475 BC
+	-476.1.1 = { # 475 BC
 		holder = kosho_tenno
 	}
 	-393.1.1 = { # 392 BC
 		holder = koan_tenno
 	}
-	-290.1.1 = { # 290 BC
+	-291.1.1 = { # 290 BC
 		holder = korei_tenno
 	}
-	-214.1.1 = { # 214 BC
+	-215.1.1 = { # 214 BC
 		holder = kogen_tenno
 	}
 	-158.1.1 = { # 158 BC
@@ -37,23 +235,124 @@ d_yamato_imperial = {
 	-30.1.1 = { # 29 BC
 		holder = suinin_tenno
 	}
-	71.1.1 = { # 71 CE
+	71.1.1 = {
 		holder = keiko_tenno
 	}
-	131.1.1 = { # 131 CE
+	131.1.1 = {
 		holder = seimu_tenno
 	}
-	192.1.1 = { # 192 CE
+	192.1.1 = {
 		holder = chuai_tenno
 	}
-
-	# Nara Jidai
+	201.1.1 = {
+		holder = ojin_tenno
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.10.3 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+	}
+	629.1.1 = {
+		holder = jomei_tenno
+	}
+	642.1.25 = {
+		holder = saimei_tenno
+	}
+	645.6.14 = {
+		holder = kotoku_tenno
+	}
+	655.1.3 = {
+		holder = saimei_tenno
+	}
+	661.9.1 = {
+		holder = tenji_tenno
+	}
+	672.2.1 = {
+		holder = kobun_tenno
+	}
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	697.1.1 = {
+		holder = monmu_tenno
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
 	781.4.30 = {
 		holder = kanmu_tenno
 	}
-
-	# Heian Jidai
-	806.4.9 = {
+	806.5.1 = {
 		holder = heizei_tenno
 	}
 	809.5.18 = {
@@ -70,16 +369,137 @@ d_yamato_imperial = {
 	}
 	858.10.7 = {
 		holder = 1600004 # Seiwa
+		liege = "e_nippon"
+	}
+	876.12.18 = {
+		holder = yozei_tenno
+		liege = "e_nippon"
+	}
+	884.3.5 = {
+		holder = koko_tenno
+		liege = "e_nippon"
+	}
+	887.9.17 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = suzaku_tenno
+		liege = "e_nippon"
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.5 = {
+		holder = rezei_tenno
+		liege = "e_nippon"
+	}
+	969.9.27 = {
+		holder = enyu_tenno
+		liege = "e_nippon"
+	}
+	984.9.24 = {
+		holder = kazan_tenno
+		liege = "e_nippon"
+	}
+	986.7.31 = {
+		holder = ichijo_tenno
+		liege = "e_nippon"
+	}
+	1011.7.16 = {
+		holder = sanjo_tenno
+		liege = "e_nippon"
+	}
+	1016.3.10 = {
+		holder = goichijo_tenno
+		liege = "e_nippon"
+	}
+	1036.3.15 = {
+		holder = gosuzaku_tenno
+		liege = "e_nippon"
+	}
+	1045.2.5 = {
+		holder = goreizei_tenno
+		liege = "e_nippon"
+	}
+}
+
+# Kinai
+d_kansai = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa, begining of Fujiwara Regency
+	}
+	872.10.7 = {
+		holder = 1600005 # Sesshō and Kampaku Fujiwara no Mototsune
+	}
+	891.2.25 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = fujiwara_tadahira
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.31 = {
+		holder = fujiwara_saneyori
+	}
+	970.6.24 = {
+		holder = fujiwara_koretada
+	}
+	972.1.1 = {
+		holder = fujiwara_kanemichi
+	}
+	977.12.20 = {
+		holder = fujiwara_yoritada
+	}
+	986.1.1 = {
+		holder = fujiwara_kaneie
+	}
+	990.5.8 = {
+		holder = fujiwara_michitaka
+	}
+	995.4.28 = {
+		holder = fujiwara_michikane
+	}
+	995.5.8 = {
+		holder = fujiwara_michinaga
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
 	}
 }
 c_yamashiro = {
-	# Nara Jidai
-	781.4.30 = {
+	867.1.1 = { change_development_level = 20 }
+	1066.1.1 = { change_development_level = 30 }
+	
+	511.1.1 = {
+		holder = keitai_tenno
+	}
+	526.1.1 = {
+		holder = 0
+	}
+	740.1.1 = {
+		holder = shomu_tenno
+	}
+	744.1.1 = {
+		holder = 0
+	}
+	784.1.1 = {
 		holder = kanmu_tenno
 	}
-
-	# Heian Jidai
-	806.4.9 = {
+	806.5.1 = {
 		holder = heizei_tenno
 	}
 	809.5.18 = {
@@ -95,37 +515,71 @@ c_yamashiro = {
 		holder = 1600007 # Montoku
 	}
 	858.10.7 = {
-		holder = 1600004 # Seiwa
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 1600005 # Sesshō and Kampaku Fujiwara no Mototsune
+	}
+	891.2.25 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = fujiwara_tadahira
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.31 = {
+		holder = fujiwara_saneyori
+	}
+	970.6.24 = {
+		holder = fujiwara_koretada
+	}
+	972.1.1 = {
+		holder = fujiwara_kanemichi
+	}
+	977.12.20 = {
+		holder = fujiwara_yoritada
+	}
+	986.1.1 = {
+		holder = fujiwara_kaneie
+	}
+	990.5.8 = {
+		holder = fujiwara_michitaka
+	}
+	995.4.28 = {
+		holder = fujiwara_michikane
+	}
+	995.5.8 = {
+		holder = fujiwara_michinaga
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
 	}
 }
-
-k_yamato = {
-	867.1.1 = { change_development_level = 16 }
-	1066.1.1 = { change_development_level = 22 }
-
-	# Legendary Emperors
-	-660.2.11 = { # 660 BC
+c_yamato = {
+	-661.2.11 = { # 660 BC
 		holder = jimmu_tenno
 	}
-	-581.1.1 = { # 581 BC
+	-582.1.1 = { # 581 BC
 		holder = suizei_tenno
-	}
-	-549.1.1 = { # 549 BC
-		holder = annei_tenno
 	}
 	-511.1.1 = { # 511 BC
 		holder = itoku_tenno
 	}
-	-477.1.1 = { # 475 BC
+	-476.1.1 = { # 475 BC
 		holder = kosho_tenno
 	}
 	-393.1.1 = { # 392 BC
 		holder = koan_tenno
 	}
-	-290.1.1 = { # 290 BC
+	-291.1.1 = { # 290 BC
 		holder = korei_tenno
 	}
-	-214.1.1 = { # 214 BC
+	-215.1.1 = { # 214 BC
 		holder = kogen_tenno
 	}
 	-158.1.1 = { # 158 BC
@@ -137,369 +591,885 @@ k_yamato = {
 	-30.1.1 = { # 29 BC
 		holder = suinin_tenno
 	}
-	71.1.1 = { # 71 CE
+	71.1.1 = {
 		holder = keiko_tenno
 	}
-	131.1.1 = { # 131 CE
-		holder = seimu_tenno
-	}
-	192.1.1 = { # 192 CE
+	192.1.1 = {
 		holder = chuai_tenno
 	}
-
-	# Nara Jidai
+	200.1.1 = {
+		holder = 0
+	}
+	204.1.1 = {
+		holder = jingu_kougou
+	}
+	270.1.1 = {
+		holder = ojin_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	526.1.1 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.10.3 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+		liege = "e_nippon"
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+		liege = "e_nippon"
+	}
+	629.1.1 = {
+		holder = jomei_tenno
+		liege = "e_nippon"
+	}
+	642.1.25 = {
+		holder = saimei_tenno
+		liege = "e_nippon"
+	}
+	654.1.1 = {
+		holder = kotoku_tenno
+	}
+	655.1.3 = {
+		holder = saimei_tenno
+	}
+	660.1.1 = {
+		holder = 0
+	}
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	697.1.1 = {
+		holder = monmu_tenno
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	740.1.1 = {
+		holder = 0
+	}
+	754.1.1 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
 	781.4.30 = {
 		holder = kanmu_tenno
 	}
-
-	# Heian Jidai
-	806.4.9 = {
-		holder = heizei_tenno
+	784.1.1 = {
+		holder = 0
 	}
-	809.5.18 = {
-		holder = saga_tenno
+	867.1.1 = {
+		holder = fujiwara_motoo
+		liege = "e_nippon"
 	}
-	823.5.29 = {
-		holder = junna_tenno
-	}
-	833.3.22 = {
-		holder = ninmyo_tenno
-	}
-	850.5.6 = {
-		holder = 1600007 # Montoku
-	}
-	858.10.7 = {
-		holder = 1600004 # Seiwa
-	}
-}
-	
-d_dewa = {
-	866.1.1 = {
-		holder = 1600002
-		liege = "k_yamato"
-	}
-}
-c_rikuzen = {
-	866.1.1 = {
-		holder = 1600003
-		liege = "k_yamato"
-	}
-}
-c_iwaki = {
-	866.1.1 = {
-		holder = 1600003
-	}
-}
-c_iwase = {
-	866.1.1 = {
-		holder = 1600003
-	}
-}
-d_kansai = {
-	866.1.1 = {
-		holder = 1600001
-		liege = "k_yamato"
-		OBLIGATION_TYPE = title_revocation_rights_protected
-		OBLIGATION_TYPE = council_rights_guaranteed
-		OBLIGATION_TYPE = war_declaration_rights_allowed
-		OBLIGATION_TYPE = religious_rights_protected
-		OBLIGATION_TYPE = feudal_tax_exempt
-		OBLIGATION_TYPE = feudal_levies_exempt
-	}
-}
-c_yamato = {
-	866.1.1 = {
-		holder = 1600001
+	871.1.1 = {
+		holder = 0
 	}
 }
 c_kawachi = {
-	866.1.1 = {
-		holder = 1600001
+	-550.1.1 = { # 549 BC
+		holder = annei_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	867.1.1 = {
+		holder = ariwara_yoshifuchi
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
 	}
 }
 c_settsu = {
-	866.1.1 = {
-		holder = 1600001
+	313.1.1 = {
+		holder = nintoku_tenno
 	}
-	
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	511.1.1 = {
+		holder = 0
+	}
+	645.6.14 = {
+		holder = kotoku_tenno
+	}
+	654.1.1 = {
+		holder = 0
+	}
+	661.9.1 = {
+		holder = tenji_tenno
+	}
+	667.1.1 = {
+		holder = 0
+	}
+	744.1.1 = {
+		holder = shomu_tenno
+	}
+	745.1.1 = {
+		holder = 0
+	}
+	867.1.1 = {
+		holder = taira_takamochi # Ahistorical
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
-c_omi = {
+
+# Tokaido
+d_tokai = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
 	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
 }
 c_ise = {
-	866.1.1 = {
-		holder = 2600001
-	}	
+	864.1.1 = {
+		holder = minamoto_okoru
+		liege = "e_nippon"
+	}
+	864.1.1 = {
+		holder = 0
+	}
 }
 c_owari = {
-	866.1.1 = {
-		holder = 2600001
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	867.1.1 = {
+		holder = kibi_matatsugu
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
 	}
 }
 c_mikawa = {
-	866.1.1 = {
-		holder = 2600001
-	}	
+	867.1.1 = {
+		holder = fujiwara_hiromoto
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+}
+c_suruga = {
+	867.1.1 = {
+		holder = kiyohara_michio
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
 c_kai = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
 	
-}
-c_mino= {
-	866.1.1 = {
-		holder = 2600001
-	}	
+	867.1.1 = {
+		holder = funya_nagatoshi # Ahistorical, Father was Governor
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
 
-d_hokuriku = {
-	865.1.1 = {
-		liege = "k_yamato"
+# Tosando
+d_tosan = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
 	}
-	866.1.1 = {
-		holder = 2300001
-    }
+	1074.3.2 = {
+		holder = 0
+	}
 }
-c_echizen = {
-	866.1.1 = {
-		holder = 2300001
-    }	
+c_omi = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	667.1.1 = {
+		holder = tenji_tenno
+	}
+	864.1.1 = {
+		holder = harusumi_yoshitada
+		liege = "e_nippon"
+	}
+	867.1.1 = { # Anachronistic
+		holder = minamoto_masaru
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
-c_etchu = {
-	866.1.1 = {
-		holder = 2300001
-    }	
-}
-c_echigo = {
-	866.1.1 = {
-		holder = 2300001
-    }	
+c_mino = {
+	867.1.1 = {
+		holder = oe_otondo # Anachronistic
+		liege = "e_nippon"
+	}
+	872.1.1 = {
+		holder = 0
+	}
 }
 c_shinano = {
-	866.1.1 = {
-		holder = 2300001
-    }	
-}
-c_suwa = {
-	866.1.1 = {
-		holder = 2300001
-    }	
-}
-
-d_nankai = {
-	865.1.1 = {
-		liege = "k_yamato"
+	867.1.1 = {
+		holder = minamoto_hide
+		liege = "e_nippon"
 	}
-	866.1.1 = {
-		holder = 1800001
-    }
-}
-c_kii = {
-	866.1.1 = {
-		holder = 1800001
-    }	
-}
-c_iyo = {866.1.1 = {
-		holder = 1800001
-    }	
-}
-c_sanuki = {866.1.1 = {
-		holder = 1800001
-    }	
-}
-c_awa = {866.1.1 = {
-		holder = 1800001
-    }	
-}
-c_tosa = {866.1.1 = {
-		holder = 1800001
-    }	
-}
-
-d_sanin = {
-	865.1.1 = {
-		liege = "k_yamato"
+	871.1.1 = {
+		holder = 0
 	}
-	866.1.1 = {
-		holder = 2000001
-    }
-}
-c_tanba = {
-	866.1.1 = {
-		holder = 2000001
-    }	
-}
-c_inaba = {
-	866.1.1 = {
-		holder = 2000001
-    }	
-}
-c_izumo = {
-	866.1.1 = {
-		holder = 2000001
-    }	
 }
 
+# Sanyodo
 d_sanyo = {
-	865.1.1 = {
-		liege = "k_yamato"
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
 	}
-	866.1.1 = {
-		holder = 1900001
-    }
+	1074.3.2 = {
+		holder = 0
+	}
 }
-c_bizen = {	
-	866.1.1 = {
-		holder = 1900001
-    }
+c_harima = {
+	867.1.1 = {
+		holder = ki_imamori # Possibly Anachronistic
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
-c_bingo = {	
-	866.1.1 = {
-		holder = 1900001
-    }	
+c_bizen = {
+	867.1.1 = {
+		holder = minamoto_hikaru # 美作守 Anachronistic
+		liege = "e_nippon"
+	}
+	874.1.1 = {
+		holder = 0
+	}
 }
-c_harima = {	
+c_bingo = {
 	866.1.1 = {
-		holder = 1900001
-    }	
+		holder = fujiwara_yasunori # 備中守
+		liege = "e_nippon"
+	}
+	870.1.1 = {
+		holder = 0
+	}
 }
-c_aki = {	
-	866.1.1 = {
-		holder = 1900001
-    }	
+c_aki = {
+	865.1.1 = {
+		holder = yamato_motoe
+		liege = "e_nippon"
+	}
+	869.1.1 = {
+		holder = 0
+	}
 }
-c_nagato = {	
-	866.1.1 = {
-		holder = 1900001
-    }	
+c_nagato = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	867.1.1 = {
+		holder = fujiwara_yasumine
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
 
-d_saikai = {
-	865.1.1 = {
-		liege = "k_yamato"
+# Hokurikudo
+d_hokuriku = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
 	}
-	866.1.1 = {
-        holder = 1700001
-    }
+	1074.3.2 = {
+		holder = 0
+	}
 }
-c_tsukushi = {
+c_echizen = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
 	866.1.1 = {
-        holder = 1700001
-    }	
+		holder = minamoto_yoshiari # 加賀守
+		liege = "e_nippon"
+	}
+	869.1.1 = {
+		holder = 0
+	}
 }
-c_hizen = {
-	866.1.1 = {
-        holder = 1700001
-    }	
+c_etchu = {
+	865.1.1 = {
+		holder = yamato_munesada
+		liege = "e_nippon"
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+c_echigo = {
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+
+# Saikaido
+d_saikai = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
 }
 c_higo = {
 	866.1.1 = {
-        holder = 1700001
-    }	
+		holder = ariwara_yasusada
+		liege = "e_nippon"
+	}
+	870.1.1 = {
+		holder = 0
+	}
 }
-c_hyuga = {
-	866.1.1 = {
-        holder = 1700001
-    }	
-}
-c_satsuma = {
-	866.1.1 = {
-        holder = 1700001
-    }	
+c_tsukushi = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	200.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = jingu_kougou
+	}
+	204.1.1 = {
+		holder = 0
+	}
+	660.1.1 = {
+		holder = saimei_tenno
+	}
+	740.9.1 = {
+		holder = fujiwara_hirotsugu
+	}
+	740.11.2 = {
+		holder = 0
+	}
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
 }
 c_butsu = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	860.1.1 = {
+		holder = funya_masuyoshi # 豊前守 Anachronistic
+		liege = "e_nippon"
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+c_hizen = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	867.1.1 = {
+		holder = fujiwara_yokazu # Ahistorical, Father was Governor
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+}
+c_hyuga = {
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+c_satsuma = {
+	865.1.1 = {
+		holder = sugano_munenori
+		liege = "e_nippon"
+	}
+	870.1.1 = {
+		holder = 0
+	}
+}
+c_tsushima = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+
+# Sanindo
+d_sanin = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
+}
+c_inaba = {
+	867.1.1 = {
+		holder = yoshimine_hideoka # 伯耆守 Anachronistic
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+}
+c_izumo = {
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+c_tanba = {
+	867.1.1 = {
+		holder = sakanoue_sadamori # Anachronistic
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+}
+
+# Nankaido
+d_nankai = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
+}
+c_kii = {
+	865.1.1 = {
+		holder = fujiwara_nakamune
+		liege = "e_nippon"
+	}
+	869.1.1 = {
+		holder = 0
+	}
+}
+c_awa = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
 	866.1.1 = {
-        holder = 1700001
-    }	
+		holder = kiyohara_akio
+		liege = "e_nippon"
+	}
+	869.1.1 = {
+		holder = 0
+	}
 }
-c_tsushima= {
+c_sanuki = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
 	866.1.1 = {
-        holder = 1700001
-    }
+		holder = fujiwara_arisada
+		liege = "e_nippon"
+	}
+	870.1.1 = {
+		holder = 0
+	}
+}
+c_iyo = {
+	865.1.1 = {
+		holder = 1600005
+		liege = "e_nippon"
+	}
+	869.1.1 = {
+		holder = 0
+	}
+}
+c_tosa = {
+	860.1.1 = {
+		holder = tachibana_tokieda # Anachronistic
+		liege = "e_nippon"
+	}
+	868.1.1 = {
+		holder = 0
+	}
 }
 
-
-k_hitakami = {
-	867.1.1 = { change_development_level = 8 }
-	1066.1.1 = { change_development_level = 16 }
+#Kanto
+d_kanto = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
+}
+c_musashi = {
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+c_kazusa = {
+	863.1.1 = {
+		holder = funya_arizane
+		liege = "e_nippon"
+	}
+	867.2.1 = {
+		holder = 0
+	}
+}
+c_sagami = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	867.1.1 = {
+		holder = minamoto_ikeru
+		liege = "e_nippon"
+	}
+	868.1.1 = {
+		holder = 0
+	}
+}
+c_hitachi = {
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 0
+	}
+}
+c_kozuke = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	867.1.1 = {
+		holder = yamato_kaya
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+}
+c_shimotsuke = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	867.1.1 = {
+		holder = ki_aritsune
+		liege = "e_nippon"
+	}
+	871.1.1 = {
+		holder = 0
+	}
 }
 
+# Tohoku
 d_ou = {
-
-}
-
-c_rikuzen = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
 	
-}
-c_rikuchu = {
-	
-}
-c_rikugo = {
-	
-}
-c_iwaki = {
-	
+	859.1.1 = {
+		holder = sakanoue_masamichi # Chinjufu shōgun
+		liege = "e_nippon"
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
 }
 c_iwase = {
 	
-}
-c_uzen = {
-	
-}
-c_ugo= {
-	
-}
-
-d_tokai = {
-	865.1.1 = {
-		liege = "k_yamato"
+	859.1.1 = {
+		holder = sakanoue_masamichi # Chinjufu shōgun
+		liege = "e_nippon"
 	}
-	866.1.1 = {
-        holder = 2600001
+}
+c_iwaki = {
+	
+	859.1.1 = {
+		holder = sakanoue_masamichi # Chinjufu shōgun
+		liege = "e_nippon"
+	}
+}
+c_rikuzen = {
+	
+	859.1.1 = {
+		holder = sakanoue_masamichi # Chinjufu shōgun
+		liege = "e_nippon"
+	}
+}
+c_rikuchu = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	
+	850.1.1 = {
+        holder = rikuchu_placeholder_001
     }
+	
+	1050.1.1 = {
+		holder = rikuchu_placeholder_002
+	}
+}
+c_rikugo = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	
+	850.1.1 = {
+        holder = rikugo_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = rikugo_placeholder_002
+	}
+}
+d_dewa = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	867.1.1 = { # Anachronistic
+		holder = fujiwara_okiyo
+		liege = "e_nippon"
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1074.3.2 = {
+		holder = 0
+	}
+}
+c_uzen_jp = {
+	
+	867.1.1 = { # Anachronistic
+		holder = fujiwara_okiyo
+	}
+}
+c_ugo = {
+	
+	867.1.1 = { # Anachronistic
+		holder = fujiwara_okiyo
+	}
 }
 
-c_musashi = {
-	
-}
-c_sagami = {
-	
-}
-c_kozuke = {
-	
-}
-c_shimotsuke = {
-	
-}
-c_suruga = {
-	
-}
-c_hitachi = {
-	
-}
-c_kazusa = {
-	
-}
-
+# Ezo
 d_hokkai = {
-
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
- 
-c_oshima = {
-	
-}
-c_hidaka = {
-	
-}
-c_ishikari = {
-	
+d_nemuro = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 c_teshio = {
-	860.1.1 = {
-		holder = teshio_placeholder_001
+	850.1.1 = {
+        holder = teshio_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = teshio_placeholder_002
+	}
+}
+c_nemuro = {
+	850.1.1 = {
+        holder = nemuro_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = nemuro_placeholder_002
 	}
 }
 c_kushiro = {
+	850.1.1 = {
+        holder = kushiro_placeholder_001
+    }
 	
+	1050.1.1 = {
+		holder = kushiro_placeholder_002
+	}
 }
-c_nemuro = {
+c_ishikari = {
+	850.1.1 = {
+        holder = ishikari_placeholder_001
+    }
 	
+	1050.1.1 = {
+		holder = ishikari_placeholder_002
+	}
+}
+c_hidaka = {
+	850.1.1 = {
+        holder = hidaka_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = hidaka_placeholder_002
+	}
+}
+c_oshima = {
+	850.1.1 = {
+        holder = oshima_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = oshima_placeholder_002
+	}
+}
+
+# Ryūkyū
+d_ryukyu = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+c_amami = {
+	850.1.1 = {
+        holder = amami_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = amami_placeholder_002
+	}
+}
+c_ryukyu = {
+	850.1.1 = {
+        holder = ryukyu_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = ryukyu_placeholder_002
+	}
+}
+d_saki = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}
+c_miyako = {
+	850.1.1 = {
+        holder = miyako_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = miyako_placeholder_002
+	}
+}
+c_saki = {
+	850.1.1 = {
+        holder = saki_placeholder_001
+    }
+	
+	1050.1.1 = {
+		holder = saki_placeholder_002
+	}
 }

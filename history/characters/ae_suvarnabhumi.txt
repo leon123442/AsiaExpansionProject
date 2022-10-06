@@ -4184,3 +4184,145 @@ kuy217 = {
         death = yes
     }
 }
+#Lý Dynasty of Dai Viet
+ly_thaito = {
+	name = "Công Uẩn"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	trait = zealous
+	trait = scholar
+    974.3.8 = {
+        birth = yes
+    }
+    1028.3.31 = {
+        death = yes
+		name = "Thái Tổ"
+    }
+}
+ly_thaitong = {
+	name = "Phật Mã"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_thaito
+    1000.7.29 = {
+        birth = yes
+    }
+    1054.11.3 = {
+        death = yes
+		name = "Thái Tông"
+    }
+}
+ly_thanhtong = {
+	name = "Nhật Tôn"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_thaitong
+    1023.3.30 = {
+        birth = yes
+    }
+    1072.2.1 = {
+        death = yes
+		name = "Thánh Tông"
+    }
+}
+ly_nhantong = {
+	name = "Càn Đức"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_thanhtong
+    1066.2.22 = {
+        birth = yes
+    }
+    1128.1.15 = {
+        death = yes
+		name = "Nhân Tông"
+    }
+}
+ly_hienhau = {
+	name = "Hiền hầu"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_thanhtong
+    1070.1.1 = { #date unknown
+        birth = yes
+    }
+    1120.1.1 = { #date unknown
+        death = yes
+    }
+}
+ly_thantong = {
+	name = "Dương Hoán"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_hienhau
+    1116.1.1 = {	
+        birth = yes
+    }
+    1138.10.31 = {
+        death = yes
+		name = "Thần Tông"
+    }
+}
+ly_anhtong = {
+	name = "Thiên Tộ"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_thantong
+    1136.4.1 = {
+        birth = yes
+    }
+    1175.8.14 = {
+        death = yes
+		name = "Anh Tông"
+    }
+}
+ly_caotong = {
+	name = "Long Trát"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_anhtong
+    1173.7.6 = {
+        birth = yes
+    }
+    1210.11.15 = {
+        death = yes
+		name = "Cao Tông"
+    }
+}
+ly_huetong = {
+	name = "Hạo Sảm"
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_caotong
+    1194.7.1 = {
+        birth = yes
+    }
+    1226.9.3 = {
+        death = yes
+		name = "Huệ Tông"
+    }
+}
+ly_chieuhoang = {
+	name = "Phật Kim"
+	female = yes
+	dynasty = ly_viet
+    culture = jiaozhi # Viet
+    religion = mahayana
+	father = ly_huetong
+    1218.9.1 = {
+        birth = yes
+    }
+    1278.1.1 = {
+        death = yes
+		name = "Chiêu Hoàng"
+    }
+}

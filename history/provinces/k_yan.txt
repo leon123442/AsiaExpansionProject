@@ -51,7 +51,11 @@
 10612 = {
     culture = shatuo
 	religion = tengri_pagan
-	holding = castle_holding	
+	holding = castle_holding
+	916.1.1 = {
+		culture = khitan
+		religion = zenzong
+	}
 }
 #b_Zhuolu_Yongxing
 10613 = {
@@ -95,7 +99,7 @@
 10610 = {
     culture = shatuo
 	religion = tengri_pagan
-	holding = castle_holding	
+	holding = castle_holding
 }
 #b_Yutian_Jizhou
 10611 = {

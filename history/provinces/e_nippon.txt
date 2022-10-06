@@ -1,4 +1,4 @@
-
+#e_nippon
 #k_yamato 
 #d_kansai 
 #c_yamashiro 
@@ -9,9 +9,9 @@
 	holding = castle_holding
 }
 #b_fushimi
-11239 = {}
+11239 = {holding = city_holding}
 #b_soraku
-11241 = {}
+11241 = {holding = church_holding}
 #c_yamato 
 #b_nara
 11266 = {
@@ -20,11 +20,11 @@
 	holding = castle_holding
 }
 #b_uda
-11267 = {}
+11267 = {holding = church_holding}
 #b_katsujo
-11265 = {}
+11265 = {holding = city_holding}
 #b_yoshino
-11268 = {}
+11268 = {holding = none}
 #c_kawachi 
 #b_kawachi
 11287 = {
@@ -32,23 +32,25 @@
 	religion = shinto
 	holding = castle_holding
 }
-#b_osaka
-11291 = {}
 #b_izumi
-11290 = {}
+11290 = {holding = city_holding}
 #b_hine
-11288 = {}
+11288 = {holding = church_holding}
+#b_hiraoka
+11313 = {holding = none}
 #c_settsu 
-#b_mishima
-11289 = {
+#b_osaka
+11291 = {
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
+#b_mishima
+11289 = {holding = church_holding}
 #b_kawabe
-11212 = {}
+11212 = {holding = none}
 #b_ubara
-11359 = {}
+11359 = {holding = city_holding}
 #c_omi 
 #b_shiga
 11300 = {
@@ -57,26 +59,26 @@
 	holding = castle_holding
 }
 #b_otsu
-11301 = {}
+11301 = {holding = city_holding}
 #b_inukami
-11297 = {}
+11297 = {holding = church_holding}
 #b_azai
-11298 = {}
+11298 = {holding = none}
 #c_ise 
-#b_ise
-11244 = {
+#b_suzuka
+11248 = {
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
+#b_ise
+11244 = {holding = church_holding}
 #b_ichishi
-11249 = {}
-#b_suzuka
-11248 = {}
+11249 = {holding = city_holding}
 #b_shima
-11247 = {}
+11247 = {holding = none}
 #b_iga
-11246 = {}
+11246 = {holding = none}
 #c_owari 
 #b_nakashima
 11139 = {
@@ -85,7 +87,7 @@
 	holding = castle_holding
 }
 #b_aichi
-11140 = {}
+11140 = {holding = church_holding}
 #c_mikawa 
 #b_hekikai
 11138 = {
@@ -94,22 +96,22 @@
 	holding = castle_holding
 }
 #b_atsumi
-11142 = {}
+11142 = {holding = none}
 #b_shitara
-11141 = {}
+11141 = {holding = church_holding}
 #b_iwata
-11311 = {}
+11311 = {holding = city_holding}
 #b_saya
-11312 = {}
+11312 = {holding = none}
 #c_kai 
-#b_yatsushiro
-11352 = {
+#b_yamanashi
+11337 = {
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
-#b_yamanashi
-11337 = {}
+#b_yatsushiro
+11352 = {holding = church_holding}
 #c_mino 
 #b_mino
 11177 = {
@@ -118,13 +120,13 @@
 	holding = castle_holding
 }
 #b_ena
-11173 = {}
+11173 = {holding = church_holding}
 #b_kakami
-11175 = {}
+11175 = {holding = city_holding}
 #b_hida
-11178 = {}
+11178 = {holding = none}
 #b_mashita
-11174 = {}
+11174 = {holding = none}
 #d_hokuriku 
 #c_echizen 
 #b_nyu
@@ -134,13 +136,13 @@
 	holding = castle_holding
 }
 #b_sakai
-11156 = {}
+11156 = {holding = none}
 #b_kaga
-11220 = {}
+11220 = {holding = none}
 #b_enuma
-11355 = {}
+11355 = {holding = church_holding}
 #b_wakasa
-11158 = {}
+11158 = {holding = city_holding}
 #c_etchu 
 #b_imizu
 11327 = {
@@ -149,11 +151,11 @@
 	holding = castle_holding
 }
 #b_niikawa
-11326 = {}
+11326 = {holding = city_holding}
 #b_noto
-11219 = {}
+11219 = {holding = none}
 #b_fugeshi
-11218 = {}
+11218 = {holding = church_holding}
 #c_echigo 
 #b_kubiki
 11270 = {
@@ -162,13 +164,13 @@
 	holding = castle_holding
 }
 #b_koshi
-11272 = {}
+11272 = {holding = church_holding}
 #b_kanbara
-11269 = {}
+11269 = {holding = city_holding}
 #b_iwafune
-11271 = {}
+11271 = {holding = none}
 #b_sado
-11273 = {}
+11273 = {holding = none}
 #c_shinano 
 #b_shinano
 11259 = {
@@ -177,20 +179,15 @@
 	holding = castle_holding
 }
 #b_saku
-11353 = {}
+11353 = {holding = city_holding}
 #b_takai
-11354 = {}
-#c_suwa 
+11354 = {holding = none}
 #b_suwa
-11369 = {
-	culture = yamato
-	religion = shinto
-	holding = castle_holding
-}
+11369 = {holding = none}
 #b_azumi
-11260 = {}
+11260 = {holding = church_holding}
 #b_chikuma
-11176 = {}
+11176 = {holding = none}
 #d_nankai 
 #c_kii 
 #b_nagusa
@@ -200,11 +197,11 @@
 	holding = castle_holding
 }
 #b_arida
-11328 = {}
+11328 = {holding = none}
 #b_muro
-11245 = {}
+11245 = {holding = church_holding}
 #b_awaji
-11211 = {}
+11211 = {holding = city_holding}
 #c_iyo 
 #b_iyo
 11153 = {
@@ -213,11 +210,11 @@
 	holding = castle_holding
 }
 #b_uwa
-11155 = {}
+11155 = {holding = none}
 #b_noma
-11152 = {}
+11152 = {holding = city_holding}
 #b_nii
-11154 = {}
+11154 = {holding = church_holding}
 #c_sanuki 
 #b_aya
 11225 = {
@@ -226,7 +223,7 @@
 	holding = castle_holding
 }
 #b_kagawa
-11226 = {}
+11226 = {holding = city_holding}
 #c_awa 
 #b_awa
 11318 = {
@@ -235,9 +232,9 @@
 	holding = castle_holding
 }
 #b_miyoshi
-11320 = {}
+11320 = {holding = city_holding}
 #b_katsuura
-11319 = {}
+11319 = {holding = church_holding}
 #c_tosa 
 #b_tosa
 11363 = {
@@ -246,11 +243,11 @@
 	holding = castle_holding
 }
 #b_kami_ts
-11234 = {}
+11234 = {holding = church_holding}
 #b_hata
-11360 = {}
+11360 = {holding = none}
 #b_agawa
-11233 = {}
+11233 = {holding = city_holding}
 #d_sanin 
 #c_tanba 
 #b_kuwada
@@ -260,13 +257,13 @@
 	holding = castle_holding
 }
 #b_funai
-11358 = {}
+11358 = {holding = none}
 #b_taki_tz
-11214 = {}
+11214 = {holding = none}
 #b_ikaruga
-11238 = {}
+11238 = {holding = church_holding}
 #b_tanba
-11242 = {}
+11242 = {holding = city_holding}
 #c_inaba 
 #b_inaba
 11323 = {
@@ -275,13 +272,13 @@
 	holding = castle_holding
 }
 #b_hoki
-11325 = {}
+11325 = {holding = none}
 #b_hino
-11324 = {}
+11324 = {holding = city_holding}
 #b_izushi
-11215 = {}
+11215 = {holding = none}
 #b_mikata
-11213 = {}
+11213 = {holding = church_holding}
 #c_izumo 
 #b_izumo
 11304 = {
@@ -290,13 +287,13 @@
 	holding = castle_holding
 }
 #b_iishi
-11303 = {}
+11303 = {holding = church_holding}
 #b_iwami
-11302 = {}
+11302 = {holding = city_holding}
 #b_ano_iwm
-11305 = {}
+11305 = {holding = none}
 #b_oki
-11306 = {}
+11306 = {holding = none}
 #d_sanyo 
 #c_bizen 
 #b_jodo
@@ -306,13 +303,13 @@
 	holding = castle_holding
 }
 #b_oku
-11279 = {}
+11279 = {holding = city_holding}
 #b_tomata
-11280 = {}
+11280 = {holding = none}
 #b_katsuta
-11282 = {}
+11282 = {holding = church_holding}
 #b_oba
-11281 = {}
+11281 = {holding = none}
 #c_bingo 
 #b_yasuna
 11366 = {
@@ -321,13 +318,13 @@
 	holding = castle_holding
 }
 #b_sera
-11184 = {}
+11184 = {holding = city_holding}
 #b_eso
-11185 = {}
+11185 = {holding = church_holding}
 #b_shimotsu
-11284 = {}
+11284 = {holding = none}
 #b_kayo
-11362 = {}
+11362 = {holding = none}
 #c_harima 
 #b_shikama
 11361 = {
@@ -336,9 +333,9 @@
 	holding = castle_holding
 }
 #b_akashi
-11209 = {}
+11209 = {holding = city_holding}
 #b_ibo
-11210 = {}
+11210 = {holding = church_holding}
 #c_aki 
 #b_aki
 11183 = {
@@ -347,9 +344,9 @@
 	holding = castle_holding
 }
 #b_toyota
-11186 = {}
+11186 = {holding = city_holding}
 #b_takata
-11367 = {}
+11367 = {holding = church_holding}
 #c_nagato 
 #b_toyoura
 11336 = {
@@ -358,13 +355,13 @@
 	holding = castle_holding
 }
 #b_abu
-11368 = {}
+11368 = {holding = church_holding}
 #b_asa
-11335 = {}
+11335 = {holding = none}
 #b_saba
-11364 = {}
+11364 = {holding = none}
 #b_tsuno
-11334 = {}
+11334 = {holding = city_holding}
 #d_saikai 
 #c_tsukushi 
 #b_sawara
@@ -374,13 +371,13 @@
 	holding = castle_holding
 }
 #b_yasu_ckz
-11159 = {}
+11159 = {holding = church_holding}
 #b_munakata
-11162 = {}
+11162 = {holding = none}
 #b_mii
-11163 = {}
+11163 = {holding = none}
 #b_yame
-11164 = {}
+11164 = {holding = city_holding}
 #c_hizen 
 #b_saga_hz
 11293 = {
@@ -389,52 +386,58 @@
 	holding = castle_holding
 }
 #b_kishima
-11292 = {}
+11292 = {holding = church_holding}
 #b_matsuura
-11262 = {}
+11262 = {holding = none}
 #b_nagasaki
-11263 = {}
+11263 = {holding = city_holding}
+#b_goto_islands
+11947 = {holding = none}
 #b_iki
-11261 = {}
+11261 = {holding = none}
 #c_higo 
-#b_tamana
-11237 = {
+#b_amakusa
+11235 = {
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
+#b_tamana
+11237 = {holding = church_holding}
 #b_mashiki
-11371 = {}
+11371 = {holding = none}
 #b_kuma
-11236 = {}
-#b_amakusa
-11235 = {}
+11236 = {holding = city_holding}
 #c_hyuga 
 #b_koyu
 11257 = {
 	culture = hayato
 	religion = shinto
 	holding = castle_holding
+	800.1.1 = { culture = yamato }
 }
 #b_usuki
-11256 = {}
+11256 = {holding = church_holding}
 #b_morokata
-11255 = {}
+11255 = {holding = none}
 #b_miyazaki
-11258 = {}
+11258 = {holding = city_holding}
 #c_satsuma 
 #b_satsuma
 11370 = {
 	culture = hayato
 	religion = shinto
 	holding = castle_holding
+	800.1.1 = { culture = yamato }
 }
 #b_kagoshima
-11229 = {}
+11229 = {holding = city_holding}
 #b_osumi
-11228 = {}
+11228 = {holding = none}
 #b_soo
-11230 = {}
+11230 = {holding = church_holding}
+#b_tanegashiam
+11404 = {holding = none}
 #c_butsu 
 #b_oita
 11274 = {
@@ -443,15 +446,15 @@
 	holding = castle_holding
 }
 #b_amabe
-11276 = {}
+11276 = {holding = none}
 #b_kusu
-11275 = {}
+11275 = {holding = none}
 #b_nakatsu
-11160 = {}
+11160 = {holding = city_holding}
 #b_usa
-11278 = {}
+11278 = {holding = church_holding}
 #b_naoiri
-11277 = {}
+11277 = {holding = none}
 #c_tsushima 
 #b_tsushima
 11264 = {
@@ -468,9 +471,9 @@
 #c_rikuzen 
 #b_miyagi
 11254 = {
-	culture = emishi
+	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_kami_mt
 11251 = {holding = none}
@@ -498,7 +501,7 @@
 #c_rikugo 
 #b_tsugaru
 11146 = {
-	culture = ainu
+	culture = emishi
 	religion = moshir
 	holding = tribal_holding
 }
@@ -511,7 +514,7 @@
 11168 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_namekata
 11170 = {holding = none}
@@ -526,18 +529,20 @@
 	religion = shinto
 	holding = castle_holding
 }
-#b_shinobu
-11167 = {holding = none}
 #b_aizu
 11165 = {holding = none}
+#b_iwase
+11169 = {holding = none}
+#b_shinobu
+11167 = {holding = none}
 #b_yama
 11166 = {holding = none}
 #c_ugo
 #b_akita
 11340 = {
 	culture = emishi
-	religion = moshir
-	holding = tribal_holding
+	religion = shinto
+	holding = castle_holding
 }
 #b_akumi
 11333 = {holding = none}
@@ -550,9 +555,9 @@
 #c_uzen 
 #b_tagawa
 11330 = {
-	culture = emishi
+	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_murayama
 11332 = {holding = none}
@@ -562,22 +567,22 @@
 11349 = {holding = none}
 #d_tokai 
 #c_musashi 
-#b_edo
-11322 = {
+#b_tama
+11351 = {
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
 }
-#b_tama
-11351 = {}
+#b_edo
+11322 = {holding = city_holding}
 #b_kuraki
-11350 = {}
+11350 = {holding = none}
 #b_saitama
-11321 = {}
+11321 = {holding = church_holding}
 #b_chichibu
-11294 = {}
+11294 = {holding = none}
 #b_iruma
-11296 = {}
+11296 = {holding = none}
 #c_sagami 
 #b_kamakura
 11231 = {
@@ -586,35 +591,35 @@
 	holding = castle_holding
 }
 #b_ashigara
-11232 = {}
+11232 = {holding = city_holding}
 #c_kozuke 
 #b_gunma
 11182 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_kataoka
-11179 = {holding = none}
+11179 = {holding = city_holding}
 #b_seta
 11181 = {holding = none}
 #b_agatsuma
 11180 = {holding = none}
 #b_hatara
-11295 = {holding = none}
+11295 = {holding = church_holding}
 #c_shimotsuke 
 #b_tsuga
 11317 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_aso
-11315 = {holding = none}
+11315 = {holding = city_holding}
 #b_haga
 11314 = {holding = none}
 #b_shioya
-11316 = {holding = none}
+11316 = {holding = church_holding}
 #c_suruga 
 #b_ihara
 11309 = {
@@ -623,24 +628,22 @@
 	holding = castle_holding
 }
 #b_suruga
-11310 = {}
+11310 = {holding = church_holding}
 #b_izu
-11308 = {}
+11308 = {holding = city_holding}
 #c_hitachi 
 #b_niihari
 11216 = {
 	culture = yamato
 	religion = shinto
-	holding = tribal_holding
+	holding = castle_holding
 }
 #b_kashima
-11217 = {holding = none}
+11217 = {holding = church_holding}
 #b_ibaraki
-11346 = {holding = none}
+11346 = {holding = city_holding}
 #b_kuji
 11345 = {holding = none}
-#b_yuki
-11347 = {holding = none}
 #c_kazusa 
 #b_ichihara
 11150 = {
@@ -649,13 +652,15 @@
 	holding = castle_holding
 }
 #b_musha
-11149 = {}
+11149 = {holding = church_holding}
 #b_awa_so
-11342 = {}
+11342 = {holding = none}
 #b_chiba
-11348 = {}
+11348 = {holding = city_holding}
 #b_katori
-11151 = {}
+11151 = {holding = none}
+#b_yuki
+11347 = {holding = none}
 #d_hokkai 
 #c_oshima 
 #b_hakodate
@@ -729,9 +734,45 @@
 	religion = yzng
 	holding = tribal_holding
 }
+#b_etorofu
+11372 = {holding = none}
 #b_chishima
 11373 = {holding = none}
 #b_monbetsu
 11199 = {holding = none}
 #b_abashiri
 11187 = {holding = none}
+
+#k_ryukyu
+#d_ryukyu
+#c_amami
+#b_amami
+11227 = {
+	culture = kaizuka
+	religion = ryukyu_animism
+	holding = tribal_holding
+}
+#c_ryukyu
+#b_ryukyu
+11286 = { # Nanzan
+	culture = kaizuka
+	religion = ryukyu_animism
+	holding = tribal_holding
+}
+#b_hokuzan
+10927 = {holding = none}
+#d_saki
+#c_saki
+#b_saki
+11285 = {
+	culture = batanic
+	religion = anito
+	holding = tribal_holding
+}
+#c_miyako
+#b_miyako
+10925 = {
+	culture = batanic
+	religion = anito
+	holding = tribal_holding
+}

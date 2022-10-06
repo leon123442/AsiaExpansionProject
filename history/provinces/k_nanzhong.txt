@@ -471,7 +471,7 @@
 
 
 #c_yebyu
-# Mawlamyine
+#b_mawlamyine
 9629 = {
 	culture = mon
 	religion = vaishnavism

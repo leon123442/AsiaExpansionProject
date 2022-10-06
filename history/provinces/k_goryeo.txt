@@ -3,9 +3,7 @@
 #c_hexizhou #何瑟罗州/河西/溟州/悉直
 #b_kangnung
 10872 = {
-    culture = saro
-	religion = gyodan
-	holding = castle_holding
+    holding = none
 }
 
 #b_congshiting
@@ -19,35 +17,45 @@
 10871 = {
 
 
-	holding = none
+	culture = goguryeo
+	religion = gyodan
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 
 #b_tonghae
 10873 = {
 
 
-	holding = city_holding
+	culture = saro
+	religion = gyodan
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 
 #b_ulchin
 10874 = {
-
-
 	holding = none
 }
 
 #c_shouruozhou #首若州/朔州/比列忽州
 #b_chunchon
 10876 = {
-    culture = saro
+
+
+    culture = goguryeo
 	religion = gyodan
 	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_wonju
 10877 = {
 
 
-	holding = city_holding
+	culture = saro
+	religion = gyodan
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_yongju
 10878 = {
@@ -72,15 +80,21 @@
 #c_hanju #汉山州/汉州/京畿道gyeonggido
 #b_weili
 10885 = {
-    culture = saro
+
+
+	culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_nanhanseong
 10886 = {
 
 
+	culture = saro
+	religion = zenzong
 	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_ganghwa
 10887 = {
@@ -98,15 +112,16 @@
 10889 = {
 
 
-	holding = none
+	holding = city_holding
 }
 
 #c_hwanghae #黄海道
 #b_kaeseong
 10883 = {
     culture = goguryeo
-	religion = zenzong
+	religion = mahayana
 	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_hwangju
 10880 = {
@@ -118,7 +133,10 @@
 10881 = {
 
 
-	holding = city_holding
+	culture = goguryeo
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 #b_haeju
 10882 = {
@@ -137,15 +155,16 @@
 #c_xiongshanzhou #熊川州/所夫里/忠清道
 #b_gongju_buyeo_sibi
 10892 = {
-    culture = saro
+    culture = baekje
 	religion = zenzong
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_chongju
 10891 = {
 
 
-	holding = castle_holding
+	holding = city_holding
 }
 #b_sosan
 10893 = {
@@ -158,8 +177,9 @@
 #b_chonju
 10894 = {
     culture = baekje
-	religion = zenzong
+	religion = mahayana
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_iksan
 10895 = {
@@ -171,7 +191,7 @@
 10896 = {
 
 
-	holding = none
+	holding = city_holding
 }
 		
 #c_faluozhou #武珍州/发罗
@@ -180,20 +200,20 @@
     culture = baekje
 	religion = mahayana
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_yosn
 10898 = {
 
 
-	holding = none
+	holding = city_holding
 }
 
 #c_danluo
 #b_danluo
 10890 = {
-    #culture = tamnanese
-	culture = baekje
-	religion = mahayana 
+	culture = tamna
+	religion = gyodan
 	holding = castle_holding
 }
 
@@ -204,12 +224,13 @@
     culture = saro
 	religion = mahayana
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_yangsan
 10904 = {
 
 
-	holding = none
+	holding = city_holding
 }
 #b_SeokguramGrotto
 10907 = {
@@ -224,6 +245,7 @@
     culture = saro
 	religion = zenzong 
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_HaeinsaTemple
 10906 = {
@@ -237,11 +259,12 @@
     culture = saro
 	religion = zenzong
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_anton
 10909 = {
 
-	holding = none
+	holding = city_holding
 }
 
 #d_gaya #迦倻
@@ -251,6 +274,7 @@
     culture = saro
 	religion = zenzong 
 	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_changwon
 10902 = {
@@ -263,7 +287,8 @@
 10899 = {
     culture = saro
 	religion = zenzong
-	holding = city_holding
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
 }
 #b_sachon
 10900 = {
@@ -278,5 +303,5 @@
 #b_goryeong
 10911 = {
 
-	holding = castle_holding
+	holding = none
 }

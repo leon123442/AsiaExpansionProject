@@ -1,10 +1,11 @@
 ﻿l_english:
- 
-###Silla
- dynn_Isageum:0 "Nisagŭm Park"
- dynn_Geoseogan:0 "Kŏsŏkan Park"
- dynn_Maripgan:0 "Maripkan Kim"
- dynn_Isageum_Talhae:0 "Nisagŭm Sŏk"
- dynn_Itgeum:0 "Itgŭm"
- dynn_Mireugan:0 "Mirŭkan"
- dynn_Chachaung:0 "Chachaung"
+
+ dynn_Gyeongju_Kim:0 "Kim"
+ dynn_Miryang_Park:0 "Park"
+ dynn_Wolseong_Seok:0 "Seok"
+ dynn_Buyeo:0 "Buyeo"
+ dynn_fuhitoyamato:0 "Yamato"
+ dynn_sugano:0 "Sugano"
+ dynn_Go_Goguryeo:0 "Go"
+ dynn_Wang:0 "Wang"
+ dynn_Go_Tamna:0 "Go"

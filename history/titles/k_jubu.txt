@@ -1,6 +1,64 @@
+e_grand_liao = {
+	916.1.1 = {
+		holder = 194325
+	}
+	926.9.6 = {
+		holder = 194326
+	}
+	947.5.18 = {
+		holder = 194328
+	}
+	951.10.7 = {
+		holder = 194329
+	}
+	969.3.12 = {
+		holder = 194330
+	}
+	982.10.13 = {
+		holder = 194331
+	}
+	1031.6.25 = {
+		holder = 194332
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+
 k_jubu = {
 	840.1.2 = {
 		holder = 303238		#fictional Uzur Enisey Kyrgyz
 		government = tribal_government
 	}
+	871.8.19 = {
+		holder = 0
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+d_hejes = {
+	864.1.1 = {
+		holder = 4550009
+	} 
+    1066.1.1 = { change_development_level = 4 }
+}
+c_dayan = {
+	864.1.1 = {
+		holder = 4550009
+	} 
+}
+c_sadenor = {
+	864.1.1 = {
+		holder = 4550009
+	} 
+}
+c_degere = {
+	864.1.1 = {
+		holder = 4550009
+	} 
+	1066.1.1 = { change_development_level = 18 }
+}
+d_murin = {
+    1066.1.1 = { change_development_level = 4 }
 }

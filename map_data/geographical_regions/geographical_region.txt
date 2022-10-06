@@ -493,6 +493,8 @@ world_asia_china_shuofang = {
 		d_fengzhou d_zhenwu d_wuluhai
 		#Xia
 		d_xiazhou d_shuofang d_xia d_ordos 
+		#Hexi Corridor
+		d_liangzhou d_zhenfan d_shanzhou d_qilin d_ganzhou d_guiyi d_aksay
 	}
 }
 
@@ -509,7 +511,7 @@ world_asia_china_yanzhao = {
 
 world_asia_china_liao = {
 	duchies = {
-		d_liaoxi d_liaodong d_gewu d_rangnang 
+		d_liaoxi d_liaodong d_gewu d_nyongbyon d_rangnang 
 	}
 }
 
@@ -566,20 +568,20 @@ world_asia_china_qian = {
 
 world_asia_korea = {
 	duchies = {
-		d_dongya d_goguryeo d_baekje d_sila d_gaya 
+		d_dongya d_goguryeo d_baekje d_sila d_gaya d_tamna 
 	}
 }
 
 world_asia_japan = {
 	duchies = {
 		#Yamato
-		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa
+		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa d_tosan d_ou
 	}
 }
 
 world_asia_ryukyu = {
 	duchies = {
-		d_ryukyu
+		d_ryukyu d_saki
 	}
 }
 
@@ -637,7 +639,7 @@ world_asia_southeast_borneo = {
 world_asia_southeast_celebes = {
 	duchies = {
 		# Sulawesi
-		d_sulawesi d_bungku d_south_sulawesi
+		d_sulawesi d_bungku d_south_sulawesi d_timor d_banda d_ternate d_tidore d_wanin
 	}
 }
 world_asia_southeast_philippines = {
@@ -655,7 +657,7 @@ world_asia_southeast_angkor = {
 		d_panduranga d_champa d_jarai
 		d_lavo d_kra d_koma d_prachinburi
 		d_sangkapura d_prungnagara d_canasapura d_kalasin d_khamkeut d_nong_khai
-		d_haripunjaya d_srichanasa
+		d_haripunjaya d_srichanasa d_shan
 	}
 }
 
@@ -696,8 +698,8 @@ world_steppe_tunguse = {
 		#Balhae
 		d_balhae d_malgal d_sumo d_heishui d_udege d_yulou d_okjeo 
 		d_buyeo d_changchun
-		#ainu
-		d_ou d_hokkai  
+		#Ezo
+		d_hokkai d_nemuro
     }
 }
 
@@ -724,6 +726,8 @@ world_steppe_east = {
 		#Balhae
 		d_balhae d_malgal d_sumo d_heishui d_udege d_yulou d_okjeo 
 		d_buyeo d_changchun
+		#Ezo
+		d_hokkai d_nemuro
 		#Tuva
 		d_togina d_tannu_ola d_western_sayan
 		#Khirgiz
@@ -3550,7 +3554,7 @@ divergence_island_regions = {
 custom_japan = {
 	duchies = {
 		#Yamato
-		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa d_hokkai d_ryukyu
+		d_kansai d_hokuriku	d_nankai d_sanin d_sanyo d_saikai d_tokai d_kanto d_dewa d_tosan d_ou d_hokkai d_nemuro d_ryukyu d_saki
 	}
 }
 

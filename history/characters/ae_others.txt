@@ -1,16 +1,4 @@
-﻿4550007 = {
-	name = Yelü #Abaoji_
-	dynasty = 46600007
-	religion = tengri_pagan
-	culture = khitan
-	832.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		death = yes
-	}
-}
-## Vajrayana Rulers in Butuan and surrounding areas 867AD
+﻿## Vajrayana Rulers in Butuan and surrounding areas 867AD
 
 butuan001 = { # should be married to Javanese princess
 	name = "Jambavanta" 
@@ -21,31 +9,6 @@ butuan001 = { # should be married to Javanese princess
 		birth = yes
 	}
 	910.1.1 = {
-		death = yes
-	}
-}
-
-4550009 = {
-	name = Hongji
-	dynasty = 46600009
-	religion = tengri_pagan
-	culture = khitan
-	822.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		death = yes
-	}
-}
-4550010 = {
-	name = Jing
-	dynasty = 46600010
-	religion = tengri_pagan
-	culture = khitan
-	839.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
 		death = yes
 	}
 }
@@ -338,32 +301,92 @@ tagalog006 = { # Tulay
 		death = yes
 	}
 }
-4550011 = {
-	name = Unkut #Yanxi_
-	dynasty = 46600011
-	religion = tengri_pagan
-	culture = khitan
-	808.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
-		death = yes
-	}
-}
+## Eastern Steppe
 4550008 = {
-	name = Murong #Zongzhen_
+	name = "Murong" #Fictional ruler of the Kumo Xi
 	dynasty = 46600008
 	religion = tengri_pagan
-	culture = khitan
+	culture = qay
 	812.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	900.1.1 = {
+		death = yes
+	}
+}
+4550009 = {
+	name = "Belgutei" #Fictional ruler of the Tatar Confederation
+	dynasty = 46600009
+	religion = tengri_pagan
+	culture = tataric
+	822.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+4550010 = {
+	name = "Khagatai" #Fictional ruler of the Southern Shiwei
+	dynasty = 46600010
+	religion = tengri_pagan
+	culture = shiwei
+	839.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+## Placeholders
+
+rikuchu_placeholder_001 = {
+	name = "Yansun"
+	religion = moshir
+	culture = emishi
+	813.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
 		death = yes
 	}
 }
 
-# Hokkaido
+rikuchu_placeholder_002 = {
+	name = "Kušinu"
+	religion = moshir
+	culture = emishi
+	1031.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+rikugo_placeholder_001 = {
+	name = "Songge"
+	religion = moshir
+	culture = emishi
+	831.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+rikugo_placeholder_002 = {
+	name = "Telin"
+	religion = moshir
+	culture = emishi
+	1005.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
 teshio_placeholder_001 = {
 	name = "Toshiyakui"
 	dna = toshiyakui_the_mishihase_dna
@@ -387,6 +410,446 @@ teshio_placeholder_001 = {
 		}
 	}
 	900.1.1 = {
+		death = yes
+	}
+}
+teshio_placeholder_002 = {
+	name = "Haunte"
+	religion = yzng
+	culture = mishihase
+	1017.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+nemuro_placeholder_001 = {
+	name = "Shikahotsute"
+	religion = yzng
+	culture = mishihase
+	816.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+nemuro_placeholder_002 = {
+	name = "Sakai"
+	religion = yzng
+	culture = mishihase
+	1015.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+kushiro_placeholder_001 = {
+	name = "Torurian"
+	religion = moshir
+	culture = ainu
+	846.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+kushiro_placeholder_002 = {
+	name = "Kikeninba"
+	religion = moshir
+	culture = ainu
+	1016.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+ishikari_placeholder_001 = {
+	name = "Nochikusa"
+	religion = moshir
+	culture = ainu
+	810.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+ishikari_placeholder_002 = {
+	name = "Sakeroku"
+	religion = moshir
+	culture = ainu
+	1026.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hidaka_placeholder_001 = {
+	name = "Yuware"
+	religion = moshir
+	culture = ainu
+	827.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+hidaka_placeholder_002 = {
+	name = "Hecaranke"
+	religion = moshir
+	culture = ainu
+	1011.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+oshima_placeholder_001 = {
+	name = "Shiurumi"
+	religion = moshir
+	culture = ainu
+	829.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+oshima_placeholder_002 = {
+	name = "Sangea"
+	religion = moshir
+	culture = ainu
+	1021.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+amami_placeholder_001 = {
+	name = "Onibishi"
+	religion = ryukyu_animism
+	culture = kaizuka
+	833.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+amami_placeholder_002 = {
+	name = "Koshamain"
+	religion = ryukyu_animism
+	culture = kaizuka
+	1037.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+ryukyu_placeholder_001 = {
+	name = "Penri"
+	religion = ryukyu_animism
+	culture = kaizuka
+	834.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+ryukyu_placeholder_002 = {
+	name = "Shakushain"
+	religion = ryukyu_animism
+	culture = kaizuka
+	1017.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+miyako_placeholder_001 = {
+	name = "Benguit"
+	religion = anito
+	culture = batanic
+	818.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+miyako_placeholder_002 = {
+	name = "Baha"
+	religion = anito
+	culture = batanic
+	1014.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+saki_placeholder_001 = {
+	name = "Pantuk"
+	religion = anito
+	culture = batanic
+	814.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+saki_placeholder_002 = {
+	name = "Ambun"
+	religion = anito
+	culture = batanic
+	1040.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+helan_placeholder_001 = {
+	name = "Wuge"
+	religion = shaman
+	culture = mohese
+	810.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+longyuan_placeholder_001 = {
+	name = "Tiande"
+	religion = shaman
+	culture = mohese
+	831.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+mudan_placeholder_001 = {
+	name = "Rian"
+	religion = shaman
+	culture = mohese
+	829.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+jianzhou_placeholder_001 = {
+	name = "Fuguzhi"
+	religion = shaman
+	culture = mohese
+	832.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+dongping_placeholder_001 = {
+	name = "Zhongyuan"
+	religion = shaman
+	culture = mohese
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+shuaibin_placeholder_001 = {
+	name = "Jing"
+	religion = shaman
+	culture = mohese
+	830.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+dingli_placeholder_001 = {
+	name = "Yanchege"
+	religion = shaman
+	culture = mohese
+	835.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+anbian_placeholder_001 = {
+	name = "Yilie"
+	religion = shaman
+	culture = mohese
+	843.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+anyuan_placeholder_001 = {
+	name = "Xiuge"
+	religion = shaman
+	culture = mohese
+	836.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+udger_placeholder_001 = {
+	name = "Wæuanjæ"
+	religion = shaman
+	culture = jurchen
+	814.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+achu_placeholder_001 = {
+	name = "Aišïha"
+	religion = shaman
+	culture = jurchen
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+dargu_placeholder_001 = {
+	name = "Sagezhou"
+	religion = shaman
+	culture = jurchen
+	813.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+sumozhou_placeholder_001 = {
+	name = "Hushahu"
+	religion = shaman
+	culture = jurchen
+	837.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+huanglong_placeholder_001 = {
+	name = "Tege"
+	religion = shaman
+	culture = jurchen
+	835.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+mongnai_placeholder_001 = {
+	name = "Chanthou"
+	religion = pagan
+	culture = karenic
+	1043.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+yawnghwe_placeholder_001 = {
+	name = "Thaun"
+	religion = pagan
+	culture = karenic
+	1018.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hsipaw_placeholder_001 = {
+	name = "Sovannarith"
+	religion = pagan
+	culture = palaungic
+	1044.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hsenwi_placeholder_001 = {
+	name = "Zhining"
+	religion = pagan
+	culture = tai
+	1040.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+northandaman_placeholder_001 = {
+	name = "Sastrahetajnadewati"
+	religion = kadai
+	culture = aslian
+	1009.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+southandaman_placeholder_001 = {
+	name = "Daksottama"
+	religion = kadai
+	culture = aslian
+	1017.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+nicobarislands_placeholder_001 = {
+	name = "Mangkubumi"
+	religion = kadai
+	culture = aslian
+	1037.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
 		death = yes
 	}
 }

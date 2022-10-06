@@ -3,24 +3,24 @@
 #c_dading
 #b_Xiwangfu_Raole_Dading
 10630 = {
-    culture = qay
-	religion = tengri_pagan
+		culture = khitan
+		religion = zenzong
 		holding = tribal_holding
-		907.1.1 = {
-			culture = khitan
+		916.1.1 = {
+			holding = castle_holding
 		}
 	}
 #b_Songshan_Chifeng
 10631 = {
 
 	
-	holding = tribal_holding
+	holding = city_holding
 }
 #b_Huihe_Huangbailing
 10632 = {
  
 	
-	holding = none
+	holding = church_holding
 }
 
 
@@ -31,6 +31,8 @@
 	religion = tengri_pagan
 		holding = tribal_holding
 		907.1.1 = {
+			religion = zenzong
+			holding = castle_holding
 			culture = khitan
 		}	
 	}
@@ -55,6 +57,8 @@
 	religion = tengri_pagan
 		holding = tribal_holding
 		907.1.1 = {
+			religion = zenzong
+			holding = castle_holding
 			culture = khitan
 		}	
 	}
@@ -78,6 +82,8 @@
 	religion = tengri_pagan
 		holding = tribal_holding
 		907.1.1 = {
+			religion = zenzong
+			holding = castle_holding
 			culture = khitan
 		}		
 	}
@@ -93,21 +99,25 @@
 #c_degere
 #b_Shangjing_Linhuang
 10636 = {
-    culture = khitan
+    culture = tataric
 	religion = tengri_pagan
-		holding = tribal_holding	
+		holding = tribal_holding
+		916.1.1 = {
+			culture = khitan 
+			religion = zenzong
+		}
 	}
 #b_QingzhouXuande
 10645 = {
 
 	
-	holding = tribal_holding
+	holding = none
 }
 #b_LiaoZuzhou
 10653 = {
 
 	
-	holding = church_holding
+	holding = none
 }
 #b_Hongfusi
 10654 = {
@@ -125,41 +135,45 @@
 #c_longhua
 #b_Yongan_Jiangsheng
 10643 = {
-     culture = khitan
-	religion = tengri_pagan
-		holding = tribal_holding	
+		holding = church_holding	
 	}
 #b_Longhua
 10639 = {
-
-	
+	culture = khitan
+	religion = tengri_pagan
 	holding = tribal_holding
+	916.1.1 = {
+		religion = zenzong
+	}		
 }
 #b_Fuzhou_Liao
 10640 = {
 
 	
-	holding = none
+	holding = city_holding
 }
 #b_Wuzhou_Aimin
 10644 = {
 
 
-	holding = tribal_holding
+	holding = none
 }
 
 #c_yikun
 #b_YikunzhouGuangyi
 10633 = {
-    culture = khitan
-	religion = tengri_pagan
-		holding = tribal_holding		
+		culture = khitan
+		religion = tengri_pagan
+		holding = tribal_holding
+		916.1.1 = {
+			religion = zenzong
+		}		
 	}
 #b_YongzhouChangning
 10634 = {
 
 	
-	holding = tribal_holding
+	holding = city_holding
 }
 	
 
@@ -167,9 +181,9 @@
 #c_dayan
 #b_Guangjihu_Dayanli
 10638 = {
-    culture = khitan
+    culture = tataric
 	religion = tengri_pagan
-		holding = tribal_holding	
+		holding = tribal_holding
 	}
 #b_Yelaishan
 10646 = {
@@ -187,9 +201,9 @@
 #c_sadenor
 #b_Dashuipo_Sadenniao
 10637 = {
-    culture = khitan
+    culture = tataric
 	religion = tengri_pagan
-		holding = tribal_holding	
+		holding = tribal_holding
 	}
 #b_Chagannor_South
 10650 = {
@@ -203,9 +217,13 @@
 #c_fuyu
 #b_Fuyufu_Tongzhou
 10681 = {
-	culture = khitan
-	religion = tengri_pagan
-	holding = tribal_holding	
+	culture = balhae
+	religion = shaman
+	holding = castle_holding
+	916.1.1 = {
+		holding = tribal_holding
+		culture = jurchen
+	}
 }
 #b_XinzhouWucjurcheng
 10682 = {
@@ -223,15 +241,18 @@
 10683 = {
 
 	
-	holding = tribal_holding
+	holding = none
 }
 
 #c_huanglong
 #b_Huanglongfu
 10684 = {
-	culture = khitan
+	culture = mohese
 	religion = shaman
-	holding = tribal_holding	
+	holding = tribal_holding
+	916.1.1 = {
+		culture = jurchen
+	}
 }
 #b_WeizhouHuaide
 10685 = {
@@ -243,7 +264,7 @@
 10686 = {
 
 
-	holding = tribal_holding
+	holding = none
 }
 
 #c_changling
@@ -251,7 +272,11 @@
 10690 = {
 	culture = balhae
 	religion = shaman
-	holding = tribal_holding	
+	holding = castle_holding
+	916.1.1 = {
+		holding = tribal_holding
+		culture = jurchen
+	}
 }
 #b_Changling
 10689 = {
@@ -269,23 +294,22 @@
 10692 = {
 
 
-	holding = tribal_holding
+	holding = none
 }
 
 
 
 #d_changchun
 #c_changchun
-#b_Taizhou_Lekang
-10791 = {
-	culture = shiwei
-	religion = tengri_pagan
-	holding = tribal_holding	
-}
 #b_Changchunzhou_Yellowhead
 10792 = {
-
+	culture = shiwei
+	religion = tengri_pagan
 	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
 }
 #b_HunRiver
 10793 = {
@@ -300,27 +324,16 @@
 	holding = none
 }
 
-#c_dargu
-#b_Dalugucheng
-10733 = {
-	culture = shiwei
-	religion = shaman
-	holding = tribal_holding	
-}
-#b_Chuhedian_Nelanagu_Zhaozhou
-10736 = {
-
-
-	holding = tribal_holding
-}
-
 #c_ningzhou_khitan
 #b_Ningzhou_Ledesjurchen
 10655 = {
-	culture = khitan
+	culture = shiwei
 	religion = tengri_pagan
 	holding = tribal_holding
-	907.1.1 = { culture = khitan }
+	916.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
 }
 #b_Niaotan_Kailu
 10657 = {

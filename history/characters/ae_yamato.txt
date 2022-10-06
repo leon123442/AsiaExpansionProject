@@ -1,18 +1,24 @@
-﻿# Legendary Yamato Emperors
+﻿# When adding additional characters from before the common era be sure to add a year to the date to display properly in game
+### Imperial Family 皇室
 jimmu_tenno = {
-	name = "Kamu-yamato-iware-biko_no_Sumeramikoto" # Emperor Jimmu, Kamu-yamato Iware-biko no Mikoto
+	name = "Hohodemi"
 	dna = jimmu_tenno_dna
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	diplomacy = 10
+	martial = 20
+	stewardship = 13
+	intrigue = 9
+	learning = 14
+	prowess = 26
 	trait = education_martial_4
-	trait = education_diplomacy_3
 	trait = brave
 	trait = zealous
 	trait = diligent
-	martial = 30
-	prowess = 50
-	-711.2.13 = { # 711 BC
+	trait = holy_warrior
+	disallow_random_traits = yes
+	-712.2.13 = { # 711 BC
 		birth = yes
 		effect = {
 			add_character_flag = {
@@ -20,251 +26,1713 @@ jimmu_tenno = {
 			}
 		}
 	}
-	-660.2.11 = { # 660 BC
+	-661.2.11 = { # 660 BC
 		name = "Jimmu"
 	}
-	-585.4.9 = { # 585 BC
+	-586.4.9 = { # 585 BC
+		death = yes
+	}
+}
+yamato_tagashimimi = {
+	name = "Tagashimimi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = education_diplomacy_4
+	trait = deceitful
+	trait = vengeful
+	trait = callous
+	trait = child_of_concubine_male
+	disallow_random_traits = yes
+	father = jimmu_tenno
+	-637.1.1 = { # 636 BC
+		birth = yes
+	}
+	-567.1.1 = { # 566 BC
+		death = {
+			death_reason = death_execution
+			killer = suizei_tenno
+		}
+	}
+}
+yamato_kamuyaimimi = {
+	name = "Kamuyaimimi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = education_learning_4
+	trait = scholar
+	trait = generous
+	trait = craven
+	disallow_random_traits = yes
+	father = jimmu_tenno
+	-635.1.1 = { # 634 BC
+		birth = yes
+	}
+	-550.1.1 = { # 549 BC
 		death = yes
 	}
 }
 suizei_tenno = {
-	name = "Kamu-nunakawamimi_no_Sumeramikoto" # Emperor Suizei, Kamu-nunakawamimi no Sumeramikoto
+	name = "Kamununakawamimi"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	education_martial_4
+	trait = callous
+	trait = brave
+	trait = diligent
+	trait = kinslayer_3
+	disallow_random_traits = yes
 	father = jimmu_tenno
-	-632.1.1 = { # 632 BC
+	-633.1.1 = { # 632 BC
 		birth = yes
 	}
-	-581.1.1 = { # 581 BC
+	-582.1.1 = { # 581 BC
 		name = "Suizei"
 	}
-	-549.1.1 = { # 549 BC
+	-550.1.1 = { # 549 BC
 		death = yes
 	}
 }
 annei_tenno = {
-	name = "Shikitsuhikotamatemi_no_Sumeramikoto" # Emperor Annei, Shikitsuhikotamatemi no Sumeramikoto
+	name = "Tamatemi"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = suizei_tenno
-	-567.1.1 = { # 567 BC
+	-568.1.1 = { # 567 BC
 		birth = yes
 	}
-	-549.1.1 = { # 549 BC
+	-550.1.1 = { # 549 BC
 		name = "Annei"
 	}
-	-511.1.1 = { # 511 BC
+	-512.1.1 = { # 511 BC
 		death = yes
 	}
 }
 itoku_tenno = {
-	name = "Oho-yamatohiko-sukitomo_no_Sumeramikoto" # Emperor Itoku, Shikitsuhikotamatemi no Sumeramikoto
+	name = "Sukitomo"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = annei_tenno
-	-553.1.1 = { # 553 BC
+	-554.1.1 = { # 553 BC
 		birth = yes
 	}
-	-511.1.1 = { # 511 BC
+	-512.1.1 = { # 511 BC
 		name = "Itoku"
 	}
-	-477.1.1 = { # 477 BC
+	-478.1.1 = { # 477 BC
 		death = yes
 	}
 }
 kosho_tenno = {
-	name = "Mimatsuhikokaeshine_no_Sumeramikoto" # Emperor Kōshō, Mimatsuhikokaeshine no Sumeramikoto
+	name = "Kaeshine"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = itoku_tenno
-	-501.1.1 = { # 501 BC
+	-502.1.1 = { # 501 BC
 		birth = yes
 	}
-	-477.1.1 = { # 475 BC
+	-478.1.1 = { # 475 BC
 		name = "Kosho"
 	}
-	-393.1.1 = { # 393 BC
+	-394.1.1 = { # 393 BC
 		death = yes
 	}
 }
 koan_tenno = {
-	name = "Yamato-tarashihiko-kuni-oshihito_no_Sumeramikoto" # Emperor Koan, Yamato-tarashihiko-kuni-oshihito no Sumeramikoto
+	name = "Kunioshihito"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = kosho_tenno
-	-427.1.1 = { # 427 BC
+	-428.1.1 = { # 427 BC
 		birth = yes
 	}
-	-393.1.1 = { # 392 BC
+	-394.1.1 = { # 392 BC
 		name = "Koan"
 	}
-	-290.1.1 = { # 291 BC
+	-291.1.1 = { # 291 BC
 		death = yes
 	}
 }
 korei_tenno = {
-	name = "O-yamato-nekohiko-futoni_no_Sumeramikoto" # Emperor Kōrei, Ō-yamato-nekohiko-futoni no Sumeramikoto
+	name = "Futoni"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = koan_tenno
-	-342.1.1 = { # 342 BC
+	-343.1.1 = { # 342 BC
 		birth = yes
 	}
-	-290.1.1 = { # 290 BC
+	-291.1.1 = { # 290 BC
 		name = "Korei"
 	}
-	-214.1.1 = { # 215 BC
+	-215.1.1 = { # 215 BC
 		death = yes
 	}
 }
 kogen_tenno = {
-	name = "O-yamato-nekohikokuni-kuru_no_Sumeramikoto" # Emperor Kōgen, Ō-yamato-nekohikokuni-kuru no Sumeramikoto
+	name = "Kunikuru"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = korei_tenno
-	-273.1.1 = { # 273 BC
+	-274.1.1 = { # 273 BC
 		birth = yes
 	}
-	-214.1.1 = { # 214 BC
+	-215.1.1 = { # 214 BC
 		name = "Kogen"
 	}
-	-158.1.1 = { # 158 BC
+	-159.1.1 = { # 158 BC
 		death = yes
 	}
 }
 kaika_tenno = {
-	name = "Wakayamato-nekohiko-obibi_no_Sumeramikoto" # Emperor Kaika, Wakayamato-nekohiko-ōbibi no Sumeramikoto
+	name = "Ōbibi"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = kogen_tenno
-	-208.1.1 = { # 208 BC
+	-209.1.1 = { # 208 BC
 		birth = yes
 	}
-	-158.1.1 = { # 158 BC
+	-159.1.1 = { # 158 BC
 		name = "Kaika"
 	}
-	-98.1.1 = { # 98 BC
+	-99.1.1 = { # 98 BC
+		death = yes
+	}
+}
+yamato_hikofutsuoshinomakoto = {
+	name = "Hikofutsuoshinomakoto"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = kogen_tenno
+	-201.1.1 = { # 200 BC, date unknown
+		birth = yes
+	}
+	-96.1.1 = { # 95 BC, date unknown
+		death = yes
+	}
+}
+yamato_yanushioshiotakeogokoro = {
+	name = "Yanushioshiotakeogokoro"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_hikofutsuoshinomakoto
+	-51.1.1 = { # 50 BC, date unknown
+		birth = yes
+	}
+	150.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_takenouchinosukune = {
+	name = "Takenouchi no Sukune"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	diplomacy = 15
+	martial = 20
+	stewardship = 16
+	intrigue = 13
+	learning = 26
+	prowess = 23
+	trait = brave
+	trait = diligent
+	trait = just
+	trait = mystic_3
+	trait = whole_of_body
+	trait = lifestyle_herbalist
+	disallow_random_traits = yes
+	father = yamato_yanushioshiotakeogokoro
+	84.1.1 = {
+		birth = yes
+	}
+	364.1.1 = { # said to have lived to the age of 280
+		death = yes
+	}
+}
+yamato_kazuraki = {
+	name = "Kazuraki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_takenouchinosukune
+	185.1.1 = { # date unknown
+		birth = yes
+	}
+	354.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_iwa = {
+	name = "Iwa"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = paranoid
+	trait = chaste
+	trait = greedy
+	trait = poet
+	disallow_random_traits = yes
+	father = yamato_kazuraki
+	290.1.1 = { # date unknown
+		birth = yes
+	}
+	347.1.1 = {
 		death = yes
 	}
 }
 sujin_tenno = {
-	name = "Mimakiiribikoinie_no_Sumeramikoto" # Emperor Sujin, Mimakiiribikoinie no Sumeramikoto
+	name = "Mimaki"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	trait = ambitious
+	trait = zealous
+	trait = just
+	trait = august
+	disallow_random_traits = yes
 	father = kaika_tenno
-	-148.1.1 = { # 148 BC
+	-149.1.1 = { # 148 BC
 		birth = yes
 	}
-	-98.1.1 = { # 97 BC
+	-99.1.1 = { # 97 BC
 		name = "Sujin"
 	}
-	-30.1.1 = { # 30 BC
+	-31.1.1 = { # 30 BC
 		death = yes
 	}
 }
-suinin_tenno = {
-	name = "Ikumeiribikoisachi_no_Sumeramikoto" # Emperor Suinin, Imina: Ikume
+yamato_toyokiirihiko = {
+	name = "Toyokiirihiko"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = sujin_tenno
-	-69.1.1 = { # 69 BC
+	-76.1.1 = { # 75 BC, date unknown
 		birth = yes
 	}
-	-30.1.1 = { # 29 BC
+	20.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_hikoimasu = {
+	name = "Hikoimasu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = kaika_tenno
+	-143.1.1 = { # date unknown
+		birth = yes
+	}
+	30.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_otsutsukamiwaka = {
+	name = "Otsutsukamiwaka"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_hikoimasu
+	-60.1.1 = { # date unknown
+		birth = yes
+	}
+	48.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_tanbanomichinushi = {
+	name = "Michinushi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_hikoimasu
+	-64.1.1 = { # date unknown
+		birth = yes
+	}
+	10.1.1 = { # date unknown
+		death = yes
+	}
+}
+suinin_tenno = {
+	name = "Ikume"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = zealous
+	father = sujin_tenno
+	-70.1.1 = { # 69 BC
+		birth = yes
+	}
+	-31.1.1 = { # 29 BC
 		name = "Suinin"
 	}
-	70.1.1 = { # 70 CE
+	70.1.1 = {
+		death = yes
+	}
+}
+yamato_yamatohime = {
+	name = "Yamatohime"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = zealous
+	trait = diligent
+	trait = patient
+	trait = devoted
+	trait = mystic_1
+	disallow_random_traits = yes
+	father = suinin_tenno
+	-19.1.1 = { # 18 BC, date unknown
+		birth = yes
+	}
+	50.1.1 = { # date unknown
 		death = yes
 	}
 }
 keiko_tenno = {
-	name = "Otarashihiko-oshirowake_no_Sumeramikoto" # Emperor Keikō, Imina: Ōtarashihiko
+	name = "Ōtarashihiko"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	trait = giant
 	father = suinin_tenno
-	-13.1.1 = { # 13 BC
+	-14.1.1 = { # 13 BC
 		birth = yes
 	}
-	71.1.1 = { # 71 CE
+	71.1.1 = {
 		name = "Keiko"
 	}
-	130.1.1 = { # 130 CE
+	130.1.1 = {
 		death = yes
 	}
 }
-seimu_tenno = {
-	name = "Wakatarashi-hiko_no_Sumeramikoto" # Emperor Seimu, Imina: Wakatarashi-hiko
+yamato_oosu = {
+	name = "Ōsu"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = keiko_tenno
-	84.1.1 = { # 84 CE
+	70.1.1 = {
 		birth = yes
 	}
-	131.1.1 = { # 131 CE
-		name = "Seimu"
-	}
-	190.1.1 = { # 190 CE
-		death = yes
+	110.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = yamato_takeru
+		}
 	}
 }
 yamato_takeru = {
-	name = "Takeru" # Emperor Chūai, Imina: Tarashinakatsuhiko
+	name = "Ousu"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = keiko_tenno
 	trait = education_martial_4
+	trait = beauty_good_3
 	trait = brave
 	trait = diligent
 	trait = wrathful
-	72.1.1 = { # 72 CE
+	trait = kinslayer_3
+	trait = poet
+	disallow_random_traits = yes
+	72.1.1 = {
 		birth = yes
 	}
 	92.1.1 = {
-		name = "Yamato_Takeru"
+		name = "Yamato Takeru"
 	}
-	114.1.1 = { # 114 CE
+	114.1.1 = {
+		death = yes
+	}
+}
+seimu_tenno = {
+	name = "Wakatarashihiko"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = administrator
+	father = keiko_tenno
+	84.1.1 = {
+		birth = yes
+	}
+	131.1.1 = {
+		name = "Seimu"
+	}
+	190.1.1 = {
 		death = yes
 	}
 }
 chuai_tenno = {
-	name = "Tarashinakatsuhiko_no_Sumeramikoto" # Emperor Chūai, Imina: Tarashinakatsuhiko
+	name = "Tarashinakatsuhiko"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	trait = arrogant
+	trait = cynical
+	trait = diligent
+	trait = giant
+	trait = beauty_good_3
+	disallow_random_traits = yes
 	father = yamato_takeru
-	149.1.1 = { # 149 CE
+	149.1.1 = {
 		birth = yes
 	}
-	192.1.1 = { # 192 CE
-		name = "Chuai"
+	190.1.1 = {
+		add_spouse = jingu_kougou
 	}
-	200.1.1 = { # 200 CE
+	192.1.1 = {
+		name = "Chūai"
+	}
+	200.1.1 = {
+		death = yes
+	}
+}
+yamato_kanimeikazuchi = {
+	name = "Kanimeikazuchi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_otsutsukamiwaka
+	20.1.1 = { # date unknown
+		birth = yes
+	}
+	126.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_okinaga = {
+	name = "Okinaga"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_kanimeikazuchi
+	100.1.1 = { # date unknown
+		birth = yes
+	}
+	200.1.1 = { # date unknown
+		death = yes
+	}
+}
+jingu_kougou = {
+	name = "Okinagatarashi"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	diplomacy = 8
+	martial = 18
+	stewardship = 13
+	intrigue = 15
+	learning = 9
+	prowess = 18
+	trait = mystic_1
+	trait = education_martial_4
+	trait = vengeful
+	trait = zealous
+	trait = brave
+	disallow_random_traits = yes
+	father = yamato_okinaga
+	169.1.1 = { # 169 CE
+		birth = yes
+	}
+	201.1.1 = { # 201 CE
+		name = "Jingū"
+	}
+	269.1.1 = { # 269 CE
 		death = yes
 	}
 }
 
-# Yamato Clan
-# Nara Jidai
-
-kanmu_tenno = {
-	name = "Yamato-neko-amatsu-hitsugi-iyaderi_no_Mikoto" # Emperor Kanmu, Imina: Yamabe
-	dna = kanmu_tenno_dna
+# Kofun Jidai
+ojin_tenno = {
+	name = "Hondawake"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
+	father = chuai_tenno
+	mother = jingu_kougou
+	201.1.1 = {
+		birth = yes
+	}
+	270.1.1 = {
+		name = "Ōjin"
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+nintoku_tenno = {
+	name = "Ohosazaki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait="education_stewardship_4"
+	trait="intellect_good_3"
+	trait = architect
+	trait="temperate"
+	trait="generous"
+	trait="lustful"
+	disallow_random_traits = yes
+	father = ojin_tenno
+	290.1.1 = {
+		birth = yes
+	}
+	313.1.1 = {
+		name = "Nintoku"
+	}
+	330.1.1 = {
+		add_spouse = yamato_iwa
+	}
+	399.1.1 = {
+		death = yes
+	}
+}
+yamato_wakiiratsuko = {
+	name = "Wakiiratsuko"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ojin_tenno
+	293.1.1 = { # date unknown
+		birth = yes
+	}
+	312.1.1 = { # date unknown
+		death = {
+			death_reson = death_suicide
+		}
+	}
+}
+yamato_futamata = {
+	name = "Futamata"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ojin_tenno
+	300.1.1 = { # date unknown
+		birth = yes
+	}
+	366.1.1 = { # date unknown
+		death = yes
+	}
+}
+richu_tenno = {
+	name = "Ōenoizahowake"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = nintoku_tenno
+	mother = yamato_iwa
+	336.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		name = "Richū"
+	}
+	406.3.15 = {
+		trait = ill
+	}
+	406.3.15 = {
+		death = yes
+	}
+}
+hanzei_tenno = {
+	name = "Mizuhawake"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = giant
+	father = nintoku_tenno
+	mother = yamato_iwa
+	336.1.1 = {
+		birth = yes
+	}
+	406.1.1 = {
+		name = "Hanzei"
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+ingyo_tenno = {
+	name = "Oasazuma"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = nintoku_tenno
+	mother = yamato_iwa
+	376.1.1 = {
+		birth = yes
+	}
+	377.1.1 = {
+		add_spouse = yamato_oshisaka
+	}
+	412.1.1 = {
+		name = "Ingyō"
+	}
+	453.2.8 = {
+		death = yes
+	}
+}
+yamato_ookusaka = {
+	name = "Ōkusaka"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = nintoku_tenno
+	380.1.1 = { # date unknown
+		birth = yes
+	}
+	454.4.1 = {
+		death = {
+			death_reason = death_execution
+			killer = anko_tenno
+		}
+	}
+}
+yamato_mayowa = {
+	name = "Mayowa"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = vengeful
+	father = yamato_ookusaka
+	450.1.1 = {
+		birth = yes
+	}
+	456.11.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = yuryaku_tenno
+		}
+	}
+}
+yamato_kinashinokaru = {
+	name = "Kinashi no Karu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = incestuous
+	trait = poet
+	father = ingyo_tenno
+	mother = yamato_oshisaka
+	392.1.1 = { # date unknown
+		birth = yes
+	}
+	455.1.1 = { # date unknown
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+yamato_karunooiratsume = {
+	name = "Karu no Oiratsume"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = incestuous
+	trait = poet
+	trait = beauty_good_3
+	father = ingyo_tenno
+	mother = yamato_oshisaka
+	394.1.1 = { # date unknown
+		birth = yes
+	}
+	455.1.1 = {
+		death = { # date unknown
+			death_reason = death_suicide
+		}
+	}
+}
+anko_tenno = {
+	name = "Anaho"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = callous
+	father = ingyo_tenno
+	mother = yamato_oshisaka
+	401.1.1 = {
+		birth = yes
+	}
+	454.2.28 = {
+		name = "Ankō"
+	}
+	456.9.24 = {
+		death = yes
+	}
+}
+yuryaku_tenno = {
+	name = "Ōhatsuse Wakatake"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = callous
+	trait = sadistic
+	trait = arbitrary
+	trait = paranoid
+	trait = wrathful
+	trait = torturer
+	trait = poet
+	disallow_random_traits = yes
+	father = ingyo_tenno
+	mother = yamato_oshisaka
+	418.1.1 = {
+		birth = yes
+	}
+	456.12.25 = {
+		name = "Yūryaku"
+	}
+	479.9.8 = {
+		death = yes
+	}
+}
+seinei_tenno = {
+	name = "Shiraka"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = albino
+	father = yuryaku_tenno
+	444.1.1 = {
+		birth = yes
+	}
+	480.2.11 = {
+		name = "Seinei"
+	}
+	484.2.27 = {
+		death = yes
+	}
+}
+yamato_kasuganooiratsume = {
+	name = "Kasuga no Oiratsume"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yuryaku_tenno
+	444.1.1 = { # date unknown
+		birth = yes
+	}
+	484.2.27 = { # date unknown
+		death = yes
+	}
+}
+yamato_ichinobe = {
+	name = "Ichinobe no Oshiwa"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = richu_tenno
+	370.1.1 = {
+		birth = yes
+	}
+	456.10.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = yuryaku_tenno
+		}
+	}
+}
+yamato_iitoyo = {
+	name = "Iitoyo"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_ichinobe
+	440.1.1 = {
+		birth = yes
+	}
+	484.1.1 = {
+		death = yes
+	}
+}
+kenzo_tenno = {
+	name = "Woke"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = humble
+	father = yamato_ichinobe
+	450.1.1 = {
+		birth = yes
+	}
+	485.2.1 = {
+		name = "Kenzo"
+	}
+	487.6.2 = {
+		death = yes
+	}
+}
+ninken_tenno = {
+	name = "Oke"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_ichinobe
+	449.1.1 = {
+		birth = yes
+	}
+	488.2.4 = {
+		name = "Ninken"
+	}
+	488.1.1 = {
+		add_spouse = yamato_kasuganooiratsume
+	}
+	498.9.9 = {
+		death = yes
+	}
+}
+yamato_tashiraka = {
+	name = "Tashiraka"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ninken_tenno
+	487.1.1 = {
+		birth = yes
+	}
+	520.1.1 = { # date unknown
+		death = yes
+	}
+}
+buretsu_tenno = {
+	name = "Ohatsuse no Wakasazaki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = callous
+	trait = sadistic
+	trait = arbitrary
+	trait = torturer
+	trait = deviant
+	disallow_random_traits = yes
+	father = ninken_tenno
+	mother = yamato_kasuganooiratsume
+	489.1.1 = {
+		birth = yes
+	}
+	499.1.12 = {
+		name = "Buretsu"
+	}
+	507.1.7 = {
+		death = yes
+	}
+}
+yamato_nakatsu = {
+	name = "Nakatsu"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ninken_tenno
+	491.1.1 = { # date unknown
+		birth = yes
+	}
+	530.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_yamada = {
+	name = "Yamada"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ninken_tenno
+	493.1.1 = { # date unknown
+		birth = yes
+	}
+	539.1.1 = {
+		death = yes
+	}
+}
+yamato_ohodo = {
+	name = "Ōhodo"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_futamata
+	343.1.1 = { # date unknown
+		birth = yes
+	}
+	408.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_oshisaka = {
+	name = "Oshisaka"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_futamata
+	345.1.1 = { # date unknown
+		birth = yes
+	}
+	400.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_oi = {
+	name = "Oi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_ohodo
+	388.1.1 = { # date unknown
+		birth = yes
+	}
+	444.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_hikoshi = {
+	name = "Hikōshi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_oi
+	420.1.1 = { # date unknown
+		birth = yes
+	}
+	477.1.1 = { # date unknown
+		death = yes
+	}
+}
+keitai_tenno = {
+	name = "Ohodo"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_hikoshi
+	458.1.1 = {
+		birth = yes
+	}
+	507.3.3 = {
+		name = "Keitai"
+	}
+	507.4.2 = {
+		add_spouse = yamato_tashiraka
+	}
+	531.3.10 = {
+		death = yes
+	}
+}
+ankan_tenno = {
+	name = "Magari"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = keitai_tenno
+	466.1.1 = {
+		birth = yes
+	}
+	531.3.10 = {
+		name = "Ankan"
+	}
+	534.4.4 = {
+		add_spouse = yamato_yamada
+	}
+	536.1.25 = {
+		death = yes
+	}
+}
+senka_tenno = {
+	name = "Hinokuma no Takata"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = keitai_tenno
+	466.1.1 = {
+		birth = yes
+	}
+	534.4.25 = {
+		add_spouse = yamato_nakatsu
+	}
+	536.1.25 = {
+		name = "Senka"
+	}
+	539.3.15 = {
+		death = yes
+	}
+}
+
+# Asuka Jidai
+kinmei_tenno = {
+	name = "Shiki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = keitai_tenno
+	mother = yamato_tashiraka
+	509.1.1 = {
+		birth = yes
+	}
+	539.12.5 = {
+		name = "Kinmei"
+	}
+	540.1.1 = {
+		add_concubine = soga_kitashihime
+	}
+	540.1.1 = {
+		add_concubine = soga_oane
+	}
+	571.4.15 = {
+		death = yes
+	}
+}
+bidatsu_tenno = {
+	name = "Osada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = kinmei_tenno
+	538.1.1 = {
+		birth = yes
+	}
+	572.4.30 = {
+		name = "Bidatsu"
+	}
+	
+	785.9.1={
+		effect = {
+			add_trait = "smallpox"
+		}
+	}
+	585.9.14 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+yomei_tenno = {
+	name = "Ikebe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = child_of_concubine_male
+	father = kinmei_tenno
+	mother = soga_kitashihime
+	517.10.12 = {
+		birth = yes
+	}
+	560.1.1 = {
+		add_spouse = soga_ishikina
+	}
+	585.10.3 = {
+		name = "Yōmei"
+	}
+	587.5.1 = {
+		trait = ill
+	}
+	587.5.21 = {
+		death = yes
+	}
+}
+shotoku_taishi = {
+	name = "Umayado"
+	dynasty = 40000101
+	religion = mahayana
+	culture = yamato
+	martial=12
+	diplomacy=16
+	intrigue=11
+	stewardship=17
+	learning=18
+	prowess=16
+	trait = intellect_good_3
+	trait = education_diplomacy_4
+	trait = zealous
+	trait = patient
+	trait = diligent
+	trait = just
+	trait = administrator
+	trait = scholar
+	trait = architect
+	disallow_random_traits = yes
+	father = yomei_tenno
+	574.2.7 = {
+		birth = yes
+	}
+	622.4.8 = {
+		name = "Shōtoku Taishi"
+		death = yes
+	}
+}
+yamato_yamashiro = {
+	name = "Yamashiro"
+	dynasty = 40000101
+	religion = mahayana
+	culture = yamato
+	trait = patient
+	trait = poet
+	trait = scholar
+	father = shotoku_taishi
+	596.1.1 = {
+		birth = yes
+	}
+	643.12.30 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+sushun_tenno = {
+	name = "Hatsusebe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = hunter_2
+	trait = child_of_concubine_male
+	father = kinmei_tenno
+	mother = soga_oane
+	553.1.1 = {
+		birth = yes
+	}
+	587.9.9 = {
+		name = "Shushun"
+	}
+	592.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = soga_umako
+		}
+	}
+}
+suiko_tenno = {
+	name = "Nukatabe"
+	female = yes
+	dynasty = 40000101
+	religion = shinto # actually buddhist
+	culture = yamato
+	trait = intellect_good_3
+	trait = education_diplomacy_4
+	trait = scholar
+	trait = child_of_concubine_female
+	father = kinmei_tenno
+	mother = soga_kitashihime
+	554.1.3 = {
+		birth = yes
+	}
+	592.12.8 = {
+		name = "Suiko"
+	}
+	628.4.15 = {
+		death = yes
+	}
+}
+yamato_oshisako = {
+	name = "Oshisako-no-hikohito-no-Ōe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = bidatsu_tenno
+	558.1.1 = {
+		birth = yes
+	}
+	628.1.1 = {
+		death = yes
+	}
+}
+yamato_naniwa = {
+	name = "Naniwa"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = bidatsu_tenno
+	560.1.1 = {
+		birth = yes
+	}
+	587.1.1 = {
+		death = yes
+	}
+}
+yamato_kurikuma = {
+	name = "Kurikuma"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_naniwa
+	580.1.1 = { # date unknown
+		birth = yes
+	}
+	676.6.1 = {
+		death = yes
+	}
+}
+yamato_minu = {
+	name = "Minu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_kurikuma
+	600.1.1 = { # date unknown
+		birth = yes
+	}
+	683.1.1 = {
+		add_spouse = tachibana_michiyo
+	}
+	708.6.22 = {
+		death = yes
+	}
+}
+jomei_tenno = {
+	name = "Tamura"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_oshisako
+	593.4.17 = {
+		birth = yes
+	}
+	629.1.1 = {
+		name = "Jomei"
+	}
+	641.11.17 = {
+		death = yes
+	}
+}
+yamato_chinu = {
+	name = "Chinu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_oshisako
+	576.1.1 = {
+		birth = yes
+	}
+	646.1.1 = {
+		death = yes
+	}
+}
+saimei_tenno = {
+	name = "Takara"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_chinu
+	594.8.7 = {
+		birth = yes
+	}
+	642.1.25 = {
+		name = "Kōgyoku"
+	}
+	655.1.3 = {
+		name = "Saimei"
+	}
+	661.8.24 = {
+		death = yes
+	}
+}
+kotoku_tenno = {
+	name = "Karu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_chinu
+	596.1.1 = {
+		birth = yes
+	}
+	645.1.1 = {
+		name = "Kōtoku"
+	}
+	654.1.1 = {
+		death = yes
+	}
+}
+tenji_tenno = {
+	name = "Kazuraki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = brave
+	trait = administrator
+	trait = poet
+	trait = education_martial_3
+	father = jomei_tenno
+	626.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		name = "Tenji"
+	}
+	672.1.7 = {
+		death = yes
+	}
+}
+kobun_tenno = {
+	name = "Ōtomo"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenji_tenno
+	648.1.1 = {
+		birth = yes
+	}
+	671.12.1 = {
+		name = "Kōbun"
+	}
+	672.8.21 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+tenmu_tenno = {
+	name = "Ōama"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = ambitious
+	trait = deceitful
+	trait = wrathful
+	trait = overseer
+	trait = intellect_good_2
+	trait = education_martial_3
+	disallow_random_traits = yes
+	father = jomei_tenno
+	631.1.1 = {
+		birth = yes
+	}
+	661.1.1 = {
+		add_spouse = jito_tenno
+	}
+	673.1.1 = {
+		name = "Tenmu"
+	}
+	686.9.1 = {
+		trait = ill
+	}
+	686.10.1 = {
+		death = yes
+	}
+}
+jito_tenno = {
+	name = "Uno no Sarara"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = poet
+	trait = gregarious
+	trait = schemer
+	trait = education_intrigue_3
+	father = tenji_tenno
+	645.1.1 = {
+		birth = yes
+	}
+	686.1.1 = {
+		name = "Jitō"
+	}
+	703.1.13 = {
+		death = yes
+	}
+}
+yamato_kusakabe = {
+	name = "Kusakabe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenmu_tenno
+	mother = jito_tenno
+	662.10.13 = {
+		birth = yes
+	}
+	680.1.1 = {
+		add_spouse = genmei_tenno
+	}
+	689.5.10 = {
+		death = yes
+	}
+}
+yamato_naga = {
+	name = "Naga"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenmu_tenno
+	670.1.1 = { # date unknown
+		birth = yes
+	}
+	715.7.9 = {
+		death = yes
+	}
+}
+monmu_tenno = {
+	name = "Karu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_kusakabe
+	mother = genmei_tenno
+	681.10.13 = {
+		birth = yes
+	}
+	697.1.1 = {
+		name = "Monmu"
+	}
+	700.1.1 = {
+		add_spouse = fujiwara_miyako
+	}
+	707.7.18 = {
+		death = yes
+	}
+}
+
+# Nara Jidai
+genmei_tenno = {
+	name = "Ahe"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = poet
+	father = tenji_tenno
+	660.4.20 = {
+		birth = yes
+	}
+	707.8.18 = {
+		name = "Genmei"
+	}
+	721.12.29 = {
+		death = yes
+	}
+}
+gensho_tenno = {
+	name = "Hidaka"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_kusakabe
+	mother = genmei_tenno
+	680.1.1 = {
+		birth = yes
+	}
+	715.10.3 = {
+		name = "Gensho"
+	}
+	748.5.22 = {
+		death = yes
+	}
+}
+shomu_tenno = {
+	name = "Obito"
+	dynasty = 40000101
+	religion = shinto # actually buddhist
+	culture = yamato
+	trait = zealous
+	trait = devoted
+	trait = profligate
+	father = monmu_tenno
+	mother = fujiwara_miyako
+	701.9.22 = {
+		birth = yes
+	}
+	716.1.1 = {
+		add_spouse = fujiwara_asukabe
+	}
+	724.3.3 = {
+		name = "Shōmu"
+	}
+	755.6.4 = {
+		death = yes
+	}
+}
+shotoku_tenno = {
+	name = "Abe"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = arbitrary
+	trait = fornicator
+	father = shomu_tenno
+	mother = fujiwara_asukabe
+	718.1.1 = {
+		birth = yes
+	}
+	749.1.1 = {
+		name = "Kōken"
+	}
+	764.1.1 = {
+		name = "Shōtoku"
+	}
+	770.8.28 = {
+		death = yes
+	}
+}
+yamato_takechi = {
+	name = "Takechi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenmu_tenno
+	654.1.1 = {
+		birth = yes
+	}
+	696.8.13 = {
+		death = yes
+	}
+}
+yamato_nagaya = {
+	name = "Nagaya"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_takechi
+	684.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		add_spouse = fujiwara_nagako
+	}
+	729.3.20 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+yamato_toneri = {
+	name = "Toneri"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenmu_tenno
+	676.1.28 = {
+		birth = yes
+	}
+	735.12.6 = {
+		death = yes
+	}
+}
+yamato_mihara = {
+	name = "Mihara"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_toneri
+	720.1.1 = { # date unknown
+		birth = yes
+	}
+	752.1.1 = {
+		death = yes
+	}
+}
+yamato_yamaguchi = {
+	name = "Yamaguchi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_mihara
+	756.1.1 = { # date unknown
+		birth = yes
+	}
+	801.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_matsuyama = {
+	name = "Matsuyama" # name unknown
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_yamaguchi
+	793.1.1 = { # date unknown
+		birth = yes
+	}
+	852.1.1 = { # date unknown
+		death = yes
+	}
+}
+yamato_ogura = {
+	name = "Ogura"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_mihara
+	760.1.1 = { # date unknown
+		birth = yes
+	}
+	810.1.1 = { # date unknown
+		death = yes
+	}
+}
+junnin_tenno = {
+	name = "Ōi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = yamato_toneri
+	733.1.1 = {
+		birth = yes
+	}
+	758.1.1 = {
+		name = "Junnin"
+	}
+	765.11.10 = {
+		death = yes
+	}
+}
+yamato_shiki = {
+	name = "Shiki"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = tenji_tenno
+	650.1.1 = {
+		birth = yes
+	}
+	716.9.1 = {
+		death = yes
+	}
+}
+konin_tenno = {
+	name = "Shirakabe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = education_stewardship_3
+	father = yamato_shiki
+	708.7.18 = {
+		birth = yes
+	}
+	735.1.1 = {
+		add_spouse = fuhitoyamato_takano
+	}
+	770.1.1 = {
+		name = "Kōnin"
+	}
+	782.1.11 = {
+		death = yes
+	}
+}
+# Heian Jidai
+kanmu_tenno = {
+	name = "Yamabe"
+	dna = kanmu_tenno_dna
+	dynasty = 40000101
+	religion = shinto # actually buddhist
+	culture = yamato
+	father = konin_tenno
+	mother = fuhitoyamato_takano
 	736.2.4 = {
 		birth = yes
 		effect = {
@@ -273,6 +1741,12 @@ kanmu_tenno = {
 			}
 		}
 	}
+	772.1.1 = {
+		add_spouse = fujiwara_otomuro
+	}
+	775.1.1 = {
+		add_concubine = yamato_sakahito
+	}
 	781.4.30 = {
 		name = "Kanmu"
 	}
@@ -280,15 +1754,19 @@ kanmu_tenno = {
 		death = yes
 	}
 }
-# Heian Jidai
 heizei_tenno = {
-	name = "Yamato-neko-ameoshikuni-takahiko_no_Sumeramikoto" # Emperor Heizei, Imina: Ate
+	name = "Ate"
 	dynasty = 40000101
-	religion = shinto
+	religion = shinto # actually buddhist
 	culture = yamato 
 	father = kanmu_tenno
+	mother = fujiwara_otomuro
+	trait = devoted
 	773.1.1 = {
 		birth = yes
+	}
+	790.1.1 = {
+		add_spouse = fujiwara_taishi
 	}
 	806.4.9 = {
 		name = "Heizei"
@@ -297,14 +1775,160 @@ heizei_tenno = {
 		death = yes
 	}
 }
-saga_tenno = {
-	name = "Kamino" # Emperor Saga, Imina: Kamino
+yamato_kazurawachi = {
+	name = "Kazurawachi"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = kanmu_tenno
+	786.12.1 = {
+		birth = yes
+	}
+	853.7.13 = {
+		death = yes
+	}
+}
+yamato_kadoi = {
+	name = "Kadoi"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = kanmu_tenno
+	798.1.1 = {
+		birth = yes
+	}
+	850.5.16 = {
+		death = yes
+	}
+}
+yamato_motoe = {
+	name = "Motoe"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = yamato_kadoi
+	824.1.1 = {
+		birth = yes
+	}
+	881.12.16 = {
+		death = yes
+	}
+}
+yamato_kaya = {
+	name = "Kaya"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = kanmu_tenno
+	794.1.1 = {
+		birth = yes
+	}
+	871.11.23 = {
+		death = yes
+	}
+}
+yamato_michino = {
+	name = "Michino"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = drunkard
+	trait = humble
+	trait = diligent
+	trait = calm
+	father = yamato_kaya
+	818.1.1 = { # date unknown
+		birth = yes
+	}
+	855.1.1 = {
+		trait = ill
+	}
+	855.4.3 = {
+		death = yes
+	}
+}
+yamato_tadasada = {
+	name = "Tadasada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = beauty_bad_2
+	trait = ambitious
+	trait = scholar
+	trait = administrator
+	father = yamato_kaya
+	820.1.1 = {
+		birth = yes
+	}
+	884.9.20 = {
+		death = yes
+	}
+}
+yamato_toshimoto = {
+	name = "Toshimoto"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = yamato_kaya
+	822.1.1 = {
+		birth = yes
+	}
+	866.2.13 = {
+		death = yes
+	}
+}
+yamato_tadanori = {
+	name = "Tadanori"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = yamato_kaya
+	824.1.1 = { # date unknown
+		birth = yes
+	}
+	880.3.20 = {
+		death = yes
+	}
+}
+yamato_nakano = {
+	name = "Nakano"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = kanmu_tenno
+	792.1.1 = {
+		birth = yes
+	}
+	867.2.25 = {
+		death = yes
+	}
+}
+yamato_munesada = {
+	name = "Munesada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = yamato_kadoi
+	836.1.1 = { # date unknown
+		birth = yes
+	}
+	890.1.1 = { # date unknown
+		death = yes
+	}
+}
+saga_tenno = {
+	name = "Kamino"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = poet
+	father = kanmu_tenno
+	mother = fujiwara_otomuro
 	784.10.3 = {
 		birth = yes
+	}
+	808.1.1 = {
+		add_spouse = tachibana_kachiko
 	}
 	809.5.18 = {
 		name = "Saga"
@@ -314,29 +1938,52 @@ saga_tenno = {
 	}
 }
 junna_tenno = {
-	name = "Otomo" # Emperor Junna, Yamato-neko-ame-no-takazuruiyatoo no Mikoto, Imina: Otomo
+	name = "Ōtomo"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = kanmu_tenno
+	mother = tachibana_kachiko
 	786.1.1 = {
 		birth = yes
 	}
 	823.5.29 = {
 		name = "Junna"
 	}
+	824.1.1 = {
+		add_spouse = yamato_seishi
+	}
 	840.6.11 = {
 		death = yes
 	}
 }
-ninmyo_tenno = {
-	name = "Masara" # Emperor Ninmyo, Imina: Masara
+yamato_seishi = {
+	name = "Seishi"
+	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
 	father = saga_tenno
+	mother = tachibana_kachiko
+	810.1.1 = {
+		birth = yes
+	}
+	879.4.18 = {
+		death = yes
+	}
+}
+ninmyo_tenno = {
+	name = "Masara"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = saga_tenno
+	mother = tachibana_kachiko
 	808.9.27 = {
 		birth = yes
+	}
+	826.1.1 = {
+		add_spouse = fujiwara_nobuko
 	}
 	833.3.22 = {
 		name = "Ninmyo"
@@ -345,15 +1992,107 @@ ninmyo_tenno = {
 		death = yes
 	}
 }
+yamato_motoyasu = {
+	name = "Motoyasu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = ninmyo_tenno
+	832.1.1 = {
+		birth = yes
+	}
+	902.1.26 = {
+		death = yes
+	}
+}
+koko_tenno = {
+	name = "Tokiyasu"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = poet
+	trait = hunter_2
+	father = ninmyo_tenno
+	830.1.1 = {
+		birth = yes
+	}
+	884.3.5 = {
+		name = "Kōkō"
+	}
+	887.9.17 = {
+		death = yes
+	}
+}
 
-## Montoku Family
+yamato_koretada = {
+	name = "Koretada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = koko_tenno
+	857.1.1 = {
+		birth = yes
+	}
+	922.12.13 = {
+		death = yes
+	}
+}
+uda_tenno = {
+	name = "Sadami"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = koko_tenno
+	866.6.10 = {
+		birth = yes
+	}
+	887.9.17 = {
+		name = Uda
+		trait = just
+	}
+	900.1.1 = {
+		trait = devoted
+	}
+	931.9.3 = {
+		death = yes
+	}
+}
+yamato_atsumi = {
+	name = "Atsumi"
+	dynasty = 40000211
+	religion = shinto
+	culture = yamato 
+	father = uda_tenno
+	893.1.1 = {
+		birth = yes
+	}
+	967.4.14 = {
+		death = yes
+	}
+}
+yamato_koga = {
+	name = "Koga"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = yamato_koretada
+	888.1.1 = { # date unknown
+		birth = yes
+	}
+	950.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+## Family of Emperor Montoku - Start
 1600007 = {
-	name = "Michiyasu" # Emperor Montoku, Imina: Michiyasu
+	name = "Michiyasu"
 	dna = montoku_tenno_dna
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = ninmyo_tenno
+	mother = fujiwara_nobuko
 	827.8.1 = {
 		birth = yes
 		effect = {
@@ -372,15 +2111,16 @@ ninmyo_tenno = {
 		death = yes
 	}
 }
-# Of Fujiwara no Akirakeiko
+
+# with Fujiwara no Akirakeiko
 1600004 = { # 4th Son
-	name = "Korehito" # Emperor Seiwa, Imina: Korehito
+	name = "Korehito"
 	dna = seiwa_tenno_dna
 	dynasty = 40000101
-	religion = shinto
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = 1600007
-	mother = 1600008
+	mother = 1600008 # Fujiwara no Akirakeiko
 	trait = education_learning_3
 	trait = content
 	trait = humble
@@ -397,20 +2137,21 @@ ninmyo_tenno = {
 		name = "Seiwa"
 	}
 	866.1.1 = {
-		add_spouse = 1600006
+		add_spouse = 1600006 # Fujiwara no Takaiko
 	}
 	881.1.7 = {
 		death = yes
 	}
 }
-montoku_daughter_003 = {
+yamato_gishi = {
 	name = "Gishi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
-	culture = yamato 
+	culture = yamato
+	trait = devoted
 	father = 1600007
-	mother = 1600008
+	mother = 1600008 # Fujiwara no Akirakeiko
 	842.1.1 = {
 		birth = yes
 	}
@@ -419,8 +2160,8 @@ montoku_daughter_003 = {
 	}
 }
 
-# Of Ki no Shizuko
-montoku_son_001 = {
+# with Ki no Shizuko
+yamato_koretaka = {
 	name = "Koretaka"
 	dynasty = 40000101
 	religion = shinto
@@ -433,7 +2174,7 @@ montoku_son_001 = {
 		death = yes
 	}
 }
-montoku_son_002 = {
+yamato_koreeda = {
 	name = "Koreeda"
 	dynasty = 40000101
 	religion = shinto
@@ -446,37 +2187,53 @@ montoku_son_002 = {
 		death = yes
 	}
 }
-montoku_daughter_004 = {
+yamato_tenshi = {
 	name = "Tenshi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
+	trait = devoted
 	father = 1600007
-	843.1.1 = { # Unknown
+	843.1.1 = { # date unknown
 		birth = yes
 	}
 	913.1.1 = {
 		death = yes
 	}
 }
-montoku_daughter_005 = {
+yamato_jutsushi = {
 	name = "Jutsushi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
+	trait = devoted
 	father = 1600007
-	844.1.1 = { # Unknown
+	844.1.1 = { # date unknown
 		birth = yes
 	}
 	897.1.1 = {
 		death = yes
 	}
 }
+yamato_chinshi = {
+	name = "Chinshi"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	father = 1600007
+	845.1.1 = { # date unknown
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
 
-# Shigeno no Okuko
-montoku_son_003 = {
+# with Shigeno no Okuko
+yamato_korehiko = {
 	name = "Korehiko"
 	dynasty = 40000101
 	religion = shinto
@@ -485,32 +2242,32 @@ montoku_son_003 = {
 	850.1.1 = {
 		birth = yes
 	}
-	883.1.1 = {
+	883.3.11 = {
 		death = yes
 	}
 }
-montoku_daughter_002 = { # 2th daughter?
-	name = "Noshi"
+yamato_noshi = { # 2nd daughter?
+	name = "Nōshi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = 1600007
-	841.1.1 = { # Unknown
+	841.1.1 = { # date unknown
 		birth = yes
 	}
 	903.1.1 = {
 		death = yes
 	}
 }
-montoku_daughter_009 = { # 9th daughter?
-	name = "Shoshi"
+yamato_shoshi = { # 9th daughter?
+	name = "Shōshi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = 1600007
-	848.1.1 = { # Unknown
+	848.1.1 = { # date unknown
 		birth = yes
 	}
 	871.1.1 = {
@@ -518,8 +2275,8 @@ montoku_daughter_009 = { # 9th daughter?
 	}
 }
 
-# Of Fujiwara no Imako
-montoku_son_004 = { # 4th son?
+# with Fujiwara no Imako
+yamato_koretsune = { # 4th son?
 	name = "Koretsune"
 	dynasty = 40000101
 	religion = shinto
@@ -532,28 +2289,28 @@ montoku_son_004 = { # 4th son?
 		death = yes
 	}
 }
-montoku_daughter_006 = { # 6th daughter?
+yamato_reishi = { # 6th daughter?
 	name = "Reishi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = 1600007
-	845.1.1 = { # Unknown
+	845.1.1 = { # date unknown
 		birth = yes
 	}
 	899.1.1 = {
 		death = yes
 	}
 }
-montoku_daughter_007 = {
+yamato_keishi = {
 	name = "Keishi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = 1600007
-	846.1.1 = { # Unknown
+	846.1.1 = { # date unknown
 		birth = yes
 	}
 	914.1.1 = {
@@ -561,71 +2318,1206 @@ montoku_daughter_007 = {
 	}
 }
 
-# Of Fujiwara no Retsushi
-montoku_daughter_001 = {
+# with Fujiwara no Retsushi
+yamato_anshi = {
 	name = "Anshi"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
 	father = 1600007
-	840.1.1 = { # Unknown
+	840.1.1 = { # date unknown
 		birth = yes
 	}
 	900.1.1 = {
 		death = yes
 	}
 }
-montoku_daughter_008 = {
+yamato_akirakeiko = {
 	name = "Akirakeiko"
 	female = yes
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
+	trait = devoted
 	father = 1600007
-	847.1.1 = { # Unknown
+	847.1.1 = { # date unknown
 		birth = yes
 	}
 	881.1.1 = {
 		death = yes
 	}
 }
-## END OF FAMILY
+## Family of Emperor Montoku - End
 
-koko_tenno = {
-	name = "Tokiyasu Shinno" # Emperor Koko, Imina: Michiyasu
+yozei_tenno = {
+	name = "Sadaakira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = 1600004
+	867.1.1 = { # actually 869
+		birth = yes
+	}
+	876.12.18 = {
+		name = Yōzei
+		trait = sadistic
+		trait = wrathful
+		trait = arbitrary
+		trait = reclusive
+		trait = lunatic_1
+		disallow_random_traits = yes
+	}
+	949.10.23 = {
+		death = yes
+	}
+}
+
+daigo_tenno = {
+	name = "Korezane"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = uda_tenno
+	884.2.6 = {
+		birth = yes
+	}
+	887.1.1 = {
+		name = Atsuhito
+	}
+	897.8.4 = {
+		name = Daigo
+	}
+	902.1.1 = {
+		add_spouse = fujiwara_onshi
+	}
+	930.10.16 = {
+		trait = ill
+	}
+	930.10.23 = {
+		death = yes
+	}
+}
+
+yamato_yoshiakira = {
+	name = "Yoshiakira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = child_of_concubine_male
+	father = daigo_tenno
+	904.1.1 = {
+		birth = yes
+	}
+	937.5.12 = {
+		death = yes
+	}
+}
+
+suzaku_tenno = {
+	name = "Hiroakira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = daigo_tenno
+	mother = fujiwara_onshi
+	921.9.7 = {
+		birth = yes
+	}
+	930.10.16 = {
+		name = Atsuhito
+	}
+	952.9.6 = {
+		death = yes
+	}
+}
+
+murakami_tenno = {
+	name = "Nariakira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = daigo_tenno
+	mother = fujiwara_onshi
+	924.7.14 = {
+		birth = yes
+	}
+	946.5.23 = {
+		name = Murakami
+	}
+	967.7.5 = {
+		death = yes
+	}
+}
+
+reizei_tenno = {
+	name = "Norihira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = weak
+	father = murakami_tenno
+	949.6.12 = {
+		birth = yes
+	}
+	967.7.5 = {
+		name = Reizei
+	}
+	1011.11.21 = {
+		death = yes
+	}
+}
+
+enyu_tenno = {
+	name = "Morihira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = murakami_tenno
+	958.4.12 = {
+		birth = yes
+	}
+	969.9.27 = {
+		name = En'yū
+	}
+	991.3.1 = {
+		death = yes
+	}
+}
+
+yamato_tomohira = {
+	name = "Tomohira"
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
-	father = ninmyo_tenno
-	830.1.1 = {
+	father = murakami_tenno
+	964.7.30 = {
 		birth = yes
 	}
-	884.3.5 = {
-		name = "Koko"
-	}
-	887.9.17 = {
+	1009.8.21 = {
 		death = yes
 	}
 }
 
-#1600009 - 1600100 reserved for future char
-# Fujiwara Clan
-1600001 = {
-	name = Yoshifusa
+yamato_takahime = {
+	name = "Takahime"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato
+	trait = infertile
+	father = yamato_tomohira
+	995.1.1 = {
+		birth = yes
+	}
+	1087.12.19 = {
+		death = yes
+	}
+}
+
+kazan_tenno = {
+	name = "Morosada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = reizei_tenno
+	968.11.29 = {
+		birth = yes
+	}
+	984.9.24 = {
+		name = Kazan
+	}
+	1008.3.17 = {
+		death = yes
+	}
+}
+
+ichijo_tenno = {
+	name = "Kanehito"
+	dynasty = 40000101
+	religion = shinto # actually buddhist
+	culture = yamato 
+	father = enyu_tenno
+	980.7.15 = {
+		birth = yes
+	}
+	986.7.31 = {
+		name = Ichijō
+	}
+	1008.1.1 = {
+		add_spouse = fujiwara_shoshi
+	}
+	1011.7.19 = {
+		religion = mahayana
+		trait = devoted
+	}
+	1011.7.25 = {
+		death = yes
+	}
+}
+
+sanjo_tenno = {
+	name = "Iyasada"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = enyu_tenno
+	975.2.5 = {
+		birth = yes
+	}
+	1011.6.16 = {
+		name = Sanjō
+	}
+	1012.1.1 = {
+		add_spouse = fujiwara_kenshi
+	}
+	1017.6.5 = {
+		death = yes
+	}
+}
+
+yamato_teishi = {
+	name = "Teishi"
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = sanjo_tenno
+	mother = fujiwara_kenshi
+	1013.8.15 = {
+		birth = yes
+	}
+	1094.2.3 = {
+		death = yes
+	}
+}
+
+yamato_atsuakira = {
+	name = "Atsuakira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = sanjo_tenno
+	994.6.20 = {
+		birth = yes
+	}
+	1017.11.22 = {
+		add_spouse = fujiwara_kanshi
+	}
+	1051.2.21 = {
+		death = yes
+	}
+}
+
+yamato_kenshinai = {
+	name = "Kenshinai"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = sanjo_tenno
+	1019.1.17 = {
+		birth = yes
+	}
+	1098.2.2 = {
+		death = yes
+	}
+}
+
+yamato_atsumoto = {
+	name = "Atsumoto"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = sanjo_tenno
+	1023.1.1 = {
+		birth = yes
+	}
+	1032.8.22 = {
+		death = yes
+	}
+}
+
+goichijo_tenno = {
+	name = "Atsuhira"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = ichijo_tenno
+	mother = fujiwara_shoshi
+	1008.10.12 = {
+		birth = yes
+	}
+	1016.3.10 = {
+		name = Go-Ichijō
+	}
+	1018.1.1 = {
+		add_spouse = fujiwara_ishi
+	}
+	1036.5.15 = {
+		death = yes
+	}
+}
+
+yamato_nijoin = {
+	name = "Shōshi" #aka Nijō-in
+	female = yes
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = chaste
+	trait = humble
+	trait = beauty_good_3
+	trait = celibate
+	father = goichijo_tenno
+	mother = fujiwara_ishi
+	1027.1.19 = {
+		birth = yes
+	}
+	1105.10.26 = {
+		death = yes
+	}
+}
+
+gosuzaku_tenno = {
+	name = "Atsunaga"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = ichijo_tenno
+	mother = fujiwara_shoshi
+	1009.12.14 = {
+		birth = yes
+	}
+	1021.1.1 = {
+		add_concubine = fujiwara_kishi
+	}
+	1027.1.1 = {
+		add_spouse = yamato_teishi
+	}
+	1036.5.15 = {
+		name = Go-Suzaku
+	}
+	1045.2.7 = {
+		death = yes
+	}
+}
+goreizei_tenno = {
+	name = "Chikahito"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = child_of_concubine_male
+	father = gosuzaku_tenno
+	mother = fujiwara_kishi
+	1025.8.28 = {
+		birth = yes
+	}
+	1045.2.5 = {
+		name = Go-Reizei
+	}
+	1046.1.1 = {
+		add_concubine = yamato_nijoin
+	}
+	1047.1.1 = {
+		add_concubine = fujiwara_yoshiko
+	}
+	1050.1.1 = {
+		add_spouse = fujiwara_hiroko
+	}
+	1068.5.22 = {
+		death = yes
+	}
+}
+yamato_chikanobu = {
+	name = "Chikanobu" #actual name unknown
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	trait = child_of_concubine_male
+	father = goreizei_tenno
+	mother = fujiwara_yoshiko
+	1049.1.1 = {
+		birth = yes
+	}
+	1049.1.1 = {
+		death = yes #stillborn
+	}
+}
+gosanjo_tenno = {
+	name = "Takahito"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = gosuzaku_tenno
+	mother = yamato_teishi
+	1032.9.3 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		add_spouse = fujiwara_moshi
+	}
+	1068.5.22 = {
+		name = Go-Sanjō
+	}
+	1073.6.15 = {
+		death = yes
+	}
+}
+shirakawa_tenno = {
+	name = "Sadahito"
+	dynasty = 40000101
+	religion = shinto
+	culture = yamato 
+	father = gosanjo_tenno
+	mother = fujiwara_moshi
+	1053.7.7 = {
+		birth = yes
+	}
+	1073.1.18 = {
+		name = Shirakawa
+	}
+	1129.7.24 = {
+		death = yes
+	}
+}
+
+### Fujiwara Clan 藤原氏
+fujiwara_kamatari = {
+	name = "Kamatari"
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato 
+	trait = schemer
+	trait = strategist
+	trait = intellect_good_2
+	trait = education_intrigue_3
+	614.1.1 = {
+		birth = yes
+	}
+	669.11.14 = {
+		death = yes
+	}
+}
+fujiwara_fuhito = {
+	name = "Fuhito"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = intellect_good_3
+	trait = schemer
+	trait = administrator
+	trait = scholar
+	trait = education_learning_4
+	father = fujiwara_kamatari	
+	659.1.1 = {
+		birth = yes
+	}
+	680.1.1 = {
+		add_spouse = tachibana_michiyo
+	}
+	720.9.13 = {
+		death = yes
+	}
+}
+fujiwara_miyako = {
+	name = "Miyako"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuhito
+	mother = tachibana_michiyo
+	680.1.1 = { # date unknown
+		birth = yes
+	}
+	754.8.11 = {
+		death = yes
+	}
+}
+fujiwara_nagako = {
+	name = "Nagako"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuhito
+	mother = tachibana_michiyo
+	690.1.1 = { # date unknown
+		birth = yes
+	}
+	760.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_asukabe = {
+	name = "Asukabe"
+	female = yes
+	dynasty = 40000001
+	religion = mahayana
+	culture = yamato
+	trait = zealous
+	trait = generous
+	trait = compassionate
+	disallow_random_traits = yes
+	father = fujiwara_fuhito
+	mother = tachibana_michiyo
+	701.1.1 = {
+		birth = yes
+	}
+	760.6.7 = {
+		death = yes
+	}
+}
+fujiwara_tabino = {
+	name = "Tabino"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuhito
+	mother = tachibana_michiyo
+	703.1.1 = { # date unknown
+		birth = yes
+	}
+	777.6.7 = { # date unknown
+		death = yes
+	}
+}
+
+## Nanke-Fujiwara
+fujiwara_muchimaro = { # Nanke-Fujiwara founder
+	name = "Muchimaro"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	trait = intellect_good_2
+	trait = diplomat
+	father = fujiwara_fuhito	
+	680.1.1 = {
+		birth = yes
+	}
+	737.8.1={
+		effect = {
+			add_trait = "smallpox"
+		}
+	}
+	737.8.29 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+fujiwara_toyonari = {
+	name = "Toyonari"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_muchimaro	
+	704.1.1 = {
+		birth = yes
+	}
+	766.1.12 = {
+		death = yes
+	}
+}
+fujiwara_tsugutada = {
+	name = "Tsugatada"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_toyonari	
+	727.1.1 = {
+		birth = yes
+	}
+	796.8.23 = {
+		death = yes
+	}
+}
+fujiwara_takatoshi = {
+	name = "Takatoshi"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_tsugutada
+	761.1.1 = {
+		birth = yes
+	}
+	808.6.30 = {
+		death = yes
+	}
+}
+fujiwara_sadao = {
+	name = "Sadao"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_takatoshi
+	794.1.1 = { # date unknown
+		birth = yes
+	}
+	852.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yasunori = {
+	name = "Yasunori"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	trait = administrator
+	trait = intellect_good_2
+	father = fujiwara_sadao
+	825.1.1 = { # date unknown
+		birth = yes
+	}
+	895.5.23 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_nakamaro = {
+	name = "Nakamaro"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	trait = intellect_good_2
+	trait = administrator
+	trait = ambitious
+	trait = greedy
+	trait = wrathful
+	trait = torturer
+	disallow_random_traits = yes
+	father = fujiwara_muchimaro	
+	706.1.1 = {
+		birth = yes
+	}
+	758.1.1 = {
+		name = Emi no Oshikatsu
+	}
+	764.10.21 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+fujiwara_kosemaro = {
+	name = "Kosemaro"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_muchimaro	
+	710.1.1 = { # date unknown
+		birth = yes
+	}
+	764.10.17 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+fujiwara_matsukuri = {
+	name = "Matsukuri"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kosemaro	
+	750.1.1 = { # date unknown
+		birth = yes
+	}
+	820.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yuminushi = {
+	name = "Yuminushi"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kosemaro
+	752.1.1 = { # date unknown
+		birth = yes
+	}
+	819.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_sukegawa = {
+	name = "Sukegawa"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_yuminushi
+	784.1.1 = { # date unknown
+		birth = yes
+	}
+	842.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_hiromoto = {
+	name = "Hiromoto"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_sukegawa
+	824.1.1 = { # date unknown
+		birth = yes
+	}
+	875.8.4 = {
+		death = yes
+	}
+}
+fujiwara_murata = {
+	name = "Murata"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_matsukuri	
+	780.1.1 = { # date unknown
+		birth = yes
+	}
+	840.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_okiyo = {
+	name = "Okiyo"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_matsukuri	
+	817.1.1 = {
+		birth = yes
+	}
+	891.8.21 = {
+		death = yes
+	}
+}
+fujiwara_tadamori = {
+	name = "Tadamori"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_matsukuri	
+	785.1.1 = {
+		birth = yes
+	}
+	840.8.7 = {
+		death = yes
+	}
+}
+fujiwara_nakamune = {
+	name = "Nakamune"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_tadamori	
+	818.1.1 = {
+		birth = yes
+	}
+	875.7.12 = {
+		death = yes
+	}
+}
+fujiwara_arisada = {
+	name = "Arisado"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_tadamori	
+	827.1.1 = {
+		birth = yes
+	}
+	873.4.26 = {
+		death = yes
+	}
+}
+
+## Hokke-Fujiwara
+fujiwara_fusasaki = { # Hokke-Fujiwara founder
+	name = "Fusasaki"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuhito	
+	681.1.1 = {
+		birth = yes
+	}
+	737.8.1={
+		effect = {
+			add_trait = "smallpox"
+		}
+	}
+	737.5.25 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+fujiwara_torikai = {
+	name = "Torikai"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fusasaki	
+	710.1.1 = { # date unknown
+		birth = yes
+	}
+	730.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_nagate = {
+	name = "Nagate"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fusasaki	
+	714.1.1 = {
+		birth = yes
+	}
+	771.3.1 = {
+		trait = ill
+	}
+	771.3.11 = {
+		death = yes
+	}
+}
+fujiwara_matate = {
+	name = "Matate"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fusasaki	
+	715.1.1 = {
+		birth = yes
+	}
+	766.4.25 = {
+		death = yes
+	}
+}
+fujiwara_uona = {
+	name = "Uona"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fusasaki	
+	721.1.1 = {
+		birth = yes
+	}
+	783.8.27 = {
+		death = yes
+	}
+}
+fujiwara_sueshige = {
+	name = "Fujinari"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_uona	
+	774.1.1 = { # date unknown
+		birth = yes
+	}
+	830.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_sawatsugu = {
+	name = "Sawatsugu"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_sueshige	
+	800.1.1 = { # date unknown
+		birth = yes
+	}
+	860.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yasumine = {
+	name = "Yasumine"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_sawatsugu	
+	830.1.1 = { # date unknown
+		birth = yes
+	}
+	887.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_fujinari = {
+	name = "Fujinari"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_uona	
+	776.1.1 = {
+		birth = yes
+	}
+	822.5.27 = {
+		death = yes
+	}
+}
+fujiwara_toyosawa = {
+	name = "Toyasawa"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fujinari	
+	810.1.1 = { # date unknown
+		birth = yes
+	}
+	887.9.7 = {
+		death = yes
+	}
+}
+fujiwara_murao = {
+	name = "Murao"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_toyosawa	
+	845.1.1 = { # date unknown
+		birth = yes
+	}
+	932.8.20 = {
+		death = yes
+	}
+}
+fujiwara_hidesato = {
+	name = "Hidesato"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_murao
+	891.1.1 = {
+		birth = yes
+	}
+	958.3.10 = {
+		death = yes
+	}
+}
+fujiwara_chitoki = {
+	name = "Chitoki"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_hidesato
+	912.1.1 = { # date unknown
+		birth = yes
+	}
+	972.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_chise = {
+	name = "Chise"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_chitoki
+	934.1.1 = { # date unknown
+		birth = yes
+	}
+	994.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_masayori = {
+	name = "Masayori"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_chise
+	956.1.1 = { # date unknown
+		birth = yes
+	}
+	1016.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yorito = {
+	name = "Yoritō"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_masayori
+	978.1.1 = { # date unknown
+		birth = yes
+	}
+	1038.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_tsunekiyo = {
+	name = "Tsunekiyo"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_yorito
+	1000.1.1 = { # date unknown
+		birth = yes
+	}
+	1062.10.22 = {
+		death = yes
+	}
+}
+fujiwara_uchimaro = {
+	name = "Uchimaro"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_matate	
+	756.1.1 = {
+		birth = yes
+	}
+	812.11.13 = {
+		death = yes
+	}
+}
+fujiwara_fuyutsugu = {
+	name = "Fuyutsugu"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_uchimaro
+	775.1.1 = {
+		birth = yes
+	}
+	826.8.30 = {
+		death = yes
+	}
+}
+fujiwara_futakimaro = {
+	name = "Futakimaro"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_uchimaro
+	781.1.1 = { # date unknown
+		birth = yes
+	}
+	840.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yokazu = {
+	name = "Yokazu"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_futakimaro
+	821.1.1 = { # date unknown
+		birth = yes
+	}
+	879.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_nagara = {
+	name = "Nagara"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	802.1.1 = {
+		birth = yes
+	}
+	856.8.6 = {
+		death = yes
+	}
+}
+fujiwara_yoshikata = {
+	name = "Yoshikata"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	806.1.1 = { # date unknown
+		birth = yes
+	}
+	869.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_tomoe = {
+	name = "Tomoe" # real name unknown
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_yoshikata
+	840.1.1 = { # date unknown
+		birth = yes
+	}
+	900.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_nobuko = {
+	name = "Nobuko"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	809.1.1 = {
+		birth = yes
+	}
+	871.11.14 = {
+		death = yes
+	}
+}
+fujiwara_yoshimi = {
+	name = "Yoshimi"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	813.1.1 = {
+		birth = yes
+	}
+	867.11.6 = {
+		death = yes
+	}
+}
+1600001 = {
+	name = "Yoshifusa"
+	dna = fujiwara_yoshifusa_dna
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	diplomacy = 4
+	martial = 6
+	stewardship = 9
+	intrigue = 9
+	learning = 9
+	prowess = 7
+	trait = education_diplomacy_4
+	trait = diligent
+	trait = ambitious
+	trait = chaste
+	trait = intellect_good_2
+	disallow_random_traits = yes
+	father = fujiwara_fuyutsugu
 	804.1.1 = {
 		birth = yes
 	}
-	871.1.1 = {
+	829.1.1 = {
+		add_spouse = minamoto_kiyohime
+	}
+	872.2.14 = {
+		trait = ill
+	}
+	872.10.7 = {
 		death = yes
 	}
-	dna = Fujiwara_Yoshifusa_dna_entry
 }
 1600005 = {
-	name = Mototsune #Mototsune Fujiwara adopted son of His uncle Yoshifusa
+	name = "Mototsune" # real father is Fujiwara Nagara
+	dna = fujiwara_mototsune_dna
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
@@ -633,22 +3525,635 @@ koko_tenno = {
 	836.1.1 = {
 		birth = yes
 	}
-	891.1.1 = {
+	891.2.25 = {
+		death = yes
+	}
+}
+fujiwara_shigeko = {
+	name = "Shigeko"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = 1600005
+	851.1.1 = { # date unknown 
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+fujiwara_tokihira = {
+	name = "Tokihira"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = lustful
+	father = 1600005
+	871.1.1 = {
+		birth = yes
+	}
+	909.5.26 = {
+		death = yes
+	}
+}
+fujiwara_nakahira = {
+	name = "Nakahira"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = 1600005
+	875.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		trait = devoted
+	}
+	945.10.13 = {
+		death = yes
+	}
+}
+fujiwara_tadahira = {
+	name = "Tadahira"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = 1600005
+	880.1.1 = {
+		birth = yes
+	}
+	949.9.9 = {
+		death = yes
+	}
+}
+fujiwara_onshi = {
+	name = "Onshi"
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = 1600005
+	885.1.1 = {
+		birth = yes
+	}
+	954.2.9 = {
+		death = yes
+	}
+}
+fujiwara_saneyori = {
+	name = "Saneyori"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = schemer
+	father = fujiwara_tadahira
+	900.1.1 = {
+		birth = yes
+	}
+	970.6.24 = {
+		death = yes
+	}
+}
+fujiwara_yoritada = {
+	name = "Yoritada"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_saneyori
+	924.1.1 = {
+		birth = yes
+	}
+	989.7.31 = {
+		death = yes
+	}
+}
+fujiwara_morosuke = {
+	name = "Morosuke"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_tadahira
+	909.1.11 = {
+		birth = yes
+	}
+	960.5.31 = {
+		death = yes
+	}
+}
+fujiwara_koretada = {
+	name = "Kaneie"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_morosuke
+	924.1.1 = {
+		birth = yes
+	}
+	972.12.9 = {
+		death = yes
+	}
+}
+fujiwara_kanemichi = {
+	name = "Kaneie"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_morosuke
+	925.1.1 = {
+		birth = yes
+	}
+	977.12.20 = {
+		death = yes
+	}
+}
+fujiwara_kaneie = {
+	name = "Kaneie"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_morosuke
+	929.1.1 = {
+		birth = yes
+	}
+	990.7.26 = {
+		death = yes
+	}
+}
+fujiwara_kinsue = {
+	name = "Kinsue"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_morosuke
+	956.1.1 = {
+		birth = yes
+	}
+	1029.11.25 = {
+		death = yes
+	}
+}
+fujiwara_sanenari = {
+	name = "Sanenari"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kinsue
+	975.1.1 = {
+		birth = yes
+	}
+	1045.1.12 = {
+		death = yes
+	}
+}
+fujiwara_kinnari = {
+	name = "Kinnari"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_sanenari
+	999.1.1 = {
+		birth = yes
+	}
+	1043.8.1 = {
+		death = yes
+	}
+}
+fujiwara_moshi = {
+	name = "Shigeko" #aka Moshi
+	female = yes
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kinnari #biological
+	1020.1.1 = { # date unknown
+		birth = yes
+	}
+	1062.7.30 = {
+		death = yes
+	}
+}
+fujiwara_michitaka = {
+	name = "Michitaka"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_kaneie
+	953.1.1 = {
+		birth = yes
+	}
+	995.5.16 = {
+		death = yes
+	}
+}
+fujiwara_michikane = {
+	name = "Michikane"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_kaneie
+	961.1.1 = {
+		birth = yes
+	}
+	995.6.13 = {
+		death = yes
+	}
+}
+fujiwara_michinaga = {
+	name = "Michinaga"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = brave
+	trait = temperate
+	trait = arrogant
+	trait = reveler_2
+	trait = poet
+	trait = scholar
+	trait = intellect_good_3
+	disallow_random_traits = yes
+	father = fujiwara_kaneie
+	966.1.1 = {
+		birth = yes
+	}
+	987.1.1 = {
+		add_spouse = minamoto_rinshi
+	}
+	988.1.1 = {
+		add_concubine = minamoto_meishi
+	}
+	1013.1.1 = {
+		add_concubine = minamoto_michiyo
+	}
+	1028.1.3 = {
+		death = yes
+	}
+}
+fujiwara_shoshi = {
+	name = "Shōshi"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	988.1.1 = {
+		birth = yes
+	}
+	1074.10.25 = {
+		death = yes
+	}
+}
+fujiwara_yorimichi = {
+	name = "Yorimichi"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	992.1.1 = {
+		birth = yes
+	}
+	1009.1.1 = {
+		add_spouse = yamato_takahime
+	}
+	1072.1.1 = {
+		trait = devoted
+	}
+	1074.3.2 = {
+		death = yes
+	}
+}
+fujiwara_michifusa = {
+	name = "Michifusa"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1025.2.10 = {
+		birth = yes
+	}
+	1044.5.23 = {
+		death = yes
+	}
+}
+fujiwara_toshitsuna = {
+	name = "Toshitsuna"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1028.1.1 = {
+		birth = yes
+	}
+	1094.8.27 = {
+		death = yes
+	}
+}
+fujiwara_kakuen = {
+	name = "Kakuen"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1031.1.1 = {
+		birth = yes
+	}
+	1054.1.1 = {
+		trait = devoted
+	}
+	1098.5.19 = {
+		death = yes
+	}
+}
+fujiwara_sadatsuna = {
+	name = "Sadatsuna"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1032.1.1 = {
+		birth = yes
+	}
+	1093.1.18 = {
+		death = yes
+	}
+}
+fujiwara_hiroko = {
+	name = "Hiroko" #aka Kanshi
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = infertile
+	trait = child_of_concubine_female
+	father = fujiwara_yorimichi
+	1036.1.1 = {
+		birth = yes
+	}
+	1068.6.1 = {
+		trait = devoted
+	}
+	1127.9.30 = {
+		death = yes
+	}
+}
+fujiwara_tadatsuna = {
+	name = "Tadatsuna"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1039.1.1 = { #date unknown
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+fujiwara_morozane = {
+	name = "Morozane"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_yorimichi
+	1042.1.1 = {
+		birth = yes
+	}
+	1101.3.14 = {
+		death = yes
+	}
+}
+fujiwara_yorimune = {
+	name = "Yorimune"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	993.1.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		trait = ill
+		trait = devoted
+	}
+	1065.3.12 = {
+		death = yes
+	}
+}
+fujiwara_akinobu = {
+	name = "Akinobu"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	994.1.1 = {
+		birth = yes
+	}
+	1012.2.19 = {
+		trait = devoted
+	}
+	1027.6.20 = {
+		death = yes
+	}
+}
+fujiwara_kenshi = {
+	name = "Kenshi"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	994.4.1 = {
+		birth = yes
+	}
+	1027.10.16 = {
+		death = yes
+	}
+}
+fujiwara_yoshinobu = {
+	name = "Yoshinobu"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	995.1.1 = {
+		birth = yes
+	}
+	1065.3.18 = {
+		death = yes
+	}
+}
+fujiwara_norimichi = {
+	name = "Norimichi"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	996.6.25 = {
+		birth = yes
+	}
+	1075.11.6 = {
+		death = yes
+	}
+}
+fujiwara_yoshiko = {
+	name = "Kanshi" #aka Yoshiko
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = beauty_good_3
+	father = fujiwara_norimichi
+	1021.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		trait = celibate
+		trait = reclusive
+		trait = zealous
+	}
+	1077.1.1 = {
+		trait = devoted
+	}
+	1102.1.1 = {
+		trait = ill
+	}
+	1102.4.1 = {
+		death = yes
+	}
+}
+fujiwara_kanshi = {
+	name = "Kanshi"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_female
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	999.1.1 = {
+		birth = yes
+	}
+	1025.8.5 = {
+		death = yes
+	}
+}
+fujiwara_ishi = {
+	name = "Ishi"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	1000.2.1 = {
+		birth = yes
+	}
+	1036.9.28 = {
+		death = yes
+	}
+}
+fujiwara_takako = {
+	name = "Takako"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_female
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	1003.1.1 = {
+		birth = yes
+	}
+	1087.8.7 = {
+		death = yes
+	}
+}
+fujiwara_nagaie = {
+	name = "Nagaie"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = poet
+	trait = child_of_concubine_male
+	father = fujiwara_michinaga
+	mother = minamoto_meishi
+	1005.9.26 = {
+		birth = yes
+	}
+	1064.12.5 = {
+		trait = devoted
+	}
+	1064.12.19 = {
+		death = yes
+	}
+}
+fujiwara_kishi = {
+	name = "Kishi"
+	female = yes
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	father = fujiwara_michinaga
+	mother = minamoto_rinshi
+	1007.1.5 = {
+		birth = yes
+	}
+	1025.8.5 = {
+		death = yes
+	}
+}
+fujiwara_choshin = {
+	name = "Chōshin"
+	dynasty = 40000001
+	religion = zenzong
+	culture = yamato
+	trait = child_of_concubine_male
+	father = fujiwara_michinaga
+	mother = minamoto_michiyo
+	1014.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		trait = devoted
+	}
+	1072.11.12 = {
 		death = yes
 	}
 }
 1600006 = {
-	name = Takako # Fujiwara no Nagara's daughter, spouse of Seiwa
+	name = "Takako"
 	female = yes
 	dna = takako_empress_dna
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
+	father = fujiwara_nagara
 	trait = lustful
 	trait = generous
 	trait = trusting
 	trait = education_intrigue_3
-
 	842.1.1 = {
 		birth = yes
 	}
@@ -657,12 +4162,14 @@ koko_tenno = {
 	}
 }
 1600008 = {
-	name = Akirakeiko #fujiwara Dauhter of Yoshifusa, consort of Montoku
+	name = "Akirakeiko"
+	female = yes
 	dynasty = 40000001
 	female = yes
 	religion = shinto
 	culture = yamato
 	father = 1600001
+	mother = minamoto_kiyohime
 	829.1.1 = {
 		birth = yes
 	}
@@ -670,118 +4177,2363 @@ koko_tenno = {
 		death = yes
 	}
 }
-1600002 = {
-	name = Koyo #Was actually in charge in 811, couldnt find anything after that
-	dynasty = 40000001
+
+## Shikike-Fujiwara
+fujiwara_umakai = { # Shikike-Fujiwara founder
+	name = "Umakai"
+	dynasty_house = house_shikike-fujiwara
 	religion = shinto
-	culture = yamato 
-	845.1.1 = {
+	culture = yamato
+	trait = diplomat
+	father = fujiwara_fuhito	
+	694.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	737.8.1={
+		effect = {
+			add_trait = "smallpox"
+		}
+	}
+	737.9.3 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+fujiwara_hirotsugu = {
+	name = "Hirotsugu"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_umakai	
+	714.1.1 = { # date unknown
+		birth = yes
+	}
+	740.11.24 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+fujiwara_yoshitsugu = {
+	name = "Sukunamaro"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_umakai	
+	716.1.1 = {
+		birth = yes
+	}
+	770.1.1 = {
+		name = "Yoshitsugu"
+	}
+	777.10.27 = {
+		death = yes
+	}
+}
+fujiwara_kiyonari = {
+	name = "Kiyonari"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_umakai	
+	716.1.1 = {
+		birth = yes
+	}
+	777.10.27 = {
+		death = yes
+	}
+}
+fujiwara_momokawa = {
+	name = "Momokawa"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_umakai	
+	732.1.1 = {
+		birth = yes
+	}
+	752.1.1 = {
+		add_spouse = fujiwara_moroane
+	}
+	779.8.28 = {
+		death = yes
+	}
+}
+fujiwara_tanetsugu = {
+	name = "Tanetsugu"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kiyonari	
+	737.1.1 = {
+		birth = yes
+	}
+	785.11.4 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+fujiwara_moroane = {
+	name = "Moroane"
+	female = yes
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_yoshitsugu	
+	746.1.1 = {
+		birth = yes
+	}
+	786.7.29 = {
+		death = yes
+	}
+}
+fujiwara_otomuro = {
+	name = "Otomuro"
+	female = yes
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_yoshitsugu	
+	760.1.1 = {
+		birth = yes
+	}
+	790.4.28 = {
+		death = yes
+	}
+}
+fujiwara_taishi = {
+	name = "Taishi"
+	female = yes
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_momokawa
+	762.1.1 = {
+		birth = yes
+	}
+	794.6.28 = {
+		death = yes
+	}
+}
+fujiwara_otsugu = {
+	name = "Otsugu"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	father = fujiwara_momokawa
+	774.1.1 = {
+		birth = yes
+	}
+	843.8.22 = {
+		death = yes
+	}
+}
+fujiwara_motoo = {
+	name = "Motō"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_otsugu
+	810.1.1 = { # date unknown
+		birth = yes
+	}
+	876.4.26 = {
+		death = yes
+	}
+}
+fujiwara_harutsu = {
+	name = "Harutsu"
+	dynasty_house = house_shikike-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_otsugu
+	808.1.1 = {
+		birth = yes
+	}
+	859.8.14 = {
 		death = yes
 	}
 }
 
-1600003 = { #non historical
-	name = Shimazaki
-	dynasty = 40000001
+## Kyōke-Fujiwara
+fujiwara_maro = { # Kyōke-Fujiwara founder
+	name = "Maro"
+	dynasty_house = house_kyoke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuhito	
+	695.1.1 = {
+		birth = yes
+	}
+	737.8.1={
+		effect = {
+			add_trait = "smallpox"
+		}
+	}
+	737.8.17 = {
+		death = {
+			death_reason = death_smallpox
+		}
+	}
+}
+
+## Ōshū-Fujiwara
+fujiwara_kiyohara = { # Ōshū-Fujiwara founder
+	name = "Kiyohara"
+	dynasty_house = house_oshu-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_tsunekiyo
+	1056.1.1 = { # date unknown
+		birth = yes
+	}
+	1128.8.10 = {
+		death = yes
+	}
+}
+
+### Taira Clan 平氏
+## Kanmu-Heishi
+taira_takamochi = {
+	name = "Takamochi"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = yamato_kazurawachi
+	839.10.21 = { # date unknown
+		birth = yes
+	}
+	862.1.1 = {
+		add_spouse = fujiwara_tomoe # real name unknown
+	}
+	911.6.28 = { # date unknown
+		death = yes
+	}
+}
+taira_kunika = {
+	name = "Kunika"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_takamochi
+	872.1.1 = {
+		birth = yes
+	}
+	935.2.1 = {
+		death = yes
+	}
+}
+taira_sadamori = {
+	name = "Sadamori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_kunika
+	917.3.11 = {
+		birth = yes
+	}
+	989.11.16 = {
+		death = yes
+	}
+}
+taira_korehira = {
+	name = "Korehira"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_sadamori
+	946.1.1 = {
+		birth = yes
+	}
+	1031.1.1 = {
+		death = yes
+	}
+}
+taira_masanori = {
+	name = "Masanori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_korehira
+	988.1.1 = { # date unknown 
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+taira_masahira = {
+	name = "Masahira"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_masanori
+	1033.1.1 = { # date unknown 
+		birth = yes
+	}
+	1099.1.1 = { # date unknown
+		death = yes
+	}
+}
+taira_masamori = {
+	name = "Masamori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_masahira
+	1066.1.1 = { # date unknown 
+		birth = yes
+	}
+	1121.11.16 = {
+		death = yes
+	}
+}
+taira_tadamori = {
+	name = "Tadamori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	trait = architect
+	father = taira_masamori
+	1096.1.1 = {
+		birth = yes
+	}
+	1153.2.10 = {
+		death = yes
+	}
+}
+taira_tsunemori = {
+	name = "Tsunemori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_tadamori
+	1124.1.1 = {
+		birth = yes
+	}
+	1185.4.25 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+taira_norimori = {
+	name = "Norimori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_tadamori
+	1128.1.1 = {
+		birth = yes
+	}
+	1185.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+taira_tadamori = {
+	name = "Tadamori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	trait = poet
+	father = taira_tadamori
+	1144.1.1 = {
+		birth = yes
+	}
+	1184.3.20 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+taira_kiyomori = {
+	name = "Kiyomori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	trait = callous
+	trait = greedy
+	trait = intellect_good_2
+	trait = shrewd
+	trait = education_diplomacy_3
+	trait = disputed_heritage
+	disallow_random_traits = yes
+	father = taira_tadamori
+	1118.1.1 = {
+		birth = yes
+	}
+	1181.3.1 = {
+		trait = ill
+	}
+	1181.3.20 = {
+		death = yes
+	}
+}
+taira_shigemori = {
+	name = "Tadamori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = zealous
+	trait = generous
+	trait = brave
+	trait = architect
+	disallow_random_traits = yes
+	father = taira_kiyomori
+	1138.1.1 = {
+		birth = yes
+	}
+	1179.5.15 = {
+		trait = ill
+	}
+	1179.9.2 = {
+		death = yes
+	}
+}
+taira_koremori = {
+	name = "Tadamori"
+	dynasty = 40000201
+	religion = mahayana
+	culture = yamato
+	trait = poet
+	trait = devoted
+	father = taira_kiyomori
+	1158.1.1 = {
+		birth = yes
+	}
+	1184.5.10 = {
+		death = yes
+	}
+}
+taira_takakiyo = {
+	name = "Takakiyo"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_koremori
+	1173.1.1 = {
+		birth = yes
+	}
+	1199.3.3 = {
+		death = yes
+	}
+}
+taira_chikazane = {
+	name = "Chikazane"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	father = taira_koremori
+	1178.1.1 = {
+		birth = yes
+	}
+	1225.1.1 = {
+		death = yes
+	}
+}
+taira_munemori = {
+	name = "Munemori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	father = taira_kiyomori
+	1147.1.1 = {
+		birth = yes
+	}
+	1185.6.19 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+taira_tomomori = {
+	name = "Tomomori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	father = taira_kiyomori
+	1152.1.1 = {
+		birth = yes
+	}
+	1185.4.25 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+taira_tokuko = {
+	name = "Tokuko"
+	female = yes
+	dynasty = 40000201
+	religion = mahayana
+	culture = yamato
+	trait = devoted
+	father = taira_kiyomori
+	1155.1.1 = {
+		birth = yes
+	}
+	1214.1.25 = {
+		death = yes
+	}
+}
+taira_shigehira = {
+	name = "Shigehira"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = callous
+	trait = sadistic
+	trait = brave
+	disallow_random_traits = yes
+	father = taira_kiyomori
+	1158.1.1 = {
+		birth = yes
+	}
+	1185.7.21 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+## Ninmyō-Heishi
+taira_masamochi = {
+	name = "Masamochi"
+	dynasty = 40000202
+	religion = shinto
+	culture = yamato
+	father = yamato_motoyasu
+	862.1.1 = {
+		birth = yes
+	}
+	922.1.1 = {
+		death = yes
+	}
+}
+taira_mareyo = {
+	name = "Mareyo"
+	dynasty = 40000202
+	religion = shinto
+	culture = yamato
+	father = taira_masamochi
+	888.1.1 = {
+		birth = yes
+	}
+	930.7.24 = {
+		death = yes
+	}
+}
+taira_yoritoki = {
+	name = "Yoritoki"
+	dynasty = 40000202
+	religion = shinto
+	culture = yamato
+	father = taira_masamochi
+	890.1.1 = {
+		birth = yes
+	}
+	954.1.25 = {
+		death = yes
+	}
+}
+
+## Montoku-Heishi
+taira_ise = {
+	name = "Ise"
+	dynasty = 40000203
+	religion = shinto
+	culture = yamato
+	father = yamato_korehiko
+	888.1.1 = { # date unknown
+		birth = yes
+	}
+	950.1.1 = { # date_unknown
+		death = yes
+	}
+}
+
+## Kōkō-Heishi
+taira_atsuyuki = {
+	name = "Atsuyuki"
+	dynasty = 40000204
+	religion = shinto
+	culture = yamato
+	father = yamato_koga
+	920.1.1 = { # date unknown
+		birth = yes
+	}
+	1000.1.1 = { # date_unknown
+		death = yes
+	}
+}
+
+### Minamoto Clan 源氏
+## Saga-Genji
+minamoto_makoto = {
+	name = "Makoto"
+	dynasty = 40000205
 	religion = shinto
 	culture = yamato 
+	father = saga_tenno
+	810.1.1 = {
+		birth = yes
+	}
+	868.2.13 = {
+		death = yes
+	}
+}
+minamoto_tokiwa = {
+	name = "Tokiwa"
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	trait = poet	
+	father = saga_tenno
+	812.1.1 = {
+		birth = yes
+	}
+	854.7.15 = {
+		death = yes
+	}
+}
+minamoto_ikeru = {
+	name = "Ikeru"
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato
+	father = saga_tenno
+	821.1.1 = {
+		birth = yes
+	}
+	872.9.8 = {
+		death = yes
+	}
+}
+minamoto_okoru = {
+	name = "Okoru"
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato
+	father = minamoto_tokiwa
+	828.1.1 = {
+		birth = yes
+	}
+	872.12.22 = {
+		death = yes
+	}
+}
+minamoto_hide = {
+	name = "Hide"
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	trait = poet	
+	father = minamoto_tokiwa
+	830.1.1 = { # date unknown
+		birth = yes
+	}
+	879.11.16 = {
+		death = yes
+	}
+}
+minamoto_toru = {
+	name = "Tōru"
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato 
+	trait = poet
+	father = saga_tenno
+	822.1.1 = {
+		birth = yes
+	}
+	895.9.17 = {
+		death = yes
+	}
+}
+minamoto_kiyohime = {
+	name = "Kiyo"
+	female = yes
+	dynasty = 40000205
+	religion = shinto
+	culture = yamato 
+	father = saga_tenno
+	810.1.1 = {
+		birth = yes
+	}
+	856.7.30 = {
+		death = yes
+	}
+}
+
+## Ninmyō-Genji
+minamoto_suzushi = {
+	name = "Suzushi"
+	dynasty = 40000206
+	religion = shinto
+	culture = yamato 
+	father = ninmyo_tenno
+	835.1.1 = {
+		birth = yes
+	}
+	890.3.19 = {
+		death = yes
+	}
+}
+minamoto_itaru = {
+	name = "Itaru"
+	dynasty = 40000206
+	religion = shinto
+	culture = yamato 
+	father = ninmyo_tenno
+	840.1.1 = { # date unknown
+		birth = yes
+	}
+	900.1.1 = { # date unknown
+		death = yes
+	}
+}
+minamoto_hikaru = {
+	name = "Hikaru"
+	dynasty = 40000206
+	religion = shinto
+	culture = yamato 
+	trait = hunter_2
+	father = ninmyo_tenno
+	845.7.9 = {
+		birth = yes
+	}
+	913.4.21 = {
+		death = yes
+	}
+}
+minamoto_masaru = {
+	name = "Masaru"
+	dynasty = 40000206
+	religion = shinto
+	culture = yamato 
+	father = ninmyo_tenno
+	831.1.1 = {
+		birth = yes
+	}
+	888.11.24 = {
+		death = yes
+	}
+}
+minamoto_satoru = {
+	name = "Satoru"
+	dynasty = 40000206
+	religion = shinto
+	culture = yamato 
+	father = ninmyo_tenno
 	849.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	879.11.7 = {
 		death = yes
 	}
 }
 
-#others
-2300001 = {
-	name = Yukinobu #Ruler of Echigo Dutchy
-	dynasty = 40000008
+## Montoku-Genji
+minamoto_yukiari = {
+	name = "Yukiari"
+	dynasty = 40000207
 	religion = shinto
 	culture = yamato 
+	father = 1600007
+	854.1.1 = {
+		birth = yes
+	}
+	887.7.14 = {
+		death = yes
+	}
+}
+minamoto_yoshiari = {
+	name = "Yoshiari"
+	dynasty = 40000207
+	religion = shinto
+	culture = yamato 
+	father = 1600007
 	845.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	867.1.1 = {
+		add_spouse = fujiwara_moshi
+	}
+	897.7.11 = {
 		death = yes
 	}
 }
 
-1900001 = {
-	name = Michimori #Ruler of Kiyotake Dutchy
-	dynasty = 40000004
+## Seiwa-Genji
+	#dynasty = 40000208
+
+## Yōzei-Genji
+	#dynasty = 40000209
+
+## Kōkō-Genji
+	#dynasty = 40000210
+
+## Uda-Genji
+minamoto_masazane = {
+	name = "Masazane"
+	dynasty = 40000211
 	religion = shinto
 	culture = yamato 
-	837.1.1 = {
+	father = yamato_atsumi
+	920.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	993.8.19 = {
 		death = yes
 	}
 }
-2600001 = {
-	name = Yoshisada #Ruler of Mino Dutchy
-	dynasty = 40000011
+minamoto_rinshi = {
+	name = "Rinshi"
+	female = yes
+	dynasty = 40000211
 	religion = shinto
 	culture = yamato 
-	829.1.1 = {
+	father = minamoto_masazane
+	964.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
-		death = yes
-	}
-}
-2400001 = {
-	name = Ryoi #Ruler of Nishidate Dutchy
-	dynasty = 40000009
-	religion = shinto
-	culture = yamato 
-	841.1.1 = {
-		birth = yes
-	}
-	1066.1.1 = {
+	1053.6.19 = {
 		death = yes
 	}
 }
 
-1700001 = {
-    name = Taizai #Ruler of Saikai Duchy
-    dynasty = 40000002
-    religion = shinto
-    culture = yamato 
-    836.1.1 = {
-        birth = yes
-    }
-	1066.1.1 = {
+## Daigo-Genji
+minamoto_takaakira = {
+	name = "Takaakira"
+	dynasty = 40000212
+	religion = shinto
+	culture = yamato 
+	father = daigo_tenno
+	914.1.1 = {
+		birth = yes
+	}
+	983.1.2 = {
+		death = yes
+	}
+}
+minamoto_meishi = {
+	name = "Meishi"
+	female = yes
+	dynasty = 40000212
+	religion = shinto
+	culture = yamato 
+	father = minamoto_takaakira
+	975.1.1 = {
+		birth = yes
+	}
+	1049.8.23 = {
+		death = yes
+	}
+}
+minamoto_shigemitsu = {
+	name = "Shigemitsu"
+	dynasty = 40000212
+	religion = shinto
+	culture = yamato 
+	father = yamato_yoshiakira
+	923.1.1 = {
+		birth = yes
+	}
+	998.8.4 = {
+		death = yes
+	}
+}
+minamoto_michiyo = {
+	name = "Michiyo" #real name unknown
+	female = yes
+	dynasty = 40000212
+	religion = shinto
+	culture = yamato 
+	father = minamoto_shigemitsu
+	980.1.1 = { #date unknown
+		birth = yes
+	}
+	1050.1.1 = { #date unknown
 		death = yes
 	}
 }
 
-1800001 = {
-	name = Kanemoto #Ruler of Nankai Dutchy
-	dynasty = 40000003
-	religion = shinto
-	culture = yamato 
-	842.1.1 = {
+## Murakami-Genji
+	#dynasty = 40000213
+
+## Reizei-Genji
+	#dynasty = 40000214
+
+## Kazan-Genji
+	#dynasty = 40000215
+
+## Sanjō-Genji
+	#dynasty = 40000216
+
+### Tachibana Clan 橘氏
+tachibana_michiyo = {
+	name = "Michiyo"
+	female = yes
+	religion = mahayana
+	culture = yamato
+	655.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	733.2.4 = {
+		death = yes
+	}
+}
+tachibana_moroe = {
+	name = "Moroe"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	trait = poet
+	father = yamato_minu
+	mother = tachibana_michiyo
+	684.1.1 = {
+		birth = yes
+	}
+	720.1.1 = {
+		add_spouse = fujiwara_tabino
+	}
+	757.1.30 = {
+		death = yes
+	}
+}
+tachibana_naramaro = {
+	name = "Naramaro"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	trait = schemer
+	trait = education_intrigue_1
+	trait = ambitious
+	father = tachibana_moroe
+	mother = fujiwara_tabino
+	721.1.1 = {
+		birth = yes
+	}
+	757.8.1 = {
+		death = {
+			death_reason = death_execution
+			killer = fujiwara_nakamaro
+		}
+	}
+}
+tachibana_kiyomoto = {
+	name = "Kiyomoto"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	father = tachibana_moroe
+	721.1.1 = {
+		birth = yes
+	}
+	757.8.1 = {
+		death = yes
+	}
+}
+tachibana_kachiko = {
+	name = "Kachiko"
+	female = yes
+	dynasty = 40000217
+	religion = mahayana
+	culture = yamato
+	trait = zealous
+	father = tachibana_kiyomoto
+	786.1.1 = {
+		birth = yes
+	}
+	850.6.17 = {
+		death = yes
+	}
+}
+tachibana_irii = {
+	name = "Irii"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	father = tachibana_naramaro
+	739.1.1 = { # date unknown
+		birth = yes
+	}
+	800.3.8 = {
+		death = yes
+	}
+}
+tachibana_nagatsugu = {
+	name = "Nagatsugu"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	father = tachibana_irii
+	769.1.1 = {
+		birth = yes
+	}
+	821.4.19 = {
+		death = yes
+	}
+}
+tachibana_tokieda = {
+	name = "Tokieda"
+	dynasty = 40000217
+	religion = shinto
+	culture = yamato
+	father = tachibana_nagatsugu
+	812.1.1 = { # date unknown
+		birth = yes
+	}
+	888.1.1 = { # date unknown
 		death = yes
 	}
 }
 
-2000001 = {
-	name = Yorimoto #Ruler of Wada Dutchy
-	dynasty = 40000005
+## Soga Clan
+soga_ishikawa = {
+	name = "Ishikawa"
+	dynasty = 40000218
 	religion = shinto
-	culture = yamato 
-	847.1.1 = {
+	culture = yamato
+	father = yamato_takenouchinosukune
+	180.1.1 = { # date unknown
 		birth = yes
 	}
-	1066.1.1 = {
+	284.1.1 = { # date unknown
+		death = yes
+	}
+}
+soga_machi = {
+	name = "Machi"
+	dynasty = 40000218
+	religion = shinto
+	culture = yamato
+	father = soga_ishikawa
+	259.1.1 = { # date unknown
+		birth = yes
+	}
+	362.1.1 = { # date unknown
+		death = yes
+	}
+}
+soga_karako = {
+	name = "Karako"
+	dynasty = 40000218
+	religion = shinto
+	culture = yamato
+	father = soga_machi
+	350.1.1 = { # date unknown
+		birth = yes
+	}
+	465.1.1 = {
+		death = yes
+	}
+}
+soga_koma = {
+	name = "Koma"
+	dynasty = 40000218
+	religion = shinto
+	culture = yamato
+	father = soga_karako
+	460.1.1 = { # date unknown
+		birth = yes
+	}
+	520.1.1 = { # date unknown
+		death = yes
+	}
+}
+soga_iname = {
+	name = "Iname"
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	trait = education_stewardship_4
+	trait = diplomat
+	father = soga_koma
+	506.1.1 = {
+		birth = yes
+	}
+	570.3.22 = {
+		death = yes
+	}
+}
+soga_kitashihime = {
+	name = "Kitashihime"
+	female = yes
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	father = soga_iname
+	520.1.1 = { # date unknown
+		birth = yes
+	}
+	615.1.1 = { # date unknown
+		death = yes
+	}
+}
+soga_oane = {
+	name = "Oane"
+	female = yes
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	father = soga_iname
+	526.1.1 = { # date unknown
+		birth = yes
+	}
+	620.1.11 = { # date unknown
+		death = yes
+	}
+}
+soga_ishikina = {
+	name = "Ishikina"
+	female = yes
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	father = soga_iname
+	534.1.1 = { # date unknown
+		birth = yes
+	}
+	625.1.1 = { # date unknown
+		death = yes
+	}
+}
+soga_umako = {
+	name = "Umako"
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	trait = ambitious
+	trait = callous
+	trait = zealous
+	trait = schemer
+	trait = education_intrigue_3
+	trait = murderer
+	disallow_random_traits = yes
+	father = soga_iname
+	551.1.1 = {
+		birth = yes
+	}
+	585.1.1 = {
+		add_spouse = mononobe_futohime
+	}
+	626.6.19 = {
+		death = yes
+	}
+}
+soga_marise = {
+	name = "Marise"
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	father = soga_iname
+	554.1.1 = { # date unknown
+		birth = yes
+	}
+	628.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = soga_emishi
+		}
+	}
+}
+soga_emishi = {
+	name = "Emishi"
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	trait = ambitious
+	trait = deceitful
+	trait = callous
+	disallow_random_traits = yes
+	father = soga_umako
+	mother = mononobe_futohime
+	586.1.1 = {
+		birth = yes
+	}
+	645.7.11 = {
+		death = {
+			death_reason = death_suicide
+		}
+	}
+}
+soga_iruka = {
+	name = "Iruka"
+	dynasty = 40000218
+	religion = mahayana
+	culture = yamato
+	trait = ambitious
+	trait = sadistic
+	trait = callous
+	trait = greedy
+	disallow_random_traits = yes
+	father = soga_iruka
+	611.1.1 = {
+		birth = yes
+	}
+	645.7.10 = {
+		death = {
+			death_reason = death_execution
+			killer = tenji_tenno
+		}
+	}
+}
+
+### Mononobe Clan 物部氏
+mononobe_okoshi = {
+	name = "Okoshi"
+	dynasty = 40000219
+	religion = shinto
+	culture = yamato
+	trait = zealous
+	trait = generous
+	trait = wrathful
+	disallow_random_traits = yes
+	father = mononobe_arayama
+	490.1.1 = { # date unknown
+		birth = yes
+	}
+	560.7.3 = { # date unknown
+		death = yes
+	}
+}
+mononobe_moriya = {
+	name = "Moriya"
+	dynasty = 40000219
+	religion = shinto
+	culture = yamato
+	trait = zealous
+	trait = brave
+	trait = wrathful
+	trait = holy_warrior
+	disallow_random_traits = yes
+	father = mononobe_okoshi
+	530.1.1 = { # date unknown
+		birth = yes
+	}
+	587.7.3 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+mononobe_futohime = {
+	name = "Futohime"
+	female = yes
+	dynasty = 40000219
+	religion = shinto
+	culture = yamato
+	father = mononobe_okoshi
+	555.1.1 = { # date unknown
+		birth = yes
+	}
+	611.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Ki Clan 紀氏
+ki_tsuno = {
+	name = "Tsuno"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = yamato_takenouchinosukune
+	180.1.1 = { # date unknown
+		birth = yes
+	}
+	254.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_shiraki = {
+	name = "Shiraki"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_tsuno
+	236.1.1 = { # date unknown
+		birth = yes
+	}
+	299.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_oyumi = {
+	name = "Oyumi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_shiraki
+	292.1.1 = { # date unknown
+		birth = yes
+	}
+	352.1.1 = {
+		death = yes
+	}
+}
+ki_oiwa = {
+	name = "Oiwa"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_oyumi
+	348.1.1 = { # date unknown
+		birth = yes
+	}
+	407.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_omaro = {
+	name = "Omaro"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_oiwa
+	405.1.1 = { # date unknown
+		birth = yes
+	}
+	479.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_otari = {
+	name = "Otari"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_omaro
+	461.1.1 = { # date unknown
+		birth = yes
+	}
+	519.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_shiote = {
+	name = "Otari"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_otari
+	517.1.1 = { # date unknown
+		birth = yes
+	}
+	588.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_okuchi = {
+	name = "Ōkuchi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_shiote
+	573.1.1 = { # date unknown
+		birth = yes
+	}
+	649.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_ushi = {
+	name = "Ushi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_okuchi
+	630.1.1 = { # date unknown
+		birth = yes
+	}
+	683.7.1 = {
+		death = yes
+	}
+}
+ki_maro = {
+	name = "Maro"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_ushi
+	659.1.1 = {
+		birth = yes
+	}
+	705.1.1 = {
+		death = yes
+	}
+}
+ki_hirona = {
+	name = "Hirona"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_maro
+	692.1.1 = { # date unknown
+		birth = yes
+	}
+	760.1.1 = { # date unknown
+		death = yes
+	}
+}
+ki_mahito = {
+	name = "Mahito"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	trait = compassionate
+	trait = intellect_good_2
+	father = ki_hirona
+	747.1.1 = {
+		birth = yes
+	}
+	805.9.21 = {
+		death = yes
+	}
+}
+ki_imamori = {
+	name = "Imamori"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	trait = administrator
+	father = ki_hirona
+	790.1.1 = { # date unkown
+		birth = yes
+	}
+	872.5.10 = {
+		death = yes
+	}
+}
+ki_akizaru = {
+	name = "Akizaru"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_ushi
+	664.1.1 = { # date unknown
+		birth = yes
+	}
+	723.7.1 = { # date unknown
+		death = yes
+	}
+}
+ki_sarutori = {
+	name = "Sarutori"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_akizaru
+	697.1.1 = { # date unknown
+		birth = yes
+	}
+	751.7.1 = { # date unknown
+		death = yes
+	}
+}
+ki_funamori = {
+	name = "Funamori"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_sarutori
+	731.1.1 = {
+		birth = yes
+	}
+	792.4.27 = {
+		death = yes
+	}
+}
+ki_katsunaga = {
+	name = "Katsunaga"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_funamori
+	754.1.1 = {
+		birth = yes
+	}
+	806.11.16 = {
+		death = yes
+	}
+}
+ki_okimichi = {
+	name = "Okimichi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_katsunaga
+	777.1.1 = { # date unknown
+		birth = yes
+	}
+	834.7.30 = {
+		death = yes
+	}
+}
+ki_natora = {
+	name = "Okimichi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_katsunaga
+	780.1.1 = { # date unknown
+		birth = yes
+	}
+	847.7.31 = {
+		death = yes
+	}
+}
+ki_aritsune = {
+	name = "Aritsune"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_natora
+	815.1.1 = { # date unknown
+		birth = yes
+	}
+	877.2.9 = {
+		death = yes
+	}
+}
+ki_motomichi = {
+	name = "Motomichi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_okimichi
+	810.1.1 = { # date unknown
+		birth = yes
+	}
+	874.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Ariwara Clan 在原氏
+ariwara_takaoka = {
+	name = "Takaoka"
+	dynasty = 40000221
+	religion = shinto
+	culture = yamato
+	father = heizei_tenno
+	799.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+ariwara_yoshifuchi = {
+	name = "Yoshifuchi"
+	dynasty = 40000221
+	religion = shinto
+	culture = yamato
+	father = ariwara_takaoka
+	816.1.1 = {
+		birth = yes
+	}
+	875.3.13 = {
+		death = yes
+	}
+}
+ariwara_yasusada = {
+	name = "Yasusada"
+	dynasty = 40000221
+	religion = shinto
+	culture = yamato
+	father = ariwara_takaoka
+	828.1.1 = { # date unknown
+		birth = yes
+	}
+	888.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Kiyohara Clan 清原氏
+kiyohara_natsuno = {
+	name = "Natsuno"
+	dynasty = 40000222
+	religion = shinto
+	culture = yamato
+	father = yamato_ogura
+	782.1.1 = {
+		birth = yes
+	}
+	837.11.12 = {
+		death = yes
+	}
+}
+kiyohara_takio = {
+	name = "Takio"
+	dynasty = 40000222
+	religion = shinto
+	culture = yamato
+	father = kiyohara_natsuno
+	799.1.1 = {
+		birth = yes
+	}
+	863.2.2 = {
+		death = yes
+	}
+}
+kiyohara_akio = {
+	name = "Akio"
+	dynasty = 40000222
+	religion = shinto
+	culture = yamato
+	father = kiyohara_natsuno
+	812.1.1 = {
+		birth = yes
+	}
+	874.5.13 = {
+		death = yes
+	}
+}
+kiyohara_ario = {
+	name = "Ario"
+	dynasty = 40000222
+	religion = shinto
+	culture = yamato
+	780.1.1 = { # date unknown
+		birth = yes
+	}
+	858.1.13 = { # date unknown
+		death = yes
+	}
+}
+kiyohara_michio = {
+	name = "Michio"
+	dynasty = 40000222
+	religion = shinto
+	culture = yamato
+	father = kiyohara_ario
+	810.1.1 = { # date unknown
+		birth = yes
+	}
+	872.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Sakanoue Clan 坂上氏
+sakanoue_okina = {
+	name = "Okina"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	620.1.1 = {
+		birth = yes
+	}
+	699.6.10 = {
+		death = yes
+	}
+}
+sakanoue_okuni = {
+	name = "Ōkuni"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_okina
+	650.1.1 = {
+		birth = yes
+	}
+	715.1.1 = { # date unknown
+		death = yes
+	}
+}
+sakanoue_inukai = {
+	name = "Inukai"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_okuni
+	682.1.1 = {
+		birth = yes
+	}
+	765.1.8 = {
+		death = yes
+	}
+}
+sakanoue_karitamaro = {
+	name = "Karitamaro"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_inukai
+	728.1.1 = {
+		birth = yes
+	}
+	786.2.14 = {
+		death = yes
+	}
+}
+sakanoue_tamuramaro = {
+	name = "Tamuramaro"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_karitamaro
+	758.1.1 = {
+		birth = yes
+	}
+	811.6.21 = {
+		death = yes
+	}
+}
+sakanoue_takanushi = {
+	name = "Takanushi"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_karitamaro
+	777.1.1 = { # date unknown
+		birth = yes
+	}
+	845.2.4 = {
+		death = yes
+	}
+}
+sakanoue_sadamori = {
+	name = "Sadamori"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_takanushi
+	805.1.1 = {
+		birth = yes
+	}
+	876.9.30 = {
+		death = yes
+	}
+}
+sakanoue_kiyono = {
+	name = "Kiyono"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_tamuramaro
+	789.1.1 = {
+		birth = yes
+	}
+	850.9.13 = {
+		death = yes
+	}
+}
+sakanoue_masamichi = {
+	name = "Masamichi"
+	dynasty = 40000223
+	religion = shinto
+	culture = yamato
+	father = sakanoue_kiyono
+	813.1.1 = {
+		birth = yes
+	}
+	867.4.17 = {
+		death = yes
+	}
+}
+
+### Kibi Clan 吉備氏
+kibi_makibi = {
+	name = "Makibi"
+	dynasty = 40000224
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	trait = architect
+	trait = intellect_good_3
+	695.1.1 = {
+		birth = yes
+	}
+	775.11.3 = {
+		death = yes
+	}
+}
+kibi_izumi = {
+	name = "Izumi"
+	dynasty = 40000224
+	religion = shinto
+	culture = yamato
+	father = kibi_makibi
+	743.1.1 = {
+		birth = yes
+	}
+	814.8.26 = {
+		death = yes
+	}
+}
+kibi_matatsugu = {
+	name = "Matatsugu"
+	dynasty = 40000224
+	religion = shinto
+	culture = yamato
+	father = kibi_izumi
+	800.1.1 = { # date unknown
+		birth = yes
+	}
+	870.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Ōe Clan 大江氏
+oe_morogami = {
+	name = "Morogami"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	730.1.1 = { # date uknown
+		birth = yes
+	}
+	800.1.11 = { # date unknown
+		death = yes
+	}
+}
+oe_abo = {
+	name = "Abo"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	father = ooe_morogami
+	777.1.1 = { # date uknown
+		birth = yes
+	}
+	846.1.1 = { # date unknown
+		death = yes
+	}
+}
+oe_otondo = {
+	name = "Matatsugu"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	trait = scholar
+	trait = poet
+	father = ooe_abo
+	811.1.1 = {
+		birth = yes
+	}
+	877.12.11 = {
+		death = yes
+	}
+}
+oe_tamafuchi = {
+	name = "Tamafuchi"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	father = ooe_otondo
+	856.1.1 = { # date unknown
+		birth = yes
+	}
+	930.1.1 = { # date unknown
+		death = yes
+	}
+}
+oe_chisato = {
+	name = "Chisato"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	trait = poet
+	father = ooe_otondo
+	858.1.1 = { # date unknown
+		birth = yes
+	}
+	897.1.1 = {
+		trait = scholar
+		trait = poet
+	}
+	936.1.1 = { # date unknown
+		death = yes
+	}
+}
+oe_chifuru = {
+	name = "Chifuru"
+	dynasty = 40000225
+	religion = shinto
+	culture = yamato
+	trait = poet
+	father = ooe_otondo
+	866.1.1 = {
+		birth = yes
+	}
+	901.1.1 = {
+		trait = scholar
+		trait = poet
+	}
+	924.7.3 = {
+		death = yes
+	}
+}
+
+### Funya Clan 文室氏
+funya_masuyoshi = {
+	name = "Masuyoshi"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = yamato_matsuyama # name unknown
+	822.1.1 = { # date unknown
+		birth = yes
+	}
+	869.1.1 = { # date unknown
+		death = yes
+	}
+}
+funya_kiyomi = {
+	name = "Kiyomi"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = yamato_naga
+	693.1.1 = {
+		birth = yes
+	}
+	770.10.31 = {
+		death = yes
+	}
+}
+funya_ohara = {
+	name = "Ōhara"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = funya_kiyomi
+	755.1.1 = { # date unknown
+		birth = yes
+	}
+	806.12.22 = {
+		death = yes
+	}
+}
+funya_akitsu = {
+	name = "Akitsu"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = funya_ohara
+	787.1.1 = {
+		birth = yes
+	}
+	843.4.5 = {
+		death = yes
+	}
+}
+funya_nagatoshi = {
+	name = "Nagatoshi"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = funya_akitsu
+	826.1.1 = { # date unknown
+		birth = yes
+	}
+	877.1.1 = { # date unknown
+		death = yes
+	}
+}
+funya_arizane = {
+	name = "Arizane"
+	dynasty = 40000226
+	religion = shinto
+	culture = yamato
+	father = funya_akitsu
+	811.1.1 = { # date unknown
+		birth = yes
+	}
+	870.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Yoshimine Clan 良岑氏
+yoshimine_yasuyo = {
+	name = "Yasuyo"
+	dynasty = 40000227
+	religion = mahayana
+	culture = yamato
+	trait = intellect_good_3
+	trait = scholar
+	trait = poet
+	trait = hunter_3
+	father = kanmu_tenno
+	785.1.1 = {
+		birth = yes
+	}
+	830.8.2 = {
+		death = yes
+	}
+}
+yoshimine_itabi = {
+	name = "Itabi"
+	dynasty = 40000227
+	religion = shinto
+	culture = yamato
+	father = yoshimine_yasuyo
+	804.1.1 = {
+		birth = yes
+	}
+	849.1.1 = {
+		death = yes
+	}
+}
+yoshimine_hideoka = {
+	name = "Hideoka"
+	dynasty = 40000227
+	religion = shinto
+	culture = yamato
+	trait = poet
+	father = yoshimine_itabi
+	830.1.1 = { # date unknown
+		birth = yes
+	}
+	900.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Yamato no Fuhito Clan 和史氏
+buyeo_junda = {
+	name = "Junda"
+	dynasty_house = house_fuhitoyamato
+	religion = palgeuinuri
+	culture = baekje
+	father = buyeo_muryeong
+	485.1.1 = { # date unknown
+		birth = yes
+	}
+	513.8.1 = {
+		death = yes
+	}
+}
+fuhitoyamato_hoshi = {
+	name = "Hōshi"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = buyeo_junda
+	515.1.1 = { # date unknown
+		birth = yes
+	}
+	589.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_osuriki = {
+	name = "Osuriki"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_hoshi
+	544.1.1 = { # date unknown
+		birth = yes
+	}
+	618.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_unara = {
+	name = "Unara"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_osuriki
+	572.1.1 = { # date unknown
+		birth = yes
+	}
+	644.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_awakatsu = {
+	name = "Awakatsu"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_unara
+	604.1.1 = { # date unknown
+		birth = yes
+	}
+	676.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_kiyotari = {
+	name = "Kiyotari"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_awakatsu
+	634.1.1 = { # date unknown
+		birth = yes
+	}
+	704.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_takesuke = {
+	name = "Takesuke"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_kiyotari
+	662.1.1 = { # date unknown
+		birth = yes
+	}
+	737.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_ototsugu = {
+	name = "Ototsugu"
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_takesuke
+	691.1.1 = { # date unknown
+		birth = yes
+	}
+	767.1.1 = { # date unknown
+		death = yes
+	}
+}
+fuhitoyamato_takano = {
+	name = "Takano"
+	female = yes
+	dynasty_house = house_fuhitoyamato
+	religion = shinto
+	culture = yamato
+	father = fuhitoyamato_ototsugu
+	720.1.1 = { # date unknown
+		birth = yes
+	}
+	797.1.1 = { # date unknown
+		death = yes
+	}
+}
+
+### Sugano Clan 菅野氏
+buyeo_jinson = {
+	name = "Jinson"
+	dynasty_house = house_sugano
+	religion = palgeuinuri
+	culture = baekje
+	father = buyeo_jinsa
+	370.1.1 = { # date unknown
+		birth = yes
+	}
+	439.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_kamemaru = {
+	name = "Kamemaru" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = buyeo_jinson
+	397.1.1 = { # date unknown
+		birth = yes
+	}
+	480.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_hikoshiro = {
+	name = "Hikoshiro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_kamemaru
+	435.1.1 = { # date unknown
+		birth = yes
+	}
+	511.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_hikosaburo = {
+	name = "Hikosaburo" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_hikoshiro
+	463.1.1 = { # date unknown
+		birth = yes
+	}
+	539.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_yazo = {
+	name = "Yazo" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_hikosaburo
+	490.1.1 = { # date unknown
+		birth = yes
+	}
+	566.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_genkuro = {
+	name = "Genkuro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_yazo
+	526.1.1 = { # date unknown
+		birth = yes
+	}
+	605.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_tojuro = {
+	name = "Tojuro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_genkuro
+	554.1.1 = { # date unknown
+		birth = yes
+	}
+	637.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_toraomaru = {
+	name = "Toramaru" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_tojuro
+	587.1.1 = { # date unknown
+		birth = yes
+	}
+	666.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_shiro = {
+	name = "Shiro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_toraomaru
+	610.1.1 = { # date unknown
+		birth = yes
+	}
+	689.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_genjiro = {
+	name = "Genjiro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_shiro
+	641.1.1 = { # date unknown
+		birth = yes
+	}
+	720.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_saburomaru = {
+	name = "Saburomaru" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_genjiro
+	677.1.1 = { # date unknown
+		birth = yes
+	}
+	759.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_matajuro = {
+	name = "Matajuro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_saburomaru
+	708.1.1 = { # date unknown
+		birth = yes
+	}
+	790.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_genhachiro = {
+	name = "Genhachiro" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_matajuro
+	743.1.1 = { # date unknown
+		birth = yes
+	}
+	819.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_kurota = {
+	name = "Kurota" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_genhachiro
+	770.1.1 = { # date unknown
+		birth = yes
+	}
+	841.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_hansuke = {
+	name = "Hansuke" # name unknown
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_kurota
+	804.1.1 = { # date unknown
+		birth = yes
+	}
+	865.1.1 = { # date unknown
+		death = yes
+	}
+}
+sugano_munenori = {
+	name = "Munenori"
+	dynasty_house = house_sugano
+	religion = shinto
+	culture = yamato
+	father = sugano_hansuke
+	830.1.1 = { # date unknown
+		birth = yes
+	}
+	880.1.1 = { # date unknown
 		death = yes
 	}
 }

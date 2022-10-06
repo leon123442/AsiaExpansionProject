@@ -1,18 +1,524 @@
-k_goryeo = { 
-    867.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-
-	864.1.1 = {
+# Korean Peninsula
+k_sila = {
+	-57.1.1 = {
+		holder = park_hyeokgeose
+	}
+	4.1.1 = {
+		holder = park_namhae
+	}
+	24.1.1 = {
+		holder = park_yuri
+	}
+	57.1.1 = {
+		holder = seok_talhae
+	}
+	80.1.1 = {
+		holder = park_pasa
+	}
+	112.1.1 = {
+		holder = park_jima
+	}
+	134.1.1 = {
+		holder = park_ilseong
+	}
+	154.1.1 = {
+		holder = park_adalla
+	}
+	184.1.1 = {
+		holder = seok_beolhyu
+	}
+	196.1.1 = {
+		holder = seok_naehae
+	}
+	230.1.1 = {
+		holder = seok_jobun
+	}
+	247.1.1 = {
+		holder = seok_cheomhae
+	}
+	262.1.1 = {
+		holder = kim_michu
+	}
+	284.1.1 = {
+		holder = seok_yurye
+	}
+	298.1.1 = {
+		holder = seok_girim
+	}
+	310.1.1 = {
+		holder = seok_heulhae
+	}
+	356.1.1 = {
+		holder = kim_naemul
+	}
+	402.1.1 = {
+		holder = kim_silseong
+	}
+	417.1.1 = {
+		holder = kim_nulji
+	}
+	458.1.1 = {
+		holder = kim_jabi
+	}
+	479.3.12 = {
+		holder = kim_soji
+	}
+	500.1.1 = {
+		holder = kim_jijeung
+	}
+	514.1.1 = {
+		holder = kim_beopheung
+	}
+	540.1.1 = {
+		holder = kim_jinheung
+	}
+	576.1.1 = {
+		holder = kim_jinji
+	}
+	579.7.17 = {
+		holder = kim_jinpyeong
+	}
+	632.1.20 = {
+		holder = kim_deokmanseondeok
+	}
+	647.2.17 = {
+		holder = kim_jindeok
+	}
+	654.1.1 = {
+		holder = kim_muyeol
+	}
+	661.6.1 = {
+		holder = kim_munmu
+	}
+	681.7.21 = {
+		holder = kim_sinmun
+	}
+	692.8.19 = {
+		holder = kim_hyoso
+	}
+	702.8.24 = {
+		holder = kim_seongdeok
+	}
+	737.1.1 = {
+		holder = kim_hyoseong
+	}
+	742.1.1 = {
+		holder = kim_gyeongdeok
+	}
+	765.1.1 = {
+		holder = kim_hyegong
+	}
+	780.1.1 = {
+		holder = kim_yangsangseondeok
+	}
+	785.2.26 = {
+		holder = kim_wonseong
+	}
+	799.2.8 = {
+		holder = kim_soseong
+	}
+	800.1.1 = {
+		holder = kim_aejang
+	}
+	809.9.2 = {
+		holder = kim_heondeok
+	}
+	826.1.1 = {
+		holder = kim_heungdeok
+	}
+	836.1.1 = {
+		holder = kim_huigang
+	}
+	838.1.1 = {
+		holder = kim_minae
+	}
+	839.2.10 = {
+		holder = kim_sinmu
+	}
+	839.9.4 = {
+		holder = kim_munseong
+	}
+	857.1.1 = {
+		holder = kim_heonan
+	}
+	861.3.14 = {
 		holder = 110000001
 	}
+	875.7.9 = {
+		holder = kim_heongang
+	}
+	886.1.1 = {
+		holder = kim_jeonggang
+	}
+	887.1.1 = {
+		holder = kim_jinseong
+	}
+	897.7.4 = {
+		holder = kim_hyogong
+	}
+	912.1.1 = {
+		holder = park_sindeok
+	}
+	917.1.1 = {
+		holder = park_gyeongmyeong
+	}
+	924.1.1 = {
+		holder = park_gyeongae
+	}
+	927.1.1 = {
+		holder = kim_gyeongsun
+	}
+	935.12.1 = {
+		holder = 0
+	}
 }
-d_dongya = { 
+k_goryeo = {
+	918.7.25 = {
+		holder = wang_taejo
+	}
+	943.7.5 = {
+		holder = wang_hyejong
+	}
+	945.10.23 = {
+		holder = wang_yojeongjong
+	}
+	949.4.13 = {
+		holder = wang_gwangjong
+	}
+	975.7.4 = {
+		holder = wang_gyeongjong
+	}
+	981.8.13 = {
+		holder = wang_seongjong
+	}
+	997.11.9 = {
+		holder = wang_mokjong
+	}
+	1009.3.2 = {
+		holder = wang_hyeonjong
+	}
+	1031.6.17 = {
+		holder = wang_deokjong
+	}
+	1034.10.31 = {
+		holder = wang_hyeongjeongjong
+	}
+	1046.6.24 = {
+		holder = wang_munjong
+	}
+}
+k_goguryeo = {
+	-37.1.1 = {
+		holder = goguryeo_chumo
+	}
+	-19.9.1 = {
+		holder = goguryeo_yuri
+	}
+	18.1.1 = {
+		holder = goguryeo_daemusin
+	}
+	44.1.1 = {
+		holder = goguryeo_minjung
+	}
+	48.1.1 = {
+		holder = goguryeo_mobon
+	}
+	53.1.1 = {
+		holder = goguryeo_taejodae
+	}
+	146.1.1 = {
+		holder = goguryeo_chadae
+	}
+	165.1.1 = {
+		holder = goguryeo_sindae
+	}
+	179.1.1 = {
+		holder = goguryeo_gogukcheon
+	}
+	197.1.1 = {
+		holder = goguryeo_sansang
+	}
+	227.1.1 = {
+		holder = goguryeo_dongcheon
+	}
+	248.1.1 = {
+		holder = goguryeo_jungcheon
+	}
+	270.1.1 = {
+		holder = goguryeo_seocheon
+	}
+	292.1.1 = {
+		holder = goguryeo_bongsang
+	}
+	300.1.1 = {
+		holder = goguryeo_micheon
+	}
+	331.1.1 = {
+		holder = goguryeo_gogugwon
+	}
+	371.1.1 = {
+		holder = goguryeo_sosurim
+	}
+	384.1.1 = {
+		holder = goguryeo_gogugyang
+	}
+	391.1.1 = {
+		holder = goguryeo_gwanggaeto
+	}
+	413.1.1 = {
+		holder = goguryeo_jangsu
+	}
+	491.1.1 = {
+		holder = goguryeo_munja
+	}
+	519.1.1 = {
+		holder = goguryeo_anjang
+	}
+	531.1.1 = {
+		holder = goguryeo_anwon
+	}
+	545.1.1 = {
+		holder = goguryeo_yangwon
+	}
+	559.1.1 = {
+		holder = goguryeo_pyeongwon
+	}
+	590.1.1 = {
+		holder = goguryeo_yeongyang
+	}
+	618.1.1 = {
+		holder = goguryeo_yeongnyu
+	}
+	642.1.1 = {
+		holder = goguryeo_bojang
+	}
+	668.1.1 = {
+		holder = 0
+	}
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+k_baekje = { 
+	-18.1.1 = {
+		holder = buyeo_onjo
+	}
+	28.1.1 = {
+		holder = buyeo_daru
+	}
+	77.1.1 = {
+		holder = buyeo_giru
+	}
+	128.1.1 = {
+		holder = buyeo_gaeru
+	}
+	166.1.1 = {
+		holder = buyeo_chogo
+	}
+	214.1.1 = {
+		holder = buyeo_gusu
+	}
+	234.1.1 = {
+		holder = buyeo_saban
+	}
+	234.3.1 = {
+		holder = buyeo_goi
+	}
+	286.1.1 = {
+		holder = buyeo_chaekgye
+	}
+	298.1.1 = {
+		holder = buyeo_bunseo
+	}
+	304.1.1 = {
+		holder = buyeo_biryu
+	}
+	344.1.1 = {
+		holder = buyeo_gye
+	}
+	346.1.1 = {
+		holder = buyeo_geunchogo
+	}
+	375.1.1 = {
+		holder = buyeo_geungusu
+	}
+	384.1.1 = {
+		holder = buyeo_chimnyu
+	}
+	385.1.1 = {
+		holder = buyeo_jinsa
+	}
+	392.1.1 = {
+		holder = buyeo_asin
+	}
+	405.1.1 = {
+		holder = buyeo_jeonji
+	}
+	420.1.1 = {
+		holder = buyeo_guisin
+	}
+	427.1.1 = {
+		holder = buyeo_biyu
+	}
+	455.1.1 = {
+		holder = buyeo_gaero
+	}
+	475.1.1 = {
+		holder = buyeo_munju
+	}
+	477.4.1 = {
+		holder = buyeo_samgeun
+	}
+	479.11.1 = {
+		holder = buyeo_dongseong
+	}
+	501.1.1 = {
+		holder = buyeo_muryeong
+	}
+	523.1.1 = {
+		holder = buyeo_seong
+	}
+	554.7.1 = {
+		holder = buyeo_wideok
+	}
+	598.12.1 = {
+		holder = buyeo_hye
+	}
+	599.1.1 = {
+		holder = buyeo_beop
+	}
+	600.1.1 = {
+		holder = buyeo_mu
+	}
+	641.1.1 = {
+		holder = buyeo_uija
+	}
+	660.1.1 = {
+		holder = 0
+	}
+}
+k_majin = { # Taebong
+	901.7.1 = {
+		holder = kim_gungye
+	}
+	918.7.24 = {
+		holder = 0
+	}
+}
+d_sila = {
+	861.3.14 = {
+		holder = 110000001
+	}
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+}
+c_dalseong = {
+	866.1.1 = {
+		holder = 110000001
+	} 
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_shaliangzhou = { 
+	866.1.1 = {
+		holder = 110000001
+	}
+	867.1.1 = { change_development_level = 18 }
+}
+c_shangfazhou = { 
+	866.1.1 = {
+		holder = 110000001
+	} 
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_gaya = {
 	865.1.1={
-		liege = "k_goryeo"
+		liege = "k_sila"
+	}    
+	866.1.1 = {
+		holder = 110000002
+	}
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+}
+c_gayaa = { 
+	866.1.1 = {
+		holder = 110000002
+	} 
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_juliezhou = {
+	866.1.1 = {
+		holder = 110000002
+	}
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_goguryeo = {
+	865.1.1={
+		liege = "k_sila"
+	}
+	866.1.1 = {
+		holder = 110000005
+		liege = "k_sila"
+	}
+	901.7.1 = {
+		de_jure_liege = "k_majin"
+	}
+	918.7.24 = {
+		de_jure_liege = "k_goryeo"
+	}
+}
+c_nanhanseong = {
+	866.1.1 = {
+		holder = 110000005
+		liege = "k_sila"
+	}
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+}
+c_hanju = {
+	866.1.1 = {
+		holder = 110000005
+		liege = "k_sila"
+	} 
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+}
+c_kaeseong = {
+	866.1.1 = {
+		holder = wang_ryung
+		liege = "d_goguryeo"
+	}
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 25 }
+}
+c_hwanghae = {
+	866.1.1 = {
+		holder = 110000005
+		liege = "k_sila"
+	}
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+}
+d_dongya = { # Sakbang
+	865.1.1={
+		liege = "k_sila"
 	}
 	866.1.1 = {
 		holder = 110000003
-	} 
+	}
+	867.1.1 = { change_development_level = 5 }
+	901.7.1 = {
+		de_jure_liege = "k_majin"
+	}
+	918.7.24 = {
+		de_jure_liege = "k_goryeo"
+	}
+	1066.1.1 = { change_development_level = 10 }
 }
 c_hexizhou = { 
 	866.1.1 = {
@@ -23,4 +529,141 @@ c_shouruozhou = {
 	866.1.1 = {
 		holder = 110000003
 	} 
+}
+c_wonju = {
+	866.1.1 = {
+		holder = 110000003
+	} 
+}
+c_sogcho = {
+	866.1.1 = {
+		holder = 110000003
+	} 
+}
+c_Yanyuan_Longxingjiang = {
+	866.1.1 = {
+		holder = 120000005
+	}
+}
+d_baekje = {
+	865.1.1 = {
+		liege = "k_sila"
+	}
+	866.1.1 = {
+		holder = 110000004
+	}
+	867.1.1 = { change_development_level = 12 }
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+	1066.1.1 = { change_development_level = 18 }
+}
+c_xiongshanzhou = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+}
+d_nyongbyon = {
+	820.1.1 = {
+		de_jure_liege = "k_balhae"
+	}
+	867.1.1 = { change_development_level = 5 }
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+    1066.1.1 = { change_development_level = 10 }
+}
+c_nyongbyon = {
+	866.1.1 = {
+		holder = 120000005
+	}
+}
+c_Qishui = {
+	866.1.1 = {
+		holder = 120000003
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+d_rangnang = {
+	820.1.1 = {
+		de_jure_liege = "k_balhae"
+	}
+	865.1.1={
+		liege = "k_balhae"
+	}  
+	866.1.1 = {
+		government = feudal_government
+		holder = 120000005
+	} 
+	867.1.1 = { change_development_level = 7 }
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+	1066.1.1 = { change_development_level = 10 }
+}
+c_pyongyang = {
+	866.1.1 = {
+		holder = 120000005
+	} 
+	1066.1.1 = { change_development_level = 20 }
+}
+c_anju = {
+	866.1.1 = {
+		holder = 120000005
+	} 
+	1050.1.1 = {
+		holder = anju_placeholder_001
+	}
+}
+d_okjeo = { 
+	820.1.1 = {
+		de_jure_liege = "k_balhae"
+	}
+	865.1.1={
+		liege = "k_balhae"
+	}    
+	866.1.1 = {
+		government = feudal_government
+		holder = 120000002
+	}
+	867.1.1 = { change_development_level = 5 }
+	900.1.1 = {
+		holder = 0
+	}
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+	1066.1.1 = { change_development_level = 10 }
+}
+c_nanhai_okjeo = {
+	866.1.1 = {
+		holder = 120000002
+	}
+}
+c_helan = {
+	865.1.1={
+		liege = "d_okjeo"
+	} 
+	866.1.1 = {
+		holder = helan_placeholder_001
+	}
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 8 }
+}
+d_tamna = {
+	858.1.1 = {
+		holder = tamna_so
+	}
+	867.1.1 = { change_development_level = 7 }
+	936.1.1 = {
+		de_jure_liege = "k_goryeo"
+	}
+	938.1.1 = {
+		liege = k_goryeo
+	}
+    1066.1.1 = { change_development_level = 10 }
 }

@@ -127,25 +127,3 @@
 
 	holding = none
 }
-
-#k_ryukyu 
-#d_ryukyu 
-#c_ryukyu 
-#b_ryukyu
-11286 = {
-	culture = kaizuka
-	religion = ryukyu_animism
-	holding = tribal_holding
-}
-#b_amami
-11227 = {
-	culture = kaizuka
-	religion = ryukyu_animism
-	holding = tribal_holding
-}
-#b_miyakojima  #b_saki
-11285 = {
-	culture = batanic
-	religion = anito
-	holding = tribal_holding
-}

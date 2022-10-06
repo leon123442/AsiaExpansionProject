@@ -1,9 +1,192 @@
 k_tengri = {
-    867.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 18 }
-
     864.1.1 = {
         government = tribal_government
         holder = 303238    
     }
+	871.8.19 = {
+		holder = 0
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+d_yijinai = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_wuluhai = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_zhenfan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_zhenfan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+c_westsurrended = {
+	1066.1.1 = { change_development_level = 4 }
+}
+c_tiandejun = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_midsurrended = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_mogols = {
+	1066.1.1 = { change_development_level = 4 }
+}
+c_chanyufu = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_xuandezhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_shengzhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+k_khitan = {
+	842.1.1 = {
+		holder = yaonian_yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khaghan
+	} 
+	882.1.1 = {
+		holder = 4550009
+	}
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+}
+k_qay = {
+	864.1.1 = {
+		holder = 4550008 
+	}
+	907.1.1 = {
+		holder = 0
+	}
+}
+d_xarmoron = {
+	842.1.1 = {
+		holder = yaonian_yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khaghan
+	} 
+	867.1.1 = { change_development_level = 5 }
+	882.1.1 = {
+		holder = 4550009
+	}
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+	1066.1.1 = { change_development_level = 10 }
+}
+c_yikun = {
+	842.1.1 = {
+		holder = yaonian_yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khaghan
+	} 
+	882.1.1 = {
+		holder = 4550009
+	}
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+}
+c_longhua = {
+	842.1.1 = {
+		holder = yaonian_yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khaghan
+	} 
+	882.1.1 = {
+		holder = 4550009
+	}
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+}
+c_wulv = {
+	867.1.1 = {
+		holder = yelu_saladi
+	} 
+	901.1.1 = {
+		holder = 194325 #Abaoji
+	}
+}
+d_tohchen = {
+	866.1.1 = {
+		liege = "k_khitan"
+	}
+    867.1.1 = {
+		holder = yelu_saladi
+		change_development_level = 5
+	}
+	901.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		de_jure_liege = "k_tengri"
+	}
+    1066.1.1 = { change_development_level = 10 }
+}
+c_dading = {
+	867.1.1 = {
+		holder = yelu_saladi
+	} 
+	901.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+    1066.1.1 = { change_development_level = 18 }
+}
+c_beian = {
+	864.1.1 = {
+		holder = 4550008 
+	}
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		holder = 0 #Liao Dynasty established
+	}
+}
+d_hiyaxu = {
+	864.1.1 = {
+		holder = 4550008 
+	}
+    867.1.1 = { change_development_level = 5 }
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	916.1.1 = {
+		de_jure_liege = "k_tengri"
+	}
+	1066.1.1 = { change_development_level = 10 }
 }

@@ -6,6 +6,10 @@
 	culture = han
 	religion = zhengyi	
 	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+		religion = nestorian
+	}
 }
 #b_Datongchuan
 10621 = {
@@ -28,7 +32,10 @@
 9670 = {
 	culture = ongud
 	religion = nestorian	
-	holding = castle_holding
+	holding = tribal_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_MiEchuan
 10626 = {
@@ -47,6 +54,9 @@
 	culture = shatuo
 	religion = nestorian
 	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_Roufu
 9672 = {
@@ -61,6 +71,10 @@
     culture = tuyuhun
 	religion = tengri_pagan	
 	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+		religion = nestorian
+	}
 }
 #b_GreenTomb
 9677 = {
@@ -80,9 +94,12 @@
 #c_mogols
 #b_Mogeshi
 10624 = {
-	culture = yughur
-	religion = manichean
+	culture = tataric
+	religion = tengri_pagan
 	holding = tribal_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_Nuozhenshui
 10623 = {
@@ -106,6 +123,9 @@
 	culture = tuyuhun
 	religion = tengri_pagan
 	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_Hebin
 9674 = {
@@ -119,6 +139,9 @@
 	culture = tuyuhun
 	religion = nestorian
 	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_Jinheshan
 9680 = {

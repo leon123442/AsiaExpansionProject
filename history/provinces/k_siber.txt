@@ -4,8 +4,11 @@
 #b_wuluohou_xingguo
 10788 = {
     culture = shiwei
-	religion = pagan 
+	religion = tengri_pagan 
 	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+	}
 }
 #b_QiancuiDaibo_Arxa
 10789 = {
@@ -19,13 +22,22 @@
 	
 	holding = tribal_holding
 }
+#b_Taizhou_Lekang
+10791 = {
+
+
+	holding = tribal_holding	
+}
 
 #c_udgur
 #b_Ruzhe
 10784 = {
     culture = shiwei
-	religion = pagan 
-	holding = tribal_holding	
+	religion = tengri_pagan 
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+	}	
 }
 #b_Shanbei_Nomin
 10785 = {
@@ -45,9 +57,12 @@
 #c_nem
 #b_Nemor_ShiweiKing
 10776 = {
-    culture = evenk
-	religion = pagan 
+    culture = shiwei
+	religion = tengri_pagan 
 	holding = tribal_holding	
+	916.1.1 = {
+		culture = khitan
+	}
 }
 #b_Shibaochi
 10777 = {
@@ -78,8 +93,11 @@
 #b_Puyulu
 10773 = {
     culture = shiwei
-	religion = pagan 
-	holding = tribal_holding	
+	religion = tengri_pagan  
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+	}
 }
 #b_Minganlun
 10794 = {
@@ -93,14 +111,23 @@
 
 	holding = tribal_holding
 }
-		
+#b_Chuhedian_Nelanagu_Zhaozhou
+10736 = {
+
+
+	holding = tribal_holding
+}
+	
 #d_haramuru
 #c_powo
 #b_Powo
 10782 = {
     culture = evenk
-	religion = pagan 
-	holding = tribal_holding	
+	religion = shaman 
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+	}
 }
 #b_Emur
 10812 = {
@@ -118,7 +145,7 @@
 #b_Luotan
 10783 = {
     culture = evenk
-	religion = pagan
+	religion = shaman
 	holding = tribal_holding	
 }
 #b_Holuhotom
@@ -139,8 +166,11 @@
 #b_Hailar
 10804 = {
     culture = shiwei
-	religion = pagan
-	holding = tribal_holding	
+	religion = tengri_pagan 
+	holding = tribal_holding
+	916.1.1 = {
+		culture = kerait
+	}
 }
 #b_GanRiver_Yujue
 10807 = {
@@ -170,9 +200,12 @@
 #c_gen
 #b_GenRiver_Kulerwend
 10806 = {
-    culture = evenk
+    culture = shiwei
 	religion = tengri_pagan
 	holding = tribal_holding	
+	916.1.1 = {
+		culture = mongol
+	}
 }
 #b_Dobher
 10809 = {

@@ -89,6 +89,118 @@ e_kambujadesa = {
 	}
 }
 
+# Annan
+k_annan = {
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.12.1 = {
+		holder = jiedushi_001
+	}
+	887.1.1 = {
+		holder = 0
+	}
+}
+k_daiviet = {
+	#Lý Dynasty
+	1009.11.20 = {
+		holder = ly_thaito
+	}
+	1028.4.1 = {
+		holder = ly_thaitong
+	}
+	1054.11.3 = {
+		holder = ly_thanhtong
+	}
+	1072.2.3 = {
+		holder = ly_nhantong
+	}
+	1128.1.15 = {
+		holder = ly_thantong
+	}
+	1138.10.31 = {
+		holder = ly_anhtong
+	}
+	1175.8.14 = {
+		holder = ly_caotong
+	}
+	1210.11.15 = {
+		holder = ly_huetong
+	}
+	1224.9.3 = {
+		holder = ly_chieuhoang
+	}
+	1225.12.31 = {
+		holder = 0
+	}
+}
+d_muangthaeng = {
+	968.1.1 = {
+		de_jure_liege = "k_daiviet"
+	}
+}
+
+c_lao_nhai = {
+	859.1.1 = {
+        holder = 421011 # Youshilong
+    }
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_muang_thaeng = {
+	859.1.1 = {
+        holder = 421011 # Youshilong
+    }
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_son_tay = {
+	866.1.1 = {
+        holder = jiedushi_001
+    }
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_lo = {
+	866.1.1 = {
+        holder = jiedushi_001
+    }
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_jiaozhi = {
+	968.1.1 = {
+		de_jure_liege = "k_daiviet"
+	}
+}
+c_nong = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_lang_giang = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_hai_dong = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_kinh_bac = {
+	866.12.1 = {
+		holder = jiedushi_001
+		liege = e_celestia
+	}
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_jiuzhen = {
+	968.1.1 = {
+		de_jure_liege = "k_daiviet"
+	}
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+
 # Champa
 k_champa = {
 	867.1.1 = { change_development_level = 7 }
@@ -899,14 +1011,6 @@ d_cochinchina = {
 		}
     }
 
-# Lanxiang
-c_muangswa = {
-	860.1.1 = { # Fictional placeholder
-		holder = nanzhong_jiedushi_001
-		liege = 0
-	}
-}
-
 # Dvaravati
 d_lavo = {
 	860.1.1 = {
@@ -1286,8 +1390,7 @@ d_prungnagara = {
 		holder = 420036
 	}
 }
-
-# Nanzhao
+# Kingdom of Nanzhong
 k_nanzhong = {
     867.1.1 = { change_development_level = 5 }
     1066.1.1 = { change_development_level = 8 }
@@ -1297,7 +1400,7 @@ k_nanzhong = {
     # 704 tributary of Tibet
 
     728.1.1 = {
-        government = clan_government
+        government = tribal_government
         holder = 421003
     }
     748.1.1 = {
@@ -1418,6 +1521,95 @@ k_nanzhong = {
 e_nanzhong = {
     860.1.1 = {
         holder = 421011 # Youshilong
-        government = clan_government
     }
+}
+c_yanjim = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_luodian = {
+	860.1.1 = { # Fictional placeholder
+		holder = qianzhong_jiedushi_001
+	}
+	890.1.1 = {
+		holder = 0
+	}
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+}
+c_wusa = {
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+}
+c_wumeng = {
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+}
+# Other
+d_heichi = {
+	860.1.1 = {
+        holder = nanzhong_jiedushi_001 # Fictional Placeholder
+		liege = e_nanzhong
+    }
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_pan_phonsai = {
+	860.1.1 = {
+        holder = nanzhong_jiedushi_001 # Fictional Placeholder
+		liege = e_nanzhong
+    }
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_shan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_kengtung = {
+	859.1.1 = {
+        holder = nanzhong_jiedushi_001 # Fictional Placeholder
+		liege = e_nanzhong
+    }
+	1044.1.1 = {
+		holder = 421111
+	}
+}
+c_mongnai = {
+	1060.1.1 = {
+		holder = mongnai_placeholder_001
+	}
+}
+c_yawnghwe = {
+	1060.1.1 = {
+		holder = yawnghwe_placeholder_001
+	}
+}
+c_hsipaw = {
+	1060.1.1 = {
+		holder = hsipaw_placeholder_001
+	}
+}
+c_hsenwi = {
+	1060.1.1 = {
+		holder = hsenwi_placeholder_001
+	}
+}
+c_north_andaman = {
+	1060.1.1 = {
+		holder = northandaman_placeholder_001
+	}
+}
+c_south_andaman = {
+	1060.1.1 = {
+		holder = southandaman_placeholder_001
+	}
+}
+c_nicobar_islands = {
+	1060.1.1 = {
+		holder = nicobarislands_placeholder_001
+	}
 }

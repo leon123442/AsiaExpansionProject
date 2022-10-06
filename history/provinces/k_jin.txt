@@ -7,6 +7,10 @@
 	religion = zhengyi
 	holding = castle_holding
     special_building = yungangshiku
+	916.1.1 = {
+		culture = khitan
+		religion = zenzong
+	}
 }
 #b_Baideng
 9685 = {
@@ -32,7 +36,7 @@
 9689 = {
 	culture = shatuo
 	religion = mahayana
-	holding = tribal_holding	
+	holding = castle_holding	
 }
 
 #b_Loufanguan
@@ -53,7 +57,11 @@
 9679 = {
 	culture = han
 	religion = zenzong
-	holding = castle_holding	
+	holding = castle_holding
+	916.1.1 = {
+		culture = khitan
+		religion = zenzong
+	}
 }
 #b_Wuzhou_jin
 9683 = {
