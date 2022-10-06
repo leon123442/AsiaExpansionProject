@@ -1531,10 +1531,9 @@ fp2_hairstyles_iberian_muslim_curly_commoners = {
 			base = 0
 		}
 	}
-
-
-### JAPANESE ###
-    japanese_straight = {
+	
+	### JAPANESE ###
+	japanese_straight = {
         dna_modifiers = {
             accessory = {
                 mode = add

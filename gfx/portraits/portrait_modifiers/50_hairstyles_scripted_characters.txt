@@ -18,10 +18,16 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:142 #robert_curthose
                 this = character:142 #robert_curthose
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_fei_berg_hulthen
+                this = character:easteregg_fei_berg_hulthen
             }
         }
     }
@@ -38,13 +44,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:7627 #earl_alfred
 				this = character:7627 #earl_alfred
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_henrik_lohmander
                 this = character:easteregg_henrik_lohmander
@@ -64,13 +70,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_olof_bjork
                 this = character:easteregg_olof_bjork
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_maximilian_olbers
                 this = character:easteregg_maximilian_olbers
@@ -90,7 +96,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:6878 #jarl_haesteinn
 				this = character:6878 #jarl_haesteinn
@@ -110,22 +116,10 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:144998 #king_lothaire
 				this = character:144998 #king_lothaire
-            }
-            modifier = {
-                add = 200
-                exists = this
-                exists = character:212506 # Philip, HRE
-                this = character:212506 # Philip, HRE
-            }
-            modifier = {
-                add = 200
-                exists = this
-                exists = character:212513 # Frederick II, HRE
-                this = character:212513 # Frederick II, HRE
             }
         }
     }
@@ -142,25 +136,25 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:6448 #count_eudes
 				this = character:6448 #count_eudes
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:107500 #king_sancho
                 this = character:107500 #king_sancho
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:214 #king_philippe
                 this = character:214 #king_philippe
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:146 #william_the_red
                 this = character:146 #william_the_red
@@ -180,58 +174,65 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:163112 #halfdan_whiteshirt
 				this = character:163112 #halfdan_whiteshirt
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:30228 #king_louis
                 this = character:30228 #king_louis
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:984 #king_malcom
                 this = character:984 #king_malcom
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:212892 #ota_the_handsome
                 this = character:212892 #ota_the_handsome
             }
             modifier = {
-                add = 200
+                add = 999
                 exists = this
                 exists = character:762 #king_boleslaw
                 this = character:762 #king_boleslaw
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_joel_hansson
                 this = character:easteregg_joel_hansson
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_peter_johannesson
                 this = character:easteregg_peter_johannesson
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_petter_vilberg
                 this = character:easteregg_petter_vilberg
             }
             modifier = {
-                add = 200
+                add = 999
                 exists = this
-                exists = character:212507 # Heinrich VI, HRE
-                this = character:212507 # Heinrich VI, HRE
+                exists = character:easteregg_jason_cantalini
+                this = character:easteregg_jason_cantalini
+            }
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:168137
+                this = character:168137
             }
         }
     }
@@ -248,51 +249,33 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:90107 #ludwig_the_german
 				this = character:90107 #ludwig_the_german
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:122 #king_harold
                 this = character:122 #king_harold
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:1128 #duke_robert
                 this = character:1128 #duke_robert
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_isabella_welch
                 this = character:easteregg_isabella_welch
             }
-            modifier = {
-                add = 200
-				exists = this
-				exists = character:168712 # Dagobert III
-				this = character:168712 # Dagobert III
-            }
-            modifier = {
-                add = 200
-                exists = this
-                exists = character:212501 # Frederick Barbarossa, HRE
-                this = character:212501 # Frederick Barbarossa, HRE
-            }
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:204500 # Henry II Plantagenet
-                this = character:204500 # Henry II Plantagenet
-            }
         }
     }
 
-    male_hair_western_09 = { # Short clumpy
+male_hair_western_09 = { # Short clumpy
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -300,7 +283,7 @@ hairstyles_scripted_characters = {
                 template = scripted_character_hairstyles_01
                 value = 0.2 # For the randomness to work correctly
             }
-        }   
+        }
         weight = {
             base = 0
             modifier = {
@@ -310,52 +293,58 @@ hairstyles_scripted_characters = {
 				this = character:83355 #petty_king_murchad
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:109500 #king_garcia
                 this = character:109500 #king_garcia
             }
             modifier = {
-                add = 200
+                add = 999
+                exists = this
+                exists = character:1140 #Bohemond
+                this = character:1140 #Bohemond
+            }
+            modifier = {
+                add = 999
 				exists = this
                 exists = character:easteregg_henrik_fahraeus
                 this = character:easteregg_henrik_fahraeus
             }
             modifier = {
-                add = 200
-				exists = this
-                exists = character:easteregg_jakub_potapczyk
-                this = character:easteregg_jakub_potapczyk
-            }
-            modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_petter_lundh
                 this = character:easteregg_petter_lundh
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_max_weltz
                 this = character:easteregg_max_weltz
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_max_collin
                 this = character:easteregg_max_collin
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_martin_anward
                 this = character:easteregg_martin_anward
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
-                exists = character:163032 # al-Walid I
-                this = character:163032 # al-Walid I
+                exists = character:easteregg_martin_anward
+                this = character:easteregg_martin_anward
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_jon_astrup_hallkvist
+                this = character:easteregg_jon_astrup_hallkvist
             }
         }
     }
@@ -386,46 +375,34 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:3924 #emir_yahya
 				this = character:3924 #emir_yahya
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:106000 #king_antso
                 this = character:106000 #king_antso
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_alexander_oltner
                 this = character:easteregg_alexander_oltner
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_ismael_serrano
                 this = character:easteregg_ismael_serrano
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_christian_daflos
                 this = character:easteregg_christian_daflos
-            }
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:ibn_tumart # Ibn Tumart
-                this = character:ibn_tumart # Ibn Tumart
-            }
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:32978 #AM Almohad
-                this = character:32978 #AM Almohad
             }
         }
     }
@@ -442,31 +419,31 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:522 #duke_vratislav
 				this = character:522 #duke_vratislav
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:108500 #king_alfonso
                 this = character:108500 #king_alfonso
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_sean_hughes
                 this = character:easteregg_sean_hughes
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_paul_depre
                 this = character:easteregg_paul_depre
             }
             modifier = {
-                add = 200
+                add = 999
                 exists = this
                 exists = character:easteregg_zack_holmgren
                 this = character:easteregg_zack_holmgren
@@ -500,13 +477,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:easteregg_james_beaumont
 				this = character:easteregg_james_beaumont
             }
-            modifier = { # AE, Asia Expansion Character
-                add = 200
+			modifier = { # AE, Asia Expansion Character
+                add = 999
 				exists = this
                 exists = character:teshio_placeholder_001
                 this = character:teshio_placeholder_001
@@ -526,13 +503,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:90104 #charles_the_bald
 				this = character:90104 #charles_the_bald
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:1316 #emperor_heinrich
                 this = character:1316 #emperor_heinrich
@@ -552,16 +529,17 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_nils_wadensten
                 this = character:easteregg_nils_wadensten
             }
+
             modifier = {
                 add = 200
 				exists = this
-                exists = character:32986 # 'Abd-al-Wahid II al-Rashid
-                this = character:32986 # 'Abd-al-Wahid II al-Rashid
+                exists = character:easteregg_hugo_cortell
+                this = character:easteregg_hugo_cortell
             }
         }
     }
@@ -620,7 +598,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_magne_skjaeran
                 this = character:easteregg_magne_skjaeran
@@ -653,14 +631,8 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:easteregg_joacim_carlberg
-                this = character:easteregg_joacim_carlberg
-            }
-            modifier = { # AE, Asia Expansion Character
-                add = 200
+			modifier = { # AE, Asia Expansion Character
+                add = 999
 				exists = this
                 exists = character:easteregg_sama_bajau
                 this = character:easteregg_sama_bajau
@@ -680,13 +652,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_matthew_clohessy
                 this = character:easteregg_matthew_clohessy
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_emil_tisander
                 this = character:easteregg_emil_tisander
@@ -705,20 +677,20 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = { # AE, Asia Expansion Character
-                add = 200
+			modifier = { # AE, Asia Expansion Character
+                add = 999
 				exists = this
                 exists = character:5100001 # Emperor Yizong
                 this = character:5100001 # Emperor Yizong
             }
             modifier = { # AE, Asia Expansion Character
-                add = 200
+                add = 999
 				exists = this
                 exists = character:kanmu_tenno
                 this = character:kanmu_tenno
             }
             modifier = { # AE, Asia Expansion Character
-                add = 200
+                add = 999
 				exists = this
                 exists = character:1600004 # Seiwa Tenno
                 this = character:1600004 # Seiwa Tenno
@@ -738,25 +710,19 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:163111 #ivar_the_boneless
 				this = character:163111 #ivar_the_boneless
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:102531 #harald_hardrade
                 this = character:102531 #harald_hardrade
             }
             modifier = {
-                add = 200
-				exists = this
-                exists = character:easteregg_joacim_carlberg
-                this = character:easteregg_joacim_carlberg
-            }
-            modifier = {
-				add = 200
+				add = 999
 				exists = this
 				exists = character:easteregg_struan_mccallum
 				this = character:easteregg_struan_mccallum
@@ -776,25 +742,25 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:163110 #sigurdr_snake_in_the_eye
 				this = character:163110 #sigurdr_snake_in_the_eye
             }
             modifier = {
-                add = 200
+                add = 999
                 exists = this
                 exists = character:144000 #haraldr_fairhair
                 this = character:144000 #haraldr_fairhair
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:40605 #rurik_rurikid
                 this = character:40605 #rurik_rurikid
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_jonas_wickerstrom
                 this = character:easteregg_jonas_wickerstrom
@@ -814,25 +780,25 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:163108 #bjorn_ironside
 				this = character:163108 #bjorn_ironside
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:140 #william_the_bastard
                 this = character:140 #william_the_bastard
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:101515 #king_svend
                 this = character:101515 #king_svend
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:42018 #karlmann
                 this = character:42018 #karlmann
@@ -852,13 +818,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:159137 #almos_arpad
 				this = character:159137 #almos_arpad
             }
-            modifier = { # AE, Asia Expansion Character
-                add = 200
+			modifier = { # AE, Asia Expansion Character
+                add = 999
 				exists = this
                 exists = character:jimmu_tenno
                 this = character:jimmu_tenno
@@ -892,13 +858,186 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_pontus_olofsson
                 this = character:easteregg_pontus_olofsson
             }
         }
     }
+
+    ### FP2 Hair ###
+
+
+
+    male_hair_fp2_iberian_muslim_01 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+            	add = 999
+				exists = this
+				exists = character:73813
+				this = character:73813
+            }
+            modifier = {
+            	add = 999
+				exists = this
+				exists = character:easteregg_alexander_newcombe
+				this = character:easteregg_alexander_newcombe
+            }
+
+
+        }
+    }
+
+    male_hair_fp2_iberian_muslim_02 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.2 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    male_hair_fp2_iberian_muslim_03 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.4 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:danis0005
+                this = character:danis0005
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:surunbaqi0001
+                this = character:surunbaqi0001
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:107590 #el_cid
+                this = character:107590 #el_cid
+            }
+        }
+    }
+
+     male_hair_fp2_iberian_christian_01 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.6# For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:70150
+                this = character:70150
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:70019
+                this = character:70019
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:73815
+                this = character:73815
+            }
+            
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_stina_arvidsson_radestig
+                this = character:easteregg_stina_arvidsson_radestig
+            }
+        }
+    }
+
+    male_hair_fp2_iberian_christian_02 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.84 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:barcelona_00003
+                this = character:barcelona_00003
+            }
+        }
+    }
+
+    male_hair_fp2_iberian_christian_03 = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 1 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:73957
+                this = character:73957
+            }
+
+            modifier = {
+            	add = 999
+            	exists = this
+            	exists = character:easteregg_maxence_voleau
+            	this = character:easteregg_maxence_voleau
+            }
+        }
+    }
+
+
+    ### FP1 Hair ###
 
     male_hair_fp1_01 = { # Medium short center part
         dna_modifiers = {
@@ -953,6 +1092,12 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 200
+				exists = this
+				exists = character:easteregg_jakob_jorstedt
+				this = character:easteregg_jakob_jorstedt
+            }
         }
     }
 
@@ -995,6 +1140,12 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+            	add = 200
+				exists = this
+            	exists = character:easteregg_jakub_potapczyk
+            	this = character:easteregg_jakub_potapczyk
+            }
         }
     }
 
@@ -1023,8 +1174,22 @@ hairstyles_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_ola_jentzsch
+                this = character:easteregg_ola_jentzsch 
+            }
+			modifier = {
+                add = 999
+				exists = this
+                exists = character:easteregg_joacim_carlberg
+                this = character:easteregg_joacim_carlberg
+
+            }
         }
     }
+
 
 
 
@@ -1051,13 +1216,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:168314 #waldrada
 				this = character:168314 #waldrada
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:1183 #empress_bertha
                 this = character:1183 #empress_bertha
@@ -1077,7 +1242,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_mathilda_bjarnehed
                 this = character:easteregg_mathilda_bjarnehed
@@ -1085,8 +1250,14 @@ hairstyles_scripted_characters = {
             modifier = {
                 add = 200
 				exists = this
-                exists = character:205730 # Alienor d'Aquitaine
-                this = character:205730 # Alienor d'Aquitaine
+                exists = character:easteregg_stella_carrick
+                this = character:easteregg_stella_carrick
+            }
+            modifier = {
+            	add = 200
+            	exists = this 
+            	exists = character:easteregg_veronica_pazos
+            	this = character:easteregg_veronica_pazos
             }
         }
     }
@@ -1103,19 +1274,19 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:7757 #duchess_matilda
 				this = character:7757 #duchess_matilda
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:102505 #queen_ingebjorg
                 this = character:102505 #queen_ingebjorg
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:765 #princess_swietoslawa
                 this = character:765 #princess_swietoslawa
@@ -1135,13 +1306,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:123 #queen_ealdgyth
                 this = character:123 #queen_ealdgyth
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:367 #duchess_mathilde
                 this = character:367 #duchess_mathilde
@@ -1161,10 +1332,16 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_lysann_schlegel
                 this = character:easteregg_lysann_schlegel
+            }
+			modifier = {
+				add = 200
+				exists = this
+				exists = character:easteregg_tess_lindholm
+				this = character:easteregg_tess_lindholm
             }
         }
     }
@@ -1195,13 +1372,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:108501 #infanta_urraca
 				this = character:108501 #infanta_urraca
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:131 #eadgifu_the_fair
                 this = character:131 #eadgifu_the_fair
@@ -1221,7 +1398,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:633 #queen_yelizaveta
                 this = character:633 #queen_yelizaveta
@@ -1241,13 +1418,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_bianca_savazzi
                 this = character:easteregg_bianca_savazzi
             }
             modifier = {
-            	add = 200
+            	add = 999
             	exists = this
 				exists = character:easteregg_claudia_baldassi
 				this = character:easteregg_claudia_baldassi
@@ -1267,7 +1444,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_linda_tiger
                 this = character:easteregg_linda_tiger
@@ -1357,7 +1534,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 			    exists = character:251187 #daurama_daura
 			    this = character:251187 #daurama_daura
@@ -1405,10 +1582,16 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_hanna_lohman
                 this = character:easteregg_hanna_lohman
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_elena_zenko
+                this = character:easteregg_elena_zenko
             }
         }
     }
@@ -1425,10 +1608,19 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_milla_lankinen
                 this = character:easteregg_milla_lankinen
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_sandra_runge_moller
+                this = character:easteregg_sandra_runge_moller
             }
         }
     }
@@ -1473,7 +1665,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_debbie_lane
                 this = character:easteregg_debbie_lane
@@ -1493,13 +1685,13 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:6863 #ingrid_bjornsdottir
                 this = character:6863 #ingrid_bjornsdottir
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_linnea_thimren
                 this = character:easteregg_linnea_thimren
@@ -1519,7 +1711,7 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_malin_jonsson
                 this = character:easteregg_malin_jonsson
@@ -1539,34 +1731,46 @@ hairstyles_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:6839 #iliana_of_uppland
                 this = character:6839 #iliana_of_uppland
             }
             modifier = {
-                add = 200
+                add = 999
                 exists = this
                 exists = character:161257 #queen_wyszeslawa
                 this = character:161257 #queen_wyszeslawa
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_steacy_mcilwham
                 this = character:easteregg_steacy_mcilwham
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_katya_boestad
                 this = character:easteregg_katya_boestad
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_tegan_harris
                 this = character:easteregg_tegan_harris
+            }
+			modifier = {
+                add = 999
+				exists = this
+                exists = character:easteregg_bahar_shefket
+                this = character:easteregg_bahar_shefket
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_alexia_belfort
+                this = character:easteregg_alexia_belfort
             }
         }
     }
@@ -1599,6 +1803,133 @@ hairstyles_scripted_characters = {
         }
     }
 
+    ### FP2 Hair ###
+
+
+
+    female_hair_fp2_iberian_muslim_01 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp2_iberian_muslim_02 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.2 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+        }
+    }
+
+    female_hair_fp2_iberian_muslim_03 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.4 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73683
+                this = character:73683
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_01 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.6 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73759
+                this = character:73759
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_02 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 0.83 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+				exists = this
+				exists = character:73857
+				this = character:73857
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:70292
+                this = character:70292
+            }
+        }
+    }
+
+    female_hair_fp2_iberian_christian_03 = { # Let out but with smaller braids braided in
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_03
+                value = 1 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73783
+                this = character:73783
+            }
+        }
+    }
+
+
+
+    ### FP1 Hair ###
+
     female_hair_fp1_01 = { # Let out but with smaller braids braided in
         dna_modifiers = {
             accessory = {
@@ -1626,7 +1957,7 @@ hairstyles_scripted_characters = {
             base = 0
 
             modifier = {
-                add = 200
+                add = 999
                 exists = this
                 exists = character:easteregg_elisabeth_gangenes
                 this = character:easteregg_elisabeth_gangenes

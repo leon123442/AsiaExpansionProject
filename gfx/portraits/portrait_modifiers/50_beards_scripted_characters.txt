@@ -3,7 +3,7 @@
 beards_scripted_characters = {
 
     usage = game
-    selection_behavior = weighted_random
+    selection_behavior = max
 
     male_beard_western_01 = { # Standard full beard
         dna_modifiers = {
@@ -17,40 +17,28 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
 				exists = character:144998 #king_lothaire
 				this = character:144998 #king_lothaire
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:83355 #petty_king_murchad
                 this = character:83355 #petty_king_murchad
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_petter_vilberg
                 this = character:easteregg_petter_vilberg
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_james_beaumont
                 this = character:easteregg_james_beaumont
-            }
-            modifier = {
-                add = 200
-                exists = this
-                exists = character:212506 # Philip, HRE
-                this = character:212506 # Philip, HRE
-            }
-            modifier = {
-                add = 200
-                exists = this
-                exists = character:212501 # Frederick Barbarossa, HRE
-                this = character:212501 # Frederick Barbarossa, HRE
             }
         }
     }
@@ -67,7 +55,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:107500 #king_sancho
                 this = character:107500 #king_sancho
@@ -76,7 +64,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:42018 #karlmann
                 this = character:42018 #karlmann
@@ -96,49 +84,49 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:163110 #sigurdr_snake_in_the_eye
                 this = character:163110 #sigurdr_snake_in_the_eye
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:90104 #charles_the_bald
                 this = character:90104 #charles_the_bald
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:109500 #king_garcia
                 this = character:109500 #king_garcia
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_henrik_fahraeus
                 this = character:easteregg_henrik_fahraeus
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_olof_bjork
                 this = character:easteregg_olof_bjork
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_sean_hughes
                 this = character:easteregg_sean_hughes
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_maximilian_olbers
                 this = character:easteregg_maximilian_olbers
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_nikolaos_kaltsogiannis
                 this = character:easteregg_nikolaos_kaltsogiannis
@@ -158,7 +146,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_nils_wadensten
                 this = character:easteregg_nils_wadensten
@@ -178,13 +166,13 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:122 #king_harold
                 this = character:122 #king_harold
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:1128 #duke_robert
                 this = character:1128 #duke_robert
@@ -204,18 +192,18 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:106000 #king_antso
                 this = character:106000 #king_antso
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_paul_depre
                 this = character:easteregg_paul_depre
             }
-            modifier = { # AE, Asia Expansion Character
+			modifier = { # AE, Asia Expansion Character
                 add = 200
 				exists = this
                 exists = character:teshio_placeholder_001
@@ -236,7 +224,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:7627 #earl_alfred
                 this = character:7627 #earl_alfred
@@ -256,13 +244,13 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:984 #king_malcom
                 this = character:984 #king_malcom
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_max_weltz
                 this = character:easteregg_max_weltz
@@ -282,22 +270,16 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:90107 #ludwig_the_german
                 this = character:90107 #ludwig_the_german
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:108500 #king_alfonso
                 this = character:108500 #king_alfonso
-            }
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:204500 # Henry II Plantagenet
-                this = character:204500 # Henry II Plantagenet
             }
         }
     }
@@ -327,12 +309,6 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:ibn_tumart # Ibn Tumart
-                this = character:ibn_tumart # Ibn Tumart
-            }
         }
     }
 
@@ -348,7 +324,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:3924 #emir_yahya
                 this = character:3924 #emir_yahya
@@ -382,34 +358,52 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:101515 #king_svend
                 this = character:101515 #king_svend
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:522 #dukevratislav
                 this = character:522 #duke_vratislav
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_magne_skjaeran
                 this = character:easteregg_magne_skjaeran
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_alexander_oltner
                 this = character:easteregg_alexander_oltner
             }
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73957
+                this = character:73957
+            }
             modifier = {
-                add = 200
-				exists = this
-                exists = character:32986 # 'Abd-al-Wahid II al-Rashid
-                this = character:32986 # 'Abd-al-Wahid II al-Rashid
+                add = 999
+                exists = this
+                exists = character:107590 #el_cid
+                this = character:107590 #el_cid
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_alessandro_bragalini
+                this = character:easteregg_alessandro_bragalini
+            }
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_jason_cantalini
+                this = character:easteregg_jason_cantalini
             }
         }
     }
@@ -426,13 +420,13 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:163111 #ivar_the_boneless
                 this = character:163111 #ivar_the_boneless
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:102531 #harald_hardrade
                 this = character:102531 #harald_hardrade
@@ -452,7 +446,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:163112 #halfdan_whiteshirt
                 this = character:163112 #halfdan_whiteshirt
@@ -461,7 +455,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:6878 #jarl_haesteinn
                 this = character:6878 #jarl_haesteinn
@@ -481,19 +475,19 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:163108 #bjorn_ironside
                 this = character:163108 #bjorn_ironside
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:40605 #rurik
                 this = character:40605 #rurik
             }
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:easteregg_peter_johannesson
                 this = character:easteregg_peter_johannesson
@@ -512,7 +506,7 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = { # AE, Asia Expansion Character
+			modifier = { # AE, Asia Expansion Character
                 add = 200
 				exists = this
                 exists = character:5100001 # Emperor Yizong
@@ -557,12 +551,18 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-                add = 200
+                add = 999
 				exists = this
                 exists = character:159137 #almos_arpad
                 this = character:159137 #almos_arpad
             }
-            modifier = { # AE, Asia Expansion Character
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:easteregg_ola_jentzsch 
+                this = character:easteregg_ola_jentzsch
+            }
+			modifier = { # AE, Asia Expansion Character
                 add = 200
 				exists = this
                 exists = character:easteregg_sama_bajau
@@ -608,6 +608,12 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
+            modifier = {
+            	add = 200
+				exists = this
+            	exists = character:easteregg_jakub_potapczyk
+            	this = character:easteregg_jakub_potapczyk
+        	}
         }
     }
 
@@ -622,12 +628,6 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
-                add = 200
-				exists = this
-                exists = character:32978 # AM Almohad
-                this = character:32978 # AM Almohad
-            }
         }
     }
 
@@ -643,7 +643,7 @@ beards_scripted_characters = {
         weight = {
             base = 0
             modifier = {
-				add = 200
+				add = 999
 				exists = this
 				exists = character:easteregg_struan_mccallum
 				this = character:easteregg_struan_mccallum
@@ -662,13 +662,14 @@ beards_scripted_characters = {
         }   
         weight = {
             base = 0
-            modifier = {
+
+			modifier = {
                 add = 200
 				exists = this
-                exists = character:163032 # al-Walid I
-                this = character:163032 # al-Walid I
+                exists = character:easteregg_joacim_carlberg
+                this = character:easteregg_joacim_carlberg
             }
-        }
+		}
     }
 
     male_beard_indian_03 = { # Very curly medium length full beard
@@ -698,7 +699,206 @@ beards_scripted_characters = {
             base = 0
         }
     }
+    ### FP2 Beards ###
 
+    male_beard_fp2_iberian_christian_01 = { # Short Well-Kept Beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.11 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 200
+                exists = this
+                exists = character:easteregg_hugo_cortell
+                this = character:easteregg_hugo_cortell
+            }
+            modifier = {
+                add = 999
+				exists = this
+                exists = character:easteregg_alexander_newcombe
+                this = character:easteregg_alexander_newcombe
+            }
+
+            modifier = {
+            	add = 999
+            	exists = this
+            	exists = character:easteregg_maxence_voleau
+            	this = character:easteregg_maxence_voleau
+            }
+        }
+    }
+
+    male_beard_fp2_iberian_christian_02 = { # Iberian goatee
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.235 # For the randomness to work correctly
+            }
+        }   
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:168137
+                this = character:168137
+            }
+
+            modifier = {
+                add = 999
+               	exists = this
+               	exists = character:70292
+                this = character:70292
+            }
+        }
+    }
+
+    male_beard_fp2_iberian_christian_03 = { # Caballero's beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.36 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:73813
+                this = character:73813
+            }
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:surunbaqi0001
+                this = character:surunbaqi0001
+            }
+        }
+    }
+
+    male_beard_fp2_iberian_christian_04 = { # Droopy moustache
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.485 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+            modifier = {
+                add = 999
+                exists = this
+                exists = character:barcelona_00003
+                this = character:barcelona_00003
+            }
+        }
+    }
+
+    male_beard_fp2_iberian_muslim_01 = { # Thick Groomed Beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.61 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:70150
+                this = character:70150
+            }
+
+             modifier = {
+                add = 999
+                exists = this
+                exists = character:73683
+                this = character:73683
+            }
+        }
+    }
+
+    male_beard_fp2_iberian_muslim_02 = { # Scholar's beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.735 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+              modifier = {
+                add = 999
+                exists = this
+                exists = character:danis0005
+                this = character:danis0005
+            }
+        }
+    }
+
+
+
+    male_beard_fp2_iberian_muslim_03 = { # Forked beard
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 0.860 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+
+        }
+    }
+
+    no_beard = {
+    	dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_02
+                value = 1 # For the randomness to work correctly
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 999
+				exists = this
+				exists = character:73857
+				this = character:73857
+            }
+        }
+    }
+
+    ### FP1 Beards ###
     male_beard_fp1_01 = { # Twin braids with metal rings
         dna_modifiers = {
             accessory = {
@@ -719,7 +919,7 @@ beards_scripted_characters = {
                 mode = add
                 gene = beards
                 template = scripted_character_beards_01
-                value = 0.88 # For the randomness to work correctly
+                value = 0.1 # For the randomness to work correctly
             }
         }   
         weight = {
@@ -768,4 +968,5 @@ beards_scripted_characters = {
             base = 0
         }
     }
+
 }

@@ -19,13 +19,21 @@ headgear = {
 				value = 0
 			}
 		}
+        outfit_tags = { no_clothes }
 		weight = {
 			base = 0
 			modifier = {
 				add = 1000
-				AND = {
+				OR = {
 					# Deliberately not the "fully naked" one since dropping your crown's intended even if nudity is disabled
 					should_be_naked_trigger = yes
+					AND = {
+						highest_held_title_tier < tier_duchy # Should wear ducal or royal crown instead.
+						OR = {
+							has_short_disease_trigger = yes #affliction that would plausibly leave them bedridden for treatment
+							has_character_flag = use_sickness_clothes
+						}
+					}
 				}
 			}
 			modifier = {
@@ -98,7 +106,15 @@ headgear = {
 				# Should still wear armor when going to war
 				NOT = { portrait_wear_armor_trigger = yes }
 			}
-			#no hats for japanese for now
+			# No headgear for characters who sold their crown
+			modifier = {
+				add = 100
+				exists = this
+				has_character_flag = sold_crown_charmod
+				# Should still wear armor when going to war
+				NOT = { portrait_wear_armor_trigger = yes }
+			}
+			# No hats for japanese for now
 			modifier = {
 				add = 100
 				exists = this
@@ -1003,6 +1019,35 @@ headgear = {
 				            }
 				        }
 				    }
+				}
+			}
+		}
+	}
+
+	western_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = western_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { 
+			western_stealth
+			western_stealth_hood 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_western_clothing_trigger = yes
+					portrait_mena_clothing_trigger = yes
+					portrait_byzantine_clothing_trigger = yes
+					portrait_northern_clothing_trigger = yes
 				}
 			}
 		}
@@ -2224,6 +2269,35 @@ headgear = {
 				            }
 				        }
 				    }
+				}
+			}
+		}
+	}
+
+	mena_stealth = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_stealth
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { 
+			mena_stealth
+			mena_stealth_hood 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				exists = this
+				has_character_flag = use_stealth_clothes
+				OR = {
+					portrait_mena_clothing_trigger = yes
+					portrait_indian_clothing_trigger = yes
+					portrait_steppe_clothing_trigger = yes
+					portrait_african_clothing_trigger = yes
 				}
 			}
 		}
@@ -4126,15 +4200,7 @@ headgear = {
 	        modifier = {
 	            add = 200
 				exists = this
-				OR = {
-					faith = faith:orthodox
-					faith = faith:armenian_apostolic
-					faith = faith:coptic
-					faith = faith:messalian
-					faith = faith:bogomilist
-					faith = faith:paulician
-					faith = faith:nestorian
-				}
+				faith = faith:orthodox
 				exists = primary_title
 				primary_title = {
 					is_head_of_faith = yes
@@ -4419,7 +4485,7 @@ headgear = {
 				faith.religion = religion:judaism_religion
 				exists = primary_title
 				primary_title = {
-					exists = controlled_faith
+					is_head_of_faith = yes
 				}
 	        }
 	    }
@@ -4854,7 +4920,7 @@ headgear = {
 	        }
         }
 	}
-
+	
 	## Austronesian ##
 
 	austronesian_low_nobles = {
@@ -5137,6 +5203,4 @@ headgear = {
 			}
 	    }
 	}
-	
-	
 }
