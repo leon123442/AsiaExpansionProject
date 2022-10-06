@@ -6,12 +6,8 @@
 	name = "dynn_Qudug"
 	culture = "khitan"
 }
-46600011 = {
-	name = "dynn_Unkut"
-	culture = "khitan"
-}
 46600007 = {
-	name = "dynn_Yelu"
+	name = "dynn_Yaonian"
 	culture = "khitan"
 }
 46600010 = {

@@ -1,52 +1,56 @@
 ﻿###Shinto###
 
-#Atsuta
-atsuta = {
+
+atsuta = { # Atsuta Grand Shrine
 	county = c_owari
+	barony = b_aichi
 	
 	character_modifier = {
 		men_at_arms_cap = 1
 	}
 }
-#ise
-tamaru = {
+
+tamaru = { # Ise Grand Shrine
 	county = c_ise
+	barony = b_ise
 	
 	character_modifier = {
 		knight_effectiveness_mult = 0.2
 	}
 }
-#izumo
-kizuki = {
+
+kizuki = { # Izumo Grand Shrine
 	county = c_izumo
+	barony = b_iishi
 	
 	character_modifier = {
 		light_cavalry_damage_mult = 0.15
 	}
 }
-#aso area/miyazaki
-takamori = {
-	county = c_hyuga
+
+takamori = { # Kasuga Grand Shrine
+	county = c_yamato
 	
 	character_modifier = {
 		development_growth_factor = 0.1
 		church_holding_build_gold_cost = -0.5
 	}
 }
-#Suwa
-suwa = {
-	county = c_suwa
+
+suwa = { # Yoshida Shrine
+	county = c_yamashiro
 	
 	character_modifier = {
 		defender_advantage = 5
 	}
 }
-suruga = {
+suruga = { # Mount Fuji
 	county = c_suruga
 	barony = b_suruga
 	
 	character_modifier = {
-		piety_gain = 0.2
+		monthly_piety_gain_mult = 0.2
+		life_expectancy = 1
 	}
 }
 
@@ -55,7 +59,7 @@ suruga = {
 # Korean
 
 jirisan = {
-	county = c_jinju
+	county = c_juliezhou
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -63,7 +67,8 @@ jirisan = {
 }
 
 taebaeksan = {
-	county = c_baishan
+	county = c_hexizhou
+	barony = b_chechon
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -71,7 +76,17 @@ taebaeksan = {
 }
 
 gyerim = {
-	county = c_gyeongju
+	county = c_shaliangzhou
+	barony = b_SeokguramGrotto
+	
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+gyeryongsan = {
+	county = c_xiongshanzhou
+	barony = b_chongju
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -79,7 +94,7 @@ gyerim = {
 }
 
 asadal = {
-	county = c_pyeongyang
+	county = c_pyongyang
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -87,7 +102,7 @@ asadal = {
 }
 
 geumgwangsan = {
-	county = c_gangneung
+	county = c_shouruozhou
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -95,7 +110,7 @@ geumgwangsan = {
 }
 
 hallasan = {
-	county = c_jeju
+	county = c_danluo
 	
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -103,7 +118,7 @@ hallasan = {
 }
 
 sanggiyan_alin = {
-	county = c_baishan
+	county = c_helan
 
 	character_modifier = {
 		name = holy_site_baishan_effect_name

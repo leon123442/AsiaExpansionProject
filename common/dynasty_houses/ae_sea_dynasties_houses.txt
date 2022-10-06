@@ -23,3 +23,9 @@ house_Sri_Thammasokaraj = {
 	name = "dynn_Sri_Thammasokaraj"
 	dynasty = malay_d001 # (Padamavamsa)
 }
+
+# Viet
+house_Ly = {
+	name = "dynn_Ly"
+	dynasty = ly_viet
+}

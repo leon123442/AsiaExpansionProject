@@ -1,4 +1,241 @@
-﻿bm_867_northmen = {
+﻿bm_867_iberia = {
+	start_date = 867.1.1
+	is_playable = yes
+
+	# Wilfrid the Hairy
+	character = {
+		name = "bookmark_fp2_iberia_wilfred_the_hairy"
+		history_id = 70150
+		dynasty = 100204
+		dynasty_splendor_level = 1
+		type = male
+		birth = 840.1.1
+		title = c_urgell
+		government = feudal_government
+		culture = catalan
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 1230 520 }
+
+		animation = personality_greedy
+
+		# Sunyer (cousin)
+		character = {
+			name = "bookmark_fp2_iberia_sunyer"
+			history_id = barcelona_00003
+			relation = "BOOKMARK_RELATION_COUSIN"
+			dynasty = 100204
+			dynasty_splendor_level = 1
+			type = male
+			birth = 840.1.1
+			title = c_girona
+			government = feudal_government
+			culture = catalan
+			religion = catholic
+
+			animation = scheme
+		}
+
+		# Bernat II (liege)
+		character = {
+			name = "bookmark_fp2_iberia_bernat_of_gothia"
+			history_id = 168137
+			relation = "BOOKMARK_RELATION_LIEGE"
+			dynasty = 100217
+			dynasty_splendor_level = 1
+			type = male
+			birth = 842.1.1
+			title = d_barcelona
+			government = feudal_government
+			culture = occitan
+			religion = catholic
+
+			animation = personality_bold
+		}
+	}
+	
+	# Lupp ibn Musa (Lope Musez) ID: 73813
+	character = {
+		name = "bookmark_fp2_iberia_lupp_ibn_musa"
+		dynasty_house = house_musa
+		dynasty_splendor_level = 2
+		type = male
+		birth = 831.1.1
+		title = c_najera
+		government = clan_government
+		culture = basque
+		religion = muwalladi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 73813
+		position = { 920 220 }
+
+		animation = personality_bold
+
+		# Oria, daughter, ID: 73783
+		character = {
+			name = "bookmark_fp2_iberia_lubb_ibn_musa_alt_oria"
+			relation = "BOOKMARK_RELATION_DAUGHTER"
+			dynasty_house = house_musa 
+			type = female
+			birth = 851.1.1
+			culture = basque
+			religion = mozarabic_church
+			history_id = 73783
+
+			animation = personality_forgiving
+		}
+		
+		# Mohamed, son and heir, ID: 73815
+		character = {
+			name = "bookmark_fp2_iberia_lubb_ibn_musa_alt_mohamed"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty_house = house_musa 
+			type = male
+			birth = 852.1.1
+			culture = basque
+			religion = muwalladi
+			history_id = 73815
+
+			animation = personality_dishonorable 
+		}	
+	}
+
+
+	# Mendo Guterres (Santiago/Tui) ID: 73857
+	character = {
+		name = "bookmark_fp2_iberia_mendo_guterres"
+		dynasty= 75 
+		dynasty_splendor_level = 1
+		type = male
+		birth = 847.1.1
+		title = c_santiago
+		government = feudal_government
+		culture = galician
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 73857
+		position = { 410 150 }
+
+		animation = personality_rational
+
+		# Arias, son and heir, ID: 73893
+		character = {
+			name = "bookmark_fp2_iberia_mendo_guterres_alt_arias"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 75
+			type = male
+			birth = 865.10.1
+			culture = galician
+			religion = catholic
+			history_id = 73893
+
+			animation = personality_bold 
+		}
+
+		character = { # Ermesinda Gatónez, wife, ID: 73759
+			name = "bookmark_fp2_iberia_mendo_guterres_alt_ermesinda" 
+			relation = "BOOKMARK_RELATION_WIFE"
+			dynasty = bierzo
+			type = female 
+			birth = 846.1.1
+			culture = galician
+			religion = catholic
+			history_id = 73759
+			
+			animation = personality_bold	
+		}
+	}
+
+
+	# Ibn Marwan (Abd-al-Rahman Marwanez) ID: 73975
+	character = {
+		name = "bookmark_fp2_iberia_ibn_marwan"
+		dynasty = 12305
+		dynasty_splendor_level = 1
+		type = male
+		birth = 819.1.1
+		title = d_badajoz
+		government = clan_government
+		culture = andalusian 
+		religion = muwalladi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 73957
+		position = { 810 700 }
+
+		animation = personality_bold
+
+		character = {
+			name =  "bookmark_fp2_iberia_ibn_marwan_alt_surunbaqi" #Sa'dun al-Surunbaqi, his close ally 
+			relation = "BOOKMARK_RELATION_FRIEND"
+			type = male
+			birth = 840.1.1
+			title = d_porto
+			culture = andalusian
+			religion = muwalladi
+			history_id = surunbaqi0001
+			
+			animation = personality_content 	
+		}
+
+		character = {
+			name =  "bookmark_fp2_iberia_ibn_marwan_alt_rahman"
+			relation = "BOOKMARK_RELATION_SON"
+			type = male
+			birth = 854.1.1
+			culture = andalusian 
+			religion = muwalladi
+			history_id = andalusian0095	
+
+			animation = personality_callous
+		}
+	}
+
+	# Adanis ibn Awsaga ID: danis0005
+	character = {
+		name = "bookmark_fp2_iberia_adanis_ibn_awsaga"
+		dynasty_house = house_danis
+		dynasty_splendor_level = 1
+		type = male
+		birth = 823.1.1
+		title = d_beja
+		government = clan_government
+		culture = baranis
+		religion = ashari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = danis0005
+		position = { 420 700 }
+
+		animation = personality_vengeful 
+
+		#Son 1, Mas'ud, ID: danis0009
+		character = {
+			name =  "bookmark_fp2_iberia_ibn_awsaga_alt_masud"
+			relation = "BOOKMARK_RELATION_SON"
+			type = male
+			birth = 861.1.1
+			culture = baranis 
+			religion = ashari
+			history_id = danis0009
+			
+			animation = paranoia 
+		}
+
+		# Son 2, Yahya, ID: danis0010
+		character = {
+			name =  "bookmark_fp2_iberia_ibn_awsaga_alt_yahya"
+			relation = "BOOKMARK_RELATION_SON"
+			type = male
+			birth = 865.1.1
+			culture = baranis
+			religion = ashari
+			history_id = danis0010
+			
+			animation = personality_bold	
+		}
+	}
+}
+
+bm_867_northmen = {
 	start_date = 867.1.1
 	is_playable = yes
 
@@ -212,7 +449,6 @@
 bm_867_adventurers = {
 	start_date = 867.1.1
 	is_playable = yes
-	recommended = yes
 
 	# Jarl Haesteinn (Nantes/Montaigu, Brittany) ID: 6878
 	character = {
@@ -634,284 +870,148 @@ bm_867_carolingians = {
 	}
 }
 
-
 bm_867_asia = {
 	start_date = 867.1.1
 	is_playable = yes
 	default = yes
-	# Emperor Seiwa of japan
+	# Fujiwara no Yoshifusa, Regent of Japan, ID: 1600001
 	character = {
-		name = "bookmark_yamato_imperial_family"
-		dynasty = 40000101
-		dynasty_splendor_level = 5
+		name = "bookmark_far_east_japan"
+		dynasty = 40000001
+		dynasty_splendor_level = 3
 		type = male
-		birth = 850.5.12
-		title = k_yamato
-		#title_text_override = "WEST_FRANCIA"
-		government = clan_government
+		birth = 804.1.1
+		title = e_nippon
+		government = feudal_government
 		culture = yamato
 		religion = shinto
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = 1600004
-		position = { 980 650 }
+		history_id = 1600001
+		position = { 1100 350 }
 		
-		animation = idle
-		# Yoshifusa, regent of emperor Seiwa
+		animation = personality_rational
+		
+		# (Seiwa, Emperor of Japan, 1600004) <- not dynastic
 		character = {
-			name = "bookmark_yamato_imperial_family_alt_fujiwara"
+			name = "bookmark_far_east_japan_alt_seiwa"
+			relation = "BOOKMARK_RELATION_GRANDSON"
+			dynasty = 40000101
+			type = male
+			birth = 850.5.12
+			#title = d_yamato_imperial
+			#government = theocracy_government
+			culture = yamato
+			religion = shinto
+			history_id = 1600004
+			
+			animation = idle
+		}
+		
+		# Mototsune, adopted son and future regent of Japan, 1600001
+		character = {
+			name = "bookmark_far_east_japan_alt_mototsune"
+			relation = "BOOKMARK_RELATION_SON"
 			dynasty = 40000001
 			type = male
-			birth = 804.1.1
-			title = d_kansai
-			#government = feudal_government
+			birth = 836.1.1
 			culture = yamato
 			religion = shinto
 			history_id = 1600001
-			animation = personality_rational
+			
+			animation = personality_honorable
+		}
+	}
+	
+	# Gyeongmun, King of Silla, ID: 110000001
+	character = {
+		name = "bookmark_far_east_silla"
+		dynasty = 60000001
+		dynasty_splendor_level = 5
+		type = male
+		birth = 843.1.1
+		title = k_sila
+		government = feudal_government
+		culture = saro
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 110000001
+		position = { 800 600 }
+		
+		animation = worry
+		
+		# Gim Jeong, son and future King of Silla, kim_heongang
+		character = {
+			name = "bookmark_far_east_silla_alt_heongang"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 60000001
+			type = male
+			birth = 861.1.1
+			culture = saro
+			religion = mahayana
+			history_id = kim_heongang
+			
+			animation = idle
+		}
+		
+		# Gung ye, brother-in-law and future King of Taebong, 1100000100
+		character = {
+			name = "bookmark_far_east_silla_alt_gungye"
+			relation = "BOOKMARK_RELATION_COUSIN"
+			dynasty = 60000001
+			type = male
+			birth = 857.1.1
+			culture = saro
+			religion = mahayana
+			history_id = 1100000100
+			
+			animation = personality_callous
+		}
+	}
+	
+	# Emperor Yizong of Tang, ID: 5100001
+	character = {
+		name = "bookmark_far_east_tang"
+		dynasty = 80000001
+		dynasty_splendor_level = 4
+		type = male
+		birth = 833.12.28
+		title = e_tang
+		government = feudal_government
+		culture = han
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 5100001
+		position = { 500 350 }
+		
+		animation = happiness
+		
+		# Kan, son and Prince of Ying, xian_prince
+		character = {
+			name = "bookmark_far_east_tang_alt_kan"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 80000001
+			type = male
+			birth = 860.1.1
+			culture = han
+			religion = shangqing
+			history_id = xian_prince
+		}
+		
+		# Yan, son and future Emperor Xizong, xizong_prince
+		character = {
+			name = "bookmark_far_east_tang_alt_yan"
+			relation = "BOOKMARK_RELATION_SON"
+			dynasty = 80000001
+			type = male
+			birth = 862.1.1
+			culture = han
+			religion = shangqing
+			history_id = xizong_prince
 		}
 	}
 }
 
-bm_1066_hastings = {
+bm_1066_asia = {
 	start_date = 1066.9.15
 	is_playable = yes
-	
-	# Harold Godwineson ID: 122
-	character = {
-		name = "bookmark_hastings_england" # King Harold of England
-		dynasty = 756
-		dynasty_splendor_level = 2
-		type = male
-		history_id = 122
-		birth = 1022.1.1
-		title = k_england
-		government = feudal_government
-		culture = anglo_saxon
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		position = { 250 620 }
-		
-		animation = worry
-		
-		#Potentially: Brother, Gyrth (ID: 132)
-
-		#Brother, Tostig Godwineson (ID: 124) (friendly with King Harald of Norway, against you)
-		character = {
-			name = "bookmark_hastings_england_alt_tostig"
-			relation = "BOOKMARK_RELATION_BROTHER"
-			dynasty = 756
-			type = male
-			birth = 1025.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			culture = anglo_saxon
-			religion = catholic
-			history_id = 124
-			animation = disgust
-		}
-
-		#Eadgifu, common-law wife and mother of children, English landowner (ID: 131)
-		character = {
-			name = "bookmark_hastings_england_alt_eadgifu"
-			relation = "BOOKMARK_RELATION_COMMON_LAW_WIFE"
-			dynasty = 363
-			type = female
-			birth = 1025.6.6
-			#title = k_east_francia
-			#government = feudal_government
-			culture = anglo_saxon
-			religion = catholic
-			history_id = 131
-			animation = schadenfreude
-		}
-	}
-	
-	# William the Bastard ID: 140
-	character = {
-		name = "bookmark_hastings_normandy" # William the Bastard
-		dynasty = 752
-		dynasty_splendor_level = 3
-		type = male
-		history_id = 140
-		birth = 1027.1.15
-		title = d_normandy
-		government = feudal_government
-		culture = norman
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		position = { 830 810 }
-		
-		animation = personality_callous
-
-		#Sidekick: Count Robert 'Curthose', son and heir (ID: 142)
-		character = {
-			name = "bookmark_hastings_normandy_alt_robert"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 752
-			type = male
-			birth = 1054.1.1
-			title = c_maine
-			government = feudal_government
-			culture = norman
-			religion = catholic
-			history_id = 142
-		}
-
-		#Sidekick: William the Red, third son (ID: 146)
-		character = {
-			name = "bookmark_hastings_normandy_alt_william"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 752
-			type = male
-			birth = 1056.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			culture = norman
-			religion = catholic
-			history_id = 146
-		}
-	}
-	
-	# Harold Hardrade ID: 102531
-	character = {
-		name = "bookmark_hastings_norway" # Harald Hardrade of Norway ID:102531
-		dynasty = 499
-		dynasty_splendor_level = 3
-		type = male
-		history_id = 102531
-		birth = 1015.1.2
-		title = k_norway
-		government = feudal_government
-		culture = norwegian
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-		position = { 850 170 }
-		
-		animation = personality_dishonorable
-
-		#	Olaf Haraldsson (son) ID: 102534
-		character = {
-			name = "bookmark_hastings_norway_alt_olaf"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 499
-			type = male
-			birth = 1050.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = norwegian
-			history_id = 102534
-			animation = flirtation
-		}
-
-		#	Ingegerd Haraldsdotter (daughter) ID: 102535
-		character = {
-			name = "bookmark_hastings_norway_alt_ingegerd"
-			relation = "BOOKMARK_RELATION_DAUGHTER"
-			dynasty = 499
-			type = female
-			birth = 1046.1.2
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = norwegian
-			history_id = 102535
-			animation = disapproval
-		}
-	}
-	
-	# Svend the Dane ID: 101515
-	character = {
-		name = "bookmark_hastings_denmark" # King Svend of Denmark ID:101515
-		dynasty = 487
-		dynasty_splendor_level = 2
-		type = male
-		history_id = 101515
-		birth = 1019.1.1
-		title = k_denmark
-		government = feudal_government
-		culture = danish
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1100 590 }
-		
-		animation = personality_greedy
-
-		#	Harald III (son) ID: 101517
-		character = {
-			name = "bookmark_hastings_denmark_alt_harald"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 487
-			type = male
-			birth = 1041.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = danish
-			history_id = 101517
-			animation = personality_content
-		}
-
-		#	Knud IV (son) ID: 101519
-		character = {
-			name = "bookmark_hastings_denmark_alt_knud"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 487
-			type = male
-			birth = 1043.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = danish
-			history_id = 101519
-			animation = personality_callous
-		}
-	}
-
-	# Malcolm Canmore ID: 984
-	character = {
-		name = "bookmark_hastings_scotland" # King Malcolm of Scotland ID:984
-		dynasty = 1687
-		dynasty_splendor_level = 1
-		type = male
-		history_id = 984
-		birth = 1039.1.2
-		title = k_scotland
-		government = feudal_government
-		culture = scottish
-		religion = catholic
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 410 230 }
-		
-		animation = personality_rational
-
-		#	Donnchad mac Máel Coluim (son) ID: 988
-		character = {
-			name = "bookmark_hastings_scotland_alt_duncan"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = 1687
-			type = male
-			birth = 1060.1.1
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = scottish
-			history_id = 988
-		}
-
-		#	Donald III (brother) ID: 986
-		character = {
-			name = "bookmark_hastings_scotland_alt_donald"
-			relation = "BOOKMARK_RELATION_BROTHER"
-			dynasty = 1687
-			type = male
-			birth = 1052.12.2
-			#title = k_east_francia
-			#government = feudal_government
-			religion = catholic
-			culture = scottish
-			history_id = 986
-			animation = personality_forgiving
-		}
-	}	
 }

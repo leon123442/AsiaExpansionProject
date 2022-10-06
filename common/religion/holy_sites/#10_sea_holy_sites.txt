@@ -158,7 +158,7 @@ kinabalu = {
 }
 
 tonle_sap = {
-	county = c_kampong_kdei
+	county = c_aninditapura
 	barony = b_andet
 
 	character_modifier = {
@@ -319,8 +319,7 @@ kengtung = {
 }
 
 simalungun = {
-	county = c_nagur
-	barony = b_simalungun
+	county = c_simalungun
 
 	character_modifier = {
 		name = holy_site_simalungun_effect_name

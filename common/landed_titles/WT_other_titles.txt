@@ -1,63 +1,156 @@
-﻿#黄齐
-e_huang_qi = {
+﻿e_han = { #漢
+	color = { 41 98 165 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	can_be_named_after_dynasty = no	
+	capital = c_luoyang
+}
+e_sui = { #隋
+	color = { 230 15 25 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	capital = c_luoyang
+}
+e_tang = { #唐
+	color = { 46 6 51 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	capital = c_luoyang
+}
+e_huang_qi = { #黄齊
 	color = { 102 105 136 }
 	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
 	capital = c_changan
 	ai_primary_priority = {
 		add = @always_primary_score
 		add = 100000
 	}
 }
-
-e_liang = {
-	color = { 132 235 75 }
-	color2 = { 255 255 255 }	
-	capital = c_bianzhou
-	destroy_if_invalid_heir = yes
+e_grand_liao = { #大遼
+	color = { 30 150 80 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no	
+	capital = c_degere
 }
-e_later_tang = {
+e_song = { #宋
+	color = { 250 225 120 }
+	color2 = { 255 255 255 }
+	definite_form = yes
+	can_be_named_after_dynasty = no	
+  	capital = c_bianzhou #Kaifeng
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+		add = 100000
+	}
+}
+
+#五代十國
+e_later_liang = { #后梁
+	color = { 132 235 75 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes	
+	capital = c_bianzhou
+}
+e_later_tang = { #后唐
 	color = { 92 175 136 }
 	color2 = { 255 255 255 }
-	capital = c_bianzhou
-	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	definite_form = yes
+	capital = c_luoyang
 }
-e_later_jin = {
+e_later_jin = { #后晉
 	color = { 244 227 160 }
 	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
 	capital = c_bianzhou
-	destroy_if_invalid_heir = yes
 }
-e_later_han = {
+e_later_han = { #后漢
 	color = { 192 105 186 }
 	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
 	capital = c_bianzhou
-	destroy_if_invalid_heir = yes
 }
-e_later_zhou = {
+e_later_zhou = { #后周
 	color = { 218 234 33 }
 	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	definite_form = yes
 	capital = c_bianzhou
-	destroy_if_invalid_heir = yes
 }
-
-
-e_shu = { }
-e_shu = { }
-
-e_tang = { }
-e_wu = { }
-
-k_huainan = { }
-k_jiangnan = { }
-
-k_wuyue = { }
-k_min = { }
-k_fujian = { }
-e_min = { }
-e_yin = { }
-e_wu = { }
-e_yan = { }
-
+k_yang_wu = { #杨吴
+	color = { 240 95 20 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_yangzhou
+}
+k_wuyue = {	#吴越国
+	color = { 222 222 8 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_hangzhou
+}
+k_ma_chu = { #马楚
+	color = { 255 255 38 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_changsha
+}
+k_former_shu = { #前蜀
+	color = { 229 164 24 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_chengdu
+}
+k_jie_yan = { #桀燕
+	color = { 60 60 60 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_youzhou
+}
+k_maozhen_qi = { #茂貞岐
+	color = { 60 98 170 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_fengxiang
+}
+k_min = { #闽国
+	color = { 160 110 75 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_fuzou
+}
+k_southern_han = { #南汉
+	color = { 193 42 93 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_nanhai
+}
+k_jiangnan = { #荆南
+	color = { 209 73 44 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_jingzhou_chu
+}
+k_later_shu = { #後蜀
+	color = { 229 164 24 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_chengdu
+}
+k_southern_tang = { #南唐
+	color = { 245 84 10 }
+	color2 = { 255 255 255 }
+	can_be_named_after_dynasty = no
+	capital = c_jinling
+}
 
 #节度使军号
 d_weisheng = { }
@@ -94,16 +187,5 @@ d_fenghua = { }
 d_weisai = { }
 d_qingyuan = { }
 d_yongan = { }
-
-
-k_daiviet = { }
-k_baekje = { }
-k_jeongan = { }
-k_majin = {
-	color = { 218 234 33 }
-	capital = c_hanju
-	destroy_if_invalid_heir = yes
-}
-
 
 d_chongwen_university = { }

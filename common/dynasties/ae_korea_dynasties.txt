@@ -1,28 +1,28 @@
-﻿60000001 = {
-	name = "dynn_Isageum" # Ruling family since Talhae, later known as Park and Seok Clan
+﻿60000001 = { #Gyeongju Kim Clan
+	name = "dynn_Gyeongju_Kim"
 	culture = "saro"
 }
-60000002 = {
-	name = "dynn_Geoseogan" # Hyeokgeose Beolgeunuri Geoseogan name, later known as Miryang Park Clan
+60000002 = { #Miryang Park Clan
+	name = "dynn_Miryang_Park"
 	culture = "saro"
 }
-60000003 = {
-	name = "dynn_Maripgan" # Kim Alji/Alcheon, later known as Gyeongju Kim Clan
+60000003 = { #Wolseong Seok Clan
+	name = "dynn_Wolseong_Seok"
 	culture = "saro"
 }
-60000004 = {
-	name = "dynn_Isageum_Talhae" # Ruling family since Talhae, Seok Clan
-	culture = "saro"
+60000004 = { #Buyeo Dynasty of Baekje
+	name = "dynn_Buyeo"
+	culture = "baekje"
 }
-60000005 = {
-	name = "dynn_Mireugan" # Another title, "Dragon Ruler"
-	culture = "saro"
+60000005 = { #Go Dynasty of Goguryeo
+	name = "dynn_Go_Goguryeo"
+	culture = "goguryeo"
 }
-60000006 = {
-	name = "dynn_Itgeum" # Another title, related to Isageum
-	culture = "saro"
+60000006 = { #Wang Dynasty of Goryeo
+	name = "dynn_Wang"
+	culture = "goryeo"
 }
-60000007 = {
-	name = "dynn_Chachaung" # Title of the second ruler, Namhae Isageum
-	culture = "saro"
+60000007 = { #Go Dynasty of Tamna
+	name = "dynn_Go_Tamna"
+	culture = "tamna"
 }

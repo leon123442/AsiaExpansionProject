@@ -199,18 +199,39 @@
 	}
 	
 	faiths = {
+		muism = {
+			color = { 86 215 155 }
+			icon = taegeuk
+			reformed_icon = taegeuk
+
+			doctrine = unreformed_faith_doctrine
+			
+			holy_site = gyerim
+			holy_site = jirisan # Jirisan
+			holy_site = geumgwangsan # Geumgwangsan
+			holy_site = taebaeksan # Baekdusan
+			holy_site = asadal # Asadal
+			holy_site = hallasan
+			holy_site = sanggiyan_alin
+
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_sanctity_of_nature
+			
+			doctrine = doctrine_monogamy
+		}
 		palgeuinuri = { # Korean ethnic religion as the State religion prior to arrival of Buddhism (3rd - 6th century) - ᄇᆞᆰ의 뉘
 			colour = { 201 201 255 }
-			religious_head = { k_silla }
-			icon = nivkh
+			religious_head = { k_sila }
+			icon = taegeuk
 			doctrine = pagan_hostility_doctrine
 			
 			holy_site = gyerim
 			holy_site = jirisan # Jirisan
 			holy_site = geumgwangsan # Geumgwangsan
 			holy_site = taebaeksan # Baekdusan
-			holy_site = gyeryongsan # Gyeryongsan
 			holy_site = asadal # Asadal
+			holy_site = hallasan
+			holy_site = sanggiyan_alin
 
 			doctrine = doctrine_head_temporal
 			doctrine = doctrine_gender_equal
@@ -247,14 +268,15 @@
 		gyodan = { # Ethnic religion incorporated into the Buddhist State religion - important concepts of 호국 불교 and 자장 and also called Buru 부루
 			colour = { 19 137 228 }
 			religious_head = { k_goryeo }
-			icon = nivkh
+			icon = taegeuk
 			
 			holy_site = gyerim
 			holy_site = jirisan # Jirisan
 			holy_site = geumgwangsan # Geumgwangsan
 			holy_site = taebaeksan # Baekdusan
-			holy_site = gyeryongsan # Gyeryongsan
 			holy_site = asadal # Asadal
+			holy_site = hallasan
+			holy_site = sanggiyan_alin
 			
 			doctrine = doctrine_temporal_head
 			doctrine = doctrine_gender_equal

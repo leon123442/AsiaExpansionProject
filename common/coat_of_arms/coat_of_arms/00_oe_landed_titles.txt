@@ -87,10 +87,22 @@ e_tang = {
 	color1 = "yellow"
 	color2 = "black"
 	colored_emblem = {
-		texture = "d_hedong.dds"
+		texture = "ce_lotus_big.dds"
+		color1 = "black"
+		color2 = "blue"
+		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
 		color1 = "blue"
 		color2 = "yellow"
-		instance = { position = { 0.5 0.45 } scale = { 1.2 1.2 }  }
+		instance = { position = { 0.52 0.45 } scale = { 0.8 0.8 }  }
+	}
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.58 0.42 } rotation = 22.5 scale = { 0.4 0.4 }  }
 	}
 }
 
@@ -153,25 +165,37 @@ k_dali = {
 	}
 }
 
-k_goryeo = {
+k_goryeo = { # 테스트
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
-	color2 = "white"
-
 	colored_emblem = {
-		texture = "ce_tomoe_cc_6.dds"
-		color1 = "red"
-		color2 = "blue"
-		color3 = "white"
-		instance = { position = { 0.52 0.45 } scale = { 0.8 0.8 }  }
+		texture = "cat_kr_goryeo_phoenix_main.dds"
+		color1 = "green_light"
+		color2 = "green"
+		color3 = "red"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
 	}
 	colored_emblem = {
-		texture = "ce_tomoe_cc_8.dds"
-		color1 = "blue"
-		color2 = "red"
-		color3 = "white"
-		instance = { position = { 0.50 0.48 } scale = { 0.4 0.03 }  }
-	}	
+		texture = "cat_kr_goryeo_phoenix2.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_head.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "orange"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_cloud.dds"
+		color1 = "orange"
+		color2 = "green_light"
+		color3 = "blue_light"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }
+	}
 }
 
 d_confucius = {
@@ -1290,12 +1314,12 @@ c_guilin = {
 }
 
 e_nippon = { #nippon
-	pattern = "pattern_solid.dds"	
-	color1 = "red"
-	colored_emblem = {
-		texture = "ce_h_yamato.dds"
-		color1 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		color1=red
+		texture="ce_circle_mask.dds"
+		instance={ position = { 0.5 0.44 } scale={ 0.510000 0.510000 } }
 	}
 }
 
@@ -1316,5 +1340,131 @@ d_yamato_imperial = { #Yamato
 		texture = "ce_h_yamato.dds"
 		color1 = "yellow"
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+
+#added
+k_daiviet = {
+	pattern="pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem={
+		color1 = "red"
+		texture="ce_circle_mask.dds"
+		instance={ position = { 0.5 0.44 } scale={ 0.510000 0.510000 } }
+	}
+}
+k_goguryeo = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		texture = "cat_kr_goguryeo_three_legged_crow.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 } }		
+	}
+}
+
+k_balhae = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "cat_kr_goguryeo_three_legged_crow2.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 } }		
+	}
+}
+
+k_sila = {
+	pattern="pattern_solid.dds"
+	color1={ 50 106 207 }
+	colored_emblem={
+		color1=white
+		texture="ce_crescent.dds"
+		instance={ position = { 0.5 0.44 } scale={ 0.800000 0.800000 } rotation=270 }
+	}	
+}
+
+k_baekje = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "cat_kr_baekje_phoenix.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.44 } scale = { 0.92 0.92 }  }		
+	}
+}
+
+d_tamna = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue_light" #
+	colored_emblem = {
+		texture = "cat_kr_jeju_go_clan.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "orange"
+		instance = { position = { 0.5 0.44 } scale = { 0.92 0.92 }  }
+	}
+}
+
+c_kaeseong = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_main.dds"
+		color1 = "green_light"
+		color2 = "green"
+		color3 = "red"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix2.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_head.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "orange"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_cloud.dds"
+		color1 = "orange"
+		color2 = "green_light"
+		color3 = "blue_light"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }
+	}
+}
+c_hanju = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_chinese_taiji.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.44 }  }			
+	}
+}
+c_nanhanseong = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_kr_goguryeo_three_legged_crow.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.44 } scale = { 0.92 0.92 }  }		
+	}
+}
+
+c_wonju = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_east_cloud_color1.dds"
+		color1 = "green"
+		color2 = "red"
+		color3 = "grey"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
 	}
 }

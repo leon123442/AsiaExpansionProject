@@ -978,3 +978,7 @@ sukhothaid001 = {
     name = "dynn_Phra_Ruang"
     culture = tai
 }
+ly_viet = {
+	name = "dynn_Ly"
+	culture = jiaozhi
+}

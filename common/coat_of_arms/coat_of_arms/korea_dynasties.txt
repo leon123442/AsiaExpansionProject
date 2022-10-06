@@ -1,0 +1,121 @@
+60000001 = { #Gyeongju Kim Clan
+	pattern="pattern_solid.dds"
+	color1 = "white"
+	colored_emblem={
+		texture="cat_kr_gyeongju_kim_clan.dds"
+		color1 = "black"
+		color2 = "blue"
+		color3 = "red"
+		instance={ position = { 0.5 0.5 } }
+	}
+}
+60000002 = { #Miryang Park Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_kr_miryang_park_clan.dds"
+		color1 = "black"
+		color2 = "blue"
+		color3 = "black"
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+60000003 = { #Wolseong Seok Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_kr_gyeongju_choi_clan.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "black"
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+60000004 = { #Buyeo Dynasty of Baekje
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "cat_kr_baekje_phoenix.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 }  }		
+	}
+}
+house_fuhitoyamato = { 
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_kr_baekje_phoenix.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 }  }		
+	}
+}
+house_sugano = { 
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "cat_kr_baekje_phoenix.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 }  }		
+	}
+}
+60000005 = { #Go Dynasty of Goguryeo
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		texture = "cat_kr_goguryeo_three_legged_crow.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+60000006 = { #Wang Dynasty of Goryeo
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_main.dds"
+		color1 = "green_light"
+		color2 = "green"
+		color3 = "red"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix2.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_head.dds"
+		color1 = "green_light"
+		color2 = "orange"
+		color3 = "orange"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+	colored_emblem = {
+		texture = "cat_kr_goryeo_phoenix_cloud.dds"
+		color1 = "orange"
+		color2 = "green_light"
+		color3 = "blue_light"
+		instance = { position = { 0.5 0.44 } scale = { 0.9 0.9 }  }			
+	}
+}
+60000007 = { #Go Dynasty of Tamna
+	pattern = "pattern_solid.dds"
+	color1 = "blue_light" #
+	colored_emblem = {
+		texture = "cat_kr_jeju_go_clan.dds"
+		color1 = "black"
+		color2 = "white"
+		color3 = "orange"
+		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }
+	}
+}
+61000001 = { #Tae Dynasty of Balhae
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "cat_kr_goguryeo_three_legged_crow2.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}

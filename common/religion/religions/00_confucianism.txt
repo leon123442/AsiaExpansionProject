@@ -1,4 +1,4 @@
-﻿﻿confucianism_religion = {
+﻿confucianism_religion = {
 	family = rf_eastern
 	doctrine = eastern_hostility_doctrine
 	graphical_faith = dharmic_gfx

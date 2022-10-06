@@ -6,31 +6,111 @@
 	name = "dynn_yamato"
 	culture = "yamato"
 }
-40000005 = {
-	name = "dynn_wada"
+40000201 = {
+	name = "dynn_kanmu-heishi" 
+	culture = "yamato" 
+}
+40000202 = {
+	name = "dynn_ninmyo-heishi" 
+	culture = "yamato" 
+}
+40000203 = {
+	name = "dynn_montoku-heishi" 
+	culture = "yamato" 
+}
+40000204 = {
+	name = "dynn_koko-heishi" 
+	culture = "yamato" 
+}
+40000205 = { 
+	name = "dynn_saga-genji" 
+	culture = "yamato" 
+}
+40000206 = { 
+	name = "dynn_ninmyo-genji"
 	culture = "yamato"
 }
-40000002 = {
-    name = "dynn_taizai"
-    culture = "yamato"
-}
-40000003 = {
-	name = "dynn_oguri"
+40000207 = { 
+	name = "dynn_montoku-genji"
 	culture = "yamato"
 }
-40000009 = {
-	name = "dynn_nishidate"
+40000208 = { 
+	name = "dynn_seiwa-genji"
 	culture = "yamato"
 }
-400000011 = {
-	name = "dynn_mino"
+40000209 = { 
+	name = "dynn_yozei-genji"
 	culture = "yamato"
 }
-40000004 = {
-	name = "dynn_kiyotake"
+40000210 = { 
+	name = "dynn_koko-genji"
 	culture = "yamato"
 }
-40000008 = {
-	name = "dynn_echigo"
+40000211 = { 
+	name = "dynn_uda-genji"
+	culture = "yamato"
+}
+40000212 = { 
+	name = "dynn_daigo-genji"
+	culture = "yamato"
+}
+40000213 = { 
+	name = "dynn_murakami-genji"
+	culture = "yamato"
+}
+40000214 = { 
+	name = "dynn_reizei-genji"
+	culture = "yamato"
+}
+40000215 = { 
+	name = "dynn_kazan-genji"
+	culture = "yamato"
+}
+40000216 = { 
+	name = "dynn_sanjo-genji"
+	culture = "yamato"
+}
+40000217 = {
+	name = "dynn_tachibana"
+	culture = "yamato"
+}
+40000218 = {
+	name = "dynn_soga"
+	culture = "yamato"
+}
+40000219 = {
+	name = "dynn_mononobe"
+	culture = "yamato"
+}
+40000220 = {
+	name = "dynn_ki"
+	culture = "yamato"
+}
+40000221 = {
+	name = "dynn_ariwara"
+	culture = "yamato"
+}
+40000222 = {
+	name = "dynn_kiyohara"
+	culture = "yamato"
+}
+40000223 = {
+	name = "dynn_sakanoue"
+	culture = "yamato"
+}
+40000224 = {
+	name = "dynn_kibi"
+	culture = "yamato"
+}
+40000225 = {
+	name = "dynn_oe"
+	culture = "yamato"
+}
+40000226 = {
+	name = "dynn_funya"
+	culture = "yamato"
+}
+40000227 = {
+	name = "dynn_yoshimine"
 	culture = "yamato"
 }

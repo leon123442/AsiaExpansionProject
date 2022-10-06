@@ -70,16 +70,9 @@
 	name = "dynn_Zheng"
 	culture = "han"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+80000030 = {
+	name = "dynn_Zhao"
+}
+80000031 = {
+	name = "dynn_Gao"
+}

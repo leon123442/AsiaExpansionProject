@@ -29,17 +29,17 @@ goguryeo = {
 balhae = {
 	color = { 160 160 134 }
 	
-	created = 700.1.1
+	created = 698.1.1
 	parents = { goguryeo mohese }
 	
-	ethos = ethos_bureaucratic
-	heritage = heritage_korean
+	ethos = ethos_communal
+	heritage = heritage_tungusic
 	language = language_korean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mystical_ancestors
-		tradition_castle_keepers
-		tradition_chinese_characters
+		tradition_ruling_caste
+		tradition_sacred_hunts
 	}
 	
 	dlc_tradition = {
@@ -50,7 +50,7 @@ balhae = {
 	name_list = name_list_korean
 
 	coa_gfx = { steppe_coa_gfx } 
-	building_gfx = { chinese_building_gfx } 
+	building_gfx = { steppe_building_gfx } 
 	clothing_gfx = { mongol_clothing_gfx } 
 	unit_gfx = { mongol_unit_gfx } 		
 
@@ -62,7 +62,7 @@ balhae = {
 goryeon = {
 	color = { 50 200 50 }
 	
-	created = 918.1.1
+	created = 918.7.25
 	parents = { goguryeo saro }
 	
 	ethos = ethos_courtly
@@ -147,25 +147,24 @@ tamna = {
 	color = { 0 206 41 }
 	
 	ethos = ethos_communal
-	heritage = heritage_japan
-	language = language_korean
+	heritage = heritage_korean
+	language = language_japonic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
 		tradition_fishermen
-		tradition_korean_maa
 	}
 	
 	name_list = name_list_korean
 	
 	coa_gfx = { steppe_coa_gfx }
 	building_gfx = { chinese_building_gfx }
-	clothing_gfx = { japanese_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = yamato
 	}
 }
 # yemaek

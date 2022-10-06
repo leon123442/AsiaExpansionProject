@@ -10,7 +10,7 @@
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
-	doctrine = doctrine_polygamy
+	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
@@ -25,9 +25,9 @@
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification
-	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_gender_female_only
 	doctrine = doctrine_clerical_marriage_disallowed
-	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+	doctrine = doctrine_clerical_succession_temporal_appointment
 	
 	# SHOGUNATE teaching of buddhism
 	doctrine = special_doctrine_teachings_of_buddha
@@ -209,13 +209,12 @@
 			holy_site = suruga
 
 			doctrine = doctrine_temporal_head
-			doctrine = doctrine_theocracy_lay_clergy
 
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_inner_journey
 
-			doctrine = doctrine_polygamy
+			doctrine = doctrine_concubines
 			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 			doctrine = doctrine_bastardry_legitimization
 			doctrine = doctrine_kinslaying_shunned
@@ -236,7 +235,6 @@ eastern_pagan_religion = {
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
-	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -462,22 +460,6 @@ eastern_pagan_religion = {
 			holy_site = urd
 			holy_site = nurgan
 			holy_site = akan
-
-			#Generic pagan tenets
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-		}
-		muism = {
-			color = { 86 215 155 }
-			icon = nivkh
-			reformed_icon = nivkh
-
-			doctrine = unreformed_faith_doctrine
-			
-			holy_site = tamna
-			holy_site = dulizhen
-			holy_site = kangnung
-			holy_site = baishan
 
 			#Generic pagan tenets
 			doctrine = tenet_ancestor_worship

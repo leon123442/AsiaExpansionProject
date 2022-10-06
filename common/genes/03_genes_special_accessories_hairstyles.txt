@@ -1093,9 +1093,9 @@ special_genes = {
 
 			special_hairstyles = {
 				index = 42
-				male = {
-					1 = male_hair_special_01
-				}
+				male = { 
+					1 = male_hair_special_01 
+				}		   
 				female = {
 					1 = female_hair_sub_saharan_02
 				}
@@ -1125,7 +1125,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
+			
 			### JAPANESE HAIRSTYLES ###
 
 			japanese_hairstyles_straight = {
@@ -1218,7 +1218,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
 		}
 
 	}

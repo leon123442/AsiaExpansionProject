@@ -241,24 +241,5 @@ eastern_pagan_religion = {
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_communal_identity
 		}
-		musok = {
-			color = { 86 215 155 }
-			icon = nivkh
-			reformed_icon = nivkh
-
-			holy_site = gyerim # Area around Gyeongju
-			holy_site = jirisan # Jirisan
-			holy_site = geumgwangsan # Geumgwangsan
-			holy_site = taebaeksan # Baekdusan
-			holy_site = gyeryongsan # Gyeryongsan
-			holy_site = asadal # Myohyangsan
-			holy_site = hallasan
-
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_mystical_birthright
-			doctrine = tenet_communal_identity # Korean ethnic religion
-			
-			doctrine = doctrine_monogamy
-		}
 	}
 }

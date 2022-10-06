@@ -14,10 +14,6 @@
         name = "dynn_Gao" 
         dynasty = 80000006 }
 		
- house_Gim = { 
-        name = "dynn_Gim" 
-        dynasty = 60000001 }
-		
  house_He = { 
         name = "dynn_He" 
         dynasty = 80000023 }
@@ -39,10 +35,6 @@ house_Lavo = {
         name = "dynn_Lavo" 
         dynasty = 2636001
 }
-
- house_Kim = { 
-        name = "dynn_Kim" 
-        dynasty = 60000002 }
 		
  house_Kong = { 
         name = "dynn_Kong" 
@@ -64,10 +56,6 @@ house_murong = {
         name = "dynn_Murong" 
         dynasty = 46600008 }
 		
- house_Pak = { 
-        name = "dynn_Pak" 
-        dynasty = 60000003 }
-		
  house_Ping = { 
         name = "dynn_Ping" 
         dynasty = 80000015 }
@@ -79,15 +67,6 @@ house_murong = {
 house_qudug = { 
         name = "dynn_Qudug" 
         dynasty = 46600009 }
-		
-
- house_Seoyoung = { 
-        name = "dynn_Seoyoung" 
-        dynasty = 60000005 }
-		
- house_Shiwon = { 
-        name = "dynn_Shiwon" 
-        dynasty = 60000004 }
 		
  house_Shou = { 
         name = "dynn_Shou" 
@@ -105,10 +84,6 @@ house_simhapura = {
         name = "dynn_Tuoba" 
         dynasty = 80000013 }
 		
-house_unkut = { 
-        name = "dynn_Unkut" 
-        dynasty = 46600011 }
-		
 house_vijaya = { 
         name = "dynn_Vijaya" 
         dynasty = 46600002 }
@@ -125,8 +100,8 @@ house_vijaya = {
         name = "dynn_Yangzhi" 
         dynasty = 61000006 }
 		
-house_yelu = { 
-        name = "dynn_Yelu" 
+house_yaonian = { 
+        name = "dynn_Yaonian" 
         dynasty = 46600007 }
 		
  house_Yin= { 
@@ -152,3 +127,11 @@ house_yuwen = {
  house_Zhong = { 
         name = "dynn_Zhong" 
         dynasty = 80000028 }
+		
+ house_Zhao = {
+        name = "dynn_Zhao"
+        dynasty = 80000030 }
+		
+ house_Gao = {
+        name = "dynn_Gao"
+        dynasty = 80000031 }

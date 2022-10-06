@@ -1,6 +1,28 @@
 # Princes (children of Kings/Emperors, sorted by culture)
 # Localisations is under culture/_culture_titles_l_english.yml
 
+### Japanese
+Ouji = {
+	type = character
+	special = ruler_child
+	tier = duchy
+	gender = male
+	priority = 500
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
+	titles = { d_yamato_imperial }
+}
+Oujo = {
+	type = character
+	special = ruler_child
+	tier = duchy
+	gender = female
+	priority = 500
+	name_lists = { name_list_japan }
+	heritages = { heritage_japan }
+	titles = { d_yamato_imperial }
+}
+
 ### Austronesian
 prince_male_austronesian_group = {
 	type = character

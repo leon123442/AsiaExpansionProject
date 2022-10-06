@@ -7,7 +7,7 @@
 	ethos = ethos_courtly
 	heritage = heritage_japan
 	language = language_japonic
-	martial_custom = martial_custom_male_only
+	martial_custom = martial_custom_equal # 女武者
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_ruling_caste

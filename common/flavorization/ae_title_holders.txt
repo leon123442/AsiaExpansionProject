@@ -28,138 +28,132 @@
 
 #############################################
 
-Shogun = {
+e_nippon_character = {
 	type = character
 	special = holder
 	tier = empire
 	priority = 280
-	name_lists = { name_list_japan }
 	heritages = { heritage_japan }
-	faiths = { shinto }
 	titles = { e_nippon }
 }
-
-grand_daimyo_title = {
-	type = title
-	tier = kingdom
-	priority = 100
-	#gender = female
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-grand_daimyo_character = {
+japanese_empire_character_male = {
 	type = character
 	special = holder
-	tier = kingdom
-	priority = 100
-	#gender = female
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-daimyo_character = {
-	type = character
-	special = holder
-	tier = duchy
-	priority = 50
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-daimyo_title = {
-	type = title
-	tier = duchy
-	priority = 50
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-Lord = {
-	type = character
-	special = holder
-	tier = county
-	priority = 20
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-Lordship = {
-	type = title
-	tier = county
-	priority = 20
-	only_independent = yes
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-zuryo_character = {
-	type = character
-	special = holder
-	tier = duchy
-	priority = 49
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-zuryo_title = {
-	type = title
-	tier = duchy
-	priority = 49
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-kokushi_character = {
-	type = character
-	special = holder
-	tier = county
-	priority = 20
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-kokushi_title = {
-	type = title
-	tier = county
-	priority = 20
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-joshu_character = {
-	type = character
-	special = holder
-	tier = barony
-	priority = 10
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-joshu_title = {
-	type = title
-	tier = barony
-	priority = 10
-	name_lists = { name_list_japan }
-	heritages = { heritage_japan }
-}
-
-Ouji = {
-	type = character
-	special = ruler_child
 	tier = empire
+	priority = 280
 	gender = male
-	priority = 30
-	name_lists = { name_list_japan }
 	heritages = { heritage_japan }
 }
-Oujo = {
+japanese_empire_character_female = {
 	type = character
-	special = ruler_child
+	special = holder
 	tier = empire
+	priority = 280
 	gender = female
-	priority = 30
-	name_lists = { name_list_japan }
 	heritages = { heritage_japan }
+}
+k_yamato_character = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	heritages = { heritage_japan }
+	titles = { k_yamato }
+}
+japanese_king_character_male = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	gender = male
+	heritages = { heritage_japan }
+}
+japanese_king_character_female = {
+	type = character
+	special = holder
+	tier = kingdom
+	priority = 100
+	gender = female
+	heritages = { heritage_japan }
+}
+japanese_region_title = {
+	type = title
+	tier = duchy
+	priority = 100
+	heritages = { heritage_japan }
+	titles = { d_kansai d_kanto }
+}
+japanese_duke_tohoku_title = {
+	type = title
+	tier = duchy
+	priority = 50
+	heritages = { heritage_japan }
+	titles = { d_ou d_dewa }
+}
+japanese_duke_title = {
+	type = title
+	tier = duchy
+	priority = 50
+	heritages = { heritage_japan }
+}
+japanese_duke_tohoku_character = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	heritages = { heritage_japan }
+	titles = { d_ou d_dewa }
+}
+japanese_duke_character = {
+	type = character
+	special = holder
+	tier = duchy
+	priority = 50
+	heritages = { heritage_japan }
+}
+japanese_count_tohoku_title = {
+	type = title
+	tier = county
+	priority = 20
+	heritages = { heritage_japan }
+	titles = { c_iwase c_iwaki c_rikuzen c_rikuchu c_rikugo c_uzen_jp c_ugo }
+}
+japanese_count_title = {
+	type = title
+	tier = county
+	priority = 20
+	heritages = { heritage_japan }
+}
+japanese_count_character = {
+	type = character
+	special = holder
+	tier = county
+	priority = 20
+	heritages = { heritage_japan }
+}
+japanese_baron_title = {
+	type = title
+	tier = barony
+	priority = 10
+	heritages = { heritage_japan }
+}
+sinosphere_character_spouse = {
+	type = character
+	special = holder_spouse
+	priority = 300
+	gender = female
+	heritages = { heritage_japan }
+	heritages = { heritage_korean }
+	heritages = { heritage_chinese }
+}
+Kougou = {
+	type = character
+	special = ruler_spouse
+	tier = duchy
+	priority = 500
+	gender = female
+	heritages = { heritage_japan }
+	titles = { d_yamato_imperial }
 }
 
 # Localisations is under culture/_culture_titles_l_english.yml
