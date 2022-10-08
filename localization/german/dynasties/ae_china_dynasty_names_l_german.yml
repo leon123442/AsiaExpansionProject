@@ -6,9 +6,11 @@
  dynn_Shii:0 "Shii"
  dynn_Caoo:0 "Caoo"
  dynn_Kang:0 "Kang"
- dynn_sogdian_Mi:0 "sogdian_Mi"
- dynn_sogdian_Yi:0 "sogdian_Yi"
+ dynn_sogdian_Mi:0 "Mi"
+ dynn_sogdian_Yi:0 "Yi"
  dynn_Du:0 "Du"
+ dynn_Zhao:0 "Zhao"
+ dynn_Gao:0 "Gao"
 
  #Nanman-Bai
  dynn_Zhong:0 "Zhong"
@@ -36,10 +38,9 @@
 
  #Khitan
  dynn_Yaonian:0 "Yaonian"
- dynn_Liao:0 "Liao"
  dynn_YelU_:0 "Yelü"
  dynn_Suru:0 "Suru"
- dynn_Xiao_Suru:0 "Xiao_Suru"
+ dynn_Xiao_Suru:0 "Suru"
  dynn_Yuzhi:0 "Yuzhi"
  dynn_Barri:0 "Barri"
 
@@ -52,6 +53,8 @@
 
  dynn_Hejes:0 "Hejes"
  dynn_Baixi:0 "Baixi"
+ 
+ dynn_Yaonian:0 "Yaonian"
 
 #Tunguse
 dynn_Bogd:0 "Bogd"
@@ -115,6 +118,16 @@ dynn_Gim:0 "Gim"
 dynn_Pak:0 "Pak"
 dynn_Shiwon:0 "Shiwon"
 dynn_Seoyoung:0 "Seoyoung"
+
+dynn_Gyeongju_Kim:0 "Kim"
+dynn_Miryang_Park:0 "Park"
+dynn_Wolseong_Seok:0 "Seok"
+dynn_Buyeo:0 "Buyeo"
+dynn_fuhitoyamato:0 "Yamato"
+dynn_sugano:0 "Sugano"
+dynn_Go_Goguryeo:0 "Go"
+dynn_Wang:0 "Wang"
+dynn_Go_Tamna:0 "Go"
 
 
 #Lanxang
