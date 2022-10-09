@@ -60,6 +60,13 @@ k_yamato_character = {
 	heritages = { heritage_japan }
 	titles = { k_yamato }
 }
+k_yamato_title = {
+	type = title
+	tier = kingdom
+	priority = 100
+	heritages = { heritage_japan }
+	titles = { k_yamato }
+}
 japanese_king_character_male = {
 	type = character
 	special = holder

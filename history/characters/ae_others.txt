@@ -339,7 +339,32 @@ tagalog006 = { # Tulay
 	}
 }
 ## Placeholders
-
+teshio_placeholder_001 = {
+	name = "Toshiyakui"
+	dna = toshiyakui_the_mishihase_dna
+	dynasty = tribe_Mashike
+	religion = yzng
+	culture = mishihase
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 10
+	prowess = 7
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = honest
+	trait = diligent
+	842.7.31 = {
+		birth = yes
+		add_character_flag = {
+			flag = has_scripted_appearance
+		}
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
 rikuchu_placeholder_001 = {
 	name = "Yansun"
 	religion = moshir
@@ -381,241 +406,6 @@ rikugo_placeholder_002 = {
 	religion = moshir
 	culture = emishi
 	1005.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-teshio_placeholder_001 = {
-	name = "Toshiyakui"
-	dna = toshiyakui_the_mishihase_dna
-	dynasty = tribe_Mashike
-	religion = yzng
-	culture = mishihase
-	diplomacy = 3
-	martial = 5
-	stewardship = 7
-	intrigue = 4
-	learning = 10
-	prowess = 7
-	trait = education_diplomacy_3
-	trait = gregarious
-	trait = honest
-	trait = diligent
-	842.7.31 = {
-		birth = yes
-		add_character_flag = {
-			flag = has_scripted_appearance
-		}
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-teshio_placeholder_002 = {
-	name = "Haunte"
-	religion = yzng
-	culture = mishihase
-	1017.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-nemuro_placeholder_001 = {
-	name = "Shikahotsute"
-	religion = yzng
-	culture = mishihase
-	816.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-nemuro_placeholder_002 = {
-	name = "Sakai"
-	religion = yzng
-	culture = mishihase
-	1015.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-kushiro_placeholder_001 = {
-	name = "Torurian"
-	religion = moshir
-	culture = ainu
-	846.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-kushiro_placeholder_002 = {
-	name = "Kikeninba"
-	religion = moshir
-	culture = ainu
-	1016.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-ishikari_placeholder_001 = {
-	name = "Nochikusa"
-	religion = moshir
-	culture = ainu
-	810.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-ishikari_placeholder_002 = {
-	name = "Sakeroku"
-	religion = moshir
-	culture = ainu
-	1026.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-hidaka_placeholder_001 = {
-	name = "Yuware"
-	religion = moshir
-	culture = ainu
-	827.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-hidaka_placeholder_002 = {
-	name = "Hecaranke"
-	religion = moshir
-	culture = ainu
-	1011.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-oshima_placeholder_001 = {
-	name = "Shiurumi"
-	religion = moshir
-	culture = ainu
-	829.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-oshima_placeholder_002 = {
-	name = "Sangea"
-	religion = moshir
-	culture = ainu
-	1021.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-amami_placeholder_001 = {
-	name = "Onibishi"
-	religion = ryukyu_animism
-	culture = kaizuka
-	833.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-amami_placeholder_002 = {
-	name = "Koshamain"
-	religion = ryukyu_animism
-	culture = kaizuka
-	1037.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-ryukyu_placeholder_001 = {
-	name = "Penri"
-	religion = ryukyu_animism
-	culture = kaizuka
-	834.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-ryukyu_placeholder_002 = {
-	name = "Shakushain"
-	religion = ryukyu_animism
-	culture = kaizuka
-	1017.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-miyako_placeholder_001 = {
-	name = "Benguit"
-	religion = anito
-	culture = batanic
-	818.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-miyako_placeholder_002 = {
-	name = "Baha"
-	religion = anito
-	culture = batanic
-	1014.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
-saki_placeholder_001 = {
-	name = "Pantuk"
-	religion = anito
-	culture = batanic
-	814.1.1 = {
-		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-saki_placeholder_002 = {
-	name = "Ambun"
-	religion = anito
-	culture = batanic
-	1040.1.1 = {
 		birth = yes
 	}
 	1070.1.1 = {

@@ -1539,7 +1539,6 @@ shomu_tenno = {
 	religion = shinto # actually buddhist
 	culture = yamato
 	trait = zealous
-	trait = devoted
 	trait = profligate
 	father = monmu_tenno
 	mother = fujiwara_miyako
@@ -1551,6 +1550,10 @@ shomu_tenno = {
 	}
 	724.3.3 = {
 		name = "Shōmu"
+	}
+	749.8.19 = {
+		religion = zenzong
+		trait = devoted
 	}
 	755.6.4 = {
 		death = yes
@@ -1761,7 +1764,6 @@ heizei_tenno = {
 	culture = yamato 
 	father = kanmu_tenno
 	mother = fujiwara_otomuro
-	trait = devoted
 	773.1.1 = {
 		birth = yes
 	}
@@ -1770,6 +1772,10 @@ heizei_tenno = {
 	}
 	806.4.9 = {
 		name = "Heizei"
+	}
+	809.5.18 = {
+		religion = zenzong
+		trait = devoted
 	}
 	824.8.5 = {
 		death = yes
@@ -2051,6 +2057,7 @@ uda_tenno = {
 		trait = just
 	}
 	900.1.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	931.9.3 = {
@@ -2149,7 +2156,7 @@ yamato_gishi = {
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
-	trait = devoted
+	trait = devoted # Shrine Maiden
 	father = 1600007
 	mother = 1600008 # Fujiwara no Akirakeiko
 	842.1.1 = {
@@ -2193,7 +2200,7 @@ yamato_tenshi = {
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
-	trait = devoted
+	trait = devoted # Shrine Maiden
 	father = 1600007
 	843.1.1 = { # date unknown
 		birth = yes
@@ -2208,7 +2215,7 @@ yamato_jutsushi = {
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
-	trait = devoted
+	trait = devoted # Shrine Maiden
 	father = 1600007
 	844.1.1 = { # date unknown
 		birth = yes
@@ -2339,7 +2346,7 @@ yamato_akirakeiko = {
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
-	trait = devoted
+	trait = devoted # Shrine Maiden
 	father = 1600007
 	847.1.1 = { # date unknown
 		birth = yes
@@ -3020,10 +3027,37 @@ fujiwara_matsukuri = {
 	religion = shinto
 	culture = yamato
 	father = fujiwara_kosemaro	
+	748.1.1 = { # date unknown
+		birth = yes
+	}
+	800.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_matsukuri = {
+	name = "Matsukuri"
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_kosemaro	
 	750.1.1 = { # date unknown
 		birth = yes
 	}
-	820.1.1 = { # date unknown
+	810.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_mitsuko = {
+	name = "Mitsuko"
+	female = yes
+	dynasty_house = house_nanke-fujiwara
+	religion = shinto
+	culture = yamato
+	father = fujiwara_matsukuri	
+	781.1.1 = {
+		birth = yes
+	}
+	828.10.17 = {
 		death = yes
 	}
 }
@@ -3422,6 +3456,7 @@ fujiwara_nagara = {
 	religion = shinto
 	culture = yamato
 	father = fujiwara_fuyutsugu
+	mother = fujiwara_mitsuko
 	802.1.1 = {
 		birth = yes
 	}
@@ -3438,7 +3473,7 @@ fujiwara_yoshikata = {
 	806.1.1 = { # date unknown
 		birth = yes
 	}
-	869.1.1 = { # date unknown
+	866.1.1 = { # date unknown
 		death = yes
 	}
 }
@@ -3463,10 +3498,24 @@ fujiwara_nobuko = {
 	religion = shinto
 	culture = yamato
 	father = fujiwara_fuyutsugu
+	mother = fujiwara_mitsuko
 	809.1.1 = {
 		birth = yes
 	}
 	871.11.14 = {
+		death = yes
+	}
+}
+fujiwara_yoshisuke = {
+	name = "Yoshisuke"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	811.1.1 = { # date unknown
+		birth = yes
+	}
+	877.1.1 = { # date unknown
 		death = yes
 	}
 }
@@ -3475,11 +3524,54 @@ fujiwara_yoshimi = {
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
+	trait = humble
+	trait = brave
+	trait = temperate
 	father = fujiwara_fuyutsugu
+	mother = fujiwara_mitsuko
 	813.1.1 = {
 		birth = yes
 	}
 	867.11.6 = {
+		death = yes
+	}
+}
+fujiwara_yoshikado = {
+	name = "Yoshikado"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	816.1.1 = { # date unknown
+		birth = yes
+	}
+	870.1.1 = { # date unknown
+		death = yes
+	}
+}
+fujiwara_yoshihito = {
+	name = "Yoshihito"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	819.1.1 = {
+		birth = yes
+	}
+	860.8.24 = {
+		death = yes
+	}
+}
+fujiwara_yoshiyo = {
+	name = "Yoshiyo"
+	dynasty = 40000001
+	religion = shinto
+	culture = yamato
+	father = fujiwara_fuyutsugu
+	823.1.1 = {
+		birth = yes
+	}
+	900.12.12 = {
 		death = yes
 	}
 }
@@ -3502,6 +3594,7 @@ fujiwara_yoshimi = {
 	trait = intellect_good_2
 	disallow_random_traits = yes
 	father = fujiwara_fuyutsugu
+	mother = fujiwara_mitsuko
 	804.1.1 = {
 		birth = yes
 	}
@@ -3567,6 +3660,7 @@ fujiwara_nakahira = {
 		birth = yes
 	}
 	945.1.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	945.10.13 = {
@@ -3768,7 +3862,7 @@ fujiwara_michikane = {
 fujiwara_michinaga = {
 	name = "Michinaga"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = brave
 	trait = temperate
@@ -3799,7 +3893,7 @@ fujiwara_shoshi = {
 	name = "Shōshi"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -3813,7 +3907,7 @@ fujiwara_shoshi = {
 fujiwara_yorimichi = {
 	name = "Yorimichi"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -3824,6 +3918,7 @@ fujiwara_yorimichi = {
 		add_spouse = yamato_takahime
 	}
 	1072.1.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1074.3.2 = {
@@ -3833,7 +3928,7 @@ fujiwara_yorimichi = {
 fujiwara_michifusa = {
 	name = "Michifusa"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3847,7 +3942,7 @@ fujiwara_michifusa = {
 fujiwara_toshitsuna = {
 	name = "Toshitsuna"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3861,7 +3956,7 @@ fujiwara_toshitsuna = {
 fujiwara_kakuen = {
 	name = "Kakuen"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3869,6 +3964,7 @@ fujiwara_kakuen = {
 		birth = yes
 	}
 	1054.1.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1098.5.19 = {
@@ -3878,7 +3974,7 @@ fujiwara_kakuen = {
 fujiwara_sadatsuna = {
 	name = "Sadatsuna"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3893,7 +3989,7 @@ fujiwara_hiroko = {
 	name = "Hiroko" #aka Kanshi
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = infertile
 	trait = child_of_concubine_female
@@ -3902,6 +3998,7 @@ fujiwara_hiroko = {
 		birth = yes
 	}
 	1068.6.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1127.9.30 = {
@@ -3911,7 +4008,7 @@ fujiwara_hiroko = {
 fujiwara_tadatsuna = {
 	name = "Tadatsuna"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3925,7 +4022,7 @@ fujiwara_tadatsuna = {
 fujiwara_morozane = {
 	name = "Morozane"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_yorimichi
@@ -3939,7 +4036,7 @@ fujiwara_morozane = {
 fujiwara_yorimune = {
 	name = "Yorimune"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_michinaga
@@ -3949,6 +4046,7 @@ fujiwara_yorimune = {
 	}
 	1065.1.1 = {
 		trait = ill
+		religion = zenzong
 		trait = devoted
 	}
 	1065.3.12 = {
@@ -3958,7 +4056,7 @@ fujiwara_yorimune = {
 fujiwara_akinobu = {
 	name = "Akinobu"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_michinaga
@@ -3967,6 +4065,7 @@ fujiwara_akinobu = {
 		birth = yes
 	}
 	1012.2.19 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1027.6.20 = {
@@ -3977,7 +4076,7 @@ fujiwara_kenshi = {
 	name = "Kenshi"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -3991,7 +4090,7 @@ fujiwara_kenshi = {
 fujiwara_yoshinobu = {
 	name = "Yoshinobu"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_michinaga
@@ -4006,7 +4105,7 @@ fujiwara_yoshinobu = {
 fujiwara_norimichi = {
 	name = "Norimichi"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -4021,7 +4120,7 @@ fujiwara_yoshiko = {
 	name = "Kanshi" #aka Yoshiko
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = beauty_good_3
 	father = fujiwara_norimichi
@@ -4032,6 +4131,7 @@ fujiwara_yoshiko = {
 		trait = celibate
 		trait = reclusive
 		trait = zealous
+		religion = zenzong
 	}
 	1077.1.1 = {
 		trait = devoted
@@ -4047,7 +4147,7 @@ fujiwara_kanshi = {
 	name = "Kanshi"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_female
 	father = fujiwara_michinaga
@@ -4063,7 +4163,7 @@ fujiwara_ishi = {
 	name = "Ishi"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -4078,7 +4178,7 @@ fujiwara_takako = {
 	name = "Takako"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_female
 	father = fujiwara_michinaga
@@ -4093,7 +4193,7 @@ fujiwara_takako = {
 fujiwara_nagaie = {
 	name = "Nagaie"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = poet
 	trait = child_of_concubine_male
@@ -4103,6 +4203,7 @@ fujiwara_nagaie = {
 		birth = yes
 	}
 	1064.12.5 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1064.12.19 = {
@@ -4113,7 +4214,7 @@ fujiwara_kishi = {
 	name = "Kishi"
 	female = yes
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	father = fujiwara_michinaga
 	mother = minamoto_rinshi
@@ -4127,7 +4228,7 @@ fujiwara_kishi = {
 fujiwara_choshin = {
 	name = "Chōshin"
 	dynasty = 40000001
-	religion = zenzong
+	religion = shinto # actually buddhist
 	culture = yamato
 	trait = child_of_concubine_male
 	father = fujiwara_michinaga
@@ -4136,6 +4237,7 @@ fujiwara_choshin = {
 		birth = yes
 	}
 	1047.1.1 = {
+		religion = zenzong
 		trait = devoted
 	}
 	1072.11.12 = {
@@ -4599,15 +4701,18 @@ taira_shigemori = {
 	}
 }
 taira_koremori = {
-	name = "Tadamori"
+	name = "Koremori"
 	dynasty = 40000201
 	religion = mahayana
 	culture = yamato
 	trait = poet
-	trait = devoted
-	father = taira_kiyomori
+	father = taira_shigemori
 	1158.1.1 = {
 		birth = yes
+	}
+	1184.2.20 = {
+		religion = zenzong
+		trait = devoted
 	}
 	1184.5.10 = {
 		death = yes
@@ -4636,6 +4741,20 @@ taira_chikazane = {
 		birth = yes
 	}
 	1225.1.1 = {
+		death = yes
+	}
+}
+taira_motomori = {
+	name = "Munemori"
+	dynasty = 40000201
+	religion = shinto
+	culture = yamato
+	trait = brave
+	father = taira_kiyomori
+	1139.1.1 = {
+		birth = yes
+	}
+	1162.5.2 = {
 		death = yes
 	}
 }
@@ -4671,16 +4790,19 @@ taira_tomomori = {
 		}
 	}
 }
-taira_tokuko = {
-	name = "Tokuko"
+taira_tokushi = {
+	name = "Tokushi"
 	female = yes
 	dynasty = 40000201
 	religion = mahayana
 	culture = yamato
-	trait = devoted
 	father = taira_kiyomori
 	1155.1.1 = {
 		birth = yes
+	}
+	1185.1.1 = {
+		religion = zenzong
+		trait = devoted
 	}
 	1214.1.25 = {
 		death = yes
@@ -4969,7 +5091,7 @@ minamoto_yoshiari = {
 		birth = yes
 	}
 	867.1.1 = {
-		add_spouse = fujiwara_moshi
+		add_spouse = fujiwara_shigeko
 	}
 	897.7.11 = {
 		death = yes
@@ -5610,11 +5732,24 @@ ki_imamori = {
 	religion = shinto
 	culture = yamato
 	trait = administrator
-	father = ki_hirona
+	father = ki_mahito
 	790.1.1 = { # date unkown
 		birth = yes
 	}
 	872.5.10 = {
+		death = yes
+	}
+}
+ki_kazushi = {
+	name = "Kazushi"
+	dynasty = 40000220
+	religion = shinto
+	culture = yamato
+	father = ki_imamori
+	825.1.1 = { # date unkown
+		birth = yes
+	}
+	900.1.1 = { # date unkown
 		death = yes
 	}
 }

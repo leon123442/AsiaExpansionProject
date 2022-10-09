@@ -1,9 +1,10 @@
 ﻿l_german:
 
- e_nippon_character:0 "Kampaku"
+ e_nippon_character:0 "Shōgun"
  japanese_empire_character_male:0 "Kōtei"
  japanese_empire_character_female:0 "Kōgō"
- k_yamato_character:0 "Sesshō"
+ k_yamato_character:0 "Regent"
+ k_yamato_title:0 "Empire"
  japanese_king_character_male:0 "Ō"
  japanese_king_character_female:0 "Joō"
  japanese_region_title:0 "Chihō"

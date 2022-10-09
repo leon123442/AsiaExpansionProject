@@ -1318,18 +1318,18 @@ e_nippon = { #nippon
 	color1=white
 	colored_emblem={
 		color1=red
-		texture="ce_circle_mask.dds"
-		instance={ position = { 0.5 0.44 } scale={ 0.510000 0.510000 } }
+		texture="kyokujitsuki.dds"
+		instance={ position = { 0.5 0.44 } }
 	}
 }
 
 k_yamato = { #Yamato
-	pattern = "pattern_solid.dds"	
-	color1 = "red"
-	colored_emblem = {
-		texture = "ce_h_yamato.dds"
-		color1 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		color1=red
+		texture="ce_circle_mask.dds"
+		instance={ position = { 0.5 0.44 } scale={ 0.510000 0.510000 } }
 	}
 }
 

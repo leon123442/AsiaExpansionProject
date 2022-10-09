@@ -13490,7 +13490,7 @@ e_nippon = {
 	}
 
 	k_yamato = {
-		color = { 80 134 103 }
+		color = { 255 25 25 } 
 		color2 = { 255 255 255 }
 
 		capital = c_yamashiro
