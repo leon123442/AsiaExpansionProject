@@ -2,8 +2,8 @@
 # History database id:1600001
 bookmark_far_east_japan={
 	type=male
-	id=6386
-	age=0.630000
+	id=6613
+	age=0.621739
 	genes={ 		hair_color={ 75 239 121 244 }
  		skin_color={ 195 96 184 98 }
  		eye_color={ 59 245 37 253 }
@@ -96,9 +96,9 @@ bookmark_far_east_japan={
  		expression_other={ "cheek_wrinkles_both_01" 0 "cheek_wrinkles_both_01" 0 }
  		complexion={ "complexion_7" 157 "complexion_4" 142 }
  		gene_height={ "normal_height" 117 "normal_height" 114 }
- 		gene_bs_body_type={ "body_fat_head_fat_medium" 137 "body_fat_head_fat_medium" 123 }
- 		gene_bs_body_shape={ "body_shape_average_clothed" 90 "body_shape_average" 0 }
- 		gene_bs_bust={ "bust_clothes" 115 "bust_shape_3_half" 73 }
+ 		gene_bs_body_type={ "body_fat_head_fat_medium" 150 "body_fat_head_fat_medium" 123 }
+ 		gene_bs_body_shape={ "body_shape_average" 151 "body_shape_average" 0 }
+ 		gene_bs_bust={ "bust_clothes" 92 "bust_shape_3_half" 73 }
  		gene_age={ "old_3" 100 "old_3" 178 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 190 "far_spacing_lower_thickness" 244 }
  		gene_eyebrows_fullness={ "layer_2_high_thickness" 146 "layer_2_high_thickness" 182 }
@@ -109,20 +109,13 @@ bookmark_far_east_japan={
  		teeth_accessory={ "normal_teeth" 0 "normal_teeth" 0 }
  		eyelashes_accessory={ "normal_eyelashes" 216 "normal_eyelashes" 216 }
  		pose={ "" 255 "" 0 }
- 		beards={ "steppe_beards_straight" 128 "no_beard" 0 }
- 		clothes={ "japanese_high_nobility_clothes" 127 "most_clothes" 0 }
- 		hairstyles={ "japanese_hairstyles_straight" 123 "all_hairstyles" 0 }
- 		headgear={ "no_headgear" 255 "no_headgear" 0 }
- 		legwear={ "japanese_war_legwear" 10 "all_legwear" 0 }
+ 		beards={ "no_beard" 28 "no_beard" 0 }
+ 		clothes={ "japanese_high_nobility_clothes" 108 "most_clothes" 0 }
+ 		hairstyles={ "japanese_hairstyles_straight" 176 "all_hairstyles" 0 }
+ 		headgear={ "no_headgear" 28 "no_headgear" 0 }
+ 		legwear={ "japanese_war_legwear" 88 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  }
-	override={
-		portrait_modifier_overrides={
-			custom_headgear=male_empty
-			custom_clothes=male_clothes_kimono_samurai_01_high
-		}
-	}
-
 	entity={ 979141817 979141817 }
 }
 

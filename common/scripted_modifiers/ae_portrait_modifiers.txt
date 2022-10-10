@@ -1,4 +1,4 @@
-﻿portrait_austronesian_clothing_modifier = {
+portrait_austronesian_clothing_modifier = {
 	modifier = {
 		add = 50
         portrait_austronesian_clothing_trigger = yes
@@ -16,3 +16,10 @@ portrait_clean_shaven_clothing_modifier = {
 #######################
 ###### Han Chinese #######
 #######################
+
+portrait_chinese_clothing_modifier = {
+	modifier = {
+		add = 50
+        portrait_chinese_clothing_trigger = yes
+	}
+}

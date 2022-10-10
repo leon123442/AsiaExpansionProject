@@ -1,4 +1,4 @@
-﻿
+
 special_genes = {
 
 
@@ -1093,9 +1093,9 @@ special_genes = {
 
 			special_hairstyles = {
 				index = 42
-				male = { 
-					1 = male_hair_special_01 
-				}		   
+				male = {
+					1 = male_hair_special_01
+				}
 				female = {
 					1 = female_hair_sub_saharan_02
 				}
@@ -1125,44 +1125,45 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
+
 			### JAPANESE HAIRSTYLES ###
 
 			japanese_hairstyles_straight = {
-				index = 44
+				index = 60
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
-
+					3 = male_hair_chinese_01
 				}
 
 				female = {
 					3 = female_hair_western_05
-
+					3 = female_hair_chinese_02
 				}
 				boy = male
 				girl = female
 			}
 
 			japanese_hairstyles_wavy = {
-				index = 45
+				index = 61
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					3 = male_hair_indian_03
-
+					3 = male_hair_chinese_01
 				}
 
 				female = {
 					3 = female_hair_steppe_01 # Twin braids with ribbons and earrings
 					3 = female_hair_steppe_02 # Tight with twin braids rolled up into two balls, earrings
 					5 = female_hair_western_05
+					5 = female_hair_chinese_02
 				}
 				boy = male
 				girl = female
 			}
 
 			japanese_hairstyles_curly = {
-				index = 46
+				index = 62
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					2 = male_hair_mena_04 # Medium curly
@@ -1178,7 +1179,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_afro = {
-				index = 47
+				index = 63
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
@@ -1195,7 +1196,7 @@ special_genes = {
 			}
 
 			ainu_hairstyles = {
-				index = 48
+				index = 64
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_northern_02
@@ -1218,8 +1219,78 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			
+			#### CHINESE HAIRSTYLES from CHINESE CLOTHING MOD ####
+			chinese_hairstyles_straight = {
+				index = 65
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
+
+			chinese_hairstyles_wavy = {
+				index = 66
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+					boy = male
+					girl = female
+			}
+
+			chinese_hairstyles_curly = {
+				index = 67
+				male = {
+					1 = male_hair_chinese_01
+					
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
+			
+			chinese_hairstyles_afro = {
+				index = 68
+				male = {
+					1 = male_hair_chinese_01
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
 		}
-
 	}
-
 }
