@@ -253,6 +253,9 @@ d_biansong = {
 	866.1.1 = {
 		holder = 5100102
 	}
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
 }
 c_bianzhou = {
 	867.1.1 = { change_development_level = 18 }
@@ -1106,6 +1109,12 @@ k_zhou = {
     1066.1.1 = { change_development_level = 25 }
 }
 d_heluo = {
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+	873.8.15 = {
+		holder = 0
+	}
 	867.1.1 = { change_development_level = 12 }
     1066.1.1 = { change_development_level = 18 }
 }

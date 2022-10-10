@@ -113,7 +113,7 @@ d_buyeo = {
 		liege = "k_balhae"
 	} 	
 	866.1.1 = {
-		government = feudal_government
+		government = tribal_government
 		holder = 120000004
 	}
 	867.1.1 = { change_development_level = 5 }
@@ -273,7 +273,7 @@ d_gewu = {
 		liege = "k_balhae"
 	} 
 	866.1.1 = {
-		government = feudal_government
+		government = tribal_government
 		holder = 120000003
 	}
 	867.1.1 = { change_development_level = 5 }

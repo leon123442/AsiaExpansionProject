@@ -10,20 +10,11 @@
 		religion = nestorian
 	}
 }
-
 #b_Lanrhaelun
-10841 = {
-
-
-	holding = none
-}
-
-
+10841 = { holding = none }
 #b_Shalantu
-10843 = {
+10843 = { holding = none }
 
-	holding = none
-}
 
 
 #d_karat #哈老徒/贺兰
@@ -37,14 +28,8 @@
 		culture = kerait
 	}	
 }
-
 #b_BurchCliff 
-10835 = {
-
-
-	holding = none
-}
-
+10835 = { holding = none }
 #b_Salianchuan
 10837 = {
     culture = tataric
@@ -60,20 +45,14 @@
 	holding = tribal_holding
 	907.1.1 = {
 		culture = kerait
-	}	
+	}
 }
-
 #b_UlanNor
-10839 = {
- 
-
-	holding = none
-}
-
+10839 = { holding = none }
 #b_Quxuewur 
-10840 = {
-	holding = none
-}
+10840 = { holding = none }
+
+
 
 #d_khiyat 金微
 #c_jinwei #金微
@@ -82,24 +61,14 @@
     culture = khamag
 	religion = tengri_pagan 
 	holding = tribal_holding
-		907.1.1 = {
-			culture = kerait
-		}	
-	
+	907.1.1 = {
+		culture = kerait
 	}
+}
 #b_Khumarkhan
-10834 = {
- 
-
-	holding = tribal_holding
-}
-
+10834 = { holding = tribal_holding }
 #b_Nartushtu
-10831 = {
- 
-
-	holding = none
-}
+10831 = { holding = none }
 
 #c_Horhnajubur
 #b_Horhnajubur
@@ -107,17 +76,14 @@
     culture = khamag
 	religion = tengri_pagan 
 	holding = tribal_holding
-		907.1.1 = {
-			culture = mongol
-		}	
-	
+	907.1.1 = {
+		culture = mongol
 	}
-#b_UrjaRiver
-10832 = {
- 
-
-	holding = none
 }
+#b_UrjaRiver
+10832 = { holding = none }
+
+
 
 #d_Luju 龙驹
 #c_khatan #回鹘可敦城
@@ -134,17 +100,9 @@
 	holding = tribal_holding
 }
 #b_Joba
-10852 = {
- 
-
-	holding = none
-}
+10852 = { holding = none }
 #b_Harstinnsom
-10854 = {
- 
-
-	holding = none
-}
+10854 = { holding = none }
 
 #c_luqu_valley			
 #b_Taran #塔懒
@@ -152,26 +110,15 @@
     culture = tataric
 	religion = tengri_pagan 
 	holding = tribal_holding
-	
 }
 #b_Pibeihe
-10845 = {
- 
-	holding = tribal_holding
-}
-
+10845 = { holding = tribal_holding }
 #b_Kukucher
-10849 = {
-
-	holding = none
-}
-
+10849 = { holding = none }
 #b_Jurgtu
-10856 = {
- 
+10856 = { holding = none }
 
-	holding = none
-}
+
 
 #d_teriqan #窴颜
 #c_teriqan #帖里干
@@ -182,11 +129,7 @@
 	holding = tribal_holding
 }
 #b_Dalaiblak
-10848 = {
- 
-	
-	holding = none
-}
+10848 = { holding = none }
 #b_Manglai_Hulusutaichahan
 10851 = {
 	culture = tataric
@@ -194,11 +137,9 @@
 	holding = tribal_holding
 }
 #b_Ulabayan
-10855 = {
- 
+10855 = { holding = none }
 
-	holding = none
-}
+
 
 #d_onon #斡难
 #c_kirluk #鸡鹿
@@ -206,22 +147,13 @@
 10829 = {
     culture = khamag
 	religion = tengri_pagan 
-		holding = tribal_holding
-	
-	}
+	holding = tribal_holding
+}
 #b_Dahur
-10825 = {
- 
-
-	holding = tribal_holding
-}
+10825 = { holding = tribal_holding }
 #b_Chirkh
-10818 = {
- 
+10818 = { holding = tribal_holding }
 
-	holding = tribal_holding
-}
-			
 #c_onon
 #b_Enan
 10824 = {
@@ -230,41 +162,24 @@
 	holding = tribal_holding
 }
 #b_Derompant
-10828 = {
- 
-	
-	holding = none
-}
+10828 = { holding = none }
 #b_Oriauturs
-10826 = {
- 
-
-	holding = none
-}
-
+10826 = { holding = none }
 
 #c_julop #烛龙
 #b_Amyid
 10817 = {
     culture = khamag
 	religion = tengri_pagan 
-		holding = tribal_holding
-	
-	}
-#b_Nertschin
-10816 = {
- 
-
-	holding = none
-}
-#b_Chorna
-10815 = {
- 
-
 	holding = tribal_holding
 }
+#b_Nertschin
+10816 = { holding = none }
+#b_Chorna
+10815 = { holding = tribal_holding }
 
-		
+
+
 #d_holon #呼伦
 #c_holonnor #呼伦/俱轮
 #b_Jumgu
@@ -273,34 +188,19 @@
 		culture = tataric
 		religion = tengri_pagan 
 		holding = tribal_holding
-		}	
+	}	
 	907.1.1 = {
 		culture = mongol
-		}		
-	
+	}
 }
 #b_Ersu
-10801 = {
-	
-	holding = tribal_holding
-}
+10801 = { holding = tribal_holding }
 #b_Jingbian_Liao
-10803 = {
-	
-	holding = none
-}
+10803 = { holding = none }
 #b_HolonNor
-10805 = {
- 
-	
-	holding = tribal_holding
-}
+10805 = { holding = tribal_holding }
 #b_TarLake
-10833 = {
- 
-	
-	holding = none
-}
+10833 = { holding = none }
 
 #c_buyur #捕鱼儿海
 #b_BuyurLake
@@ -312,23 +212,13 @@
 	}
 }
 #b_HelaRiver
-10796 = {
- 
-	
-	holding = tribal_holding
-}
+10796 = { holding = tribal_holding }
 #b_Duoquanzi
-10797 = {
- 
-	
-	holding = tribal_holding
-}
+10797 = { holding = tribal_holding }
 #b_Karanjanshato
-10853 = {
- 
-	
-	holding = none
-}
+10853 = { holding = none }
+
+
 
 #d_argun #幽陵
 #c_argun #额尔古纳
@@ -344,17 +234,9 @@
 	}	
 }
 #b_Borjia
-10823 = {
-
-	
-	holding = tribal_holding
-}
+10823 = { holding = tribal_holding }
 #b_Imu
-10822 = {
-
-	
-	holding = tribal_holding
-}
+10822 = { holding = tribal_holding }
 
 #c_chiya #赤雅
 #b_Chiya
@@ -365,14 +247,76 @@
 	
 	}
 #b_Amazar
-10813 = {
- 
-	
-	holding = none
-}
+10813 = { holding = none }
 #b_Yonganshan
-10814 = {
- 
-	
+10814 = { holding = tribal_holding }
+
+
+
+#d_hejes
+#c_dayan
+#b_Guangjihu_Dayanli
+10638 = {
+	culture = tataric
+	religion = tengri_pagan
 	holding = tribal_holding
+	}
+#b_Yelaishan
+10646 = { holding = none }
+#b_WuluhuiRiver_Tuershan
+10795 = { holding = none }
+#c_sadenor
+#b_Dashuipo_Sadenniao
+10637 = {
+	culture = tataric
+	religion = tengri_pagan
+	holding = tribal_holding
+	}
+#b_Chagannor_South
+10650 = { holding = none }
+#c_wulv	
+#b_Liaobin_Huaiyuan
+10663 = {
+    culture = khitan
+	religion = zenzong
+	holding = tribal_holding
+	916.1.1 = {
+		holding = castle_holding
+	}
 }
+#b_Yiwulvshan_Xianzhou 
+10658 = { holding = church_holding }
+#b_SuizhouShanhe
+10660 = { holding = city_holding }
+
+
+
+#d_changchun
+#c_changchun
+#b_Changchunzhou_Yellowhead
+10792 = {
+	culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
+}
+#b_HunRiver
+10793 = { holding = none }
+#b_TaluRiver
+10790 = { holding = none }
+#c_ningzhou_khitan
+#b_Ningzhou_Ledesjurchen
+10655 = {
+	culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
+}
+#b_Niaotan_Kailu
+10657 = { holding = none }

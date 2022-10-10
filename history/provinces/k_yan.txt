@@ -176,3 +176,35 @@
 
 	holding = none
 }
+
+
+
+#d_liaoxi
+#c_liaoxi 
+#b_Liaoxizhou_Changqing
+10661 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan 
+	}
+}	
+#b_Yizhou_Yanjun
+10659 = { holding = church_holding }
+#b_Ruluo_Yongle
+10662 = { holding = city_holding }
+#c_yingzhou_liaoxi
+#b_LiuchengYingzhou
+10642 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan 
+	}
+}
+#b_Bailangshan
+10641 = { holding = none }
+#b_Yuguan_Shanhaiguan
+10619 = { holding = castle_holding }
