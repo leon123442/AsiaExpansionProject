@@ -75,7 +75,7 @@ c_tongzhou_bohai = {
 	866.1.1 = {
 		holder = 120000001
 	} 
-	867.1.1 = { change_development_level = 5 }
+	867.1.1 = { change_development_level = 7 }
     1066.1.1 = { change_development_level = 10 }
 }
 c_mudan = {
@@ -129,12 +129,14 @@ c_changling = {
 	866.1.1 = {
 		holder = 120000004
 	}
+	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
 }
 c_fuyu = {
 	866.1.1 = {
 		holder = 120000004
 	}
+	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
 }
 c_huanglong = {
@@ -176,7 +178,7 @@ c_achu = {
 	866.1.1 = {
 		holder = achu_placeholder_001
 	}
-	1066.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 12 }
 }
 c_dargu = {
 	865.1.1={
@@ -185,7 +187,7 @@ c_dargu = {
 	866.1.1 = {
 		holder = dargu_placeholder_001
 	}
-	1066.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 10 }
 }
 d_sumo = {
 	916.1.1 = {
@@ -203,13 +205,13 @@ c_sumozhou = {
 		holder = sumozhou_placeholder_001
 	} 
 	867.1.1 = { change_development_level = 3 }
-	1066.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 10 }
 }
 c_baishan = {
 	866.1.1 = {
 		holder = 120000001
 	} 
-	867.1.1 = { change_development_level = 5 }
+	867.1.1 = { change_development_level = 7 }
     1066.1.1 = { change_development_level = 10 }
 }
 c_xianzhou_sumo = {
@@ -289,6 +291,7 @@ c_yalu = {
 	866.1.1 = {
 		holder = 120000003
 	}
+	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
 }
 c_hwando = {

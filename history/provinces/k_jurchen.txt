@@ -32,8 +32,9 @@
 10714 = {
     culture = balhae
 	religion = shaman 
-	holding = tribal_holding
+	holding = castle_holding
 	916.1.1 = { 
+		holding = tribal_holding
 		culture = jurchen
 	}	
 }
@@ -315,9 +316,10 @@
 10706 = {
     culture = balhae
 	religion = shaman
-	holding = tribal_holding
+	holding = castle_holding
 	special_building = changbaishenmiao_1
 	916.1.1 = { 
+		holding = tribal_holding
 		culture = jurchen
 	}
 }
@@ -380,7 +382,6 @@
 	holding = castle_holding
 	916.1.1 = { 
 		culture = balhae 
-		religion = shaman
 	}
 }
 #b_Baiyacheng
@@ -405,7 +406,7 @@
 	holding = castle_holding
 	916.1.1 = { 
 		culture = jurchen
-		religion = shaman
+		religion = zenzong
 	}
 }
 #b_Jiananzhou 
@@ -421,7 +422,7 @@
 	holding = castle_holding
 	916.1.1 = { 
 		culture = jurchen
-		religion = shaman
+		religion = zenzong
 	}
 }
 #b_Beishacheng 
@@ -437,7 +438,7 @@
 	holding = castle_holding
 	916.1.1 = { 
 		culture = jurchen
-		religion = shaman
+		religion = zenzong
 	}
 }
 #b_Shicheng_Shirenzhu 
@@ -456,8 +457,8 @@
 	culture = balhae
 	religion = shaman
 	holding = tribal_holding
-	916.1.1 = {
-		culture = jurchen
+	916.1.1 = { 
+		culture = jurchen 
 	}
 }
 #b_XinzhouWucjurcheng
@@ -488,8 +489,8 @@
 	culture = balhae
 	religion = shaman
 	holding = tribal_holding
-	916.1.1 = {
-		culture = jurchen
+	916.1.1 = { 
+		culture = jurchen 
 	}
 }
 #b_Changling

@@ -545,6 +545,9 @@ c_yamashiro = {
 	}
 }
 c_yamato = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
 	-661.2.11 = { # 660 BC
 		holder = jimmu_tenno
 	}
@@ -932,9 +935,6 @@ c_aki = {
 	}
 }
 c_nagato = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
-	
 	867.1.1 = {
 		holder = fujiwara_yasumine
 		liege = "d_sanyo"
@@ -946,8 +946,8 @@ c_nagato = {
 
 # Hokurikudo
 d_hokuriku = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
 	
 	866.1.1 = {
 		holder = fujiwara_yoshimi # Ahistoric
@@ -964,9 +964,6 @@ d_hokuriku = {
 	}
 }
 c_echizen = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-	
 	866.1.1 = {
 		holder = minamoto_yoshiari # 加賀守
 		liege = "d_hokuriku"
@@ -997,8 +994,8 @@ c_echigo = {
 
 # Saikaido
 d_saikai = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
 	
 	740.9.1 = {
 		holder = fujiwara_hirotsugu
@@ -1061,9 +1058,6 @@ c_tsukushi = {
 	}
 }
 c_butsu = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-	
 	860.1.1 = {
 		holder = funya_masuyoshi # 豊前守 Anachronistic
 	}
@@ -1075,9 +1069,6 @@ c_butsu = {
 	}
 }
 c_hizen = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-	
 	867.1.1 = {
 		holder = fujiwara_yokazu # Ahistoric, Father was Governor
 		liege = "d_saikai"
@@ -1087,6 +1078,9 @@ c_hizen = {
 	}
 }
 c_hyuga = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
 	867.1.1 = {
 		holder = taira_takamochi # Ahistoric
 	}
@@ -1164,8 +1158,8 @@ c_tanba = {
 
 # Nankaido
 d_nankai = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
 	
 	865.1.1 = {
 		holder = 1600005
@@ -1191,9 +1185,6 @@ c_kii = {
 	}
 }
 c_awa = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-	
 	866.1.1 = {
 		holder = kiyohara_akio
 		liege = "d_nankai"
@@ -1203,9 +1194,6 @@ c_awa = {
 	}
 }
 c_sanuki = {
-	867.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-	
 	866.1.1 = {
 		holder = fujiwara_arisada
 		liege = "d_nankai"
@@ -1223,6 +1211,9 @@ c_iyo = {
 	}
 }
 c_tosa = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 14 }
+	
 	860.1.1 = {
 		holder = tachibana_tokieda # Anachronistic
 	}
@@ -1254,6 +1245,9 @@ d_kanto = {
 	}
 }
 c_musashi = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
 	867.1.1 = {
 		holder = minamoto_ikeru # Ahistoric
 	}
@@ -1262,6 +1256,9 @@ c_musashi = {
 	}
 }
 c_kazusa = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
 	863.1.1 = {
 		holder = funya_arizane
 	}
@@ -1304,9 +1301,6 @@ c_kozuke = {
 	}
 }
 c_shimotsuke = {
-	867.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 14 }
-	
 	867.1.1 = {
 		holder = ki_aritsune
 		liege = "d_kanto"

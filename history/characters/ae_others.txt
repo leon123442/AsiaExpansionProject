@@ -302,6 +302,7 @@ tagalog006 = { # Tulay
 	}
 }
 ## Eastern Steppe
+
 4550008 = {
 	name = "Murong" #Fictional ruler of the Kumo Xi
 	dynasty = 46600008
@@ -338,7 +339,8 @@ tagalog006 = { # Tulay
 		death = yes
 	}
 }
-## Placeholders
+## Japan
+
 teshio_placeholder_001 = {
 	name = "Toshiyakui"
 	dna = toshiyakui_the_mishihase_dna
@@ -412,6 +414,9 @@ rikugo_placeholder_002 = {
 		death = yes
 	}
 }
+
+## Mohe
+
 helan_placeholder_001 = {
 	name = "Wuge"
 	religion = shaman
@@ -514,7 +519,7 @@ anyuan_placeholder_001 = {
 udger_placeholder_001 = {
 	name = "Wæuanjæ"
 	religion = shaman
-	culture = jurchen
+	culture = mohese
 	814.1.1 = {
 		birth = yes
 	}
@@ -525,7 +530,7 @@ udger_placeholder_001 = {
 achu_placeholder_001 = {
 	name = "Aišïha"
 	religion = shaman
-	culture = jurchen
+	culture = mohese
 	845.1.1 = {
 		birth = yes
 	}
@@ -536,7 +541,7 @@ achu_placeholder_001 = {
 dargu_placeholder_001 = {
 	name = "Sagezhou"
 	religion = shaman
-	culture = jurchen
+	culture = mohese
 	813.1.1 = {
 		birth = yes
 	}
@@ -547,7 +552,7 @@ dargu_placeholder_001 = {
 sumozhou_placeholder_001 = {
 	name = "Hushahu"
 	religion = shaman
-	culture = jurchen
+	culture = mohese
 	837.1.1 = {
 		birth = yes
 	}
@@ -558,7 +563,7 @@ sumozhou_placeholder_001 = {
 huanglong_placeholder_001 = {
 	name = "Tege"
 	religion = shaman
-	culture = jurchen
+	culture = mohese
 	835.1.1 = {
 		birth = yes
 	}
@@ -566,6 +571,8 @@ huanglong_placeholder_001 = {
 		death = yes
 	}
 }
+## Suvarnabhumi
+
 mongnai_placeholder_001 = {
 	name = "Chanthou"
 	religion = pagan

@@ -3451,23 +3451,6 @@ e_mongolia = {
 			}
 		}
 	}
-	
-	k_liao = {  #辽
-		color = { 255 245 235 }
-		color2 = { 255 255 255 }
-		
-		capital = c_liaodong
-
-		ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:khitan
-				}
-				add = @correct_culture_primary_score
-				add = 500
-			}
-		}
-	}
 }
 
 
@@ -4673,24 +4656,6 @@ e_jurchen = {
 			
 			capital = c_yalu
 
-
-			c_hwando = {   #桓都/仓岩州
-				color = { 156 61 50 }
-				color2 = { 255 255 255 }
-				
-				b_Wandushancheng = {
-					province = 10694
-					
-					color = { 156 61 50 }
-					color2 = { 255 255 255 }
-				}
-				b_Heshenggucheng = { 
-					province = 10693
-					
-					color = { 156 61 50 }
-					color2 = { 255 255 255 }
-				}
-			}			
 			c_yalu = {  #鸭绿
 				color = { 150 47 35 }
 				color2 = { 255 255 255 }
@@ -4714,6 +4679,23 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_hwando = {   #桓都/仓岩州
+				color = { 156 61 50 }
+				color2 = { 255 255 255 }
+				
+				b_Wandushancheng = {
+					province = 10694
+					
+					color = { 156 61 50 }
+					color2 = { 255 255 255 }
+				}
+				b_Heshenggucheng = { 
+					province = 10693
+					
+					color = { 156 61 50 }
+					color2 = { 255 255 255 }
+				}
+			}			
 		}
 		
 		d_rangnang = {  #安东/乐浪/平安道
@@ -4840,27 +4822,6 @@ e_jurchen = {
 			
 			capital = c_nanhai_okjeo
 			
-			
-			c_helan = {   #曷懒/合兰
-				color = { 35 85 105 }
-				color2 = { 255 255 255 }
-				
-				
-				b_Helan_Yiligu = { 
-					province = 10759
-					
-					color = { 35 85 105 }
-					color2 = { 255 255 255 }
-					
-				}
-				b_Muzhou_Pengku = { 
-					province = 10713
-					
-					color = { 38 69 77 }
-					color2 = { 255 255 255 }
-					
-				}
-			}
 			c_nanhai_okjeo = {   #南海/南沃沮
 				color = { 45 80 90 }
 				color2 = { 255 255 255 }
@@ -4884,6 +4845,26 @@ e_jurchen = {
 					province = 10760
 					
 					color = { 45 80 90 }
+					color2 = { 255 255 255 }
+					
+				}
+			}
+			c_helan = {   #曷懒/合兰
+				color = { 35 85 105 }
+				color2 = { 255 255 255 }
+				
+				
+				b_Helan_Yiligu = { 
+					province = 10759
+					
+					color = { 35 85 105 }
+					color2 = { 255 255 255 }
+					
+				}
+				b_Muzhou_Pengku = { 
+					province = 10713
+					
+					color = { 38 69 77 }
 					color2 = { 255 255 255 }
 					
 				}
@@ -5071,29 +5052,6 @@ e_jurchen = {
 			
 			capital = c_wanshanzhou
 
-			c_xiongshanzhou = {
-				color = { 70 190 55 }
-				color2 = { 255 255 255 }
-
-				b_gongju_buyeo_sibi = {
-					province = 10892
-
-					color = { 70 190 55 }
-					color2 = { 255 255 255 }
-				}
-				b_chongju = {
-					province = 10891
-
-					color = { 70 190 55 }
-					color2 = { 255 255 255 }
-				}
-				b_sosan = {
-					province = 10893
-
-					color = { 70 190 55 }
-					color2 = { 255 255 255 }
-				}
-			}
 			c_wanshanzhou = {
 				color = { 65 205 40 }
 				color2 = { 255 255 255 }
@@ -5117,6 +5075,29 @@ e_jurchen = {
 					color2 = { 255 255 255 }
 				}
 			}			
+			c_xiongshanzhou = {
+				color = { 70 190 55 }
+				color2 = { 255 255 255 }
+
+				b_gongju_buyeo_sibi = {
+					province = 10892
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+				b_chongju = {
+					province = 10891
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+				b_sosan = {
+					province = 10893
+
+					color = { 70 190 55 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_faluozhou = {
 				color = { 75 185 40 }
 				color2 = { 255 255 255 }
@@ -13030,6 +13011,23 @@ e_celestia = {
 			}
 		}
 	}
+	
+	k_liao = {  #辽
+		color = { 255 245 235 }
+		color2 = { 255 255 255 }
+		
+		capital = c_liaodong
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:khitan
+				}
+				add = @correct_culture_primary_score
+				add = 500
+			}
+		}
+	}
 }
 
 
@@ -13211,6 +13209,66 @@ e_nippon = {
 				name_list_japan = cn_d_nemuro
 			}
 			
+			c_nemuro = {
+				color = { 65 99 98 }
+				color2 = { 255 255 255 }
+				
+				cultural_names = {
+					name_list_japan = cn_c_nemuro
+				}
+
+				b_nemuro= {
+					province = 11201
+
+					color = { 65 99 98 }
+					color2 = { 255 255 255 }
+					
+					cultural_names = {
+						name_list_japan = cn_b_nemuro
+					}
+				}
+				b_chishima= {
+					province = 11373
+
+					color = { 65 99 98 }
+					color2 = { 255 255 255 }
+					
+					cultural_names = {
+						name_list_japan = cn_b_chishima
+					}
+				}
+				b_monbetsu= {
+					province = 11199
+
+					color = { 65 99 98 }
+					color2 = { 255 255 255 }
+					
+					cultural_names = {
+						name_list_japan = cn_b_monbetsu
+					}
+				}
+				b_abashiri= {
+					province = 11187
+
+					color = { 65 99 98 }
+					color2 = { 255 255 255 }
+					
+					cultural_names = {
+						name_list_japan = cn_b_abashiri
+					}
+				}
+				b_etorofu= {
+					province = 11372
+					
+					color = { 65 99 98 }
+					color2 = { 255 255 255 }
+					
+					cultural_names = {
+						name_list_japan = cn_b_etorofu
+					}
+				}
+			}
+			
 			c_teshio = {
 				color = { 77 153 149 }
 				color2 = { 255 255 255 }
@@ -13317,66 +13375,6 @@ e_nippon = {
 					
 					cultural_names = {
 						name_list_japan = cn_b_shihoro
-					}
-				}
-			}
-
-			c_nemuro = {
-				color = { 65 99 98 }
-				color2 = { 255 255 255 }
-				
-				cultural_names = {
-					name_list_japan = cn_c_nemuro
-				}
-
-				b_nemuro= {
-					province = 11201
-
-					color = { 65 99 98 }
-					color2 = { 255 255 255 }
-					
-					cultural_names = {
-						name_list_japan = cn_b_nemuro
-					}
-				}
-				b_chishima= {
-					province = 11373
-
-					color = { 65 99 98 }
-					color2 = { 255 255 255 }
-					
-					cultural_names = {
-						name_list_japan = cn_b_chishima
-					}
-				}
-				b_monbetsu= {
-					province = 11199
-
-					color = { 65 99 98 }
-					color2 = { 255 255 255 }
-					
-					cultural_names = {
-						name_list_japan = cn_b_monbetsu
-					}
-				}
-				b_abashiri= {
-					province = 11187
-
-					color = { 65 99 98 }
-					color2 = { 255 255 255 }
-					
-					cultural_names = {
-						name_list_japan = cn_b_abashiri
-					}
-				}
-				b_etorofu= {
-					province = 11372
-					
-					color = { 65 99 98 }
-					color2 = { 255 255 255 }
-					
-					cultural_names = {
-						name_list_japan = cn_b_etorofu
 					}
 				}
 			}
@@ -13619,9 +13617,27 @@ e_nippon = {
 		d_kanto = {
 			color = { 111 128 147 }
 			color2 = { 255 255 255 }
-
+			
 			capital = c_sagami
+			
+			c_sagami = {
+				color = { 137 140 121 }
+				color2 = { 255 255 255 }
 
+				b_kamakura= {
+					province = 11231
+
+					color = { 137 140 121 }
+					color2 = { 255 255 255 }
+				}
+				b_ashigara= {
+					province = 11232
+
+					color = { 137 140 121 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
 			c_musashi = {
 				color = { 128 122 125 }
 				color2 = { 255 255 255 }
@@ -13660,24 +13676,6 @@ e_nippon = {
 					province = 11296
 
 					color = { 128 122 125 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_sagami = {
-				color = { 137 140 121 }
-				color2 = { 255 255 255 }
-
-				b_kamakura= {
-					province = 11231
-
-					color = { 137 140 121 }
-					color2 = { 255 255 255 }
-				}
-				b_ashigara= {
-					province = 11232
-
-					color = { 137 140 121 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -13824,7 +13822,25 @@ e_nippon = {
 			color = { 133 45 55 }
 			color2 = { 255 255 255 }
 
-			capital = c_ise
+			capital = c_owari
+			
+			c_owari = {
+				color = { 98 150 30 }
+				color2 = { 255 255 255 }
+
+				b_nakashima= {
+					province = 11139
+
+					color = { 98 150 30 }
+					color2 = { 255 255 255 }
+				}
+				b_aichi= {
+					province = 11140
+
+					color = { 98 150 30 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_ise = {
 				color = { 133 45 55 }
@@ -13858,24 +13874,6 @@ e_nippon = {
 					province = 11246
 
 					color = { 133 45 55 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_owari = {
-				color = { 98 150 30 }
-				color2 = { 255 255 255 }
-
-				b_nakashima= {
-					province = 11139
-
-					color = { 98 150 30 }
-					color2 = { 255 255 255 }
-				}
-				b_aichi= {
-					province = 11140
-
-					color = { 98 150 30 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -13965,36 +13963,6 @@ e_nippon = {
 			
 			capital = c_mino
 			
-			c_omi = {
-				color = { 81 214 104 }
-				color2 = { 255 255 255 }
-
-				b_shiga= {
-					province = 11300
-
-					color = { 81 214 104 }
-					color2 = { 255 255 255 }
-				}
-				b_otsu= {
-					province = 11301
-
-					color = { 81 214 104 }
-					color2 = { 255 255 255 }
-				}
-				b_inukami= {
-					province = 11297
-
-					color = { 81 214 104 }
-					color2 = { 255 255 255 }
-				}
-				b_azai= {
-					province = 11298
-
-					color = { 81 214 104 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
 			c_mino = {
 				color = { 117 58 53 }
 				color2 = { 255 255 255 }
@@ -14027,6 +13995,36 @@ e_nippon = {
 					province = 11174
 
 					color = { 117 58 53 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_omi = {
+				color = { 81 214 104 }
+				color2 = { 255 255 255 }
+
+				b_shiga= {
+					province = 11300
+
+					color = { 81 214 104 }
+					color2 = { 255 255 255 }
+				}
+				b_otsu= {
+					province = 11301
+
+					color = { 81 214 104 }
+					color2 = { 255 255 255 }
+				}
+				b_inukami= {
+					province = 11297
+
+					color = { 81 214 104 }
+					color2 = { 255 255 255 }
+				}
+				b_azai= {
+					province = 11298
+
+					color = { 81 214 104 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14078,7 +14076,43 @@ e_nippon = {
 			color = { 178 202 89 }
 			color2 = { 255 255 255 }
 
-			capital = c_echizen
+			capital = c_echigo
+			
+			c_echigo = {
+				color = { 67 38 87 }
+				color2 = { 255 255 255 }
+
+				b_kubiki= {
+					province = 11270
+
+					color = { 67 38 87 }
+					color2 = { 255 255 255 }
+				}
+				b_koshi= {
+					province = 11272
+
+					color = { 67 38 87 }
+					color2 = { 255 255 255 }
+				}
+				b_kanbara= {
+					province = 11269
+
+					color = { 67 38 87 }
+					color2 = { 255 255 255 }
+				}
+				b_iwafune= {
+					province = 11271
+
+					color = { 67 38 87 }
+					color2 = { 255 255 255 }
+				}
+				b_sado= {
+					province = 11273
+
+					color = { 67 38 87 }
+					color2 = { 255 255 255 }
+				}
+			}
 			
 			c_echizen = {
 				color = { 177 201 115 }
@@ -14145,49 +14179,43 @@ e_nippon = {
 					color2 = { 255 255 255 }
 				}
 			}
-
-			c_echigo = {
-				color = { 67 38 87 }
-				color2 = { 255 255 255 }
-
-				b_kubiki= {
-					province = 11270
-
-					color = { 67 38 87 }
-					color2 = { 255 255 255 }
-				}
-				b_koshi= {
-					province = 11272
-
-					color = { 67 38 87 }
-					color2 = { 255 255 255 }
-				}
-				b_kanbara= {
-					province = 11269
-
-					color = { 67 38 87 }
-					color2 = { 255 255 255 }
-				}
-				b_iwafune= {
-					province = 11271
-
-					color = { 67 38 87 }
-					color2 = { 255 255 255 }
-				}
-				b_sado= {
-					province = 11273
-
-					color = { 67 38 87 }
-					color2 = { 255 255 255 }
-				}
-			}
 		}
 
 		d_nankai = {
 			color = { 154 52 95 }
 			color2 = { 255 255 255 }
 
-			capital = c_awa
+			capital = c_iyo
+			
+			c_iyo = {
+				color = { 235 167 108 }
+				color2 = { 255 255 255 }
+
+				b_iyo= {
+					province = 11153
+
+					color = { 235 167 108 }
+					color2 = { 255 255 255 }
+				}
+				b_uwa= {
+					province = 11155
+
+					color = { 235 167 108 }
+					color2 = { 255 255 255 }
+				}
+				b_noma= {
+					province = 11152
+
+					color = { 235 167 108 }
+					color2 = { 255 255 255 }
+				}
+				b_nii= {
+					province = 11154
+
+					color = { 235 167 108 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_kii = {
 				color = { 166 48 64 }
@@ -14215,36 +14243,6 @@ e_nippon = {
 					province = 11211
 
 					color = { 166 48 64 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_iyo = {
-				color = { 235 167 108 }
-				color2 = { 255 255 255 }
-
-				b_iyo= {
-					province = 11153
-
-					color = { 235 167 108 }
-					color2 = { 255 255 255 }
-				}
-				b_uwa= {
-					province = 11155
-
-					color = { 235 167 108 }
-					color2 = { 255 255 255 }
-				}
-				b_noma= {
-					province = 11152
-
-					color = { 235 167 108 }
-					color2 = { 255 255 255 }
-				}
-				b_nii= {
-					province = 11154
-
-					color = { 235 167 108 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14327,6 +14325,42 @@ e_nippon = {
 			color2 = { 255 255 255 }
 
 			capital = c_inaba
+			
+			c_inaba = {
+				color = { 82 47 47 }
+				color2 = { 255 255 255 }
+
+				b_inaba= {
+					province = 11323
+
+					color = { 82 47 47 }
+					color2 = { 255 255 255 }
+				}
+				b_hoki= {
+					province = 11325
+
+					color = { 82 47 47 }
+					color2 = { 255 255 255 }
+				}
+				b_hino= {
+					province = 11324
+
+					color = { 82 47 47 }
+					color2 = { 255 255 255 }
+				}
+				b_izushi= {
+					province = 11215
+
+					color = { 82 47 47 }
+					color2 = { 255 255 255 }
+				}
+				b_mikata= {
+					province = 11213
+
+					color = { 82 47 47 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_tanba = {
 				color = { 37 59 87 }
@@ -14360,42 +14394,6 @@ e_nippon = {
 					province = 11242
 
 					color = { 37 59 87 }
-					color2 = { 255 255 255 }
-				}
-			}
-
-			c_inaba = {
-				color = { 82 47 47 }
-				color2 = { 255 255 255 }
-
-				b_inaba= {
-					province = 11323
-
-					color = { 82 47 47 }
-					color2 = { 255 255 255 }
-				}
-				b_hoki= {
-					province = 11325
-
-					color = { 82 47 47 }
-					color2 = { 255 255 255 }
-				}
-				b_hino= {
-					province = 11324
-
-					color = { 82 47 47 }
-					color2 = { 255 255 255 }
-				}
-				b_izushi= {
-					province = 11215
-
-					color = { 82 47 47 }
-					color2 = { 255 255 255 }
-				}
-				b_mikata= {
-					province = 11213
-
-					color = { 82 47 47 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14442,6 +14440,30 @@ e_nippon = {
 			color2 = { 255 255 255 }
 
 			capital = c_harima
+			
+			c_harima = {
+				color = { 195 169 212 }
+				color2 = { 255 255 255 }
+
+				b_shikama= {
+					province = 11361
+
+					color = { 195 169 212 }
+					color2 = { 255 255 255 }
+				}
+				b_akashi= {
+					province = 11209
+
+					color = { 195 169 212 }
+					color2 = { 255 255 255 }
+				}
+				b_ibo= {
+					province = 11210
+
+					color = { 195 169 212 }
+					color2 = { 255 255 255 }
+				}
+			}
 
 			c_bizen = {
 				color = { 221 237 221 }
@@ -14515,30 +14537,6 @@ e_nippon = {
 				}
 			}
 
-			c_harima = {
-				color = { 195 169 212 }
-				color2 = { 255 255 255 }
-
-				b_shikama= {
-					province = 11361
-
-					color = { 195 169 212 }
-					color2 = { 255 255 255 }
-				}
-				b_akashi= {
-					province = 11209
-
-					color = { 195 169 212 }
-					color2 = { 255 255 255 }
-				}
-				b_ibo= {
-					province = 11210
-
-					color = { 195 169 212 }
-					color2 = { 255 255 255 }
-				}
-			}
-
 			c_aki = {
 				color = { 186 217 108 }
 				color2 = { 255 255 255 }
@@ -14606,36 +14604,6 @@ e_nippon = {
 
 			capital = c_tsukushi
 			
-			c_hyuga = {
-				color = { 82 58 46 }
-				color2 = { 255 255 255 }
-
-				b_koyu= {
-					province = 11257
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_usuki= {
-					province = 11256
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_morokata= {
-					province = 11255
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-				b_miyazaki= {
-					province = 11258
-
-					color = { 82 58 46 }
-					color2 = { 255 255 255 }
-				}
-			}
-
 			c_tsukushi = {
 				color = { 196 194 195 }
 				color2 = { 255 255 255 }
@@ -14668,6 +14636,36 @@ e_nippon = {
 					province = 11164
 
 					color = { 196 194 195 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_hyuga = {
+				color = { 82 58 46 }
+				color2 = { 255 255 255 }
+
+				b_koyu= {
+					province = 11257
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_usuki= {
+					province = 11256
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_morokata= {
+					province = 11255
+
+					color = { 82 58 46 }
+					color2 = { 255 255 255 }
+				}
+				b_miyazaki= {
+					province = 11258
+
+					color = { 82 58 46 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -14841,36 +14839,6 @@ e_nippon = {
 			
 			capital = c_ugo
 			
-			c_uzen_jp = {
-				color = { 118 172 188 }
-				color2 = { 255 255 255 }
-			
-				b_tagawa= {
-					province = 11330
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_murayama= {
-					province = 11332
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_mogami= {
-					province = 11331
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-				b_okitama= {
-					province = 11349
-
-					color = { 156 111 93 }
-					color2 = { 255 255 255 }
-				}
-			}
-			
 			c_ugo = {
 				color = { 138 142 168 }
 				color2 = { 255 255 255 }
@@ -14903,6 +14871,36 @@ e_nippon = {
 					province = 11341
 
 					color = { 79 64 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+			
+			c_uzen_jp = {
+				color = { 118 172 188 }
+				color2 = { 255 255 255 }
+			
+				b_tagawa= {
+					province = 11330
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_murayama= {
+					province = 11332
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_mogami= {
+					province = 11331
+
+					color = { 156 111 93 }
+					color2 = { 255 255 255 }
+				}
+				b_okitama= {
+					province = 11349
+
+					color = { 156 111 93 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -15044,6 +15042,12 @@ e_nippon = {
 				color = { 98 112 158 }
 				color2 = { 255 255 255 }
 
+				b_aizu= {
+					province = 11165
+
+					color = { 49 165 247 }
+					color2 = { 255 255 255 }
+				}
 				b_iwase= {
 					province = 11169
 
@@ -15052,12 +15056,6 @@ e_nippon = {
 				}
 				b_shinobu= {
 					province = 11167
-
-					color = { 49 165 247 }
-					color2 = { 255 255 255 }
-				}
-				b_aizu= {
-					province = 11165
 
 					color = { 49 165 247 }
 					color2 = { 255 255 255 }
