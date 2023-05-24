@@ -68,6 +68,9 @@ sea_zones = RANGE { 11898 11974 }
 river_provinces = RANGE { 11893 11895 }  #Mekong River
 river_provinces = RANGE { 11975 11978 }  #Mekong River
 
+#UNUSED
+impassable_mountains = LIST { 12151 12152 12159 12168 12191 12192 }
+
 #############
 # SEA ZONES
 #############
