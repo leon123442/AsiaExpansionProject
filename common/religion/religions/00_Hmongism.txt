@@ -13,8 +13,8 @@
 	
 
 	#Marriage
-	doctrine = doctrine_monogamy
-	doctrine = doctrine_divorce_disallowed
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_all
 	doctrine = doctrine_consanguinity_cousins
 
@@ -31,6 +31,9 @@
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+	
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
 
 	traits = {
 		virtues = { brave just honest }
@@ -51,6 +54,7 @@
 
 	localization = {
 		HighGodName = hmongism_high_god_name
+		HighGodName2 = hmongism_high_god_name
 		HighGodNamePossessive = hmongism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_SHE
 		HighGodHerselfHimself = CHARACTER_HERSELF
@@ -137,6 +141,8 @@
 
 
 		PantheonTerm = hmongism_mother_earth_father_sky
+		PantheonTerm2 = hmongism_mother_earth_father_sky
+		PantheonTerm3 = hmongism_mother_earth_father_sky
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = { hmongism_high_god_name hmongism_good_god_father_sky hmongism_good_god_ancestors }
 		DevilName = hmongism_devil_name
@@ -146,9 +152,15 @@
 		DevilHerselfHimself = hmongism_devil_herselfhimself
 		EvilGodNames = { hmongism_devil_name hmongism_evil_god_decay }
 		HouseOfWorship = hmongism_house_of_worship
+		HouseOfWorship2 = hmongism_house_of_worship
+		HouseOfWorship3 = hmongism_house_of_worship
 		HouseOfWorshipPlural = hmongism_house_of_worship_plural
 		ReligiousSymbol = hmongism_religious_symbol
+		ReligiousSymbol2 = hmongism_religious_symbol
+		ReligiousSymbol3 = hmongism_religious_symbol
 		ReligiousText = hmongism_religious_text
+		ReligiousText2 = hmongism_religious_text
+		ReligiousText3 = hmongism_religious_text
 		ReligiousHeadName = hmongism_religious_head_title
 		ReligiousHeadTitleName = hmongism_religious_head_title_name
 		DevoteeMale = hmongism_devotee
@@ -157,27 +169,34 @@
 		DevoteeFemalePlural = hmongism_devoteeplural
 		DevoteeNeuter = hmongism_devotee
 		DevoteeNeuterPlural = hmongism_devoteeplural
-		PriestMale = hmongism_priest
-		PriestMalePlural = hmongism_priest_plural
-		PriestFemale = hmongism_priest
-		PriestFemalePlural = hmongism_priest_plural
-		PriestNeuter = hmongism_priest
-		PriestNeuterPlural = hmongism_priest_plural
+		PriestMale = hmongism_priest_male
+		PriestMalePlural = hmongism_priest_male_plural
+		PriestFemale = hmongism_priest_female
+		PriestFemalePlural = hmongism_priest_female_plural
+		PriestNeuter = hmongism_priest_male
+		PriestNeuterPlural = hmongism_priest_male_plural
 		AltPriestTermPlural = hmongism_priest_alternate_plural
-		BishopMale = hmongism_priest
-		BishopMalePlural = hmongism_priest_plural
-		BishopFemale = hmongism_priest
-		BishopFemalePlural = hmongism_priest_plural
-		BishopNeuter = hmongism_priest
-		BishopNeuterPlural = hmongism_priest_plural
+		BishopMale = hmongism_priest_male
+		BishopMalePlural = hmongism_priest_male_plural
+		BishopFemale = hmongism_priest_female
+		BishopFemalePlural = hmongism_priest_female_plural
+		BishopNeuter = hmongism_priest_male
+		BishopNeuterPlural = hmongism_priest_male_plural
 		DivineRealm = hmongism_divine_realm
+		DivineRealm2 = hmongism_divine_realm
+		DivineRealm3 = hmongism_divine_realm
 		PositiveAfterLife = hmongism_divine_realm
+		PositiveAfterLife2 = hmongism_divine_realm
+		PositiveAfterLife3 = hmongism_divine_realm
 		NegativeAfterLife = hmongism_afterlife
+		NegativeAfterLife2 = hmongism_afterlife
+		NegativeAfterLife3 = hmongism_afterlife
 		DeathDeityName = hmongism_death_deity_name
 		DeathDeityNamePossessive = hmongism_death_deity_name_possessive
 		DeathDeitySheHe = hmongism_devil_shehe
 		DeathDeityHerHis = hmongism_death_deity_herhis
 		WitchGodName = witchgodname_hmongism_the_shadow
+		WitchGodNamePossessive = witchgodname_hmongism_the_shadow
 		WitchGodSheHe = CHARACTER_SHEHE_IT
 		WitchGodHerHis = CHARACTER_HERHIS_ITS
 		WitchGodHerHim = CHARACTER_HERHIM_IT
@@ -192,8 +211,8 @@
 
 		hmong = {
 			color = { 0.6 0.3 0.4 }
-			icon = shamanism
-   			reformed_icon = yoruba_reformed
+			icon = hmong
+   			reformed_icon = hmong_reformed
 
 			holy_site = xizhou_qian
            			holy_site = juzhou		

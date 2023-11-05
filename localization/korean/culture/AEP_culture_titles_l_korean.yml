@@ -1,0 +1,841 @@
+﻿l_korean:
+ Barony:0 "현"
+ City:0 "도시"
+ Temple:0 "절"
+ Tribe:0 "부족"
+ Land:0 "땅"
+ 
+### japanese Group ###
+ 
+ # Feudal / Clan
+  baron_feudal_male_japanese_group:0 "조슈"
+  baron_feudal_female_japanese_group:0 "조슈"
+  count_feudal_male_japanese_group:0 "고쿠시"
+  count_feudal_female_japanese_group:0 "고쿠시"
+  count_feudal_male_japanese_group_tohoku:0 "조슈"
+  count_feudal_female_japanese_group_tohoku:0 "조슈"
+  duke_feudal_male_japanese_group:0 "주료고쿠시"
+  duke_feudal_female_japanese_group:0 "주료고쿠시"
+  duke_feudal_male_japanese_group_tohoku:0 "고쿠시"
+  duke_feudal_female_japanese_group_tohoku:0 "고쿠시"
+  duke_feudal_male_japanese_group_yamato_imperial:0 "덴노"
+  duke_feudal_female_japanese_group_yamato_imperial:0 "덴노"
+  king_feudal_male_japanese_group:0 "소토쿠"
+  king_feudal_female_japanese_group:0 "소토쿠"
+  king_feudal_male_japanese_group_independent:0 "왕"
+  king_feudal_female_japanese_group_independent:0 "여왕"
+  king_feudal_male_japanese_group_japan:0 "셋쇼"
+  king_feudal_female_japanese_group_japan:0 "셋쇼"
+  emperor_feudal_male_japanese_group:0 "코테이"
+  emperor_feudal_female_japanese_group:0 "코고"
+  emperor_feudal_male_japanese_group_japan:0 "신노"
+  emperor_feudal_female_japanese_group_japan:0 "신노"
+
+ # Feudal / Clan Titles
+  barony_feudal_japanese_group:0 "코리"
+  county_feudal_japanese_group:0 "쿠니"
+  county_feudal_japanese_group_tohoku:0 "코리"
+  duchy_feudal_japanese_group:0 "도"
+  duchy_feudal_japanese_group_japan:0 "지호"
+  duchy_feudal_japanese_group_tohoku:0 "구니"
+  kingdom_feudal_japanese_group:0 "코쿠"
+  kingdom_feudal_japanese_group_independent:0 "오코쿠"
+  empire_feudal_japanese_group:0 "테이코쿠"
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_japanese_group_yamato_imperial:0 "신노"
+  title_prince_female_japanese_group_yamato_imperial:0 "나이신노"
+  title_prince_male_japanese_group:0 "도노"
+  title_prince_female_japanese_group:0 "히메"
+  title_prince_male_japanese_group_empire:0 "도노"
+  title_prince_female_japanese_group_empire:0 "히메"
+
+ # Spouses
+  title_spouse_female_yamato_imperial:0 "코고"
+  #title_spouse_female_yamato_group:0 "Hime" #姫
+
+####################################################
+
+### Chinese Group ###
+
+ # Feudal / Clan
+  baron_feudal_male_chinese_group:0 "현령"
+  baron_feudal_female_chinese_group:0 "현령"
+  count_feudal_male_chinese_group:0 "태수"
+  count_feudal_female_chinese_group:0 "태수"
+  duke_feudal_male_chinese_group:0 "자사"
+  duke_feudal_female_chinese_group:0 "자사"
+  king_feudal_male_chinese_group:0 "절도사"
+  king_feudal_female_chinese_group:0 "절도사"
+  king_feudal_male_chinese_group_dao_independent:0 "절도사"
+  king_feudal_female_chinese_group_dao_independent:0 "절도사"
+  king_feudal_male_chinese_group_independent:0 "왕"
+  king_feudal_female_chinese_group_independent:0 "여왕"
+  emperor_feudal_male_chinese_group:0 "황제"
+  emperor_feudal_female_chinese_group:0 "황후"
+
+ # Feudal / Clan Titles
+  barony_feudal_chinese_group:0 "구"
+  county_feudal_chinese_group:0 "현"
+  duchy_feudal_chinese_group:0 "주"
+  kingdom_feudal_chinese_group:0 "도"
+  kingdom_feudal_chinese_group_independent:0 "왕국"
+  empire_feudal_chinese_group:0 "제국"
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_chinese_group:0 "공자"
+  title_prince_female_chinese_group:0 "공녀"
+  title_prince_male_chinese_group_empire:0 "친왕"
+  title_prince_female_chinese_group_empire:0 "공후"
+
+ # Spouses
+  #title_spouse_female_chinese_group:0 "Furen" #夫人
+
+####################################################
+
+### Korean Group ###
+
+ # Feudal / Clan
+  baron_feudal_male_korean_group:0 "현령"
+  baron_feudal_female_korean_group:0 "현령"
+  count_feudal_male_korean_group:0 "포국"
+  count_feudal_female_korean_group:0 "포국"
+  duke_feudal_male_korean_group:0 "공"
+  duke_feudal_female_korean_group:0 "공"
+  duke_feudal_male_korean_group_independent:0 "왕"
+  duke_feudal_female_korean_group_independent:0 "여왕"
+  king_feudal_male_korean_group:0 "왕"
+  king_feudal_female_korean_group:0 "여왕"
+  emperor_feudal_male_korean_group:0 "황제"
+  emperor_feudal_female_korean_group:0 "황후"
+
+ # Feudal / Clan Titles
+  barony_feudal_korean_group:0 "현"
+  county_feudal_korean_group:0 "군"
+  duchy_feudal_korean_group:0 "주"
+  duchy_feudal_korean_group_independent:0 "국"
+  kingdom_feudal_korean_group:0 "왕국"
+  empire_feudal_korean_group:0 "제국"
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_korean_group:0 "군"
+  title_prince_female_korean_group:0 "옹주"
+  title_prince_male_korean_group_empire:0 "군"
+  title_prince_female_korean_group_empire:0 "옹주"
+
+ # Spouses
+  #title_spouse_female_korean_group:0 "Sugnyeo" #숙녀/淑女
+
+####################################################
+
+ ### Vietic Group ###
+
+# Feudal / Clan
+  baron_feudal_male_vietnamese_group:0 "남"
+  baron_feudal_female_vietnamese_group:0 "누 남"
+  count_feudal_male_vietnamese_group:0 "바"
+  count_feudal_female_vietnamese_group:0 "누 바"
+  duke_feudal_male_vietnamese_group:0 "콩"
+  duke_feudal_female_vietnamese_group:0 "누 콩"
+  king_feudal_male_vietnamese_group:0 "부옹"
+  king_feudal_female_vietnamese_group:0 "누 부옹"
+  emperor_feudal_male_vietnamese_group:0 "데"
+  emperor_feudal_female_vietnamese_group:0 "누 데"
+
+# Feudal / Clan Titles
+  barony_feudal_vietnamese_group:0 "콴"
+  county_feudal_vietnamese_group:0 "틴"
+  duchy_feudal_vietnamese_group:0 "수"
+  kingdom_feudal_vietnamese_group:0 "부옹 쿠옥"
+  empire_feudal_vietnamese_group:0 "데 쿠옥"
+
+# Princes (children of Kings/Emperors)
+  title_prince_male_vietnamese_group:0 "호앙 투"
+  title_prince_female_vietnamese_group:0 "콩 추아"
+  title_prince_male_vietnamese_group_empire:0 "호앙 투"
+  title_prince_female_vietnamese_group_empire:0 "콩 추아"
+
+ # Spouses
+  #title_spouse_female_vietnamese_group:0 "Quý Bà"
+ 
+####################################################
+ 
+  # Southeast Asia
+
+### Burman Group ###
+
+  ## Burmese (Default) ##
+
+  # Feudal / Clan Rulers
+   baron_feudal_male_burman_group:0 "묘사"
+   baron_feudal_female_burman_group:0 "묘사"
+   count_feudal_male_burman_group:0 "타도"
+   count_feudal_female_burman_group:0 "민메"
+   duke_feudal_male_burman_group:0 "민"
+   duke_feudal_female_burman_group:0 "민데비"
+   king_feudal_male_burman_group:0 "바인"
+   king_feudal_female_burman_group:0 "바인마"
+   emperor_feudal_male_burman_group:0 "세캬와디"
+   emperor_feudal_female_burman_group:0 "세캬와디"
+
+  # Feudal / Clan Titles
+   barony_feudal_burman_group:0 "묘"
+   county_feudal_burman_group:0 "카야잉"
+   duchy_feudal_burman_group:0 "피"
+   kingdom_feudal_burman_group:0 "나이피다우"
+   empire_feudal_burman_group:0 "나잉간다우"
+
+  # Princes (children of Kings/Emperors)
+   title_prince_male_burman_group:0 "민타"
+   title_prince_female_burman_group:0 "민타미"
+   title_prince_male_burman_group_empire:0 "민타"
+   title_prince_female_burman_group_empire:0 "민타미"
+
+####################################################
+
+### Mon-Khmer Group ###
+
+# "Devaraja"? Holy Emperor
+# "Devarani" Wife of the emperor
+
+# Feudal / Clan
+ baron_feudal_male_mon_khmer_group:0 "므차"
+ baron_feudal_female_mon_khmer_group:0 "므차"
+ count_feudal_male_mon_khmer_group:0 "크삿"
+ count_feudal_female_mon_khmer_group:0 "크삿"
+ duke_feudal_male_mon_khmer_group:0 "쿠룽"
+ duke_feudal_female_mon_khmer_group:0 "쿠룽"
+ king_feudal_male_mon_khmer_group:0 "쿰다엥"
+ king_feudal_female_mon_khmer_group:0 "쿰다엥"
+ emperor_feudal_male_mon_khmer_group:0 "황제"
+ emperor_feudal_female_mon_khmer_group:0 "황제"
+
+# Feudal / Clan Titles
+ barony_feudal_mon_khmer_group:0 "반테이"
+ county_feudal_mon_khmer_group:0 "스록"
+ duchy_feudal_mon_khmer_group:0 "켓"
+ kingdom_feudal_mon_khmer_group:0 "레체나착"
+ empire_feudal_mon_khmer_group:0 "제국"
+
+# Princes (children of Kings/Emperors)
+ prince_male_mon_khmer_group:0 "프레앙"
+ prince_female_mon_khmer_group:0 "프레네앙"
+ # champion = Yuttochun
+
+## Khmer ##
+  # Feudal / Clan
+  baron_feudal_male_khmer:0 "므차"
+  baron_feudal_female_khmer:0 "므차"
+  count_feudal_male_khmer:0 "차오바이스로크"
+  count_feudal_female_khmer:0 "차오바이스로크"
+  duke_feudal_male_khmer:0 "쿠룽"
+  duke_feudal_female_khmer:0 "쿠룽"
+  king_feudal_male_khmer:0 "프리아 레체아"
+  king_feudal_female_khmer:0 "프리아 레체아"
+  emperor_feudal_male_khmer:0 "악티리치"
+  emperor_feudal_female_khmer:0 "악티리치"
+
+  # Feudal / Clan Titles
+  barony_feudal_khmer:0 "툭데이"
+  county_feudal_khmer:0 "스록"
+  duchy_feudal_khmer:0 "켓"
+  kingdom_feudal_khmer:0 "프리아 노코르"
+  empire_feudal_khmer:0 "착랍홉"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_khmer:0 "프레앙"
+  prince_female_khmer:0 "프레네앙"
+  title_prince_male_khmer_empire:0 "프레앙"
+  title_prince_female_khmer_empire:0 "프레네앙"
+  # champion = Yuttochun
+
+  # Khmer Empire
+  emperor_male_khmer_empire:0 "차크라바르티"
+  emperor_female_khmer_empire:0 "차크라바르티니"
+
+## Mon ##
+  # Feudal / Clan
+  baron_feudal_male_mon:0 "레익"
+  baron_feudal_female_mon:0 "레익"
+  count_feudal_male_mon:0 "스밈"
+  count_feudal_female_mon:0 "스밈 브라이"
+  duke_feudal_male_mon:0 "빈야"
+  duke_feudal_female_mon:0 "반냐르"
+  king_feudal_male_mon:0 "라자"
+  king_feudal_female_mon:0 "신"
+  emperor_feudal_male_mon:0 "라마드하파티"
+  emperor_feudal_female_mon:0 "라마드하파티"
+
+  # Feudal / Clan Titles
+  barony_feudal_mon:0 "나구에"
+  county_feudal_mon:0 "콰느라흐"
+  duchy_feudal_mon:0 "자나파다"
+  kingdom_feudal_mon:0 "둥그레"
+  empire_feudal_mon:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  title_prince_male_mon:0 "빈야"
+  title_prince_female_mon:0 "반냐르"
+  title_prince_male_mon_empire:0 "빈야"
+  title_prince_female_mon_empire:0 "반냐르"
+  # champion = Sagom
+
+####################################################
+
+### Tai Group ###
+
+  # Feudal / Clan
+  baron_feudal_male_tai_group:0 "타오"
+  baron_feudal_female_tai_group:0 "타오"
+  count_feudal_male_tai_group:0 "쿤"
+  count_feudal_female_tai_group:0 "쿤"
+  duke_feudal_male_tai_group:0 "퍄"
+  duke_feudal_female_tai_group:0 "낭 퍄"
+  king_feudal_male_tai_group:0 "차오"
+  king_feudal_female_tai_group:0 "차오 낭"
+  emperor_feudal_male_tai_group:0 "차오 루앙"
+  emperor_feudal_female_tai_group:0 "차오 낭 루앙"
+
+  # Feudal / Clan Titles
+  barony_feudal_tai_group:0 "반"
+  county_feudal_tai_group:0 "므앙"
+  duchy_feudal_tai_group:0 "위앙"
+  kingdom_feudal_tai_group:0 "크와엔"
+  empire_feudal_tai_group:0 "크와엔 루앙"
+
+  # Princes (children of Kings/Emperors) <- Based on Lanna Titles
+  title_prince_male_tai_group:0 "차오 노이"
+  title_prince_female_tai_group:0 "차오 노이"
+  title_prince_male_tai_group_empire:0 "차오 노이"
+  title_prince_female_tai_group_empire:0 "차오 노이"
+
+## Shan Tai -> More Indian influence in general
+
+  # Feudal / Clan
+  baron_feudal_male_shan:0 "묘사"
+  baron_feudal_female_shan:0 "묘사"
+  count_feudal_male_shan:0 "사오파"
+  count_feudal_female_shan:0 "사오 낭"
+  duke_feudal_male_shan:0 "퍄"
+  duke_feudal_female_shan:0 "낭 퍄"
+  king_feudal_male_shan:0 "라차아"
+  king_feudal_female_shan:0 "라차니"
+  emperor_feudal_male_shan:0 "차크라팟"
+  emperor_feudal_female_shan:0 "차크라파티니"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_shan:0 "사오 노이"
+  prince_female_shan:0 "사오 노이"
+
+  ## Lanna Tai -> Copy of Tai (for now)
+  
+  ## Laotian Tai -> Copy of Tai (for now)
+  
+  ## Ayutthayan Tai -> More Khmer influence in general
+
+    # Feudal / Clan
+    baron_feudal_male_tai_loum:0 "타오"
+    baron_feudal_female_tai_loum:0 "타오"
+    count_feudal_male_tai_loum:0 "쿤"
+    count_feudal_female_tai_loum:0 "쿤"
+    duke_feudal_male_tai_loum:0 "프라야"
+    duke_feudal_female_tai_loum:0 "낭 프라야"
+    king_feudal_male_tai_loum:0 "마하카삿"
+    king_feudal_female_tai_loum:0 "마하카사트리"
+    emperor_feudal_male_tai_loum:0 "차크라팟"
+    emperor_feudal_female_tai_loum:0 "차크라팟디니"
+
+    # Feudal / Clan Titles
+    barony_feudal_tai_loum:0 "반"
+    county_feudal_tai_loum:0 "므앙"
+    duchy_feudal_tai_loum:0 "춤눔"
+    kingdom_feudal_tai_loum:0 "랏차 아나착"
+    empire_feudal_tai_loum:0 "차크라왓"
+
+    # Princes (children of Kings/Emperors)
+    prince_male_tai_loum:0 "차오 파"
+    prince_female_tai_loum:0 "차오 파 잉"
+
+  ## Pak Tai -> More Mon and Malay influence in general
+
+    # Feudal / Clan
+    baron_feudal_male_paktai:0 "타오"
+    baron_feudal_female_paktai:0 "타오"
+    count_feudal_male_paktai:0 "다토"
+    count_feudal_female_paktai:0 "다토"
+    duke_feudal_male_paktai:0 "프라야"
+    duke_feudal_female_paktai:0 "낭 프라야"
+    king_feudal_male_paktai:0 "마하라차"
+    king_feudal_female_paktai:0 "마하라치니"
+    emperor_feudal_male_paktai:0 "차크라팟"
+    emperor_feudal_female_paktai:0 "차크라파티니"
+
+    # Feudal / Clan Titles
+    barony_feudal_paktai:0 "반"
+    county_feudal_paktai:0 "므앙"
+    duchy_feudal_paktai:0 "춤눔"
+    kingdom_feudal_paktai:0 "랏차 아나착"
+    empire_feudal_paktai:0 "차크라왓"
+
+  ## Ahom Tai -> Mixed of Shan and Nanzhao ones
+    # Feudal / Clan
+    baron_feudal_male_ahom:0 "타오"
+    baron_feudal_female_ahom:0 "타오"
+    count_feudal_male_ahom:0 "사오파"
+    count_feudal_female_ahom:0 "사오 낭"
+    duke_feudal_male_ahom:0 "퍄"
+    duke_feudal_female_ahom:0 "낭 퍄"
+    king_feudal_male_ahom:0 "라차아"
+    king_feudal_female_ahom:0 "라차니"
+    emperor_feudal_male_ahom:0 "사오 룽"
+    emperor_feudal_female_ahom:0 "사오 낭 룽"
+
+    # Princes (children of Kings/Emperors)
+    prince_male_ahom:0 "사오 노이"
+    prince_female_ahom:0 "사오 노이"
+
+####################################################
+
+### Austronesian Group ###
+
+# Malay will be the default
+
+# Feudal / Clan / Tribal 
+ baron_feudal_male_austronesian_group:0 "카투아캄풍"
+ baron_feudal_female_austronesian_group:0 "카투아캄풍"
+ barony_feudal_austronesian_group:0 "캄푼간"
+ count_feudal_male_austronesian_group:0 "팡훌루코타"
+ count_feudal_female_austronesian_group:0 "팡훌루코타"
+ county_feudal_austronesian_group:0 "코타라야"
+ duke_feudal_male_austronesian_group:0 "다투"
+ duke_feudal_female_austronesian_group:0 "다틴"
+ duchy_feudal_austronesian_group:0 "카다투안"
+ king_feudal_male_austronesian_group:0 "라자"
+ king_feudal_female_austronesian_group:0 "라니"
+ kingdom_feudal_austronesian_group:0 "카라자안"
+ emperor_feudal_male_austronesian_group:0 "마하라자"
+ emperor_feudal_female_austronesian_group:0 "마하라니"
+ empire_feudal_austronesian_group:0 "카마하라자안"
+
+ # Princes (children of Kings/Emperors)
+ prince_male_austronesian_group:0 "푸트라"
+ prince_female_austronesian_group:0 "푸트리"
+ prince_male_austronesian_group_empire:0 "마하푸트라"
+ prince_female_austronesian_group_empire:0 "마하푸트리"
+
+ ### Muslim Austronesian/Nusantara ###
+ # Feudal / Clan / Tribal 
+ count_feudal_male_muslim_austronesian_group:0 "시아반다르"
+ count_feudal_female_muslim_austronesian_group:0 "시아반다르"
+ count_feudal_muslim_austronesian_group:0 "반바란"
+ duke_feudal_muslim_male_austronesian_group:0 "술탄"
+ duke_feudal_muslim_female_austronesian_group:0 "라자 페르마이수리"
+ duchy_feudal_muslim_austronesian_group:0 "캐술탄난"
+ kingdom_feudal_muslim_austronesian_group:0 "캐술탄난"
+ king_feudal_muslim_male_austronesian_group:0 "술탄"
+ king_feudal_muslim_female_austronesian_group:0 "라자 페르마이수리"
+ emperor_feudal_muslim_male_austronesian_group:0 "술탄 아공"
+ emperor_feudal_muslim_female_austronesian_group:1 "라자 스리 페르마이수리 아공"
+ empire_feudal_muslim_austronesian_group:0 "케술탄난 아공"
+
+## Cham ##
+
+  # Feudal / Clan
+  baron_feudal_male_cham:0 "카빗"
+  baron_feudal_female_cham:0 "카빗"
+  count_feudal_male_cham:0 "가눕"
+  count_feudal_female_cham:0 "가눕"
+  duke_feudal_male_cham:0 "라야"
+  duke_feudal_female_cham:0 "라야"
+  king_feudal_male_cham:0 "푸타오"
+  king_feudal_female_cham:0 "푸타오"
+  emperor_feudal_male_cham:0 "포타나라야"
+  emperor_feudal_female_cham:0 "포타나라야"
+
+  # Feudal / Clan Titles
+  barony_feudal_cham:0 "팔레이"
+  county_feudal_cham:0 "파라-팔레이"
+  duchy_feudal_cham:0 "나가라"
+  kingdom_feudal_cham:0 "왕국"
+  empire_feudal_cham:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  # prince_male_cham:0 ""
+  # prince_female_cham:0 ""
+
+## Tawo ##
+
+  # Feudal / Clan
+  baron_feudal_male_tawo:0 "기누"
+  baron_feudal_female_tawo:0 "기누"
+  count_feudal_male_tawo:0 "다투"
+  count_feudal_female_tawo:0 "다양"
+  duke_feudal_male_tawo:0 "파메갓"
+  duke_feudal_female_tawo:0 "파메갓"
+  king_feudal_male_tawo:0 "하디"
+  king_feudal_female_tawo:0 "하딩 바바이"
+  emperor_feudal_male_tawo:0 "황제"
+  emperor_feudal_female_tawo:0 "여제"
+
+  # Feudal / Clan Titles
+  barony_feudal_tawo:0 "두루한"
+  county_feudal_tawo:0 "반와"
+  duchy_feudal_tawo:0 "룽수드"
+  kingdom_feudal_tawo:0 "카하디안"
+  empire_feudal_tawo:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_tawo:0 "시"
+  prince_female_tawo:0 "다양"
+  
+## sinauna ##
+
+  # Feudal / Clan
+  baron_feudal_male_sinauna:0 "기누"
+  baron_feudal_female_sinauna:0 "인두"
+  count_feudal_male_sinauna:0 "뚜한"
+  count_feudal_female_sinauna:0 "다양"
+  duke_feudal_male_sinauna:0 "파메갓"
+  duke_feudal_female_sinauna:0 "파메갓"
+  king_feudal_male_sinauna:0 "하리"
+  king_feudal_female_sinauna:0 "하리 바바이"
+  emperor_feudal_male_sinauna:0 "황제"
+  emperor_feudal_female_sinauna:0 "여제"
+
+  # Feudal / Clan Titles
+  barony_feudal_sinauna:0 "바란가이"
+  county_feudal_sinauna:0 "바라이안"
+  duchy_feudal_sinauna:0 "카라카난"
+  kingdom_feudal_sinauna:0 "카이하리안"
+  empire_feudal_sinauna:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_sinauna:0 "갓"
+  prince_female_sinauna:0 "다양"
+  
+## Danao ##
+
+  # Feudal / Clan
+  baron_feudal_male_danao:0 "판고"
+  baron_feudal_female_danao:0 "다양"
+  count_feudal_male_danao:0 "다토"
+  count_feudal_female_danao:0 "바이"
+  duke_feudal_male_danao:0 "라자"
+  duke_feudal_female_danao:0 "바이-아-라비"
+
+  # Feudal / Clan Titles
+  barony_feudal_danao:0 "수쿠"
+  county_feudal_danao:0 "느다토'안"
+  duchy_feudal_danao:0 "일리안"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_danao:0 "라자 무다"
+  prince_female_danao:0 "바이"
+  
+  ## Manobo ##
+
+  # Feudal / Clan
+  baron_feudal_male_manobo:0 "마니가온"
+  baron_feudal_female_manobo:0 "바이"
+  count_feudal_male_manobo:0 "다투"
+  count_feudal_female_manobo:0 "비비아온"
+
+  # Feudal / Clan Titles
+  barony_feudal_manobo:0 "카치링반"
+  county_feudal_manobo:0 "반와"
+  
+    # Princes (children of Kings/Emperors)
+  prince_male_manobo:0 "라자 무다"
+  prince_female_manobo:0 "바이"
+  
+  ## Bilic ##
+
+  # Feudal / Clan
+  baron_feudal_male_bilic:0 "아드마간"
+  baron_feudal_female_bilic:0 "보이"
+  count_feudal_male_bilic:0 "다투"
+  count_feudal_female_bilic:0 "예"
+  duke_feudal_male_bilic:0 "티무아이 라비"
+  duke_feudal_female_bilic:0 "티무아이 리분"
+  king_feudal_male_bilic:0 "라자"
+  king_feudal_female_bilic:0 "라자"
+  emperor_feudal_male_bilic:0 "마하라자"
+  emperor_feudal_female_bilic:0 "마하라자"
+
+  # Feudal / Clan Titles
+  barony_feudal_bilic:0 "레복"
+  county_feudal_bilic:0 "벤우"
+  
+    # Princes (children of Kings/Emperors)
+  prince_male_bilic:0 "응아 다투"
+  prince_female_bilic:0 "보이"
+  
+## Subanen ##
+
+  # Feudal / Clan
+  baron_feudal_male_subanen:0 "티무아이"
+  baron_feudal_female_subanen:0 "티무아이 배"
+  count_feudal_male_subanen:0 "고모탄"
+  count_feudal_female_subanen:0 "고모탄 배"
+  duke_feudal_male_subanen:0 "다투 사라판"
+  duke_feudal_female_subanen:0 "다투 사라판"
+  king_feudal_male_subanen:0 "라자"
+  king_feudal_female_subanen:0 "라자"
+  emperor_feudal_male_subanen:0 "마하라자"
+  emperor_feudal_female_subanen:0 "마하라자"
+
+  # Feudal / Clan Titles
+  barony_feudal_subanen:0 "소반와"
+  county_feudal_subanen:0 "반와"
+  
+  # Princes (children of Kings/Emperors)
+  prince_male_subanen:0 "라자 무다"
+  prince_female_subanen:0 "배"
+  
+## Tagalog ##
+
+  # Feudal / Clan
+  baron_feudal_male_tagalog:0 "마기누"
+  baron_feudal_female_tagalog:0 "마기누"
+  count_feudal_male_tagalog:0 "다투"
+  count_feudal_female_tagalog:0 "다양"
+  duke_feudal_male_tagalog:0 "라칸"
+  duke_feudal_female_tagalog:0 "라캄비니"
+  king_feudal_male_tagalog:0 "하리"
+  king_feudal_female_tagalog:0 "하리"
+  emperor_feudal_male_tagalog:0 "하링하리"
+  emperor_feudal_female_tagalog:0 "하링하리"
+
+  # Feudal / Clan Titles
+  barony_feudal_tagalog:0 "바랑가이"
+  county_feudal_tagalog:0 "바얀"
+  duchy_feudal_tagalog:0 "카라카난"
+  kingdom_feudal_tagalog:0 "카하리안"
+  empire_feudal_tagalog:0 "다키랑 카하리안"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_tagalog:0 "라자 무라"
+  prince_female_tagalog:0 "다양"
+  
+## Palawan ##
+
+  # Feudal / Clan
+  baron_feudal_male_palawan:0 "기누'우"
+  baron_feudal_female_palawan:0 "기누'우"
+  count_feudal_male_palawan:0 "다투"
+  count_feudal_female_palawan:0 "다양"
+  duke_feudal_male_palawan:0 "마스 잇 암푸"
+  duke_feudal_female_palawan:0 "마스 잇 암푸"
+  king_feudal_male_palawan:0 "라자"
+  king_feudal_female_palawan:0 "라자"
+  emperor_feudal_male_palawan:0 "마하라자"
+  emperor_feudal_female_palawan:0 "마하라자"
+
+  # Feudal / Clan Titles
+ barony_feudal_palawan:0 "바랑가이"
+ county_feudal_palawan:0 "반와"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_palawan:0 "라자 무다"
+  prince_female_palawan:0 "리나민"
+
+## Bisaya ##
+
+  # Feudal / Clan
+  baron_feudal_male_bisaya:0 "다투"
+  baron_feudal_female_bisaya:0 "다투"
+  count_feudal_male_bisaya:0 "카포노안"
+  count_feudal_female_bisaya:0 "카포노안"
+  duke_feudal_male_bisaya:0 "소라자"
+  duke_feudal_female_bisaya:0 "소라자"
+  king_feudal_male_bisaya:0 "라자"
+  king_feudal_female_bisaya:0 "라자"
+  emperor_feudal_male_bisaya:0 "마하라자"
+  emperor_feudal_female_bisaya:0 "마하라자"
+
+  # Feudal / Clan Titles
+  barony_feudal_bisaya:0 "돌로한"
+  county_feudal_bisaya:0 "하옵"
+  duchy_feudal_bisaya:0 "봉토"
+  kingdom_feudal_bisaya:0 "카하디안"
+  empire_feudal_bisaya:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_bisaya:0 "아낙 상 라자"
+## Idaya ##
+
+  # Feudal / Clan
+  baron_feudal_male_idaya:0 "아마"
+  baron_feudal_female_idaya:0 "이나"
+  count_feudal_male_idaya:0 "아포"
+  count_feudal_female_idaya:0 "아포"
+  duke_feudal_male_idaya:0 "팡훌루"
+  duke_feudal_female_idaya:0 "팡훌루"
+  king_feudal_male_idaya:0 "하리"
+  king_feudal_female_idaya:0 "하리"
+  emperor_feudal_male_idaya:0 "황제"
+  emperor_feudal_female_idaya:0 "여제"
+
+  # Feudal / Clan Titles
+  barony_feudal_idaya:0 "바누아"
+  county_feudal_idaya:0 "히리"
+  duchy_feudal_idaya:0 "파구루안"
+  kingdom_feudal_idaya:0 "파가리안"
+  empire_feudal_idaya:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_idaya:0 "아나키-하리"
+  prince_female_idaya:0 "아나기-하리"
+
+## Ilokano ##
+
+  # Feudal / Clan
+  baron_feudal_male_ilokano:0 "우로 티 푸록"
+  baron_feudal_female_ilokano:0 "우로 티 푸록"
+  count_feudal_male_ilokano:0 "아마 티 리"
+  count_feudal_female_ilokano:0 "아나 티 리"
+  duke_feudal_male_ilokano:0 "아그투라이"
+  duke_feudal_female_ilokano:0 "아그투라이"
+  king_feudal_male_ilokano:0 "아리"
+  king_feudal_female_ilokano:0 "아리바이"
+  emperor_feudal_male_ilokano:0 "황제"
+  emperor_feudal_female_ilokano:0 "여제"
+
+  # Feudal / Clan Titles
+  barony_feudal_ilokano:0 "포록"
+  county_feudal_ilokano:0 "일"
+  duchy_feudal_ilokano:0 "파그투라얀"
+  kingdom_feudal_ilokano:0 "파가리안"
+  empire_feudal_ilokano:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_ilokano:0 "아나키-아리"
+  prince_female_ilokano:0 "아나키-아리"
+
+## Batak ##
+
+  # Feudal / Clan
+  baron_feudal_male_batak:0 "라자 이후탄"
+  baron_feudal_female_batak:0 "라자 이후탄"
+  count_feudal_male_batak:0 "라자 도리"
+  count_feudal_female_batak:0 "라자 도리"
+  duke_feudal_male_batak:0 "라자 오로안"
+  duke_feudal_female_batak:0 "라자 오로안"
+  king_feudal_male_batak:0 "라자"
+  king_feudal_female_batak:0 "라자 보루"
+  emperor_feudal_male_batak:0 "라자보론"
+  emperor_feudal_female_batak:0 "라자보론 보루"
+
+  # Feudal / Clan Titles
+  barony_feudal_batak:0 "후타"
+  county_feudal_batak:0 "호르자"
+  duchy_feudal_batak:0 "비우스"
+  kingdom_feudal_batak:0 "하라조안"
+  empire_feudal_batak:0 "하라조안 나볼론"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_batak:0 "파투안"
+  prince_female_batak:0 "보루"
+
+## Java ##
+
+  # Feudal / Clan
+  baron_feudal_male_java:0 "라마"
+  baron_feudal_female_java:0 "라마"
+  count_feudal_male_java:0 "라카이 [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  count_feudal_female_java:0 "라카이 [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  duke_feudal_male_java:0 "아지"
+  duke_feudal_female_java:0 "아지"
+  duke_feudal_male_java_independent:0 "상 라투"
+  duke_feudal_female_java_independent:0 "상 라투"
+  king_feudal_male_java:0 "스리 마하라자"
+  king_feudal_female_java:0 "스리 마하라니"
+  emperor_feudal_male_java:0 "스리 마하라자"
+  emperor_feudal_female_java:0 "스리 마하라니"
+
+  # Feudal / Clan Titles
+  barony_castle_java:0 "와누아"
+  barony_city_java:0 "와누아"
+  barony_temple_java:0 "칸디"
+  county_feudal_java:0 "와탁"
+  duchy_feudal_java:0 "카다투안"
+  kingdom_feudal_java:0 "카마하라자안"
+  empire_feudal_java:0 "제국"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_java:0 "디아흐"
+  prince_female_java:0 "데위"
+
+## Sunda ##
+
+  # Feudal / Clan
+  baron_feudal_male_sunda:0 "아키"
+  baron_feudal_female_sunda:0 "니아이"
+  count_feudal_male_sunda:0 "라케얀"
+  count_feudal_female_sunda:0 "라케얀"
+  duke_feudal_male_sunda:0 "프라부"
+  duke_feudal_female_sunda:0 "프라부"
+  
+## Bali ##
+
+  # Feudal / Clan
+  baron_feudal_male_bali:0 "라마"
+  baron_feudal_female_bali:0 "라마"
+  count_feudal_male_bali:0 "락사얀"
+  count_feudal_female_bali:0 "락사얀"
+  duke_feudal_male_bali:0 "달렘"
+  duke_feudal_female_bali:0 "달렘"
+  
+## Samawa ##
+
+  # Feudal / Clan
+  baron_feudal_male_samawa:0 "느쿠히"
+  baron_feudal_female_samawa:0 "느쿠히"
+  count_feudal_male_samawa:0 "느쿠히"
+  count_feudal_female_samawa:0 "느쿠히"
+  duke_feudal_male_samawa:0 "상가지"
+  duke_feudal_female_samawa:0 "상가지"
+
+ 
+####################################################
+
+### Lolo Group ###
+
+# Feudal / Clan
+  baron_feudal_male_loloish_group:0 "느지"
+  baron_feudal_female_loloish_group:0 "느지"
+  count_feudal_male_loloish_group:0 "도독"
+  count_feudal_female_loloish_group:0 "도독"
+  duke_feudal_male_loloish_group:0 "절도"
+  duke_feudal_female_loloish_group:0 "절도"
+  king_feudal_male_loloish_group:0 "보신"
+  king_feudal_female_loloish_group:0 "보신"
+  emperor_feudal_male_loloish_group:0 "우테브워"
+  emperor_feudal_female_loloish_group:0 "우테브워"
+
+# Feudal / Clan Titles
+  barony_feudal_loloish_group:0 "부"
+  county_feudal_loloish_group:0 "키엠"
+  duchy_feudal_loloish_group:0 "도"
+  kingdom_feudal_loloish_group:0 "왕국"
+  empire_feudal_loloish_group:0 "제국"
+
+# Princes (children of Kings/Emperors)
+  title_prince_male_loloish_group:0 "공작"
+  title_prince_female_loloish_group:0 "공녀"
+  title_prince_male_loloish_group_empire:0 "친왕"
+  title_prince_female_loloish_group_empire:0 "공주"
+
+####################################################
+
+### Moluccan Group ###
+
+# Feudal / Clan
+  baron_feudal_male_moluccan_group:0 "보바토"
+  baron_feudal_female_moluccan_group:0 "보바토"
+  count_feudal_male_moluccan_group:0 "노몰레"
+  count_feudal_female_moluccan_group:0 "노몰레"
+  duke_feudal_male_moluccan_group:0 "코라노"
+  duke_feudal_female_moluccan_group:0 "코라노"
+  king_feudal_male_moluccan_group:0 "마하라자"
+  king_feudal_female_moluccan_group:0 "마하라니"

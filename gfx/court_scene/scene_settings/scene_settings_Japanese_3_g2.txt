@@ -1,5 +1,5 @@
 name="Japanese_3_g2"
-culture="yamato"
+culture="japanese"
 visual_culture_level=2
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
@@ -47,9 +47,9 @@ camera={ {
  {
 		description="Throne View"
 		fov=50.000000
-		position={ 0.000000 150.000000 400.000000 }
-		pitch=8.000000
-		yaw=180.000000
+		position={ 160.000000 175.000000 275.000000 }
+		pitch=12.000000
+		yaw=-24.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
@@ -229,9 +229,9 @@ camera={ {
  {
 		description="artifact_throne_1"
 		fov=50.000000
-		position={ 118.800003 140.000000 310.800018 }
-		pitch=8.000000
-		yaw=-17.000000
+		position={ 160.000000 175.000000 275.000000 }
+		pitch=12.000000
+		yaw=-24.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -1417,25 +1417,25 @@ artifacts={ {
 	}
  {
 		locator="artifact_pedestal_locator_1"
-		position={ -190.000000 0.000000 180.000000 }
+		position={ -190.000000 0.000000 360.000000 }
 		direction=182.000000
 		slot="pedestal_1"
 	}
  {
 		locator="artifact_pedestal_locator_2"
-		position={ 190.000000 0.000000 180.000000 }
+		position={ 190.000000 0.000000 360.000000 }
 		direction=1.000000
 		slot="pedestal_2"
 	}
  {
 		locator="artifact_pedestal_locator_3"
-		position={ -190.000000 0.000000 -100.000000 }
+		position={ -190.000000 0.000000 100.000000 }
 		direction=178.000000
 		slot="pedestal_3"
 	}
  {
 		locator="artifact_pedestal_locator_4"
-		position={ 190.000000 0.000000 -100.000000 }
+		position={ 190.000000 0.000000 100.000000 }
 		slot="pedestal_4"
 	}
  }

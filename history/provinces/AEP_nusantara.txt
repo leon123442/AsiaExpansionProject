@@ -1,0 +1,921 @@
+#######################
+### Pahang/k_pahang ###
+#######################
+
+##d_gelanggi ####################################
+###c_gelanggi
+#b_gelanggi
+11559 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_rantau_panjang
+11560 = {
+	holding = none
+}
+
+###c_muar
+#b_muar
+11562 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = {
+        religion = ashari
+		buildings = {
+			common_tradeport_03
+			watchtowers_02
+			plantations_01
+			military_camps_01
+		}
+    }
+}
+
+##d_pahang ####################################
+###c_pekan
+#b_pekan
+11567 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_mersing
+11569 = {
+	holding = none
+}
+
+###c_temerloh
+#b_temerloh
+11568 = {
+	culture = aslian
+	religion = kadai
+	holding = tribal_holding
+}
+
+###c_jerantut
+#b_jerantut
+11570 = {
+	culture = aslian
+	religion = kadai
+	holding = tribal_holding
+}
+
+##d_gangga_negara ####################################
+###c_beruas
+#b_beruas
+11566 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+
+###c_klang
+#b_klang
+11565 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+
+###############################
+### Langkasuka/k_langkasuka ###
+###############################
+
+##d_langkasuka ####################################
+###c_patani
+#b_patani
+11575 = {
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+}
+
+###c_singgora
+#b_singora
+11571 = {
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+}
+#b_mardelong
+11574 = {
+	holding = none
+}
+
+###c_terengganu
+#b_terengganu
+11564 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_kelantan
+11563 = {
+	holding = city_holding
+}
+
+##d_tambralinga ####################################
+###c_ligor
+#b_ligor
+11697 = {
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+}
+#b_mokhlan
+11700 = {
+	holding = none
+}
+
+###c_chaiya
+#b_chaiya
+11699 = {
+	culture = mon
+	religion = theravada
+	holding = castle_holding
+}
+#b_wiang_sa
+11698 = {
+	holding = none
+}
+#b_kra
+11707 = {
+	holding = none
+}
+
+##d_kedah ####################################
+###c_kedah
+#b_kadaram
+11576 = {
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+		culture = malay
+        religion = ashari
+	}
+}
+
+###c_setul		 
+#b_setul
+11573 = {
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+}
+#b_terang
+11572 = {
+	holding = none
+}
+#b_pantai_smor
+11703 = {
+	holding = none
+}
+
+###c_takola
+#b_takola
+11701 = {
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+}
+#b_salang
+11702 = {
+	holding = none
+}
+
+###################
+### Aceh/k_aceh ###
+###################
+
+##d_aceh ####################################
+###c_aceh
+#b_lamuri
+11577 = {
+	# Misc
+	culture = aceh
+	religion = vaishnavism
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_02
+			plantations_01
+			military_camps_01
+		}
+	}
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+
+###c_south_aceh
+#b_krueng_luas
+11581 = {
+	# Misc
+	culture = aceh
+	religion = vaishnavism
+	holding = castle_holding
+    # History
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+
+###c_west_aceh
+#b_kuala_batee
+11579 = {
+	# Misc
+	culture = aceh
+	religion = vaishnavism
+	holding = castle_holding
+    # History
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+#b_panga
+11580 = {
+	holding = none
+}
+
+##d_perlak ####################################
+###c_perlak
+#b_perlak
+11582 = {
+	# Misc
+	culture = aceh
+	religion = vaishnavism
+	holding = castle_holding
+    # History
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+
+###c_pasai
+#b_pasai
+11584 = {
+	# Misc
+	culture = aceh
+	religion = vaishnavism
+	holding = castle_holding
+    # History
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+#b_pedir
+11583 = {
+	holding = none
+}
+
+###c_gayo
+#b_gayo
+11585 = {
+	# Misc
+	culture = gayo
+	religion = batak
+	holding = tribal_holding
+    # History
+    1270.1.1 = {
+        religion = ashari
+    }
+}
+
+###########################
+### Mentawai/k_mentawai ###
+###########################
+
+##d_mentawai ####################################
+###c_siberut
+#b_siberut
+11605 = {
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+###c_pagai
+#b_pagai
+11606 = {
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+###c_enggano
+#b_enggano
+11625 = {
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+##d_nias ####################################
+###c_nias
+#b_nias
+11593 = {
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+###c_batu_islands
+#b_batu_islands
+11592 = {
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+###c_simeulue
+#b_simeulue
+11578 = {
+	# Misc
+	culture = mentawai
+	religion = batak
+	holding = tribal_holding
+}
+
+#########################
+### Malayu/k_sumatera ###
+#########################
+
+##d_jambi ####################################
+###c_jambi
+#b_muaro_jambi
+11629 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_03
+			watchtowers_02
+			plantations_01
+			military_camps_02
+		}
+	}
+    1300.1.1 = {
+        religion = ashari
+    }
+}
+#b_sungai_berbak
+11630 = {
+	holding = city_holding
+}
+#b_tanjung_bolo
+11631 = {
+	holding = none
+}
+
+###c_batanghari
+#b_batanghari
+11632 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			plantations_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			plantations_02
+		}
+	}
+    1300.1.1 = {
+        religion = ashari
+    }
+}
+#b_tebo
+11633 = {
+	holding = none
+}
+
+###c_merangin
+#b_merangin
+11634 = {
+	culture = minangkabau
+	religion = malayic
+	holding = castle_holding
+}
+#b_bungo
+11635 = {
+	holding = none
+}
+#b_serolangun
+11636 = {
+	holding = none
+}
+
+##d_kampar ####################################
+###c_kampar
+#b_kampar
+11599 = {
+	# Misc
+	culture = minangkabau
+	religion = malayic
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_kuantan_singingi
+11600 = {
+	holding = none
+}
+
+###c_indragiri
+#b_indragiri
+11602 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_pelalawan
+11603 = {
+	holding = none
+}
+
+###c_siak
+#b_siak
+11601 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+	# History
+	1368.1.1 = {
+        religion = ashari
+	}
+}
+#b_dumai
+11598 = {
+	holding = none
+}
+
+##d_minangkabau ####################################
+###c_padang
+#b_padang
+11604 = {
+	culture = minangkabau
+	religion = malayic
+	holding = castle_holding
+}
+#b_pasaman
+11607 = {
+	holding = none
+}
+#b_pesisir
+11608 = {
+	holding = none
+}
+
+###c_dharmasraya
+#b_dharmasraya
+11609 = {
+	culture = minangkabau
+	religion = malayic
+	holding = castle_holding
+}
+#b_kerinci
+11637 = {
+	holding = none
+}
+
+###c_mandailing
+#b_mandailing
+11595 = {
+	culture = batak
+	religion = batak
+	holding = tirbal_holding
+}
+#b_padang_lawas
+11596 = {
+	holding = none
+}
+
+#####################
+### Panai/k_panai ###
+#####################
+
+##d_panai ####################################
+###c_panai
+#b_panai
+11590 = {
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+}
+
+###c_langkat
+#b_langkat	
+11586 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+	# History
+	986.1.1 = {
+		religion = vajrayana
+	}
+}
+#b_asahan
+11589 = {
+	holding = none
+}
+
+###c_deli
+#b_deli
+11588 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+	# History
+	986.1.1 = {
+		religion = vajrayana
+	}
+}
+
+##d_batak ####################################
+###c_toba
+#b_toba
+11591 = {
+	culture = batak
+	religion = batak
+	holding = tribal_holding
+}
+#b_karo
+11594 = {
+	holding = none
+}
+
+###c_simalungun
+#b_simalungun
+11587 = {
+	culture = batak
+	religion = batak
+	holding = tribal_holding
+}
+
+###c_barus
+#b_barus
+11597 = {
+	culture = batak
+	religion = batak
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+	}
+}
+
+#######################
+### Bintan/k_bintan ###
+#######################
+
+##d_riau_islands ####################################
+###c_riau_islands
+#b_bintan
+11613 = {
+	# Misc
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+	}
+}
+
+###c_linga
+#b_lingga
+11614 = {
+	# Misc
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+	}
+}
+
+##d_natuna ####################################
+###c_natuna
+#b_natuna
+11615 = {
+	culture = malay
+	religion = umboh
+	holding = tribal_holding
+}
+
+###c_anambas
+#b_anambas
+11616 = {
+	culture = malay
+	religion = umboh
+	holding = tribal_holding
+}
+
+##d_temasik ####################################
+###c_temasik
+#b_temasik
+11561 = {
+	# Misc
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = {
+        religion = ashari
+    }
+}
+
+#############################
+### Srivijaya/k_srivijaya ###
+#############################
+
+##d_palembang ####################################
+###c_palembang
+#b_palembang	
+11617 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_03
+			watchtowers_02
+			plantations_01
+			military_camps_02
+		}
+	}
+    1300.1.1 = {
+        religion = ashari
+    }
+}
+#b_bayung_lencir
+11621 = {
+	holding = none
+}
+
+###c_cengal
+#b_cengal
+11620 = {
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+    1300.1.1 = {
+        religion = ashari
+    }
+}
+#b_indralaya
+11619 = {
+	holding = none
+}
+
+##d_bangka_belitung ####################################
+###c_bangka
+#b_bangka
+11622 = {
+	# Misc
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+			plantations_01
+		}
+	}
+    1300.1.1 = {
+        religion = ashari
+    }
+}
+#b_belitung
+11623 = {
+	# Misc
+	culture = malay
+	religion = umboh
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+			plantations_01
+		}
+	}
+}
+
+##d_bengkulu ####################################
+###c_bengkulu
+#b_bengkulu
+11624 = {
+	culture = rejang
+	religion = malayic
+	holding = castle_holding
+}
+#b_north_bengkulu
+11627 = {
+	culture = minangkabau
+	religion = malayic
+	holding = castle_holding
+}
+#b_south_bengkulu
+11628 = {
+	culture = basemah
+	religion = malayic
+	holding = castle_holding
+}
+
+##d_lampung ####################################
+###c_lampung
+#b_malay
+11641 = {
+	culture = lampung
+	religion = malayic
+	holding = castle_holding
+}
+#b_tulang_bawang
+11618 = {
+	holding = city_holding
+}
+
+###c_kotabumi
+#b_kotabumi
+11643 = {
+	culture = lampung
+	religion = malayic
+	holding = castle_holding
+}
+
+###c_tanggamus
+#b_tanggamus
+11644 = {
+	culture = basemah
+	religion = malayic
+	holding = castle_holding
+}
+
+##d_musi ####################################
+###c_musi
+#b_musi_rawas
+11638 = {
+	culture = rejang
+	religion = malayic
+	holding = castle_holding
+}
+#b_empat_lawang
+11626 = {
+	holding = none
+}
+
+###c_musi_banyuasin
+#b_musi_banyuasin
+11639 = {
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+}
+#b_prabumulih
+11640 = {
+	holding = none
+}
+
+###c_ogan_komering_ulu
+#b_ogan_komering_ulu
+11642 = {
+	culture = lampung
+	religion = malayic
+	holding = castle_holding
+}

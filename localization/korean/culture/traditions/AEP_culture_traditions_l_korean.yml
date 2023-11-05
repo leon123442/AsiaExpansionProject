@@ -1,0 +1,14 @@
+﻿l_korean:
+ tradition_angkorian_architecture_name:0 "앙코르 건축 양식"
+ tradition_angkorian_architecture_desc:1 "이 문화는 사원을 건설하는 것이 신에게 가닿는 가장 빠른 길이라고 생각합니다. 신실한 군주들은 웅장한 사원들을 넘치도록 지을 것으로 기대됩니다."
+ tradition_austronesian_seafarers_name:0 "오스트로네시아 뱃사람"
+ tradition_austronesian_seafarers_desc:0 "대양을 가로지르는 기술로 유명한 오스트로네시아인들의 핏줄 속에는 바다를 항해하는 전통이 흐르고 있습니다. "
+ tradition_migratory_name:0 "이주"
+ tradition_migratory_desc:0 "이 문화는 유목민으로, 일정 기간마다 이곳저곳 옮겨다니는 일에 익숙하며 이웃 [rulers|E]에게 부족 재정착을 위한 전쟁을 선포할 수 있습니다."
+ tradition_chinese_characters_name:0 "한자"
+ tradition_chinese_characters_desc:0 "이 문화의 문학자들은 기원전 27세기까지 거슬러 올라가는 강력한 학문적, 문학적 전통을 자랑하는 한자를 사용합니다."
+ 
+ # Tradition effects - Base Title
+ culture_parameter_can_enact_single_heir_succession_law:0 "#single $single_heir_succession_law$#! [succession_law|E] 도입 가능"
+ culture_parameter_enable_baray_duchy_building:0 "영주가 #high $building_type_baray_01$ #! [duchy_building|E] 건설 가능"
+ culture_parameter_enable_migration_cb:0 "이주 [casus_belli|E] 해제"

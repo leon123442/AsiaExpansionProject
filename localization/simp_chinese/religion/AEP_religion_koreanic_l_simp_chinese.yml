@@ -1,0 +1,114 @@
+﻿l_simp_chinese:
+ koreanic_religion:0 "巫敎" # 무교
+ koreanic_religion_adj:0 "巫俗" # 무속
+ koreanic_religion_adherent:0 "巫俗徒" # 무속신자
+ koreanic_religion_adherent_plural:0 "巫俗徒" # 무속신자
+ koreanic_religion_desc:0 "巫术，又称为韩国的萨满教，是一种韩国的民间宗教，以博数巫堂为核心实践，并简称为男巫和女巫的巫堂。巫堂专指女性巫师，而博数则指男性巫师，在韩国的宗教中扮演着重要的角色，作为人类与神灵之间的中介。\n\n巫师与神灵进行交流，寻求他们在各种人类事务中的指导和帮助。他们通过进行被称为直觉仪式的活动来达成这一目标。这些直觉仪式具有重要的意义，通常被视为涵盖整个村庄的节日活动，培养了社区意识和庆祝活动。"
+ 
+ musok:0 "巫敎" # 무교
+ musok_adj:0 "巫俗" # 무속
+ musok_adherent:0 "巫俗徒" # 무속신자
+ musok_adherent_plural:0 "巫俗徒" # 무속신자
+ musok_desc:0 "巫术，又称为韩国的萨满教，是一种韩国的民间宗教，以博数巫堂为核心实践，并简称为男巫和女巫的巫堂。巫堂专指女性巫师，而博数则指男性巫师，在韩国的宗教中扮演着重要的角色，作为人类与神灵之间的中介。\n\n巫师与神灵进行交流，寻求他们在各种人类事务中的指导和帮助。他们通过进行被称为直觉仪式的活动来达成这一目标。这些直觉仪式具有重要的意义，通常被视为涵盖整个村庄的节日活动，培养了社区意识和庆祝活动。"
+ musok_old:0 "旧巫敎"
+ musok_old_adj:0 "旧巫俗"
+ musok_old_adherent:0 "旧巫俗徒"
+ musok_old_adherent_plural:0 "旧巫俗徒"
+ 
+ tamna_musok:0 "耽羅巫敎" # 탐라무교
+ tamna_musok_adj:0 "耽羅巫俗" # 탐라무
+ tamna_musok_adherent:0 "耽羅巫俗徒" # 탐라무신자
+ tamna_musok_adherent_plural:0 "耽羅巫俗徒" # 탐라무신자
+ tamna_musok_desc:0 "在耽罗地区的巫术实践中，具有鲜明的特征，这主要受到其与朝鲜半岛大陆地域分隔的影响。耽罗的巫俗徒信仰以天神天地王及其两个儿子为核心。长子大别王主宰阴间，次子小别王则主宰人间。根据他们的信仰，世界的混乱根源在于小别王的狡诈行为，尽管大别王更有能力和适任这个角色，但他却设法控制了地球。"
+ tamna_musok_old:0 "旧耽羅巫敎"
+ tamna_musok_old_adj:0 "旧耽羅巫俗"
+ tamna_musok_old_adherent:0 "旧耽羅巫俗徒"
+ tamna_musok_old_adherent_plural:0 "旧耽羅巫俗徒"
+ 
+ dongmyeong_sinhwa:0 "東明神話" # 동명신화
+ dongmyeong_sinhwa_adj:0 "東明神話" # 동명신화
+ dongmyeong_sinhwa_adherent:0 "東明神話徒" # 동명신화신자
+ dongmyeong_sinhwa_adherent_plural:0 "東明神話徒" # 동명신화신자
+ dongmyeong_sinhwa_desc:0 "天帝的孙子东明王被尊崇为扶余和高句丽的开国祖师，拥有一个神话般的起源故事。传说中，他诞生于一个蛋中，并最终升天。他的第一个儿子继承了他的统治地位，而他第二个妻子的儿子们则冒险南下，建立了百济。\n\n除了其历史意义之外，融合了回教元素的韩国民间宗教在知名的巫师周围保持着松散的聚焦，形成了博数巫堂或简单的巫堂。女巫被称为巫堂，男巫被称为博数。他们在人类与神灵之间扮演着至关重要的中介角色。他们与众神进行谈判，并通过被称为直觉的神圣仪式寻求对人类事务的指导。这些仪式通常以充满活力的全村节日形式举行，庆祝精神界与人类领域之间的联系。"
+ dongmyeong_sinhwa_old:0 "旧東明神話"
+ dongmyeong_sinhwa_old_adj:0 "旧東明神話"
+ dongmyeong_sinhwa_old_adherent:0 "旧東明神話徒"
+ dongmyeong_sinhwa_old_adherent_plural:0 "旧東明神話徒"
+ 
+ silla_sinhwa:0 "新羅神話" # 신라신화
+ silla_sinhwa_adj:0 "新羅神話" # 신라신화
+ silla_sinhwa_adherent:0 "新羅神話徒" # 신라신화신자
+ silla_sinhwa_adherent_plural:0 "新羅神話徒" # 신라신화신자
+ silla_sinhwa_desc:0 "早期的新罗拥有独特的政治制度，其特点是权力在白王朝的三个分支之间轮流，这导致了三种完全不同的开国叙事。赫居世，来自朴家，被认为是新罗的创始人。根据传说，他是从一个非常大的鸡蛋中诞生的，因此得名“朴”，意为鸡蛋的形状类似于葫芦。\n\n另一方面，石氏家族的祖先是脱解，来自东北地区隔东海的异国王子。据信他的出生伴随着不祥的预兆，导致国王下令将他遗弃在船上。命运引导这艘船抵达新罗海岸，在那里发现了脱解。他的姓氏源于船上栖息的喜鹊，象征着他的偶然到来。\n\n后来垄断新罗王位的金氏家族的祖先是阿尔吉。据说他被发现在一个金色的箱子中，赋予他神秘而庄严的气息。"
+ silla_sinhwa_old:0 "旧新羅神話"
+ silla_sinhwa_old_adj:0 "旧新羅神話"
+ silla_sinhwa_old_adherent:0 "旧新羅神話徒"
+ silla_sinhwa_old_adherent_plural:0 "旧新羅神話徒"
+ 
+ goryeo_sinhwa:0 "高麗神話" # 고려신화
+ goryeo_sinhwa_adj:0 "高麗神話" # 고려신화
+ goryeo_sinhwa_adherent:0 "高麗神話徒" # 고려신화신자
+ goryeo_sinhwa_adherent_plural:0 "高麗神話徒" # 고려신화신자
+ goryeo_sinhwa_desc:0 "高丽的建立根植于对高丽创始人元王的祖先崇拜的丰富传说。元王的血脉可以追溯到他的第六代前辈霍格勇，据说他与山神缔结了神圣的联姻。\n\n在所有尊敬的祖先中，最杰出的人物是元王的祖父戟乾。根据传说，戟乾被认为是唐朝统治者肃宗的私生子。据说他获得了龙王的宠爱，并因此与一位龙女结婚。这场婚姻被视为重要的交流，巩固了他与神圣领域的联系，引来了龙王的祝福。"
+ goryeo_sinhwa_old:0 "旧高麗神話"
+ goryeo_sinhwa_old_adj:0 "旧高麗神話"
+ goryeo_sinhwa_old_adherent:0 "旧高麗神話徒"
+ goryeo_sinhwa_old_adherent_plural:0 "旧高麗神話徒"
+
+ musok_high_god_name:0 "桓因" # 환인， Sky-God
+ musok_high_god_name_possessive:0 "桓因"
+ musok_high_god_name_alternate:0 "玉皇天尊" # 옥황천존
+ musok_high_god_name_alternate_possessive:0 "玉皇天尊"
+ musok_good_god_pungbaek:0 "風伯" # 풍백
+ musok_good_god_usa:0 "雨師" # 우사
+ musok_good_god_unsa:0 "雲師" # 운사
+ musok_good_god_hwanung:0 "桓雄" #환웅
+ musok_devil_name:0 "疫鬼" # 역귀， Plague-Ghost
+ musok_devil_name_possessive:0 "疫鬼"
+ musok_evil_god_kumiho:0 "九尾狐" # 구미호， nine-tailed fox who can transform into beautiful girl - wait， does this count as a furry?
+ musok_evil_god_dueoksini:0 "頭抑神" # 두억신， somewhat similar to yakṣa
+ musok_death_deity_name:0 "閻羅大王" # 염나대왕
+ musok_death_deity_name_possessive:0 "閻羅大王"
+ musok_religious_symbol:0 "三太極" # 삼태극
+ musok_religious_text:0 "本普里" # 본풀이
+ musok_religious_text_2:0 "塔岭" # 타령
+ musok_religious_text_3:0 "聲音" # 소리
+ musok_witchgodname:0 "鉢里公主" # 발공주
+ musok_witchgodname_possessive:0 "鉢里公主"
+
+ musok_creator_god_name:0 "麻姑大母" # 마고대모?， Giantess
+ musok_creator_god_name_possessive:0 "麻姑大母"
+ musok_health_god_name:0 "處容" # 처용， 867 is kinda too early but it fits I guess
+ musok_health_god_name_possessive:0 "處容"
+ musok_fertility_god_name:0 "三神大母" # 삼신대모?， Goddess of birth 
+ musok_fertility_god_name_possessive:0 "三神大母"
+ musok_wealth_god_name:0 "七星神" # 칠성신， Gods of Big Dipper
+ musok_wealth_god_name_possessive:0 "七星神"
+ musok_household_god_name:0 "城主神" # 성주신
+ musok_household_god_name_possessive:0 "城主神"
+ musok_fate_god_name:0 "甘恩章亚吉" # 감은장아기
+ musok_fate_god_name_possessive:0 "甘恩章亚吉"
+ musok_knowledge_god_name:0 "山神靈" # 산신영
+ musok_knowledge_god_name_possessive:0 "山神靈"
+ musok_war_god_name:0 "斫刀神將" # 작도신장
+ musok_war_god_name_possessive:0 "斫刀神將"
+ musok_trickster_god_name:0 "多可比" # 도깨비
+ musok_trickster_god_name_possessive:0 "多可比"
+ musok_night_god_name:0 "$musok_high_god_name$" # Alternatively Ilwol or Taebyeol and Sobyeol， Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female， who were exiled(?) to Japan and became the rulers
+ musok_night_god_name_possessive:0 "$musok_high_god_name_possessive$"
+ musok_water_god_name:0 "龍王" # 용왕
+ musok_water_god_name_possessive:0 "龍王"
+ 
+ musok_pantheon_name:0 "天地神明" # 천지신명
+ musok_house_of_worship:0 "城隍堂" # 성황당
+ musok_house_of_worship_plural:0 "城隍堂"
+ musok_religious_head_title:0 "次次雄" # 차차웅
+ musok_religious_head_title_name:0 "次次雄" # 차차웅
+ musok_devotee_male:0 "博數" # 박수
+ musok_devotee_male_plural:0 "博數"
+ musok_devotee_female:0 "巫堂" # 무당
+ musok_devotee_female_plural:0 "巫堂"
+ musok_alt_priest_term:0 "巫堂"
+ musok_divine_realm:0 "天上" # 천상
+ musok_positive_afterlife:0 "極樂" # 극낙
+ musok_negative_afterlife:0 "地獄" # 지옥

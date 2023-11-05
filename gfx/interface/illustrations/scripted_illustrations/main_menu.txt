@@ -5,6 +5,14 @@
 # Where <file> is the file name without the file ending (E.G., "frontend_west")
 main_menu_background = {
 	texture = {
+		reference = "main_menu/fp2_frontend_iberian.dds"
+
+		trigger = {
+			fp2_should_use_iberian_graphics_trigger = yes
+		}
+	}
+
+	texture = {
 		reference = "main_menu/frontend_tribal.dds"
 
 		trigger = {
@@ -54,21 +62,47 @@ main_menu_background = {
 			has_graphical_india_region_trigger = yes
 		}
 	}
-	texture = {
+	
+	texture = { # Added
+		reference = "main_menu/frontend_china.dds"
+
+		trigger = {
+			has_graphical_china_region_trigger = yes
+		}
+	}
+	texture = { # Added
+		reference = "main_menu/frontend_china.dds"
+
+		trigger = {
+			has_graphical_korea_region_trigger = yes
+		}
+	}
+	texture = { # Added
+		reference = "main_menu/frontend_japan.dds"
+
+		trigger = {
+			has_graphical_japan_region_trigger = yes
+		}
+	}
+	texture = { # Added
 		reference = "main_menu/frontend_india.dds"
 
 		trigger = {
-			has_culture_group = culture_group:chinese_group
+			has_graphical_tibet_region_trigger = yes
 		}
 	}
-	texture = {
-		reference = "main_menu/frontend_yamato.dds"
+	texture = { # Added
+		reference = "main_menu/frontend_india.dds"
 
 		trigger = {
-			OR = {
-				has_graphical_yamato_region_trigger = yes
-				has_graphical_ryukyu_region_trigger = yes
-			}
+			has_graphical_indochina_region_trigger = yes
+		}
+	}
+	texture = { # Added
+		reference = "main_menu/frontend_india.dds"
+
+		trigger = {
+			has_graphical_austronesia_region_trigger = yes
 		}
 	}
 

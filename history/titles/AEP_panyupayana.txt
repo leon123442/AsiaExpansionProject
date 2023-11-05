@@ -1,0 +1,228 @@
+﻿## Development
+
+e_panyupayana = {
+	867.1.1 = { change_development_level = 1 }
+}
+c_oton = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_sugbu = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_tanghay = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_kasiguran = {
+	867.1.1 = { change_development_level = 2 }
+}
+c_balayan = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_tolay = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_masbat = {
+	867.1.1 = { change_development_level = 2 }
+}
+d_pangasinan = {
+	867.1.1 = { change_development_level = 2 }
+}
+c_kumalarang = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_aparri = {
+	867.1.1 = { change_development_level = 2 }
+}
+c_samtoy = {
+	867.1.1 = { change_development_level = 2 }
+}
+
+c_agusan = {
+	867.1.1 = { change_development_level = 3 }
+}
+c_suligaw = {
+	867.1.1 = { change_development_level = 2 }
+}
+
+c_penghu = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+}
+
+
+# Luzong
+
+c_sambali = {
+	860.1.1 = {
+		holder = sambal001
+		government = tribal_government
+	}		
+	1065.1.1 = {
+			holder = tagalog003 # Fictional ruler
+		}
+}
+d_tondo = {
+	860.1.1 = { 
+		holder = tondo008 # 
+		government = tribal_government
+	}
+	1065.1.1 = {
+		holder = kapampangan001 # 
+	}
+}
+	c_tondo = {
+		867.1.1 = { change_development_level = 5 }
+
+		860.1.1 = {
+			holder = tondo008 #
+		}
+		
+		1065.1.1 = {
+			holder = kapampangan001 #
+		}
+	}
+		b_binwangan = {
+			860.1.1 = {
+				holder = tondo004 # 
+			}
+			
+		1065.1.1 = {
+			holder = tagalog005 # 
+		}
+		}
+	b_pulilan = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo002 #
+			liege = d_tondo
+		}	
+		1065.1.1 = {
+			holder = tagalog005 # 
+		}
+	}
+	c_maynila = {
+		867.1.1 = { change_development_level = 5 }
+
+		860.1.1 = {
+			holder = tondo003 # Fictional ruler
+			liege = d_tondo
+		}	
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+			liege = d_tondo
+		}
+	}
+	c_pila_ph = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo009 # Fictional ruler
+			liege = d_tondo
+		}
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+		}
+	}
+	b_tangway = {
+		867.1.1 = { change_development_level = 2 }
+
+		860.1.1 = {
+			holder = tondo006 # Fictional ruler
+		}
+	}
+	b_taytay_morong = {
+		867.1.1 = { change_development_level = 3 }
+
+		860.1.1 = {
+			holder = tondo007 # Fictional ruler
+		}
+		1065.1.1 = {
+			holder = tagalog004 # Fictional ruler
+			liege = d_tondo
+		}
+	}
+
+## pangpang
+
+c_pangpang= {
+	867.1.1 = { change_development_level = 2 }
+}
+
+c_binalatongan = {
+	860.1.1 = {
+		holder = pangasinan001
+	}
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+c_bolinao = {
+	860.1.1 = {
+		holder = pangasinan001
+	}
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+
+        c_agoo = {
+        	860.1.1 = {
+        		holder = pangasinan001
+        	}
+		
+			1065.1.1 = {
+				holder = kapampangan002
+			}
+        }
+
+d_pangasinan = {
+	1065.1.1 = {
+		holder = kapampangan002
+	}
+}
+
+
+
+# Butuan
+d_butuan = {
+	860.1.1 = {
+		holder = butuan001 # Fictional ruler
+		government = tribal_government
+	}
+}
+c_butuan = {
+	867.1.1 = { change_development_level = 5 }
+	860.1.1 = {
+		holder = butuan001 # Fictional ruler
+	}
+}
+c_limasawa = {
+	860.1.1 = {
+		holder = butuan001 # Fictional ruler
+	}
+}
+
+c_sug = {
+	860.1.1 = {
+		holder = buranun001
+	}
+}
+c_taytay = {
+	860.1.1 = {
+		holder = palawan001
+	}
+}
+
+
+
+# Sulu
+k_sulu = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+c_jawi_jawi = {
+    865.1.1 = {
+        holder = easteregg_sama_bajau
+    }
+}

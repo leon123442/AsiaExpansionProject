@@ -1,0 +1,748 @@
+﻿#############################################
+### Kingdom of Goguryeo/k_goguryeo 高句麗 ###
+#############################################
+
+##d_pyongyang 평양/平壤 ####################################
+###c_pyongyang 평양/平壤
+#b_pyongyang
+10912 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon
+	}
+}
+#b_yonggang
+10913 = {
+	holding = none
+}
+#b_pyongsong
+10918 = {
+	holding = none
+}
+
+###c_anju 안주/安州
+#b_anju
+10914 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+	}
+}
+#b_gaeju
+12246 = {
+	holding = none
+}
+
+###c_uiju 의주/義州
+#b_uiju
+10916 = {
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+	}
+}
+#b_chongwon
+10915 = {
+	holding = none
+}
+
+##d_okjeo 옥저/沃沮 ####################################
+###c_namhae 남해/南海
+#b_namgyeong
+10702 = {
+    culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_bukcheong
+12258 = {
+	holding = none
+}
+
+#c_changjin 장진/長津
+#b_changjin
+10699 = {
+    culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_huju
+10698 = {
+	holding = none
+}
+
+###c_kilju
+#b_kilju
+10759 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_dancheon
+10760 = {
+	holding = none
+}
+
+###c_yongwon 길주/吉州
+#b_donggyeong
+10713 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_kyongsong
+12266 = {
+	holding = church_holding
+}
+
+###c_jeongju 정주/定州
+#b_jeongju 정주/定州
+10701 = {
+
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+		religion = goryeo_sinhwa
+	}
+}
+#b_yangam
+12229 = {
+	holding = none
+}
+#b_hwaju
+12230 = {
+	holding = none
+}
+
+###d_amnok #압록/鴨綠 ####################################
+###c_kanggye 강계/江界
+#b_kanggye
+10919 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_jonchon
+12243 = {
+	holding = none
+}
+
+###c_sakju_nk 삭주/朔州
+#b_sakju_nk
+10920 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_chosan
+12244 = {
+	holding = none
+}
+
+###c_nyongbyon 녕변/寧邊
+#b_nyongbyon
+10917 = {
+    culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+		religion = goryeo_sinhwa
+	}
+}
+#b_muju_nk
+12227 = {
+	holding = none
+}
+#b_taeju
+12245 = {
+	holding = none
+}
+
+###c_yeongwon 영원/永遠
+#b_yeongwon
+10700 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	936.1.1 = { 
+		culture = goryeon 
+		religion = goryeo_sinhwa
+	}
+}
+#b_deokju
+12228 = {
+	holding = none
+}
+
+###c_huchang 후창/厚昌
+#b_huchang
+12265 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+
+##d_sakju 삭주/朔州 ####################################
+###c_sakju 삭주/朔州
+#b_sakju
+10876 = {
+    culture = saro
+	religion = mahayana
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_odaesan
+12235 = {
+	holding = none
+}
+#b_inje = {
+12252 = {
+	holding = none
+}
+
+###c_cheorwon 철원/鐵原
+#b_cheorwon
+10884 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_yanggu
+12233 = {
+	holding = church_holding
+}
+
+###c_wonju 원주/原州
+#b_wonju
+10877 = {
+	culture = saro
+	religion = silla_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_chechon
+10879 = {
+	holding = none
+}
+
+###c_yeongwol
+#b_yeongju
+10878 = {
+	holding = none
+}
+
+###c_wonsan 원산/元山
+#b_wonsan
+10875 = {
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_anbyon
+10870 = {
+	holding = city_holding
+}
+
+##d_myeongju 명주/溟州 ####################################
+###c_myeongju 명주/溟州
+#b_kangnung
+10872 = {
+	culture = saro
+	religion = silla_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_jeongseon
+10873 = {
+	holding = church_holding
+}
+#b_samcheok
+12212 = {
+	holding = city_holding
+}
+#b_pyeongchang
+12215 = {
+	holding = none
+}
+
+###c_sokcho 속초/束草
+#b_sokcho
+10871 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_tongcheon
+12232 = {
+	holding = none
+}
+
+###c_ulchin 울진/蔚珍
+#b_uljinya
+10874 = {
+	culture = saro
+	religion = silla_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_yeju
+12262 = {
+	holding = none
+}
+
+##d_hanju 한주/漢州 ####################################
+###c_hanju 한주/漢州
+#b_weili
+10885 = {
+	culture = saro
+	religion = mahayana
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_bukju
+12234 = {
+	holding = none
+}
+#b_gyoha
+12253 = {
+	holding = none
+}
+
+###c_dongju 동주/東州
+#b_dongju
+12209 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_pyeonggang
+12231 = {
+	holding = none
+}
+
+###c_nanhanseong 남한산성/南漢山城 (Jujangseong 주장성/晝長城)
+#b_nanhanseong
+10886 = {
+	culture = saro
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_chungju
+10889 = {
+	holding = city_holding
+}
+#b_yanggeun
+12254 = {
+	holding = none
+}
+#b_icheon
+12255 = {
+	holding = none
+}
+
+###c_geoseo
+12211 = {
+	culture = saro
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_suwon
+10888 = {
+	holding = city_holding
+}
+#b_ganghwa
+10887 = {
+	holding = castle_holding
+}
+
+###c_kaeseong 개성/開城 (Songak 송악/松嶽)
+#b_kaeseong
+10883 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_chuiljeon
+12210 = {
+	holding = none
+}
+
+##d_haeju 해주/海州 ####################################
+###c_haeju 해주/海州
+#b_haeju
+10882 = {
+	culture = goguryeo
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_sariwon
+10881 = {
+	holding = city_holding
+}
+#b_pungju
+12249 = {
+	holding = none
+}
+#b_bongju
+12250 = {
+	holding = none
+}
+
+###c_hwanghae #Hwanghae/황해도/黄海道
+#b_hwangju
+10880 = {
+	culture = goguryeo
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_gokju
+12207 = {
+	holding = none
+}
+#b_sudeok
+12247 = {
+	holding = none
+}
+#b_suan
+12248 = {
+	holding = none
+}
+
+###c_paegangjin 패강진/浿江鎭
+#b_paegangjin
+12208 = {
+	culture = goguryeo
+	religion = zenzong
+	holding = castle_holding
+	918.7.25 = { culture = goryeon }
+}
+#b_onju
+12251 = {
+	Holding = none
+}
+
+####################################
+### Kingdom of Silla/k_silla 新羅 ###
+####################################
+
+##d_yangju  ####################################
+###c_yangju 양주/楊州
+#b_yangsan
+10904 = {
+	culture = saro
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_upung
+12222 = {
+	holding = city_holding
+}
+#b_dongnae
+12223 = {
+	holding = city_holding
+}
+
+###c_gyeongju 경주/慶州 (Geumseong 금성/金城)
+#b_gyeongju
+10903 = {
+    culture = saro
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_SeokguramGrotto
+10907 = {
+	holding = church_holding
+}
+#b_eumjeupbeol
+12219 = {
+	holding = none
+}
+#b_imgo
+12220 = {
+	holding = none
+}
+
+###c_gimhae 김해/金海
+#b_gimhae
+10901 = {
+	culture = saro
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_milbeol
+12221 = {
+	holding = none
+}
+
+##d_sangju 상주/尙州 ####################################
+###c_sangju 상주/尙州
+#b_sangju
+10908 = {
+    culture = saro
+	religion = zenzong
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_gwanseong
+12216 = {
+	holding = none
+}
+#b_gammun
+12217 = {
+	holding = none
+}
+
+###c_gochang 고창/高敞
+#b_gochang
+10909 = {
+	culture = saro
+	religion = zenzong
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_geunamseong
+12218 = {
+	holding = none
+}
+#b_uiseong
+12261 = {
+	holding = none
+}
+
+##d_gangju 강주/康州 ####################################
+###c_gangju 강주/康州
+#b_gangju
+10899 = {
+    culture = saro
+	religion = zenzong
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_sacheon
+10900 = {
+	holding = none
+}
+#b_changwon
+10902 = {
+	holding = city_holding
+}
+#b_uiryeong
+12263 = {
+	holding = none
+}
+
+###c_dalseong 달성/達城
+#b_daegu 대구/大邱
+10905 = {
+    culture = saro
+	religion = zenzong 
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_goryeong
+10911 = {
+	holding = none
+}
+#b_HaeinsaTemple
+10906 = {
+	holding = church_holding
+}
+#b_haman
+10910 = {
+	holding = none
+}
+
+######################################
+### Kingdom of Baekje/k_baekje 百濟 ###
+######################################
+
+##d_Jeonju 전주/全州 ####################################
+###c_jeonju 전주/全州
+#b_jeonju
+10894 = {
+    culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_namwon
+10896 = {
+	holding = city_holding
+}
+#b_hoedeok
+12257 = {
+	holding = none
+}
+
+###c_ogya
+#b_ogya
+10895 = {
+	culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_buan
+12224 = {
+	holding = none
+}
+
+##d_ungju 웅주/熊州 ####################################
+###c_ungju 웅주/熊州
+#b_ungju
+10892 = {
+    culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_hansan
+12214 = {
+	holding = city_holding
+}
+#b_gyeolseong
+10893 = {
+	holding = none
+}
+#b_buseong
+12256 = {
+	holding = none
+}
+
+###c_cheongju 청주/淸州 (Seowon 서원/西原)
+#b_cheongju 청주/淸州 (Seowon 서원/西原)
+10891 = {
+	culture = saro
+	religion = zenzong
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_gammae
+12213 = {
+	holding = none
+}
+
+##d_muju 무주/武州 ####################################
+###c_muju 무주/武州
+#b_muju
+10897 = {
+    culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_yeongggwang
+12259 = {
+	holding = none
+}
+
+###c_geumsan 금산/錦山
+#b_geumsan
+12225 = {
+	culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_donggang
+12226 = {
+	holding = none
+}
+
+###c_yeosu 여수/麗水
+#b_yeosu
+10898 = {
+	culture = baekje
+	religion = mahayana
+	holding = castle_holding
+	936.1.1 = { culture = goryeon }
+}
+#b_boseong
+12264 = {
+	holding = none
+}
+
+##d_tamna 탐라/耽羅 ####################################
+###c_tamna 탐라/耽羅
+#b_gungsil
+10890 = {
+	culture = tamna
+	religion = tamna_musok
+	holding = castle_holding
+}
+#b_hongro
+12260 = {
+	holding = church_holding
+}

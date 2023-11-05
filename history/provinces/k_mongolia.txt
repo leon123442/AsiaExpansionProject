@@ -1,9 +1,9 @@
-ï»¿# Many of the duchies, counties & baronies are named after geographical features and overall regions
+# Many of the duchies, counties & baronies are named after geographical features and overall regions
 # The vast majority of cities are fairly modern, at the very least from Renaissance era
 
 #k_mongolia
 ##d_otuken ###################################
-#Historical region of Ã–tÃ¼ken with heavy symbolic meaning
+#Historical region of Ötüken with heavy symbolic meaning
 ###c_karakorum
 1457 = {	#Karakorum
 	#Historical capital of the Mongol Empire, founded in the XIIIth
@@ -46,12 +46,8 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
-	special_building = pijiakehanbei
-	1050.1.2 = {
-		culture = kerait
-	}
 }
-1461 = {	#Ã–tuken City
+1461 = {	#Ötuken City
 	#Legendary turko-mongol city around this area
 	holding = none
 }
@@ -78,9 +74,6 @@
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
-	1050.1.2 = {
-		culture = kerait
-	}
 }
 7518 = {	#Khoyorgol
 	#Entirely fictional
@@ -99,8 +92,8 @@
 }
 
 ##d_ogrash ###################################
-#Ã–grÃ¤sh is a region somewhat east of the Ã–tÃ¼ken
-###c_ulaanbaatar	named Ã–rgÃ¶Ã¶ in game
+#Ögräsh is a region somewhat east of the Ötüken
+###c_ulaanbaatar	named Örgöö in game
 7532 = {	#Ulaanbaatar
 	culture = mongol
 	religion = tengri_pagan
@@ -128,8 +121,7 @@
 }
 7537 = {	#Tuul Khentii
 	#Entirely fictional
-	holding = tribal_holding
-	special_building = langjuxubei
+	holding = none
 }
 7538 = {	#Gorkhii-Terelj
 	#Local region
@@ -243,7 +235,7 @@
 }
 
 ##d_ovorkhangai ###################################
-#Ã–vÃ¶rkhangai region
+#Övörkhangai region
 ###c_tovkhon
 7573 = {	#Tovkhon
 	#Monastery established in the XVIIth century
@@ -343,14 +335,13 @@
 }
 
 ##d_arkhangai ###################################
-#Ã–vÃ¶rkhangai region
+#Övörkhangai region
 ###c_tarvagatai
 1458 = {	#Tarvagatai
 	#Named after local mountain
 	culture = mongol
 	religion = tengri_pagan
 	holding = tribal_holding
-	special_building = yanranleshi
 }
 7581 = {	#Galt
 	#Provincial district

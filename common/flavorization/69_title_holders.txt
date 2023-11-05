@@ -1,5 +1,4 @@
-﻿
-Barony = {
+﻿Barony = {
 	type = title
 	tier = barony
 	top_liege = no

@@ -1,0 +1,164 @@
+﻿####################
+### House of Lưu ###
+####################
+
+luu_ke_tong = {
+	name = Ke_Tong_vn # 继宗
+	dynasty = 50000012 # Lưu
+	culture = kinh
+	religion = mahayana
+
+	933.1.1 = { # date unknown
+		birth = yes
+	}
+	989.1.1 = {
+		death = yes
+	}
+}
+
+###################
+### House of Lý ###
+###################
+
+ly_thaito = {
+	name = Cong_Uan_vn # 公蘊
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	trait = zealous
+	trait = scholar
+    974.3.8 = {
+        birth = yes
+    }
+    1028.3.31 = {
+        death = yes
+		name = Thai_To_vn # 太祖
+    }
+}
+ly_thaitong = {
+	name = Phat_Ma_vn # 佛瑪
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_thaito
+    1000.7.29 = {
+        birth = yes
+    }
+    1054.11.3 = {
+        death = yes
+		name = Thai_Tong_vn # 太宗
+    }
+}
+ly_thanhtong = {
+	name = Nhat_Ton_vn # 日尊
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_thaitong
+    1023.3.30 = {
+        birth = yes
+    }
+    1072.2.1 = {
+        death = yes
+		name = Thanh_Tong_vn # 聖宗
+    }
+	dna = thanh_tong_dna_entry
+}
+ly_nhantong = {
+	name = Can_Duc_vn # 乾德
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_thanhtong
+    1066.2.22 = {
+        birth = yes
+    }
+    1128.1.15 = {
+        death = yes
+		name = Nhan_Tong_vn # 仁宗
+    }
+}
+ly_hienhau = {
+	name = Hien_Hau_vn # 贤侯
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_thanhtong
+    1070.1.1 = { #date unknown
+        birth = yes
+    }
+    1120.1.1 = { #date unknown
+        death = yes
+    }
+}
+ly_thantong = {
+	name = Duong_Hoan_vn # 陽煥
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_hienhau
+    1116.1.1 = {	
+        birth = yes
+    }
+    1138.10.31 = {
+        death = yes
+		name = Than_Tong_vn # 神宗
+    }
+}
+ly_anhtong = {
+	name = Thien_To_vn # 天祚
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_thantong
+    1136.4.1 = {
+        birth = yes
+    }
+    1175.8.14 = {
+        death = yes
+		name = Anh_Tong_vn # 英宗
+    }
+}
+ly_caotong = {
+	name = Long_Trat_vn # 龍翰
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_anhtong
+    1173.7.6 = {
+        birth = yes
+    }
+    1210.11.15 = {
+        death = yes
+		name = Cao_Tong_vn # 高宗
+    }
+}
+ly_huetong = {
+	name = Hao_Sam_vn # 昊旵
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_caotong
+    1194.7.1 = {
+        birth = yes
+    }
+    1226.9.3 = {
+        death = yes
+		name = Hue_Tong_vn # 惠宗
+    }
+}
+ly_chieuhoang = {
+	name = Phat_Kim_vn # 佛金
+	female = yes
+	dynasty = 50000010 # Lý
+    culture = kinh
+    religion = mahayana
+	father = ly_huetong
+    1218.9.1 = {
+        birth = yes
+    }
+    1278.1.1 = {
+        death = yes
+		name = Chieu_Hoang_vn # 昭皇
+    }
+}

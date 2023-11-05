@@ -1,0 +1,2258 @@
+# Region of Japan
+
+d_yamato_imperial = { # Emperors of Japan (Including Legendary Emperors)
+	-661.2.11 = { # 660 BC
+		holder = jimmu_tenno
+	}
+	-582.1.1 = { # 581 BC
+		holder = suizei_tenno
+	}
+	-550.1.1 = { # 549 BC
+		holder = annei_tenno
+	}
+	-511.1.1 = { # 511 BC
+		holder = itoku_tenno
+	}
+	-476.1.1 = { # 475 BC
+		holder = kosho_tenno
+	}
+	-393.1.1 = { # 392 BC
+		holder = koan_tenno
+	}
+	-291.1.1 = { # 290 BC
+		holder = korei_tenno
+	}
+	-215.1.1 = { # 214 BC
+		holder = kogen_tenno
+	}
+	-158.1.1 = { # 158 BC
+		holder = kaika_tenno
+	}
+	-98.1.1 = { # 97 BC
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = ojin_tenno
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+	}
+	629.1.1 = {
+		holder = jomei_tenno
+	}
+	642.1.25 = {
+		holder = saimei_tenno
+	}
+	645.6.14 = {
+		holder = kotoku_tenno
+	}
+	655.1.3 = {
+		holder = saimei_tenno
+	}
+	661.9.1 = {
+		holder = tenji_tenno
+	}
+	672.2.1 = {
+		holder = kobun_tenno
+	}
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	697.1.1 = {
+		holder = monmu_tenno
+	}
+	701.1.1 = {
+		government = feudal_government # Should actually be more bureaucratic following the Taihō Code
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600004 # Seiwa
+	}
+	876.12.18 = {
+		holder = yozei_tenno
+	}
+	884.3.5 = {
+		holder = koko_tenno
+	}
+	887.9.17 = {
+		holder = uda_tenno
+	}
+	891.2.25 = {
+		liege = 0 # Insei Rule
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = suzaku_tenno
+		liege = k_nippon # Fujiwara Authority Restored
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+		liege = 0 # Insei Rule
+	}
+	967.7.5 = {
+		holder = reizei_tenno
+	}
+	967.7.31 = {
+		liege = k_nippon # Fujiwara Authority Restored
+	}
+	969.9.27 = {
+		holder = enyu_tenno
+	}
+	984.9.24 = {
+		holder = kazan_tenno
+	}
+	986.7.31 = {
+		holder = ichijo_tenno
+	}
+	1011.7.16 = {
+		holder = sanjo_tenno
+	}
+	1016.3.10 = {
+		holder = goichijo_tenno
+	}
+	1036.3.15 = {
+		holder = gosuzaku_tenno
+	}
+	1045.2.5 = {
+		holder = goreizei_tenno
+	}
+	1068.5.22 = {
+		holder = gosanjo_tenno
+	}
+	1073.1.18 = {
+		holder = shirakawa_tenno
+	}
+	1087.1.3 = {
+		holder = horikawa_tenno
+	}
+	1099.7.18 = {
+		liege = 0 # Insei Rule
+	}
+	1107.8.9 = {
+		holder = toba_tenno
+	}
+	1123.2.25 = {
+		holder = sutoku_tenno
+	}
+	1142.1.5 = {
+		holder = konoe_tenno
+	}
+	1155.8.22 = {
+		holder = goshirakawa_tenno
+	}
+	1156.8.16 = {
+		liege = "k_nippon" # Taira seize power following the Hogen Rebellion
+	}
+	1158.9.5 = {
+		holder = nijo_tenno
+	}
+	1165.8.3 = {
+		holder = rokujo_tenno
+	}
+	1168.4.9 = {
+		holder = takakura_tenno
+	}
+	1180.3.18 = {
+		holder = antoku_tenno
+	}
+	1183.9.8 = {
+		holder = gotoba_tenno
+	}
+}
+
+k_yamato = { # Ancient Kings of the Yamato Kingship
+	-98.1.1 = { # 97 BC, Regarded by most historians as the first verifiable ruler, although he likley lived much later than what's recorded in the Nihon Shoki (probably 2nd century)
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	
+	# Regency of Empress Jingū (201-270)
+	
+	270.1.1 = {
+		holder = ojin_tenno
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	
+	# Regency of Princess Iitoyo (484-485)
+	
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+	}
+	
+	# Regency of Shōtoku Taishi (593-622), Soga domination of the imperial court (622-645), Regency of Prince Naka no Ōe (645-661)
+	
+	661.1.1 = {
+		holder = tenji_tenno # Official coronation
+	}
+	
+	# Jinshin War (672-673)
+	
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	
+	# Regency of Prince Kusakabe (681-686)
+		
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	697.1.1 = {
+		holder = monmu_tenno # Didn't rule de-facto until after the death of Empress Jitō in 703
+	}
+	701.1.1 = {
+		holder = 0 # Taihō Code abolishes the Yamato Kingship
+		de_jure_liege = 0
+	}
+}
+
+k_nippon = { # De-facto rulers of Japan
+	701.1.1 = {
+		holder = monmu_tenno # Didn't rule de-facto until after the death of Empress Jitō in 703
+		de_jure_liege = "e_nippon"
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa; Fujiwara Regency begins following the death of Emperor Montoku
+	}
+	872.10.7 = {
+		holder = 1600005 # Sesshō and later Kampaku Fujiwara no Mototsune
+	}
+	891.2.25 = {
+		holder = uda_tenno # Early Insei Rule
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = fujiwara_tadahira # Fujiwara Authority Restored
+	}
+	946.5.23 = {
+		holder = murakami_tenno # Early Insei Rule
+	}
+	967.7.5 = {
+		holder = rezei_tenno
+	}
+	967.7.31 = {
+		holder = fujiwara_saneyori # Fujiwara Authority Restored
+	}
+	970.6.24 = {
+		holder = fujiwara_koretada
+	}
+	972.1.1 = {
+		holder = fujiwara_kanemichi
+	}
+	977.12.20 = {
+		holder = fujiwara_yoritada
+	}
+	986.1.1 = {
+		holder = fujiwara_kaneie
+	}
+	990.5.8 = {
+		holder = fujiwara_michitaka
+	}
+	995.4.28 = {
+		holder = fujiwara_michikane
+	}
+	995.5.8 = {
+		holder = fujiwara_michinaga
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1068.3.1 = {
+		holder = fujiwara_norimichi
+	}
+	1075.1.1 = {
+		holder = fujiwara_morozane
+	}
+	1094.1.1 = {
+		holder = fujiwara_moromichi
+	}
+	1099.7.18 = {
+		holder = horikawa_tenno # Insei Rule
+	}
+	1107.8.9 = {
+		holder = toba_tenno
+	}
+	1123.2.25 = {
+		holder = sutoku_tenno
+	}
+	1142.1.5 = {
+		holder = konoe_tenno
+	}
+	1155.8.22 = {
+		holder = goshirakawa_tenno
+	}
+	1156.8.16 = {
+		holder = isetaira_kiyomori # Taira seize power following the Hogen Rebellion
+	}
+	1181.3.20 = {
+		holder = isetaira_munemori
+	}
+	1185.4.25 = {
+		holder = 0 # Taira Destroyed at Dan-no-ura; Minamoto Shōgunate Established
+	}
+	#1333.7.4 = {
+	#	holder = godaigo_tenno # Kenmu Restoration
+	#}
+	#1336.2.25 = {
+	#	holder = 0 # Kyōto falls to the forces of Ashikaga Takauji; Ashikaga Shōgunate Established
+	#}
+}
+
+k_kamakura_bakufu = { # Minamoto Shōgunate
+	1185.4.25 = {
+		holder = kawachiminamoto_yoritomo
+	}
+	1333.7.4 = {
+		holder = 0 # Shikken Hōjō Mototoki Defeated at Kamakura; Imperial authority restored
+	}
+}
+
+k_muromachi_bakufu = { # Ashikaga Shōgunate
+	1336.2.25 = {
+		holder = ashikaga_takauji
+	}
+}
+
+d_kinai = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_yamashiro = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	511.1.1 = {
+		holder = keitai_tenno
+	}
+	740.1.1 = {
+		holder = shomu_tenno
+	}
+	784.1.1 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600001 # Sesshō Fujiwara no Yoshifusa
+	}
+	872.10.7 = {
+		holder = 1600005 # Sesshō and later Kampaku Fujiwara no Mototsune
+	}
+	891.2.25 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = fujiwara_tadahira
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.31 = {
+		holder = fujiwara_saneyori
+	}
+	970.6.24 = {
+		holder = fujiwara_koretada
+	}
+	972.1.1 = {
+		holder = fujiwara_kanemichi
+	}
+	977.12.20 = {
+		holder = fujiwara_yoritada
+	}
+	986.1.1 = {
+		holder = fujiwara_kaneie
+	}
+	990.5.8 = {
+		holder = fujiwara_michitaka
+	}
+	995.4.28 = {
+		holder = fujiwara_michikane
+	}
+	995.5.8 = {
+		holder = fujiwara_michinaga
+	}
+	1028.1.3 = {
+		holder = fujiwara_yorimichi
+	}
+}
+c_yamato = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	-661.2.11 = { # 660 BC
+		holder = jimmu_tenno
+	}
+	-582.1.1 = { # 581 BC
+		holder = suizei_tenno
+	}
+	-511.1.1 = { # 511 BC
+		holder = itoku_tenno
+	}
+	-476.1.1 = { # 475 BC
+		holder = kosho_tenno
+	}
+	-393.1.1 = { # 392 BC
+		holder = koan_tenno
+	}
+	-291.1.1 = { # 290 BC
+		holder = korei_tenno
+	}
+	-215.1.1 = { # 214 BC
+		holder = kogen_tenno
+	}
+	-158.1.1 = { # 158 BC
+		holder = kaika_tenno
+	}
+	-98.1.1 = { # 97 BC
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	204.1.1 = {
+		holder = jingu_kougou
+	}
+	270.1.1 = {
+		holder = ojin_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	526.1.1 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.12.8 = {
+		holder = suiko_tenno
+	}
+	629.1.1 = {
+		holder = jomei_tenno
+	}
+	642.1.25 = {
+		holder = saimei_tenno
+	}
+	654.1.1 = {
+		holder = kotoku_tenno
+	}
+	655.1.3 = {
+		holder = saimei_tenno
+	}
+	673.1.1 = {
+		holder = tenmu_tenno
+	}
+	686.11.1 = {
+		holder = jito_tenno
+	}
+	697.1.1 = {
+		holder = monmu_tenno
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	754.1.1 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	867.1.1 = {
+		holder = shikikefujiwara_motoo
+		liege = "d_kinai"
+	}
+	1050.1.1 = {
+		holder = yamatominamoto_yorinari
+		liege = "d_kinai"
+	}
+}
+c_settsu = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	645.6.14 = {
+		holder = kotoku_tenno
+	}
+	661.9.1 = {
+		holder = tenji_tenno
+	}
+	744.1.1 = {
+		holder = shomu_tenno
+	}
+	858.10.7 = { # placeholder
+		holder = 1600001
+	}
+	1058.1.1 = {
+		holder = minamoto_yoritsuna
+		liege = "d_kinai"
+	}
+}
+c_kawachi = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	-550.1.1 = { # 549 BC
+		holder = annei_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	867.1.1 = {
+		holder = ariwara_yoshifuchi
+		liege = "d_kinai"
+	}
+	1048.6.1 = {
+		holder = kawachiminamoto_yoriyoshi
+		liege = "d_kinai"
+	}
+}
+c_izumi = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = ariwara_yoshifuchi
+	}
+	1048.6.1 = { # placeholder
+		holder = kawachiminamoto_yoriyoshi
+	}
+}
+c_omi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	667.1.1 = {
+		holder = tenji_tenno
+	}
+	864.1.1 = {
+		holder = harusumi_yoshitada
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = fujiwara_moronari
+		liege = "k_nippon"
+	}
+}
+c_iga = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	858.10.7 = { # placeholder
+		holder = 1600001
+	}
+	1028.1.3 = { # placeholder
+		holder = fujiwara_yorimichi
+	}
+}
+
+d_west_kanto = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = minamoto_ikeru
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado # Jōhei-Tengyō Rebellion
+		liege = 0
+	}
+	1051.1.1 = {
+		holder = kamakura_akina
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_sagami = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		holder = minamoto_ikeru
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1036.10.14 = {
+		holder = kawachiminamoto_yoriyoshi
+	}
+	1051.1.1 = {
+		holder = kamakura_akina
+	}
+}
+c_musashi = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	867.1.1 = {
+		holder = tachibana_harunari
+		liege = "d_west_kanto"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = sugawara_koretsuna # didn't actually govern until 1075
+		liege = "d_west_kanto"
+	}
+}
+c_kozuke = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = yamato_kaya
+		liege = "d_west_kanto"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1064.1.1 = { # actual date unknown
+		holder = taira_naokata
+		liege = "d_west_kanto"
+	}
+}
+d_east_kanto = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	864.1.1 = {
+		holder = yamato_koretaka
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado # Jōhei-Tengyō Rebellion
+		liege = 0
+	}
+	1031.6.28 = {
+		holder = chiba_tsunemasa
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_shimosa = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	864.1.1 = {
+		holder = oo_jinenmaro
+	}
+	867.1.1 = {
+		liege = "d_east_kanto"
+	}
+	940.1.27 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1031.6.28 = {
+		holder = chiba_tsunemasa
+	}
+}
+c_shimotsuke = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = ki_aritsune
+		liege = "d_east_kanto"
+	}
+	940.1.27 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1066.1.1 = { # placeholder
+		holder = shimotsuke_placeholder_001
+		liege = "d_east_kanto"
+	}
+}
+c_hitachi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	864.1.1 = {
+		holder = yamato_koretaka
+	}
+	940.1.8 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1049.1.1 = {
+		holder = hitachitaira_shigemoto
+		liege = "d_east_kanto"
+	}
+}
+c_kazusa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		holder = yamato_motoyasu # didn't actually govern until 869
+		liege = "d_east_kanto"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1066.1.1 = { # placeholder
+		holder = kazusa_placeholder_001
+		liege = "d_east_kanto"
+	}
+}
+c_awa_so = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = yamato_motoyasu
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1066.1.1 = { # placeholder
+		holder = kazusa_placeholder_001
+	}
+}
+
+d_chubu = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	866.1.1 = {
+		holder = fujiwara_yamakage
+		liege = "k_nippon"
+	}
+	1065.1.1 = {
+		holder = minominamoto_kunifusa
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_mino = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	866.1.1 = {
+		holder = fujiwara_yamakage
+	}
+	868.1.1 = {
+		holder = oe_otondo
+	}
+	1061.1.1 = {
+		holder = minamoto_sanemoto
+	}
+	1065.1.1 = {
+		holder = minominamoto_kunifusa
+	}
+}
+c_hida = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = { # palceholder
+		holder = hida_placeholder_001
+		liege = "d_chubu"
+	}
+	1066.1.1 = { # palceholder
+		holder = hida_placeholder_002
+		liege = "d_chubu"
+	}
+}
+c_ise = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	864.1.1 = {
+		holder = minamoto_okoru
+	}
+	866.1.1 = {
+		liege = "d_chubu"
+	}
+	1031.1.1 = {
+		holder = isetaira_masanori
+		liege = "d_chubu"
+	}
+}
+c_shima = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	864.1.1 = { # palceholder
+		holder = minamoto_okoru
+	}
+	866.1.1 = {
+		liege = "d_chubu"
+	}
+	1006.1.28 = { # palceholder
+		holder = isetaira_korehira
+	}
+	1031.1.1 = { # palceholder
+		holder = isetaira_masanori
+	}
+	1067.1.1 = { # palceholder
+		holder = isetaira_masahira
+	}
+}
+c_owari = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		holder = kibi_matatsugu
+		liege = "d_chubu"
+	}
+	1065.1.1 = {
+		holder = taira_sadaie
+		liege = "d_chubu"
+	}
+}
+
+d_tokai = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = kiyohara_michio
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = taira_koremori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_suruga = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		holder = kiyohara_michio
+	}
+	1062.1.1 = {
+		holder = taira_koremori
+	}
+}
+c_mikawa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	866.1.1 = {
+		holder = nankefujiwara_hiromoto # 権守
+	}
+	867.1.1 = {
+		liege = "d_tokai"
+	}
+	1066.1.1 = {
+		holder = fujiwara_akizane # didn't actually govern until 1069
+		liege = "d_tokai"
+	}
+}
+c_totomi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {
+		holder = kiyohara_koreoka # didn't actually govern until 870
+		liege = "d_tokai"
+	}
+	1066.1.1 = {
+		holder = fujiwara_ienori # didn't actually govern until 1067
+		liege = "d_tokai"
+	}
+}
+c_izu = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	866.1.1 = {
+		holder = nagamine_tsunenori
+	}
+	867.1.1 = {
+		liege = "d_tokai"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		liege = 0
+	}
+	1066.1.1 = { # palceholder
+		holder = izu_placeholder_001
+		liege = "d_tokai"
+	}
+}
+
+d_hokuriku = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = minamoto_sunao # didn't actually govern until 892
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = fujiwara_sadashige # actually vacated the governorship by 1062 
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_echizen = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = minamoto_sunao # didn't actually govern until 892
+	}
+	1062.1.1 = {
+		holder = fujiwara_sadashige # actually vacated the governorship by 1062 
+	}
+}
+c_wakasa = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = wakasa_placeholder_001
+		liege = "d_hokuriku"
+	}
+	1066.1.1 = { # placeholder
+		holder = wakasa_placeholder_002
+		liege = "d_hokuriku"
+	}
+}
+c_kaga = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	866.1.1 = {
+		holder = minamoto_yoshiari
+	}
+	867.1.1 = {
+		liege = "d_hokuriku"
+	}
+	1063.1.1 = {
+		holder = yamatominamoto_yorifusa
+		liege = "d_hokuriku"
+	}
+}
+c_noto = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = {
+		holder = abe_takasada # didn't actually govern until 869
+		liege = "d_hokuriku"
+	}
+	1066.1.1 = { # placeholder
+		holder = noto_placeholder_001
+		liege = "d_hokuriku"
+	}
+}
+c_etchu = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	865.1.1 = {
+		holder = yamato_munesada
+	}
+	867.1.1 = {
+		liege = "d_hokuriku"
+	}
+	1061.1.1 = {
+		holder = fujiwara_masaie
+		liege = "d_hokuriku"
+	}
+	
+}
+
+d_koshinetsu = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = minamoto_hide
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = oe_narihira
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_shinano = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = minamoto_hide
+		liege = "d_tokai"
+	}
+	1063.1.1 = {
+		holder = oe_narihira
+	}
+}
+c_kai = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = { # placeholder
+		holder = kai_placeholder_001
+		liege = "d_koshinetsu"
+	}
+	1064.1.1 = {
+		holder = fujiwara_sanemasa
+		liege = "d_koshinetsu"
+	}
+}
+c_echigo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = {	# placeholder
+		holder = echigo_placeholder_001
+		liege = "d_koshinetsu"
+	}
+	1066.1.1 = { # actual date unknown
+		holder = nankefujiwara_suetsuna
+		liege = "d_koshinetsu"
+	}
+}
+c_sado = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = {	# placeholder
+		holder = echigo_placeholder_001
+	}
+	1066.1.1 = { # placeholder
+		holder = nankefujiwara_suetsuna
+	}
+}
+
+d_chugoku = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	866.1.1 = {
+		holder = ki_yasuo # didn't actually govern until 882
+		liege = "k_nippon"
+	}
+	1066.3.6 = {
+		holder = fujiwara_nagafusa
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_suo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	866.1.1 = {
+		holder = ki_yasuo # didn't actually govern until 882
+	}
+	1066.3.6 = {
+		holder = fujiwara_nagafusa
+	}
+}
+c_nagato = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = {
+		holder = fujiwara_yasumine
+		liege = "d_chugoku"
+	}
+	1066.1.1 = { # placeholder
+		holder = nagato_placeholder_001
+		liege = "d_chugoku"
+	}
+}
+c_aki = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	865.1.1 = {
+		holder = yamato_motoe
+	}
+	866.1.1 = {
+		liege = "d_chugoku"
+	}
+	1062.1.1 = {
+		holder = yamatominamoto_arimitsu
+		liege = "d_chugoku"
+	}
+}
+c_bingo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = { # placeholder
+		holder = bingo_placeholder_001
+		liege = "d_chugoku"
+	}
+	1066.1.1 = {
+		holder = fujiwara_sachiie # actually vacated governorship by 1059
+		liege = "d_chugoku"
+	}
+}
+c_iwami = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = iwami_placeholder_001
+		liege = "d_chugoku"
+	}
+	1066.1.1 = { # placeholder
+		holder = iwami_placeholder_002
+		liege = "d_chugoku"
+	}
+}
+c_izumo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = { # placeholder
+		holder = izumo_placeholder_001
+		liege = "d_chugoku"
+	}
+	1066.1.1 = { # placeholder
+		holder = izumo_placeholder_002
+		liege = "d_chugoku"
+	}
+}
+c_oki = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = { # placeholder
+		holder = izumo_placeholder_001
+	}
+	1066.1.1 = { # placeholder
+		holder = izumo_placeholder_002
+	}
+}
+
+d_sanyo = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = minamoto_tsutomu # didn't actually govern until 870
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = fujiwara_toshitsuna
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_harima = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	867.1.1 = {
+		holder = minamoto_tsutomu # didn't actually govern until 870
+	}
+	940.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo siezes Harima and Bizen
+	}
+	1063.1.1 = {
+		holder = fujiwara_toshitsuna
+	}
+}
+c_bizen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = { # placeholder
+		holder = bizen_placeholder_001
+		liege = "d_sanyo"
+	}
+	940.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo siezes Harima and Bizen
+	}
+	1066.1.1 = {
+		holder = minamoto_suketsuna
+		liege = "d_sanyo"
+	}
+}
+c_mimasaka = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = minamoto_hikaru # didn't actually govern until 870
+		liege = "d_sanyo"
+	}
+	1066.1.1 = {
+		holder = takashina_tameie # didn't actually govern until 1072
+		liege = "d_sanyo"
+	}
+}
+c_bitchu = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	866.1.1 = {
+		holder = nankefujiwara_yasunori
+	}
+	867.1.1 = {
+		liege = "d_sanyo"
+	}
+	1063.1.1 = {
+		holder = fujiwara_norisuke # actually vacated governorship around 1063
+		liege = "d_sanyo"
+	}
+}
+
+d_sanin = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = sakanoue_sadamori # didn't actually govern until 868
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = minamoto_takazane # didn't actually govern until 1068
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_tanba = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = sakanoue_sadamori # didn't actually govern until 868
+	}
+	1066.1.1 = {
+		holder = minamoto_takazane # didn't actually govern until 1068
+	}
+}
+c_tango = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = {
+		holder = okasuga_sawanushi
+		liege = "d_sanin"
+	}
+	1066.1.1 = {
+		holder = shikikefujiwara_atsumoto # didn't actually govern until 1068
+		liege = "d_sanin"
+	}
+}
+c_tajima = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = { # placeholder
+		holder = tajima_placeholder_001
+		liege = "d_sanin"
+	}
+	1066.1.1 = { # date unknown
+		holder = fujiwara_akitsuna
+		liege = "d_sanin"
+	}
+}
+c_hoki = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	867.1.1 = {
+		holder = yoshimine_hideoka # didn't actually govern until 896
+		liege = "d_sanin"
+	}
+	1066.1.1 = { # placeholder
+		holder = hoki_placeholder_001
+		liege = "d_sanin"
+	}
+}
+c_inaba = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = { # palceholder
+		holder = inaba_placeholder_001
+		liege = "d_sanin"
+	}
+	1066.1.1 = { # placeholder
+		holder = inaba_placeholder_002
+		liege = "d_sanin"
+	}
+}
+
+d_nankai = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	866.1.1 = {
+		holder = nankefujiwara_arisada
+		liege = "k_nippon"
+	}
+	1064.1.1 = {
+		holder = fujiwara_akiie # 権守
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_sanuki = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	866.1.1 = {
+		holder = nankefujiwara_arisada
+	}
+	886.1.1 = {
+		holder = sugawara_michizane
+	}
+	1064.1.1 = {
+		holder = fujiwara_akiie # 権守
+	}
+}
+c_iyo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	865.1.1 = {
+		holder = 1600005
+	}
+	866.1.1 = {
+		liege = "d_nankai"
+	}
+	939.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo rebels against the central government
+	}
+	1063.1.1 = {
+		holder = iyo_placeholder_001
+	}
+	1064.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_awa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	866.1.1 = {
+		holder = kiyohara_akio
+		liege = "d_nankai"
+	}
+	1066.1.1 = { # placeholder
+		holder = awa_placeholder_001
+		liege = "d_nankai"
+	}
+}
+c_tosa = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	860.1.1 = {
+		holder = tachibana_tokieda # actually vacated the governorship by 855
+	}
+	866.1.1 = {
+		liege = "d_nankai"
+	}
+	1062.1.1 = {
+		holder = minamoto_nagasue
+	}
+	1064.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_kii = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	
+	865.1.1 = {
+		holder = nankefujiwara_nakamune
+	}
+	866.1.1 = {
+		liege = "d_nankai"
+	}
+	1065.1.1 = {
+		holder = fujiwara_norinaga
+		liege = "d_nankai"
+	}
+}
+c_awaji = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = {
+		holder = yoshimichi_netsugi
+		liege = "d_nankai"
+	}
+	1065.1.1 = {
+		holder = miyoshi_tamenaga
+		liege = "d_nankai"
+	}
+}
+
+
+d_north_kyushu = {
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	740.9.1 = {
+		holder = shikikefujiwara_hirotsugu # Fujiwara no Hirotsugu rebellion
+	}
+	867.1.1 = {
+		holder = ariwara_yukihira # didn't actually govern until 874
+		liege = "k_nippon"
+	}
+	941.1.1 = {
+		holder = fujiwara_sumitomo # Fujiwara no Sumitomo rebellion
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = fujiwara_sukenaka # didn't actually govern until 1080
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_chikuzen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	200.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = jingu_kougou
+	}
+	660.1.1 = {
+		holder = saimei_tenno
+	}
+	740.9.1 = {
+		holder = shikikefujiwara_hirotsugu
+	}
+	867.1.1 = {
+		holder = ariwara_yukihira
+	}
+	941.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo captures Dazaifu
+	}
+	1066.1.1 = {
+		holder = fujiwara_sukenaka
+	}
+}
+c_hizen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = { # placeholder
+		holder = hizen_placeholder_001
+		liege = "d_north_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = hizen_placeholder_002
+		liege = "d_north_kyushu"
+	}
+}
+c_iki = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = { # placeholder
+		holder = ariwara_yukihira
+	}
+	1066.1.1 = { # placeholder
+		holder = fujiwara_sukenaka
+	}
+}
+c_tsushima = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	867.1.1 = { # placeholder
+		holder = tsushima_placeholder_001
+		liege = "d_north_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = tsushima_placeholder_002
+		liege = "d_north_kyushu"
+	}
+}
+c_chikugo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = { # placeholder
+		holder = chikugo_placeholder_001
+		liege = "d_north_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = chikugo_placeholder_002
+		liege = "d_north_kyushu"
+	}
+}
+c_buzen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	864.1.1 = {
+		holder = funya_masuyoshi # actually vacated the governorship around 864
+	}
+	867.1.1 = {
+		liege = "d_north_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = buzen_placeholder_001
+		liege = "d_north_kyushu"
+	}
+}
+c_bungo_jp = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	867.1.1 = { # placeholder
+		holder = bungo_jp_placeholder_001
+		liege = "d_north_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = bungo_jp_placeholder_002
+		liege = "d_north_kyushu"
+	}
+}
+
+d_south_kyushu = {
+	397.1.1 = {
+		de_jure_liege = "k_yamato"
+	}
+	701.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	866.1.1 = {
+		holder = ariwara_yasusada
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = fujiwara_koretsuna # didn't actually govern until after 1069
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_higo = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	
+	866.1.1 = {
+		holder = ariwara_yasusada
+	}
+	1066.1.1 = {
+		holder = fujiwara_koretsuna # didn't actually govern until after 1069
+	}
+}
+c_hyuga = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = hyuga_placeholder_001
+		liege = "d_south_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = hyuga_placeholder_002
+		liege = "d_south_kyushu"
+	}
+}
+c_satsuma = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	865.1.1 = {
+		holder = sugano_munenori
+	}
+	867.1.1 = {
+		liege = "d_south_kyushu"
+	}
+	1060.1.1 = {
+		holder = satsumataira_tametada
+		liege = "d_south_kyushu"
+	}
+}
+c_osumi = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	867.1.1 = { # placeholder
+		holder = osumi_placeholder_001
+		liege = "d_south_kyushu"
+	}
+	1066.1.1 = { # placeholder
+		holder = osumi_placeholder_002
+		liege = "d_south_kyushu"
+	}
+}
+
+d_mutsu = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	712.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	848.1.1 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		holder = yoshimine_tsuneyo
+		liege = "k_nippon"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+		liege = 0 # Abe clan revolts leading to the Zenkunen War
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoriyoshi
+		liege = "k_nippon" # Order restored following the death of Abe no Sadato
+	}
+	1063.2.25 = {
+		holder = yamatominamoto_yoritoshi
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_isawa = {
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	859.2.22 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kiyohara_takenori
+		liege = "d_mutsu"
+	}
+}
+c_shiwa = {
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	859.2.22 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kiyohara_takenori
+		liege = "d_mutsu"
+	}
+}
+c_taga = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	848.1.1 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		holder = yoshimine_tsuneyo
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1063.2.25 = {
+		holder = yamatominamoto_yoritoshi
+	}
+}
+c_iwaki = {
+	860.1.1 = {
+		holder = iwaki_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1062.10.22 = {
+		holder = hitachitaira_norimichi
+	}
+	1063.2.25 = {
+		liege = "d_mutsu"
+	}
+}
+c_iwase = {
+	860.1.1 = {
+		holder = iwase_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1062.10.22 = {
+		holder = mutsuishikawa_arimitsu
+	}
+	1063.2.25 = {
+		liege = "d_mutsu"
+	}
+}
+c_aizu = {
+	860.1.1 = {
+		holder = aizu_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1066.1.1 = {
+		holder = aizu_placeholder_002
+		liege = "d_mutsu"
+	}
+}
+c_tsugaru = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	
+	860.1.1 = {
+		holder = tsugaru_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = tsugaru_placeholder_002
+	}
+	1063.2.25 = {
+		liege = 0
+	}
+}
+c_nukanobu = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	
+	860.1.1 = {
+		holder = nukanobu_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = nukanobu_placeholder_002
+		liege = 0
+	}
+}
+c_hei = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	
+	860.1.1 = {
+		holder = hei_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = hei_placeholder_002
+		liege = 0
+	}
+}
+
+d_dewa = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	
+	712.1.1 = {
+		de_jure_liege = "k_nippon"
+	}
+	867.1.1 = {
+		holder = nankefujiwara_okiyo # didn't actually govern until sometime after 870
+		liege = "k_nippon"
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_akita = {
+	867.1.1 = {
+		holder = nankefujiwara_okiyo
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+}
+c_ogachi = {
+	867.1.1 = {
+		holder = ogachi_placeholder_001
+		liege = "d_dewa"
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+}
+c_tagawa = {
+	867.1.1 = {
+		holder = tagawa_placeholder_001
+		liege = "d_dewa"
+	}
+	1066.1.1 = {
+		holder = kiyohara_mitsuyori
+		liege = "d_dewa"
+	}
+}
+c_mogami = {
+	867.1.1 = {
+		holder = mogami_placeholder_001
+		liege = "d_dewa"
+	}
+	1066.1.1 = {
+		holder = kiyohara_mitsuyori
+		liege = "d_dewa"
+	}
+}
+c_hinai = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	
+	860.1.1 = {
+		holder = hinai_placeholder_001
+	}
+	867.1.1 = {
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = hinai_placeholder_002
+	}
+	1062.10.22 = {
+		liege = 0
+	}
+}
+
+d_minamiezo = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}
+
+c_ishikari = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}
+
+c_tokachi = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}
+
+c_kushiro = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}
+
+c_teshio = {
+	860.1.1 = {
+		holder = teshio_placeholder_001
+		liege = 0
+	}
+}
+
+k_ryukyu = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+d_saki = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+}

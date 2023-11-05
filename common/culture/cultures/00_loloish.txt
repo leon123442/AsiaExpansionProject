@@ -2,25 +2,26 @@
 	color = { 150 110 193 }
 		
 	ethos = ethos_courtly
-	heritage = heritage_yi
+	heritage = heritage_loloish
 	language = language_tujia
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -28,25 +29,26 @@ hani = {
 	color = { 132 69 198 }
 
 	ethos = ethos_courtly
-	heritage = heritage_yi
-	language = language_loloish
+	heritage = heritage_loloish
+	language = language_hani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indochinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -54,24 +56,26 @@ wuman = {
 	color = { 130 90 173 }
 	
 	ethos = ethos_courtly
-	heritage = heritage_yi
+	heritage = heritage_loloish
 	language = language_loloish
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
+		tradition_tiger_sons
 	}
 	
 	name_list = name_list_han
 	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }

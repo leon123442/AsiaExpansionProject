@@ -1,0 +1,36 @@
+﻿
+japanese = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			has_graphical_japan_culture_group_trigger = yes
+		}
+	}
+}
+
+chinese = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_china_culture_group_trigger = yes
+				has_graphical_korea_culture_group_trigger = yes
+			}
+		}
+	}
+}
+
+## Redefine indian to include Southeast Asian Rulers
+indian = {
+	trigger = {
+		exists = capital_county
+		capital_county.culture = {
+			OR = {
+				has_graphical_india_culture_group_trigger = yes
+				has_graphical_tibet_culture_group_trigger = yes
+				has_graphical_indochina_culture_group_trigger = yes
+				has_graphical_austronesia_culture_group_trigger = yes
+			}
+		}
+	}
+}

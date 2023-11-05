@@ -1,0 +1,80 @@
+﻿l_korean:
+ building_type_great_wall_of_china_01:0 "만리장성" # 万里长城 - 损坏
+ building_type_great_wall_of_china_01_desc:0 "중국의 큰 벽은 최초의 황제인 첫 번째 황제 칭 시황디의 통치 기간 동안 주목을 받기 시작했습니다. 그는 북쪽의 유목민들에 대한 견고한 방어 장벽을 만들기 위해 기존의 벽 부분을 연결하고 확장하는 야심찬 프로젝트를 시작했습니다."
+ building_great_wall_of_china_01:0 "만리장성 - 손상된"
+ building_great_wall_of_china_01_desc:0 "$building_type_great_wall_of_china_01_desc$"
+ 
+ building_type_great_wall_of_china_02:0 "만리장성" # 万里长城 - 修复
+ building_type_great_wall_of_china_02_desc:0 "이 부분은 옛날에는 완전히 황폐화되어 있었지만, 현재는 과거의 영광으로 복원된 중국의 고대이자 견고한 큰 벽입니다. 북쪽에 있는 끊임없는 유목민 위협에 대해 더욱 향상된 방어 수단으로서, 이 나라는 이제 안심하고 쉴 수 있습니다."
+ building_great_wall_of_china_02:0 "만리장성 - 복원됨"
+ building_great_wall_of_china_02_desc:0 "$building_type_great_wall_of_china_02_desc$"
+ 
+ building_type_giant_wild_goose_pagoda_01:0 "대안탑" # 大雁塔
+ building_type_giant_wild_goose_pagoda_01_desc:0 "대왕 거위 탑은 원래 649년에 통나무 조각으로 건립되었습니다. 당의 고장 고종 황제 통치 시기에 중국에 가져온 불교 경전을 보관하기 위해 승려이자 학자인 선장에 의해 건설되었습니다.\n\n건설 이후로는 실크로드 상에서 유명한 랜드마크로 자리매김하며, 불교의 영구적인 문화와 종교적 중요성을 상징합니다."
+ building_giant_wild_goose_pagoda_01:0 "$building_type_giant_wild_goose_pagoda_01$"
+ building_giant_wild_goose_pagoda_01_desc:0 "$building_type_giant_wild_goose_pagoda_01_desc$"
+ 
+ building_type_longmen_grottoes_01:0 "룽먼 석굴" # 龙门石窟 - 第一阶段
+ building_type_longmen_grottoes_01_desc:0 "용문 동개의 건설은 북위 왕조 시기에 시작되었습니다. 그때 시조 사원이자 제 2의 수도로 선정된 대동에서 대도성을 루양으로 옮기면서 구양동(석축)사를 건설하는 것을 시작했습니다. 이것은 이러한 종류의 첫 번째 동굴 사원이었습니다.\n\n나중에 효도의 의미에서, 효무 황제는 "삼변양 동굴"을 발굴하였으며, 이는 현재 용문에서 찾을 수 있는 동굴의 30% 이상을 구성하며 24년이 걸렸습니다."
+ building_longmen_grottoes_01:0 "룽먼 석굴 - 1단계"
+ building_longmen_grottoes_01_desc:0 "$building_type_longmen_grottoes_01_desc$"
+ 
+ building_type_longmen_grottoes_02:0 "룽먼 석굴" # 龙门石窟 - 第二阶段
+ building_type_longmen_grottoes_02_desc:0 "두 번째 건설 단계는 524년부터 626년까지 진행되었으며, 지역적인 분쟁과 충돌로 인해 동굴들의 발전이 더욱 느려졌습니다.\n\n이 기간은 수나라(581-618)와 초기 당나라(618-907)의 통치 기간을 포함하며, 동굴들의 창조 작업에서 중단과 진전 방해가 있었습니다."
+ building_longmen_grottoes_02:0 "룽먼 석굴 - 2단계"
+ building_longmen_grottoes_02_desc:0 "$building_type_longmen_grottoes_02_desc$"
+ 
+ building_type_longmen_grottoes_03:0 "룽먼 석굴" # 龙门石窟 - 第三阶段
+ building_type_longmen_grottoes_03_desc:0 "세 번째 건설 단계는 626년부터 755년까지 진행되었으며, 당나라가 감독하였습니다. 이 기간 동안 용문에서 동굴의 창조가 절정을 이루었으며, 중국 불교가 번성하여 동굴과 조각들이 번영하게 되었습니다.\n\n용문에서 약 60%의 동굴들은 이 기간 동안 생성되었으며, 675년에 풍현사 동굴이 완성되면서 당나라의 놀라운 예술성과 웅장함을 서산에 보여주었습니다."
+ building_longmen_grottoes_03:0 "룽먼 석굴 - 3단계"
+ building_longmen_grottoes_03_desc:0 "$building_type_longmen_grottoes_03_desc$"
+ 
+ building_type_longmen_grottoes_04:0 "룽먼 석굴" # 龙门石窟 - 第四阶段
+ building_type_longmen_grottoes_04_desc:0 "용문 동굴의 네 번째이자 마지막 건설 단계는 당나라 후기에서 시작하여 북송시대의 통치로 이어졌으나, 진나라와 위나라 사이의 전쟁으로 인해 동굴의 창조는 감소하였습니다."
+ building_longmen_grottoes_04:0 "룽먼 석굴 - 최종 단계"
+ building_longmen_grottoes_04_desc:0 "$building_type_longmen_grottoes_04_desc$"
+ 
+ building_type_imperial_palace_kyoto_01:0 "교토 어소" # 京都御所
+ building_type_imperial_palace_kyoto_01_desc:0 "교토 궁궐은 일본 황실의 거주지로, 전통 일본 건축의 특징과 고요한 정원, 정교하게 조성된 건물들로 가득 차 있어 황실의 우아함과 웅장함을 반영하고 있습니다.\n\n교토의 중심지에 위치한 이 궁궐은 보행자들에게 황실의 장관을 엿볼 수 있도록 해주며, 헤이안 시대의 정교한 미학을 대표하는 증거로 자리하고 있습니다."
+ building_imperial_palace_kyoto_01:0 "$building_type_imperial_palace_kyoto_01$"
+ building_imperial_palace_kyoto_01_desc:0 "$building_type_imperial_palace_kyoto_01_desc$"
+ 
+ building_type_dojo_01:0 "연습장" # 稽古場
+ building_type_dojo_01_desc:0 "연습장은 대부분의 일본 역사 동안 일본 고대 전사들의 훈련 장소였습니다. 이 공간들은 전사들이 무술 실력을 다듬고 다양한 전략을 배우며 정신적인 훈련을 연마할 수 있는 데 중요한 역할을 했습니다.\n\n또한 연습장은 유도, 검도, 합기도 등과 같은 전통적인 일본 무술의 발전을 촉진하는 데 중요한 역할을 했습니다."
+ building_dojo_01:0 "$building_type_dojo_01$"
+ building_dojo_01_desc:0 "$building_type_dojo_01_desc$"
+ 
+ building_type_dojo_02:0 "유도 다다미" # 柔道畳
+ building_type_dojo_02_desc:0 "모든 좋은 유도 다다미는 동등히 좋은 다다미 바닥재를 필요로 합니다. 그러나 그것이 견딜 압력을 고려할 때 평범한 다다미로는 충분하지 않습니다. 대신, 우리는 유도 다다미에 사용하기 위해 일본에서 "시치 토우"로 알려진 특정 종류의 부들로 만든 특별한 유도 다다미를 구매해야 합니다."
+ building_dojo_02:0 "$building_type_dojo_02$"
+ building_dojo_02_desc:0 "$building_type_dojo_02_desc$"
+ 
+ building_type_dojo_03:0 "연습 무기" # 練習武器
+ building_type_dojo_03_desc:0 "상해 없이 훈련할 수 있도록 학생들이 사용할 수 있는 품질 좋은 연습용 무기 없이 유도 다다미는 어떨까요?"
+ building_dojo_03:0 "$building_type_dojo_03$"
+ building_dojo_03_desc:0 "$building_type_dojo_03_desc$"
+ 
+ building_type_dojo_04:0 "청소" # 掃除
+ building_type_dojo_04_desc:0 "청소라는 행위는 유도 다다미의 의식적인 청소를 포함하는 것으로, 저희 유도 다다미를 깨끗한 상태로 유지하는 데 중요한 역할을 합니다. 또한 학생들의 정신적인 훈련을 강화하는 역할을 하며, 학교 전체의 관리에 대한 공동 책임을 상기시켜줍니다."
+ building_dojo_04:0 "$building_type_dojo_04$"
+ building_dojo_04_desc:0 "$building_type_dojo_04_desc$"
+ 
+ building_type_dojo_05:0 "신 선반" # 神棚
+ building_type_dojo_05_desc:0 "유도 다다미에 신 선반을 두어 영혼들에게 경의와 존경을 표하고 그들의 보호를 구하는 것은 유도 다다미를 더욱 풍요롭게 만들어줄 뿐만 아니라 학생들에게 중요한 영감을 제공합니다."
+ building_dojo_05:0 "$building_type_dojo_05$"
+ building_dojo_05_desc:0 "$building_type_dojo_05_desc$"
+ 
+ building_type_dojo_06:0 "서예 축" #書道軸
+ building_type_dojo_06_desc:0 "서예 축 또는 서예 스크롤로 유도 다다미를 장식하면 유명한 역사적 장면, 철학적인 구절 및 무술의 전설들로 학생들의 무술 정신을 동기부여하고 영감을 더욱 제공할 수 있습니다."
+ building_dojo_06:0 "$building_type_dojo_06$"
+ building_dojo_06_desc:0 "$building_type_dojo_06_desc$"
+ 
+ building_type_dojo_07:0 "연습복" # 稽古着
+ building_type_dojo_07_desc:0 "학교 이름이 표시된 특별한 교복을 학생들에게 제공함으로써 우리는 다른 학교와 차별화되며, 실제적인 측면에서도 학생들에게 더 나은 도움이 될 것입니다."
+ building_dojo_07:0 "$building_type_dojo_07$"
+ building_dojo_07_desc:0 "$building_type_dojo_07_desc$"
+ 
+ building_type_dojo_08:0 "확장 홀"
+ building_type_dojo_08_desc:0 "우리 유도 다다미는 현재 왕국에서 가장 큰 규모 중 하나로 성장하였습니다. 이 성장은 저희 학교에 참여하려는 학생들의 증가로 인해 유도 다다미의 추가 확장을 필요로 합니다. 이 확장은 우리의 지속적인 성장을 지원할 뿐만 아니라 학생들에게 충분한 훈련 공간을 확보할 수 있도록 해줄 것입니다."
+ building_dojo_08:0 "$building_type_dojo_08$"
+ building_dojo_08_desc:0 "$building_type_dojo_08_desc$"

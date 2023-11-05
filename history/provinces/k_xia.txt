@@ -1,86 +1,72 @@
 ﻿#k_xia
-
-##d_zhenfan
-###c_zhenfan (Minqin/Sogo Khoto)
-9518 = {	# Zhenfan/Sogo Khoto (Minqin)
+##d_xia
+###c_xingqing (Iryai)
+9546 = {	# Xingqing
 	# Misc
-	culture = han
+	culture = shatuo
 	religion = mahayana
 	
-	holding = tribal_holding #farmlands
+	holding = castle_holding
 	
 	# History
-	1032.1.1 = {
+	1002.1.1 = {
 		culture = tangut
 		religion = vajrayana
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
+	} #Lingzhou/Lingwu area captured by Tanguts
+	1230.1.1 = {
+		culture = hexi
+		religion = mahayana
+	}#Tanguts flee the capital region
 }
-9519 = {	# Jiahe
-	holding = none #farmlands
+9544 = {	# Dingzhou (Helan)
+	holding = city_holding
 }
-
-###c_tenggeli (Tengger)
-9532 = {	# Nanhu
-	# Misc
-	culture = tuyuhun #Tuoba
-	religion = tengri_pagan
-	
-	holding = tribal_holding #nomad
-	
-	# History
-	700.1.1 = {
-		religion = melieism
-		culture = tangut
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
+9543 = {	# Shizuizi
+	holding = church_holding
 }
-9533 = {	# Chaganbulage
-	holding = none #nomad
-}
-9535 = {	# Chaogetuhure
+9536 = {	# Dingyuanying/Bayanhot
 	holding = none #nomad
 }
 
-###c_alxa
-# 9509 - Alxa (Alashan)
-9509 = {	# Alxa/Alashan
+###c_shunzhou
+9545 = {	# Shunzhou (Qingtongxia)
 	# Misc
-	culture = tuyuhun #Tuoba
-	religion = tengri_pagan
+	culture = shatuo
+	religion = mahayana
 	
-	holding = tribal_holding #nomad
+	holding = castle_holding
 	
 	# History
-	700.1.1 = {
-		religion = melieism
+	1002.1.1 = {
 		culture = tangut
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
+		religion = vajrayana
+	} #Lingzhou/Lingwu area captured by Tanguts
+	1230.1.1 = {
+		culture = hexi
+		religion = mahayana
+	}#Tanguts flee the capital region
 }
-9520 = {	# Yabulai
-	holding = none
+9534 = {	# Shapotou
+	holding = church_holding
 }
-9549 = {	# Tamusubulage
-	holding = none
+9547 = {	# Xiping
+	holding = city_holding #possibly change to castle
+	special_building = great_wall_of_china_01
 }
+
+
+##d_wuluhai Moved to k_tengri part of e_mongolia
+
+
+##d_zhenfan Moved to k_tengri part of e_mongolia
 
 
 ##d_liangzhou
 ###c_liangzhou (Wuwei)
 9523 = {	# Gulang
 	# Misc
-	culture = tocharian
-	religion = vajrayana
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -94,8 +80,8 @@
 		religion = vajrayana
 	}
 	1250.1.1 = {
-		culture = han
-		religion = zenzongzong
+		culture = hexi
+		religion = mahayana
 	}#Tangut culture begins to be absorbed
 }
 9521 = {	# Liangzhou (Wuwei)
@@ -108,8 +94,8 @@
 ###c_fanhe
 9516 = {	# Fanhe (Yongchang)
 	# Misc
-	culture = sogdian
-	religion = manichean
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -122,7 +108,7 @@
 ###c_dajing
 9525 = {	# Dajing
 	# Misc
-	culture = han
+	culture = hexi
 	religion = mahayana
 	
 	holding = castle_holding
@@ -133,7 +119,7 @@
 		religion = vajrayana
 	}
 	1250.1.1 = {
-		culture = han
+		culture = hexi
 		religion = mahayana
 	}#Tangut culture begins to be absorbed
 }
@@ -144,34 +130,25 @@
 ###c_baiyin
 9531 = {	# Baiyin
 	# Misc
-	culture = han
+	culture = hexi
 	religion = mahayana
+	
 	holding = castle_holding
 	
 	# History
-	866.1.1={
-		culture = han
-		religion = mahayana
-	}
-	1027.1.1={
-	culture = han
-	religion = zhengyi
-
-	}
-
 }
 9530 = {	# Gaolan
 	holding = church_holding
 }
 9527 = {	# Anning
-	holding = castle_holding
+	holding = city_holding
 }
 
 ###c_yongdeng
 9528 = {	# Yongdeng
 	# Misc
-	culture = qiang
-	religion = rrmeaism
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -189,8 +166,8 @@
 ###c_shanzhou / tsongkha
 9418 = {	# Shanzhou/Zongge (Ping'an)
 	# Misc
-	culture = bodpa
-	religion = lamaism
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -222,7 +199,6 @@
 	
 	# History
 	700.1.1 = {
-		religion = ashari
 		culture = turkish #Salar
 	}
 }
@@ -273,11 +249,10 @@
 ###c_ganzhou
 9513 = {	# Ganzhou (Zhangye)
 	# Misc
-	culture = han
-	religion = zenzong
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
-	special_building = shandanmachang
 	
 	# History
 	894.1.1 = {
@@ -289,6 +264,7 @@
 }
 9514 = {	# Shandan
 	holding = city_holding
+	special_building = great_wall_of_china_01
 }
 9515 = {	# Minle
 	holding = church_holding
@@ -297,8 +273,8 @@
 ###c_linze
 9501 = {	# Linze
 	# Misc
-	culture = han
-	religion = zenzong
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -317,7 +293,7 @@
 ###c_gaotai
 9502 = {	# Gaotai
 	# Misc
-	culture = han
+	culture = hexi
 	religion = mahayana
 	
 	holding = castle_holding
@@ -338,8 +314,8 @@
 ###c_jinta
 9496 = {	# Jinta
 	# Misc
-	culture = sogdian
-	religion = vijna
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -355,8 +331,8 @@
 ###c_suzhou
 9493 = {	# Jiayuguan
 	# Misc
-	culture = han
-	religion = zhengyi
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -376,8 +352,8 @@
 ###c_yumen
 9491 = {	# Chijin
 	# Misc
-	culture = han
-	religion = maitreya
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -388,120 +364,22 @@
 }
 9487 = {	# Yumen
 	holding = city_holding
+	special_building = great_wall_of_china_01
 }
 9492 = {	# Huahai
 	holding = church_holding
 }
 
 
-##d_yijinai
-###c_yijinai
-9506 = {	# Yijinai
-	# Misc
-	culture = uyghur
-	religion = tengri_pagan
-	
-	holding = tribal_holding
-	
-	# History
-	1000.1.1 = {
-		religion = vajrayana
-	}
-	1032.1.1 = {
-		holding = castle_holding
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
-}
-9507 = {	# Juyan
-	holding = none #nomad - initially a church_holding, but changed due to holder being tribal
-	
-	# History
-	1032.1.1 = {
-		holding = church_holding
-	}
-}
-
-###c_wentugaole
-9510 = {	# Wentugaole
-	# Misc
-	culture = tuyuhun #Tuoba
-	religion = tengri_pagan
-	
-	holding = tribal_holding #nomad
-	
-	# History
-	700.1.1 = {
-		religion = melieism
-		culture = tangut
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
-}
-9548 = {	# Gurinai
-	holding = none #nomad
-}
-
-###c_heihe
-9505 = {	# Hangtian
-	# Misc
-	culture = tangut
-	religion = maitreya
-	
-	holding = castle_holding
-	
-	# History
-	894.1.1 = {
-		culture = yughur
-		religion = manichean
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
-}
-9504 = {	# Heihe
-	holding = city_holding
-	
-	# History
-	#1050.1.1 = {
-	#	religion = melieism
-	#}
-}
-
-###c_mazongshan
-9489 = {	#  Mazongshan
-	# Misc
-	culture = yughur
-	religion = manichean #mahayana
-	
-	holding = tribal_holding #nomad
-	
-	# History
-	1032.1.1 = {
-		culture = tangut
-		religion = melieism
-	}
-	1250.1.1 = {
-		culture = mongol
-		religion = tengri_pagan
-	}#Tangut culture begins to be absorbed
-}
-9508 = {	# Saihantaolai
-	holding = none #nomad
-}
+##d_yijinai Moved to k_tengri part of e_mongolia
 
 
 ##d_guiyi
 ###c_guazhou
 9482 = {	# Guazhou
 	# Misc
-	culture = han
-	religion = vajrayana
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -517,7 +395,7 @@
 ###c_changma
 9485 = {	# Changma
 	# Misc
-	culture = han
+	culture = hexi
 	religion = mahayana
 	
 	holding = castle_holding
@@ -526,15 +404,17 @@
 }
 9486 = {	# Hedong
 	holding = city_holding
+	special_building = great_wall_of_china_01
 }
 
 ###c_hongliuyuan
 9483 = {	# Hongliuyuan
 	# Misc
-	culture = han
-	religion = vijna
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
+	special_building = great_wall_of_china_01
 	
 	# History
 }
@@ -549,7 +429,7 @@
 9476 = {	# Shazhou (Dunhuang/Dukhan)
 	# Misc
 	culture = sogdian
-	religion = vijna
+	religion = mahayana
 	
 	holding = castle_holding
 	
@@ -560,18 +440,24 @@
 }
 9477 = {	# Mogao
 	holding = church_holding
-	special_building = mogaoku
 }
 
 ###c_yumenguan
 9474 = {	# Yumenguan
 	# Misc
-	culture = han
-	religion = zhengyi
+	culture = hexi
+	religion = mahayana
 	
 	holding = castle_holding
+	special_building = great_wall_of_china_02
 	
 	# History
+	1066.1.1 = {
+		buildings = {
+			outposts_02
+			watchtowers_01
+		}
+	}
 }
 9473 = {	# Yangguan
 	holding = castle_holding
@@ -622,39 +508,4 @@
 }
 9470 = {	# Takoerpasitao, Jianshe
 	holding = none #nomad
-}
-
-
-
-#d_longyou
-#c_lanzhou_longxi
-#b_Lanzhou
-9829 = { 
-    culture = bodpa
-	religion = lamaism
-	holding = castle_holding
-}
-#b_Longgoubao
-9830 = {
-
-}
-#b_Didao
-9831 = { 
-
-}
-
-#c_hezhou
-#b_Hezhou_longyou
-9833 = {
-    culture = bodpa
-	religion = lamaism
-	holding = castle_holding
-}
-#b_kenuo
-9832 = { 
-
-}
-#b_Binglingsi
-9834 = {
-
 }

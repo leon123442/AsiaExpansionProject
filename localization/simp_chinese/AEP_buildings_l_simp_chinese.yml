@@ -1,0 +1,80 @@
+﻿l_simp_chinese:
+ building_type_great_wall_of_china_01:0 "万里长城"
+ building_type_great_wall_of_china_01_desc:0 "中国长城最初在中国第一位皇帝秦始皇的统治时期崭露头角，他发起了一项雄心勃勃的计划，将已有的长城段连接并扩展，以建立一道强大的防御屏障，抵御北方的游牧部落。"
+ building_great_wall_of_china_01:0 "万里长城 - 损坏"
+ building_great_wall_of_china_01_desc:0 "$building_type_great_wall_of_china_01_desc$"
+ 
+ building_type_great_wall_of_china_02:0 "万里长城"
+ building_type_great_wall_of_china_02_desc:0 "这段古老而坚固的中国长城，在先前被任由陷入接近废墟的状态后，已经恢复了昔日的辉煌。如今，这片领土能够安心，因为它在面对一直存在的北方游牧威胁时得到更好的保护。"
+ building_great_wall_of_china_02:0 "万里长城 - 修复"
+ building_great_wall_of_china_02_desc:0 "$building_type_great_wall_of_china_02_desc$"
+ 
+ building_type_giant_wild_goose_pagoda_01:0 "大雁塔"
+ building_type_giant_wild_goose_pagoda_01_desc:0 "大雁塔最初建于公元649年，当时唐高宗统治期间，为了收藏僧人兼学者玄奘带回中国的佛教经典。\n\n自建成以来，它已成为丝绸之路上著名的地标，代表着佛教的持久文化和宗教意义。"
+ building_giant_wild_goose_pagoda_01:0 "$building_type_giant_wild_goose_pagoda_01$"
+ building_giant_wild_goose_pagoda_01_desc:0 "$building_type_giant_wild_goose_pagoda_01_desc$"
+ 
+ building_type_longmen_grottoes_01:0 "龙门石窟"
+ building_type_longmen_grottoes_01_desc:0 "龙门石窟的建设始于北魏时期，当时孝文帝将都城从大同迁至洛阳，并启动了古阳洞（石窟）寺庙的建造，这是第一个类似的洞窟寺庙。\n\n后来，为了表达对父母的孝心，宣武帝开凿了"三宾阳窟”，这些窟穴占据了龙门石窟现存洞窟的30%以上，耗时24年才完工。"
+ building_longmen_grottoes_01:0 "龙门石窟 - 第一阶段"
+ building_longmen_grottoes_01_desc:0 "$building_type_longmen_grottoes_01_desc$"
+ 
+ building_type_longmen_grottoes_02:0 "龙门石窟"
+ building_type_longmen_grottoes_02_desc:0 "第二阶段的建设发生在524年至626年间，由于地区冲突和纷争，洞窟的发展放缓。\n\n这一时期跨越隋朝（581-618）和唐朝早期（618-907）的统治时期，因为种种中断和阻碍，导致了石窟的创作进展受阻。"
+ building_longmen_grottoes_02:0 "龙门石窟 - 第二阶段"
+ building_longmen_grottoes_02_desc:0 "$building_type_longmen_grottoes_02_desc$"
+ 
+ building_type_longmen_grottoes_03:0 "龙门石窟"
+ building_type_longmen_grottoes_03_desc:0 "第三阶段的建设发生在626年至755年间，由唐朝负责监督，这一时期见证了龙门石窟的创作达到巅峰。当时中国佛教蓬勃发展，导致洞窟和雕刻的大量涌现。\n\n大约60%的龙门石窟是在这个时期创建的，其中以675年完成的奉仙寺窟最为突出，展示了唐代在西山南侧的卓越艺术和壮丽景观。"
+ building_longmen_grottoes_03:0 "龙门石窟 - 第三阶段"
+ building_longmen_grottoes_03_desc:0 "$building_type_longmen_grottoes_03_desc$"
+ 
+ building_type_longmen_grottoes_04:0 "龙门石窟"
+ building_type_longmen_grottoes_04_desc:0 "龙门石窟的第四个也是最后一个建设阶段发生在唐朝后期，并延续到北宋时期，但由于金朝和元朝之间的内战，洞窟的创作出现了下降趋势。"
+ building_longmen_grottoes_04:0 "龙门石窟 - 第四阶段"
+ building_longmen_grottoes_04_desc:0 "$building_type_longmen_grottoes_04_desc$"
+ 
+ building_type_imperial_palace_kyoto_01:0 "京都御所"
+ building_type_imperial_palace_kyoto_01_desc:0 "京都御所是皇室的住所，具有丰富的日本传统建筑特色，拥有宁静的花园和精心打造的建筑，展现了皇室的优雅和宏伟。 这座宫殿坐落在京都市中心，让路人可以一睹皇宫的辉煌，同时也是平安时代精致美学的见证。\n\n京都御所是皇室的住所，以其丰富的日本传统建筑特色而闻名。它拥有宁静的花园和精心打造的建筑，展示了皇室的优雅和壮丽。这座宫殿位于京都市中心，让路人可以近距离欣赏皇宫的辉煌，同时也见证了平安时代的精致美学。"
+ building_imperial_palace_kyoto_01:0 "$building_type_imperial_palace_kyoto_01$"
+ building_imperial_palace_kyoto_01_desc:0 "$building_type_imperial_palace_kyoto_01_desc$"
+ 
+ building_type_dojo_01:0 "稽古场"
+ building_type_dojo_01_desc:0 "稽古场是日本古代武士进行训练的场所，在大部分日本历史上起着重要作用。这些场所对于武士们提高武力，学习各种策略以及磨练他们的精神纪律至关重要。\n\n此外，稽古场还在促进柔道，剑道，合气道等日本传统武术的发展方面扮演着重要的角色。"
+ building_dojo_01:0 "$building_type_dojo_01$"
+ building_dojo_01_desc:0 "$building_type_dojo_01_desc$"
+ 
+ building_type_dojo_02:0 "柔道畳"
+ building_type_dojo_02_desc:0 "每个优质的稽古场都需要与之相称的地板，但考虑到其所受到的压力，普通的地板并不适用。相反地，我们需要采用特殊的柔道地板，它由一种名为茳芏的特殊草制成，在日本被广泛应用于我们的稽古场。"
+ building_dojo_02:0 "$building_type_dojo_02$"
+ building_dojo_02_desc:0 "$building_type_dojo_02_desc$"
+ 
+ building_type_dojo_03:0 "练习武器"
+ building_type_dojo_03_desc:0 "如果我们的学生可以在没有受伤风险的情况下使用高质量的练习武器进行训练，那么稽古场将会有哪些变化呢？"
+ building_dojo_03:0 "$building_type_dojo_03$"
+ building_dojo_03_desc:0 "$building_type_dojo_03_desc$"
+ 
+ building_type_dojo_04:0 "扫除"
+ building_type_dojo_04_desc:0 "实行定期的稽古场仪式清洁不仅对于保持场地的完美无瑕状态至关重要，还有助于培养学生的精神纪律，提醒他们对整个学校的集体责任保持关注。"
+ building_dojo_04:0 "$building_type_dojo_04$"
+ building_dojo_04_desc:0 "$building_type_dojo_04_desc$"
+ 
+ building_type_dojo_05:0 "Kamidana"
+ building_type_dojo_05_desc:0 "在稽古场建立一座神棚神社，以纪念和敬拜神灵，并寻求他们的保佑，不仅能进一步丰富稽古场的氛围，还成为我们学生重要的灵感源泉。"
+ building_dojo_05:0 "$building_type_dojo_05$"
+ building_dojo_05_desc:0 "$building_type_dojo_05_desc$"
+ 
+ building_type_dojo_06:0 "书道轴"
+ building_type_dojo_06_desc:0 "在我们的稽古场装饰书道轴或书法卷轴，将为学生们提供更多的灵感，以著名的历史场景，哲学短语和武术传奇来激励和鼓舞他们的武道精神。"
+ building_dojo_06:0 "$building_type_dojo_06$"
+ building_dojo_06_desc:0 "$building_type_dojo_06_desc$"
+ 
+ building_type_dojo_07:0 "稽古着"
+ building_type_dojo_07_desc:0 "为我们的学生购买带有学校名称的专业制服，不仅能使我们在众人中脱颖而出，还能更好地为学生提供实际的帮助。"
+ building_dojo_07:0 "$building_type_dojo_07$"
+ building_dojo_07_desc:0 "$building_type_dojo_07_desc$"
+ 
+ building_type_dojo_08:0 "扩建大厅"
+ building_type_dojo_08_desc:0 "我们的稽古场已经成长为该领域中规模最大的之一。这种增长需要进一步扩建稽古场，以容纳越来越多涌入我们学校的学生。扩建不仅有助于支持我们的持续增长，还将确保为学生提供充足的培训空间。"
+ building_dojo_08:0 "$building_type_dojo_08$"
+ building_dojo_08_desc:0 "$building_type_dojo_08_desc$"

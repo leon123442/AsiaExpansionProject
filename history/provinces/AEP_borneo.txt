@@ -1,0 +1,882 @@
+﻿#######################
+### Brunei/k_brunei ###
+#######################
+
+## d_brunei ####################################
+###c_brunei (Brunei)
+11432 = {	# Brunei or Kota Batu lit. Stone Fort/City
+    # Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+
+###c_tutong (Tatong)
+12183 = {	# Tatong
+    # Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+    # History
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			plantations_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12188 = {	# Layong
+	holding = city_holding
+}
+
+###c_belait (Belait)
+12184 = {	# Belait
+    # Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+    # History
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			plantations_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12189 = {	# Labi
+	holding = none
+}
+
+## d_temburong ####################################
+###c_temburong (Temburong)
+12185 = {	# Temburong or Bangar
+    # Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+		buildings = {
+			plantations_01
+		}
+    }
+}
+12190 = {	# Batang Duri
+	holding = none
+}
+
+###c_limbang or c_pangkalan_tarap (Limbang/Pangkalan Tarap)
+# c_limbang OR Pangkalan Tarap
+12186 = {
+    # Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			plantations_01 # Pangkalan Tarap means a base for Tarap (a fruit in Borneo)
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			plantations_02
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12187 = {	# Lawas
+	holding = none
+}
+
+## d_kota_kinabalu ####################################
+###c_kota_kinabalu (Kota Kinabalu)
+11429 = {	# Kota Kinabalu
+    # Misc
+	culture = kadazan
+	religion = kaharingan
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12139 = {	# Penampang
+	holding = church_holding
+}
+12138 = {	# Papar
+	holding = city_holding
+}
+
+###c_ranau (Ranau)
+12141 = {	# Ranau
+	# Misc
+	culture = dusun
+	religion = kaharingan
+	holding = tribal_holding
+}
+12149 = {	# Kundasang
+	holding = none
+}
+
+###c_kota_belud (Kota Belud)
+12142 = {	# Kota Belud
+	# Misc
+	culture = kadazan
+	religion = kaharingan
+	holding = tribal_holding
+}
+12140 = {	# Tuaran
+	holding = none
+}
+
+# d_beaufort ####################################
+###c_beaufort or c_klias (Beaufort/Klias)
+12131 = {	#Beaufort/Klias
+	# Misc
+	culture = murut
+	religion = kaharingan
+	holding = tribal_holding
+}
+12134 = {	# Sipitang
+	holding = none
+}
+###c_kuala_penyu (Kuala Penyu)
+12132 = {	# Kuala Penyu
+	# Misc
+	culture = kadazan
+	religion = kaharingan
+	holding = tribal_holding
+}
+12153 = {	# Menumbok
+	holding = none
+}
+
+###c_labuan (Labuan)
+12133 = {	# Labuan
+	# Misc
+	culture = brunei
+	religion = mahayana
+	holding = castle_holding
+}
+
+# d_keningau ####################################
+###c_keningau (Keningau)
+11430 = {	# Keningau
+	# Misc
+	culture = murut
+	religion = kaharingan
+	holding = tribal_holding
+}
+12137 = {	# Tambunan
+	holding = none
+}
+
+###c_nabawan (Nabawan)
+12135 = {	# Nabawan
+	# Misc
+	culture = murut
+	religion = kaharingan
+	holding = tribal_holding
+}
+12136 = {	# Tenom
+	holding = none
+}
+12158 = {	# Lumbis
+	holding = none
+}
+
+###c_tongod (Tongod)
+11431 = {	# Tongod
+	culture = murut
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+#############################
+### Santubong/k_santubong ###
+#############################
+
+## d_santubong ####################################
+###c_santubong
+11426 = {	# Santubong
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	buildings = {
+		common_tradeport_02 # Quite famous trading settlement
+	}
+	# History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		religion = ashari
+		buildings = {
+			common_tradeport_02
+			watchtowers_01
+		}
+    }
+}
+12181 = {	# Sematan
+	holding = church_holding
+}
+12179 = {	# Lundu
+	holding = city_holding
+}
+
+###c_samarahan (Samarahan)
+11428 = {	# Samarahan
+	# Misc
+	culture = malay
+	religion = mahayana
+	holding = castle_holding
+	# History
+}
+# b_serian
+12180 = {	# Serian
+	holding = none
+}
+
+## d_miri ####################################
+###c_miri (Miri)
+11434 = {	# Miri
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		culture = brunei
+        religion = ashari
+		holding = castle_holding
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12160 = {	# Sibuti
+	holding = city_holding
+}
+###c_telang_usan (Telang Usan)
+11433 = {	# Telang Usan
+	# Misc
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+}
+12161 = {	# Baram
+	holding = none
+}
+
+## d_bintulu ####################################
+###c_bintulu (Bintulu)
+12164 = {	# Bintulu
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+}
+11421 = {	# Sebauh
+	holding = none
+}
+
+###c_kuala_tatau (Kuala Tatau)
+12163 = {	# Kuala Tatau
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		religion = ashari
+		holding = castle_holding
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12162 = {	# Tatau
+	holding = none
+}
+
+## d_kapit ####################################
+###c_kapit
+# b_kapit
+12171= {
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+	# History
+}
+12170 = {	# Nanga Merit
+	holding = none
+}
+12172 = {	# Song
+	holding = none
+}
+
+###c_belaga (Belaga)
+11423 = {	# Belaga
+	# Misc
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+	# History
+}
+12169 = {	# Asap
+	holding = none
+}
+11424 = {	# Mabong
+	holding = none
+}
+
+## d_sibu ####################################
+###c_sibu (Sibu)
+11425 = {	# Sibu
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		religion = ashari
+		holding = castle_holding
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12165 = {	# Selangau
+	holding = none
+}
+12182 = {	# Kanowit
+	holding = none
+}
+
+###c_mukah (Mukah)
+11422 = {	# Mukah
+	# Misc
+	culture = melanau
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		religion = ashari
+		holding = castle_holding
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12166 = {	# Dalat
+	holding = none
+}
+12167 = {	# Matu
+	holding = none
+}
+
+## d_sarikei ####################################
+###c_sarikei (Sarikei)
+11427 = {	# Sarikei
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		religion = ashari
+		holding = castle_holding
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12173 = {	# Tanjung Manis
+	holding = none
+}
+12175 = {	# Julau
+	holding = none
+}
+12174 = {	# Pakan
+	holding = none
+}
+
+###c_betong (Betong)
+12176 = {	# Betong
+	# Misc
+	culture = iban
+	religion = kaharingan
+	holding = tribal_holding
+	# History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+		culture = malay
+		religion = ashari
+		buildings = {
+			common_tradeport_01
+		}
+    }
+}
+12177 = {	# Simanggang
+	holding = none
+}
+12178 = {	# Lubok Antu
+	holding = none
+}
+
+###########################################
+### Kalimantan Timur/k_kalimantan_timur ###
+###########################################
+
+##d_east_kalimantan (Kutai) ####################################
+###c_tenggarong (Tenggarong)
+11447 = {	# Tenggarong
+	culture = malay
+	religion = shaivism
+	holding = castle_holding
+}
+11446 = {	# Muara Kaman
+	holding = city_holding
+}
+
+###c_sengata (Sengata)
+11444 = {	# Sengata
+	culture = malay
+	religion = shaivism
+	holding = castle_holding
+}
+12195 = {	# Benoa Baroe
+	holding = city_holding
+}
+
+##d_kayan ####################################
+###c_kayan (Kayan)
+11435 = {	# Nunukan
+	culture = malay
+	religion = shaivism
+	holding = castle_holding
+}
+11439 = {	# Palas
+	holding = city_holding
+}
+
+###c_peso (Peso)
+11437 = {	# Peso
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+}
+11436 = {	# Bahau
+	holding = none
+}
+11438 = {	# Kumak
+	holding = none
+}
+
+##d_berau ####################################
+###c_berau (Berau)
+11440 = {	# Sangkulirang
+	culture = malay
+	religion = shaivism
+	holding = castle_holding
+}
+12196 = {	# Lobang Kelatak
+	holding = city_holding
+}
+
+###c_kelay (Kelay)
+11443 = {	# Kelay
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+##d_kutai_barat ####################################
+###c_muarawahau (Muarawahau)
+11441 = {	# Muarawahau
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+}
+11442 = {	# Tabang
+	holding = none
+}
+
+
+###c_mahakam (Mahakam)
+11448 = {	# Long Bagun
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+###c_muara_lawa (Muara Lawa)
+11445 = {	# Muara Lawa
+	culture = kayan
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+###########################################
+### Kalimantan Barat/k_kalimantan_barat ###
+###########################################
+
+##d_tanjungpura ####################################
+###c_tanjungpura (Sambas)
+11449 = {	# Sambas
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12191 = {	# Singkawang
+	holding = city_holding
+}
+
+###c_kubu_raya
+11451 = {	# Kubu Raya
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+11450 = {	# Landak
+	holding = city_holding
+}
+
+##d_ketungau ####################################
+###c_ketungau (Ketungau)
+11452 = {	# Ketungau
+	culture = bidayuh
+	religion = kaharingan
+	holding = tribal_holding
+}
+11454 = {	# Ngabang
+	holding = none
+}
+12192 = {	# Teraju
+	holding = none
+}
+
+###c_sintang (Sintang)
+#b_sintang
+11453 = {	# Sintang
+	culture = bidayuh
+	religion = kaharingan
+	holding = tribal_holding
+}
+11457 = {	# Seribu Riam
+	holding = none
+}
+11461 = {	# Melawi
+	holding = none
+}
+12193 = {	# Ketungau Hilir
+	holding = none
+}
+
+###c_putussibau
+11456 = {	# Putussibau Selatan
+	culture = ot_danum
+	religion = kaharingan
+	holding = tribal_holding
+}
+11459 = {	# Badau
+	holding = none
+}
+11458 = {	# Bunut
+	holding = none
+}
+
+##d_kayong_utara ####################################
+###c_kayong_utara (Kayong Utara)
+11462 = {	# Kayong Utara
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+
+###c_sanggau (Sanggau)
+11455 = {	# Sanggau
+	culture = bidayuh
+	religion = kaharingan
+	holding = tribal_holding
+}
+12205 = {	# Nanga Tayap
+	holding = none
+}
+
+###c_ketapang (Ketapang)
+11460 = {	# Lamandau
+	holding = city_holding
+}
+11463 = {	# Jelai Hulu
+	holding = church_holding
+}
+12194 = {	# Ketapang
+	# Misc
+	culture = malay
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+
+################################################
+### Kalimantan Selatan/k_kalimantan_selantan ###
+################################################
+
+##d_nan_sarunai ####################################
+###c_nan_sarunai (Nan Sarunai)
+11410 = {	# Kotabaru
+	# Misc
+	culture = banjar
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+11412 = {	# Tanah Bumbu
+	holding = city_holding
+}
+
+###c_barito (Barito)
+11405 = {	# Banjarmasin
+	# Misc
+	culture = banjar
+	religion = vajrayana
+	holding = castle_holding
+    # History
+	867.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			plantations_01
+			military_camps_01
+		}
+	}
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+	12198 = {	# Tanah Laut
+	holding = church_holding
+}
+}
+11409 = {	# Tapin
+	holding = city_holding
+}
+11406 = {	# Tabalong
+	holding = church_holding
+}
+
+###c_paser (Paser)
+11411 = {	# Paser
+	# Misc
+	culture = banjar
+	religion = vajrayana
+	holding = castle_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+12197 = {	# Balikpapan
+	holding = city_holding
+}
+
+##d_sampit ####################################
+###c_sampit (Sampit)
+11415 = {	# Palangka Raya
+	culture = ngaju
+	religion = kaharingan
+	holding = tribal_holding
+}
+12204 = {	# Mantangai
+	holding = none
+}
+
+###c_lahei (Lahei)
+11408 = {	# Lahei
+	culture = ngaju
+	religion = kaharingan
+	holding = tribal_holding
+}
+12202 = {	# Paju Epat
+	holding = none
+}
+
+###c_murung_raya (Murung Raya)
+11413 = {	# Sumbur Barito
+	culture = ot_danum
+	religion = kaharingan
+	holding = tribal_holding
+}
+12199 = {	# Tumbang Tohan
+	holding = none
+}
+
+###c_gunung_mas (Gunung Mas)
+11414 = {	# Gunung Mas
+	culture = ngaju
+	religion = kaharingan
+	holding = tribal_holding
+}
+12203 = {	# Permata Intan
+	holding = none
+}
+
+###c_seruyan_hulu (Seruyan Hulu)
+11420 = {	# Seuyan Hulu
+	culture = ngaju
+	religion = kaharingan
+	holding = tribal_holding
+}
+11419 = {	# Bukit Santuai
+	holding = none
+}
+
+##d_katingan_kuala ####################################
+###c_katingan_kuala (Katingan Kuala)
+11416 = {	# Katingan Kuala
+	# Misc
+	culture = banjar
+	religion = vajrayana
+	holding = castle_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+11407 = {	# Kapuas Kuala
+	holding = city_holding
+}
+12200 = {	# Kahayan Kuala
+	holding = church_holding
+}
+
+###c_seruyan_hilir (Seruyan Hilir)
+11417 = {	# Seruyan Hilir
+	# Misc
+	culture = banjar
+	religion = vajrayana
+	holding = castle_holding
+    # History
+    1368.1.1 = { # Brunei Sultanate firm establishment
+        religion = ashari
+    }
+}
+11418 = {	# Baamang
+	holding = church_holding
+}
+12201 = {	# Mendawai
+	holding = city_holding
+}

@@ -1,0 +1,309 @@
+﻿l_korean:
+
+ #建筑第一期翻译
+ #如有问题请联系QQ:626882549
+
+ #历史建筑======================================================================================================================
+ #大明宫
+ building_type_daminggong_01:0 "대명궁"
+ building_type_daminggong_01_desc:0 "대명궁은 당나라에서 가장 웅장한 궁전이며 당나라의 정치적 중심지이자 상징입니다. 이곳에는 200여 년간 17명의 황제가 나라를 다스렸지만 전쟁으로 인한 파손과 재정난 때문에 유지하기가 어려웠습니다."
+ building_daminggong_01:0 "대명궁 폐허"
+ building_daminggong_01_desc:0 "$building_type_daminggong_01_desc$"
+ building_daminggong_02:0 "대명궁"
+ building_daminggong_02_desc:0 "번화하고 번영하며 수천 년 동안 빛나고 있는 장안보다 더 웅장한 도시는 세계에 없습니다.\n\n대명궁은 당 태종 정관 8년(634)에 지어졌으며, 면적은 약 3.2 km²입니다. 전체 궁전 지역은 두 부분으로 나눌 수 있습니다: 전조와 내정. 전조는 궁정 회의가 주로 열렸고, 내정은 거주지의 역할과 연회의 공간으로 주로 사용되었습니다. 전조의 주요 전각은 함원전(외조), 선정전(중조), 자신전(내조)입니다. 안뜰에는 태액지와 30개 이상의 다른 전각과 정자 그리고 사찰이 있습니다."
+ 
+ #神策府
+ building_type_shence_01:0 "신책부"
+ building_type_shence_01_desc:0 "과거 강력했던 당나라 근위대는 이제는 쓸쓸한 폐허만 남았습니다."
+ building_shence_01:0 "신책 본부지역"
+ building_shence_01_desc:0 "$building_type_shence_01_desc$"
+ building_type_shence_02:0 "신책부"
+ building_type_shence_02_desc:0 "재건된 신책군 본부는 다시 한번 제국 전역에서 선발된 많은 정예 전사들과 함께 장안성의 경호 역할을 맡았습니다.\n\n신책부는 당나라 중후반에 중앙 북부 아문 제국군의 주력 부대였습니다. 원래 북서쪽의 국경 수비대였지만 나중에 수도에 배속받으면서 당나라의 가장 중요한 비장의 무기가 되었습니다. 신책부는 수도를 방어하고, 관청을 지키고 때로는 원정을 떠나는 일을 도맡아 했습니다. 당나라의 직접적인 지배를 받는 주요 무장세력이자 당나라의 통치를 유지하는 데 가장 중요한 군사적 지주였습니다."
+ building_shence_02:0 "신책부"
+ building_shence_02_desc:0 "$building_type_shence_02_desc$"
+
+ #曲阜孔庙
+ building_type_kongmiao_01:0 "공묘"
+ building_type_kongmiao_01_desc:0 "이곳은 공자가 살았던 곳이자 그가 과거에 제자를 가르쳤던 곳입니다.\n\n전한 이후 역대 황제들이 공자에게 시호를 내리면서 공묘의 규모는 점점 커지고 있습니다. 이곳은 유교의 성지가 되었고 중국 전역의 학자들에게 존경을 받고 있습니다."
+ building_kongmiao_01:0 "곡부의 공묘"
+ building_kongmiao_01_desc:0 "$building_type_kongmiao_01_desc$"
+
+ #天策府
+ building_type_tiance_01:0 "천책부"
+ building_type_tiance_01_desc:0 "당나라의 가장 위대한 군주인 태종 황제가 여전히 진왕이었을 때, 그는 이곳에서 그의 통치를 시작했습니다. 가장 유명한 문무관들과 군 장성들이 당나라의 국가 계획을 논의하기 위해 이곳에 모였습니다.\n\n그 모습이 아직도 우리 앞에 있는 것 같지만 지금은 황량한 폐허만 남아있습니다."
+ building_tiance_01:0 "천책부의 옛터"
+ building_tiance_01_desc:0 "$building_type_tiance_01_desc$"
+ building_type_tiance_02:0 "천책 본부"
+ building_type_tiance_02_desc:0 "천책부는 당나라 고제 4년(621년) 진왕 이시민이 왕세충과 두건덕의 연합군을 격파한 후 만든 천책상장의 공식 집무실입니다. 그것은 또한 이시민이 미래에 황제가 되는 기념비적인 사건들 중 하나입니다.\n\n천책부는 군사부서 중 가장 높은 권한을 가지고 있습니다(명목상으로 천책상장의 지위는 삼공으로 불리는 태사, 태부, 태보의 다음가는 위치에 있습니다). 천책상장은 천책부의 관리, 즉 소위 \"자체 임명된 관리\"로서 스스로 인재를 모집할 수 있습니다."
+    
+ #龙门石窟   
+ building_type_longmenshiku_01:0 "용문 석굴"
+ building_type_longmenshiku_01_desc:0 "전설적인 우왕의 제방공사를 위해 용문은 건설되었습니다. 용문을 뛰어넘는 물고기는 용이 된다는 등용문의 전설이 태어난 장소가 이곳입니다. 석굴은 북위의 효문제 때에 굴착이 시작되어 10개 이상의 왕조들을 거쳐 총 1400년 만에 완공되었습니다. 용문 석굴은 세계에서 가장 오래 지어진 동굴입니다. 세계에서 유일한 왕실 석굴인 용문 석굴에 있는 대부분의 조각상들은  왕족 귀족들에 의해 지어졌습니다."
+ building_longmenshiku_01:0 "용문 석굴"
+ building_longmenshiku_01_desc:0 "$building_type_longmenshiku_01_desc$"
+ 
+ #都江堰
+ building_type_dujiangyan_01:0 "도강언"
+ building_type_dujiangyan_01_desc:0 "도강언은 사천성 성도시 도강언시의 서쪽에 위치하고 있으며, 성도 평원의 서쪽에 있는 민강에 접해 있습니다. 도강언은 진나라 소양왕(기원전 256-251년)의 마지막 해에 지어졌습니다. 그것은 이전의 담금질 발굴을 기반으로 촉군태수 이빙과 그의 아들이 조직하고 건설한 대규모 수리 계획입니다.\n\n이곳은 물의 흐름을 분산시켜 주는 어취, 비사언, 보병구 등으로 구성되어 있으며, 2000년 이상 홍수 조절과 관개의 역할을 수행하여 성도 평원을 물과 가뭄이 있는 수천 마일의 \"풍요로운 땅\"으로 만들었습니다. 도강언은 세계에서 가장 오래되고 여전히 사용되고 있습니다. 별도의 노력 없이 강물을 분산시킬 수 있다는 것은 도강언의 큰 특징입니다."
+ building_dujiangyan_01:0 "도강언"
+ building_dujiangyan_01_desc:0 "$building_type_dujiangyan_01_desc$"
+ 
+ #玉门关
+ building_type_yumenguan:0 "옥문관"
+ building_type_yumenguan_desc:0 "옥문관이란 이름은 한무제가 서쪽 지역으로 가는 길을 열고 하서에 4개의 군을 세웠을 때 지어졌습니다. 한나라 때, 옥문관은 서쪽 지역의 모든 곳으로 가는 관문이었습니다. 옥문관은 항상 통일 왕조의 서쪽 관문 역할을 해왔습니다. 수많은 군사들이 대대로 이곳을 늙을 때까지 지켜왔다 보니 '봄바람조차 옥문관을 넘을 수 없다'는 시가 있었습니다."
+ building_yumenguan:0 "옥문관"
+ building_yumenguan_desc:0 "$building_type_yumenguan_desc$"
+
+ #阳关
+ building_type_yangguan:0 "양관"
+ building_type_yangguan_desc:0 "#F 양관은 옥문관의 남쪽에 위치하고 있기 때문에 양관이라는 이름이 붙여졌습니다. 양관은 한무제 원정(연호) 때 세워진 하서의 \"4군 2관\" 중 하나입니다. 서쪽 지역의 관문으로서, 양관은 실크로드의 남쪽으로 가는 중요한 통로이자 고대 전략가들의 전략적인 요충지였습니다. 송나라와 원나라 이후, 실크로드의 쇠퇴와 함께 양관은 점차 황폐화되었습니다.#!"
+ building_yangguan:0 "양관"
+ building_yangguan_desc:0 "$building_type_yangguan_desc$"
+
+ #大相国寺
+ building_type_daxiangguosi:0 "대상국사"
+ building_type_daxiangguosi_desc:0 "#F 이전에 상국사로 알려진 대상국사는 중국의 유명한 불교 사원입니다. 대상국사는 북제 왕조의 천보 6년(555년)에 지어졌습니다. 당나라 연화 원년(712년)에, 당나라의  예종은 상왕시절에 황제에 즉위한 것을 떠올리며 대상국사라는 이름을 지었습니다. 북송 시대에 상국사는 왕실로부터 깊은 존경을 받았고 여러 차례 확장되었습니다. 대상국사는 북경에서 가장 큰 사원이자 중국 불교 활동의 본거지입니다.#!"
+ building_daxiangguosi:0 "대상국사"
+ building_daxiangguosi_desc:0 "$building_type_daxiangguosi_desc$"
+
+ #黄帝陵
+ building_type_huangdiling:0 "황제릉"
+ building_type_huangdiling_desc:0 "중국 부족 동맹의 지도자인 황제(오제 중 한 명)는 염제(신농씨)와 연합하여 치우를 물리친 후, 천지의 주인이 되었고, 이것은 원시시대에 머물던 중국을 문명 시대로 진입하게 만들었습니다. 황제의 위대한 업적은 자연스럽게 후세 사람들에게 존경과 숭배의 대상이 되었습니다.\n\n황제가 죽은 후, 인류 최초의 조상에 대한 향수를 표현하기 위해, 사람들은 교선에 무덤과 사원을 세웠습니다. 황제 사후 수천 년 동안 황조를 제물로 바치는 활동은 중단된 적이 없습니다. 황제에게 '신'과 '황제'로 동시에 여기며 제사를 올린 것을 제외하고는 유, 하, 상, 주, 진, 한, 수, 당, 송, 원, 명, 청나라에는 예외 없이 황제를 조상으로 여기며 제사를 지냈습니다."
+ building_huangdiling:0 "황제릉"
+ building_huangdiling_desc:0 "$building_type_huangdiling_desc$"
+
+ #长白山寺
+ building_type_changbaishenmiao_1:0 "장백산사"
+ building_type_changbaishenmiao_1_desc:0 "분화구의 물은 호수가 되었습니다. 겨울에는 얼어붙은 얼음 위의 눈처럼 하얗지만 여름에 녹은 호수의 물은 하늘보다도 더 푸르릅니다. 장백산 천지는 16개의 봉우리로 둘러싸여 있습니다. 천활봉과 용문봉 사이의 좁은 골짜기로 물이 흘러서 송화강의 발원지인 장백 폭포로 떨어집니다."
+ building_changbaishenmiao_1:0 "장백산 천지"
+ building_changbaishenmiao_1_desc:0 "$building_type_changbaishenmiao_1_desc$"
+ building_type_changbaishenmiao_2:0 "장백산사"
+ building_type_changbaishenmiao_2_desc:0 "장백산 정상에서 부처님의 광휘가 구름 사이로 사원을 비추고 있습니다."
+ building_changbaishenmiao_2:0 "장백산사"
+ building_changbaishenmiao_2_desc:0 "$building_type_changbaishenmiao_2_desc$"
+ 
+ #灵渠
+ building_type_lingqu_1:0 "영거"
+ building_type_lingqu_1_desc:0 "영거 운하의 준설은 상강과 이강을 연결했고, 남북 수로를 열었습니다. 많은 양의 곡물과 풀은 충분한 재료 공급과 함께 물을 통해 링난으로 운반되었습니다. 기원전 214년, 영곡 운하가 항해로 잘려나간 해에, 진나라 병사들은 영남을 정복했고, 그 후 세 개의 군을 세웠습니다: 계림, 향군, 남해는 영남을 공식적으로 진나라의 영토로 편입시켰습니다."
+ building_lingqu_1:0 "붕괴된 영거"
+ building_lingqu_1_desc:0 "$building_type_lingqu_1_desc$"
+ building_type_lingqu_2:0 "수리된 영거"
+ building_type_lingqu_2_desc:0 "영거 운하가 수리된 후, 그것은 장강과 주강의 두 개의 주요 강와 다시 연결되어 교통과 상업이 번창할 것입니다."
+ building_lingqu_2:0 "영거"
+ building_lingqu_2_desc:0 "$building_type_lingqu_2_desc$"
+
+ #燕然勒石
+ building_type_yanranleshi:0 "연연산명"
+ building_type_yanranleshi_desc:0 "동한의 위대한 장군인 두헌은 북쪽 흉노를 추격하여 성 밖으로 3000마일 이상 나가 연연산에 돌을 조각하여 그의 공적을 기록했습니다. \"연연산명\"에는 북방 유목민들을 완벽하게 이겨낸 이야기가  돌 위에 쓰여져 있습니다."
+ building_yanranleshi:0 "연연륵석"
+ building_yanranleshi_desc:0 "$building_type_yanranleshi_desc$"
+
+ #狼居胥碑
+ building_type_langjuxubei:0 "낭거서비"
+ building_type_langjuxubei_desc:0 "#F 전한의 기병 장군인 곽거병은 만리장성으로 북쪽으로 원정을 떠났습니다. 흉노를 물리친 후, 그는 낭거의 서산에 흙으로 제단을 쌓고 그의 성공을 보고하기 위해 하늘에 제사를 올렸습니다. 이 산에는 곽장군의 위대한 군사적 업적을 기념하는 글귀가 새겨져 있습니다.#!"
+ building_langjuxubei:0 "낭거서비"
+ building_langjuxubei_desc:0 "$building_type_langjuxubei_desc$"
+
+ #毗伽可汗碑
+ building_type_pijiakehanbei:0 "비가가한비"
+ building_type_pijiakehanbei_desc:0 "슬픈 바람에 독수리가 날고, 풀은 시들어 말라가는구나.\n화살은 평량의 달로 쏘아지고, 사막의 먼지는 흩어지는구나.\n적들을 덮기 위해 모래를 날리며, 구곡만에서 내려가노라."
+ building_pijiakehanbei:0 "비가가한비"
+ building_pijiakehanbei_desc:0 "$building_type_pijiakehanbei_desc$"
+
+ #天宁寺
+ building_type_tianningsi:0 "천저사"
+ building_type_tianningsi_desc:0 "천저사는 당나라 정관(貞觀) 시대에 세워진 염불의 탄생지 중 하나입니다. 천저탑의 외관은 팔각형의 모서리와 위엄 있는 모양, 단순하고 거칠면서도 역동적인 당과 송 시대의 고대 탑의 양식을 따랐습니다. 또한 탑의 중간부 장식은 천저사와 같이 고급스럽지만 복잡하지 않으며 간결한 당과 송 왕조의 건축 양식을 따르고 있습니다. 비록 조각된 들보와 채색된 건물의 화려함은 남아있지 않지만 여전히 고풍스러운 매력과 엄숙한 분위기를 자아내고 있습니다."
+ building_tianningsi:0 "천저사"
+ building_tianningsi_desc:0 "$building_type_tianningsi_desc$"
+
+ #云冈石窟
+ building_type_yungangshiku:0 "운강석굴"
+ building_type_yungangshiku_desc:0 "운강석굴에 있는 조각상들은 웅장하고 화려합니다. 그것들은 기원후 5세기 중국 석조 예술의 정점이라고 불릴 수 있으며 고대 중국 조각 예술의 보고로 알려져 있습니다. 발굴 시기에 따라 초기, 중기, 후기의 세 시기로 나눌 수 있습니다. 시대별 석굴상의 양식도 그 나름의 특징을 가지고 있습니다."
+ building_yungangshiku:0 "운강석굴"
+ building_yungangshiku_desc:0 "$building_type_yungangshiku_desc$"
+
+ #莫高窟
+ building_type_mogaoku:0 "막고굴"
+ building_type_mogaoku_desc:0 "흔히 천불동(千佛洞)으로 알려진 막고굴은 허시 회랑의 서쪽 끝에 있는 돈황에 위치해 있습니다. 그것은 전진(前秦)의 선소황제 부견 치세에 설립되고, 그 후 북조, 수나라, 당나라, 오대십국, 서하, 원나라 시대를 걸쳐 계속 지어졌습니다. 막고굴은 735개의 동굴, 45000 평방미터의 벽화, 2415개의 색조 점토 조각상으로 이루어진 거대한 규모의 동굴입니다. 현존하는 불교 예술 중 가장 규모가 크고 문화유산이 풍부한 곳입니다."
+ building_mogaoku:0 "막고굴"
+ building_mogaoku_desc:0 "$building_type_mogaoku_desc$"
+
+ #苏巴什佛寺
+ building_type_subashifosi:0 "소파십불사"
+ building_type_subashifosi_desc:0 "소파십불사는 위나라와 진나라의 고대 불교 사원입니다. 소파십불사는 동쪽과 서쪽의 두 개의 사원으로 나뉩니다. 통창강의 동쪽과 서쪽 강둑에서 서로 마주 보는 형태입니다. 전체 유적지는 탑을 중심으로 사찰과 동굴, 전각 등이 잘 보존되어 있습니다. 해당 유적들은 강의 동쪽과 서쪽 언덕에 나뉘어 있고 그 사이로 강이 흐르고 있습니다. 그것들은 서사(西寺)와 동사(東寺)로 불리고, 주요 건물들은 서사(西寺)에 집중되어 있습니다."
+ building_subashifosi:0 "소파십불사"
+ building_subashifosi_desc:0 "$building_type_subashifosi_desc$"
+ 
+ #热瓦克佛寺
+ building_type_rewakefosi:0 "열와극불사"
+ building_type_rewakefosi_desc:0 "열와극불사가 건축되어 호탄에서 명망을 얻었을 때는 호탄 건축 역사에서 가장 빛나던 시기이기도 했습니다. 크고 작은 사찰과 점토벽화가 호탄의 모든 도시에 산재해 있었습니다. 열와극불사는 그 시대 사찰 건축을 대표하는 문화재입니다. 열와극불사의 유물들은 국가적으로 엄중히 보호받고 있습니다. 열와극불사는 호탄의 동쪽 사막에 위치해 있습니다. 탑을 중심으로 사찰이 건조되어 있고 탑 주변에는 안뜰이 있습니다. 안뜰의 벽 안팎에는 많은 점토벽화가 부조되어 있습니다. 조각상들의 양식은 중국의 것과 매우 다르며 그 의복의 형태는 서아시아만의 독특한 양식을 띄고 있습니다."
+ building_rewakefosi:0 "열와극불사"
+ building_rewakefosi_desc:0 "$building_type_rewakefosi_desc$"
+ 
+ #鲜卑石室
+ building_type_xianbeishishi:0 "선비석실"
+ building_type_xianbeishishi_desc:0 "선비석실은 북위 독발 가문의 선조들이 죽은 이후 묻힌 석실을 의미하는데, 알선동(嘎仙洞)이라고도 합니다. 그것은 원래 북위의 황제가 그의 조상들을 숭배하기 위해 사용했던 자연 동굴이었습니다. 한때, 동굴 안에 절을 지어질 계획도 있었지만, 황제가 훼불(毁佛) 운동을 시작했기 때문에 끝내 이루어지지 않았습니다."
+ building_xianbeishishi:0 "선비석실"
+ building_xianbeishishi_desc:0 "$building_type_xianbeishishi_desc$"
+
+ #文庙
+ building_type_holy_site_wenmiao_01:1 "문묘"
+ building_holy_site_wenmiao_01:1 "문묘"
+ building_holy_site_wenmiao_01_desc:1 "한나라가 제자백가를 중 유교만을 관학으로 삼았기 때문에, 공자는 학자들 사이에서 높은 명망을 가지고 있었고 이는 곧 종교적인 형태의 숭배로 이어졌습니다.\n\n따라서 문묘는 사람들의 교육을 담당할 뿐만 아니라 평화와 지혜를 위해 기도하는 장소의 역할도 하게 되었습니다. 황제조차도 그의 정통성을 드러내기 위해 태산의 문묘에서 제사를 올려야 했습니다."
+ 
+ #紫微宫   
+ building_type_ziweigong:1 "자미궁"
+ building_ziweigong:1 "자미궁"
+ building_ziweigong_desc:1 "수, 당 시절 낙양에 있는 궁궐은 수나라 원년(605년)에 지어졌고, 자미궁이라는 이름이 붙여졌습니다. 정관 6년(632년)에 자미궁은 낙양궁이라고 불리게 되었습니다. 무후 광택(光宅) 원년(684년)에는 태초궁이라고 불렸습니다. 태초궁은 당나라의 동쪽 수도의 궁성이었습니다.\n\n자미궁은 옥황상제의 거처인 자미궁을 상징하기 때문에 자미시라고도 불립니다. 수나라와 당나라의 낙양 궁성은 약 4.2 평방 킬로미터의 면적을 차지합니다. 정문은 응천문이고 중심이 되는 전각은 명당이며 다른 세 개의 주요 전각으로는 건양전, 정관전, 휘유전이 있습니다."
+
+ #建康宫  
+ building_type_jiankanggong_1:1 "건강궁"
+ 
+ building_jiankanggong_1:1 "건강궁 폐허"
+ building_jiankanggong_1_desc:1 "위진남북조 시대 동안 6대 왕조의 수도였던 건강은 그 기간동안 수많은 왕조들의 궁들이 철거당하고 재건되기를 반복하였습니다. 긴 기간 전쟁과 왕조 교체가 일어나면서 궁들이 박살났고 끝내 건강성은 폐허가 되었습니다."
+ 
+ building_jiankanggong_2:1 "건강궁"
+ building_jiankanggong_2_desc:1 "이 웅장한 궁전은 천체의 현상과 고대 의식의 원리에 따라 여러 개의 성벽으로 구성되어 있습니다. 역사적 문헌에서 건강궁은 \"고대에서 현대까지 그 어떤 것과도 비교할 수 없을 정도로 웅장하다\"라고 기록되어 있습니다.\n\n궁전 전체에는 수백 명의 관리들이 정치를 논의하는 황궁 내청, 황제가 연회를 여는 태극당, 궁전 뒤에 위치한 내당과 정원 등이 있습니다. 또한 30개 이상의 황실 정원과 궁전과 별도로 분리되어 있는 전각들이 있습니다."
+    
+ #娲皇宫
+ building_type_wohuanggong:0 "와황궁"
+ building_type_wohuanggong_desc:0 "와황궁은 신화와 전설에서 여와가 \"사람을 만들기 위해 흙을 반죽하고 하늘의 구멍을 메우기 위해 돌을 녹이던\" 장소입니다.\n\n와황궁은 북제 왕조의 문선황제인 고양에 의해 지어졌습니다. 처음에는 석실 세 개를 만들었고 여러 개의 조각상을 조각해 놨습니다. 이어지는 왕조들의 끊임없는 보수와 개축 후에 와황궁은 76만 평방미터의 크기로 확장되었습니다. 오늘날 남아있는 대부분의 건물들은 명나라와 청나라 시대에 지어진 것들이고 북제 시대의 유물들은 6개의 석굴과 절벽비문만을 남겼는데, 이는 중국에 현존하는 절벽비문 중에서 가장 오래되고 많은 단어들로 이루어져 있습니다."
+ building_wohuanggong:0 "와황궁"
+ building_wohuanggong_desc:0 "$building_type_wohuanggong_desc$"
+ 
+ #山丹马场
+ building_type_shandanmachang:0 "산단마장"
+ building_type_shandanmachang_desc:0 "산단마장은 기원전 121년 서한 왕조의 기병장군 곽거병에 의해 설립되었으며 기련산의 긴 능선의 북쪽 기슭에 있는 하서 회랑과 마영 초원의 중간에 위치해 있습니다. 3개의 시와 6개의 현으로 이루어진 감숙성과 청해성에 걸쳐 있으며 총면적은 대략 2만 2천 제곱킬로미터입니다. 이 세계에서 가장 오래된 황실 경주로는 한때 아시아에서 가장 컸고 세계에서 두 번째로 큰 규모를 자랑했습니다."
+ building_shandanmachang:0 "산단마장"
+ building_shandanmachang_desc:0 "$building_type_shandanmachang_desc$"
+
+ #马市
+ building_type_machang:0 "마시장"
+ building_type_machang_desc:0 "이곳은 말을 거래할 수 있는 시장입니다. 우리의 군대는 여기에서 많은 수의 군마를 유목집단에게서 살 수 있습니다."
+ building_machang:0 "마시장"
+ building_machang_desc:0 "$building_type_machang_desc$"
+ building_type_mashi:0 "마시장"
+ building_type_mashi_desc:0 "이곳은 말을 거래할 수 있는 시장입니다. 우리의 군대는 여기에서 많은 수의 군마를 유목집단에게서 살 수 있습니다."
+ building_mashi:0 "마시장"
+ building_mashi_desc:0 "$building_type_mashi_desc$"
+ 
+ #榷场
+ building_quechang:0 "변경시장"
+ building_quechang_desc:0 "이 소도시는 목동들과 농부들이 거래할 수 있는 거래소의 역할을 할 뿐만 아니라 그 상인들을 통해 두 제국들이 소통을 할 수 있는 다리를 놔주기도 합니다."
+ building_type_quechang:0 "변경시장"
+ building_bianzhen:0 "변경시장"
+ building_bianzhen_desc:0 "이 소도시는 목동들과 농부들이 거래할 수 있는 거래소의 역할을 할 뿐만 아니라 그 상인들을 통해 두 제국들이 소통을 할 수 있는 다리를 놔주기도 합니다."
+ building_type_bianzhen:0 "변경시장"
+
+ #华清宫
+ building_type_huaqinggong:1 "화청궁"
+ building_huaqinggong:1 "화청궁"
+ building_huaqinggong_desc:1 "화청궁은 여산 온천 때문에 만들어졌습니다. 화청 온천은 한때 당나라 황제들이 자주 찾아오는 곳이었습니다. 특히 당현종과 양귀비가 자주 찾아오는 곳으로 유명했습니다.\n하지만, 안사의 난 이후 화청궁은 유기되었습니다. 훗날 재건되긴 했지만, 예전 황제들이 자주 찾던 영광을 다시 찾지는 못할 것입니다."
+
+ #黄鹤楼
+ building_type_huanghelou:1 "황학루"
+ building_huanghelou:1 "황학루"
+ building_huanghelou_desc:1 "황학루는 우한시 창강가의 서산에 있는 누각으로 악양루와 등왕각과 함께 \"강남 3대 명루\" 중 하나입니다.\n기록에 따르면, 이 누각은 223년 삼국시대 오나라 황제 손권이 군사적 목적으로 건설하였다 합니다. 완공 이후, 황학루는 많은 유명인사들과 시인들이 잔치를 열며 시를 쓰는 문화의 광장이 되었습니다. 19세기 청나라시대 동치제 치세까지 300여 개의 시가 황학루에 관해 쓰였습니다. 당나라 (618 -907) 시대 유명한 시인 최호는 \"황학루\"라는 제목의 시를 지어 이 누각을 더욱 유명하게 만들었습니다. 일설에 따르면 이태백으로 잘 알려져 있는 시선 이백은 황학루에 올라 운치를 즐기고 있다가 최호의 시를 발견하고 감탄한 이후 장강의 풍경에 대해 시를 쓰고자 하였으나 최호의 경지를 뛰어넘지 못함을 탄식하며 붓을 씻어 버리고 배를 타고 강남으로 떠났다고 합니다."
+
+ #滕王阁
+ building_type_tengwangge:1 "등왕각"
+ building_tengwangge:1 "등왕각"
+ building_tengwangge_desc:1 "등왕각은 \"강남 3대 명루\" 중에서도 오랜 세월 동안 일등으로 알려진 명루 입니다. 장사성 남창시에 있는 등왕각은 장강의 지류인 감강과 동호구가 보이는 위치에서 강과 도시가 서로 거울을 맞대어 보듯 자리 잡고 있습니다. \n\n초당 4걸 중 하나인 시인 왕발은 등왕각에 바치는 등왕각서라는 시를 써 대대손손 등왕각의 찬란함과 아름다움을 빛냈습니다. 등왕각서는 민중사이에서 대단한 인기를 누렸고 이 덕분에 시가 찬양하는 건축물도 수많은 중국의 문화재들 사이에서 독보적인 위치에 남게 되었습니다."
+
+ #黄鹤楼
+ building_type_yueyanglou_1:1 "악양루"
+ 
+ building_yueyanglou_1:1 "악양루 폐허"
+ building_yueyanglou_1_desc:1 "악양루는 동정호 인근에 건설된 누각입니다. 등왕각, 황학루와 함께 \"강남 3대 명루\"로 유명합니다.\n\n악양루는 여러 차례 파손되었고 심지어 화재로 인해 불타기도 하였으며 전쟁과 천재지변을 겪으며 수차례 훼손되었지만 많은 제국들의 황제들에 의해 여러 차례 보수 되어 오늘날까지 살아남은 명루입니다."
+ 
+ building_yueyanglou_2:1 "악양루"
+ building_yueyanglou_2_desc:1 "악양루의 전신은 삼국시대까지 거슬러 올라갑니다. 오나라 황제 손권의 대도독 노숙은 손권의 명에 따라 전략적 요충지인 파구에 주둔하면서 이 지역의 방비를 철저하게 하면서 군사를 훈련시키는 임무를 맡습니다. 이를 하면서 수군의 검열도 하기 위해 노숙은 전략적 요충지인 동정호와 장강이 만나는 지역 인근에 건설하였습니다. 이 누각을 근처에 있는 파릉성이라는 도시에서 따와 파릉루라 이름을 지었는데 이 것이 오늘날 악양루의 전신입니다.\n\n처음에는 군사적인 이유로 지어졌지만 악양루의 명성은 악양루를 방문한 수많은 시인들과 문인들이 지은 악양루에 관한 시 덕분에 생겨났고 중국의 많은 제국들이 무너져갈 때도 악양루의 찬란함과 명성은 살아남았습니다."
+ 
+ #布达拉宫
+ building_type_budalagong:0 "포탈라궁"
+ building_type_budalagong_desc:0 "포탈라궁은 티베트 라싸지역 서북쪽에 위치한 포탈라 산기슭에 토번의 왕 손챈감포가 축조하였습니다. 17세기 중반 축조된 포탈라궁은 이후에도 증축되었으며 오늘날 중국에서 가장 유명한 왕궁중 하나가 되었습니다. "
+ building_budalagong:0 "포탈라궁"
+ building_budalagong_desc:0 "$building_type_budalagong_desc$"
+
+ #大昭寺
+ building_type_dazhaosi:0 "조캉 사원"
+ building_type_dazhaosi_desc:0 "조캉 사원은 티베트 라사 지역 중심부에 위치한 사원입니다. 전설에 따르면, 이 사원은 처음 당제국의 문성공주에 의해 기획되고 축조되었다 합니다. 사원은 높이만 4층이며 지붕은 황금으로 되어있습니다. 사원은 말 그대로 눈부시게 아름다우며 건축학적으로 당나라 건축물의 형태를 띠는 게 특징입니다. 사원 안에는 장안의 문성공주가 선사한 석가모니 불상이 놓여있으며 석가불상실이라 불립니다. 사원 안에는 석가의 불상 이외에도 다른 수많은 7세기 역사적 유물들이 있습니다."
+ building_dazhaosi:0 "조캉 사원"
+ building_dazhaosi_desc:0 "$building_type_dazhaosi_desc$"
+ 
+ #武侯祠
+ building_type_wuhouci:0 "무후사"
+ building_type_wuhouci_desc:0 "무후사는 촉한의 승상 제갈량을 숭상하며 기리는 백성들의 염원을 담고 있는 사당입니다. 제갈량은 나라와 백성들을 위해 일하며 무수한 번영과 안정을 가져다 주었지만 과로사 한것으로 유명합니다. 무후사에는 또한 삼국지 관련 유물들도 많이 출토되었습니다. 무후사에는 촉한의 소열제 유비를 기리는 후한의 소열사, 제갈량을 기리는 무후사, 유비의 무덤이 있으며 촉한의 문, 무신들도 배향한 혜릉사도 있습니다."
+ building_wuhouci:0 "무후사"
+ building_wuhouci_desc:0 "$building_type_wuhouci_desc$"
+ 
+ #炎帝陵
+ building_type_yandiling:0 "염제릉"
+ building_type_yandiling_desc:0 "염제릉은 중국민족의 조상인 신농의 안식처이며 \"중국 최초의 묘\"라는 명성을 누리고 있습니다. 염제의 묘소는 송나라 건덕 5년(967)에 건립되어 1000년이 넘는 역사를 가지고 있습니다. 역대 왕조들의 흥망성쇠와 함께 염제의 사원도 파괴와 건설을 반복해 왔습니다."
+ building_yandiling:0 "염제릉"
+ building_yandiling_desc:0 "$building_type_yandiling_desc$"
+ 
+ #矿=================================================================================================================================
+ 
+ #盐田  
+ building_type_yankuang_1:0 "소금 광산"
+ building_type_yankuang_1_desc:0 "이곳은 소금 퇴적물이 풍부합니다. 채굴이 가능하다면,  당신의 경제와 군대에 큰 도움이 될 것입니다."
+ building_yankuang_1:1 "소금 광산"   
+ building_yankuang_1_desc:1 "이곳에는 많은 소금 광산과 연못이 있습니다. 해안 지역만큼 생산량은 좋지 않지만, 해안 지역의 소금을 내륙 도시로 운송하기 위해서는 많은 운송비용이 들기 때문에 이곳에서 생산되는 소금은 고품질이면서도 저렴합니다."
+ building_yankuang_2:0 "염정"
+ building_yankuang_2_desc:1 "염정에서는 암염을 얻기 위해 우물의 깊숙한 지하로 내려가야 합니다. 어려운 과정이겠지만 필수적인 일입니다."
+ building_yankuang_3:0 "염전"
+ building_yankuang_3_desc:0 "바닷물에서 소금을 얻기 위해 불을 피워 끓여줘야 합니다."
+ building_yankuang_4:0 "소금 대평원"
+ building_yankuang_4_desc:0 "복잡하고 거대한 소금 대평원은 수 마일에 걸쳐 뻗어 있습니다. 광부들과 요리사들이 많은 양의 소금을 생산하기 위해 함께 일하고 있습니다."
+ building_yankuang_5:0 "공인 소금매점"
+ building_yankuang_5_desc:0 "이 곳에서 생산된 소금은 제국 전역에 공급되고 있으며 상위계층에서부터 하위계층에 이르기까지 모두의 삶을 책임지고 있습니다."
+
+ #首山铜矿
+ building_type_shoushan_mines_01:0 "수산 구리광산"
+ building_type_shoushan_mines_01_desc:0 "황제는 수산에서 구리를 채굴해 만든 세 갈래로 나뉜 구리 받침을 경산 산기슭에 던지자 용이 수염을 늘어뜨리고 황제를 맞이하면서 세발솥이 완성시켜 주었습니다."
+ building_shoushan_mines_01:0 "수산 구리광산"
+ building_shoushan_mines_01_desc:0 "황제가 수산에서 구리를 채굴하고 세 갈래로 나뉜 구리 받침을 주조했다고 합니다. 어쨌든, 이곳의 구리 매장량은 매우 높습니다."
+ building_shoushan_mines_02:0 "수산 광산"
+ building_shoushan_mines_02_desc:1 "지역 자원을 개발하기 위해 수산 광산에 점점 더 효율적인 광산들이 설립되었습니다."
+ building_shoushan_mines_03:0 "거대한 수산 광산"
+ building_shoushan_mines_03_desc:0 "정부가 운영하는 광산에 대한 제도화된 개선은 광산의 효율성을 크게 향상시켰습니다."
+ building_shoushan_mines_04:0 "수산 구리 단조시설"
+ building_shoushan_mines_04_desc:0 "이제 이 고대의 광산은 제국 전체의 중요한 금속 광산 중 하나가 되었습니다."
+ 
+ #大冶铜矿
+ building_type_daye_mines_01:0 "대야 광업지역"
+ building_type_daye_mines_01_desc:0 "\"장강 이남 100마일에 걸친 금빛이 나는 풍요로운 땅\"으로 알려진 대야는 풍부한 광물 자원과 특별한 이점들을 가지고 있습니다. "
+ building_daye_mines_01:0 "대야 구리광산"
+ building_daye_mines_01_desc:0 "대야 구리광산은 전세계적으로 유명합니다."
+ building_daye_mines_02:0 "대야 광산"
+ building_daye_mines_02_desc:1 "대야의 구리 채굴과 청동 주조의 역사는 고대 치우(蚩尤)의 시대로 거슬러 올라갑니다."
+ building_daye_mines_03:0 "대야 광맥"
+ building_daye_mines_03_desc:0 "고대의 대야 구리광산은 당나라에서 재건되었고 제국을 위해 구리나 주석을 비롯한 여러 금속들을 생산하기 시작했습니다."
+ building_daye_mines_04:0 "대야 거대광산"
+ building_daye_mines_04_desc:0 "대야에서 생산된 구리는 장강 유역 전역의 군대에 보급되었습니다."
+ 
+ #太原矿区
+ building_type_taiyuan_mines_01:0 "태원 광업지역"
+ building_type_taiyuan_mines_01_desc:0 "수나라와 당나라에 의해 채굴 되었던 병주에 있는 수많은 훌륭한 광산들은 태원 광산을 중심으로 모여 있습니다."
+ building_taiyuan_mines_01:0 "태원 철광산"
+ building_taiyuan_mines_01_desc:0 "산시성에서는 다양한 종류의 광물들이 채굴되었는데, 대부분은 제련을 위해 태원 광산으로 운송되었습니다."
+ building_taiyuan_mines_02:0 "태원 광산"
+ building_taiyuan_mines_02_desc:1 "태원 근처에서는 많은 양의 철, 구리, 납, 석탄이 생산됩니다."
+ building_taiyuan_mines_03:0 "태원 거대광산"
+ building_taiyuan_mines_03_desc:0 "인근의 광산들은 우리의 군대와 경제의 중요한 원천이 되었습니다."
+ building_taiyuan_mines_04:0 "태원 제철소"
+ building_taiyuan_mines_04_desc:0 "무기와 갑옷은 계속해서 대장간 밖으로 이송되어 최전선의 군인들에게 보급되었습니다."
+ 
+ #胶东金矿
+ building_type_jiaodong_mines_01:0 "교동 금광"
+ building_type_jiaodong_mines_01_desc:0 "교동 금광산은 생산량이 많고 일찍이 개발되어 매년 많은 양의 금을 생산하고 있습니다."
+ building_jiaodong_mines_01:0 "교동 금광"
+ building_jiaodong_mines_01_desc:0 "흩어져 있는 많은 금광들은 바쁘게 운영되고 있습니다."
+ building_jiaodong_mines_02:0 "교동 광산"
+ building_jiaodong_mines_02_desc:1 "초창기 광산은 낮은 곳의 돌에 있는 금을 채굴하기 위해 지어졌습니다."
+ building_jiaodong_mines_03:0 "교동 거대광산"
+ building_jiaodong_mines_03_desc:0 "귀금속을 효율적으로 생산하기 위해 여러 광산이 통합되어 관리되고 있습니다."
+ building_jiaodong_mines_04:0 "교동 공식 금광"
+ building_jiaodong_mines_04_desc:0 "황실의 군대가 이곳에서 금을 채굴하는 수천 명의 광부들을 보호했습니다."
+ 

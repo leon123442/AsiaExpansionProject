@@ -1,0 +1,30 @@
+﻿
+### Cultural heritage triggers
+# By their nature these triggers will be a bit lose and inaccurate, so keep that in mind when using them!
+
+
+#ASIA
+culture_has_east_asian_heritage_pillar_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_tibetan
+			has_cultural_pillar = heritage_chinese
+			has_cultural_pillar = heritage_mongolic
+			has_cultural_pillar = heritage_turkic
+			has_cultural_pillar = heritage_burman
+			has_cultural_pillar = heritage_korean
+			has_cultural_pillar = heritage_japanese
+			has_cultural_pillar = heritage_jomon
+			has_cultural_pillar = heritage_tungusic
+			has_cultural_pillar = heritage_kradai
+			has_cultural_pillar = heritage_hmong
+			has_cultural_pillar = heritage_viet
+			has_cultural_pillar = heritage_mon
+			has_cultural_pillar = heritage_khmer
+			has_cultural_pillar = heritage_katuic
+			has_cultural_pillar = heritage_loloish
+			has_cultural_pillar = heritage_bai
+			has_cultural_pillar = heritage_nivkh
+		}
+	}
+}

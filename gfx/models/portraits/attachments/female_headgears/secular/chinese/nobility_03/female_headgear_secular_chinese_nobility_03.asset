@@ -1,9 +1,9 @@
 pdxmesh = {
 	name = "female_headgear_secular_chinese_nobility_03_mesh"
 	file = "female_headgear_secular_chinese_nobility_03.mesh"
-	
+
 	meshsettings = {
-		name = "female_headgear_secular_chinese_nobility_03Shape"
+		name = "female_headgear_secular_chinese_nobility_0Shape3"
 		index = 0
 		texture_diffuse = "female_headgear_secular_chinese_nobility_03_diffuse.dds"
 		texture_normal = "female_headgear_secular_chinese_nobility_03_normal.dds"

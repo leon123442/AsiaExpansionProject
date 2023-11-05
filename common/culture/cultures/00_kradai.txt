@@ -1,5 +1,4 @@
-﻿
-pu = {  #Zhuang
+﻿pu = {  #Zhuang
 	color = { 50 155 14 }
 		
 	ethos = ethos_courtly
@@ -9,19 +8,21 @@ pu = {  #Zhuang
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
+		tradition_chinese_characters
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -35,19 +36,20 @@ biao = {  #Biao of Canton
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -61,19 +63,20 @@ beish = {  #Be of Leizhou prior to their migration to Hainan
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 
@@ -87,19 +90,20 @@ tai = {
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indochinese_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
 		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -113,19 +117,21 @@ tay = {
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
+		tradition_chinese_characters
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 	
@@ -139,19 +145,20 @@ kam_sui = {
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }
 
@@ -165,18 +172,19 @@ liliao = {  #俚
 	traditions = {
 		tradition_family_entrepreneurship
 		tradition_mystical_ancestors
-		tradition_court_eunuchs
+		tradition_agrarian
 		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_han
 	
 	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+	building_gfx = { chinese_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
 	ethnicities = {
-		10 = asian
+		10 = asian_southeast_asian_1
+		5 = asian
 	}
 }

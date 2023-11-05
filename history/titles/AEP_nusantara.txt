@@ -1,0 +1,766 @@
+﻿e_nusantara = {
+	671.1.1 = {
+		holder = sri_jayanasa_maharaja_srivijaya
+		government = feudal_government
+	}
+	702.1.1 = {
+		holder = sri_indravarman_maharaja_srivijaya
+	}
+	728.1.1 = {
+		holder = rudravikrama_maharaja_srivijaya
+	}
+	750.1.1 = {
+		holder = rudravarman_maharaja_srivijaya
+	}
+	770.1.1 = {
+		holder = dharmasetu_maharaja_srivijaya
+	}
+    # Sailendra dynasty
+	775.1.1 = {
+		holder = dharaindra_maharaja_srivijaya
+	}
+	800.1.1 = {
+		holder = samaragrawira_maharaja_srivijaya
+	}
+	812.1.1 = {
+		holder = samaratungga_maharaja_srivijaya
+	}
+    833.1.1 = {
+        holder = gula_maharaja_srivijaya
+    }
+	835.1.1 = {
+		holder = balaputra_maharaja_srivijaya
+	}
+	1045.1.1 = {
+		holder = sangramavijayottunggavarman_maharaja_srivijaya
+	}
+}
+
+
+
+k_srivijaya = {
+	671.1.1 = {
+		holder = sri_jayanasa_maharaja_srivijaya
+		government = feudal_government
+	}
+	702.1.1 = {
+		holder = sri_indravarman_maharaja_srivijaya
+	}
+	728.1.1 = {
+		holder = rudravikrama_maharaja_srivijaya
+	}
+	750.1.1 = {
+		holder = rudravarman_maharaja_srivijaya
+	}
+	770.1.1 = {
+		holder = dharmasetu_maharaja_srivijaya
+	}
+    # Sailendra dynasty
+	775.1.1 = {
+		holder = dharaindra_maharaja_srivijaya
+	}
+	782.1.1 = {
+		holder = samaragrawira_maharaja_srivijaya
+	}
+	792.1.1 = {
+		holder = samaratungga_maharaja_srivijaya
+	}
+    833.1.1 = {
+        holder = gula_maharaja_srivijaya
+    }
+	835.1.1 = {
+		holder = balaputra_maharaja_srivijaya
+	}
+}
+
+
+d_palembang = {
+	671.1.1 = {
+		holder = sri_jayanasa_maharaja_srivijaya
+		government = feudal_government
+	}
+	702.1.1 = {
+		holder = sri_indravarman_maharaja_srivijaya
+	}
+	728.1.1 = {
+		holder = rudravikrama_maharaja_srivijaya
+	}
+	750.1.1 = {
+		holder = rudravarman_maharaja_srivijaya
+	}
+	770.1.1 = {
+		holder = dharmasetu_maharaja_srivijaya
+	}
+    # Sailendra dynasty
+	775.1.1 = {
+		holder = dharaindra_maharaja_srivijaya
+	}
+	782.1.1 = {
+		holder = samaragrawira_maharaja_srivijaya
+	}
+	792.1.1 = {
+		holder = samaratungga_maharaja_srivijaya
+	}
+    833.1.1 = {
+        holder = gula_maharaja_srivijaya
+    }
+	835.1.1 = {
+		holder = balaputra_maharaja_srivijaya
+	}
+}
+
+c_palembang = {
+	700.1.1 = { change_development_level = 15 }
+	1066.1.1 = { change_development_level = 20 }
+
+    671.1.1 = {
+		holder = sri_jayanasa_maharaja_srivijaya
+		government = feudal_government
+	}
+	702.1.1 = {
+		holder = sri_indravarman_maharaja_srivijaya
+	}
+	728.1.1 = {
+		holder = rudravikrama_maharaja_srivijaya
+	}
+	750.1.1 = {
+		holder = rudravarman_maharaja_srivijaya
+	}
+	770.1.1 = {
+		holder = dharmasetu_maharaja_srivijaya
+	}
+    # Sailendra dynasty
+	775.1.1 = {
+		holder = dharaindra_maharaja_srivijaya
+	}
+	782.1.1 = {
+		holder = samaragrawira_maharaja_srivijaya
+	}
+	792.1.1 = {
+		holder = samaratungga_maharaja_srivijaya
+	}
+    833.1.1 = {
+        holder = gula_maharaja_srivijaya
+    }
+	835.1.1 = {
+		holder = balaputra_maharaja_srivijaya
+	}
+}
+
+c_cengal = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}
+
+
+d_lampung = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = lampung_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = lampung_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_lampung = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+c_tanggamus = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+d_bengkulu = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = bengkulu_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = bengkulu_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_bengkulu = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+
+d_musi = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+c_musi_rawas = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}
+
+
+d_bangka_belitung = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = bangka_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = bangka_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_siak = {
+	850.1.1 = {
+		holder = kampar_vassal_001
+		liege = "e_nusantara"
+	}
+}
+
+c_indragiri = {
+	850.1.1 = {
+		holder = kampar_vassal_001
+		liege = "e_nusantara"
+	}
+}
+
+
+d_jambi = {
+	700.1.1 = { change_development_level = 15 }
+	1066.1.1 = { change_development_level = 19 }
+
+	850.1.1 = {
+		holder = jambi_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = jambi_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_batanghari = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}
+
+
+d_minangkabau = {
+	850.1.1 = {
+		holder = minangkabau_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = minangkabau_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+
+c_merangin = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+
+	850.1.1 = {
+		holder = merangin_vassal_001
+		liege = "d_jambi"
+	}
+}
+
+
+d_kampar = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+
+	850.1.1 = {
+		holder = kampar_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = kampar_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_kampar = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}
+
+
+d_aceh = {
+	850.1.1 = {
+		holder = aceh_001
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = aceh_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_aceh = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}
+
+c_west_aceh = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+c_south_aceh = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+c_perlak = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = perlak_001
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = perlak_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_pasai = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = pasai_001
+		liege = 0
+	}
+	1066.1.1 = {
+		holder = pasai_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_gayo = {
+	700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = gayo_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = gayo_002
+		liege = 0
+	}
+}
+
+
+d_panai = {
+	850.1.1 = {
+		holder = siak_vassal_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = panai_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_panai = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	850.1.1 = {
+		holder = siak_vassal_001
+		liege = "e_nusantara"
+	}
+}
+
+c_langkat = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	
+	850.1.1 = {
+		holder = langkat_001
+		liege = 0
+	}
+}
+
+c_deli = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+	
+	850.1.1 = {
+		holder = langkat_001
+		liege = 0
+	}
+}
+
+
+
+k_mentawai = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+c_simeulue = {
+	850.1.1 = {
+		holder = simeulue_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = simeulue_placeholder_002
+		liege = 0
+	}
+}
+
+c_nias = {
+	850.1.1 = {
+		holder = nias_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = nias_placeholder_002
+		liege = 0
+	}
+}
+
+c_batu_islands = {
+	850.1.1 = {
+		holder = batu_islands_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = batu_islands_placeholder_002
+		liege = 0
+	}
+}
+
+c_siberut = {
+	850.1.1 = {
+		holder = siberut_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = siberut_placeholder_002
+		liege = 0
+	}
+}
+
+c_pagai = {
+	850.1.1 = {
+		holder = pagai_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = pagai_placeholder_002
+		liege = 0
+	}
+}
+
+c_enggano = {
+	850.1.1 = {
+		holder = enggano_placeholder_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = enggano_placeholder_002
+		liege = 0
+	}
+}
+
+
+
+
+
+c_simalungun = {
+	700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	850.1.1 = {
+		holder = langkat_001
+		liege = 0
+	}
+}
+
+c_toba = {
+	700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = toba_001
+		liege = 0
+	}
+	1050.1.1 = {
+		holder = toba_002
+		liege = 0
+	}
+}
+
+c_barus = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+
+	850.1.1 = {
+		holder = srivijaya_vassal_001
+		liege = "e_nusantara"
+	}
+}
+
+c_padang = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+c_dharmasraya = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+}
+
+c_mandailing = {
+	700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+
+d_riau_islands = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 13 }
+
+	850.1.1 = {
+		holder = riau_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = riau_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_temasik = {
+	700.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+
+d_natuna = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+c_natuna = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+
+	850.1.1 = {
+		holder = natuna_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = natuna_002
+		liege = "e_nusantara"
+	}
+}
+
+c_anambas = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+
+	850.1.1 = {
+		holder = anambas_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = anambas_002
+		liege = "e_nusantara"
+	}
+}
+
+# Peninsula
+d_gelanggi = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = gangganu_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = gelanggi_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_gelanggi = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+c_muar = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = melaka_001
+		liege = "d_gelanggi"
+	}
+	1066.1.1 = {
+		holder = gelanggi_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+d_pahang = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = pahang_tua_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = pahang_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_jerantut = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+c_temerloh = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+d_gangga_negara = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = bernam_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = bernam_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+d_kedah = {
+	850.1.1 = {
+		holder = kedah_tua_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = kedah_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_kedah = {
+	700.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+c_setul = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+
+d_langkasuka = {
+	700.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
+	850.1.1 = {
+		holder = langkasuka_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = langkasuka_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_terengganu = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+
+	850.1.1 = {
+		holder = langkasuka_001
+		liege = "e_nusantara"
+	}
+	1066.1.1 = {
+		holder = langkasuka_placeholder_001
+		liege = "e_nusantara"
+	}
+}
+
+c_patani = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+d_tambralinga = {
+	700.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+	
+	850.1.1 = { # Srivijaya vassal
+		holder = tambralinga_tua_001
+		liege = "e_nusantara"
+	}
+	900.1.1 = {
+		holder = 0
+	}
+	1060.1.1 = {
+		holder = mon200
+		liege = "k_lavapura"
+	}
+	1100.1.1 = {
+		holder = 0
+	}
+	1181.1.1 = {
+		holder = tambralinga100 # Semi-Historical
+		liege = "e_nusantara"
+	}
+	1222.1.1 = {
+		holder = tambralinga101 # Historical, Fictional Coro. Date
+	}
+	1230.1.1 = {
+		holder = tambralinga102 # Historical
+	}
+	1262.1.1 = {
+		holder = tambralinga103 # Historical
+	}
+}
+
+c_ligor = {
+	700.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+c_chaiya = {
+	700.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+}
+
+c_takola = {
+	700.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+}

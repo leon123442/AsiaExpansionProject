@@ -1,0 +1,54 @@
+﻿l_korean:
+ #Tribal Era
+ culture_parameter_unlock_maa_samurai:0 "[GetMaA('samurai').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_emishi:0 "[GetMaA('emishi_riders').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_han:0 "[GetMaA('chinese_pikemen').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_khitan:0 "[GetMaA('heavy_khitan_cavalry').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_hwarang:0 "[GetMaA('hwarang').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_gaemamusa:0 "[GetMaA('gaemamusa').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_luojuzi:0 "[GetMaA('luojuzi').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_ksatra:0 "[GetMaA('ksatra').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+
+ #Military
+ tradition_samurai_spirit_name:0 "무사도"
+ tradition_samurai_spirit_desc:0 "사무라이는 일본의 고위 전사 계급으로, 부시도라는 이름의 엄중한 무사도를 따릅니다. 무사도는 근면, 용맹, 주군을 향한 충성 등의 미덕을 절체절명의 위기에서도 따를 것을 강조합니다."
+ samurai:0 "사무라이"
+ samurai_flavor:0 "뛰어난 규율과 혹독한 기마술, 궁술 훈련을 통해 사무라이들은 일본 무사가 지향해야할 이상 그 자체가 되었습니다."
+ sohei:0 "소헤"
+ sohei_flavor:0 "승병이라는 뜻의 소헤는 헤이안 시대의 중앙집권 체제가 쇠퇴하며 등장했습니다. 무예와 믿음이 하나되자 일본 전역은 소헤를 경외시하게 되었습니다."
+ 
+ tradition_emishi_riders_name:0 "에조 기병"
+ tradition_emishi_riders_desc:0 "에조들은 아무리 열세인 전투에서든 용맹을 십분 발휘해 수많은 승리를 거둔 훌륭한 기병으로 명성이 자자합니다."
+ emishi_riders:0 "에조 기병"
+ emishi_riders_flavor:0 "에조들은 아무리 열세인 전투에서든 용맹을 십분 발휘해 수많은 승리를 거둔 훌륭한 기병으로 명성이 자자합니다."
+ 
+ tradition_chinese_pikemen_name:0 "중국 극병"
+ tradition_chinese_pikemen_desc:0 "갑옷을 입고 극창을 든 창병 극병들은 왕조를 가리지 않고 중화 군대의 중추가 되었습니다."
+ chinese_pikemen:0 "중국 극병"
+ chinese_pikemen_flavor:0 "갑옷을 입고 극창을 든 창병 극병들은 왕조를 가리지 않고 중화 군대의 중추가 되었습니다."
+ 
+ tradition_khitan_heavy_cavalry_name:0 "거란 중기병"
+ tradition_khitan_heavy_cavalry_desc:0 "거란의 이름을 드높인 중기병들의 무예는 수많은 전투에서 승리를 거두는 원동력이 되었습니다."
+ heavy_khitan_cavalry:0 "거란 중기병"
+ heavy_khitan_cavalry_flavor:0 "거란의 이름을 드높인 중기병들의 무예는 수많은 전투에서 승리를 거두는 원동력이 되었습니다."
+ 
+ tradition_hwarang_name:0 "화랑"
+ tradition_hwarang_desc:0 "화랑(花郞)은 신라 청년들로 이루어진 고위 무사 계급입니다. 그 아름다움으로 잘 알려진 화랑은 행정에서부터 군사에 이르기까지 가혹한 훈련을 거치는 것으로도 유명했습니다. 사군이충, 임전무퇴, 살생유택 등등 신라 사회에서 높이 평가받는 미덕을 갖춘 귀감으로서 화랑은 주군에게 열성적인 충성을 바쳤습니다."
+ hwarang:0 "화랑"
+ hwarang_flavor:0 "아름다움과 무예, 변함없는 충성으로 그 명성이 자자한 화랑들은 불굴의 정신으로 마지막 한 사람이 쓰러질 때까지 싸울 것입니다."
+ 
+ tradition_gaemamusa_name:0 "개마무사"
+ tradition_gaemamusa_desc:0 "개마무사는 고구려의 정예 기병대의 일축으로 고구려의 확장에 결정적인 역할을 했습니다. 눈길을 끄는 갑옷과 마갑 뒷부분을 장식하는 화려한 깃털로 잘 알려진 개마무사만큼이나 중장갑을 갖춘 기병을 동아시아에서 찾기란 쉽지 않을 것입니다."
+ gaemamusa:0 "개마무사"
+ gaemamusa_flavor:0 "화려한 깃털과 무거운 갑옷으로 유명한 개마무사만큼이나 인상적인 기병부대를 동아시아에서 찾기란 쉬운 일이 아닙니다."
+ 
+ tradition_tiger_sons_name:0 "호랑이의 아들들"
+ tradition_tiger_sons_desc:0 "호랑이의 아들이라는 뜻의 나저자는 남조군의 핵심이었으며 가장 강력한 전사들로 이루어져 있습니다. 나저자들에게 비겁함은 용납되지 않았고, 퇴각은 사형에 처해질 수 있었습니다."
+ luojuzi:0 "나저자"
+ luojuzi_flavor:0 "호랑이의 아들이라는 뜻의 나저자는 남조군의 핵심이었으며 가장 강력한 전사들로 이루어져 있습니다. 나저자들에게 비겁함은 용납되지 않았고, 퇴각은 사형에 처해질 수 있었습니다."
+ 
+ tradition_warrior_caste_name:0 "크샤트라"
+ tradition_warrior_caste_desc:0 "크메르 제국의 전사 귀족 계급을 구성한 크샤트라는 무위가 높기로 자자합니다."
+ ksatra:0 "크샤트라"
+ ksatra_flavor:0 "크메르 제국의 전사 귀족 계급을 구성한 크샤트라는 무위가 높기로 자자합니다."
+ 

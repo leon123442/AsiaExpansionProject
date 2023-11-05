@@ -1,9 +1,10 @@
 ﻿# Make sure the weights here match up best as possible with the hairstyles set
 custom_hair = {
 	usage = customization
-	interface_position = 2
+	interface_position = 0
 	priority = 5
-	
+	user_data = "colorpicker_hair"
+
 	no_hair = {
 		dna_modifiers = {
 			accessory = {
@@ -29,6 +30,15 @@ custom_hair = {
                 this = character:easteregg_alessandro_bragalini
             }
 		}
+	}
+	### EP2 Hair ###
+
+	add_accessory_modifiers = {
+		gene = hairstyles
+		is_valid_custom = {
+			has_ep2_dlc_trigger = yes
+		}
+		template = ep2_hairstyles_western
 	}
 	### FP2 Hair ###
 
@@ -261,88 +271,6 @@ custom_hair = {
 			portrait_steppe_clothing_modifier = yes
 		}
 	}
-	
-	#### CHINESE ###
-	
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = chinese_hairstyles_straight
-		
-		weight = {
-			base = 0
-			portrait_chinese_clothing_modifier = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = chinese_hairstyles_wavy
-		
-		weight = {
-			base = 0
-			portrait_chinese_clothing_modifier = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = chinese_hairstyles_curly
-		
-		weight = {
-			base = 0
-			portrait_chinese_clothing_modifier = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = chinese_hairstyles_afro
-		
-		weight = {
-			base = 0
-			portrait_chinese_clothing_modifier = yes
-		}
-	}
-	
-	#### JAPANESE ###
-	
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = japanese_hairstyles_straight
-		
-		weight = {
-			base = 0
-			portrait_japanese_clothing_modifier = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = japanese_hairstyles_wavy
-		
-		weight = {
-			base = 0
-			portrait_japanese_clothing_modifier = yes
-		}
-	}
-
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = japanese_hairstyles_curly
-		
-		weight = {
-			base = 0
-			portrait_japanese_clothing_modifier = yes
-		}
-	}
-	add_accessory_modifiers = {
-		gene = hairstyles
-		template = japanese_hairstyles_afro
-		
-		weight = {
-			base = 0
-			portrait_japanese_clothing_modifier = yes
-		}
-	}
 
 	add_accessory_modifiers = {
 		gene = hairstyles
@@ -448,5 +376,101 @@ custom_hair = {
 	add_accessory_modifiers = {
 		gene = hairstyles
 		template = special_hairstyles
+	}
+	
+	#### JAPANESE ###
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = japanese_hairstyles_straight
+
+		weight = {
+			base = 0
+			portrait_japanese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = japanese_hairstyles_wavy
+
+		weight = {
+			base = 0
+			portrait_japanese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = japanese_hairstyles_curly
+
+		weight = {
+			base = 0
+			portrait_japanese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = japanese_hairstyles_afro
+
+		weight = {
+			base = 0
+			portrait_japanese_clothing_modifier = yes
+		}
+	}
+	
+	#### AINU ###
+
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = ainu_hairstyles
+
+		weight = {
+			base = 0
+			portrait_ainu_clothing_modifier = yes
+		}
+	}
+	
+	#### CHINESE ###
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = chinese_hairstyles_straight
+		
+		weight = {
+			base = 0
+			portrait_chinese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = chinese_hairstyles_wavy
+		
+		weight = {
+			base = 0
+			portrait_chinese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = chinese_hairstyles_curly
+		
+		weight = {
+			base = 0
+			portrait_chinese_clothing_modifier = yes
+		}
+	}
+	
+	add_accessory_modifiers = {
+		gene = hairstyles
+		template = chinese_hairstyles_afro
+		
+		weight = {
+			base = 0
+			portrait_chinese_clothing_modifier = yes
+		}
 	}
 }

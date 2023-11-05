@@ -1,0 +1,80 @@
+﻿l_french:
+ building_type_great_wall_of_china_01:0 "Grande Muraille" # 万里长城 - 损坏
+ building_type_great_wall_of_china_01_desc:0 "La Grande Muraille de Chine a d'abord acquis une renommée pendant le règne du premier empereur de Chine, Qin Shi Huang Di, qui a lancé un projet ambitieux visant à relier et à étendre les tronçons existants du mur afin de créer une barrière défensive redoutable contre les tribus nomades du nord."
+ building_great_wall_of_china_01:0 "Grande Muraille - Endommagé"
+ building_great_wall_of_china_01_desc:0 "$building_type_great_wall_of_china_01_desc$"
+ 
+ building_type_great_wall_of_china_02:0 "Grande Muraille" # 万里长城 - 修复
+ building_type_great_wall_of_china_02_desc:0 "Cette section de l'antique et redoutable Grande Muraille de Chine a été restaurée dans toute sa splendeur passée après avoir précédemment été laissée à l'abandon, presque en ruines. Le royaume peut désormais se reposer tranquille, sachant qu'il est mieux protégé contre la menace nomade constante venant du nord."
+ building_great_wall_of_china_02:0 "Grande Muraille - Restauré"
+ building_great_wall_of_china_02_desc:0 "$building_type_great_wall_of_china_02_desc$"
+ 
+ building_type_giant_wild_goose_pagoda_01:0 "Grande pagode de l'oie sauvage" # 大雁塔
+ building_type_giant_wild_goose_pagoda_01_desc:0 "La pagode de l'Oie sauvage géante a été initialement construite en 649 après J.-C. pendant le règne de l'empereur Gaozong de la dynastie Tang afin d'abriter les écritures bouddhistes rapportées en Chine par le moine et érudit Xuanzang. \n\nDepuis sa construction, elle est devenue un repère renommé le long de la Route de la Soie et représente la signification culturelle et religieuse durable du bouddhisme."
+ building_giant_wild_goose_pagoda_01:0 "$building_type_giant_wild_goose_pagoda_01$"
+ building_giant_wild_goose_pagoda_01_desc:0 "$building_type_giant_wild_goose_pagoda_01_desc$"
+ 
+ building_type_longmen_grottoes_01:0 "Grottes de Longmen" # 龙门石窟 - 第一阶段
+ building_type_longmen_grottoes_01_desc:0 "La construction des Grottes de Longmen a débuté pendant la dynastie Wei du Nord lorsque l'empereur Xiaowen a déplacé la capitale de Dàtóng à Luoyang et a initié la construction du temple Guyangdong (Shiku), le premier temple de grottes de ce genre. \n\nPlus tard, par piété filiale, l'empereur Xuanwu a fait creuser les "Trois Grottes Binyang", qui représentent plus de 30 % des grottes actuellement présentes à Longmen et ont nécessité 24 ans pour être achevées."
+ building_longmen_grottoes_01:0 "Grottes de Longmen - 1ère phase"
+ building_longmen_grottoes_01_desc:0 "$building_type_longmen_grottoes_01_desc$"
+ 
+ building_type_longmen_grottoes_02:0 "Grottes de Longmen" # 龙门石窟 - 第二阶段
+ building_type_longmen_grottoes_02_desc:0 "La deuxième phase de construction, qui s'est déroulée entre 524 et 626, a connu un développement plus lent des grottes en raison des conflits et des troubles régionaux. \n\nCette période, qui englobe le règne de la dynastie Sui (581-618) et le début de la dynastie Tang (618-907), a été marquée par des interruptions et des obstacles entravant la progression de la création des grottes."
+ building_longmen_grottoes_02:0 "Grottes de Longmen - 2ème phase"
+ building_longmen_grottoes_02_desc:0 "$building_type_longmen_grottoes_02_desc$"
+ 
+ building_type_longmen_grottoes_03:0 "Grottes de Longmen" # 龙门石窟 - 第三阶段
+ building_type_longmen_grottoes_03_desc:0 "La troisième phase de construction, qui s'est déroulée entre 626 et 755, a été supervisée par la dynastie Tang, qui a connu la période la plus florissante de création de grottes à Longmen, avec l'épanouissement du bouddhisme chinois, entraînant la prolifération de grottes et de sculptures. \n\nEnviron 60 % des grottes de Longmen ont été créées pendant cette période, avec l'achèvement de la grotte de Fengxiansi en 675, qui met en valeur l'extraordinaire talent artistique et la grandeur de la dynastie Tang sur le versant sud de la colline occidentale."
+ building_longmen_grottoes_03:0 "Grottes de Longmen - 3e Phase"
+ building_longmen_grottoes_03_desc:0 "$building_type_longmen_grottoes_03_desc$"
+ 
+ building_type_longmen_grottoes_04:0 "Grottes de Longmen" # 龙门石窟 - 第四阶段
+ building_type_longmen_grottoes_04_desc:0 "La quatrième et dernière phase de construction des Grottes de Longmen a eu lieu durant la fin de la dynastie Tang et s'est étendue jusqu'au règne de la dynastie Song du Nord, mais elle a connu un déclin dans la création de grottes en raison des guerres intestines entre les dynasties Jin et Yuan."
+ building_longmen_grottoes_04:0 "Grottes de Longmen - Phase finale"
+ building_longmen_grottoes_04_desc:0 "$building_type_longmen_grottoes_04_desc$"
+ 
+ building_type_imperial_palace_kyoto_01:0 "Kyōto-gosho" # 京都御所
+ building_type_imperial_palace_kyoto_01_desc:0 "Le Kyōto-gosho sert de résidence à la famille impériale et regorge de caractéristiques de l'architecture traditionnelle japonaise, de jardins sereins et de structures minutieusement conçues qui reflètent l'élégance et la grandeur de la cour impériale. \n\nNiché au cœur de Kyoto, le palais offre aux passants un aperçu de la splendeur de la cour impériale et témoigne de l'esthétique raffinée de l'époque Heian."
+ building_imperial_palace_kyoto_01:0 "$building_type_imperial_palace_kyoto_01$"
+ building_imperial_palace_kyoto_01_desc:0 "$building_type_imperial_palace_kyoto_01_desc$"
+ 
+ building_type_dojo_01:0 "Keikojō" # 稽古場
+ building_type_dojo_01_desc:0 "Les keikojō étaient les terrains d'entraînement des anciens guerriers du Japon pendant une grande partie de l'histoire du Japon. Ces espaces étaient essentiels pour permettre au guerrier d'affiner ses prouesses martiales, d'apprendre diverses stratégies et de perfectionner sa discipline mentale. \n\nKeikojō a également joué un rôle important dans la facilitation du développement des arts martiaux traditionnels japonais, tels que le Jūdō, le Kendō, l'Aikidō, etc."
+ building_dojo_01:0 "$building_type_dojo_01$"
+ building_dojo_01_desc:0 "$building_type_dojo_01_desc$"
+ 
+ building_type_dojo_02:0 "Jūdō Tatami" #柔道畳
+ building_type_dojo_02_desc:0 "Chaque bon Keikojō nécessite un sol en tatami tout aussi bon, mais aucun tatami ordinaire ne fera l'affaire, compte tenu des contraintes auxquelles il sera soumis. Au lieu de cela, nous devons acquérir un tatami Jūdō spécial fabriqué à partir d'un type spécifique de carex connu au Japon sous le nom de Shichitō à utiliser dans notre Keikojō."
+ building_dojo_02:0 "$building_type_dojo_02$"
+ building_dojo_02_desc:0 "$building_type_dojo_02_desc$"
+ 
+ building_type_dojo_03:0 "Armes d'entraînement" # 練習武器
+ building_type_dojo_03_desc:0 "Que serait un Keikojō sans des armes d'entraînement de qualité que nos élèves peuvent utiliser pour leur permettre de s'entraîner sans risquer de se blesser ?"
+ building_dojo_03:0 "$building_type_dojo_03$"
+ building_dojo_03_desc:0 "$building_type_dojo_03_desc$"
+ 
+ building_type_dojo_04:0 "Sôji" # 掃除
+ building_type_dojo_04_desc:0 "La pratique du Sōji, qui implique le nettoyage rituel du Keikojō, joue un rôle essentiel non seulement pour maintenir notre Keikojō dans un état impeccable, mais sert également à perfectionner la discipline mentale de nos élèves et sert également de rappel de leur responsabilités collectives dans l'entretien de l'école dans son ensemble.
+ building_dojo_04:0 "$building_type_dojo_04$"
+ building_dojo_04_desc:0 "$building_type_dojo_04_desc$"
+ 
+ building_type_dojo_05:0 "Kamidana" # 神棚
+ building_type_dojo_05_desc:0 "Placer un sanctuaire Kamidana dans le Keikojō pour honorer et rendre hommage aux esprits ainsi que rechercher leur protection enrichira davantage le Keikojō tout en servant de muse importante pour nos étudiants."
+ building_dojo_05:0 "$building_type_dojo_05$"
+ building_dojo_05_desc:0 "$building_type_dojo_05_desc$"
+ 
+ building_type_dojo_06:0 "Shodôjiku" #書道軸
+ building_type_dojo_06_desc:0 "Avoir notre Keikojō orné de Shodōjiku ou de rouleaux de calligraphie fournirait une inspiration supplémentaire à nos étudiants, motivant et inspirant leurs esprits martiaux avec des scènes historiques célèbres, des phrases philosophiques et des légendes d'arts martiaux."
+ building_dojo_06:0 "$building_type_dojo_06$"
+ building_dojo_06_desc:0 "$building_type_dojo_06_desc$"
+ 
+ building_type_dojo_07:0 "Keikogi" # 稽古着
+ building_type_dojo_07_desc:0 "L'acquisition d'uniformes spécialisés pour nos élèves portant le nom de notre école nous aidera à nous démarquer des autres et permettra également de mieux servir nos élèves d'un point de vue pratique."
+ building_dojo_07:0 "$building_type_dojo_07$"
+ building_dojo_07_desc:0 "$building_type_dojo_07_desc$"
+ 
+ building_type_dojo_08:0 "Salle agrandie"
+ building_type_dojo_08_desc:0 "Notre Keikojō est devenu l'un des plus grands du royaume. Cette croissance nécessite une nouvelle expansion du Keikojō pour accueillir le nombre croissant d'élèves qui affluent pour rejoindre notre école. L'expansion ne servira pas seulement à soutenir notre croissance, mais nous assurerons également que nous disposons de suffisamment d'espace de formation pour nos étudiants. »
+ building_dojo_08:0 "$building_type_dojo_08$"
+ building_dojo_08_desc:0 "$building_type_dojo_08_desc$"

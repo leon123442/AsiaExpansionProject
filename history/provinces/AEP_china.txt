@@ -1,0 +1,4909 @@
+###########################
+### Duji Circuit/k_zhou ###
+###########################
+
+##d_shaangu ####################################
+###c_guozhou_zhou
+10037 = {	#Hongnong_Guozhou
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Zhuyang
+10038 = {
+	holding = city_holding	
+}
+#Lushi
+10039 = {
+	holding = none
+}
+###c_shaanzhou
+#Shanxian
+10041 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Ruicheng
+10040 = {
+	holding = city_holding	
+}
+#Yaogu
+10042 = {
+	holding = none
+}
+
+##d_heluo ####################################
+###c_luoyang
+#Luoyang
+10050 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding	
+	#special_building = ziweigong
+	duchy_capital_building = tiance_01
+	906.1.1 = { 
+		religion = lixue
+	}
+}
+#Yanshi_Heyang
+10051 = {
+	holding = city_holding	
+}
+#Mengjin_Boyacang
+10053 = {
+	holding = city_holding	
+}
+#Mianchi
+10043 = {
+	holding = none
+}
+#Shishuiguan
+10055 = {
+	holding = castle_holding
+}
+#Longmen Grottoes
+10863 = {
+	holding = church_holding
+	special_building = longmen_grottoes_03
+}
+###c_yaohan
+#Gaomenguan_Changshui
+10044 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Shouan_Fuchang
+10045 = {
+	holding = none
+}
+###c_yichuan
+#Yique
+10049 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+	906.1.1 = { 
+		religion = lixue
+	}	
+}
+10048 = {	#Luhun
+	holding = none
+}
+###c_songshan
+#Songshan_Dengfeng
+10054 = {
+	culture = han
+	religion = zenzong
+	holding = church_holding	
+}
+#Yangdi_Yuxian
+10056 = {
+	holding = none
+}
+###c_ruzhou
+#Ruzhou
+10064 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Chiyang_Lushan
+10065 = {
+	holding = none
+}
+#Yexian
+10066 = {
+	holding = none
+}
+#Jiaxian
+10067 = {
+	holding = none
+}
+
+##d_zhenghua ####################################
+###c_zhengzhou
+#Zhengzhou_Guancheng
+10060 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding	
+	906.1.1 = { 
+		religion = lixue
+	}
+}
+#Xingyang
+10059 = {
+	holding = none
+}
+#Xinzheng
+10061 = {
+	holding = city_holding
+}
+#Yangwu
+10063 = {
+	holding = none
+}
+#Zhongmu
+10062 = {
+	holding = church_holding
+}
+###c_huazhou_liang
+#Huazhou_Baima
+10083 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Kuangcheng_Yanjin
+10084 = {
+	holding = none
+}
+
+##d_heyang  ####################################
+###c_mengzhou
+#Heyang
+10861 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yuanxian
+9761 = {
+	holding = none
+}
+#Wangwu
+10052 = {
+	holding = church_holding
+}
+###c_huaizhou_zhou
+#Henei_Huaizhou 
+10057 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Wuzhi 
+10058 = {
+	holding = none
+}
+
+##d_chenxu ####################################
+###c_xuuzhou
+#Xuchang
+10068 = { 
+	culture = han
+	religion = jingxue 
+	holding = castle_holding
+	867.1.1 = {
+	}
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yanling 
+10069 = {
+	holding = city_holding
+}
+#Xiangcheng_Wuyang 
+10070 = {	
+	holding = castle_holding
+	#special_building_slot = shoushan_mines_01
+}
+	
+###c_caizhou 
+#Yuzhou_Ruyang 
+10073 = {
+	culture = han
+	religion = manichean
+	holding = castle_holding
+	867.1.1 = {
+	}
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yancheng_Linying 
+10071 = {
+	holding = city_holding
+}
+#Shangcai 
+10072 = {
+	holding = church_holding
+}
+#Xincai 
+10074 = {
+	holding = none
+}
+###c_chenzhou
+#Chenzhou_Wanqiu
+10077 = {
+	culture = han
+	religion = manichean
+	holding = castle_holding
+	867.1.1 = {
+	}	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Xiangcheng 
+10078 = {
+ 
+	
+	holding = city_holding
+}
+#Taikang 
+10085 = {
+	holding = none
+}
+
+#################################
+### Shannandong Circuit/k_chu ###
+#################################
+
+##d_jingxiang ####################################
+###c_junzhou
+#Wudang 
+9994 = {
+	culture = han
+	religion = shangqing
+		holding = castle_holding	
+	}
+#Fengli 
+9993 = {
+	holding = none
+}
+#Wudangshan
+9995 = {
+	holding = church_holding
+}
+#Yunxiang 
+10001 = {
+	holding = none
+}
+###c_fangzhou_chu
+#Shangyong 
+9997 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+}
+#Fangling 
+9998 = {
+	holding = none
+}
+###c_dengzhou
+#Dengzhou 
+10004 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Neixiang 
+10003 = {
+	holding = none
+}
+#Nanyang 
+10005 = {
+	holding = church_holding
+}
+#Xinye 
+10006 = {
+	holding = city_holding
+}
+###c_tangzhou_chu
+#Tangzhou_Miyang 
+10007 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Fangcheng 
+10008 = {
+	holding = city_holding
+}
+#Tongbai 
+10009 = {
+	holding = church_holding
+}
+#Shangma 
+10010 = {
+	holding = none
+}
+###c_suizhou
+#Suizhou 
+10012 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Zaoyang 
+10011 = {
+	holding = none
+}
+###c_xiangfan 
+#Fancheng 
+10013 = {
+	culture = han
+	religion = shangqing
+		holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Xiangyang 
+10014 = {
+	holding = castle_holding
+}
+#Gucheng 
+10015 = {
+	holding = city_holding
+}
+#Lexiang 
+10016 = {
+	holding = church_holding
+}
+
+##d_jingnan ####################################
+###c_jingzhou_chu 
+#Jiangling_Jingzhou 
+10024 = {
+	culture = han
+	religion = zenzong
+		holding = castle_holding
+	1066.1.1 = { 
+			religion = jingshi
+	}
+}
+#Changmen_Jingmen 
+10021 = {
+	holding = none
+}
+#Dangyang 
+10022 = {
+	holding = church_holding
+}
+#Gongan 
+10023 = {
+	holding = city_holding
+}
+#Shishou 
+10025 = {
+	holding = none
+}
+#Zhijiang_Songzi 
+10035 = {
+	holding = none
+}
+#Yuanan 
+10028 = {
+	holding = none
+}
+###c_yingzhou_chu
+#Jingshan_Yingzhou 
+10018 = {
+	culture = han
+	religion = jingshi
+	holding = castle_holding
+}
+#Changshou_Zhongxiang 
+10017 = {
+	holding = none
+}
+###c_fuzhou_chu
+#Mianyang_Fuzhou 
+10020 = {
+	culture = han
+	religion = jingshi
+	holding = castle_holding
+}
+#Jingling_Tianmen 
+10019 = {
+	holding = none
+}
+#Jianli 
+10036 = {
+	holding = none
+}
+###c_xiazhou_chu
+#Yidu_chu
+10026 = {
+	culture = tujia
+	religion = bimoism
+	holding = tribal_holding
+}
+#Yiling_Xiazhou 
+10027 = {
+	holding = none
+}
+#Bashan 
+10029 = {
+	holding = none
+}
+###c_lizhou_chu
+#Liyang_Lizhou 
+10276 = {
+	culture = tujia
+	religion = bimoism
+		holding = tribal_holding
+	}
+#Shimen_Pushui 
+10277 = {
+	holding = none
+}
+#Dayong
+10278 = {
+	holding = none
+}
+###c_langzhou_chu
+#Longyang 
+10279 = {
+	culture = han
+	religion = shangqing
+		holding = castle_holding
+	}
+#Wuling 
+10280 = {
+	holding = none
+}
+#Taoyuan 
+10281 = {
+	holding = church_holding
+}
+
+##d_eyue ####################################
+###c_ezhou 
+#Jiangxia_Ezhou 
+10270 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	#special_building = huanghelou
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Yongxing_Ezhou 
+10268 = {
+	holding = castle_holding
+	#special_building_slot = daye_mines_01
+}
+#Wuchang_Fangang 
+10269 = {
+	holding = castle_holding
+}
+#Mianzhou_Hanyang 
+10142 = {
+	holding = none
+}
+#Puqi 
+10271 = {
+	holding = none
+}
+###c_anzhou 
+#Anzhou_Anlu 
+10140 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Yunmeng 
+10141 = {
+	holding = church_holding
+}
+###c_shenzhou 
+#Shenzhou_Yiyang 
+10138 = {
+	culture = han
+	religion = shangqing
+		holding = castle_holding
+	}
+#Lishanuan_Yingshan 
+10139 = {
+	holding = none
+}
+###c_huangzhou
+#Huangzhou_Huanggang 
+10144 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Huangpi 
+10143 = {
+	holding = none
+}
+#Yinshanguan_Macheng 
+10145 = {
+	holding = none
+}
+###c_qichun
+#Qichun_Qizhou 
+10173 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+}
+#Huangmei
+10172 = {
+	holding = none
+}
+#Lanxi 
+10174 = {
+	holding = none
+}
+###c_yuezhou_chu
+#Baling_Yuezhou
+10272 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	#special_building = yueyanglou_1
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Huarong 
+10273 = {
+	holding = none
+}
+#Miluoshui 
+10274 = {
+	holding = church_holding
+}
+#Xiangyin 
+10275 = {
+	holding = none
+}
+
+##d_hunan ####################################
+###c_changsha
+#Changsha_Tanzhou 
+10283 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yiyang_Tanzhou 
+10282 = {
+	holding = city_holding
+}
+#Liuyang 
+10284 = {
+	holding = none
+}
+#Xiangxiang 
+10285 = {
+	holding = none
+}
+#Liling 
+10286 = {
+	holding = city_holding
+}
+###c_hengshan
+#Hengyang_Hengzhou 
+10288 = {
+	culture = yao
+	religion = hmong
+	holding = castle_holding	
+}	
+#Hengshan_Xiangtan 
+10287 = {
+	holding = church_holding
+}
+#Chaling_Youxian 
+10289 = {
+	holding = none
+}
+#Leiyang 
+10290 = {
+	holding = none
+}
+###c_chenzhou_hunan
+#Chenzhou_Chenxian 
+10291 = {
+	culture = yao
+	religion = hmong
+		holding = tribal_holding
+		882.1.1 = { 
+			holding = castle_holding	
+		}
+}
+#Rucheng_Luyang 
+10292 = {
+	holding = none
+}
+#Guiyang_Pingyang 
+10293 = {
+	holding = none
+	882.1.1 = { 
+		holding = castle_holding	
+	}	
+}
+###c_lianzhou
+#Lianzhou_Guiyang 
+10294 = {
+	culture = yao
+	religion = hmong
+		holding = tribal_holding	
+		882.1.1 = { 
+			holding = castle_holding	
+		}
+}	
+#Lianshan 
+10295 = {
+	holding = none
+}
+###c_daozhou
+#Yingdao_Daozhou 
+10297 = {
+	culture = yao
+	religion = hmong
+	holding = tribal_holding
+}
+#Jianghua_Mengzhuqiao 
+10296 = {
+	holding = none
+}
+#Dalixian_Ningyuan 
+10298 = {
+	holding = none
+}
+###c_yongzhou_hunan
+#Yongzhou_Lingling 
+10299 = {
+	culture = yao
+	religion = hmong
+		holding = tribal_holding
+		882.1.1 = { 
+			holding = castle_holding
+			religion = lixue	
+		}
+	}	
+#Guanyang_Quanzhou 
+10300 = {
+	holding = none
+}
+###c_shaozhou_hunan
+#Shaozhou_Shaoyang 
+10302 = {
+	culture = kam_sui
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Wugang_Chengbu 
+10301 = {
+	holding = none
+}
+#Longhuiguan 
+10303 = {
+	holding = none
+}
+
+############################
+### Hedong Circuit/k_jin ###
+############################
+
+##d_yunzhong ####################################
+###c_yunzhou
+#Datong
+9684 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+    #special_building = yungangshiku
+}
+#Baideng
+9685 = {
+	
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Huairen
+9686 = {
+	
+	holding = none
+}
+#Qingsaijun
+9695 = {
+	
+	holding = none
+}
+###c_shuozhou
+#Shuozhou
+9689 = {
+	culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}
+}
+#Loufanguan
+9690 = {
+	
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Shenwu
+9714 = {
+	
+	holding = none
+}
+###c_jingbianjun
+#Jingbianjun
+9679 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Wuzhou_jin
+9683 = {
+	
+	holding = none
+}
+###c_yingzhou_jin
+#Yingzhou
+9687 = {
+	culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Hengshan
+9688 = {
+	
+	holding = church_holding
+}
+
+##d_yanmen ####################################
+###c_daizhou
+#Yanmen
+9691 = {
+	culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	special_building = great_wall_of_china_02
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Fanshi
+9692 = {
+	
+	holding = none
+}
+#Guoxian
+9693 = {
+	
+	holding = none
+}
+#Wutaishan
+9694 = {
+	
+	holding = church_holding
+}
+
+###c_yuzhou_dai
+#Lingqiu
+9698 = {
+	culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Anbian
+9696 = {
+	
+	holding = city_holding
+}
+#Feihudao
+9697 = {
+	
+	holding = none
+	special_building = great_wall_of_china_01
+}
+
+###c_xinzhou_dai
+#Xiurong
+9700 = {
+	culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Dingxiang
+9699 = {
+	
+	holding = none
+}
+
+##d_hedong ####################################
+###c_taiyuan
+#Taiyuan
+9702 = {
+	culture = han
+	religion = mahayana
+	holding = castle_holding	
+	#special_building_slot = taiyuan_mines_01
+}
+#Yuci
+9716 = {
+	
+	holding = none
+}
+#Yangqu
+9701 = {
+	
+	holding = city_holding
+}
+#Jiaocheng
+9703 = {
+	
+	holding = city_holding
+}
+#Taigu
+9704 = {
+	
+	holding = none
+}
+#Hutushan
+9718 = {
+	
+	holding = none
+}
+#TianlongshanCave
+10865 = {
+	holding = church_holding
+}
+###c_chengtianjun
+#Shouyang
+9705 = {
+	culture = han
+	religion = mahayana
+	holding = castle_holding	
+}
+#Shiai
+9706 = {
+	
+	holding = none
+}
+###c_yizhou_hedong
+#Liaoshan
+9707 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Yushe
+9708 = {
+	
+	holding = none
+}
+###c_lanzhou_hedong
+#Yifang
+9710 = {
+	culture = han
+	religion = mahayana
+	holding = castle_holding	
+}
+#Jingle
+9709 = {
+	
+	holding = city_holding
+}
+#Hehe
+9711 = {
+	
+	holding = none
+}
+#Langu
+9715 = {
+	
+	holding = none
+}
+
+###c_hequ
+#Baodejun
+9712 = {
+	culture = han
+	religion = mahayana
+	holding = castle_holding	
+}
+#Hequ
+9713 = {
+	
+	holding = none
+}
+###c_shizhou
+#Lishi
+9719 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Mengmenguan
+9717 = {
+	
+	holding = none
+}
+#Pingyi = {
+9720 = {
+	
+	holding = none
+}
+
+###c_qinzhou_hedong
+#Qinyuan
+9746 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Mianshang
+9747 = {
+	
+	holding = none
+}
+###c_fenzhou
+#Xicheng
+9751 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Lingshi
+9748 = {
+	
+	holding = none
+}
+#Jiexiu
+9749 = {
+	
+	holding = none
+}
+#Pingyao
+9750 = {
+	
+	holding = city_holding
+}
+
+##d_hezhong ####################################
+###c_xizhou_hezhong
+#Xichuan
+9724 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Shangpingjin
+9721 = {
+	
+	holding = none
+}
+#Yonghe
+9722 = {
+	
+	holding = none
+}
+#Daning
+9723 = {
+	holding = none
+}
+#Puxian = {
+9725 = {
+	
+	holding = city_holding
+}
+###c_cizhou_hezhong
+#Jichang
+9726 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Wencheng
+9727 = {
+	
+	holding = none
+}
+###c_puzhou
+#Puzhou
+9730 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Baoding
+9729 = {
+	
+	holding = none
+}
+#Fenglingguan
+9731 = {
+	
+	holding = none
+}
+#Yishi
+9732 = {
+	
+	holding = none
+}
+#Xiexian
+9733 = {
+	
+	holding = city_holding
+}
+#Anyi
+9734 = {
+	
+	holding = church_holding
+}
+###c_jiangzhou
+#Zhengping
+9739 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Quwo
+9741 = {
+	
+	holding = church_holding
+}
+#Jiangxian
+9740 = {
+	
+	holding = city_holding
+}
+	
+#Xiaxian
+9735 = {
+	
+	holding = none
+}
+#Wenxi
+9736 = {
+	
+	holding = none
+}
+#Jishan
+9737 = {
+	
+	holding = none
+}
+#Longmen
+9728 = {
+	
+	holding = none
+}
+###c_jinzhou_hezhong
+#Linfen
+9742 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Fuchengguan
+9743 = {
+	
+	holding = none
+}
+#Hongtong
+9744 = {
+	
+	holding = church_holding
+}
+#Huoyi
+9745 = {
+	
+	holding = none
+}
+
+##d_zelu ####################################
+###c_luzhou_jin
+#Shangdang
+9756 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Yaoguling
+9752 = {
+	
+	holding = none
+}
+#Xiangyuan
+9753 = {
+	
+	holding = none
+	
+}
+#Shexian
+9754 = {
+	
+	holding = castle_holding
+	#special_building = wohuanggong
+}
+#Tunliu
+9755 = {
+	holding = none
+}
+###c_zezhou
+#Zezhou
+9758 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+    #special_building = yandiling	
+}
+#Changpingguan
+9757 = {
+	
+	holding = castle_holding
+}
+#Duanshi
+9759 = {
+	
+	holding = none
+}
+#Yangcheng
+9760 = {
+	
+	holding = city_holding
+}
+
+##########################
+### Henan Circuit/k_qi ###
+##########################
+
+##d_biansong ####################################
+###c_bianzhou 
+#Kaifeng_Bianzhou
+10079 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+	#special_building = daxiangguosi
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Chenliu
+10080 = {
+	
+	holding = city_holding
+}
+#Yongqiu
+10081 = {
+	
+	holding = none
+}
+#Weishi
+10082 = {
+	
+	holding = none
+}
+###c_songzhou_song
+#Songcheng
+10092 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Chuqiu
+10091 = {
+	
+	holding = city_holding
+}
+#Dangshan
+10093 = {
+	
+	holding = church_holding
+}
+#Xiangyi_Zhecheng
+10094 = {
+	holding = none
+}
+###c_bozhou_song
+#Bozhou_Qiaoxian
+10096 = {
+	culture = han
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yongcheng_Mapu
+10097 = {
+	holding = none
+}
+#Mengcheng_Shansang
+10098 = {
+	holding = none
+}
+#Taiqinggong
+10095 = {
+	holding = church_holding
+}
+###c_yingzhou_song
+#Yingzhou_Ruyin
+10075 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Xiacai
+10076 = {
+	holding = city_holding
+}
+#Yingshang
+10086 = {
+	holding = none
+}
+
+##d_pucao ####################################
+###c_puzhou_liang 
+#Puzhou_Juancheng
+10088 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Puyang
+10087 = {
+	
+	holding = city_holding
+}
+###c_yunzhou_liang
+#Yunzhou_Xuchang
+10099 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Yuncheng
+10868 = {
+	
+	holding = city_holding
+}
+#Liangshanpo_Yuncheng
+10100 = {
+	
+	holding = none
+}
+###c_jizhou_liang
+#DongE
+10101 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Changqing
+10102 = {
+	
+	holding = none
+}
+###c_caozhou
+#Caozhou_Jiyin
+10090 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding	
+}
+#Shengshi_Lihu
+10089 = {
+	
+	holding = none
+}
+
+##d_xusi  ####################################
+###c_xuzhou_xu
+#Xuzhou_Pengcheng
+10129 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+}
+#Tengxian
+10127 = {
+	holding = none
+}
+#Feixian_Fengxian
+10128 = {
+	
+	holding = city_holding
+}
+###c_suzhou_xu
+#Fuli_Suzhou
+10130 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+	
+###c_sizhou_xu 
+#Sizhou_Linhuai
+10136 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Xiapi
+10134 = {
+	
+	holding = city_holding
+}
+#Hongxian_Xiaqiu
+10135 = {
+	holding = none
+}
+#Lianshui
+10137 = {
+	holding = none
+}
+
+##d_ziqing ####################################
+###c_zibo
+#Zizhou_Zichuan
+10106 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+}
+#Zouping
+10105 = {
+	holding = none
+}
+#Linzi
+10107 = {
+	holding = city_holding
+}
+###c_qingzhou_qi
+#Qingzhou_Yidu
+10108 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding 
+}
+#Beihai
+10109 = {
+ 
+	holding = church_holding
+}
+#Linqu_Qingzhou
+10110 = {
+ 
+	holding = city_holding
+}
+###c_qizhou_qi
+#Qizhou_Licheng
+10104 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+}
+#Linji
+10103 = {
+	holding = none
+}
+
+##d_denglai ####################################
+###c_laizhou
+#Laizhou_Donglai
+10115 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding 
+	#special_building_slot = jiaodong_mines_01
+}
+#Jimo_Laoshan
+10114 = {
+	holding = city_holding
+}
+###c_penglai
+#Dengzhou_Penglai
+10116 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding
+}
+#Wendeng
+10117 = {
+	holding = church_holding
+}
+###c_mizhou_qi
+#Mizhou_Zhucheng
+10112 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding 
+}
+#Gaomi_Yiancheng
+10111 = {
+ 
+	holding = none
+}
+#Juxian_Langya
+10113 = {
+ 
+	holding = city_holding
+}
+
+##d_taining ####################################
+###c_yanzhou 
+#Yanzhou_Xiaqiu
+10124 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+}
+#Jinxiang_Fangyu
+10126 = {
+	
+	holding = none
+}
+###c_kongmeng
+#Qufu
+10123 = {
+	holding = church_holding
+	culture = han
+	religion = jingxue
+	#special_building = kongmiao_01	
+	1066.1.1 = { 
+		culture = han
+		religion = lixue
+	}
+}
+#Zouxian
+10125 = {
+	holding = none
+	1066.1.1 = { 
+	holding = church_holding
+	culture = han
+	religion = lixue
+	}
+}
+###c_taishan
+#Taishan_Qianfeng
+10122 = {
+	culture = han
+	religion = jingxue
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Laiwu
+10121 = {
+	holding = none
+}
+###c_yizhou_taining
+#Yizhou_Linyi
+10120 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding 
+}
+#Mulingguan_Yishui
+10118 = {
+	holding = none
+}
+#Bixian
+10119 = {
+	holding = none
+}
+###c_haizhou_xu
+#Haizhou_Qushan
+10131 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding 
+}
+#Yuzhou_Donghai
+10132 = {
+	holding = none
+}
+#Shuyang
+10133 = {
+	holding = none
+}
+
+################################
+### Longyou Circuit/k_longxi ###
+################################
+
+##d_shanzhou ####################################
+###c_lanzhou_longxi
+#Lanzhou
+9829 = { 
+    culture = bodpa
+	religion = lamaism
+	holding = castle_holding
+}
+#Longgoubao
+9830 = {
+}
+#Didao
+9831 = { 
+}
+###c_hezhou
+#Hezhou_longyou
+9833 = {
+    culture = bodpa
+	religion = lamaism
+	holding = castle_holding
+}
+#kenuo
+9832 = { 
+}
+#Binglingsi
+9834 = {
+}
+
+##d_longxi ####################################
+###c_tianshui
+#Shanggui
+9817 = {
+	culture = bodpa
+	religion = lamaism
+	holding = castle_holding	
+}
+#Qinlingxian
+9816 = {
+	
+	holding = none
+}
+#Qingshui
+9818 = {
+	
+	holding = castle_holding
+}
+#Longcheng_longyou
+9819 = {
+	
+	holding = city_holding
+}
+#Jieting
+9820 = {
+	
+	holding = none
+}
+#Chengji
+9821 = {
+	
+	holding = church_holding
+}
+#Fuqiang
+9822 = {
+	
+	holding = none
+}
+###c_weizhou_longxi
+#Weizhouxiangwu
+9823 = {
+    culture = bodpa
+	religion = lamaism
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Weiyuan
+9824 = {
+	
+	holding = none
+}
+#Zhangxian_Weizhou
+9825 = {
+	
+	holding = city_holding
+}
+###c_minzhou
+#Minzhouyile
+9826 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = castle_holding
+}
+#Youchuan
+9827 = {
+	
+	holding = none
+}
+#Kongtongshan
+9828 = {
+	holding = church_holding
+}
+
+##d_longnan ####################################
+###c_qiuchi
+#Chengzhoushanglu
+9940 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#Changdao
+9941 = {
+	
+	holding = tribal_holding
+}
+#Tonggu
+9942 = {
+	holding = none
+}
+###c_wudu
+#Wudu
+9943 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#Panti
+9944 = {
+	
+	holding = none
+}
+
+################################
+### Lingnan Circuit/k_nanyue ###
+################################
+
+##d_chaoshan ####################################
+###c_chaozhou
+#Chaozhou_Haiyang
+10354 = {
+    culture = min
+	religion = shangqing
+	holding = castle_holding
+}
+#Chaoyang_Swatow
+10355 = {
+	holding = none
+}
+###c_haka
+#Meizhou_Chengxiang
+10356 = {
+    culture = sheren
+	religion = hmong
+	holding = tribal_holding
+}
+#Jiaoling
+10357 = {
+	holding = none
+}
+###c_xunzhou
+#Longchuan_Xunzhou
+10360 = {
+    culture = yue
+	religion = zenzong
+	holding = castle_holding
+}
+	
+#Huizhou_Guishan
+10358 = {
+	holding = none
+}
+#Xingning
+10359 = {
+	holding = none
+}
+#Haifeng
+10361 = {
+	holding = none
+}
+#Heyuan
+10362 = {
+	holding = none
+}
+
+##d_lingnan ####################################
+###c_shaoguan_guang 
+#Shaozhou_Qujiang
+10365 = {
+    culture = yao
+	religion = hmong
+	holding = castle_holding
+	#special_building_slot = shaozhou_mines_01
+}
+#Nanxiongzhou_Baochang
+10364 = {
+	holding = none
+}
+#Wengyuan_Lingchishan
+10366 = {
+	holding = none
+}
+###c_nanhai
+#Guangzhou_Nanhai
+10370 = {
+    culture = yue
+	religion = zenzong
+	holding = castle_holding
+}
+#Yingde_Zhenyang
+10367 = {
+	holding = none
+}
+#Zengcheng
+10368 = {
+	holding = none
+}
+#Qingyuan
+10369 = {
+	holding = none
+}
+#Dongguan
+10371 = {
+	holding = city_holding
+}
+#Yashan_Xiangshan
+10373 = {
+	holding = none
+}
+#Huaiji_Sihui
+10375 = {
+	culture = biao
+	religion = ban_phi
+	holding = tribal_holding
+}
+###c_duanzhou
+#Duanzhou_Gaoyao
+10374 = {
+    culture = yue
+	religion = zenzong
+	holding = castle_holding
+}
+#Fengzhou_Fengchuan
+10377 = {
+	holding = none
+}
+#Kangzhou_Duanxi
+10379 = {
+	holding = none
+}
+###c_xinhui
+#Xinxing_Fulin
+10380 = {
+    culture = yue
+	religion = zenzong
+	holding = castle_holding
+}
+#Xinhui_Jiangmen
+10372 = {
+	holding = none
+}
+#Nanenzhou_Yangjiang
+10381 = {
+	holding = none
+}
+
+##d_qiongya ####################################
+###c_qiongya
+#Yazhou_Shecheng
+10385 = {
+    culture = liliao
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Danzhou_Yilun
+10386 = {
+	holding = none
+}
+#Zhenzhou_Zhuyajun
+10387 = {
+	holding = none
+}
+#Wananzhou_Lingshui
+10388 = {
+	holding = none
+}
+###c_gaozhou
+#Gaozhou_Dianbai
+10382 = {
+    culture = beish
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Huazhou_Shilong
+10383 = {
+ 
+	holding = none
+}
+#Leizhou_Haikang
+10384 = {
+ 
+	holding = none
+}
+
+##d_rongguan ####################################
+###c_rongzhou_gui
+#Rongzhou_Beiliu
+10391 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Tengzhou_Tanjin
+10394 = {
+ 
+	holding = none
+}
+#Xunzhou_Guiping
+10395 = {
+ 
+	holding = none
+}
+###c_yulinzhou
+#Yulinzhou
+10392 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Bobai
+10393 = {
+ 
+	holding = none
+}
+###c_lianzhou_gui
+#Lianzhou_Hepu
+10389 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+
+##d_guiguan ####################################
+###c_changwu
+#Hezhou_Linhe
+10376 = {
+	holding = none
+}
+#Wuzhou_Cangwu
+10378 = {
+	holding = none
+}
+###c_guilin
+#Guilin
+10397 = {
+    culture = yao
+	religion = hmong
+	holding = castle_holding
+	#special_building = lingqu_1
+}
+#Yangshuo_Lipu
+10396 = {
+	holding = none
+}
+#Zhaozhou_Pingle
+10398 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Yongfu_Dingli
+10405 = {
+	holding = none
+}
+###c_liuzhou 
+#Liuzhou
+10399 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Xiangzhou_Laibin
+10400 = {
+ 
+	holding = none
+}
+#Huanzhou_Zhengping
+10403 = {
+ 
+	holding = none
+}
+#Longshui_Wenquan
+10404 = {
+ 
+	holding = tribal_holding
+}
+###c_shukunzhou
+#Anhua_Yizhoulongshui
+10407 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Hechi_Shukunzhou
+10408 = {
+	holding = tribal_holding
+}
+###c_rongshui
+#Rongzhou_Rongshui
+10402 = {
+    culture = kam_sui
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Longsheng_Sanjiang
+10406 = {
+	holding = none
+}
+
+##d_yongguan ####################################
+#Nanbin_Lingshan
+10862 = {
+	holding = none
+}
+###c_luzhou_annan
+###c_binzhou_gui
+#Binzhou_Lingfang
+10401 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Hengzhou_Ningpu
+10409 = {
+	holding = none
+}
+
+##d_yongguan ####################################
+###c_baise 
+#Tianzhou_Baise
+10417 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Bama
+10416 = {
+  
+	holding = none
+}
+#Sicheng_Guilezho
+10418 = {
+  
+	holding = none
+}
+#Houzhou_Lunzho
+10419 = {
+  
+	holding = none
+}
+###c_nanning
+#Yongzhou_Nanning
+10410 = {
+    culture = pu
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Sitong_Zuozhou
+10415 = {
+	holding = none
+}
+#Wuming_Wandezhou
+10414 = {
+	holding = none
+}
+###c_qinzhou_gui	
+#Qinzhou_Qinjiang
+10390 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+#Shangsizhou_rangzhou
+10411 = {
+	holding = none
+}
+#Luzhou_Wulei
+10427 = { 
+	holding = none
+}
+###c_luolong 
+#Luolong_Wuqin
+10412 = {
+    culture = pu
+	religion = ban_phi 
+	holding = tribal_holding
+}
+###c_jinlongzhou
+#jinlongzhou
+10421 = { 
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Napo
+10420 = { 
+	
+	holding = none
+}
+#Simingzhou_Shixizhou
+10413 = {
+  
+	holding = none
+}
+
+#####################################
+### Qianzhong Circuit/k_qianzhong ###
+#####################################
+
+##d_qianzhong ####################################
+###c_qianzhong
+#Shicheng_Qianzhou 
+10309 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+}
+#Pengshui_Qianzhou 
+10310 = {
+	holding = none
+}
+###c_Enshi
+#Enshi_Qingjiang 
+10305 = {
+    culture = tujia
+	religion = bimoism
+	holding = tribal_holding
+}
+#Hefeng 
+10306 = {
+	
+	holding = none
+}
+#Laifeng_Xianfeng 
+10307 = {
+	
+	holding = none
+}
+#Lichuan 
+10308 = {
+	
+	holding = none
+}
+###c_sizhou_qian
+#Sizhou_Wuchuan 
+10312 = {
+    culture = yi
+	religion = hmong
+	holding = tribal_holding
+}
+#Youyang_Sizhou 
+10311 = {
+	
+	holding = none
+}
+#Feizhou_Sinan 
+10313 = {
+	
+	holding = none
+}
+
+##d_bozhou_qian ####################################
+###c_ligao 
+#Zhenzhou_Ligao 
+10315 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#Yelang_Leyuan 
+10314 = {
+	
+	holding = none
+}
+###c_rongyi
+#Rongyi_Fuhuan_Qinzhou 
+10316 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#Nanchuan_Sanxi 
+10317 = {
+	
+	holding = none
+}
+###c_bozhou_zunyi
+#Bozhou_Zunyi 
+10320 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+}
+#Tongzi_xiaoBozhou 
+10319 = {
+	holding = none
+}
+###c_pingyi
+#Yizhou_Suiyang 
+10322 = {
+    culture = yi
+	religion = hmong
+	holding = tribal_holding
+}
+#Yiquan_Meitan 
+10321 = {
+	
+	holding = none
+}
+#Yangchuan_Ningyi 
+10323 = {
+	
+	holding = none
+}
+
+##d_wuxi ####################################
+###c_xizhou_qian
+#Xizhou_Daxiang 
+10325 = {
+    culture = tujia
+	religion = bimoism
+	holding = tribal_holding
+}
+#Longshan_Xizhou 
+10324 = {
+	
+	holding = none
+}
+###c_chenxi
+#Yuanling_Chenzhou 
+10326 = {
+    culture = yi
+	religion = hmong
+	holding = tribal_holding
+}
+#Chenxi 
+10327 = {
+	
+	holding = none
+}
+#Luxi 
+10328 = {
+	
+	holding = none
+}
+###c_langxi
+#Longbiao_Wuzhou 
+10329 = {
+    culture = kam_sui
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Langxi 
+10330 = {
+	
+	holding = none
+}
+#Tongdao_Wuzhou 
+10331 = {
+	
+	holding = none
+}
+#Liangzhou_Huangzhou 
+10342 = {
+	
+	holding = none
+}
+###c_luyang
+#Jinzhou_Luyang 
+10333 = {
+    culture = tujia
+	religion = bimoism
+	holding = tribal_holding
+}
+#Songtao_Huayuan 
+10332 = {
+	
+	
+	holding = none
+}
+#Wanan_Tongren 
+10334 = {
+	
+	holding = none
+}
+###c_yelang
+#Yelang_Yezhou 
+10335 = {
+    culture = yi
+	religion = hmong
+	holding = tribal_holding
+}
+#Chongzhou_Shiqian 
+10336 = {
+	
+	holding = none
+}
+#Zijiang_Longdong 
+10337 = {
+	
+	holding = none
+}
+
+##d_zangke ####################################
+###c_juzhou 
+#Juzhou_Guizhou 
+10339 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+}
+###c_dushang
+#Yingzhou_Dushang 
+10338 = {
+    culture = yi
+	religion = hmong 
+	holding = tribal_holding
+}
+#Jiangzhou_Kaili 
+10340 = {
+ 
+	
+	holding = none
+}
+#Gongzhou_Manzhou 
+10341 = {
+ 
+	
+	holding = none
+}
+###c_fushuizhou
+#Fushuizhou_Duopeng 
+10351 = {
+    culture = kam_sui
+	religion = ban_phi
+	holding = tribal_holding
+	
+}
+#Polan_Libo_Laozhou 
+10353 = {
+ 
+	
+	holding = none
+}
+
+##d_luodian ####################################
+###c_luodian
+#Guanling_Luodian 
+10348 = {
+    culture = yi
+	religion = hmong 
+	holding = tribal_holding
+}
+#Puningzhou_Lingzhou 
+10345 = {
+ 
+	holding = none
+}
+###c_qianxi
+#Xizhou_Yachihe 
+10343 = {
+    culture = yi
+	religion = hmong
+	holding = tribal_holding
+}
+#Baozhou_Huizhoue 
+10344 = {
+	
+	holding = none
+}
+###c_panjiang
+#Yanchuan_AnlongCeheng
+10346 = {
+    culture = pu
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Qingzhou_Zhuangzhou_Wangmo
+10349 = {
+	holding = none
+}
+#Xunzhou_Nanpingzhou
+10352 = {
+	holding = none
+}
+#TianE_Luanzhou
+10350 = {
+    culture = pu
+	religion = ban_phi
+	holding = tribal_holding
+}
+#Xilin_Tuoniangjiang
+10347 = {
+	holding = none
+}
+
+############################
+### Jingji Circuit/k_qin ###
+############################
+
+##d_xijing ####################################
+###c_changan
+#ChangAn
+9859 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+    #special_building = daminggong_01
+	special_building = giant_wild_goose_pagoda_01
+	duchy_capital_building = shence_01
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Wannian
+9860 = {
+	
+	holding = castle_holding
+	#special_building = huaqinggong
+}
+#Weinan
+9864 = {
+	
+	holding = city_holding
+}
+#Lantian
+9861 = {
+	
+	holding = none
+}
+#Zhongnanshan
+9862 = {
+	
+	holding = church_holding
+}
+#Chuxian
+9856 = {
+	
+	holding = none
+}
+#Ziwuguan
+9863 = {
+	
+	holding = none
+}
+###c_xianyang
+#Xianyang
+9857 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Liquan
+9855 = {
+	
+	holding = none
+}
+#Fuping
+9865 = {
+	
+	holding = none
+}
+#Jingyang
+9858 = {
+	
+	holding = city_holding
+}
+###c_wugong 
+#Wugong
+9853 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Zhouzhi
+9854 = {
+	holding = city_holding
+}
+
+##d_pingyi ####################################
+###c_huazhou_pingyi
+#Huazhou
+9868 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Xiagui
+9869 = {
+	
+	holding = city_holding
+}
+#Huayin
+9870 = {
+	
+	holding = none
+}
+###c_tongguan
+#Tongguan
+9871 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Pujinguan
+9883 = {
+	
+	holding = castle_holding
+}
+#Huashan
+9668 = {
+	
+	holding = church_holding
+}
+###c_tongzhou_pingyi
+#TongzhouPingyi
+9872 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#TongzhouHeyang
+9873 = {
+	
+	holding = city_holding
+}
+#Baishui
+9874 = {
+	
+	holding = none
+}
+#Hancheng
+9875 = {
+	
+	holding = none
+}
+
+##d_binning ####################################
+###c_binzhou_qin
+#Binzhouxinping
+9842 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yongshou
+9841 = {
+	
+	holding = none
+}
+###c_qingzhou
+#QingzhouAnhua
+9837 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Fangqu
+9835 = {
+	
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Baimachuan
+9836 = {
+	
+	holding = none
+	special_building = great_wall_of_china_01
+}
+#Huachi
+9838 = {
+	
+	holding = city_holding
+}
+###c_ningzhou_qin
+#Ningzhoudingan
+9840 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Pengyuan
+9839 = {
+	
+	holding = none
+}
+
+##d_fufang ####################################
+###c_yanzhou_xia
+#Yanzhou_Fushi
+9780 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Yanchuan
+9778 = {
+	
+	holding = none
+}
+#YanAn
+9779 = {
+	
+	holding = none
+}
+#Linzhen
+9781 = {
+	
+	holding = none
+}
+#Jincheng_Yanzhou
+9782 = {
+	
+	holding = city_holding
+}
+#Jinming
+9783 = {
+	
+	holding = none
+}
+	
+###c_fuzhou_qin
+#FuzhouLuojiao
+9878 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+	#special_building = huangdiling
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Fulu
+9879 = {
+	
+	holding = city_holding
+}
+#Zhiluo
+9882 = {
+	
+	holding = none
+}
+###c_fangzhou
+#Fangzhouzhongbu
+9877 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Fucheng_qin
+9884 = {
+	
+	holding = city_holding
+}
+#Fenghuanggu
+9876 = {
+	
+	holding = none
+}
+###c_danzhou
+#Danzhouyichuan
+9880 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Wurenguan
+9881 = {
+	
+	holding = none
+}
+
+##d_jinshang  ####################################
+###c_jinzhou_hanzhong
+#Jinzhou_Xicheng
+9970 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Ankang
+9968 = {
+	
+	holding = none
+}
+#Hanyin
+9969 = {
+	
+	holding = none
+}
+#Xunyang
+9996 = {
+	
+	holding = none
+}
+#Nvwashan 
+10002 = {
+	
+	holding = church_holding
+}
+###c_ziwudao
+#Fangshanguan
+9967 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Ziwugudao1
+9866 = {
+	
+	holding = none
+}
+#Ziwugu3
+9966 = {
+	
+	holding = none
+}
+###c_shangzhou_qin
+#Shangzhou_Shangluo
+9999 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Wuguan
+10000 = {
+	
+	holding = castle_holding
+}
+#Luonan
+10046 = {
+ 
+	
+	holding = none
+}
+
+#############################
+### Jiannan Circuit/k_shu ###
+#############################
+
+##d_hanzhong ####################################
+###c_nanzheng
+#HanzhongNanzheng
+9958 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Chenggu 
+9959 = {
+	
+	holding = city_holding
+}
+#Wuxiu
+9846 = {
+	
+	holding = none
+}
+#Baoxiedao
+9847 = {
+	
+	holding = none
+}
+###c_fengzhou_hanzhong
+#Fengzhouliangquan
+9844 = {
+	culture = han
+	religion = zhengyi 
+	holding = castle_holding	
+}
+#Liangdang
+9843 = {
+	
+	holding = none
+}
+#Dasanguan
+9845 = {
+	
+	holding = castle_holding
+}
+###c_yinping
+#Wenzhou_qushui
+9889 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#Fuzhou_tongchang
+9888 = {
+	
+	holding = none
+}
+	
+###c_xingzhou_hanzhong
+#XingzhouShunzheng
+9956 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Bailaoguan
+9957 = {
+	holding = castle_holding
+}
+###c_lizhou_hanzhong
+#Lizhou_Miangu
+9962 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Jinggu
+9963 = {
+	
+	holding = none
+}
+#Sanquan
+9964 = {
+	
+	holding = none
+}
+#Jiamengguan
+9892 = {
+	
+	holding = castle_holding
+}
+###c_yangzhou_hanzhong
+#Yangzhou_Xixiang
+9961 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Xingdao
+9960 = {
+	
+	holding = none
+}
+#Ziwugudao2
+9867 = {
+	
+	holding = none
+}
+
+##d_dongchuan ####################################
+###c_longzhou_shu
+#Longzhou_jiangyou
+9890 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Mapan_longzhou
+10859 = {
+	
+	holding = none
+}
+###c_jianzhou_shu
+#Jiange
+9891 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Zitong
+9893 = {
+	
+	holding = city_holding
+}
+###c_mianzhou
+#Mianzhou_Bax
+9894 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Songlingguan
+9895 = {
+	
+	holding = none
+}
+#Fucheng
+9897 = {
+	
+	holding = city_holding
+}
+###c_zizhou_dongchuan
+#Zizhouqixian
+9923 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Yanting
+9924 = {
+	holding = none
+}
+#Shehong
+9925 = {
+	
+	holding = none
+}
+###c_suizhou_dongchuan
+#Suizhoufangyi
+9926 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Suining
+9927 = {
+	
+	holding = none
+}
+###c_puzhou_dongchuan
+#PuzhouAnyue
+9928 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Anju
+9929 = {
+	holding = none
+}
+
+##d_luzhou  ####################################
+###c_luzhou_dongchuan
+#Luzhou
+9947 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#DazuChangyuan
+9946 = {
+	
+	holding = none
+}
+#Hejiang_Wanshou
+9948 = {
+	holding = none
+}
+###c_siezhou
+#Jingnan_Jiangan
+9953 = {
+	culture = wuman
+	religion = bimoism
+	holding = tribal_holding	
+}
+#Siyanzhou
+9949 = {
+	
+	holding = none
+}
+#SiEzhou
+9950 = {
+	
+	holding = none
+}
+###c_xizhou_dongchuan
+#XizhouNengzhou
+9952 = {
+	culture = wuman
+	religion = bimoism
+	holding = tribal_holding	
+}
+#Shunzhou_Qushui
+10318 = {
+	
+	holding = none
+}
+#Yuanshan
+9951 = {
+	
+	holding = none
+}
+	
+###c_lingzhou_xichuan
+#Lingzhou_Renshou
+9932 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#RongzhouXuchuan
+9939 = {
+	
+	holding = none
+}
+#Zigong
+9945 = {
+	
+	holding = city_holding
+}
+###c_rongzhou_xichuan
+#RongzhouYibin
+9954 = {
+	culture = wuman
+	religion = bimoism
+	holding = tribal_holding	
+}
+#Nixizhen
+9955 = {
+	holding = city_holding
+}
+
+##d_xichuan ####################################
+###c_chengdu
+#Chengdu
+9916 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding
+    #special_building = wuhouci	
+}
+#Shuxian_Yizhou
+9917 = {
+	
+	holding = city_holding
+}
+#Xindu
+9918 = {
+	
+	holding = none
+}
+#Pixian
+9919 = {
+	
+	holding = city_holding
+	#special_building = dujiangyan_01
+}
+#Shuangliu
+9920 = {
+	holding = none
+}
+###c_hanzhou_shu
+#Hanzhou_Luoxian
+9900 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Mianzhu
+9898 = {
+	
+	holding = city_holding
+}
+#Deyang
+9899 = {
+	
+	holding = none
+}
+#Baimaguan
+9896 = {
+	holding = castle_holding
+}
+	
+###c_pengzhou
+#Pengzhou
+9901 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Gutaoguan
+9902 = {
+	
+	holding = none
+}
+###c_qingchengshan
+#Qingchengshan
+9905 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = church_holding	
+}
+#Shuzhou_Jinyuan
+9915 = {
+	holding = none
+}
+	
+###c_jianzhou_shu
+#Jianzhouyangan
+9921 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Baimiaoshan
+9922 = {
+	
+	holding = church_holding
+}
+###c_zizhou_xichuan
+#Zizhou_Panshi
+9930 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Neijiang
+9931 = {
+	
+	holding = none
+}
+###c_meizhou_xichuan
+#Meizhou 
+9934 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Hongya
+9935 = {
+	
+	holding = none
+}
+#Pengnvshan
+9933 = {
+	
+	holding = church_holding
+}
+###c_jiazhou_xichuan
+#JiazhouLongyou 
+9937 = {
+	culture = ba_shu
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}	
+}
+#Emeishan
+9936 = {
+	
+	holding = church_holding
+}
+#Qianwei
+9938 = {
+	
+	holding = none
+}
+
+##d_yongping ####################################
+###c_yazhou
+#Yazhou_Yanda
+9907 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#LuoyanDangma
+9906 = {
+	
+	holding = none
+}
+#Qionglaiguan
+9908 = {
+	
+	holding = none
+}
+###c_pengluzhou
+#Pengluzhou
+9903 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#DongJialiangzhou
+9904 = {
+	
+	holding = none
+}
+###c_lizhou_shu
+#Lizhou_Hanyuan
+9909 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#Qingxiguan
+9910 = {
+	
+	holding = none	
+}
+#Dadu
+9911 = {
+	
+	holding = none	
+}
+#Qiongdongzhou
+9912 = {
+	
+	holding = none	
+}
+###c_qiongzhou
+#Linqiong
+9914 = {
+	culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding	
+}
+#Yizheng_Qiongzhou
+10860 = {
+	
+	holding = none
+}
+
+##d_ba ####################################
+###c_bazhou_ba
+#Bazhou_Damu
+9973 = {
+	culture = ba_shu
+	religion = shangqing
+	holding = castle_holding	
+}
+#Jizhou_Nanjiang
+9975 = {
+	
+	holding = none
+}
+#Bizhou_Nuoshui
+9976 = {
+	
+	holding = none
+}
+	
+###c_langzhou_ba
+#Langzhong
+9971 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Jiachuan_Qiping
+9965 = {
+	
+	holding = none
+}
+#Nanbu
+9972 = {
+	
+	holding = none
+}
+###c_guozhou_ba
+#Guozhou_Nanchong
+9978 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Xiangru
+9977 = {
+	
+	holding = none
+}
+###c_quzhou_ba
+#Pengzhou_Dayin
+9974 = {
+	culture = ba_shu
+	religion = shangqing
+	holding = castle_holding	
+}
+#Quzhou_Liujiang
+9990 = {
+	
+	holding = none
+}
+#Tongzhou_Tongchuan
+9992 = {
+	
+	holding = none
+}
+###c_hezhou_ba
+#Hezhou_Shijing
+9979 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Tongliang
+9980 = {
+	
+	holding = none
+}
+###c_yuzhou_ba
+#Yuzhou_Baxian
+9981 = {
+	culture = ba_shu
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Jiangjin
+9982 = {
+	
+	holding = city_holding
+}
+
+##d_ningjiang ####################################
+###c_kuizhou
+#Kuizhou_Fengjie
+10033 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Wushan
+10032 = {
+	
+	holding = none
+}
+#Yunaan
+10034 = {
+	
+	holding = none
+}
+###c_fuzhou_ba
+#Fuling
+9983 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding	
+}
+#Wulong
+9984 = {
+	
+	holding = none
+}
+#Binhua
+9985 = {
+	
+	holding = none
+}
+#Liangshan_Dianjiang
+9989 = {
+	
+	holding = none
+}
+###c_zhongzhou_ba
+#Zhongzhou_Linjiang
+9987 = {
+	culture = han
+	religion = shangqing
+	holding = castle_holding	
+}
+#Fengdu
+9986 = {
+	
+	holding = city_holding
+}
+###c_wanzhou
+#Wanzhou_Nanpu
+9988 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Kaizhou_Shengshan
+9991 = {
+	
+	holding = church_holding
+}
+	
+###c_zigui
+#Zigui
+10030 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Badong
+10031 = {
+	holding = church_holding
+}
+
+############################
+### Huainan Circuit/k_wu ###
+############################
+
+##d_huainan ####################################
+###c_yangzhou
+#Yangzhou_Jiangdu 
+10158 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding
+	#special_building = tianningsi
+}
+#Gaoyou 
+10157 = {
+	holding = none
+}
+#Hailing 
+10159 = {
+	holding = city_holding
+}
+#Liuhe 
+10160 = {
+	holding = none
+}
+#Langshan_Hudouzhou 
+10161 = {
+	holding = none
+}
+###c_haozhou_huainan
+#Haozhou_Zhongli_Fengyang 
+10151 = {
+    culture = han
+	religion = zenzong 
+	holding = castle_holding
+}
+#Zhaoyi_Dingyuan 
+10152 = {
+	holding = none
+}
+###c_huaiyin
+#Huaiyin_Chuzhou 
+10154 = {
+    culture = han
+	religion = zenzong 
+	holding = castle_holding
+}
+#Xuyi 
+10153 = {
+ 
+	holding = city_holding
+}
+#Yancheng 
+10155 = {
+ 
+	holding = none
+}
+###c_chuzhou_huai
+#Chuzhou_Qingliu 
+10156 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+}
+###c_hezhou_huai
+#Hezhou_Wujiang 
+10162 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+}
+
+##d_huaixi ####################################
+###c_luzhou_huai
+#Luzhou_Hefei 
+10163 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+}
+#Chaoxian 
+10164 = {
+ 
+	holding = none
+}
+#Lujiang 
+10165 = {
+ 
+	holding = city_holding
+}
+#Shucheng 
+10166 = {
+ 
+	holding = none
+}
+#Wuwei_Ruxukou 
+10167 = {
+ 
+	holding = castle_holding
+}
+###c_shouchun 
+#Shouchun 
+10148 = {
+    culture = han
+	religion = zenzong 
+	holding = castle_holding
+}
+#Zouyucheng 
+10149 = {
+ 
+	holding = city_holding
+}
+#Anfeng_Shaopi 
+10150 = {
+ 
+	holding = none
+}
+###c_guangzhou_huainan
+#Guangzhou_Dingcheng
+10146 = {
+    culture = han
+	religion = shangqing 
+	holding = castle_holding
+}
+#Yincheng_Gushi 
+10147 = {
+ 
+	holding = none
+}
+###c_shuzhou_huai
+#Shuzhou_Huaining 
+10170 = {
+    culture = han
+	religion = jingxue
+	holding = castle_holding
+}
+#Tongan_Tongcheng 
+10168 = {
+	holding = city_holding
+}
+#Wankou_Aniqing 
+10169 = {
+	holding = church_holding
+}
+#Leichi_Susong_Wangjiang 
+10171 = {
+	holding = none
+}
+
+##d_zhenhai ####################################
+###c_suzhou_wu
+#Suzhou_Wuxian 
+10183 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+}
+#Changshu
+10181 = {
+ 
+	holding = none
+}
+#Jiaxing_Haiyan 
+10184 = {
+ 
+	holding = city_holding
+}
+#Huating_Kunshan 
+10185 = {
+ 
+	holding = none
+}
+###c_jinling
+#Jiangning_Jianye
+10175 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding
+	#special_building = jiankanggong_1
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Gourong 
+10176 = {
+	holding = none
+}
+###c_runzhou
+#Dantu_Runzhou 
+10177 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Maoshan 
+10178 = {
+ 
+	holding = church_holding
+}
+###c_changzhou
+#Changzhou_Jinling 
+10179 = {
+    culture = wu
+	religion = zenzong 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Jiangyin_Junshan 
+10180 = {
+ 
+	holding = none
+}
+#Wuxi 
+10182 = {
+ 
+	holding = church_holding
+}
+###c_huzhou_wu 
+#Huzhou_Wucheng 
+10186 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding
+}
+#Deqing_Wukang 
+10187 = {
+	holding = none
+}
+
+##d_xuanshe ####################################
+###c_xuanzhou
+#Xuanzhou_Xuancheng 
+10234 = {
+    culture = wu
+	religion = jingxue
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Dangtu_Wuhu 
+10232 = {
+	holding = city_holding
+}
+#Lishui_Liyang 
+10233 = {
+	holding = none
+}
+#Jingxian_Youzhou 
+10246 = {
+	holding = none
+}
+#Tongguan_Tongling 
+10236 = {
+	holding = none
+}
+###c_chizhou
+#Qiupu 
+10237 = {
+    culture = wu
+	religion = lixue
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Jiuhuashan 
+10238 = {
+	holding = church_holding
+}
+###c_shezhou 
+#Shezhou_Shexian 
+10210 = {
+    culture = wu
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Yixian 
+10211 = {
+ 
+	holding = city_holding
+}
+#Wuyuan_Huizhou 
+10212 = {
+ 
+	holding = none
+}
+###c_guangde
+#Guangde_Suian 
+10235 = {
+    culture = wu
+	religion = shangqing
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = lixue
+	}
+}
+#Ningguo_Xuanzhou 
+10247 = {
+ 
+	holding = none
+}
+
+##d_jiangxi ####################################
+###c_hongzhou
+#Hongzhou_Yuzhang 
+10250 = {
+    culture = han
+	religion = zenzong 
+	holding = castle_holding
+	#special_building = tengwangge
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Jianchang_Yongxiu 
+10248 = {
+ 
+	holding = church_holding
+}
+#Yuning_Wuning 
+10249 = {
+ 
+	holding = none
+}
+#Fengcheng_Hongzhou 
+10251 = {
+ 
+	holding = none
+}
+#Gaoan 
+10252 = {
+ 
+	holding = none
+}
+###c_jiangzhou_wu
+#Xunyang_Jiangzhou 
+10240 = {
+    culture = han
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Pengze 
+10239 = {
+ 
+	holding = church_holding
+}
+#Hukou_Duchang 
+10241 = {
+ 
+	holding = none
+}
+###c_raozhou 
+#Raozhou_Poyang 
+10243 = {
+    culture = wu
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Fuliang 
+10242 = {
+ 
+	holding = city_holding
+}
+###c_xinzhou_wu
+#Shangrao 
+10244 = {
+    culture = wu
+	religion = zhengyi 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	} 
+}
+#Yiyang_Guixi 龙虎山
+10245 = {
+ 
+	holding = church_holding
+}
+###c_fuzhou_jiangxi
+#Fuzhou_Linchuan 
+10253 = {
+    culture = han
+	religion = jingxue 
+	holding = castle_holding
+	1066.1.1 = { 
+		religion = jingshi
+	}
+}
+#Nancheng_Jianchangjun 
+10254 = {
+ 
+	holding = none
+}
+#Nanfeng_shangqingSilver 
+10255 = {
+ 
+	holding = church_holding
+}
+#Yihuang 
+10256 = {
+ 
+	holding = none
+}
+###c_yuanzhou_jiangxi
+#Yichun_Yuanzhou 
+10259 = {
+    culture = yao
+	religion = hmong
+	holding = tribal_holding
+}
+#Xinyu_Yuanzhou 
+10258 = {
+ 
+	holding = none
+}
+###c_jizhou_jiagnxi
+#Luling_Jizhou 
+10260 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+}
+#Xingan_Qingjiang 
+10257 = {
+ 
+	holding = none
+}
+#Yongxin 
+10261 = {
+ 
+	holding = none
+}
+#Taihe_Suichuan 
+10262 = {
+ 
+	holding = none
+}
+#Yongfeng 
+10263 = {
+ 
+	holding = none
+}
+###c_qianzhou_jiangxi
+#Qianhua 
+10264 = {
+    culture = sheren
+	religion = hmong
+	holding = tribal_holding
+}
+#Yudu_Ruijin 
+10265 = {
+ 
+	holding = none
+}
+#Ganxian_Qianzhou
+10266 = {
+ 
+	holding = tribal_holding
+}
+#Nanan_Baizhang 
+10267 = {
+ 
+	holding = none
+}
+#Dayu_Nananjun 
+10363 = {
+ 
+	holding = tribal_holding
+}
+
+##################################
+### Guannei Circuit/k_xia_east ###
+##################################
+
+##d_xiazhou ####################################
+###c_xiazhou
+#Tongwan #统万城/tumen
+9784 = {
+    culture = tangut
+	religion = melieism
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Ningshuo
+9785 = {
+	
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Changze
+9786 = {
+	
+	holding = church_holding
+}
+#Woyepo
+9787 = {
+	
+	holding = none
+}
+###c_yinzhou
+#Yinzhou
+9771 = {
+    culture = tangut
+	religion = vajrayana
+	holding = castle_holding
+}
+#Kaiguang
+9769 = {
+	
+	holding = church_holding
+}
+#Zhenxiang
+9770 = {
+	
+	holding = none
+}
+#Funing
+9772 = {
+	
+	holding = city_holding
+}
+###c_suizhou_xia
+#Shangxian
+9774 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+}
+#Yanfu
+9773 = {
+	
+	holding = church_holding
+}
+#Suide
+9775 = {
+	
+	holding = city_holding
+}
+#Chengping
+9776 = {
+	
+	holding = none
+}
+#Dabin
+9777 = {
+	holding = none
+}
+
+##d_shuofang ####################################
+###c_yanzhou_shuofang
+#YanzhouWuyuan
+9788 = {
+    culture = tangut
+	religion = melieism
+	holding = castle_holding
+}
+#Baiyanchi
+9789 = {
+	
+	holding = city_holding
+}
+###c_anle
+#Wenchi
+9790 = {
+    culture = tangut
+	religion = melieism
+	holding = castle_holding
+}
+#Anlechuan
+9791 = {
+	
+	holding = city_holding
+}
+#Lanchi
+9793 = {
+	holding = city_holding
+}
+###c_gaolan
+#Mingsha
+9792 = {
+    culture = tangut
+	religion = vajrayana
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Weiruhe
+9794 = {
+	
+	holding = church_holding
+	special_building = great_wall_of_china_01
+}
+###c_youzhou_shuofang
+#Chengwei
+9795 = {
+    culture = tangut
+	religion = melieism
+	holding = castle_holding
+}
+#Luotuogang
+9796 = {
+	
+	holding = none
+}
+#Shunhuadu
+9797 = {
+	
+	holding = none
+}
+###c_huizhou
+#Huining
+9801 = {
+    culture = tuyuhun
+	religion = vajrayana
+	holding = castle_holding
+}
+#Wulan
+9799 = {
+	holding = none
+}
+
+##d_fengxiang ####################################
+###c_fengxiang
+#Fengxian
+9849 = {
+    culture = han
+	religion = lixue
+	holding = castle_holding
+	907.1.1 = { religion = lixue }	
+}
+#Linyou
+9850= {
+	
+	holding = church_holding
+}
+#Chencang
+9848 = {
+	
+	holding = castle_holding
+}
+#Meixian
+9851 = {
+	
+	holding = city_holding
+}
+#Qishan
+9852 = {
+	
+	holding = none
+}
+###c_longzhou
+#Longzhouqianyuan
+9813 = {
+    culture = han
+	religion = nestorian
+	holding = castle_holding	
+}
+#Huating
+9812 = {
+	
+	holding = none
+}
+#Qianyang
+9814 = {
+	
+	holding = city_holding
+}
+#Chencangxiadao
+9815 = {
+	holding = none
+}
+
+##d_jingyuan  ####################################
+###c_yuanzou_xia
+#Yuanzhou
+9803 = {
+    culture = tuyuhun
+	religion = vajrayana
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Xiaoguan
+9802 = {
+	
+	holding = none
+}
+#Baiquan
+9804 = {
+	
+	holding = none
+}
+#Pingliang
+9805 = {
+	
+	holding = none
+}
+#Longshanguan
+9806 = {
+	holding = none
+}
+###c_jingzhou_xia
+#Linjing
+9807 = {
+    culture = tuyuhun
+	religion = vajrayana
+	holding = castle_holding
+}
+#Anding
+9808 = {
+	
+	holding = city_holding
+}
+#Yinpan
+9809 = {
+	
+	holding = none
+}
+#Chungu
+9810 = {
+	
+	holding = none
+}
+#Liangyuan
+9811 = {
+	holding = none
+}
+
+###d_ordos  ####################################
+###c_ordos
+#Ordos
+9766 = {
+	culture = ongud
+	religion = nestorian
+	holding = castle_holding
+}
+#Ulanmulun
+9765 = {
+
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Heqingjun
+9767 = {
+
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Kuyeganpo
+9798 = {
+
+	holding = none
+}
+
+###c_linzhou_shaan
+#Linzhou
+9763 = {
+	culture = ongud
+	religion = nestorian
+	holding = castle_holding
+}
+#Liangu
+9762 = {
+
+	holding = city_holding
+}
+#Yincheng
+9764 = {
+
+	holding = church_holding
+}
+#Fugu
+9768 = {
+
+	holding = none
+}
+
+###c_shengzhou
+#Shengzhou
+9675 = {
+	culture = ongud
+	religion = nestorian
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+#Hebin
+9674 = {
+
+	holding = none
+}
+
+###########################
+### Hebei Circuit/k_yan ###
+###########################
+
+##d_youzhou ####################################
+###c_youzhou
+#YouzhouJixian
+10606 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#XuanzhouFanyang
+10604 = {
+	
+	holding = city_holding
+}
+#Yongnu
+10602 = {
+	
+	holding = none
+}
+#ChangdaoLongshan
+10603 = {
+	
+	holding = church_holding
+}
+#WeihuaShikubao
+10605 = {
+	
+	holding = city_holding
+}
+###c_guzhu
+#Guzhu_Juyongguan
+10607 = {
+    culture = shatuo
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}
+}
+#Huairou
+10608 = {
+	
+	holding = city_holding
+}
+#TanzhouMiyun
+10609 = {
+	
+	holding = none
+}
+###c_guizhou_yan
+#GuizhouHuairong_Kehanzhou
+10612 = {
+    culture = tuyuhun
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+		religion = zenzong
+	}
+}
+#Zhuolu_Yongxing
+10613 = {
+	
+	holding = none
+}
+#Wende_Guihuazhou
+10614 = {
+	
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+#Longmen_Wangyun
+10615 = {
+    culture = han
+	religion = mandeaism
+	holding = city_holding
+	special_building = great_wall_of_china_01
+}
+
+##d_lulong ####################################
+###c_pingzhou
+#Lulong_Pingzhou
+10616 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+}
+#LuanzhouYifeng_Liuchengjun
+10617 = {
+	
+	holding = none
+}
+#Jieshi_Changli
+10618 = {
+	
+	holding = church_holding
+}	
+###c_jizhou_yan
+#Yuyang
+10610 = {
+    culture = shatuo
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Yutian_Jizhou
+10611 = {
+	
+	holding = none
+}
+#Zunhua
+10620 = {
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+}
+
+##d_yingmo ####################################
+###c_yingzhou_ji
+#YingzhouHejian
+10591 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Pingshu
+10592 = {
+	
+	holding = none
+}
+#Boye_Gaoyang
+10590 = {
+	
+	holding = city_holding
+}
+###c_mozhou
+#Mozhou
+10594 = {
+    culture = shatuo
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Qingyuan_mo
+10593 = {
+	
+	holding = none
+}
+
+##d_yiding ####################################
+###c_yizhou_yan
+#Yizhou
+10601 = {
+    culture = sogdian
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}
+}
+#Suicheng_Yi
+10600 = {
+	holding = none
+}
+###c_dingzhou
+#DingzhouAnxi
+10585 = {
+    culture = shatuo
+	religion = zenzong
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han #Sinicization
+	}	
+}
+#Wuji
+10584 = {
+	
+	holding = city_holding
+}
+#Beiping_Wangdu
+10586 = {
+	holding = none
+}
+
+##d_chengde ####################################
+###c_zhaozhou
+#ZhaozhouPingji
+10578 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Baixiang
+10577 = {
+	holding = none
+}
+###c_jizhou_zhao
+#Jizhou_Xindu
+10580 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Nangong_Jingcheng
+10579 = {
+	
+	holding = none
+}
+#Hengshui
+10581 = {
+	
+	holding = city_holding
+}
+###c_shenzhou_hebei
+#ShenzhouLuze
+10582 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Raoyang
+10583 = {
+	
+	holding = none
+}
+###c_hengzhou
+#HengzhouZhending
+10588 = {
+    culture = shatuo
+	religion = mahayana
+	holding = castle_holding
+	1066.1.1 = {
+		culture = han
+	}	
+}
+#Jingxing
+10587 = {
+	
+	holding = none
+}
+#Lingshou_Xingtang
+10589 = {
+	holding = city_holding
+}
+
+##d_xingci ####################################
+###c_xingzhou
+#XingzhouLonggang
+10575 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Julu
+10576 = {
+	
+	holding = none
+}
+###c_cizhou
+#CizhouFuyang
+10857 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Yexian
+10558 = {
+	
+	holding = city_holding
+}
+###c_mingzhou_hebei
+#MingzhouYongnian
+10574 = {
+	culture = han
+	religion = zhengyi
+	holding = castle_holding	
+}
+#Handan
+10573 = {
+	holding = city_holding
+}
+
+##d_weibo ####################################
+###c_weizhou
+#Weizhou_Yuancheng
+10560 = {
+    culture = han
+	religion = mazdayasna
+	holding = castle_holding	
+}
+#Guantao
+10561 = {
+	
+	holding = city_holding
+}
+#Changle
+10562 = {
+	
+	holding = church_holding
+}
+#Zhaocheng_Xinxian
+10563 = {
+	
+	holding = none
+}
+###c_chanzhou
+#Tanyuan
+10559 = {
+    culture = han
+	religion = mazdayasna
+	holding = castle_holding
+}
+###c_bozhou_wei
+#BozhouLiaocheng
+10564 = {
+    culture = han
+	religion = mazdayasna
+	holding = castle_holding	
+}
+#Tangyi_Bozhou
+10565 = {
+	
+	holding = none
+}
+#Gaotang
+10566 = {
+	
+	holding = city_holding
+}
+###c_beizhou
+#Wucheng_Beizhou
+10570 = {
+    culture = han
+	religion = mazdayasna
+	holding = castle_holding	
+}
+#BeizhouQinghe
+10571 = {
+	
+	holding = city_holding
+}
+#Yongjixian
+10572 = {
+	holding = none
+}
+
+##d_xiangwei ####################################
+###c_weizhou_ji
+#WeizhouJixian
+10554 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Gongcheng_Sumenshan
+10553 = {
+	
+	holding = none
+}
+#Liyang_Weixian
+10555 = {
+	
+	holding = city_holding
+}
+###c_xiangzhou
+#Xiangzhou_Anyang
+10557 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Linlv
+10556 = {
+	holding = none
+}
+
+##d_henghai ####################################
+###c_cangzhou
+#Nanpi_Dongguang
+10596 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#CangzhouQingchi
+10597 = {
+	
+	holding = none
+}
+#Lucheng_Qianningjun
+10595 = {
+	holding = none
+}
+###c_dizhou
+#dizhouYanci
+10599 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Wudi_Cangzhou
+10598 = {
+	holding = none
+}
+	
+###c_dezhou_wei
+#Dezhou_Ande
+10568 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding	
+}
+#Pingyuan
+10567 = {
+	
+	holding = none
+}
+#Anling
+10569 = {
+	holding = none
+}
+
+#Yizhou_Yanjun
+10659 = {
+	holding = church_holding
+}
+#Ruluo_Yongle
+10662 = { holding = city_holding }
+###c_yingzhou_liaoxi
+#LiuchengYingzhou
+10642 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	926.1.1 = { 
+		culture = khitan 
+		holding = tribal_holding
+	}
+}
+#Bailangshan
+10641 = {
+	holding = none
+}
+#Yuguan_Shanhaiguan
+10619 = {
+	holding = castle_holding
+	special_building = great_wall_of_china_02
+}
+
+##################################
+### Jiangnandong Circuit/k_yue ###
+##################################
+
+##d_zhexi ####################################
+###c_hangzhou
+#Hangzhou_Qiantang 
+10188 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding 
+}
+#Fuyang 
+10189 = {
+ 
+	holding = city_holding
+}
+#Linan_Shijing 
+10190 = {
+ 
+	holding = castle_holding
+}
+#Yuqian 
+10191 = {
+ 
+	holding = none
+}
+#Lingyin 
+10192 = {
+ 
+	holding = church_holding
+}
+###c_wuzhou_yue 
+#Yiwu 
+10206 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding 
+}
+#Jinhua_Wuzhou 
+10207 = {
+ 
+	holding = city_holding
+}
+###c_muzhou_yue
+#Muzhou_Jiande 
+10208 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding
+}
+#Huanchun_Chunan 
+10209 = {
+ 
+	holding = none
+}
+###c_quzhou
+#Quzhou_Xinan 
+10213 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding 
+}
+#Xujiang_Jianglangshan 
+10214 = {
+ 
+	holding = none
+}
+
+##d_zhedong ####################################
+###c_yuezhou_yue
+#Yuezhou_Kuaiji 
+10193 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding   
+}
+#Yuyao
+10194 = {
+   
+	holding = church_holding
+}
+#Shanxian_CaoEjiang 
+10195 = {
+   
+	holding = none
+}
+#Zhuji 
+10196 = {
+   
+	holding = none
+}
+###c_mingzhou
+#Mingzhou 
+10197 = {
+    culture = wu
+	religion = kegon
+	holding = castle_holding 
+}
+#Fenghua 
+10198 = {
+ 
+	holding = none
+}
+#Wengshan 
+10199 = {
+ 
+	holding = church_holding
+}
+###c_taizhou
+#Taizhou_Linhai 
+10201 = {
+    culture = wu
+	religion = kegon
+	holding = castle_holding 
+}
+#Xiangshan_Ninghai 
+10200 = {
+ 
+	holding = church_holding
+}
+#Huangyan 
+10202 = {
+ 
+	holding = none
+}
+#Tiantaishan_Tangxing 
+10203 = {
+ 
+	holding = church_holding
+}
+###c_wenzhou_yue
+#Wenzhou_Yongjia 
+10204 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding 
+}
+#Angu 
+10205 = {
+ 
+	holding = none
+}
+###c_kuozhou 
+#Kuozhou_Kuocang 
+10215 = {
+    culture = wu
+	religion = zenzong
+	holding = castle_holding 
+}
+#Qingtian 
+10216 = {
+ 
+	holding = none
+}
+
+##d_fujian ####################################
+###c_fuzou
+#Fuzhou_Changle 
+10222 = {
+    culture = min
+	religion = zenzong
+	holding = castle_holding 
+}
+#Meixi_Minqing 
+10221 = {
+ 
+	holding = none
+}
+#Changxi_Xiapu 
+10223 = {
+ 
+	holding = city_holding
+}
+#Youxi 
+10224 = {
+ 
+	holding = none
+}
+###c_quanzhou
+#Quanzhou_Jinjiang 
+10226 = {
+    culture = min
+	religion = shangqing
+	holding = castle_holding 
+}
+#Putian 
+10225 = {
+ 
+	holding = church_holding
+}
+###c_zhangzhou_min 
+#Zhangzhou_Zhangpu 
+10228 = {
+    culture = min
+	religion = shangqing
+	holding = castle_holding 
+}
+#Longxi_Zhangzhou 
+10227 = {
+ 
+	holding = none
+}
+###c_jianzhou_min
+#Jianzhou_Jianou 
+10218 = {
+    culture = sheren
+	religion = hmong
+	holding = tribal_holding 
+}
+#Tangxing_Pucheng 
+10217 = {
+ 
+	holding = none
+}
+#Shaowu_Jiangle 
+10219 = {
+ 
+	holding = none
+}
+#Shaxian_Sanming 
+10220 = {
+ 
+	holding = none
+}
+###c_tingzhou_min
+#Tingzhou_Changting 
+10231 = {
+    culture = sheren
+	religion = hmong
+	holding = tribal_holding 
+}
+#Huanglian_Jiulongxi 
+10229 = {
+ 
+	holding = none
+}
+#Zaluo_Longyan 
+10230 = {
+ 
+	holding = none
+}

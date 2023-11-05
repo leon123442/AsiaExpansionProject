@@ -1,0 +1,824 @@
+﻿######################
+### Khentii/k_jubu ###
+######################
+
+###d_murin ####################################
+###c_murin
+#WangjiRiver 
+10842 = {
+    culture = kerait
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = {
+		religion = nestorian
+	}
+}
+#Lanrhaelun
+10841 = { holding = none }
+#Shalantu
+10843 = { holding = none }
+
+###d_karat #哈老徒/贺兰  ####################################
+###c_karat #哈老徒/贺兰
+#Karat
+10836 = {
+    culture = kerait
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = {
+		religion = nestorian
+	}	
+}
+#BurchCliff 
+10835 = { holding = none }
+#Salianchuan
+10837 = {
+    culture = tataric
+	religion = tengri_pagan  
+	holding = tribal_holding
+}
+
+###c_Tarqan
+#Tarqan
+10838 = {
+	culture = kerait
+	religion = tengri_pagan 
+	holding = tribal_holding
+	1020.1.2 = {
+		religion = nestorian
+	}
+}
+#UlanNor
+10839 = { holding = none }
+#Quxuewur 
+10840 = { holding = none }
+
+###d_khiyat 金微  ####################################
+###c_jinwei #金微
+#Jinwei_Balitunalan
+10830 = {
+    culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Khumarkhan
+10834 = { holding = none }
+#Nartushtu
+10831 = { holding = none }
+
+###c_Horhnajubur
+#Horhnajubur
+10827 = {
+    culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#UrjaRiver
+10832 = { holding = none }
+
+###d_Luju 龙驹  ####################################
+###c_khatan #回鹘可敦城
+#Khedun #河董
+10846 = {
+    culture = tataric
+	religion = tengri_pagan 
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khamag
+	}
+}
+#Bayanterm
+10850 = {
+	culture = tataric
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Joba
+10852 = { holding = none }
+#Harstinnsom
+10854 = { holding = none }
+
+###c_luqu_valley			
+#Taran #塔懒
+10844 = {
+    culture = tataric
+	religion = tengri_pagan 
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khamag
+	}
+}
+#Pibeihe
+10845 = { holding = none }
+#Kukucher
+10849 = { holding = none }
+#Jurgtu
+10856 = { holding = none }
+
+###d_teriqan #窴颜  ####################################
+###c_teriqan #帖里干
+#Shimutnor
+10847 = {
+    culture = tataric
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Dalaiblak
+10848 = { holding = none }
+#Manglai_Hulusutaichahan
+10851 = {
+	culture = tataric
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Ulabayan
+10855 = { holding = none }
+
+###d_onon #斡难  ####################################
+###c_kirluk #鸡鹿
+#Jiluzhou_Xijie
+10829 = {
+    culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Dahur
+10825 = { holding = none }
+#Chirkh
+10818 = { holding = none }
+
+###c_onon
+#Enan
+10824 = {
+	culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Derompant
+10828 = { holding = none }
+#Oriauturs
+10826 = { holding = none }
+
+###c_julop #烛龙
+#Amyid
+10817 = {
+    culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+}
+#Nertschin
+10816 = { holding = none }
+#Chorna
+10815 = { holding = none }
+
+###d_holon #呼伦  ####################################
+###c_holonnor #呼伦/俱轮
+#Jumgu
+10802 = {
+	867.1.1 = {
+		culture = tataric
+		religion = tengri_pagan 
+		holding = tribal_holding
+	}
+}
+#Ersu
+10801 = { holding = none }
+#Jingbian_Liao
+10803 = { holding = none }
+#HolonNor
+10805 = { holding = none }
+#TarLake
+10833 = { holding = none }
+
+###c_buyur #捕鱼儿海
+#BuyurLake
+10798 = {
+	867.1.1 = {
+		culture = tataric
+		religion = tengri_pagan 
+		holding = tribal_holding
+	}
+}
+#HelaRiver
+10796 = { holding = none }
+#Duoquanzi
+10797 = { holding = none }
+#Karanjanshato
+10853 = { holding = none }
+
+###d_argun #幽陵  ####################################
+###c_argun #额尔古纳
+#Erguna
+10820 = {
+	867.1.1 = {
+    culture = khamag
+	religion = tengri_pagan 
+	holding = tribal_holding
+	}	
+}
+#Borjia
+10823 = { holding = none }
+#Imu
+10822 = { holding = none }
+
+###c_chiya #赤雅
+#Chiya
+10821 = {
+    culture = evenk
+	religion = hehe 
+		holding = tribal_holding	
+	
+	}
+#Amazar
+10813 = { holding = none }
+#Yonganshan
+10814 = { holding = none }
+
+#######################
+### Chanyu/k_tengri ###
+#######################
+
+###d_fengzhou  ####################################
+###c_tiandejun
+#Tiandejun
+9669 = {
+	culture = han
+	religion = zhengyi	
+	holding = castle_holding
+	916.1.1 = {
+		culture = kerait
+		religion = nestorian
+		holding = tribal_holding
+	}
+}
+#Datongchuan
+10621 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+#Huyangu
+10622 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+#Langshan_Jinhe
+10858 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+
+###c_westsurrended
+#WestSurrended
+9670 = {
+	culture = ongud
+	religion = nestorian	
+	holding = tribal_holding
+	916.1.1 = {
+		culture = kerait
+	}
+}
+#MiEchuan
+10626 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+#Tihuquan
+10627 = {
+
+	holding = none
+}
+
+###c_midsurrended
+#MidSurrended
+9671 = {
+	culture = ongud
+	religion = nestorian
+	holding = tribal_holding
+}
+#Roufu
+9672 = {
+
+	holding = city_holding
+}
+
+###d_zhenwu  ####################################
+###c_chanyufu
+#Chanyufu
+9676 = {
+    culture = tuyuhun
+	religion = tengri_pagan	
+	holding = tribal_holding
+	916.1.1 = {
+		culture = ongud
+		religion = nestorian
+	}
+}
+#GreenTomb
+9677 = {
+
+	holding = church_holding
+}
+#Fumin
+9678 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+#EastSurrended
+9673 = {
+	holding = city_holding
+}
+
+###c_mogols
+#Mogeshi
+10624 = {
+	culture = tuyuhun
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = kerait
+		religion = nestorian
+	}
+}
+#Nuozhenshui
+10623 = {
+
+	holding = none
+}
+#Xilamulin
+10625 = {
+
+	holding = none
+}
+#NintynineSpring
+9681 = {
+
+	holding = none
+	special_building = great_wall_of_china_01
+}
+
+###c_xuandezhou
+#Xuande_monan
+9682 = {
+	culture = tuyuhun
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = ongud
+		religion = nestorian
+	}
+}
+#Jinheshan
+9680 = {
+
+	holding = none
+}
+
+###d_wuluhai  ####################################
+###c_wuluhai (Bayannayur)
+9537 = {	# Wuluhai
+	# Misc
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+	# History
+	800.1.1 = {
+
+		culture = ongud
+		religion = nestorian	
+	}
+	900.1.1 = { culture = ongud }
+	1050.1.1 = {
+
+		holding = castle_holding
+
+	}
+}
+9538 = {	# Wuyuan/Uyuvan
+	holding = none #nomad
+	special_building = great_wall_of_china_01
+	
+	# History
+	1050.1.1 = {
+
+		holding = city_holding
+	}
+}
+9539 = {	# Dengkou/Denkeu
+	holding = none #nomad
+	special_building = great_wall_of_china_01
+}
+
+###c_wuda
+9542 = {	# Wuda/Ud
+	# Misc
+	culture = tangut
+	religion = melieism
+	holding = castle_holding
+	# History
+	800.1.1 = {
+		holding = castle_holding
+	}
+	1050.1.1 = {
+
+		holding = castle_holding
+
+	}
+	1100.1.1 = {
+
+		religion = vajrayana
+	}
+	1230.1.1 = {
+
+		culture = mongol
+		religion = tengri_pagan
+	}#Tanguts flee the capital region
+	holding = none
+}
+9540 = {	# Zhongcun
+	holding = none #nomad
+}
+9541 = {	# Wuliji
+	holding = none #nomad
+}
+
+###d_zhenfan ####################################
+###c_zhenfan (Minqin/Sogo Khoto)
+9518 = {	# Zhenfan/Sogo Khoto (Minqin)
+	# Misc
+	culture = hexi #Modded
+	religion = mahayana
+	
+	holding = tribal_holding #farmlands
+	special_building = great_wall_of_china_01
+	
+	# History
+	1032.1.1 = {
+		culture = tangut
+		religion = vajrayana
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9519 = {	# Jiahe
+	holding = none #farmlands
+	special_building = great_wall_of_china_01
+}
+
+###c_tenggeli (Tengger)
+9532 = {	# Nanhu
+	# Misc
+	culture = tuyuhun #Tuoba
+	religion = tengri_pagan
+	
+	holding = tribal_holding #nomad
+	
+	# History
+	700.1.1 = {
+		religion = melieism
+	}
+	1032.1.1 = {
+		culture = tangut
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9533 = {	# Chaganbulage
+	holding = none #nomad
+}
+9535 = {	# Chaogetuhure
+	holding = none #nomad
+}
+
+###c_alxa
+# 9509 - Alxa (Alashan)
+9509 = {	# Alxa/Alashan
+	# Misc
+	culture = tuyuhun #Tuoba
+	religion = tengri_pagan
+	
+	holding = tribal_holding #nomad
+	
+	# History
+	700.1.1 = {
+		religion = melieism
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9520 = {	# Yabulai
+	holding = none
+}
+9549 = {	# Tamusubulage
+	holding = none
+}
+
+###d_yijinai  ####################################
+###c_yijinai
+9506 = {	# Yijinai
+	# Misc
+	culture = tangut
+	religion = melieism
+	
+	holding = tribal_holding
+	special_building = great_wall_of_china_01
+	
+	# History
+	1000.1.1 = {
+		religion = vajrayana
+	}
+	1032.1.1 = {
+		holding = castle_holding
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9507 = {	# Juyan
+	holding = none #nomad - initially a church_holding, but changed due to holder being tribal
+	special_building = great_wall_of_china_01
+	
+	# History
+	1032.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_wentugaole
+9510 = {	# Wentugaole
+	# Misc
+	culture = tuyuhun #Tuoba
+	religion = tengri_pagan
+	
+	holding = tribal_holding #nomad
+	
+	# History
+	700.1.1 = {
+		religion = melieism
+	}
+	1032.1.1 = {
+		culture = tangut
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9548 = {	# Gurinai
+	holding = none #nomad
+}
+
+###c_heihe
+9505 = {	# Hangtian
+	# Misc
+	culture = hexi #Modded
+	religion = mahayana
+	
+	holding = castle_holding
+	special_building = great_wall_of_china_01
+	
+	# History
+	894.1.1 = {
+		culture = yughur
+		religion = manichean
+	}
+	1050.1.1 = {
+		culture = tangut
+		religion = vajrayana
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9504 = {	# Heihe
+	holding = city_holding
+	special_building = great_wall_of_china_01
+	
+	# History
+	#1050.1.1 = {
+	#	religion = melieism
+	#}
+}
+
+###c_mazongshan
+9489 = {	#  Mazongshan
+	# Misc
+	culture = yughur
+	religion = manichean #mahayana
+	
+	holding = tribal_holding #nomad
+	
+	# History
+	1032.1.1 = {
+		culture = tangut
+		religion = melieism
+	}
+	1250.1.1 = {
+		culture = mongol
+		religion = tengri_pagan
+	}#Tangut culture begins to be absorbed
+}
+9508 = {	# Saihantaolai
+	holding = none #nomad
+}
+
+###d_hiyaxu  ####################################
+###c_hiyaxu
+#Xanado
+10647 = {
+    culture = qay
+	religion = tengri_pagan
+	holding = tribal_holding
+	907.1.1 = {
+		religion = zenzong
+		culture = khitan
+	}	
+}
+#Yangcheng
+10649 = { holding = city_holding }
+#Goupo
+10651 = { holding = none }
+
+###c_qibingga
+#Yanzicheng
+10648 = {
+    culture = qay
+	religion = tengri_pagan
+	holding = tribal_holding
+	907.1.1 = {
+		religion = zenzong
+		culture = khitan
+	}		
+}
+
+#Yuanyangpo
+10652 = { holding = none special_building = great_wall_of_china_01 }
+
+###d_hejes ####################################
+###c_dayan
+#Guangjihu_Dayanli
+10638 = {
+	culture = tataric
+	religion = tengri_pagan
+	holding = tribal_holding
+	}
+#Yelaishan
+10646 = { holding = none }
+#WuluhuiRiver_Tuershan
+10795 = { holding = none }
+###c_sadenor
+#Dashuipo_Sadenniao
+10637 = {
+	culture = tataric
+	religion = tengri_pagan
+	holding = tribal_holding
+	}
+#Chagannor_South
+10650 = { holding = none }
+###c_wulv	
+#Liaobin_Huaiyuan
+10663 = {
+    culture = khitan
+	religion = zenzong
+	holding = tribal_holding
+}
+#Yiwulvshan_Xianzhou 
+10658 = { holding = church_holding }
+#SuizhouShanhe
+10660 = { holding = city_holding }
+
+#######################
+### Dongyi/k_dongyi ###
+#######################
+
+###d_xarmoron  ####################################
+###c_degere
+#degere
+10636 = {
+    culture = tataric
+	religion = tengri_pagan
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
+	}
+#QingzhouXuande
+10645 = { holding = none }
+#LiaoZuzhou
+10653 = { holding = none }
+#Hongfusi
+10654 = { holding = church_holding }
+#RaozhouChangle
+10635 = { holding = city_holding }
+
+###c_longhua
+#Yongan_Jiangsheng
+10643 = { holding = church_holding }
+#Longhua
+10639 = {
+	culture = khitan
+	religion = tengri_pagan
+	holding = tribal_holding
+	926.1.1 = {
+		religion = zenzong
+	}		
+}
+#Fuzhou_Liao
+10640 = { holding = city_holding }
+#Wuzhou_Aimin
+10644 = { holding = none }
+###c_yikun
+#YikunzhouGuangyi
+10633 = {
+	culture = khitan
+	religion = tengri_pagan
+	holding = tribal_holding
+	926.1.1 = {
+		religion = zenzong
+	}		
+	}
+#YongzhouChangning
+10634 = { holding = city_holding }
+
+###d_tohchen  ####################################
+###c_dading
+#Xiwangfu_Raole_Dading
+10630 = {
+	culture = khitan
+	religion = zenzong
+	holding = tribal_holding
+}
+#Songshan_Chifeng
+10631 = { holding = city_holding }
+#Huihe_Huangbailing
+10632 = { holding = church_holding }
+
+###c_beian
+#XinghuaBeian
+10628 = {
+    culture = qay
+	religion = zenzong
+	holding = tribal_holding
+	907.1.1 = {
+		culture = khitan
+	}	
+}
+#Luanheyuan
+10629 = { holding = city_holding }
+#Ulanbutom
+10656 = { holding = none }
+
+###d_changchun ####################################
+###c_changchun
+#Changchunzhou_Yellowhead
+10792 = {
+	culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
+}
+#HunRiver
+10793 = { holding = none }
+#TaluRiver
+10790 = { holding = none }
+###c_ningzhou_khitan
+#Ningzhou_Ledesjurchen
+10655 = {
+	culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan 
+		religion = zenzong
+	}
+}
+#Niaotan_Kailu
+10657 = { holding = none }
+
+##d_liaoxi ####################################
+###c_liaoxi 
+#Liaoxizhou_Changqing
+10661 = {
+    culture = han
+	religion = zenzong
+	holding = castle_holding
+	926.1.1 = { 
+		culture = khitan 
+		holding = tribal_holding
+	}
+}

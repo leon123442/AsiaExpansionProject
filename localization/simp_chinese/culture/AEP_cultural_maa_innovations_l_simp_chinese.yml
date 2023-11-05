@@ -1,0 +1,54 @@
+﻿l_simp_chinese:
+ # Tribal Era
+ culture_parameter_unlock_maa_samurai:0 "可以招募[GetMaA('samurai').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_emishi:0 "可以招募[GetMaA('emishi_riders').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_han:0 "可以招募[GetMaA('chinese_pikemen').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_khitan:0 "可以招募[GetMaA('heavy_khitan_cavalry').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_hwarang:0 "可以招募[GetMaA('hwarang').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_gaemamusa:0 "可以招募[GetMaA('gaemamusa').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_luojuzi:0 "可以招募[GetMaA('luojuzi').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_ksatra:0 "可以招募[GetMaA('ksatra').GetName]为[men_at_arms|E]"
+
+ #Military
+ tradition_samurai_spirit_name:0 "侍魂"
+ tradition_samurai_spirit_desc:0 "武士代表着日本的精英武士阶级，他们奉行着被称为武士道的严格武士守则。这一法典极为强调诚实，武勇以及对封建领主的坚定忠诚等美德，即使在面对死亡时也不例外."
+ samurai:0 "侍"
+ samurai_flavor:0 "这些武士在马术和射箭方面展现了卓越的纪律和严格的训练，体现了日本武士理想的典范。"
+ sohei:0 "僧兵"
+ sohei_flavor:0 "随着中央集权的衰落，平安时代出现了僧兵（武僧）。他们的武力和热情使得僧兵在整个日本备受敬畏和景仰。"
+ 
+ tradition_emishi_riders_name:0 "虾夷骑马者"
+ tradition_emishi_riders_desc:0 "虾夷因其精湛的骑兵而闻名，他们的凶猛使得他们在寡不敌众的情况下赢得了无数次战斗。"
+ emishi_riders:0 "虾夷骑马者"
+ emishi_riders_flavor:0 "虾夷以精湛的骑兵而闻名，他们的凶猛战斗能力使他们在寡不敌众的情况下赢得了无数次战斗。"
+ 
+ tradition_chinese_pikemen_name:0 "中国长枪兵"
+ tradition_chinese_pikemen_desc:0 "这些长枪兵身着铠甲，手持冀矛，是中国军队的核心力量。"
+ chinese_pikemen:0 "中国长枪兵"
+ chinese_pikemen_flavor:0 "这些身穿铠甲的长枪兵手持冀矛，是中国军队的中坚力量。"
+ 
+ tradition_khitan_heavy_cavalry_name:0 "契丹重骑兵"
+ tradition_khitan_heavy_cavalry_desc:0 "契丹以强大的重骑兵闻名，他们卓越的战斗能力在多次与邻国的较量中取得了胜利。"
+ heavy_khitan_cavalry:0 "契丹重骑兵"
+ heavy_khitan_cavalry_flavor:0 "契丹以重骑兵而声名远扬，凭借卓越的战斗能力在与邻国多次交锋中屡获胜利。"
+ 
+ tradition_hwarang_name:0 "花郞" #화랑
+ tradition_hwarang_desc:0 "花郎是新罗男性青年的精英战士阶层，以出众的身体美感和多领域的广泛训练而著名，涵盖了从行政到军事的各个领域。他们是西兰社会的美德典范，体现了忠诚，勇敢和正义的价值观，并对君主表现出狂热的忠诚。"
+ hwarang:0 "花郞" #화랑
+ hwarang_flavor:0 "这些冷酷的战士以卓越的容貌，军事专长和对国王的坚定忠诚而闻名，他们誓死战斗到最后一人。"
+ 
+ tradition_gaemamusa_name:0 "鎧馬武士" #개마무사
+ tradition_gaemamusa_desc:0 "鎧馬武士组成了高句丽的精锐骑兵部队，在国家征服过程中扮演了关键角色。他们以气势磅礴的盔甲和马甲后部华丽的羽毛而著名，是东亚最精良的骑兵部队之一。"
+ gaemamusa:0 "鎧馬武士" #개마무사
+ gaemamusa_flavor:0 "鎧馬武士以华丽的羽毛和厚重的重甲而闻名，是东亚最令人印象深刻的骑兵部队之一。"
+ 
+ tradition_tiger_sons_name:0 "老虎之子"
+ tradition_tiger_sons_desc:0 "虎子是南诏军的精锐核心，只从最强大的战士中选拔出来。他们勇武无比，绝不容许懦弱和退却。"
+ luojuzi:0 "老虎之子"
+ luojuzi_flavor:0 "虎子是南诏军队的精锐核心，他们只从最强大的战士中选拔而成。洛居子不容许懦弱，一旦退却必定以死谢罪。"
+ 
+ tradition_warrior_caste_name:0 "刹帝" #क्षत्र
+ tradition_warrior_caste_desc:0 "刹帝构成了高棉帝国的武士贵族，以在战斗中的英勇而闻名。"
+ ksatra:0 "刹帝" #क्षत्र
+ ksatra_flavor:0 "刹帝是高棉帝国的武士贵族，以在战斗中的英勇而著称。"
+ 

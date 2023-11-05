@@ -1,0 +1,495 @@
+﻿l_german:
+#Japanese
+ dynn_yamato:0 "Yamato" # 皇室
+ dynn_fujiwara:0 "Fujiwara" # 藤原/藤原北家
+ dynn_nanke-fujiwara:0 "Nanke-Fujiwara" # 藤原南家
+ dynn_shikike-fujiwara:0 "Shikike-Fujiwara" # 藤原式家
+ dynn_kyoke-fujiwara:0 "Kyōke-Fujiwara" # 藤原京家
+ dynn_oshu-fujiwara:0 "Ōshū-Fujiwara" # 奥州藤原氏
+ dynn_saga-genji:0 "Saga-Genji" # 嵯峨源氏
+ dynn_ninmyo-genji:0 "Ninmyō-Genji" # 仁明源氏
+ dynn_montoku-genji:0 "Montoku-Genji" # 文徳源氏
+ dynn_seiwa-genji:0 "Seiwa-Genji" # 清和源氏/摂津源氏
+ dynn_yamatogenji:0 "Yamato-Genji" # 大和源氏
+ dynn_kawachigenji:0 "Kawachi-Genji" # 河内源氏
+ dynn_minogenji:0 "Mino-Genji" # 美濃源氏
+ dynn_yozei-genji:0 "Yōzei-Genji" # 陽成源氏
+ dynn_koko-genji:0 "Kōkō-Genji" # 光孝源氏
+ dynn_uda-genji:0 "Uda-Genji" # 宇多源氏
+ dynn_daigo-genji:0 "Daigo-Genji" # 醍醐源氏
+ dynn_murakami-genji:0 "Murakami-Genji" # 村上源氏
+ dynn_reizei-genji:0 "Reizei-Genji" # 冷泉源氏
+ dynn_kazan-genji:0 "Kazan-Genji" # 花山源氏
+ dynn_sanjo-genji:0 "Sanjō-Genji" # 三条源氏
+ dynn_kanmu-heishi:0 "Kanmu-Heishi" # 桓武平氏
+ dynn_hitachiheishi:0 "Hitachi-Heishi" # 常陸平氏
+ dynn_satsumaheishi:0 "Satsuma-Heishi" # 薩摩平氏
+ dynn_iseheishi:0 "Ise-Heishi" # 伊勢平氏
+ dynn_bosoheishi:0 "Bōsō-Heishi" # 房総平氏
+ dynn_chichibuheishi:0 "Chichibu Heishi" # 秩父平氏
+ dynn_ninmyo-heishi:0 "Nimmyō-Heishi" # 仁明平氏
+ dynn_montoku-heishi:0 "Montoku-Heishi" # 文徳平氏
+ dynn_koko-heishi:0 "Kōkō-Heishi" # 光孝平氏
+ dynn_tachibana:0 "Tachibana" # 橘氏
+ dynn_soga:0 "Soga" # 蘇我氏
+ dynn_mononobe:0 "Mononobe" # 物部氏
+ dynn_ki:0 "Ki" # 紀氏
+ dynn_ariwara:0 "Ariwara" # 在原氏
+ dynn_kiyohara:0 "Kiyohara" # 清原氏
+ dynn_sakanoue:0 "Sakanoue" # 坂上
+ dynn_kibi:0 "Kibi" # 吉備氏
+ dynn_oe:0 "Ōe" # 大江氏
+ dynn_funya:0 "Funya" # 文室氏
+ dynn_yoshimine:0 "Yoshimine" # 良岑氏
+ dynn_fuhitoyamato:0 "Yamato" # 和史氏
+ dynn_sugano:0 "Sugano" # 菅野氏
+ dynn_mutsuishikawa:0 "Ishikawa" # 陸奥石川氏
+ dynn_chiba:0 "Chiba" # 千葉氏
+ dynn_miura:0 "Miura" # 三浦氏
+ dynn_kamakura:0 "Kamakura" # 鎌倉氏
+ dynn_nagamine:0 "Nagamine" # 長岑氏
+ dynn_harusumi:0 "Harusumi" # 春澄氏
+ dynn_sugawara:0 "Sugawara" # 菅原氏
+ dynn_shimada:0 "Shimada" # 島田氏
+ dynn_oo:0 "Ō" # 多氏
+ dynn_abe:0 "Abe" # 安倍氏
+ dynn_yoshimichi:0 "Yoshimichi" # 善道氏
+ dynn_miyoshi:0 "Miyoshi" # 三善氏
+ dynn_takashina:0 "Takashina" # 高階氏
+ dynn_okasuga:0 "Ōkasuga" # 大春日氏
+ dynn_ashikaga:0 "Ashikaga" # 足利氏
+#Korean
+ dynn_Gyeongju_Kim:0 "Kim" # 경주김씨/慶州金氏
+ dynn_Miryang_Park:0 "Park" # 밀양박씨/推火朴氏
+ dynn_Wolseong_Seok:0 "Seok" # 월성석씨/月城昔氏
+ dynn_Buyeo:0 "Buyeo" # 부여씨/夫餘氏
+ dynn_Go_Goguryeo:0 "Go" # 고씨/高氏
+ dynn_Go_Tamna:0 "Go" # 고씨/高氏
+ dynn_Tae:0 "Dae" # 대씨/大氏
+#Chinese
+ dynn_Duo:0 "Duo" #铎
+ dynn_La:0 "La" #羅
+ dynn_Heng:0 "Heng" #橫
+ dynn_Du:0 "Du" #杜
+ dynn_Chiau:0 "Chiau" #赵
+#Vietnamese
+ dynn_Bui_vn:0 "Bùi" #裴
+ dynn_Buu_vn:0 "Bửu" #寶
+ dynn_Cheng_vn:0 "Trình" #程
+ dynn_Chon_vn:0 "Chung" #钟
+ dynn_Chu_vn:0 "Chu" #周
+ dynn_Chuc_vn:0 "Chúc" #祝
+ dynn_Chung_vn:0 "Chung" #钟
+ dynn_Cu_vn:0 "Cù" #瞿
+ dynn_Cun_vn:0 "Cung" #宮
+ dynn_Dam_vn:0 "Đàm" #譚
+ dynn_Dang_vn:0 "Đặng" #鄧
+ dynn_Danh_vn:0 "Danh" #名
+ dynn_Dao_vn:0 "Đào" #陶
+ dynn_Den_vn:0 "Đàm" #譚
+ dynn_Dich_vn:0 "Địch" #狄
+ dynn_Diem_vn:0 "Điềm" #恬
+ dynn_Dinh_vn:0 "Đinh" #丁
+ dynn_Do_vn:0 "Đỗ" #杜
+ dynn_Doan_vn:0 "Đoàn" #團
+ dynn_Duong_vn:0 "Dương" #杨
+ dynn_Giang_vn:0 "Giàng" #江
+ dynn_Giap_vn:0 "Giáp" #郏
+ dynn_Hai_vn:0 "Hải" #海
+ dynn_Han_vn:0 "Hán" #韩
+ dynn_Hanh_vn:0 "Hành" #衡
+ dynn_Ho_vn:0 "Hà" #何
+ dynn_Hoang_vn:0 "Hoàng" #黄
+ dynn_Hong_vn:0 "Hồng" #紅
+ dynn_Hua_vn:0 "Hứa" #許
+ dynn_Huan_vn:0 "Huân" #勳
+ dynn_Hue_vn:0 "Huê" #惠
+ dynn_Huu_vn:0 "Hưu" #休
+ dynn_Huynh_vn:0 "Huỳnh" #黃
+ dynn_Hy_vn:0 "Hỷ" #矣
+ dynn_Ken_vn:0 "Kiền" #建
+ dynn_Khac_vn:0 "Khắc" #刻
+ dynn_Khuc_vn:0 "Khúc" #曲
+ dynn_Khuong_vn:0 "Khương" #姜
+ dynn_Kieu_vn:0 "Kiều" #矯
+ dynn_Kimi_vn:0 "Kim" #金
+ dynn_Kiu_vn:0 "Kiêu" #驕
+ dynn_Kuo_vn:0 "Quang" #光
+ dynn_Lam_vn:0 "Lâm" #林
+ dynn_Lan_vn:0 "Lan" #蘭
+ dynn_Le_Thi_vn:0 "Lê Thị" #李氏
+ dynn_Le_vn:0 "Lê" #李
+ dynn_Lenh_vn:0 "Lệnh" #令
+ dynn_Li_vn:0 "Lí" #李
+ dynn_Lien_vn:0 "Liên" #連
+ dynn_Lieu_vn:0 "Liễu" #柳
+ dynn_Lin_vn:0 "Lâm" #林
+ dynn_Loi_vn:0 "Lợi" #利
+ dynn_Luong_vn:0 "Lương" #梁
+ dynn_Luu_vn:0 "Lưu" #劉
+ dynn_Luy_vn:0 "Luyện" #練
+ dynn_Ly_vn:0 "Lý" #黎
+ dynn_Ma_vn:0 "Ma" #馬
+ dynn_Mai_vn:0 "Mai" #梅
+ dynn_Man_vn:0 "Man" #满
+ dynn_Mom_vn:0 "Mạnh" #孟
+ dynn_My_vn:0 "Mỹ" #美
+ dynn_Ngan_vn:0 "Ngân" #銀
+ dynn_Nghi_vn:0 "Nghi" #疑
+ dynn_Nghiem_vn:0 "Nghiêm" #嚴
+ dynn_Ngo_vn:0 "Ngô" #吴
+ dynn_Nguyen_vn:0 "Nguyễn" #阮
+ dynn_Nguyenthanh_vn:0 "Nguyễn Thanh" #阮清 Cadet Branch of dynn_Nguyen
+ dynn_Nguyentran_vn:0 "Nguyễn Trần" #阮陈 Cadet Branch of dynn_Nguyen
+ dynn_Nguyenvan_vn:0 "Nguyễn Văn" #阮文 Cadet Branch of dynn_Nguyen
+ dynn_Tonnu_vn:0 "Tonnu" #尊女 Surname of females belonging to dynn_nguyen
+ dynn_Nhung_vn:0 "Nhung" #戎
+ dynn_Ninh_vn:0 "Ninh" #寧
+ dynn_Nong_vn:0 "Nông" #儂
+ dynn_Ong_vn:0 "Ong" #翁
+ dynn_Pham_vn:0 "Phạm" #范
+ dynn_Phan_vn:0 "Phan" #潘
+ dynn_Phi_vn:0 "Phi" #飛
+ dynn_Phong_vn:0 "Phong" #豐
+ dynn_Phuong_vn:0 "Phương" #芳
+ dynn_Qu_vn:0 "Cù" #樛
+ dynn_Quach_vn:0 "Quách" #郭
+ dynn_Qui_vn:0 "Quí" #季
+ dynn_Quy_vn:0 "Quy" #季
+ dynn_Sa_vn:0 "Sa" #奢
+ dynn_Sam_vn:0 "Tam" #Tam
+ dynn_Tang_vn:0 "Đường" #唐
+ dynn_Tanh_vn:0 "Thanh" #清
+ dynn_Tat_vn:0 "Tất" #畢
+ dynn_Thi_vn:0 "Thị" #氏
+ dynn_Thich_vn:0 "Thích" #釋
+ dynn_Toan_vn:0 "Toàn" #全
+ dynn_Ton_vn:0 "Tôn" #孫
+ dynn_Tong_vn:0 "Tông" #宗
+ dynn_Tonthat_vn:0 "Tôn Thất" #尊室
+ dynn_Tra_vn:0 "Trà" #茶
+ dynn_Trac_vn:0 "Trắc" #𣖡
+ dynn_Tran_vn:0 "Trần" #陈
+ dynn_Trannguyen_vn:0 "Trần Nguyễn" #陳阮
+ dynn_Trinh_vn:0 "Trịnh" #郑
+ dynn_Trung_vn:0 "Trung" #仲
+ dynn_Truong_vn:0 "Trường" #張
+ dynn_Tuong_vn:0 "Tương" #蒋
+ dynn_Uo_vn:0 "Uông" #汪
+ dynn_Van_vn:0 "Văn" #文
+ dynn_Vi_vn:0 "Vĩ" #偉
+ dynn_Vinh_vn:0 "Vinh" #榮
+ dynn_Vo__vn:0 "Võ" #武
+ dynn_Vo_vn:0 "Vô" #無
+ dynn_Vu_vn:0 "Vũ" #武
+ dynn_Xa_vn:0 "Xa" #賒
+ dynn_Xuan_vn:0 "Xuân" #春
+ dynn_Yen_vn:0 "Yên" #安
+ dynn_Hau_vn:0 "Hậu" #後
+# Hmong
+ dynn_Cha:0 "Cha" #張
+ dynn_Cheng:0 "Cheng" #陳
+ dynn_Chue:0 "Chue" #楚
+ dynn_Hang:0 "Hang" #項
+ dynn_Her:0 "Her" #侯
+ dynn_Khang:0 "Khang" #康
+ dynn_Lor:0 "Lor" #劉
+ dynn_Moua:0 "Moua" #馬
+ dynn_Phang:0 "Phang" #潘
+ dynn_Thao:0 "Thao" #陶
+ dynn_Vue:0 "Vue" #吳
+ dynn_Xiong:0 "Xiong" #熊
+ dynn_Vang:0 "Vang" #楊
+#Khitan
+ dynn_Yaonian:0 "Yaonian" #遙輦氏
+#Formosan
+ dynn_Abaw:0 "Abaw"
+ dynn_Abing:0 "Abing"
+ dynn_Abis:0 "Abis"
+ dynn_Abus:0 "Abus"
+ dynn_Aking:0 "Aking"
+ dynn_Akuy:0 "Akuy"
+ dynn_Alang:0 "Alang"
+ dynn_Alo:0 "Alo"
+ dynn_Along:0 "Along"
+ dynn_Aman:0 "Aman"
+ dynn_Atung:0 "Atung"
+ dynn_Awi:0 "Awi"
+ dynn_Ba_uy:0 "Ba uy"
+ dynn_Bagah:0 "Bagah"
+ dynn_Balung:0 "Balung"
+ dynn_Banah:0 "Banah"
+ dynn_Bangay:0 "Bangay"
+ dynn_Batu:0 "Batu"
+ dynn_Bayan:0 "Bayan"
+ dynn_Behuy:0 "Behuy"
+ dynn_Bekuw:0 "Bekuw"
+ dynn_Bonay:0 "Bonay"
+ dynn_Botu:0 "Botu"
+ dynn_Bsyal:0 "Bsyal"
+ dynn_Bsyaw:0 "Bsyaw"
+ dynn_Bulang:0 "Bulang"
+ dynn_Buta:0 "Buta"
+ dynn_Buzyung:0 "Buzyung"
+ dynn_Buzyuw:0 "Buzyuw"
+ dynn_Cibi:0 "Cibi"
+ dynn_Cihung:0 "Cihung"
+ dynn_Dangaw:0 "Dangaw"
+ dynn_Gorow:0 "Gorow"
+ dynn_Habik:0 "Habik"
+ dynn_Hakaw:0 "Hakaw"
+ dynn_Halus:0 "Halus"
+ dynn_Harung:0 "Harung"
+ dynn_Hazyung:0 "Hazyung"
+ dynn_Hetay:0 "Hetay"
+ dynn_Hobing:0 "Hobing"
+ dynn_Hola:0 "Hola"
+ dynn_Iban:0 "Iban"
+ dynn_Ibang:0 "Ibang"
+ dynn_Ibuh:0 "Ibuh"
+ dynn_Ici:0 "Ici"
+ dynn_Icing:0 "Icing"
+ dynn_Ikaw:0 "Ikaw"
+ dynn_Ilung:0 "Ilung"
+ dynn_Kahuy:0 "Kahuy"
+ dynn_Kalat:0 "Kalat"
+ dynn_Kalaw:0 "Kalaw"
+ dynn_Kaman:0 "Kaman"
+ dynn_Kamit:0 "Kamit"
+ dynn_Kawas:0 "Kawas"
+ dynn_Lihaw:0 "Lihaw"
+ dynn_Lowking:0 "Lowking"
+ dynn_Lowsi:0 "Lowsi"
+ dynn_Lowsing:0 "Lowsing"
+ dynn_Masang:0 "Masang"
+ dynn_Masaw:0 "Masaw"
+ dynn_Masing:0 "Masing"
+ dynn_Mowna:0 "Mowna"
+ dynn_Pasng:0 "Pasng"
+ dynn_Patung:0 "Patung"
+ dynn_Paydang:0 "Paydang"
+ dynn_Piling:0 "Piling"
+ dynn_Pirang:0 "Pirang"
+ dynn_Piring:0 "Piring"
+ dynn_Pisaw:0 "Pisaw"
+ dynn_Qoyaw:0 "Qoyaw"
+ dynn_Sibal:0 "Sibal"
+ dynn_Sibuy:0 "Sibuy"
+ dynn_Siyat:0 "Siyat"
+ dynn_Sring:0 "Sring"
+ dynn_Sukang:0 "Sukang"
+ dynn_Supih:0 "Supih"
+ dynn_Tadaw:0 "Tadaw"
+ dynn_Tahus:0 "Tahus"
+ dynn_Tanah:0 "Tanah"
+ dynn_Taru:0 "Taru"
+ dynn_Teykung:0 "Teykung"
+ dynn_Teylung:0 "Teylung"
+ dynn_Teymu:0 "Teymu"
+ dynn_Karewan:0 "Karewan"
+ dynn_Kilanvuran:0 "Kilanvuran"
+ dynn_Kirippoan:0 "Kirippoan"
+ dynn_Kiriptan:0 "Kiriptan"
+ dynn_Kivuran:0 "Kivuran"
+ dynn_Kivurao:0 "Kivurao"
+ dynn_Linao:0 "Linao"
+ dynn_Malavuyan:0 "Malavuyan"
+ dynn_Marin:0 "Marin"
+ dynn_Moatsittenrok:0 "Moatsittenrok"
+ dynn_Namtarin:0 "Namtarin"
+ dynn_Pairi:0 "Pairi"
+ dynn_Panaut:0 "Panaut"
+ dynn_Porosinaoan:0 "Porosinaoan"
+ dynn_Qau-qua-a:0 "Qau-qua-a"
+ dynn_Raorao:0 "Raorao"
+ dynn_Raorao-a:0 "Raorao-a"
+ dynn_Ritakkan:0 "Ritakkan"
+ dynn_Sahun:0 "Sahun"
+ dynn_Sinahan:0 "Sinahan"
+ dynn_Sinarohan:0 "Sinarohan"
+ dynn_Tamayan:0 "Tamayan"
+ dynn_Tanangan:0 "Tanangan"
+ dynn_Tanavi:0 "Tanavi"
+ dynn_Tautau:0 "Tautau"
+ dynn_Torobiwan:0 "Torobiwan"
+ dynn_Torogan:0 "Torogan"
+ dynn_Ttenamoarak:0 "Ttenamoarak"
+ dynn_Ttentsurikan:0 "Ttentsurikan"
+ dynn_Tupayap:0 "Tupayap"
+ dynn_Tuvigan:0 "Tuvigan"
+ dynn_Tuvihok:0 "Tuvihok"
+ dynn_Tuvituvi:0 "Tuvituvi"
+ dynn_Tuvuran:0 "Tuvuran"
+ dynn_Varivuhan:0 "Varivuhan"
+ dynn_Vuyen:0 "Vuyen"
+ dynn_Wai-a-wai:0 "Wai-a-wai"
+ dynn__Oros:0 "Oros"
+ dynn_Cepo_:0 "Cepo"
+ dynn_Ci_okakay:0 "Ci okakay"
+ dynn_Ci_oporan:0 "Ci oporan"
+ dynn_Cialiakof:0 "Cialiakof"
+ dynn_Ciarongan:0 "Ciarongan"
+ dynn_Cikatopay:0 "Cikatopay"
+ dynn_Cilangasan:0 "Cilangasan"
+ dynn_Cipi_iwan:0 "Cipi iwan"
+ dynn_Ciwidian:0 "Ciwidian"
+ dynn_Conang:0 "Conang"
+ dynn_Fafokod:0 "Fafokod"
+ dynn_Fafoyol:0 "Fafoyol"
+ dynn_Faliyol:0 "Faliyol"
+ dynn_Fasay:0 "Fasay"
+ dynn_Firangan:0 "Firangan"
+ dynn_Fitlol:0 "Fitlol"
+ dynn_Inakawaro:0 "Inakawaro"
+ dynn_Inaran:0 "Inaran"
+ dynn_Inatol:0 "Inatol"
+ dynn_Kakitolo:0 "Kakitolo"
+ dynn_Kakopa:0 "Kakopa"
+ dynn_Kinafokang:0 "Kinafokang"
+ dynn_Kiwit:0 "Kiwit"
+ dynn_Koralan:0 "Koralan"
+ dynn_Malolang:0 "Malolang"
+ dynn_Marongarong:0 "Marongarong"
+ dynn_Monali_:0 "Monali"
+ dynn_Nalasongan:0 "Nalasongan"
+ dynn_Nalongalan:0 "Nalongalan"
+ dynn_Naparawan:0 "Naparawan"
+ dynn_Pa_anrifong:0 "Pa anrifong"
+ dynn_Pacidal:0 "Pacidal"
+ dynn_Paotawan:0 "Paotawan"
+ dynn_Papiyan:0 "Papiyan"
+ dynn_Picora_ay:0 "Picora ay"
+ dynn_Raranges:0 "Raranges"
+ dynn_Richo:0 "Richo"
+ dynn_Sadipongan:0 "Sadipongan"
+ dynn_Sapiyat:0 "Sapiyat"
+ dynn_Sariyol:0 "Sariyol"
+ dynn_Siracay:0 "Siracay"
+ dynn_Talakop:0 "Talakop"
+ dynn_Tarisakan:0 "Tarisakan"
+ dynn_Katafadu:0 "Katafadu"
+ dynn_Sinawanan:0 "Sinawanan"
+ dynn_Kapamumu:0 "Kapamumu"
+ dynn_Kahihian:0 "Kahihian"
+ dynn_Tamarutaw:0 "Tamarutaw"
+ dynn_Tanakjunan:0 "Tanakjunan"
+ dynn_Sapit:0 "Sapit"
+ dynn_Lhkashnawanan:0 "Lhkashnawanan"
+ dynn_Lhkatafatu:0 "Lhkatafatu"
+ dynn_Lhkpamumu:0 "Lhkpamumu"
+ dynn_Lhkahihian:0 "Lhkahihian"
+ dynn_Lhkatanamarutaw:0 "Lhkatanamarutaw"
+ dynn_Tanakyuwan:0 "Tanakyuwan"
+ dynn_Shapiz:0 "Shapiz"
+ dynn_Aban:0 "Aban"
+ dynn_Abas:0 "Abas"
+ dynn_Abi:0 "Abi"
+ dynn_Abut:0 "Abut"
+ dynn_Ado:0 "Ado"
+ dynn_Akam:0 "Akam"
+ dynn_Akim:0 "Akim"
+ dynn_Akiuk:0 "Akiuk"
+ dynn_Akiwg:0 "Akiwg"
+ dynn_Akot:0 "Akot"
+ dynn_Alas:0 "Alas"
+ dynn_Amon:0 "Amon"
+ dynn_Amoy:0 "Amoy"
+ dynn_Amui:0 "Amui"
+ dynn_Anai:0 "Anai"
+ dynn_Anen:0 "Anen"
+ dynn_Angyaw:0 "Angyaw"
+ dynn_Aniy:0 "Aniy"
+ dynn_Api:0 "Api"
+ dynn_Aring:0 "Aring"
+ dynn_Awa:0 "Awa"
+ dynn_Awn:0 "Awn"
+ dynn_Bedi:0 "Bedi"
+ dynn_Bedie:0 "Bedie"
+ dynn_Cih:0 "Cih"
+ dynn_Cihek:0 "Cihek"
+ dynn_Cinaw:0 "Cinaw"
+ dynn_Dau:0 "Dau"
+ dynn_Doci:0 "Doci"
+ dynn_Dongi:0 "Dongi"
+ dynn_Fadah:0 "Fadah"
+ dynn_Fahi:0 "Fahi"
+ dynn_Forayan:0 "Forayan"
+ dynn_Gogoz:0 "Gogoz"
+ dynn_Hafad:0 "Hafad"
+ dynn_Hongay:0 "Hongay"
+ dynn_Ibun:0 "Ibun"
+ dynn_Imui:0 "Imui"
+ dynn_Ing:0 "Ing"
+ dynn_Ipai:0 "Ipai"
+ dynn_Ipal:0 "Ipal"
+ dynn_Iun:0 "Iun"
+ dynn_Iung:0 "Iung"
+ dynn_Kaliting:0 "Kaliting"
+ dynn_Kamid:0 "Kamid"
+ dynn_Kating:0 "Kating"
+ dynn_Kimrui:0 "Kimrui"
+ dynn_Kolang:0 "Kolang"
+ dynn_Kufi:0 "Kufi"
+ dynn_Kuhap:0 "Kuhap"
+ dynn_Kulan:0 "Kulan"
+ dynn_Lahok:0 "Lahok"
+ dynn_Lakaw:0 "Lakaw"
+ dynn_Lamen:0 "Lamen"
+ dynn_Lapas:0 "Lapas"
+ dynn_Lifok:0 "Lifok"
+ dynn_Lisin:0 "Lisin"
+ dynn_Lpay:0 "Lpay"
+ dynn_Lumsan:0 "Lumsan"
+ dynn_Malai:0 "Malai"
+ dynn_Malay:0 "Malay"
+ dynn_Miko:0 "Miko"
+ dynn_Monoh:0 "Monoh"
+ dynn_Mulai:0 "Mulai"
+ dynn_Nakaw:0 "Nakaw"
+ dynn_Nanip:0 "Nanip"
+ dynn_Ngaday:0 "Ngaday"
+ dynn_Nikar:0 "Nikar"
+ dynn_Paisig:0 "Paisig"
+ dynn_Panai:0 "Panai"
+ dynn_Panay:0 "Panay"
+ dynn_Pelac:0 "Pelac"
+ dynn_Pipis:0 "Pipis"
+ dynn_Piyac:0 "Piyac"
+ dynn_Piyaw:0 "Piyaw"
+ dynn_Pohay:0 "Pohay"
+ dynn_Raciyn:0 "Raciyn"
+ dynn_Rakah:0 "Rakah"
+ dynn_Rapih:0 "Rapih"
+ dynn_Rongac:0 "Rongac"
+ dynn_Sako:0 "Sako"
+ dynn_Saku:0 "Saku"
+ dynn_Sanay:0 "Sanay"
+ dynn_Saomah:0 "Saomah"
+ dynn_Sapak:0 "Sapak"
+ dynn_Sawmar:0 "Sawmar"
+ dynn_Saytay:0 "Saytay"
+ dynn_Siku:0 "Siku"
+ dynn_Sokedi:0 "Sokedi"
+ dynn_Subbed:0 "Subbed"
+ dynn_Sunay:0 "Sunay"
+ dynn_Tamen:0 "Tamen"
+ dynn_Taray:0 "Taray"
+ dynn_Tebie:0 "Tebie"
+ dynn_Tingas:0 "Tingas"
+ dynn_Tipos:0 "Tipos"
+ dynn_Tiupa:0 "Tiupa"
+ dynn_Tolakon:0 "Tolakon"
+ dynn_Tyatai:0 "Tyatai"
+ dynn_Ugas:0 "Ugas"
+ dynn_Ukis:0 "Ukis"
+ dynn_Umus:0 "Umus"
+ dynn_Unus:0 "Unus"
+ dynn_Upa:0 "Upa"
+ dynn_Uruk:0 "Uruk"
+ dynn_Usay:0 "Usay"
+ dynn_Usin:0 "Usin"
+ dynn_Waday:0 "Waday"
+ dynn_Wongay:0 "Wongay"
+ dynn_Yos:0 "Yos"
+ dynn_Yot:0 "Yot"
+ dynn_Zinai:0 "Zinai"

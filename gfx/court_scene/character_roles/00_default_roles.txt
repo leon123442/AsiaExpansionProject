@@ -52,7 +52,8 @@ ruler = {
 			if = {
 				limit = { 
 					OR = {
-						in_activity_type = activity_hold_court
+						# Check variable instead
+						has_character_flag = holding_court_character_flag
 						is_available = yes
 					}
 					age >= 4
@@ -69,7 +70,7 @@ ruler = {
 	# instead we use animation specific to the throne entity
 	# see game/gfx/court_scene/throne_animations/throne_animations.txt
 	scripted_animation = {
-		animation = throne_room_kneel_1
+		animation = throne_room_ruler
 	}
 }
 

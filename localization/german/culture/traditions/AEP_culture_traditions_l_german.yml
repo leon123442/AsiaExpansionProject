@@ -1,0 +1,15 @@
+﻿l_german:
+ tradition_angkorian_architecture_name:0 "Angkorianische Architektur"
+ tradition_angkorian_architecture_desc:1 "Für diese Kultur ist der Bau von Tempeln der direkteste Weg zum Göttlichen. Von leidenschaftlichen Herrschern wird erwartet, dass sie viele und großartige Tempel bauen."
+ tradition_austronesian_seafarers_name:0 "Austronesische Seefahrer"
+ tradition_austronesian_seafarers_desc:0 "Reisen über die Meere, die für ihre großartigen Navigationstechnologien bekannt sind, sind ein Erbe, das stolz von den Nachkommen austronesischer Seefahrer weitergegeben wird."
+ tradition_chinese_characters_name:0 "Chinesische Schrift"
+ tradition_chinese_characters_desc:0 "Die Literaten dieser Kultur verwenden chinesische Schriftzeichen oder Hanzi, die eine robuste wissenschaftliche und literarische Tradition aufweisen, die bis ins 27. Jahrhundert v. Chr. zurückreicht."
+ tradition_migratory_name:0 "Wandernd"
+ tradition_migratory_desc:0 "Diese Kultur ist nomadisch, daran gewöhnt, regelmäßig von Ort zu Ort zu ziehen, und kann benachbarten Herrschern den Krieg erklären, um ihren Stamm umzusiedeln."
+ 
+ # Tradition effects - Base Title
+ culture_parameter_can_enact_single_heir_succession_law:0 "Kann die #single $single_heir_succession_law$#! [succession_law|E]"
+ culture_parameter_enable_baray_duchy_building:0 "Herrscher können das #high $building_type_baray_01$#! [duchy_building|E] errichten"
+ culture_parameter_enable_migration_cb:0 "Schaltet den Wandernden [casus_belli|E] frei"
+ 

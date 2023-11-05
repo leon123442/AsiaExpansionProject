@@ -1,0 +1,54 @@
+﻿l_spanish:
+ #Tribal Era
+ culture_parameter_unlock_maa_samurai:0 "Puede reclutar [GetMaA('samurai').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_emishi:0 "Puede reclutar [GetMaA('emishi_riders').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_han:0 "Puede reclutar [GetMaA('chinese_pikemen').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_khitan:0 "Puede reclutar [GetMaA('heavy_khitan_cavalry').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_hwarang:0 "Puede reclutar [GetMaA('hwarang').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_gaemamusa:0 "Puede reclutar [GetMaA('gaemamusa').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_luojuzi:0 "Puede reclutar [GetMaA('luojuzi').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_ksatra:0 "Puede reclutar [GetMaA('ksatra').GetName] como [men_at_arms|E]"
+
+ #Military
+ tradition_samurai_spirit_name:0 "Samurai" #侍
+ tradition_samurai_spirit_desc:0 "Los samuráis son la clase guerrera de élite de Japón y siguen un estricto código guerrero más tarde conocido como Bushidō, que enfatiza nociones como la sinceridad, el coraje marcial y la lealtad al señor supremo hasta la muerte."
+ samurai:0 "Samurai" #騎士
+ samurai_flavor:0 "Con una disciplina excepcional y un riguroso entrenamiento en las artes de la equitación y el tiro con arco, estos guerreros encarnan la quintaesencia del ideal guerrero japonés."
+ sohei:0 "Sōhei" #僧兵
+ sohei_flavor:0 "Los Sōhei (literalmente, monjes guerreros) surgieron durante el Período Heian debido al declive de la autoridad centralizada. Su destreza marcial, junto con su celo, han llevado a que los Sōhei sean temidos y respetados en todo Japón."
+ 
+ tradition_emishi_riders_name:0 "Jinetes emishi" #蝦夷騎
+ tradition_emishi_riders_desc:0 "Los Emishi son reconocidos como magníficos jinetes cuya ferocidad los ha llevado a la victoria en muchas batallas a pesar de ser superados en número."
+ emishi_riders:0 "Jinetes emishi" #蝦夷騎
+ emishi_riders_flavor:0 "Los Emishi son reconocidos como magníficos jinetes cuya ferocidad los ha llevado a la victoria en muchas batallas a pesar de ser superados en número."
+ 
+ tradition_chinese_pikemen_name:0 "Piqueros chinos" #戟歩兵
+ tradition_chinese_pikemen_desc:0 "Estos piqueros vestidos con armadura y equipados con la lanza Ji constituyen la columna vertebral de cualquier ejército chino."
+ chinese_pikemen:0 "Piqueros chinos" #戟歩兵
+ chinese_pikemen_flavor:0 "Estos piqueros blindados equipados con la lanza Ji forman la columna vertebral de cualquier ejército chino."
+ 
+ tradition_khitan_heavy_cavalry_name:0 "Caballería pesada khitan" #契丹鎧骑兵
+ tradition_khitan_heavy_cavalry_desc:0 "Los khitanos son famosos por su caballería pesada, cuya destreza en el combate los ha llevado a salir victoriosos en muchas batallas con sus vecinos."
+ heavy_khitan_cavalry:0 "Caballería pesada khitan" #契丹鎧骑兵
+ heavy_khitan_cavalry_flavor:0 "Los khitanos son famosos por su caballería pesada, cuya destreza en el combate los ha llevado a salir victoriosos en muchas batallas con sus vecinos."
+ 
+ tradition_hwarang_name:0 "Caballeros florecientes" #화랑/花郞
+ tradition_hwarang_desc:0 "Los Hwarang (literalmente, Caballeros Florecientes) eran una clase guerrera de élite de jóvenes varones de Silla conocidos por su belleza física excepcional y su extenso entrenamiento en diversos campos, desde administrativos hasta militares. Sirvieron como modelos de virtud dentro de la sociedad de Sillan, ejemplificando los valores de lealtad, valentía y rectitud, y demostraron una devoción fanática a su soberano."
+ hwarang:0 "Hwarang" #화랑/花郞
+ hwarang_flavor:0 "Reconocidos por su excepcional belleza, pericia militar y su inquebrantable devoción al rey, estos inexorables guerreros lucharán hasta el último hombre."
+ 
+ tradition_gaemamusa_name:0 "Gaemamusa" #개마무사/鎧馬武士
+ tradition_gaemamusa_desc:0 "Gaemamusa comprendía la fuerza de caballería de élite de Goguryeo y desempeñó un papel fundamental en las conquistas de la nación. Reconocidos por su imponente armadura y las ornamentadas plumas que adornan la parte trasera de la armadura de sus caballos, se destacaron como algunas de las tropas de caballería mejor equipadas en el este de Asia."
+ gaemamusa:0 "Gaemamusa" #개마무사/鎧馬武士
+ gaemamusa_flavor:0 "Distinguidos por sus plumas ornamentadas y armaduras pesadas, los Gaemamusa se destacan como una de las fuerzas de caballería más impresionantes del este de Asia."
+ 
+ tradition_tiger_sons_name:0 "Sonidos de tigre"
+ tradition_tiger_sons_desc:0 "Los Tiger Sons, o Luojuzi, formaron el núcleo de élite del ejército de Nanzhao y fueron elegidos solo entre los guerreros más fuertes. La cobardía no era tolerada entre los Luojuzi, y la retirada se castigaba con la muerte."
+ luojuzi:0 "Luojuzi" #罗苴子
+ luojuzi_flavor:0 "Los Tiger Sons, o Luojuzi, formaron el núcleo de élite del ejército de Nanzhao y fueron elegidos solo entre los guerreros más fuertes. La cobardía no era tolerada entre los Luojuzi, y la retirada se castigaba con la muerte."
+ 
+ tradition_warrior_caste_name:0 "Kṣatrá" #ក្សត្រ
+ tradition_warrior_caste_desc:0 "Los kṣatrá eran la aristocracia guerrera del Imperio Khmer y eran bien conocidos por su destreza en el combate."
+ ksatra:0 "Kṣatrá" #ក្សត្រ
+ ksatra_flavor:0 "Los kṣatrá eran la aristocracia guerrera del Imperio Khmer y eran bien conocidos por su destreza en el combate."
+ 

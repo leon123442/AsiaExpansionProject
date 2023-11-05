@@ -214,7 +214,7 @@ entity = {
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
 			soundparameter = {"props_wood_metal" = 0.0 }
-			soundparameter = {"weapon_axe_mace_sword" = 1.0 }
+			soundparameter = {"weapon_axe_mace_sword" = 0.0 }
 			sound = {soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_combat_even_seq_1_defensive"}
 		}
 	}
@@ -229,7 +229,7 @@ entity = {
 			time = 0.0 
 			soundparameter = {"tier_unit_armourlayer_fullplate" = 0.0 } 
 			soundparameter = {"props_wood_metal" = 0.0 }
-			soundparameter = {"weapon_axe_mace_sword" = 1.0 }
+			soundparameter = {"weapon_axe_mace_sword" = 0.0 }
 			sound = {soundeffect = "event:/SFX/Animations/Units/Infantry/sfx_anim_unit_infantry_combat_winlose_seq_1_offensive"}
 		}
 	}
@@ -421,4 +421,3 @@ entity = {
 
 	}
 }
-

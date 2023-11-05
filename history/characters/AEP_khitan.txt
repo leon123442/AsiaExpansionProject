@@ -1,0 +1,94 @@
+﻿##############################
+### House of Yaonian 遥辇氏 ###
+##############################
+
+4550008 = {
+	name = Yelan # 耶谰
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	800.1.1 = { #date unknown
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+4550007 = {
+	name = Xianzhi # 鮮質
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	father = 4550008
+	822.1.1 = { #date unknown
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+yaonian_tila = {
+	name = Tila # 敵剌
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	father = 4550008
+	826.1.1 = { #date unknown
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+yaonian_yanmujin = {
+	name = Yanmujin # 巖母斤
+	female = yes
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	trait = mystic_2
+	father = yaonian_tila
+	848.1.1 = { #date unknown
+		birth = yes
+	}
+	867.1.1 = {
+		religion = zenzong
+	}
+	907.1.1 = {
+		name = Xuanjian
+	}
+	933.12.18 = {
+		death = yes
+	}
+}
+4550010 = {
+	name = Saladi # 撒剌的
+	dynasty = 1045082 # Yelü Dynasty
+	religion = zenzong
+	culture = khitan
+	trait = brave
+	trait = education_martial_3
+	848.1.1 = {
+		birth = yes
+	}
+	867.1.1 = {
+		add_spouse = yaonian_yanmujin
+	}
+	901.1.1 = {
+		death = yes
+	}
+	dna = yelu_saladi_dna_entry
+}
+4550009 = {
+	name = Hendeji # 痕德廑
+	dynasty = 46600007
+	religion = tengri_pagan
+	culture = khitan
+	father = 4550007 # Xianzhi Khaghan
+	844.1.1 = { #date unknown
+		birth = yes
+	}
+	906.1.1 = {
+		death = yes
+	}
+}

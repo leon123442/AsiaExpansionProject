@@ -1,0 +1,15 @@
+﻿l_french:
+ tradition_angkorian_architecture_name:0 "Architecture angkorienne"
+ tradition_angkorian_architecture_desc:1 "Cette culture trouve que la construction de temples est le chemin le plus direct vers le divin. On s'attend à ce que les dirigeants fervents construisent de nombreux temples grandioses."
+ tradition_austronesian_seafarers_name:0 "Marins Austronésiens"
+ tradition_austronesian_seafarers_desc:0 "Connus pour leurs grandes technologies de navigation, les voyages à travers les mers sont un héritage fièrement transmis par les descendants des marins austronésiens."
+ tradition_chinese_characters_name:0 "Caractères chinois"
+ tradition_chinese_characters_desc:0 "Les lettrés de cette culture utilisent les caractères chinois, ou Hanzi, qui se targuent d'une solide tradition savante et littéraire remontant au 27ème siècle avant JC."
+ tradition_migratory_name:0 "Migratoire"
+ tradition_migratory_desc:0 "Cette culture est nomade, habituée à se déplacer régulièrement d'un endroit à l'autre, et peut déclarer la guerre aux dirigeants voisins pour réinstaller leur tribu."
+ 
+ # Tradition effects - Base Title
+ culture_parameter_can_enact_single_heir_succession_law:0 "Peut promulguer le #single $single_heir_succession_law$#! [succession_law|E]"
+ culture_parameter_enable_baray_duchy_building:0 "Les dirigeants peuvent construire le #high $building_type_baray_01$#! [duchy_building|E]"
+ culture_parameter_enable_migration_cb:0 "Débloque le [casus_belli|E] Migratoire"
+ 

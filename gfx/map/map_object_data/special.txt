@@ -129,6 +129,16 @@ object={
 	count=0
 }
 object={
+	name="special_kyoto_imperial_palace"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_kyoto_palace_mesh"
+	count=1
+	transform="9340.426758 0.000000 2796.878418 0.000000 -0.071838 0.000000 0.997416 0.738826 0.738826 0.738826
+"}
+object={
 	name="special_notre_dame"
 	clamp_to_water_level=no
 	render_under_water=yes

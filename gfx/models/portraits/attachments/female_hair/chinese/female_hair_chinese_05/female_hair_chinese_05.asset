@@ -1,10 +1,6 @@
 pdxmesh = {
 	name = "female_hair_chinese_05_mesh"
 	file = "female_hair_chinese_05.mesh"
-	
-	blend_shape = { id = "female_hair_chinese_05_bs_crown"				type = "female_hair_chinese_05_bs_crown.mesh" }
-	blend_shape = { id = "female_hair_chinese_05_bs_cap"				type = "female_hair_chinese_05_bs_cap.mesh" }
-	
 
 	meshsettings = {
 		name = "female_hair_chinese_05Shape"
@@ -21,10 +17,6 @@ pdxmesh = {
 entity = {
 	name = "female_hair_chinese_05_entity"
 	pdxmesh = "female_hair_chinese_05_mesh"
-	
-	
-	attribute = { name = "bs_crown"								blend_shape = "female_hair_chinese_05_bs_crown" }
-	attribute = { name = "bs_cap"								blend_shape = "female_hair_chinese_05_bs_cap" }
 	
 	game_data = {
 		portrait_entity_user_data = {

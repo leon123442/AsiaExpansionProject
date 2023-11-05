@@ -1,0 +1,626 @@
+e_grand_liao = {
+	916.1.1 = {
+		holder = 194325
+	}
+	926.9.6 = {
+		holder = 194326
+	}
+	947.5.18 = {
+		holder = 194328
+	}
+	951.10.7 = {
+		holder = 194329
+	}
+	969.3.12 = {
+		holder = 194330
+	}
+	982.10.13 = {
+		holder = 194331
+	}
+	1031.6.25 = {
+		holder = 194332
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+
+k_tengri = {
+	867.1.1 = { change_development_level = 2 }
+    1066.1.1 = { change_development_level = 4 }
+}
+
+d_yijinai = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_wuluhai = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_zhenfan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_zhenfan = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+c_tiandejun = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_midsurrended = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+	
+	1065.1.1 = {
+		holder = zhenwu_placeholder_002
+	}
+}
+c_mogols = {
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = "e_grand_liao"
+	}
+	
+	1065.1.1 = {
+		holder = fengzhou_placeholder_002
+		government = tribal_government
+	}
+	1070.1.1 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	#Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+	
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		holder = 0
+	}
+}
+c_chanyufu = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_xuandezhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_shengzhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_hiyaxu = {
+    867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	907.1.1 = {
+		holder = 194325 #Abaoji
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+d_fengzhou = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_kirghiz_khanate
+	}
+	
+	866.1.1 = {
+		holder = fengzhou_placeholder_001
+		government = tribal_government
+	}
+	910.1.1 = {
+		holder = 0
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = "e_grand_liao"
+	}
+	
+	1065.1.1 = {
+		holder = fengzhou_placeholder_002
+		government = tribal_government
+	}
+	1070.1.1 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	#Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+	
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		holder = 0
+	}
+}
+d_zhenwu = {
+	866.1.1 = {
+		holder = zhenwu_placeholder_001
+		liege = "e_kirghiz_khanate"
+	}
+	910.1.1 = {
+		holder = 0
+	}
+	1065.1.1 = {
+		holder = zhenwu_placeholder_002
+		liege = "e_grand_liao"
+	}
+}
+d_changchun = { 
+	1066.1.1 = { change_development_level = 8 }
+	
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+d_hejes = {
+	867.1.1 = { change_development_level = 2 }
+    1066.1.1 = { change_development_level = 4 }
+	
+	1066.1.1 = {
+		holder = hejes_placeholder_001
+		liege = "e_grand_liao"
+	}
+}
+
+
+
+#k_jubu
+d_karat = {
+	#Kirghiz khanate
+	840.1.2 = {
+		liege = e_kirghiz_khanate
+	}
+	
+	#867
+	848.1.2 = {
+		holder = 303220		#fictional Jakha Khereid
+		government = tribal_government
+	}
+	867.6.23 = {
+		holder = 303222		#fictional Yula_Mangus Khereid
+	}
+	
+	#End of Kirghiz Khanate
+	925.1.2 = {
+		liege = 0
+	}
+	
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = "e_grand_liao"
+	}
+	
+	#1066
+	1057.1.2 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	#Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+	
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		holder = 0
+	}
+}
+c_karat = {
+	#867
+	848.1.2 = {
+		liege = d_ovorkhangai
+		holder = 303220		#fictional Jakha Khereid
+		government = tribal_government
+	}
+	867.6.23 = {
+		holder = 303222		#fictional Yula_Mangus Khereid
+	}
+	1057.1.2 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	##Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	
+	1125.3.26 = {
+		holder = 303209		#Kurchakus
+	}
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		liege = d_otuken
+		holder = 125501		#Genghis Khan
+	}
+}
+c_tarqan = {
+	#867
+	848.1.2 = {
+		liege = d_ovorkhangai
+		holder = 303220		#fictional Jakha Khereid
+		government = tribal_government
+	}
+	867.6.23 = {
+		holder = 303222		#fictional Yula_Mangus Khereid
+	}
+	
+	#1066
+	1057.1.2 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	#Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		liege = d_otuken
+		holder = 125501		#Genghis Khan
+	}
+}
+d_murin = {
+	867.1.1 = { change_development_level = 2 }
+    1066.1.1 = { change_development_level = 4 }
+	
+	840.1.2 = {
+		holder = 303238		#fictional Uzur Enisey Kyrgyz
+		government = tribal_government
+	}
+	871.8.19 = {
+		holder = 0
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+c_murin = {
+	#867
+	848.1.2 = {
+		liege = d_ovorkhangai
+		holder = 303220		#fictional Jakha Khereid
+		government = tribal_government
+	}
+	867.6.23 = {
+		holder = 303222		#fictional Yula_Mangus Khereid
+	}
+	
+	#1066
+	1057.1.2 = {
+		holder = 303226		#fictional Inanch Khereid
+	}
+	
+	#Start of somewhat Historical records
+	1083.1.2 = {
+		holder = 303208		#Margus Buyuruk
+	}
+	1100.1.2 = {
+		holder = 303209		#Kurchakus
+	}
+	1155.1.2 = {
+		holder = 303207		#Elijai
+	}
+	1165.1.2 = {
+		holder = 303211		#Togrul "Wang Khan"
+	}
+	
+	#Keraits defeated by the mongols
+	1203.1.2 = {
+		liege = d_otuken
+		holder = 125501		#Genghis Khan
+	}
+}
+d_khiyat = {
+	866.1.1 = {
+		holder = khiyat_placeholder_001
+		liege = "e_kirghiz_khanate"
+	}
+	1066.1.1 = {
+		holder = khiyat_placeholder_002
+		liege = "e_grand_liao"
+	}
+}
+d_Luju = {
+	866.1.1 = {
+		holder = Luju_placeholder_001
+		liege = "e_kirghiz_khanate"
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+c_khatan = {
+	1066.1.1 = {
+		holder = khiyat_placeholder_002
+	}
+}
+c_luqu_valley = {
+	1066.1.1 = {
+		holder = khiyat_placeholder_002
+	}
+}
+c_bayanterm = {
+	1066.1.1 = {
+		holder = holon_placeholder_001
+	}
+}
+d_teriqan = {
+	866.1.1 = {
+		holder = teriqan_placeholder_001
+		liege = "e_kirghiz_khanate"
+	}
+}
+c_teriqan = {
+	1066.1.1 = {
+		holder = holon_placeholder_001
+	}
+}
+c_manglai = {
+	1066.1.1 = {
+		holder = hejes_placeholder_001
+	}
+}
+d_holon = {
+	840.1.2 = {
+		holder = 303238		#fictional Uzur Enisey Kyrgyz
+		government = tribal_government
+	}
+	871.8.19 = {
+		holder = 0
+	}
+	1066.1.1 = {
+		holder = holon_placeholder_001
+		liege = "e_grand_liao"
+	}
+}
+c_holonnor = {
+	866.1.1 = {
+		holder = Luju_placeholder_001
+	}
+}
+c_buyur = {
+	866.1.1 = {
+		holder = teriqan_placeholder_001
+	}
+}
+
+d_onon = {
+	866.1.1 = {
+		holder = onon_placeholder_001
+		liege = "e_kirghiz_khanate"
+	}
+	1066.1.1 = {
+		holder = onon_placeholder_002
+		liege = e_grand_liao
+	}
+}
+
+c_argun = {
+	1066.1.1 = {
+		holder = onon_placeholder_002
+		liege = e_grand_liao
+	}
+}
+
+c_julop = {
+	866.1.1 = {
+		holder = julop_placeholder_001
+	}
+	1066.1.1 = {
+		holder = julop_placeholder_002
+	}
+}
+
+# Dongyi
+d_xarmoron = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	842.1.1 = {
+		holder = 4550008 #Yaonian Yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khan
+	}
+	882.1.1 = {
+		holder = 4550009 #Dejin Khan
+	}
+	907.1.1 = {
+		holder = 194325 #Yelü Abaoji
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+c_yikun = {
+	842.1.1 = {
+		holder = 4550008 #Yaonian Yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khan
+	} 
+	882.1.1 = {
+		holder = 4550009 #Dejin Khan
+	}
+	907.1.1 = {
+		holder = 194325 #Yelü Abaoji
+	}
+}
+c_longhua = {
+	842.1.1 = {
+		holder = 4550008 #Yaonian Yelan
+	}
+	860.1.1 = {
+		holder = 4550007 #Xianzhi Khan
+	} 
+	882.1.1 = {
+		holder = 4550009 #Dejin Khan
+	}
+	907.1.1 = {
+		holder = 194325 #Yelü Abaoji
+	}
+}
+c_wulv = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+}
+d_tohchen = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	907.1.1 = {
+		holder = 194325 #Yelü Abaoji
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}
+c_dading = {
+	867.1.1 = { change_development_level = 6 } 
+	1066.1.1 = { change_development_level = 18 }
+	
+	867.1.1 = {
+		holder = 4550010 #Yelü Saladi
+		liege = "k_khitan"
+	}
+	901.1.1 = {
+		holder = 194325 #Yelü Abaoji
+		liege = "k_khitan"
+	}
+}
+c_beian = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	907.1.1 = {
+		holder = 194325 #Yelü Abaoji
+	}
+}
+c_changchun = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 14 }
+	
+	860.1.1 = {
+		holder = changchun_placeholder_001
+	}
+}
+c_ningzhou_khitan = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	860.1.1 = {
+		holder = ningzhou_placeholder_001
+	}
+}
+c_degere = { 
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	860.1.1 = {
+		holder = degere_placeholder_001
+	}
+	916.1.1 = {
+		holder = 194325
+	}
+	926.9.6 = {
+		holder = 194326
+	}
+	947.5.18 = {
+		holder = 194328
+	}
+	951.10.7 = {
+		holder = 194329
+	}
+	969.3.12 = {
+		holder = 194330
+	}
+	982.10.13 = {
+		holder = 194331
+	}
+	1031.6.25 = {
+		holder = 194332
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+}

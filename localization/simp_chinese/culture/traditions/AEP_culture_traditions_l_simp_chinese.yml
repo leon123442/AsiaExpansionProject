@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ tradition_angkorian_architecture_name:0 "吴哥建筑"
+ tradition_angkorian_architecture_desc:1 "这种文化寻找了通往神圣的最直接途径，人们希望狂热的统治者兴建许多宏伟的庙宇。"
+ tradition_austronesian_seafarers_name:0 "南岛海员"
+ tradition_austronesian_seafarers_desc:0 "南岛人以伟大的远洋航海技术而闻名，航海是他们自豪地继承的遗产。"
+ tradition_migratory_name:0 "迁徙的"
+ tradition_migratory_desc:0 "这种文化是游牧的，经常迁徙到不同的地方，并且可以对邻居（包括统治者）宣战，以便重新安置部落。"
+ tradition_chinese_characters_name:0 "中国文字"
+ tradition_chinese_characters_desc:0 "这种文化的文人使用汉字，一种具有强大学术和文学传统的文字，可以追溯到公元前 27 世纪。"
+ 
+ # Tradition effects - Base Title
+ culture_parameter_can_enact_single_heir_succession_law:0 "可以制定#single $single_heir_succession_law$#![succession_law|E]"
+ culture_parameter_enable_baray_duchy_building:0 "统治者可以建造#high $building_type_baray_01$#![duchy_building|E]"
+ culture_parameter_enable_migration_cb:0 "解锁迁徙的[casus_belli|E]"

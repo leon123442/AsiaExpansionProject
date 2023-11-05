@@ -1,0 +1,127 @@
+﻿heritage_korean = {
+	type = heritage
+}
+
+heritage_japanese = {
+	type = heritage
+}
+
+heritage_jomon = {
+	type = heritage
+}
+
+heritage_ryukyuan = {
+	type = heritage
+}
+
+heritage_tungusic = {
+	type = heritage
+}
+
+heritage_kradai = {
+	type = heritage
+}
+
+heritage_hmong = {
+	type = heritage
+}
+
+heritage_viet = {
+	type = heritage
+}
+
+heritage_mon = {
+	type = heritage
+}
+
+heritage_khmer = {
+	type = heritage
+}
+
+heritage_katuic = {
+	type = heritage
+}
+
+heritage_burman = {
+	type = heritage
+}
+
+heritage_loloish = {
+	type = heritage
+}
+
+heritage_bai = {
+	type = heritage
+}
+
+heritage_nivkh = {
+	type = heritage
+}
+
+heritage_palaungic = {
+	type = heritage
+}
+
+heritage_nicobarese = {
+	type = heritage
+}
+
+heritage_khasic = {
+	type = heritage
+}
+
+heritage_munda = {
+	type = heritage
+}
+
+heritage_formosan = {
+	type = heritage
+}
+
+heritage_north_borneo = {
+	type = heritage
+}
+
+heritage_dayak = {
+	type = heritage
+}
+
+heritage_filipino = {
+	type = heritage
+}
+
+heritage_javanese = {
+	type = heritage
+}
+
+heritage_malay = {
+	type = heritage
+}
+
+heritage_sumatran = {
+	type = heritage
+}
+
+heritage_chamic = {
+	type = heritage
+}
+
+heritage_sulawesi = {
+	type = heritage
+}
+
+heritage_lesser_sunda = {
+	type = heritage
+}
+
+heritage_moluccan = {
+	type = heritage
+}
+
+heritage_papuan = {
+	type = heritage
+}
+
+heritage_negrito = {
+	type = heritage
+}

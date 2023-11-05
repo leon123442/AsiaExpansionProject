@@ -1,0 +1,1845 @@
+e_tang = {	
+	618.6.18 = {
+		holder = gaozu_huangdi # Emperor Gaozu, founder of Tang dynasty
+	}
+	626.9.4 = {
+		holder = taizong_huangdi
+	}
+	649.7.10 = {
+		holder = gaozong_huangdi
+	}
+	683.12.27 = {
+		holder = zhongzong_huangdi # 1st reign
+	}
+	684.2.27 = {
+		holder = ruizong_huangdi # 1st reign
+	}
+	690.10.16 = {
+		holder = 0 #Zhou Dynasty interregnum
+	}
+	705.2.23 = {
+		holder = zhongzong_huangdi # 2nd reign
+	}
+	710.7.3 = {
+		holder = ruizong_huangdi # 2nd reign
+	}
+	712.9.8 = {
+		holder = first_xuanzong_huangdi
+	}
+	756.8.12 = {
+		holder = suzong_huangdi
+	}
+	762.5.16 = {
+		holder = daizong_huangdi
+	}
+	779.6.10 = {
+		holder = dezong_huangdi
+	}
+	805.2.25 = {
+		holder = shunzong_huangdi
+	}
+	805.8.28 = {
+		holder = xianzong_huangdi
+	}
+	820.2.14 = {
+		holder = muzong_huangdi
+	}
+	824.2.25 = {
+		holder = jingzong_huangdi
+	}
+	827.1.9 = {
+		holder = wenzong_huangdi
+	}
+	840.2.10 = {
+		holder = wuzong_huangdi
+	}
+	846.4.22 = {
+		holder = xuanzong_huangdi # Emperor Xuanzong II
+	}
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+	873.8.15 = {
+		holder = xizong_prince
+	}
+	888.4.20 = {
+		holder = zhaozong_prince
+	}
+	904.9.22 = {
+		holder = ai_prince
+	}
+	907.6.1 = {
+		holder = 0
+	}	
+}
+
+e_song = {
+	960.2.4 = {
+		holder = taizu_huangdi # Emperor Taizu, founder of Song dynasty
+	}
+	976.11.14 = {
+		holder = taizong_huangdi_song
+	}
+	997.5.8 = {
+		holder = zhenzong_huangdi
+	}
+	1022.3.23 = {
+		holder = renzong_huangdi
+	}
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+	1067.1.25 = {
+		holder = shenzong_huangdi
+	}
+	1085.4.1 = {
+		holder = zhezong_huangdi
+	}
+	1100.2.23 = {
+		holder = huizong_huangdi
+	}
+	1135.6.4 = {
+		holder = qinzong_huangdi
+	}
+	1161.6.14 = {
+		holder = 0
+	}
+}
+
+### Shannanxi Circuit
+k_han = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+    865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100028
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = shannanxi_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_ba = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_bazhou_ba = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_guozhou_ba = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_langzhou_ba = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_quzhou_ba = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+d_hanzhong = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_fengzhou_hanzhong = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_lizhou_hanzhong = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_nanzheng = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_xingzhou_hanzhong = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+c_yangzhou_hanzhong = {
+	866.1.1 = {
+		holder = 5100028
+	}
+}
+
+### Huainan Circuit
+k_wu = {
+	867.1.1 = { change_development_level = 12 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100100
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = huainan_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+c_shouchun = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_yangzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+
+### Henan Circuit
+k_qi = {	
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100101
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = henan_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+d_xusi = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	865.1.1 = {
+		liege = "k_qi"
+	}
+	866.1.1 = {
+		holder = 5100102
+	}
+}
+
+d_biansong = {
+	865.1.1 = {
+		liege = "k_qi"
+	}
+	866.1.1 = {
+		holder = 5100102
+	}
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+}
+c_bianzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 30 }
+}
+c_songzhou_song = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_bozhou_song = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_yingzhou_song = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_taining = {
+	865.1.1 = {
+		liege = "k_qi"
+	}
+	866.1.1 = {
+		holder = 5100103
+	}
+}
+c_yanzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_kongmeng = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_taishan = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_yihai = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	865.1.1 = {
+		liege = "k_qi"
+	}
+	866.1.1 = {
+		holder = 5100103
+	}
+}
+d_chenxu = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	865.1.1 = {
+		liege = "k_qi"
+	}
+	866.1.1 = {
+		holder = 5100105
+	}
+	1063.4.30 = {
+		holder = yingzong_huangdi
+	}
+}
+c_chenzhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_pucao = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100104
+	}
+}
+d_zhenghua = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100104
+	}
+}
+d_ziqing = {
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100104
+	}
+}
+c_qingzhou_qi = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_zibo = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_qizhou_qi = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+
+d_denglai = {
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100104
+	}
+}
+c_laizhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_penglai = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_mizhou_qi = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+
+### Hebei Circuit
+k_yan = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100106
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = hebei_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+d_yiding = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+    865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100021
+	}
+}
+
+d_yingmo = {	
+    865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100021
+	}
+}
+c_mozhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_yingzhou_ji = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+
+d_chengde = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100008
+	}
+}
+c_hengzhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+
+c_xingzhou = {
+	865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100008
+	}
+}
+
+d_weibo = {	
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+    865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100008
+	}
+}
+
+d_xingci = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+    865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100020
+	}
+}
+c_mingzhou_hebei = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+
+d_henghai = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	865.1.1 = {
+		liege = "k_yan"
+	}
+	866.1.1 = {
+		holder = 5100020
+	}
+}
+
+d_xiangwei = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100104
+	}
+}
+
+d_youzhou = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	1066.1.1 = {
+		holder = youzhou_duke
+		liege = "e_grand_liao"
+	}
+}
+c_youzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_guizhou_yan = {
+	1066.1.1 = {
+		holder = 194333
+	}
+}
+c_yizhou_yan = {
+	1066.1.1 = {
+		holder = youzhou_duke
+	}
+}
+
+d_lulong = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	1066.1.1 = {
+		holder = lulong_duke
+		liege = "e_grand_liao"
+	}
+}
+
+d_liaoxi = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100106
+	}
+	871.1.1 = {
+		holder = 0
+	}
+	1055.8.28 = {
+		holder = 194333
+	}
+	1368.9.14 = {
+		de_jure_liege = "k_liaodong"
+	}
+}
+
+### Hedong Circuit
+k_jin = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100107
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = hedong_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+d_hedong = {	
+	865.1.1 = {
+		liege = "k_jin"
+	}
+	866.1.1 = {
+		holder = 5100007
+	}
+}
+c_taiyuan = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_fenzhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_qinzhou_hedong = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_yizhou_hedong = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_chengtianjun = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_shizhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_lanzhou_hedong = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_hequ = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+
+d_yanmen = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+    865.1.1 = {
+		liege = "k_jin"
+	}
+    866.1.1 = {
+		holder = 5100012
+	}
+}
+c_daizhou = {
+	1066.1.1 = {
+		holder = yunzhong_duke
+	}
+}
+
+d_yunzhong = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+    865.1.1 = {
+		liege = "k_jin"
+	}
+    866.1.1 = {
+		holder = 5100011
+	}
+	1066.1.1 = {
+		holder = yunzhong_duke
+		liege = "e_grand_liao"
+	}
+}
+c_yunzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+
+d_hezhong = {	
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100022
+	}
+}
+c_puzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_jiangzhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_jinzhou_hezhong = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_cizhou_hezhong = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_xizhou_hezhong = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+
+d_zelu = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+
+### Lingnan Circuit
+k_nanyue = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+    866.1.1 = {
+		holder = 5100015
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = lingnan_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+d_lingnan = {
+	865.1.1 = {
+		liege = "e_tang"
+	}
+    866.1.1 = {
+		holder = 5100015
+	}
+}
+c_nanhai = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_shaoguan_guang = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_changwu = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_duanzhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_xinhui = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_gaozhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_qiongya = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_chaoshan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+    866.1.1 = {
+		holder = 5100015
+	}
+}
+c_chaozhou = {
+    866.1.1 = {
+		holder = 5100015
+	}
+}
+c_haka = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+	
+    866.1.1 = {
+		holder = 5100015
+	}
+}
+c_xunzhou = {
+    866.1.1 = {
+		holder = 5100015
+	}
+}
+d_rongguan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_guiguan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_guilin = {
+    867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_yongguan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_qinzhou_gui = {
+	866.12.1 = {
+		holder = jiedushi_001
+	}
+	887.1.1 = {
+		holder = 0
+	}
+}
+c_jinlongzhou = {
+	866.12.1 = {
+		holder = jiedushi_001
+	}
+	887.1.1 = {
+		holder = 0
+	}
+}
+
+### Jiangnandong Circuit
+k_yue = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = jiangnandong_jiedushi_001
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = jiangnandong_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_zhenhai = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_guangde = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_zhexi = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+d_zhedong = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_taizhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_wenzhou_yue = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_kuozhou_yue = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_fujian = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	1368.9.14 = {
+		de_jure_liege = "k_fujian"
+	}
+}
+c_fuzou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_jianzhou_min = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_tingzhou_min = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+
+### Jiangnanxi Circuit
+k_nanping = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = jiangnanxi_jiedushi_001
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = jiangnanxi_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_eyue = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_ezhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_yuezhou_chu = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_hunan = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_changsha = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }	
+}
+c_hengshan = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_lianzhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_daozhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_yongzhou_hunan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_chenzhou_hunan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }	
+}
+c_shaozhou_hunan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }	
+}
+d_luling = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_yuanzhou_jiangxi = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_qianzhou_jiangxi = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_jiangxi = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_jiangzhou_wu = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_hongzhou = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_raozhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_xuanshe = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_shezhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+
+### Qianzhong Circuit
+k_qianzhong = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+	
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = qianzhong_jiedushi_001
+	}
+	866.1.1 = {
+		liege = "e_tang"
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = qianzhong_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+c_qianzhong = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+c_bozhou_zunyi = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+c_juzhou = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+### Jiannan Circuit
+k_shu = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = jiannan_jiedushi_001
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = jiannan_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_dongchuan = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_zizhou_dongchuan = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_suizhou_dongchuan = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_puzhou_dongchuan = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_hezhou_ba = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_yuzhou_ba = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_xichuan = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_chengdu = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_zizhou_xichuan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_meizhou_xichuan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_jiazhou_xichuan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_luzhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_lingzhou_xichuan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_luzhou_dongchuan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_yongping = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_qiongzhou = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+d_huichuan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+	
+	866.1.1 = {
+		holder = nanzhao108
+		liege = "k_nanzhong"
+	}
+	1066.1.1 = {
+		holder = huichuan_placeholder_001
+		liege = "k_dali"
+	}
+}
+
+### Shannandong Circuit
+k_chu = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = shannandong_jiedushi_001
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = shannandong_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_jinshang = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_ningjiang = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_kuizhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+d_jingxiang = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_xiangfan = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_suizhou = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_tangzhou_chu = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+d_jingnan = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+c_jingzhou_chu = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_fuzhou_chu = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_yingzhou_chu = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+}
+c_lizhou_chu = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_xiazhou_chu = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+
+### Jingji Circuit
+k_qin = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_pingyi = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+	
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+}
+d_xijing = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+}
+c_changan = {
+	867.1.1 = { change_development_level = 25 }
+}
+
+### Duji Circuit
+k_zhou = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = duji_jiedushi_001
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_heluo = {
+	859.9.7 = {
+		holder = 5100001 # Emperor Yizong
+	}
+	873.8.15 = {
+		holder = 0
+	}
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+}
+c_luoyang = {
+	867.1.1 = { change_development_level = 20 }
+    1066.1.1 = { change_development_level = 25 }
+}
+c_ruzhou = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 16 }
+}
+d_heyang = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+d_shaanguo = {
+	867.1.1 = { change_development_level = 18 }
+    1066.1.1 = { change_development_level = 25 }
+}
+
+### Guannei Circuit
+k_xia_east = {
+	867.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+	
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_xiazhou = {	
+    865.1.1 = {
+		liege = "e_tang"
+	}
+    866.1.1 = {
+		holder = 5100005
+	}
+}
+c_suizhou_xia = {	
+    866.1.1 = {
+		holder = 5100005
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+}
+c_xiazhou = {	    
+    866.1.1 = {
+		holder = 5100005
+	}
+	#Tangut Kingdom
+	1038.1.1={
+		liege = k_xia
+		holder=206650 # Yuanhao becomes emperor
+	}
+	1048.1.19={
+		holder=206651
+
+	}
+	1067.1.1={
+		holder=206653
+
+	}
+	1086.1.1={
+		holder=206654
+
+	}
+	1139.7.8={
+		holder=206657
+	}
+	1193.1.1={
+		holder=206659
+	}
+	1206.1.1={
+		holder=206660 # coup
+	}
+	1211.1.1={
+		holder=206666 # coup
+	}
+	1223.1.1={
+		holder=206668
+	}
+	1226.1.1={
+		holder=206670
+	}
+}
+c_yinzhou = {
+    866.1.1 = {
+		holder = 5100005
+	}
+	#Tangut Kingdom
+	1038.1.1={
+		liege = k_xia
+		holder=206650 # Yuanhao becomes emperor
+	}
+	1048.1.19={
+		holder=206651
+
+	}
+	1067.1.1={
+		holder=206653
+
+	}
+	1086.1.1={
+		holder=206654
+
+	}
+	1139.7.8={
+		holder=206657
+	}
+	1193.1.1={
+		holder=206659
+	}
+	1206.1.1={
+		holder=206660 # coup
+	}
+	1211.1.1={
+		holder=206666 # coup
+	}
+	1223.1.1={
+		holder=206668
+	}
+	1226.1.1={
+		holder=206670
+	}
+}
+d_shuofang = {
+	865.1.1 = {
+		liege = "e_tang"
+	}	
+	866.1.1 = {
+		holder = 5100006
+	}
+	#Tangut Kingdom
+	1038.1.1={
+		liege = k_xia
+		holder=206650 # Yuanhao becomes emperor
+	}
+	1048.1.19={
+		holder=206651
+
+	}
+	1067.1.1={
+		holder=206653
+
+	}
+	1086.1.1={
+		holder=206654
+
+	}
+	1139.7.8={
+		holder=206657
+	}
+	1193.1.1={
+		holder=206659
+	}
+	1206.1.1={
+		holder=206660 # coup
+	}
+	1211.1.1={
+		holder=206666 # coup
+	}
+	1223.1.1={
+		holder=206668
+	}
+	1226.1.1={
+		holder=206670
+	}
+}
+c_anle = {
+	866.1.1 = {
+		holder = 5100006
+	}
+}
+c_yanzhou_shuofang = {
+    866.1.1 = {
+		holder = 5100006
+	}
+}
+d_ordos = {		
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100004
+	}
+	#Tangut Kingdom
+	1038.1.1={
+		liege = k_xia
+		holder=206650 # Yuanhao becomes emperor
+	}
+	1048.1.19={
+		holder=206651
+
+	}
+	1067.1.1={
+		holder=206653
+
+	}
+	1086.1.1={
+		holder=206654
+
+	}
+	1139.7.8={
+		holder=206657
+	}
+	1193.1.1={
+		holder=206659
+	}
+	1206.1.1={
+		holder=206660 # coup
+	}
+	1211.1.1={
+		holder=206666 # coup
+	}
+	1223.1.1={
+		holder=206668
+	}
+	1226.1.1={
+		holder=206670
+	}
+}
+c_linzhou_shaan = {	
+	866.1.1 = {
+		holder = 5100004	
+	}
+}
+c_ordos = {	
+	866.1.1 = {
+		holder = 5100004
+	}
+}
+c_youzhou_shuofang = {
+	866.1.1 = {
+		holder = 5100004
+	}
+}
+d_fufang = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+    865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		holder = 5100027
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+}
+c_danzhou = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_fuzhou_qin = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_yanzhou_xia = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_fangzhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+d_fengxiang = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 14 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+}
+c_fengxiang = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_longzhou = {
+	867.1.1 = { change_development_level = 12 }
+    1066.1.1 = { change_development_level = 18 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+d_binning = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 16 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+}
+c_qingzhou = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_ningzhou_qin = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_binzhou_qin = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+d_jingyuan = {
+	867.1.1 = { change_development_level = 10 }
+    1066.1.1 = { change_development_level = 16 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+	1066.1.1 = {
+		holder = jingji_jiedushi_001
+		liege = "e_song"
+	}
+}
+c_yuanzou_xia = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 10 }
+	
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+c_jingzhou_xia = {
+	866.1.1 = {
+		holder = 5100027
+	}
+}
+
+### Longyou Circuit
+k_longxi = {
+	581.3.4 = {
+		de_jure_liege = "e_sui"
+	}
+	618.6.18 = {
+		de_jure_liege = "e_tang"
+	}
+	859.1.1 = {
+		liege = "e_tang"
+	}
+	860.1.1 = { # Fictional placeholder
+		holder = longyou_jiedushi_001
+	}
+	960.2.4 = {
+		de_jure_liege = "e_song"
+	}
+	1066.1.1 = {
+		holder = longyou_jiedushi_002
+		liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+d_longxi = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_tianshui = {
+	867.1.1 = { change_development_level = 7 }
+    1066.1.1 = { change_development_level = 10 }
+}
+d_longnan = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+c_qiuchi = {
+	867.1.1 = { change_development_level = 5 }
+    1066.1.1 = { change_development_level = 8 }
+}
+
+### Annan Protectorate
+k_annan = {
+	761.1.1 = {
+		holder = abe_nakamaro
+	}
+	865.1.1 = {
+		liege = "e_tang"
+	}
+	866.1.1 = {
+		name = JINGHAI
+	}
+	866.12.1 = {
+		holder = jiedushi_001
+	}
+	887.9.24 = {
+		holder = 0
+	}
+	939.1.1 = {
+		name = TINH_HAI
+	}
+	968.1.1 = {
+		de_jure_liege = 0
+	}
+}
+
+### Later Chinese Provinces
+k_yunnan = {
+	1253.1.1 = {
+		de_jure_liege = "e_song"
+	}
+	1279.3.19 = {
+		de_jure_liege = "e_yuan"
+	}
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+k_fujian = {
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}
+
+k_liaodong = {
+	1368.9.14 = {
+		de_jure_liege = "e_ming"
+	}
+}

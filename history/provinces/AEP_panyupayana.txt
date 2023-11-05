@@ -1,0 +1,896 @@
+﻿#######################
+### Lusong/k_lusong ###
+#######################
+
+##d_maynila ####################################
+###c_maynila	
+11768 = { # Maynila
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = tagalog
+		religion = anito
+	}
+}
+11998 = { # Sapa
+	holding = none
+}
+11770 = { # Tangway
+	holding = tribal_holding
+}
+
+###c_pila_ph
+11769 = { # Pila
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = tagalog
+		religion = anito
+	}
+}
+11777 = { # Taytay
+	holding = tribal_holding
+}
+
+###c_tayabas
+11778 = { # Tayabas
+	culture = tawo
+	religion = dayaw
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = tagalog
+		religion = anito
+	}
+}
+11787 = { # Kamalig
+	holding = none
+}
+
+###c_balayan
+11780 = { # Balayan
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = tagalog
+		religion = anito
+    }
+}
+11781 = { # Taysan
+	holding = none
+}
+
+###c_tolay
+11782 = { # Tolay
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = tagalog
+		religion = anito
+    }
+}
+
+##d_tondo ####################################
+###c_tondo
+11775 = { # Tondo
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = pampangan
+	}
+}
+12011 = { # Binwangan
+	holding = tribal_holding
+}
+11776 = { # Pulilan
+	holding = tribal_holding
+}
+
+###c_pangpang
+11771 = { # Lubao
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = pampangan
+	}
+}
+12015 = { # Kandaba
+	holding = none
+}
+12014 = { # Tarlak
+	holding = none
+}
+11774 = { # Pinagpanaan
+	holding = none
+}
+
+###c_sambali
+11772 = { # Hubek
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = sambal
+	}
+}
+11773 = { # Masinlok
+	holding = none
+}
+
+##d_bikol ####################################
+###c_albay
+11783 = { # Albay
+	culture = tawo
+	religion = dayaw
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = tagalog
+		religion = anito
+	}
+}
+
+###c_sorsogon
+11784 = { # Sorsogon
+	culture = tawo
+	religion = dayaw
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = bisaya
+	}
+}
+
+###c_naga_ph
+11785 = { # Naga
+	culture = tawo
+	religion = dayaw
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = tagalog
+		religion = anito
+	}
+}
+11786 = { # Katanduan
+	holding = none
+}
+
+##d_dumagat ####################################
+###c_kasiguran
+11788 = { # Kasiguran
+	culture = aeta
+    religion = kadai
+    holding = tribal_holding
+}
+
+###c_binangonan
+11789 = { # Binangonan
+	culture = aeta
+    religion = kadai
+    holding = tribal_holding
+}
+
+###c_dupaningan
+11808 = { # Dupaningan
+	culture = aeta
+	religion = kadai
+	holding = tribal_holding
+}
+
+##d_mait ####################################
+###c_mait
+11790 = { # Mait
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+		religion = dayaw
+    }
+}
+12010 = { # Bongabong
+    holding = none
+}
+12008 = { # Ilin
+    holding = none
+}
+
+###c_minolo
+11793 = { # Minolo
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = tagalog
+		religion = anito
+    }
+}
+11791 = { # Lubang
+	holding = none
+}
+
+###c_mamburao
+11792 = { # Mamburao
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = tagalog
+		religion = anito
+    }
+}
+12009 = { # Mangarin
+	holding = none
+}
+
+###c_malindug
+11779 = { # Malindug
+	culture = sinauna
+    religion = malyari
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = tagalog
+		religion = anito
+    }
+}
+
+##d_amianan ####################################
+###c_samtoy
+11794 = { # Laoag
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+}
+11795 = { # Bigan
+	holding = none
+}
+11796 = { # Kandong
+	holding = none
+}
+
+###c_ifugao
+11800 = { # Lagawe
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = ifugao
+	}
+}
+11801 = { # Bayag
+	holding = none
+}
+11802 = { # Bugyas
+	holding = none
+}
+11803 = { # Kalinga
+	holding = none
+}
+
+###c_aparri
+11804 = { # Aparri
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = ibanag
+	}
+}
+11807 = { # Baggao
+	holding = none
+}
+11810 = { # Bolo
+	holding = none
+}
+
+###c_ilongot
+11806 = { # Bayombong
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = ifugao
+	}
+}
+11805 = { # Cauayan
+	holding = none
+}
+11811 = { # Tuy
+	holding = none
+}
+
+###c_balintang
+11809 = { # Balintang
+	
+	culture = batanic
+    religion = kabunian
+    holding = tribal_holding
+}
+
+##d_Pangasinan ####################################
+###c_binalatongan
+11797 = { # Binalatongan
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = pangasinan
+	}
+}
+11999 = { # Lingayen
+	holding = none
+}
+12000 = { # Umingan
+	holding = none
+}
+
+###c_bolinao
+11798 = { # Bolinao
+	culture = sinauna
+	religion = malyari
+	holding = tribal_holding
+	1060.1.1 = {
+		culture = sambal
+	}
+}
+
+###c_agoo
+12001 = { # Agoo
+	culture = ilokano
+	religion = kabunian
+	holding = tribal_holding
+}
+11799 = { # Balawan
+	holding = none
+}
+
+###########################
+### Kabisayaan/k_bisaya ###
+###########################
+
+##d_sugbu ####################################
+###c_sugbu
+11812 = { # Sugbu
+	culture = tawo
+    religion = dayaw
+    holding = tribal_holding
+    1060.1.1 = {
+		culture = bisaya
+    }      
+}
+12002 = { # Maktan
+	holding = none
+}
+
+###c_nahalin
+11813 = { # Nahalin
+	culture = tawo
+    religion = dayaw
+    holding = tribal_holding
+    1060.1.1 = {
+		culture = bisaya
+    }
+}
+
+###c_sialo
+11814 = { # Sialo
+	culture = tawo
+    religion = dayaw
+    holding = tribal_holding
+    1060.1.1 = {
+		culture = bisaya
+    }
+}
+
+###c_bo_ol
+11827 = { # Bo-ol
+	culture = tawo
+    religion = dayaw
+    holding = tribal_holding
+    1060.1.1 = {
+		culture = bisaya
+    }
+}
+
+##d_katundan ####################################
+###c_oton
+11815 = { # Oton
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11817 = { # Dumangas
+	holding = none
+}
+11819 = { # Hantik
+	holding = none
+}
+
+###c_akean
+11816 = { # Akean
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+}
+11818 = { # Romblon
+	holding = none
+}
+
+###c_tanghay
+11820 = { # Tanghay
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11824 = { # Diyolongan
+	holding = none
+}
+
+###c_magsungay
+11821 = { # Magsungay
+	culture = aeta
+    religion = kadai
+	holding = tribal_holding
+}
+11822 = { # Ilog
+	holding = none
+}
+11823 = { # Binalbagan
+	holding = none
+}
+
+##d_sinirangan ####################################
+###c_samar_ph
+11831 = { # Ibabao
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11828 = { # Tiayban
+	holding = none
+}
+11829 = { # Basay
+	holding = none
+}
+11830 = { # Borongan
+	holding = none
+}
+
+###c_masbat
+11825 = { # Masbat
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+
+###c_tandaya
+11832 = { # Ormok
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11833 = { # Kankabatok
+	holding = none
+}
+11834 = { # Abuyog
+	holding = none
+}
+
+###c_limasawa
+12007 = { # Limasawa
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+
+#######################
+### Butuan/k_butuan ###
+#######################
+
+##d_butuan ####################################
+###c_butuan
+11835 = { # Butuan
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+
+###c_suligaw
+11836 = { # Suligaw
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11837 = { # Tandag
+	holding = none
+}
+
+###c_agusan
+11838 = { # Agusan
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+}
+12012 = { # Linao
+	holding = none
+}
+12013 = { # Kulilay
+	holding = none
+}
+
+##d_dawaw ####################################
+###c_bisaya
+11839 = { # Bisaya
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+11841 = { # Nabunturan
+	holding = none
+}
+
+###c_dabaw
+11840 = { # Dabaw
+	culture = tawo
+    religion = dayaw
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+
+###c_baganga
+11842 = { # Baganga
+	culture = tawo
+    religion = dayaw
+    holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+    }
+}
+
+##d_kagayan ####################################
+###c_himologan
+11843 = { # Himologan
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+    1060.1.1 = {
+        culture = bisaya
+		religion = dayaw
+    }
+}
+
+###c_bukidnon
+11844 = { # Bukidnon
+	culture = manobo
+    religion = tulumanon
+	holding = tribal_holding
+}
+
+#################################
+### Maguindanao/k_maguindanao ###
+#################################
+
+##d_maguinadao ####################################
+###c_kotabatu
+11845 = { # Kotabatu
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+###c_buayan
+12006 = { # Buayan
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+###c_ilianen
+12005 = { # Ilianen
+	culture = manobo
+	religion = tulumanon
+	holding = tribal_holding
+}
+
+###c_isulan
+11846 = { # Isulan
+	culture = aeta
+	religion = kadai
+	holding = tribal_holding
+}
+11847 = { # Flomlok
+	holding = none
+}
+11848 = { # Sarangani
+	holding = none
+}
+
+##d_lanaw ####################################
+###c_masiu
+12003 = { # Masiu
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+12004 = { # Bayabao
+	holding = none
+}
+
+###c_unayan
+11849 = { # Unayan
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+###c_banoi
+11850 = { # Banoi
+	culture = danao
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+##d_samboangan ####################################
+###c_samboangan
+11851 = { # Samboangan
+	culture = subanen
+	religion = papaiagan
+	holding = tribal_holding
+}
+11852 = { # Kumalarang
+	culture = subanen
+	religion = papaiagan
+	holding = tribal_holding
+}
+11853 = { # Dapitan
+	culture = subanen
+	religion = papaiagan
+	holding = tribal_holding
+}
+
+###################
+### Sulu/k_sulu ###
+###################
+
+##d_sulu ####################################
+###c_sug (Sug)
+11854 = {	# Maimbung
+	culture = buranun
+	religion = umboh
+	holding = tribal_holding
+}
+
+###c_tagima (Tagima)
+11855 = {	# Tagima
+	culture = sama_bajau
+	religion = umboh
+	holding = tribal_holding
+}
+
+###c_jawi_jawi (Jawi Jawi)
+11856 = {	# Jawi Jawi
+	culture = sama_bajau
+	religion = umboh
+	holding = tribal_holding
+}
+
+##d_pulaoan ####################################
+###c_ipolot (Ipolot)
+11857 = {	# Ipolot
+	culture = palawan
+	religion = malyari
+	holding = tribal_holding
+}
+11860 = {	# Aborlan
+	holding = none
+}
+
+###c_taytay (Taytay)
+11858 = {	# Taytay
+	culture = palawan
+	religion = malyari
+	holding = tribal_holding
+}
+11859 = {	# Busuanga
+	holding = none
+}
+
+##d_sandakan ####################################
+###c_sandakan (Sandakan)
+12146 = {	# Sandakan
+	culture = dusun # tidung_malay in future
+	religion = kaharingan
+	holding = tribal_holding
+}
+11861 = {	# Kinabatangan
+	holding = none
+}
+
+###c_beluran (Beluran)
+12145 = {	# Beluran
+	culture = dusun # tidung_malay in future
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+##d_tawau ####################################
+###c_tawau (Tawau)
+11863 = {	# Tawau
+	culture = murut
+	religion = kaharingan
+	holding = tribal_holding
+}
+12156 = {	# Kalabakan
+	holding = none
+}
+12157 = {	# Sebatik
+	holding = none
+}
+
+###c_semporna (Semporna/Tong Talun)
+12154 = {	# Semporna
+	culture = sama_bajau
+	religion = umboh
+	holding = tribal_holding
+}
+12148= {	# Kunak
+	holding = none
+}
+
+###c_lahad_datu (Lahad Datu)
+12147 = {	# Lahad Datu
+	culture = dusun
+	religion = kaharingan
+	holding = tribal_holding
+}
+
+## d_kudat ####################################
+###c_kudat (Kudat)
+11862 = {	# Kudat
+	# Misc
+	culture = dusun
+	religion = kaharingan
+	holding = tribal_holding
+}
+12143 = {	# Pitas
+	holding = none
+}
+12144 = {	# Kota Marudu
+	holding = none
+}
+
+###c_banggi (Banggi)
+12155 = {	# Banggi
+	# Misc
+	culture = sama_bajau
+	religion = umboh
+	holding = tribal_holding
+}
+
+#########################
+### Liuqiu/k_tungning ###
+#########################
+
+##d_liuqiu ####################################
+###c_penghu
+10921 = { 
+	culture = min
+	religion = shangqing
+	holding = tribal_holding
+}
+###c_nanliuqiu
+10924 = { 
+	culture = sirayic
+	religion = hanitu
+	holding = tribal_holding
+}
+11982 = {
+	holding = none
+}
+11983 = {
+	holding = none
+}
+###c_zhongliuqiu
+10923 = {
+	culture = pituish
+	religion = hanitu
+	holding = tribal_holding
+}
+11981 = {
+	holding = none
+}
+11997 = {
+	holding = none
+}
+11980 = {
+	holding = none
+}
+###c_beiliuqiu
+10922 = {
+	culture = sirayic
+	religion = hanitu
+	holding = tribal_holding
+}
+11989 = {
+	holding = none
+}
+11988 = {
+	holding = none
+}
+###c_beishanqu
+11996 = {
+	culture = limaish
+	religion = hanitu
+	holding = tribal_holding
+}
+11995 = {
+	holding = none
+}
+11990 = {
+	holding = none
+}
+###c_nanshanqu
+11992 = {
+	culture = siwaish
+	religion = hanitu
+	holding = tribal_holding
+}
+11993 = {
+	holding = none
+}
+11994 = {
+	holding = none
+}
+###c_paiwan
+11984 = {
+	culture = paiwanese
+	religion = hanitu
+	holding = tribal_holding
+}
+11991 = {
+	holding = none
+}
+###c_amisguo
+11986 = {
+	culture = sirayic
+	religion = hanitu
+	holding = tribal_holding
+}
+11985 = {
+	holding = none
+}
+11987 = {
+	holding = none
+}

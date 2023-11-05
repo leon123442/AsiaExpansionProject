@@ -1,0 +1,842 @@
+﻿l_simp_chinese:
+ Barony:0 "县"
+ City:0 "市"
+ Temple:0 "寺"
+ Tribe:0 "部落"
+ Land:0 "地"
+
+### japanese Group ###
+ 
+ # Feudal / Clan
+  baron_feudal_male_japanese_group:0 "城主"
+  baron_feudal_female_japanese_group:0 "城主"
+  count_feudal_male_japanese_group:0 "国司"
+  count_feudal_female_japanese_group:0 "国司"
+  count_feudal_male_japanese_group_tohoku:0 "城主"
+  count_feudal_female_japanese_group_tohoku:0 "城主"
+  duke_feudal_male_japanese_group:0 "受領国司"
+  duke_feudal_female_japanese_group:0 "受領国司"
+  duke_feudal_male_japanese_group_tohoku:0 "国司"
+  duke_feudal_female_japanese_group_tohoku:0 "国司"
+  duke_feudal_male_japanese_group_yamato_imperial:0 "天皇"
+  duke_feudal_female_japanese_group_yamato_imperial:0 "天皇"
+  king_feudal_male_japanese_group:0 "総督"
+  king_feudal_female_japanese_group:0 "総督"
+  king_feudal_male_japanese_group_independent:0 "王"
+  king_feudal_female_japanese_group_independent:0 "王女"
+  king_feudal_male_japanese_group_japan:0 "摂政"
+  king_feudal_female_japanese_group_japan:0 "摂政"
+  emperor_feudal_male_japanese_group:0 "皇帝"
+  emperor_feudal_female_japanese_group:0 "皇后"
+  emperor_feudal_male_japanese_group_japan:0 "親王"
+  emperor_feudal_female_japanese_group_japan:0 "親王"
+
+ # Feudal / Clan Titles
+  barony_feudal_japanese_group:0 "郡"
+  county_feudal_japanese_group:0 "国"
+  county_feudal_japanese_group_tohoku:0 "郡"
+  duchy_feudal_japanese_group:0 "道"
+  duchy_feudal_japanese_group_japan:0 "圏"
+  duchy_feudal_japanese_group_tohoku:0 "国"
+  kingdom_feudal_japanese_group:0 "国"
+  kingdom_feudal_japanese_group_independent:0 "王国"
+  empire_feudal_japanese_group:0 "帝国"
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_japanese_group_yamato_imperial:0 "親王"
+  title_prince_female_japanese_group_yamato_imperial:0 "内親王"
+  title_prince_male_japanese_group:0 "殿"
+  title_prince_female_japanese_group:0 "姫"
+  title_prince_male_japanese_group_empire:0 "殿"
+  title_prince_female_japanese_group_empire:0 "姫"
+
+ # Spouses
+  title_spouse_female_yamato_imperial:0 "皇后"
+  #title_spouse_female_yamato_group:0 "姫"
+
+####################################################
+
+### Chinese Group ###
+
+ # Feudal / Clan
+  baron_feudal_male_chinese_group:0 "男"
+  baron_feudal_female_chinese_group:0 "男"
+  count_feudal_male_chinese_group:0 "令"
+  count_feudal_female_chinese_group:0 "令"
+  duke_feudal_male_chinese_group:0 "刺史"
+  duke_feudal_female_chinese_group:0 "刺史"
+  king_feudal_male_chinese_group:0 "节度使"
+  king_feudal_female_chinese_group:0 "节度使"
+  king_feudal_male_chinese_group_dao_independent:0 "节度使"
+  king_feudal_female_chinese_group_dao_independent:0 "节度使"
+  king_feudal_male_chinese_group_independent:0 "王"
+  king_feudal_female_chinese_group_independent:0 "女王"
+  emperor_feudal_male_chinese_group:0 "皇帝"
+  emperor_feudal_female_chinese_group:0 "皇后"
+
+ # Feudal / Clan Titles
+  barony_feudal_chinese_group:0 "县"
+  county_feudal_chinese_group:0 ""
+  duchy_feudal_chinese_group:0 "府"
+  kingdom_feudal_chinese_group:0 "道"
+  kingdom_feudal_chinese_group_independent:0 "王国"
+  empire_feudal_chinese_group:0 "帝国"
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_chinese_group:0 "公子"
+  title_prince_female_chinese_group:0 "公女"
+  title_prince_male_chinese_group_empire:0 "親王"
+  title_prince_female_chinese_group_empire:0 "公主"
+
+ # Spouses
+  #title_spouse_female_chinese_group:0 "夫人"
+
+####################################################
+
+### Korean Group ###
+
+ # Feudal / Clan
+  baron_feudal_male_korean_group:0 "男爵" #남작
+  baron_feudal_female_korean_group:0 "男爵" #남작
+  count_feudal_male_korean_group:0 "伯爵" #백작
+  count_feudal_female_korean_group:0 "伯爵" #백작
+  duke_feudal_male_korean_group:0 "公" #공
+  duke_feudal_female_korean_group:0 "公" #공
+  duke_feudal_male_korean_group_independent:0 "王" #왕
+  duke_feudal_female_korean_group_independent:0 "女王" #여왕
+  king_feudal_male_korean_group:0 "王" #왕
+  king_feudal_female_korean_group:0 "女王" #여왕
+  emperor_feudal_male_korean_group:0 "皇帝" #황제
+  emperor_feudal_female_korean_group:0 "皇后" #황후
+
+ # Feudal / Clan Titles
+  barony_feudal_korean_group:0 "縣" #현
+  county_feudal_korean_group:0 "府" #부
+  duchy_feudal_korean_group:0 "道" #도
+  duchy_feudal_korean_group_independent:0 "国" #국
+  kingdom_feudal_korean_group:0 "国" #국
+  empire_feudal_korean_group:0 "帝国" #제국
+
+ # Princes (children of Kings/Emperors)
+  title_prince_male_korean_group:0 "君" #군
+  title_prince_female_korean_group:0 "翁主" #옹주
+  title_prince_male_korean_group_empire:0 "君" #군
+  title_prince_female_korean_group_empire:0 "翁主" #옹주
+
+ # Spouses
+  #title_spouse_female_korean_group:0 "淑女" #숙녀
+
+####################################################
+
+ ### Vietic Group ###
+
+# Feudal / Clan
+  baron_feudal_male_vietnamese_group:0 "男"
+  baron_feudal_female_vietnamese_group:0 "女男"
+  count_feudal_male_vietnamese_group:0 "伯"
+  count_feudal_female_vietnamese_group:0 "女伯"
+  duke_feudal_male_vietnamese_group:0 "公"
+  duke_feudal_female_vietnamese_group:0 "女公"
+  king_feudal_male_vietnamese_group:0 "王"
+  king_feudal_female_vietnamese_group:0 "女王"
+  emperor_feudal_male_vietnamese_group:0 "帝"
+  emperor_feudal_female_vietnamese_group:0 "女帝"
+
+# Feudal / Clan Titles
+  barony_feudal_vietnamese_group:0 "区"
+  county_feudal_vietnamese_group:0 "省"
+  duchy_feudal_vietnamese_group:0 "州"
+  kingdom_feudal_vietnamese_group:0 "王国"
+  empire_feudal_vietnamese_group:0 "帝国"
+
+# Princes (children of Kings/Emperors)
+  title_prince_male_vietnamese_group:0 "伯子"
+  title_prince_female_vietnamese_group:0 "公主"
+  title_prince_male_vietnamese_group_empire:0 "王子"
+  title_prince_female_vietnamese_group_empire:0 "帝子"
+
+ # Spouses
+  #title_spouse_female_vietnamese_group:0 "女士"
+ 
+####################################################
+ 
+  # Southeast Asia
+
+### Burman Group ###
+
+  ## Burmese (Default) ##
+
+  # Feudal / Clan Rulers
+   baron_feudal_male_burman_group:0 "妙萨"
+   baron_feudal_female_burman_group:0 "妙萨"
+   count_feudal_male_burman_group:0 "萨多"
+   count_feudal_female_burman_group:0 "我"
+   duke_feudal_male_burman_group:0 "最小"
+   duke_feudal_female_burman_group:0 "民德维"
+   king_feudal_male_burman_group:0 "巴音"
+   king_feudal_female_burman_group:0 "巴音玛"
+   emperor_feudal_male_burman_group:0 "塞基瓦迪"
+   emperor_feudal_female_burman_group:0 "塞基瓦迪玛"
+
+  # Feudal / Clan Titles
+   barony_feudal_burman_group:0 "妙"
+   county_feudal_burman_group:0 "皮划艇"
+   duchy_feudal_burman_group:0 "比伊"
+   kingdom_feudal_burman_group:0 "内比都"
+   empire_feudal_burman_group:0 "奈干道"
+
+  # Princes (children of Kings/Emperors)
+   title_prince_male_burman_group:0 "敏莎"
+   title_prince_female_burman_group:0 "敏萨米"
+   title_prince_male_burman_group_empire:0 "明达"
+   title_prince_female_burman_group_empire:0 "敏萨米"
+
+####################################################
+
+### Mon-Khmer Group ###
+
+# "提婆罗阇" Holy Emperor
+# "提婆罗阇" Wife of the emperor
+
+# Feudal / Clan
+ baron_feudal_male_mon_khmer_group:0 "麦查"
+ baron_feudal_female_mon_khmer_group:0 "麦查"
+ count_feudal_male_mon_khmer_group:0 "卡萨特"
+ count_feudal_female_mon_khmer_group:0 "卡萨特"
+ duke_feudal_male_mon_khmer_group:0 "古隆"
+ duke_feudal_female_mon_khmer_group:0 "古隆"
+ king_feudal_male_mon_khmer_group:0 "昆登"
+ king_feudal_female_mon_khmer_group:0 "昆登"
+ emperor_feudal_male_mon_khmer_group:0 "皇帝"
+ emperor_feudal_female_mon_khmer_group:0 "皇帝"
+
+# Feudal / Clan Titles
+ barony_feudal_mon_khmer_group:0 "班迭"
+ county_feudal_mon_khmer_group:0 "斯洛克"
+ duchy_feudal_mon_khmer_group:0 "凯特"
+ kingdom_feudal_mon_khmer_group:0 "雷切恰克"
+ empire_feudal_mon_khmer_group:0 "帝国"
+
+# Princes (children of Kings/Emperors)
+ prince_male_mon_khmer_group:0 "普莱昂"
+ prince_female_mon_khmer_group:0 "普莱昂"
+ # champion = Yuttochun
+
+## Khmer ##
+  # Feudal / Clan
+  baron_feudal_male_khmer:0 "麦查"
+  baron_feudal_female_khmer:0 "麦查"
+  count_feudal_male_khmer:0 "朝瓦伊斯罗克"
+  count_feudal_female_khmer:0 "朝瓦伊斯罗克"
+  duke_feudal_male_khmer:0 "古隆"
+  duke_feudal_female_khmer:0 "古隆"
+  king_feudal_male_khmer:0 "柏威亚"
+  king_feudal_female_khmer:0 "柏威亚"
+  emperor_feudal_male_khmer:0 "阿克西里奇"
+  emperor_feudal_female_khmer:0 "阿克西里奇"
+
+  # Feudal / Clan Titles
+  barony_feudal_khmer:0 "图代伊"
+  county_feudal_khmer:0 "斯罗克"
+  duchy_feudal_khmer:0 "凯特"
+  kingdom_feudal_khmer:0 "柏威诺克"
+  empire_feudal_khmer:0 "脉轮舞"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_khmer:0 "普莱昂"
+  prince_female_khmer:0 "普莱昂"
+  title_prince_male_khmer_empire:0 "普莱昂"
+  title_prince_female_khmer_empire:0 "普莱昂"
+  # champion = Yuttochun
+
+  # Khmer Empire
+  emperor_male_khmer_empire:0 "轉輪王"
+  emperor_female_khmer_empire:0 "轉輪王"
+
+## Mon ##
+  # Feudal / Clan
+  baron_feudal_male_mon:0 "雷克"
+  baron_feudal_female_mon:0 "雷克"
+  count_feudal_male_mon:0 "微笑"
+  count_feudal_female_mon:0 "斯姆布雷"
+  duke_feudal_male_mon:0 "宾尼亚"
+  duke_feudal_female_mon:0 "班尼亚尔"
+  king_feudal_male_mon:0 "拉扎"
+  king_feudal_female_mon:0 "真"
+  emperor_feudal_male_mon:0 "拉玛迪帕蒂"
+  emperor_feudal_female_mon:0 "斋月"
+
+  # Feudal / Clan Titles
+  barony_feudal_mon:0 "纳古"
+  county_feudal_mon:0 "夸安拉"
+  duchy_feudal_mon:0 "加纳帕达"
+  kingdom_feudal_mon:0 "粪便"
+  empire_feudal_mon:0 "热牛嘎穆"
+
+  # Princes (children of Kings/Emperors)
+  title_prince_male_mon:0 "宾尼亚"
+  title_prince_female_mon:0 "班尼亚尔"
+  title_prince_male_mon_empire:0 "宾尼亚"
+  title_prince_female_mon_empire:0 "班尼亚"
+  # champion = Sagom
+
+####################################################
+
+### Tai Group ###
+
+  # Feudal / Clan
+  baron_feudal_male_tai_group:0 "邵族"
+  baron_feudal_female_tai_group:0 "邵族"
+  count_feudal_male_tai_group:0 "坤"
+  count_feudal_female_tai_group:0 "坤"
+  duke_feudal_male_tai_group:0 "亚"
+  duke_feudal_female_tai_group:0 "南披亚"
+  king_feudal_male_tai_group:0 "朝"
+  king_feudal_female_tai_group:0 "朝南"
+  emperor_feudal_male_tai_group:0 "朝銮"
+  emperor_feudal_female_tai_group:0 "朝南琅"
+
+  # Feudal / Clan Titles
+  barony_feudal_tai_group:0 "房子"
+  county_feudal_tai_group:0 "勐"
+  duchy_feudal_tai_group:0 "维昂"
+  kingdom_feudal_tai_group:0 "关文"
+  empire_feudal_tai_group:0 "关文銮"
+
+  # Princes (children of Kings/Emperors) <- Based on Lanna Titles
+  title_prince_male_tai_group:0 "朝内"
+  title_prince_female_tai_group:0 "朝内"
+  title_prince_male_tai_group_empire:0 "朝内"
+  title_prince_female_tai_group_empire:0 "朝内"
+
+## Shan Tai -> More Indian influence in general
+
+  # Feudal / Clan
+  baron_feudal_male_shan:0 "妙萨"
+  baron_feudal_female_shan:0 "妙萨"
+  count_feudal_male_shan:0 "骚法"
+  count_feudal_female_shan:0 "骚娘"
+  duke_feudal_male_shan:0 "菲亚"
+  duke_feudal_female_shan:0 "南披亚"
+  king_feudal_male_shan:0 "拉萨"
+  king_feudal_female_shan:0 "拉萨尼"
+  emperor_feudal_male_shan:0 "脉轮"
+  emperor_feudal_female_shan:0 "脉轮巴提尼"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_shan:0 "圣诺伊"
+  prince_female_shan:0 "圣诺伊"
+
+  ## Lanna Tai -> Copy of Tai (for now)
+  
+  ## Laotian Tai -> Copy of Tai (for now)
+  
+  ## Ayutthayan Tai -> More Khmer influence in general
+
+    # Feudal / Clan
+    baron_feudal_male_tai_loum:0 "邵族"
+    baron_feudal_female_tai_loum:0 "涛"
+    count_feudal_male_tai_loum:0 "坤"
+    count_feudal_female_tai_loum:0 "坤"
+    duke_feudal_male_tai_loum:0 "披耶河"
+    duke_feudal_female_tai_loum:0 "南帕亚"
+    king_feudal_male_tai_loum:0 "摩诃迦萨"
+    king_feudal_female_tai_loum:0 "摩诃迦萨帝"
+    emperor_feudal_male_tai_loum:0 "脉轮"
+    emperor_feudal_female_tai_loum:0 "查克拉帕提尼"
+
+    # Feudal / Clan Titles
+    barony_feudal_tai_loum:0 "禁令"
+    county_feudal_tai_loum:0 "孟"
+    duchy_feudal_tai_loum:0 "密友"
+    kingdom_feudal_tai_loum:0 "拉查阿纳查克"
+    empire_feudal_tai_loum:0 "脉轮"
+
+    # Princes (children of Kings/Emperors)
+    prince_male_tai_loum:0 "昭发"
+    prince_female_tai_loum:0 "昭发英"
+
+  ## Pak Tai -> More Mon and Malay influence in general
+
+    # Feudal / Clan
+    baron_feudal_male_paktai:0 "涛"
+    baron_feudal_female_paktai:0 "涛"
+    count_feudal_male_paktai:0 "拿督"
+    count_feudal_female_paktai:0 "拿督"
+    duke_feudal_male_paktai:0 "披耶河"
+    duke_feudal_female_paktai:0 "南帕亚"
+    king_feudal_male_paktai:0 "大君"
+    king_feudal_female_paktai:0 "大君"
+    emperor_feudal_male_paktai:0 "脉轮"
+    emperor_feudal_female_paktai:0 "查克拉帕提尼"
+
+    # Feudal / Clan Titles
+    barony_feudal_paktai:0 "禁令"
+    county_feudal_paktai:0 "孟"
+    duchy_feudal_paktai:0 "密友"
+    kingdom_feudal_paktai:0 "拉查阿纳查克"
+    empire_feudal_paktai:0 "脉轮"
+
+  ## Ahom Tai -> Mixed of Shan and Nanzhao ones
+    # Feudal / Clan
+    baron_feudal_male_ahom:0 "涛"
+    baron_feudal_female_ahom:0 "涛"
+    count_feudal_male_ahom:0 "骚法"
+    count_feudal_female_ahom:0 "骚南"
+    duke_feudal_male_ahom:0 "菲亚"
+    duke_feudal_female_ahom:0 "南披亚"
+    king_feudal_male_ahom:0 "拉萨"
+    king_feudal_female_ahom:0 "拉萨尼"
+    emperor_feudal_male_ahom:0 "骚龙"
+    emperor_feudal_female_ahom:0 "骚南龙"
+
+    # Princes (children of Kings/Emperors)
+    prince_male_ahom:0 "圣诺伊"
+    prince_female_ahom:0 "圣诺伊"
+
+####################################################
+
+### Austronesian Group ###
+
+# Malay will be the default
+
+# Feudal / Clan / Tribal 
+ baron_feudal_male_austronesian_group:0 "卡图甘榜"
+ baron_feudal_female_austronesian_group:0 "卡图甘榜"
+ barony_feudal_austronesian_group:0 "甘榜岸"
+ count_feudal_male_austronesian_group:0 "邦古卢科塔"
+ count_feudal_female_austronesian_group:0 "邦古卢科塔"
+ county_feudal_austronesian_group:0 "小塔拉屋"
+ duke_feudal_male_austronesian_group:0 "大都"
+ duke_feudal_female_austronesian_group:0 "拿汀"
+ duchy_feudal_austronesian_group:0 "卡达团"
+ king_feudal_male_austronesian_group:0 "罗阇"
+ king_feudal_female_austronesian_group:0 "拉尼"
+ kingdom_feudal_austronesian_group:0 "卡拉江"
+ emperor_feudal_male_austronesian_group:0 "摩诃罗阇"
+ emperor_feudal_female_austronesian_group:0 "摩诃拉尼"
+ empire_feudal_austronesian_group:0 "卡玛哈拉詹"
+
+ # Princes (children of Kings/Emperors)
+ prince_male_austronesian_group:0 "普特里"
+ prince_female_austronesian_group:0 "普特里"
+ prince_male_austronesian_group_empire:0 "摩诃普特拉"
+ prince_female_austronesian_group_empire:0 "马哈普特里"
+
+ ### Muslim Austronesian/Nusantara ###
+ # Feudal / Clan / Tribal 
+ count_feudal_male_muslim_austronesian_group:0 "夏班达尔"
+ count_feudal_female_muslim_austronesian_group:0 "夏班达尔"
+ count_feudal_muslim_austronesian_group:0 "班达兰"
+ duke_feudal_muslim_male_austronesian_group:0 "苏丹"
+ duke_feudal_muslim_female_austronesian_group:0 "拉惹柏迈苏里"
+ duchy_feudal_muslim_austronesian_group:0 "凯苏丹南"
+ kingdom_feudal_muslim_austronesian_group:0 "凯苏丹南"
+ king_feudal_muslim_male_austronesian_group:0 "苏丹"
+ king_feudal_muslim_female_austronesian_group:0 "拉惹柏迈苏里"
+ emperor_feudal_muslim_male_austronesian_group:0 "苏丹阿贡"
+ emperor_feudal_muslim_female_austronesian_group:1 "最高元首拉惹斯里佩玛苏里"
+ empire_feudal_muslim_austronesian_group:0 "最高元首"
+
+## Cham ##
+
+  # Feudal / Clan
+  baron_feudal_male_cham:0 "卡贝特"
+  baron_feudal_female_cham:0 "卡贝特"
+  count_feudal_male_cham:0 "甘纳普"
+  count_feudal_female_cham:0 "甘纳普"
+  duke_feudal_male_cham:0 "开斋节"
+  duke_feudal_female_cham:0 "开斋节"
+  king_feudal_male_cham:0 "葡萄"
+  king_feudal_female_cham:0 "葡萄"
+  emperor_feudal_male_cham:0 "波塔纳拉亚"
+  emperor_feudal_female_cham:0 "波塔纳拉雅"
+
+  # Feudal / Clan Titles
+  barony_feudal_cham:0 "帕雷"
+  county_feudal_cham:0 "帕拉-帕雷"
+  duchy_feudal_cham:0 "那加拉"
+  kingdom_feudal_cham:0 "大国"
+  empire_feudal_cham:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  # prince_male_cham:0 ""
+  # prince_female_cham:0 ""
+
+## Tawo ##
+
+  # Feudal / Clan
+  baron_feudal_male_tawo:0 "基努"
+  baron_feudal_female_tawo:0 "基努"
+  count_feudal_male_tawo:0 "达图"
+  count_feudal_female_tawo:0 "大洋"
+  duke_feudal_male_tawo:0 "帕梅加特"
+  duke_feudal_female_tawo:0 "帕梅加特"
+  king_feudal_male_tawo:0 "哈迪"
+  king_feudal_female_tawo:0 "哈丁巴拜"
+  emperor_feudal_male_tawo:0 "皇帝"
+  emperor_feudal_female_tawo:0 "皇后"
+
+  # Feudal / Clan Titles
+  barony_feudal_tawo:0 "杜鲁罕"
+  county_feudal_tawo:0 "番瓦"
+  duchy_feudal_tawo:0 "龙苏德"
+  kingdom_feudal_tawo:0 "卡哈迪安"
+  empire_feudal_tawo:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_tawo:0 "矽"
+  prince_female_tawo:0 "大洋"
+  
+## sinauna ##
+
+  # Feudal / Clan
+  baron_feudal_male_sinauna:0 "基努"
+  baron_feudal_female_sinauna:0 "印度"
+  count_feudal_male_sinauna:0 "吐汗"
+  count_feudal_female_sinauna:0 "大洋"
+  duke_feudal_male_sinauna:0 "帕梅加特"
+  duke_feudal_female_sinauna:0 "帕梅加特"
+  king_feudal_male_sinauna:0 "巴拜"
+  king_feudal_female_sinauna:0 "哈里巴拜"
+  emperor_feudal_male_sinauna:0 "皇帝"
+  emperor_feudal_female_sinauna:0 "皇后"
+
+  # Feudal / Clan Titles
+  barony_feudal_sinauna:0 "描笼涯"
+  county_feudal_sinauna:0 "巴莱安"
+  duchy_feudal_sinauna:0 "卡拉卡南"
+  kingdom_feudal_sinauna:0 "凯哈里安"
+  empire_feudal_sinauna:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_sinauna:0 "嘎图"
+  prince_female_sinauna:0 "大洋"
+  
+## Danao ##
+
+  # Feudal / Clan
+  baron_feudal_male_danao:0 "潘戈"
+  baron_feudal_female_danao:0 "大洋"
+  count_feudal_male_danao:0 "达图"
+  count_feudal_female_danao:0 "白"
+  duke_feudal_male_danao:0 "罗阇"
+  duke_feudal_female_danao:0 "巴拉比"
+
+  # Feudal / Clan Titles
+  barony_feudal_danao:0 "苏库"
+  county_feudal_danao:0 "恩达托安"
+  duchy_feudal_danao:0 "伊利安"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_danao:0 "罗阇慕达"
+  prince_female_danao:0 "白"
+  
+  ## Manobo ##
+
+  # Feudal / Clan
+ baron_feudal_male_manobo:0 "马尼冈"
+ baron_feudal_female_manobo:0 "白族"
+ count_feudal_male_manobo:0 "达图"
+ count_feudal_female_manobo:0 "比比亚人"
+
+  # Feudal / Clan Titles
+  barony_feudal_manobo:0 "喀林班"
+  county_feudal_manobo:0 "番瓦"
+  
+    # Princes (children of Kings/Emperors)
+  prince_male_manobo:0 "罗阇慕达"
+  prince_female_manobo:0 "白"
+  
+  ## Bilic ##
+
+  # Feudal / Clan
+  baron_feudal_male_bilic:0 "阿德玛根"
+  baron_feudal_female_bilic:0 "博伊"
+  count_feudal_male_bilic:0 "达图"
+  count_feudal_female_bilic:0 "你们"
+  duke_feudal_male_bilic:0 "蒂姆拉比"
+  duke_feudal_female_bilic:0 "蒂姆里文"
+  king_feudal_male_bilic:0 "罗阇"
+  king_feudal_female_bilic:0 "罗阇"
+  emperor_feudal_male_bilic:0 "摩诃罗阇"
+  emperor_feudal_female_bilic:0 "摩诃罗阇"
+
+  # Feudal / Clan Titles
+  barony_feudal_bilic:0 "勒博克"
+  county_feudal_bilic:0 "本武"
+  
+    # Princes (children of Kings/Emperors)
+  prince_male_bilic:0 "拿督"
+  prince_female_bilic:0 "博伊"
+  
+## Subanen ##
+
+  # Feudal / Clan
+  baron_feudal_male_subanen:0 "提美"
+  baron_feudal_female_subanen:0 "提美裴"
+  count_feudal_male_subanen:0 "去摩坦"
+  count_feudal_female_subanen:0 "去摩坦裴"
+  duke_feudal_male_subanen:0 "拿督沙拉潘"
+  duke_feudal_female_subanen:0 "拿督沙拉潘"
+  king_feudal_male_subanen:0 "罗阇"
+  king_feudal_female_subanen:0 "罗阇"
+  emperor_feudal_male_subanen:0 "摩诃罗阇"
+  emperor_feudal_female_subanen:0 "摩诃罗阇"
+
+  # Feudal / Clan Titles
+  barony_feudal_subanen:0 "小番瓦"
+  county_feudal_subanen:0 "番瓦"
+  
+  # Princes (children of Kings/Emperors)
+  prince_male_subanen:0 "罗阇慕达"
+  prince_female_subanen:0 "裴"
+  
+## Tagalog ##
+
+  # Feudal / Clan
+  baron_feudal_male_tagalog:0 "马吉诺"
+  baron_feudal_female_tagalog:0 "马吉诺"
+  count_feudal_male_tagalog:0 "大都"
+  count_feudal_female_tagalog:0 "大阳"
+  duke_feudal_male_tagalog:0 "拉坎"
+  duke_feudal_female_tagalog:0 "拉坎比尼"
+  king_feudal_male_tagalog:0 "哈里"
+  king_feudal_female_tagalog:0 "哈里"
+  emperor_feudal_male_tagalog:0 "哈林加里"
+  emperor_feudal_female_tagalog:0 "哈林加里"
+
+  # Feudal / Clan Titles
+  barony_feudal_tagalog:0 "描笼涯"
+  county_feudal_tagalog:0 "巴彦"
+  duchy_feudal_tagalog:0 "卡拉卡南"
+  kingdom_feudal_tagalog:0 "卡哈里安"
+  empire_feudal_tagalog:0 "达基朗卡哈里安"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_tagalog:0 "罗阇穆拉"
+  prince_female_tagalog:0 "大阳"
+  
+## Palawan ##
+
+  # Feudal / Clan
+  baron_feudal_male_palawan:0 "基努"
+  baron_feudal_female_palawan:0 "基努乌"
+  count_feudal_male_palawan:0 "达图"
+  count_feudal_female_palawan:0 "大阳"
+  duke_feudal_male_palawan:0 "马斯安普"
+  duke_feudal_female_palawan:0 "马斯安普"
+  king_feudal_male_palawan:0 "罗阇"
+  king_feudal_female_palawan:0 "罗阇"
+  emperor_feudal_male_palawan:0 "摩诃罗阇"
+  emperor_feudal_female_palawan:0 "摩诃罗阇"
+
+  # Feudal / Clan Titles
+ barony_feudal_palawan:0 "描笼涯"
+ county_feudal_palawan:0 "番瓦"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_palawan:0 "罗阇慕达"
+  prince_female_palawan:0 "利纳明"
+
+## Bisaya ##
+
+  # Feudal / Clan
+  baron_feudal_male_bisaya:0 "达图"
+  baron_feudal_female_bisaya:0 "达图"
+  count_feudal_male_bisaya:0 "卡波诺安"
+  count_feudal_female_bisaya:0 "卡波诺安"
+  duke_feudal_male_bisaya:0 "小罗阇"
+  duke_feudal_female_bisaya:0 "小罗阇"
+  king_feudal_male_bisaya:0 "罗阇"
+  king_feudal_female_bisaya:0 "罗阇"
+  emperor_feudal_male_bisaya:0 "摩诃罗阇"
+  emperor_feudal_female_bisaya:0 "摩诃罗阇"
+
+  # Feudal / Clan Titles
+  barony_feudal_bisaya:0 "多洛汗"
+  county_feudal_bisaya:0 "哈欧普"
+  duchy_feudal_bisaya:0 "邦托"
+  kingdom_feudal_bisaya:0 "卡哈德"
+  empire_feudal_bisaya:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_bisaya:0 "Anak sang 罗阇"
+  prince_female_tagalog:0 "Anak sang 罗阇"
+## Idaya ##
+
+  # Feudal / Clan
+  baron_feudal_male_idaya:0 "阿玛"
+  baron_feudal_female_idaya:0 "伊娜"
+  count_feudal_male_idaya:0 "阿婆"
+  count_feudal_female_idaya:0 "阿婆"
+  duke_feudal_male_idaya:0 "旁呼路"
+  duke_feudal_female_idaya:0 "旁呼路"
+  king_feudal_male_idaya:0 "哈里"
+  king_feudal_female_idaya:0 "哈里"
+  emperor_feudal_male_idaya:0 "皇帝"
+  emperor_feudal_female_idaya:0 "皇后"
+
+  # Feudal / Clan Titles
+  barony_feudal_idaya:0 "巴努阿"
+  county_feudal_idaya:0 "希利"
+  duchy_feudal_idaya:0 "帕古卢安"
+  kingdom_feudal_idaya:0 "帕加利亚人"
+  empire_feudal_idaya:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_idaya:0 "穴开张"
+  prince_female_idaya:0 "穴开张"
+
+## Ilokano ##
+
+  # Feudal / Clan
+  baron_feudal_male_ilokano:0 "普罗克"
+  baron_feudal_female_ilokano:0 "普罗克"
+  count_feudal_male_ilokano:0 "我是伊犁人"
+  count_feudal_female_ilokano:0 "在伊犁州"
+  duke_feudal_male_ilokano:0 "阿图雷"
+  duke_feudal_female_ilokano:0 "阿图雷"
+  king_feudal_male_ilokano:0 "阿"
+  king_feudal_female_ilokano:0 "阿里"
+  emperor_feudal_male_ilokano:0 "皇帝"
+  emperor_feudal_female_ilokano:0 "皇后"
+
+  # Feudal / Clan Titles
+  barony_feudal_ilokano:0 "普罗克"
+  county_feudal_ilokano:0 "伊利"
+  duchy_feudal_ilokano:0 "帕图拉扬"
+  kingdom_feudal_ilokano:0 "帕加里人"
+  empire_feudal_ilokano:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_ilokano:0 "阿纳基阿里"
+  prince_female_ilokano:0 "阿纳基阿里"
+
+## Batak ##
+
+  # Feudal / Clan
+  baron_feudal_male_batak:0 "拉惹伊胡丹"
+  baron_feudal_female_batak:0 "拉惹伊胡丹"
+  count_feudal_male_batak:0 "拉惹多利"
+  count_feudal_female_batak:0 "拉惹多利"
+  duke_feudal_male_batak:0 "拉惹奥隆"
+  duke_feudal_female_batak:0 "拉惹奥隆"
+  king_feudal_male_batak:0 "罗阇"
+  king_feudal_female_batak:0 "拉贾博鲁"
+  emperor_feudal_male_batak:0 "拉贾布伦"
+  emperor_feudal_female_batak:0 "拉贾布伦博鲁"
+
+  # Feudal / Clan Titles
+  barony_feudal_batak:0 "胡塔族"
+  county_feudal_batak:0 "霍加"
+  duchy_feudal_batak:0 "比乌斯"
+  kingdom_feudal_batak:0 "原城"
+  empire_feudal_batak:0 "原纳博隆"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_batak:0 "巴图安"
+  prince_female_batak:0 "博鲁"
+
+## Java ##
+
+  # Feudal / Clan
+  baron_feudal_male_java:0 "拉玛"
+  baron_feudal_female_java:0 "拉玛"
+  count_feudal_male_java:0 "拉凯[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  count_feudal_female_java:0 "拉凯[CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  duke_feudal_male_java:0 "阿治"
+  duke_feudal_female_java:0 "阿治"
+  duke_feudal_male_java_independent:0 "桑拉图"
+  duke_feudal_female_java_independent:0 "桑拉图"
+  king_feudal_male_java:0 "斯里摩诃罗阇"
+  king_feudal_female_java:0 "斯里摩诃拉尼"
+  emperor_feudal_male_java:0 "斯里摩诃罗阇"
+  emperor_feudal_female_java:0 "斯里摩诃拉尼"
+
+  # Feudal / Clan Titles
+  barony_castle_java:0 "瓦努阿"
+  barony_city_java:0 "瓦努阿"
+  barony_temple_java:0 "坎迪"
+  county_feudal_java:0 "瓦塔克"
+  duchy_feudal_java:0 "卡达团"
+  kingdom_feudal_java:0 "卡玛哈拉詹"
+  empire_feudal_java:0 "帝国"
+
+  # Princes (children of Kings/Emperors)
+  prince_male_java:0 "迪亚"
+  prince_female_java:0 "黛薇"
+
+## Sunda ##
+
+  # Feudal / Clan
+  baron_feudal_male_sunda:0 "秋"
+  baron_feudal_female_sunda:0 "奈"
+  count_feudal_male_sunda:0 "拉基扬"
+  count_feudal_female_sunda:0 "拉基扬"
+  duke_feudal_male_sunda:0 "帕布"
+  duke_feudal_female_sunda:0 "帕布"
+  
+## Bali ##
+
+  # Feudal / Clan
+  baron_feudal_male_bali:0 "拉玛"
+  baron_feudal_female_bali:0 "拉玛"
+  count_feudal_male_bali:0 "拉克萨延"
+  count_feudal_female_bali:0 "拉克萨延"
+  duke_feudal_male_bali:0 "达勒姆"
+  duke_feudal_female_bali:0 "达勒姆"
+  
+## Samawa ##
+
+  # Feudal / Clan
+  baron_feudal_male_samawa:0 "恩库希"
+  baron_feudal_female_samawa:0 "恩库希"
+  count_feudal_male_samawa:0 "恩库希"
+  count_feudal_female_samawa:0 "恩库希"
+  duke_feudal_male_samawa:0 "三河寺"
+  duke_feudal_female_samawa:0 "三河寺"
+
+ 
+####################################################
+
+### Lolo Group ###
+
+# Feudal / Clan
+  baron_feudal_male_loloish_group:0 "男"
+  baron_feudal_female_loloish_group:0 "男"
+  count_feudal_male_loloish_group:0 "都督"
+  count_feudal_female_loloish_group:0 "都督"
+  duke_feudal_male_loloish_group:0 "节度"
+  duke_feudal_female_loloish_group:0 "节度"
+  king_feudal_male_loloish_group:0 "国王"
+  king_feudal_female_loloish_group:0 "国王"
+  emperor_feudal_male_loloish_group:0 "皇帝"
+  emperor_feudal_female_loloish_group:0 "皇后"
+
+# Feudal / Clan Titles
+  barony_feudal_loloish_group:0 "府"
+  county_feudal_loloish_group:0 "郡"
+  duchy_feudal_loloish_group:0 "道"
+  kingdom_feudal_loloish_group:0 "王国"
+  empire_feudal_loloish_group:0 "帝国"
+
+# Princes (children of Kings/Emperors)
+  title_prince_male_loloish_group:0 "公子"
+  title_prince_female_loloish_group:0 "公女"
+  title_prince_male_loloish_group_empire:0 "親王"
+  title_prince_female_loloish_group_empire:0 "公主"
+
+####################################################
+
+### Moluccan Group ###
+
+# Feudal / Clan
+  baron_feudal_male_moluccan_group:0 "博巴托"
+  baron_feudal_female_moluccan_group:0 "博巴托"
+  count_feudal_male_moluccan_group:0 "摩尔"
+  count_feudal_female_moluccan_group:0 "摩尔"
+  duke_feudal_male_moluccan_group:0 "科拉诺"
+  duke_feudal_female_moluccan_group:0 "科拉诺"
+  king_feudal_male_moluccan_group:0 "摩诃罗阇"
+  king_feudal_female_moluccan_group:0 "摩诃拉尼"

@@ -12,65 +12,6 @@ adjacencies = "adjacencies.csv"
 island_region = "island_region.txt"
 seasons = "seasons.txt"
 
-#####################
-# China
-#####################
-
-#LAKES
-lakes = RANGE { 8984 8988 }  #great lakes
-sea_zones = RANGE { 8980 8983 }  #great lakes & Channels
-sea_zones = RANGE { 8989 8992 }  #great lakes
-sea_zones = RANGE { 11129 11135 }  #great lakes
-
-impassable_mountains = RANGE { 9660 9667 }
-impassable_mountains = LIST { 9738 9800 10304 10477 }
-impassable_mountains = LIST { 9913 }   #Dadu river
-
-impassable_mountains = LIST { 10047 10869 }  #Eggs
-impassable_mountains = LIST { 10864 }  #Cave Temple
-
-#WASTELANDS#
-impassable_mountains = RANGE { 10928 11027 }
-impassable_mountains = RANGE { 11096 11128 }
-
-#RIVERS
-river_provinces = RANGE { 11028 11038 }   #Yangtse
-river_provinces = RANGE { 11041 11046 }  #Yellow
-sea_zones = RANGE { 11039 11040 }
-
-#China Seas#
-sea_zones = RANGE { 11047 11093 }
-sea_zones = LIST { 11136 11137 11095 11979 }
-
-
-#UNUSED#
-impassable_mountains = RANGE { 11387 11404 }
-
-#####################
-# Japan
-#####################
-
-impassable_mountains = LIST { 10925 }  #old Ryukyu
-impassable_mountains = LIST { 10927 } 
-
-impassable_mountains = RANGE { 11379 11385 }
-impassable_mountains = LIST { 11372 11307 11313 }
-
-sea_zones = LIST { 11299 11338 11339 11343 11344 11356 11357 11365 }
-sea_zones = RANGE { 11374 11378 }
-
-#####################
-# Southeast
-#####################
-
-impassable_mountains = RANGE { 11896 11897 }
-sea_zones = RANGE { 11898 11974 }
-river_provinces = RANGE { 11893 11895 }  #Mekong River
-river_provinces = RANGE { 11975 11978 }  #Mekong River
-
-#UNUSED
-impassable_mountains = LIST { 12151 12152 12159 12168 12191 12192 }
-
 #############
 # SEA ZONES
 #############
@@ -121,7 +62,7 @@ sea_zones = RANGE { 8680 8682 }	#Arabian Sea
 sea_zones = RANGE { 1382 1407 }
 sea_zones = RANGE { 1409 1412 }
 sea_zones = RANGE { 8684 8689 }	#Bay of Bengal
-sea_zones = LIST { 8683 8691 }	#Maldives
+sea_zones = LIST { 8683 } #Maldives
 
 #African Seas
 sea_zones = RANGE { 8692 8700 } #West Africa & Gulf of Guinea
@@ -292,12 +233,12 @@ impassable_mountains = LIST { 1408 9621 } #Gobi Desert
 #Tartaria Mountains
 impassable_mountains = RANGE { 8704 8708 }	#Altaishan
 impassable_mountains = LIST { 1495 } #Altaishan
-impassable_mountains = LIST { 734 1501 1550 1614 8709 2486 2539 9886 9887 9885} #Tianshan  
+impassable_mountains = LIST { 734 1501 1550 1614 2486 2539 8709 } #Tianshan  
 impassable_mountains = LIST { 3037 3071 3104 3123 3150 3179 3255 3293 3612 4059 4255 4281 4282 } #Kunlunshan
 impassable_mountains = LIST { 5913 5997 7787 7941} #Tibet impassable
 impassable_mountains = RANGE { 8526 8538 } #Tibet impassable
 impassable_mountains = RANGE { 8539 8543} #Gobi desert
-impassable_mountains = RANGE { 8544 8556 } #Himalaya
+impassable_mountains = RANGE { 8544 8555 } #Himalaya
 
 #Turkestan
 impassable_mountains = LIST { 1489 7209 7213 7214 7215 }
@@ -314,7 +255,7 @@ impassable_mountains = LIST { 2484 3259 }
 # Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
 
 impassable_mountains = LIST { 730 731 8711 }
-impassable_mountains = LIST { 1470 1468 1466 1469 1464 } #Wastelands
+impassable_mountains = LIST { 1470 1468 1466 1469 1464 }
 impassable_mountains = LIST { 3390 3970 }
 impassable_mountains = LIST { 5512 5513 5514 }
 impassable_mountains = LIST { 5755 }
@@ -328,11 +269,103 @@ impassable_mountains = LIST { 7210 7211 7212 }
 
 # IMPASSABLE SEA ZONES
 # These sea provinces cannot be crossed/sailed
-impassable_seas = LIST { 660 976 978 984 998 1293 1465 1467 8690 8701 11063 11094 }
+impassable_seas = LIST { 660 976 978 984 998 1293 1465 1467 8690 8691 8701 }
 
 # UNUSED PROVINCES
 # These provinces cause issues because they are passable land, but not part of any title.
 # They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
 
-impassable_mountains = RANGE { 8802 8992 }
-impassable_mountains = LIST { 3222 }
+impassable_mountains = LIST { 3222 8802 }
+
+#################
+# Asia Expansion
+###############################################################################################################################################
+
+#############
+# SEA ZONES
+#############
+
+#East Asian Seas
+sea_zones = LIST { 11039 11040 } # Mouth of the Yangtze
+sea_zones = RANGE { 11047 11093 }
+sea_zones = LIST { 11136 11137 }
+sea_zones = LIST { 11299 11338 11339 11343 11344 11356 11357 11365 11979 }
+sea_zones = RANGE { 11374 11378 }
+sea_zones = RANGE { 11946 11974 }
+
+#Western Southeast Asian Seas
+sea_zones = LIST { 11095 } # Bay of Thailand
+sea_zones = RANGE { 11898 11905 }
+sea_zones = RANGE { 11907 11945 }
+
+#Eastern Southeast Asian Seas
+sea_zones = RANGE { 12028 12039 }
+
+###############
+# MAJOR RIVERS
+###############
+#Chinese Rivers
+river_provinces = RANGE { 11028 11038 } # Yangtze River
+river_provinces = RANGE { 11041 11046 } # Yellow River
+
+#Southeast Asia
+river_provinces = LIST { 11893 11894 11895 11975 11976 11977 11978 }  #Mekong River
+river_provinces = LIST { 11906 12151 12152 12159 12206 }  #Bornean Rivers
+river_provinces = LIST { 10983 }  #Chao Phraya River
+
+########
+# LAKES
+########
+lakes = RANGE { 8980 8992 }	#Asian lakes
+lakes = LIST { 10998 }	#Philippine lakes
+lakes = RANGE { 11129 11135 }	#Asian lakes
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbours.
+# Blocks unit movement.
+
+#Siberia
+impassable_mountains = LIST { 9660 } # Transbaikal
+
+#China
+impassable_mountains = LIST { 9886 9887 9885 } #Tianshan
+impassable_mountains = RANGE { 9663 9667 }
+impassable_mountains = LIST { 9738 9800 10304 10477 }
+impassable_mountains = LIST { 9913 }   #Dadu river
+impassable_mountains = LIST { 10047 10869 }  #Eggs
+impassable_mountains = LIST { 10864 }  #Cave Temple
+
+#Korea
+impassable_mountains = LIST { 9661 }
+impassable_mountains = RANGE { 12236 12242 }
+
+#Japan
+impassable_mountains = LIST { 9662 }
+impassable_mountains = RANGE { 11379 11385 }
+impassable_mountains = RANGE { 11395 11398 }
+
+#Southeast Asia
+impassable_mountains = RANGE { 11896 11897 }
+impassable_mountains = RANGE { 11387 11394 }
+
+############
+# WASTELAND
+############
+# These are actually supposed to be Wasteland:
+# Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
+
+impassable_mountains = RANGE { 10928 10982 }
+impassable_mountains = RANGE { 10984 10997 }
+impassable_mountains = RANGE { 10999 11027 }
+impassable_mountains = RANGE { 11096 11128 }
+
+# IMPASSABLE SEA ZONES
+# These sea provinces cannot be crossed/sailed
+impassable_seas = LIST { 11063 11094 }
+
+# UNUSED PROVINCES
+# Reserved for future paradox updates
+impassable_mountains = RANGE { 8803 8979 }
+impassable_mountains = LIST { 12168 }

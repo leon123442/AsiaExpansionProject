@@ -1,0 +1,16 @@
+﻿
+# BuildingGFX-based triggers - Redefined to include added graphical cultures from AEP
+artifact_use_indian_building_visuals_trigger = { # Modded
+	exists = culture
+	culture = {
+		OR = {
+			has_building_gfx = indian_building_gfx
+			has_building_gfx = chinese_building_gfx
+			has_building_gfx = korean_building_gfx
+			has_building_gfx = japanese_building_gfx
+			has_building_gfx = tibetan_building_gfx
+			has_building_gfx = indochinese_building_gfx
+			has_building_gfx = austronesian_building_gfx
+		}
+	}
+}

@@ -1,124 +1,29 @@
-﻿khmer = {
-	color = { 207 87 23 }
-
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_philosopher_culture
-		tradition_religious_patronage
-		tradition_agrarian
-	}
-	
-	name_list = name_list_bengali
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = asian_southeast_asian_1
-	}
-}
-	
-kuy = {
-	color = { 167 77 13 }
-
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_philosopher_culture
-		tradition_religious_patronage
-		tradition_agrarian
-	}
-	
-	name_list = name_list_bengali
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = asian_southeast_asian_1
-	}
-}
-	
-katuic = {
-	color = { 187 97 33 }
-
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_philosopher_culture
-		tradition_religious_patronage
-		tradition_agrarian
-	}
-	
-	name_list = name_list_bengali
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = asian_southeast_asian_1
-	}
-}
-	
-bahnaric = {
-	color = { 175 101 26 }
-
-	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_philosopher_culture
-		tradition_religious_patronage
-		tradition_agrarian
-	}
-	
-	name_list = name_list_bengali
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-	ethnicities = {
-		10 = asian_southeast_asian_1
-	}
-}
-
-mon = {
+﻿mon = {
 	color = { 227 117 47 }
 
 	ethos = ethos_spiritual
-	heritage = heritage_indo_aryan
-	language = language_magadhan
+	heritage = heritage_mon
+	language = language_mon
 	martial_custom = martial_custom_male_only
+
+	name_list = name_list_mon
+
 	traditions = {
-		tradition_philosopher_culture
+		tradition_mystical_ancestors
 		tradition_religious_patronage
-		tradition_agrarian
 	}
-	
-	name_list = name_list_bengali
-	
-	coa_gfx = { indo_aryan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indochinese_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
 	ethnicities = {
-		10 = asian_southeast_asian_1
+		10 = southeast_asian_mon_1
 	}
 }

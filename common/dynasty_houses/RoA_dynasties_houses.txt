@@ -1,0 +1,43 @@
+﻿# Nusantara
+house_Sanjaya = {
+    name = "dynn_Sanjaya"
+    dynasty = house_Sailendra
+}
+
+# Khmer
+house_Vyadha = {
+	name = "dynn_Vyadha"
+	dynasty = 4200000
+}
+house_Dvirada = {
+	name = "dynn_Dvirada"
+	dynasty = 4200000
+}
+house_Sambhu = {
+    name = "dynn_Sambhu"
+    dynasty = 4200000
+}
+
+# Tambralinga
+house_Sri_Thammasokaraj = {
+	name = "dynn_Sri_Thammasokaraj"
+	dynasty = malay_d001 # (Padamavamsa)
+}
+
+house_Varman = { 
+    name = "dynn_varman" 
+    dynasty = 2636000
+}
+
+house_Lavo = { 
+    name = "dynn_Lavo" 
+    dynasty = 2636001
+}
+house_simhapura = { 
+    name = "dynn_simhapura" 
+    dynasty = 46600003
+}
+house_vijaya = { 
+    name = "dynn_Vijaya" 
+    dynasty = 46600002
+}

@@ -222,13 +222,120 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1154;879;river_large;1315;-1;-1;-1;-1;Pataliputra-Hajipur
 1163;1281;river_large;8602;-1;-1;-1;-1;Varanasi-Chunar
 927;931;river_large;8600;-1;-1;-1;-1;Bhubaneswar-Athgarh
-1360;8712;sea;8683;-1;-1;-1;-1;Mahal-Thiladhunmathi #Maldives
+1360;8712;sea;8683;5714;976;5732;960;Mahal-Thiladhunmathi #Maldives
 #BURMA;;;;;;;;
 9550;9554;river_large;8610;-1;-1;-1;-1;Pagan-Myitche
 9588;9590;river_large;8608;-1;-1;-1;-1;Sriksetra-Thayetmyo
 9599;9626;river_large;8607;-1;-1;-1;-1;Krapan-Bogale
 9633;9626;river_large;8606;-1;-1;-1;-1;Myaungmya-Bogale
 9556;9568;river_large;8610;-1;-1;-1;-1;Ava-Sagaing
-#Indonesia;;;;;;;;
-11493;11499;river_large;11094;8569;404;8544;407;#Test
+#MEKONG;;;;;;;;
+11753;11754;river_large;11893;-1;-1;-1;-1;Kottinagara-Sadek
+11748;12107;river_large;11893;-1;-1;-1;-1;Angkor Borei-Kiri Vong
+11751;12117;river_large;11894;-1;-1;-1;-1;Bati-Amarendrapura
+12117;12106;river_large;11894;-1;-1;-1;-1;Amarendrapura-Chum Kiri
+11764;12103;river_large;11895;-1;-1;-1;-1;Thala Borivat-Sesan
+11673;12095;river_large;11975;-1;-1;-1;-1;Shrestapura-Pakse
+11681;12071;river_large;11977;-1;-1;-1;-1;Nakhon Phanom-Thakhek
+10545;11679;river_large;11977;-1;-1;-1;-1;Vientiane-Nong Khai
+12047;12050;river_large;11978;-1;-1;-1;-1;Xanamkhan-Kenethao
+10536;12048;river_large;11978;-1;-1;-1;-1;Luang Prabang-Chomphet
+#SIAM;;;;;;;;
+11400;12041;river_large;10983;-1;-1;-1;-1;Thonburi-Ayutthaya
+11399;11689;river_large;10983;-1;-1;-1;-1;Singhapura-Lavapura
+11701;11702;sea;11900;7175;1160;7175;1157;Takola-Salang
 #CHINA;;;;;;;;
+10175;10162;river_large;11037;-1;-1;-1;-1;Jiangning-Hezhou
+10270;10142;river_large;11030;-1;-1;-1;-1;Jiangxia-Mianzhou
+10101;10564;river_large;11044;-1;-1;-1;-1;Jinan-Bozhou Liaocheng
+10050;10861;river_large;11041;-1;-1;-1;-1;Luoyang-Heyang
+10131;10132;sea;11059;8024;1987;8029;1989;Haizhou-Yuzhou
+10197;10199;sea;11054;8024;1987;8029;1989;Mingzhou-Wengshan
+10372;10373;sea;11075;8024;1987;8029;1989;Xinhui-Yashan
+10385;10384;sea;11076;7867;1857;7864;1872;Yazhou-Leizhou
+#KOREA;;;;;;;;
+10888;10887;sea;11060;7867;1857;7864;1872;Suwon-Ganghwa
+10888;12253;sea;11060;7867;1857;7864;1872;Suwon-Gyoha
+12253;10883;sea;11060;7867;1857;7864;1872;Gyoha-Kaeseong
+#JAPAN;;;;;;;;
+11372;11373;sea;11961;8024;1987;8029;1989;Etorofu-Kunashiri
+11262;11261;sea;11948;8024;1987;8029;1989;Hizen-Iki
+11262;11307;sea;11947;8024;1987;8029;1989;Hizen-Goto
+11209;11211;sea;11970;8024;1987;8029;1989;Harima-Awaji
+11211;11318;sea;11970;8024;1987;8029;1989;Awaji-Awa
+11283;11225;sea;11970;7867;1857;7864;1872;Bizen-Sanuki
+11283;11226;sea;11970;7867;1857;7864;1872;Bizen-Sanuki
+11186;11152;sea;11979;7867;1857;7864;1872;Aki-Iyo
+11334;11152;sea;11979;7867;1857;7864;1872;Suo-Iyo
+11153;11274;sea;11979;7867;1857;7864;1872;Iyo-Bungo
+11336;11160;sea;11979;7867;1857;7864;1872;Nagato-Buzen
+11285;10925;sea;11092;7867;1857;7864;1872;Sachi-Miyako
+#BORNEO;;;;;;;;
+12193;11453;river_large;11906;7930;690;7932;687;Ketungau Hilir-Sintang
+11459;11458;river_large;11906;7978;725;7980;720;Badau-Bunut
+11417;11418;river_large;12152;7978;515;7984;515;Seruyan Hilir-Baambang
+11407;12202;river_large;12151;8130;550;8135;552;Kapuas Kuala-Paju Epat
+11408;12204;river_large;12151;8132;610;8128;606;Lahei-Mantangai
+12158;11413;river_large;12151;8098;640;8101;645;Permata Intan-Sumbar Barito
+11440;11439;river_large;12206;8283;851;8281;855;Sangkulirang-Palas
+12133;12153;sea;11924;8156;993;8161;993;Labuan-Menumbok
+12155;12143;sea;11931;8260;1095;8261;1088;Central Banggi-Pitas
+12156;12157;sea;11942;8306;932;8302;927;Kalabakan-Sebatik
+12157;12158;sea;11942;8301;921;8298;919;South Sebatik-Lumbis
+#INDONESIA;;;;;;;;
+11605;11606;sea;11909;7230;578;7247;564;Siberut-Pagai
+11561;11559;sea;11905;7492;766;7490;768;Temasik-Gelanggi
+11561;11613;sea;11905;7496;759;7502;749;Temasik-Riau
+11613;11603;sea;11905;7469;725;7462;720;Riau-Pelalawan
+11613;11614;sea;11905;7521;712;7528;711;Riau-Lingga
+11614;11629;sea;11905;7526;647;7524;623;Lingga-Muaro Jambi
+11617;11622;sea;11912;7597;542;7610;546;Palembang-Bangka
+11622;11623;sea;11913;7682;517;7699;516;Bangka-Belitung
+11641;11558;sea;11911;7605;345;7614;331;Lampung-Banten
+11544;11547;sea;11918;8003;270;8009;271;Kahuripan-Madura
+11540;11521;sea;11915;8105;208;8110;208;Wirabhumi-Bali
+11521;11522;sea;11915;8175;175;8189;174;Bali-Lombok
+11522;11525;sea;11916;8230;169;8241;166;Lombok-Sumbawa
+11523;12017;sea;11916;8385;180;8395;181;Sumbawa-Flores
+12017;12016;sea;11916;8425;171;8425;143;Flores-Sumba
+12016;12022;sea;11916;8473;95;8530;71;Sumba-Kupang
+12019;12020;sea;12032;8656;205;8660;200;Lembata-Alor
+12020;12026;sea;12032;8724;201;8727;182;Alor-Maubara
+12026;12021;sea;12032;8754;210;8761;219;Maubara-Wetar
+12027;12021;sea;12032;8851;196;8872;208;Baukau-Wetar
+11493;11499;sea;12039;8550;406;8565;404;Bombana-Muna
+11497;11499;sea;12039;8587;421;8585;415;Tinanggea-Muna
+11493;11494;sea;12039;8580;373;8583;371;Muna-Buton
+11497;11494;sea;12038;8596;429;8598;424;Tinanggea-Buton
+11483;11484;sea;12037;8621;624;8614;614;Luwuk-Banggai
+11484;10453;sea;12037;8670;581;8680;577;Banggai-Sula
+10456;10533;sea;12038;8847;483;8865;491;Buru-Haumual
+10926;11465;sea;12028;8858;616;8862;638;Obi-Bacan
+11465;11470;sea;12028;8870;658;8881;664;Bacan-Gane
+11476;11477;sea;12028;8894;808;8906;814;Loloda-Moro
+11505;11486;sea;12036;9068;608;9065;610;Soren-Salawati
+11486;11485;sea;12029;9043;634;9043;654;Salawati-Waigeo
+11486;11489;sea;12036;9058;608;9026;585;Salawati-Waigama
+#PHILIPPINES;;;;;;;;
+11856;11854;sea;11940;8870;658;8881;664;Jawi Jawi-Maimbung
+11854;11855;sea;11939;8870;658;8881;664;Maimbung-Tagima
+11855;11851;sea;11939;8870;658;8881;664;Tagima-Samboangan
+11836;12007;sea;11936;8870;658;8881;664;Suligaw-Limasawa
+11827;12002;sea;11938;8894;808;8906;814;Bool-Maktan
+11827;12007;sea;11938;8894;808;8906;814;Bool-Limasawa
+12002;11812;sea;11938;8894;808;8906;814;Maktan-Sugbu
+11812;11824;sea;11938;8894;808;8906;814;Sugbu-Diyolongan
+11820;11814;sea;11938;8894;808;8906;814;Tanghay-Sialo
+11813;11832;sea;11938;9068;608;9065;610;Nahalin-Ormok
+11832;11825;sea;11938;9068;608;9065;610;Ormok-Masbat
+11825;11784;sea;11938;9068;608;9065;610;Masbat-Sorsogon
+11831;11784;sea;11938;9068;608;9065;610;Ibabao-Sorsogon
+11785;11786;sea;11936;9043;634;9043;654;Naga-Katanduan
+11821;11817;sea;11938;9043;634;9043;654;Magasungay-Dumangas
+11815;11823;sea;11939;9043;634;9043;654;Oton-Binalbagan
+11816;11818;sea;11937;9043;634;9043;654;Akean-Romblon
+11793;11780;sea;11937;9058;608;9026;585;Minolo-Balayan
+11778;11779;sea;11937;9058;608;9026;585;Tayabas-Malindug
+11859;11858;sea;11083;9058;608;9026;585;Busuanga-Taytay
+11804;11809;sea;11933;9058;608;9026;585;Aparri-Balintang
+-1;-1;;-1;-1;-1;-1;-1;

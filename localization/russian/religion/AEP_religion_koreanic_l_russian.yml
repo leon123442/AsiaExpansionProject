@@ -1,0 +1,114 @@
+﻿l_russian:
+ koreanic_religion:0 "Муизм" # 무/巫俗
+ koreanic_religion_adj:0 "Мусок" # 무속/巫俗
+ koreanic_religion_adherent:0 "Муист" # 무속신자/巫弟子
+ koreanic_religion_adherent_plural:0 "Муисты" # 무속신자/巫弟子
+ koreanic_religion_desc:0 "Муизм, также известный как корейский шаманизм, представляет собой народную религию в Корее, которая основана на практике баксу-муданг, или просто муданг, как для мужчин, так и для женщин-шаманов. Муданги, относящиеся к женским шаманам, и баксу, обозначающие мужчин-шаманов, играют ключевую роль в муизме, выступая посредниками между людьми и божественным миром.\n\nМуданги общаются с богами, ищут их руководства и помощи в различных аспектах жизни людей. Они достигают этого путем проведения ритуалов, известных как гут. Эти ритуалы являются важными событиями, часто превращаясь в праздничные мероприятия, охватывающие целые деревни, и способствующие развитию чувства общности и радости праздника."
+ 
+ musok:0 "Муизм" # 무/巫俗
+ musok_adj:0 "Мусок" # 무속/巫俗
+ musok_adherent:0 "Муист" # 무속신자/巫弟子
+ musok_adherent_plural:0 "Муисты" # 무속신자/巫弟子
+ musok_desc:0 "Муизм, также известный как корейский шаманизм, представляет собой народную религию в Корее, которая основана на практике баксу-муданг, или просто муданг, как для мужчин, так и для женщин-шаманов. Муданги, относящиеся к женским шаманам, и баксу, обозначающие мужчин-шаманов, играют ключевую роль в муизме, выступая посредниками между людьми и божественным миром.\n\nМуданги общаются с богами, ищут их руководства и помощи в различных аспектах жизни людей. Они достигают этого путем проведения ритуалов, известных как гут. Эти ритуалы являются важными событиями, часто превращаясь в праздничные мероприятия, охватывающие целые деревни, и способствующие развитию чувства общности и радости праздника."
+ musok_old:0 "Старый Муизм"
+ musok_old_adj:0 "Старый Мусок"
+ musok_old_adherent:0 "Старый Муист"
+ musok_old_adherent_plural:0 "Старый Муисты"
+ 
+ tamna_musok:0 "Тамна Муизм" # 탐라무/耽羅巫俗
+ tamna_musok_adj:0 "Тамна Мусок" # 탐라무/耽羅巫俗
+ tamna_musok_adherent:0 "Тамна Муист" # 탐라무신자/耽羅巫弟子
+ tamna_musok_adherent_plural:0 "Тамна Муисты" # 탐라무신자/耽羅巫弟子
+ tamna_musok_desc:0 "Муизм, распространенный в Тамне, обладает своим особым характером, в первую очередь из-за его географической отдаленности от материковой части Корейского полуострова. Муисты в Тамне придерживаются верований, сосредоточенных вокруг небесного бога Чхондживана и его двух сыновей. Старший сын, Дэбёльван, считается правителем подземного мира, а второй сын, Собёльван, управляет земным царством. В соответствии с их верованиями, источником мирского беспорядка являются хитрые действия Собёльвана, благодаря которым он смог захватить контроль над землей, несмотря на то, что Дэбёльван был более способным и достойным занимать эту роль."
+ tamna_musok_old:0 "Старый Тамна Муизм"
+ tamna_musok_old_adj:0 "Старый Tамна Мусок"
+ tamna_musok_old_adherent:0 "Старый Тамна Муист"
+ tamna_musok_old_adherent_plural:0 "Старый Тамна Муисты"
+ 
+ dongmyeong_sinhwa:0 "Донмён Синхва" # 동명신화/東明神話
+ dongmyeong_sinhwa_adj:0 "Донмён Синхва" # 동명신화/東明神話
+ dongmyeong_sinhwa_adherent:0 "Донмён Синхва Приверженец" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_adherent_plural:0 "Донмён Синхва приверженцы" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_desc:0 "Король Донмён, внук Небесного Императора, почитается как основатель Пуё и Когурё, которые имеют мифическое происхождение. Согласно легенде, он родился из яйца и, в конце концов, вознесся на небеса. Его первый сын занял его место на троне, в то время как сыновья от второй жены отправились на юг и основали Пэкче.\n\nКорейская народная религия, включающая элементы муизма, имеет большое историческое значение. Она сосредоточена вокруг известных шаманов, таких как баксу-муданг или просто муданг. Женских шаманов называют муданг, а мужских - баксу. Муданги играют важную роль в качестве посредников между людьми и божественным миром. Они вступают в контакт с богами и ищут их руководства в делах людей с помощью священных ритуалов, известных как гут. Эти ритуалы часто принимают форму ярких деревенских фестивалей, которые прославляют связь между духовным и человеческим мирами."
+ dongmyeong_sinhwa_old:0 "Старый Донмён Синхва"
+ dongmyeong_sinhwa_old_adj:0 "Старый Донмён Синхва"
+ dongmyeong_sinhwa_old_adherent:0 "Старый Донмён Синхва приверженец"
+ dongmyeong_sinhwa_old_adherent_plural:0 "Старый Донмён Синхва приверженцы"
+ 
+ silla_sinhwa:0 "Силла Синхва" # 신라신화/新羅神話
+ silla_sinhwa_adj:0 "Силла Синхва" # 신라신화/新羅神話
+ silla_sinhwa_adherent:0 "Силла Синхва Приверженец" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_adherent_plural:0 "Силла Синхва приверженцы" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_desc:0 "В ранней эпохе Силлы существовала уникальная политическая система, особенностью которой было чередование власти между тремя ветвями династии Пак, что привело к возникновению трех различных историй о ее основании. Хёкгеосе, происходивший из дома Пак, считается основателем Силлы. Согласно легенде, он родился из необычайно большого яйца, поэтому получил имя "Пак", что означает "тыква" в связи с внешним видом яйца.\n\nС другой стороны, прародителем клана Сеок был Талхэ, принц из иностранного королевства, расположенного в северо-восточном регионе за Восточным морем. Его рождение, которое, как полагают, сопровождалось несчастными предзнаменованиями, заставило короля приказать бросить его на корабле. Судьба привела корабль к берегам Силлы, где Талхэ был обнаружен. Его фамилия была произведена от сороки, которая сидела на корабле, символизируя его случайное прибытие.\n\nПредком рода Ким, который позднее монополизировал трон Силлы, был Алджи. Согласно общему мнению, его обнаружили внутри золотого сундука, что придавало ему атмосферу тайны и величия."
+ silla_sinhwa_old:0 "Старый Силла Синхва"
+ silla_sinhwa_old_adj:0 "Старый Силла Синхва"
+ silla_sinhwa_old_adherent:0 "Старый Силла Синхва приверженец"
+ silla_sinhwa_old_adherent_plural:0 "Старый Силла Синхва приверженцы"
+ 
+ goryeo_sinhwa:0 "Корё Синхва" # 고려신화/高麗神話
+ goryeo_sinhwa_adj:0 "Корё Синхва" # 고려신화/高麗神話
+ goryeo_sinhwa_adherent:0 "Корё Синхва Приверженец" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_adherent_plural:0 "Корё Синхва приверженцы" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_desc:0 "Основание Корё уходит своими корнями в богатую палитру почитания предков Геона Вана, основателя Корё. Родословную Геона можно проследить до Хогейонга, его предшественника в шестом поколении, который, как известно, вступил в священный союз с горной богиней.\n\nСреди всех уважаемых предков наиболее выдающейся фигурой является Джегеон, дед Геона. По легенде, Джегеон считался незаконнорожденным сыном Сузонга, правителя династии Тан. Говорят, что он заслужил благосклонность Короля Драконов и был вознагражден женитьбой на драконице. Этот союз считался значительным обменом, укрепляющим его связь с божественным царством и призывающим благословения Короля Драконов."
+ goryeo_sinhwa_old:0 "Старый Корё Синхва"
+ goryeo_sinhwa_old_adj:0 "Старый Корё Синхва"
+ goryeo_sinhwa_old_adherent:0 "Старый Корё Синхва Приверженец"
+ goryeo_sinhwa_old_adherent_plural:0 "Старый Корё Синхва приверженцы"
+
+ musok_high_god_name:0 "Hwanin" # 환인/桓因, Sky-God
+ musok_high_god_name_possessive:0 "Hwanin's"
+ musok_high_god_name_alternate:0 "Okhwangcheonjon" # 옥황천존/玉皇天尊
+ musok_high_god_name_alternate_possessive:0 "Okhwangcheonjon's"
+ musok_good_god_pungbaek:0 "Pungbaek" # 풍백/風伯
+ musok_good_god_usa:0 "Usa" # 우사/雨師
+ musok_good_god_unsa:0 "Unsa" # 운사/雲師
+ musok_good_god_hwanung:0 "Hwanung" #환웅/桓雄
+ musok_devil_name:0 "Yeokkwi" # 역귀/疫鬼, Plague-Ghost
+ musok_devil_name_possessive:0 "Yeokkwi's"
+ musok_evil_god_kumiho:0 "Kumiho" # 구미호/九尾狐, nine-tailed fox who can transform into beautiful girl - wait, does this count as a furry?
+ musok_evil_god_dueoksini:0 "Dueoksini" # 두억신/頭抑神, somewhat similar to yakṣa
+ musok_death_deity_name:0 "Yeomna Daewang" # 염나대왕/閻羅大王
+ musok_death_deity_name_possessive:0 "Yeomna Daewang's"
+ musok_religious_symbol:0 "Samtaeguek" # 삼태극/三太極
+ musok_religious_text:0 "Bonpuri" # 본풀이
+ musok_religious_text_2:0 "Taryeong" # 타령
+ musok_religious_text_3:0 "Sori" # 소리
+ musok_witchgodname:0 "Baridegi" # 발공주/鉢里公主
+ musok_witchgodname_possessive:0 "Baridegi's"
+
+ musok_creator_god_name:0 "Magohalmi" # 마고대모/麻姑大母(?), Giantess
+ musok_creator_god_name_possessive:0 "Mago's"
+ musok_health_god_name:0 "Cheoyong" # 처용/處容, 867 is kinda too early but it fits I guess
+ musok_health_god_name_possessive:0 "Cheoyong's"
+ musok_fertility_god_name:0 "Samshinhalmi" # 삼신대모/三神大母(?), Goddess of birth 
+ musok_fertility_god_name_possessive:0 "Samshinhalmi's"
+ musok_wealth_god_name:0 "Chilseongsin" # 칠성신/七星神, Gods of Big Dipper
+ musok_wealth_god_name_possessive:0 "Chilseongsin's"
+ musok_household_god_name:0 "Seongjusin" # 성주신/城主神
+ musok_household_god_name_possessive:0 "Seongjusin's"
+ musok_fate_god_name:0 "Gameunjang-agi" # 감은장아기
+ musok_fate_god_name_possessive:0 "Gameunjang-agi's"
+ musok_knowledge_god_name:0 "Sansinnyeong" # 산신영/山神靈
+ musok_knowledge_god_name_possessive:0 "Sansinnyeong's"
+ musok_war_god_name:0 "Jakdusinjang" # 작도신장/斫刀神將
+ musok_war_god_name_possessive:0 "Jakdusinjang's"
+ musok_trickster_god_name:0 "Dokkaebi" # 도깨비
+ musok_trickster_god_name_possessive:0 "Dokkaebi's"
+ musok_night_god_name:0 "$musok_high_god_name$" # Alternatively Ilwol or Taebyeol and Sobyeol, Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female, who were exiled(?) to Japan and became the rulers
+ musok_night_god_name_possessive:0 "$musok_high_god_name_possessive$"
+ musok_water_god_name:0 "Yongwang" # 용왕/龍王
+ musok_water_god_name_possessive:0 "Yongwang's"
+ 
+ musok_pantheon_name:0 "Cheonjisinmyeong" # 천지신명/天地神明
+ musok_house_of_worship:0 "Seonangdang" # 성황당/城隍堂
+ musok_house_of_worship_plural:0 "Seonangdang"
+ musok_religious_head_title:0 "Chachaung" # 차차웅/次次雄
+ musok_religious_head_title_name:0 "Chachaung" # 차차웅/次次雄
+ musok_devotee_male:0 "Baksu" # 박수/博數
+ musok_devotee_male_plural:0 "Baksu"
+ musok_devotee_female:0 "Mudang" # 무당/巫堂
+ musok_devotee_female_plural:0 "Mudang"
+ musok_alt_priest_term:0 "Mudang"
+ musok_divine_realm:0 "Cheonsang" # 천상/天上
+ musok_positive_afterlife:0 "Geungnak" # 극낙/極樂
+ musok_negative_afterlife:0 "Jiok" # 지옥/地獄

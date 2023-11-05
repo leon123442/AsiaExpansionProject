@@ -1,0 +1,114 @@
+﻿l_german:
+ koreanic_religion:0 "Muismus" # 무/巫俗
+ koreanic_religion_adj:0 "Musok" # 무속/巫俗
+ koreanic_religion_adherent:0 "Muist" # 무속신자/巫弟子
+ koreanic_religion_adherent_plural:0 "Muisten" # 무속신자/巫弟子
+ koreanic_religion_desc:0 "Muismus, auch koreanischer Schamanismus genannt, ist eine Volksreligion in Korea, die sich um die Praxis von Baksu-Mudang oder einfach Mudang für männliche und weibliche Schamanen dreht. Mudang, das sich speziell auf weibliche Schamanen bezieht, und Baksu, das männliche Schamanen bezeichnet, spielen im Muismus eine zentrale Rolle. Sie fungieren als Vermittler zwischen Menschen und dem göttlichen Reich.\n\nMudang verhandelt mit den Göttern und bittet sie um Führung und Unterstützung in verschiedenen menschlichen Angelegenheiten. Sie erreichen dies durch die Durchführung von Ritualen, die als Darm bekannt sind. Bei diesen Bauchritualen handelt es sich um bedeutsame Anlässe, die oft als festliche Ereignisse begangen werden, die ganze Dörfer umfassen und ein Gefühl der Gemeinschaft und des Feierns fördern."
+ 
+ musok:0 "Muismus" # 무/巫俗
+ musok_adj:0 "Musok" # 무속/巫俗
+ musok_adherent:0 "Muist" # 무속신자/巫弟子
+ musok_adherent_plural:0 "Muisten" # 무속신자/巫弟子
+ musok_desc:0 "Muismus, auch koreanischer Schamanismus genannt, ist eine Volksreligion in Korea, die sich um die Praxis von Baksu-Mudang oder einfach Mudang für männliche und weibliche Schamanen dreht. Mudang, das sich speziell auf weibliche Schamanen bezieht, und Baksu, das männliche Schamanen bezeichnet, spielen im Muismus eine zentrale Rolle. Sie fungieren als Vermittler zwischen Menschen und dem göttlichen Reich.\n\nMudang verhandelt mit den Göttern und bittet sie um Führung und Unterstützung in verschiedenen menschlichen Angelegenheiten. Sie erreichen dies durch die Durchführung von Ritualen, die als Darm bekannt sind. Bei diesen Bauchritualen handelt es sich um bedeutsame Anlässe, die oft als festliche Ereignisse begangen werden, die ganze Dörfer umfassen und ein Gefühl der Gemeinschaft und des Feierns fördern."
+ musok_old:0 "Alt Muismus"
+ musok_old_adj:0 "Alt Muismus"
+ musok_old_adherent:0 "Alt Muist"
+ musok_old_adherent_plural:0 "Alt Muisten"
+ 
+ tamna_musok:0 "Tamna Muismus" # 탐라무/耽羅巫俗
+ tamna_musok_adj:0 "Tamna Musok" # 탐라무/耽羅巫俗
+ tamna_musok_adherent:0 "Tamna Muist" # 탐라무신자/耽羅巫弟子
+ tamna_musok_adherent_plural:0 "Tamna Muisten" # 탐라무신자/耽羅巫弟子
+ tamna_musok_desc:0 "Der in Tamna praktizierte Muismus hat einen besonderen Charakter, der hauptsächlich durch die geografische Trennung vom koreanischen Festland beeinflusst wird. Muisten in Tamna vertreten einen Glauben, der sich um den himmlischen Gott Cheonjiwang und seine beiden Söhne dreht. Der älteste Sohn, Daebyeolwang, gilt als Herrscher der Unterwelt, während der zweite Sohn, Sobyeolwang, das irdische Reich regiert. Nach ihrer Überzeugung liegt die Ursache des weltlichen Chaos in Sobyeolwangs listigen Taten, durch die es ihm gelang, die Kontrolle über die Erde zu übernehmen, obwohl Daebyeolwang fähiger war und diese Rolle verdiente."
+ tamna_musok_old:0 "Alt Tamna Muismus"
+ tamna_musok_old_adj:0 "Alt Tamna Muismus"
+ tamna_musok_old_adherent:0 "Alt Tamna Muist"
+ tamna_musok_old_adherent_plural:0 "Alt Tamna Muisten"
+ 
+ dongmyeong_sinhwa:0 "Dongmyeong Sinhwa" # 동명신화/東明神話
+ dongmyeong_sinhwa_adj:0 "Dongmyeong Sinhwa" # 동명신화/東明神話
+ dongmyeong_sinhwa_adherent:0 "Dongmyeong Sinhwa Anhänger" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_adherent_plural:0 "Dongmyeong Sinhwa Anhänger" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_desc:0 "König Dongmyeong, der Enkel des Himmlischen Kaisers, wird als Gründer von Buyeo und Goguryeo verehrt und hat eine mythische Ursprungsgeschichte. Der Legende nach wurde er aus einem Ei geboren und stieg schließlich in den Himmel auf. Sein erster Sohn folgte ihm als Herrscher nach, während seine Söhne von einer zweiten Frau nach Süden zogen und Baekje gründeten.\n\nZusätzlich zu ihrer historischen Bedeutung hat die koreanische Volksreligion, die Elemente des Muismus beinhaltet, einen lockeren Schwerpunkt auf bekannten Schamanen als Baksu-Mudang oder einfach Mudang. Weibliche Schamanen werden Mudang genannt, während männliche Schamanen Baksu genannt werden. Mudang spielen eine entscheidende Rolle als Vermittler zwischen Menschen und dem göttlichen Reich. Sie führen Verhandlungen mit den Göttern und suchen deren Führung in menschlichen Angelegenheiten durch heilige Rituale, die als Darm bekannt sind. Diese Rituale finden oft in Form lebhafter, dorfweiter Feste statt, bei denen die Verbindung zwischen der spirituellen und der menschlichen Welt gefeiert wird."
+ dongmyeong_sinhwa_old:0 "Alt Dongmyeong Sinhwa"
+ dongmyeong_sinhwa_old_adj:0 "Alt Dongmyeong Sinhwa"
+ dongmyeong_sinhwa_old_adherent:0 "Alt Dongmyeong Sinhwa Anhänger"
+ dongmyeong_sinhwa_old_adherent_plural:0 "Alt Dongmyeong Sinhwa Anhänger"
+ 
+ silla_sinhwa:0 "Silla Sinhwa" # 신라신화/新羅神話
+ silla_sinhwa_adj:0 "Silla Sinhwa" # 신라신화/新羅神話
+ silla_sinhwa_adherent:0 "Silla Sinhwa Anhänger" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_adherent_plural:0 "Silla Sinhwa Anhänger" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_desc:0 "Das frühe Silla verfügte über ein einzigartiges politisches System, das durch die Rotation der Macht zwischen drei Zweigen der Pak-Dynastie gekennzeichnet war und zur Entstehung dreier unterschiedlicher Gründungsnarrative führte. Hyeokgeose stammt aus dem Pak-Haus und gilt als Gründer von Silla. Der Legende nach wurde er aus einem bemerkenswert übergroßen Ei geboren und erhielt daher den Namen „Pak“, was in Anlehnung an das Aussehen des Eies „Kürbis“ bedeutet.\n\nAndererseits war Talhae der Stammvater des Seok-Clans , ein Prinz aus einem fremden Königreich im Nordosten jenseits des Ostmeeres. Seine Geburt, von der angenommen wird, dass sie mit schlechten Vorzeichen einhergeht, veranlasste den König, ihn auf einem Schiff zurückzulassen. Das Schicksal führte das Schiff an die Küste von Silla, wo Talhae entdeckt wurde. Sein Nachname wurde von der Elster abgeleitet, die auf dem Schiff saß, eine symbolische Verbindung zu seiner zufälligen Ankunft.\n\nDer Vorfahr der Kim-Linie, die später den Silla-Thron monopolisieren sollte, war Alji. Angeblich wurde er in einer goldenen Truhe entdeckt, was ihm einen Hauch von Mystik und Erhabenheit verlieh."
+ silla_sinhwa_old:0 "Alt Silla Sinhwa"
+ silla_sinhwa_old_adj:0 "Alt Silla Sinhwa"
+ silla_sinhwa_old_adherent:0 "Alt Silla Sinhwa Anhänger"
+ silla_sinhwa_old_adherent_plural:0 "Alt Silla Sinhwa Anhänger"
+ 
+ goryeo_sinhwa:0 "Goryeo Sinhwa" # 고려신화/高麗神話
+ goryeo_sinhwa_adj:0 "Goryeo Sinhwa" # 고려신화/高麗神話
+ goryeo_sinhwa_adherent:0 "Goryeo Sinhwa Anhänger" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_adherent_plural:0 "Goryeo Sinhwa Anhänger" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_desc:0 "Die Gründung von Goryeo wurzelt in einer reichen Ahnenverehrung für Geon Wang, den Gründer von Goryeo. Geons Abstammung lässt sich auf Hogeyong zurückführen, seinen Vorgänger in der sechsten Generation, von dem bekannt ist, dass er eine heilige Verbindung mit der Berggöttin eingegangen ist.\n\nUnter allen geschätzten Vorfahren ist Jegeon, Geons Großvater, die prominenteste Figur. Der Legende nach galt Jegeon als unehelicher Sohn von Suzong, einem Herrscher aus der Tang-Dynastie. Es heißt, er habe die Gunst des Drachenkönigs erlangt und sei als Belohnung dafür mit der Heirat mit einer Drachin belohnt worden. Diese Vereinigung galt als bedeutender Austausch, der seine Verbindung mit dem göttlichen Reich festigte und den Segen des Drachenkönigs erflehte."
+ goryeo_sinhwa_old:0 "Alt Goryeo Sinhwa"
+ goryeo_sinhwa_old_adj:0 "Alt Goryeo Sinhwa"
+ goryeo_sinhwa_old_adherent:0 "Alt Goryeo Sinhwa Anhänger"
+ goryeo_sinhwa_old_adherent_plural:0 "Alt Goryeo Sinhwa Anhänger"
+
+ musok_high_god_name:0 "Hwanin" # 환인/桓因, Sky-God
+ musok_high_god_name_possessive:0 "Hwanin's"
+ musok_high_god_name_alternate:0 "Okhwangcheonjon" # 옥황천존/玉皇天尊
+ musok_high_god_name_alternate_possessive:0 "Okhwangcheonjon's"
+ musok_good_god_pungbaek:0 "Pungbaek" # 풍백/風伯
+ musok_good_god_usa:0 "Usa" # 우사/雨師
+ musok_good_god_unsa:0 "Unsa" # 운사/雲師
+ musok_good_god_hwanung:0 "Hwanung" #환웅/桓雄
+ musok_devil_name:0 "Yeokkwi" # 역귀/疫鬼, Plague-Ghost
+ musok_devil_name_possessive:0 "Yeokkwi's"
+ musok_evil_god_kumiho:0 "Kumiho" # 구미호/九尾狐, nine-tailed fox who can transform into beautiful girl - wait, does this count as a furry?
+ musok_evil_god_dueoksini:0 "Dueoksini" # 두억신/頭抑神, somewhat similar to yakṣa
+ musok_death_deity_name:0 "Yeomna Daewang" # 염나대왕/閻羅大王
+ musok_death_deity_name_possessive:0 "Yeomna Daewang's"
+ musok_religious_symbol:0 "Samtaeguek" # 삼태극/三太極
+ musok_religious_text:0 "Bonpuri" # 본풀이
+ musok_religious_text_2:0 "Taryeong" # 타령
+ musok_religious_text_3:0 "Sori" # 소리
+ musok_witchgodname:0 "Baridegi" # 발공주/鉢里公主
+ musok_witchgodname_possessive:0 "Baridegi's"
+
+ musok_creator_god_name:0 "Magohalmi" # 마고대모/麻姑大母(?), Giantess
+ musok_creator_god_name_possessive:0 "Mago's"
+ musok_health_god_name:0 "Cheoyong" # 처용/處容, 867 is kinda too early but it fits I guess
+ musok_health_god_name_possessive:0 "Cheoyong's"
+ musok_fertility_god_name:0 "Samshinhalmi" # 삼신대모/三神大母(?), Goddess of birth 
+ musok_fertility_god_name_possessive:0 "Samshinhalmi's"
+ musok_wealth_god_name:0 "Chilseongsin" # 칠성신/七星神, Gods of Big Dipper
+ musok_wealth_god_name_possessive:0 "Chilseongsin's"
+ musok_household_god_name:0 "Seongjusin" # 성주신/城主神
+ musok_household_god_name_possessive:0 "Seongjusin's"
+ musok_fate_god_name:0 "Gameunjang-agi" # 감은장아기
+ musok_fate_god_name_possessive:0 "Gameunjang-agi's"
+ musok_knowledge_god_name:0 "Sansinnyeong" # 산신영/山神靈
+ musok_knowledge_god_name_possessive:0 "Sansinnyeong's"
+ musok_war_god_name:0 "Jakdusinjang" # 작도신장/斫刀神將
+ musok_war_god_name_possessive:0 "Jakdusinjang's"
+ musok_trickster_god_name:0 "Dokkaebi" # 도깨비
+ musok_trickster_god_name_possessive:0 "Dokkaebi's"
+ musok_night_god_name:0 "$musok_high_god_name$" # Alternatively Ilwol or Taebyeol and Sobyeol, Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female, who were exiled(?) to Japan and became the rulers
+ musok_night_god_name_possessive:0 "$musok_high_god_name_possessive$"
+ musok_water_god_name:0 "Yongwang" # 용왕/龍王
+ musok_water_god_name_possessive:0 "Yongwang's"
+ 
+ musok_pantheon_name:0 "Cheonjisinmyeong" # 천지신명/天地神明
+ musok_house_of_worship:0 "Seonangdang" # 성황당/城隍堂
+ musok_house_of_worship_plural:0 "Seonangdang"
+ musok_religious_head_title:0 "Chachaung" # 차차웅/次次雄
+ musok_religious_head_title_name:0 "Chachaung" # 차차웅/次次雄
+ musok_devotee_male:0 "Baksu" # 박수/博數
+ musok_devotee_male_plural:0 "Baksu"
+ musok_devotee_female:0 "Mudang" # 무당/巫堂
+ musok_devotee_female_plural:0 "Mudang"
+ musok_alt_priest_term:0 "Mudang"
+ musok_divine_realm:0 "Cheonsang" # 천상/天上
+ musok_positive_afterlife:0 "Geungnak" # 극낙/極樂
+ musok_negative_afterlife:0 "Jiok" # 지옥/地獄

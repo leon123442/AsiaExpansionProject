@@ -17428,7 +17428,7 @@
 	winter_severity_bias = 0.0
 }
 ## c_samarkand 
-# b_samarqand 
+# b_samarkand 
 4404 ={
 	winter_severity_bias = 0.0
 }
@@ -19694,7 +19694,7 @@
 	winter_severity_bias = 0.80
 }
 ## c_bamian 
-# b_bamiyan 
+# b_bamian 
 4343 ={
 	winter_severity_bias = 0.80
 }
@@ -41511,7 +41511,7 @@
 	winter_severity_bias = 0.0
 }
 
-####
+### AEP
 
 9660 = {
 	winter_severity_bias = 0.90

@@ -1,0 +1,5 @@
+﻿building_dojo_requirements = {
+	culture = { has_cultural_parameter = unlock_maa_samurai }
+}
+
+

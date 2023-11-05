@@ -1,0 +1,29 @@
+k_celebes = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+c_butungmuna = {
+    700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+c_makassar = {
+    700.1.1 = { change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+}
+
+k_timor = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+k_maluku = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+
+c_raja_ampat = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}

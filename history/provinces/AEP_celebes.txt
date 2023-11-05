@@ -1,0 +1,474 @@
+#######################
+### Maluku/k_maluku ###
+#######################
+
+##d_ternate ####################################
+###c_ternate			
+11472 = { # b_ternate
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_jailolo
+12040 = { # b_jailolo
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_moro			
+11476= { # b_loloda
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding
+}
+11477= { # b_moro
+	holding = none
+}
+
+###c_gane 
+11470 = { # b_gane
+	culture = raja_ampat
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+###c_bacan
+11465 = { # b_bacan
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding   
+}
+10926 = { # b_obi
+	holding = none 
+}
+
+##d_tidore ####################################
+###c_tidore
+11471 = { # b_tidore
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+###c_weda
+11480 = { # b_weda
+	culture = raja_ampat
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+###c_wasile
+11482 = { # b_wasile
+	culture = halmahera
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+##d_banda ####################################
+###c_ambon
+10457 = { # b_ambon
+	culture = nunusaku
+	religion = nunusaku
+	holding = tribal_holding   
+}
+10533 = { # b_huamual
+	holding = none   
+}
+
+###c_buru
+10456 = { # b_buru
+	culture = nunusaku
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+###c_sula
+10453 = { # b_sula
+	culture = nunusaku
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+###c_sahulau
+10534 = { # b_sahulau
+	culture = nunusaku
+	religion = nunusaku
+	holding = tribal_holding   
+}
+10550 = { # b_tehoru
+	holding = none 
+}
+
+###c_wahai
+10867 = { # b_wahai
+	culture = nunusaku
+	religion = nunusaku
+	holding = tribal_holding   
+}
+10866 = { # b_bobot
+	holding = none 
+}
+
+##d_aru ####################################
+###c_aru
+11520 = { # b_aru
+	culture = aru
+	religion = nunusaku
+	holding = tribal_holding   
+}
+11826 = { # b_kei
+	holding = none 
+}
+11865 = { # b_yamadena
+	holding = none 
+}
+
+###c_wetar
+12021 = { # b_wetar
+	culture = tanimbar
+	religion = nunusaku
+	holding = tribal_holding   
+}
+
+##d_timor ####################################
+###c_wehali
+12025 = { # b_wehali
+	culture = timor
+	religion = marapu
+	holding = tribal_holding   
+}
+
+###c_kupang
+12022 = { # b_kupang
+	culture = timor
+	religion = marapu
+	holding = tribal_holding   
+}
+
+###c_sonbay
+12024 = { # b_amanuban
+	culture = timor
+	religion = marapu
+	holding = tribal_holding   
+}
+12023 = { # b_ambeno
+	holding = none  
+}
+
+###c_likusaen
+12027 = { # b_baukau
+	culture = abui
+	religion = marapu
+	holding = tribal_holding   
+}
+12026 = { # b_maubara
+	holding = none   
+}
+
+##d_flores ####################################
+###c_larantuka
+12018 = { # b_larantuka
+	culture = flores
+	religion = marapu
+	holding = tribal_holding   
+}
+12019 = { # b_lembata
+	holding = none   
+}
+###c_sumba
+12016 = { # b_sumba
+	culture = sumba
+	religion = marapu
+	holding = tribal_holding   
+}
+
+###c_nipa
+12017 = { # b_nipa
+	culture = flores
+	religion = marapu
+	holding = tribal_holding   
+}
+
+###c_alor
+12020 = { # b_alor
+	culture = abui
+	religion = marapu
+	holding = tribal_holding   
+}
+
+##########################
+### Sulawesi/k_celebes ###
+##########################
+
+##d_sulawesi ####################################
+###c_kaili
+#b_palu
+11464 = {
+	culture = tomini #kaili
+	religion = celebic
+	holding = tribal_holding
+}
+#b_pipikoro
+11466 = {
+	holding = none
+}
+#b_pasangkayu
+11467 = {
+	holding = none
+}
+
+###c_tolitoli
+#b_tolitoli
+11468 = {
+	culture = tomini
+	religion = celebic
+	holding = tribal_holding
+}
+#b_tinombo
+11469 = {
+	holding = none
+}
+
+###c_gorontalo
+#b_hulondalo
+11473 = {
+	culture = gorontalo
+	religion = malesung
+	holding = tribal_holding
+}
+#b_lolak
+11474 = {
+	holding = none
+}
+#b_molibagu
+11475 = {
+	holding = none
+}
+
+###c_mongondow
+#b_manado
+11478 = {
+	culture = minahasa
+	religion = malesung
+	holding = tribal_holding
+}
+#b_karakelong_island
+11479 = {
+	holding = none
+}
+#b_tondano
+11481 = {
+	holding = none
+}
+
+###c_salua
+#b_luwuk
+11483 = {
+	culture = salua
+	religion = celebic
+	holding = tribal_holding
+}
+#b_banggai  #Salakan
+11484 = {
+	holding = none
+}
+
+###c_pamona
+#b_poso
+11487 = {
+	culture = kaili
+	religion = celebic
+	holding = tribal_holding
+}
+#b_beturube
+11488 = {
+	holding = none
+}
+
+##d_bungku ####################################
+###c_bungku
+#b_bungku
+11490 = {
+	culture = bungku
+	religion = celebic
+	holding = tribal_holding
+}
+#b_malili
+11492 = {
+	holding = none
+}
+
+###c_butungmuna
+#b_muna
+11493 = {
+	culture = munan
+	religion = celebic
+	holding = tribal_holding
+}
+#b_buton
+11494 = {
+	holding = none
+}
+
+###c_south_bungku
+#b_tinanggea
+11497 = {
+	culture = bungku
+	religion = celebic
+	holding = tribal_holding
+}
+#b_bombana
+11499 = {
+	holding = none
+}
+#b_kendari
+11501 = {
+	holding = none
+}
+
+###c_mekongka
+#b_lasusua
+11502 = {
+	culture = bungku
+	religion = celebic
+	holding = tribal_holding
+}
+#b_kolaka
+11503 = {
+	holding = none
+}
+
+##d_south_sulawesi ####################################
+###c_bugis
+#b_sopeng
+11504 = {
+	culture = bugis
+	religion = tolotang
+	holding = tribal_holding
+}
+#b_parepare
+11507 = {
+	holding = none
+}
+
+###c_luwu
+#b_burau
+11508 = {
+	culture = bugis
+	religion = tolotang
+	holding = tribal_holding
+}
+#b_larompong
+11509 = {
+	holding = none
+}
+
+###c_mandar
+#b_topoyo
+11511 = {
+	culture = toraja
+	religion = alukta
+	holding = tribal_holding
+}
+#b_seko
+11512 = {
+	holding = none
+}
+
+###c_mamuju
+#b_mamuju
+11514 = {
+	culture = toraja
+	religion = alukta
+	holding = tribal_holding
+}
+#b_polewali
+11515 = {
+	holding = none
+}
+
+###c_makassar
+#b_makassar
+11517 = {
+	culture = makassar
+	religion = makassaric
+	holding = tribal_holding
+}
+#b_bulukumba
+11519 = {
+	holding = none
+}
+
+#####################
+### Wanin/k_wanin ###
+#####################
+
+##d_soren ####################################
+###c_soren
+11505 = { # b_soren
+	culture = papuan
+	religion = penunggu
+	holding = tribal_holding   
+}
+11506 = { # b_maybrat
+	holding = none
+}
+11500 = { # b_abun
+	holding = none   
+}
+11510 = { # b_sougb
+	holding = none   
+}
+
+###c_raja_ampat
+11485 = { # b_waigeo
+	culture = raja_ampat
+	religion = nunusaku
+	holding = tribal_holding   
+}
+11486 = { # b_salawati
+	holding = none 
+}
+11489 = { # b_waigama
+	holding = none 
+}
+
+###c_arandai
+11513 = { # b_arandai
+	culture = papuan
+	religion = penunggu
+	holding = tribal_holding   
+}
+
+##d_fakfak ####################################
+###c_fakfak
+11491 = { # b_fakfak
+	culture = papuan
+	religion = penunggu
+holding = tribal_holding   
+	}
+11495 = { # b_buruwai
+	holding = none   
+}
+
+###c_mairasi 
+11516 = { # b_mairasi
+	culture = papuan
+	religion = penunggu
+	holding = tribal_holding   
+}
+11518 = { # b_mer
+	holding = none   
+}
+
+###c_wamesa
+11498 = { # b_wamesa
+	culture = cenderawasih
+	religion = nunusaku
+	holding = tribal_holding   
+}
+11496 = { # b_irarutu
+	holding = none   
+}

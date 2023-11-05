@@ -1,0 +1,184 @@
+﻿40000001 = { # Fujiwara Clan 藤原氏
+	name = "dynn_fujiwara"
+	culture = "yamato"
+}
+40000101 = { # Imperial Family/Yamato 皇室
+	name = "dynn_yamato"
+	culture = "yamato"
+}
+40000201 = { # Kanmu Heishi 桓武平氏
+	name = "dynn_kanmu-heishi" 
+	culture = "yamato" 
+}
+40000202 = { # Ninmyō-Heishi 仁明平氏
+	name = "dynn_ninmyo-heishi" 
+	culture = "yamato" 
+}
+40000203 = { # Montoku-Heishi 文徳平氏
+	name = "dynn_montoku-heishi" 
+	culture = "yamato" 
+}
+40000204 = { # Kōkō-Heishi 光孝平氏
+	name = "dynn_koko-heishi" 
+	culture = "yamato" 
+}
+40000205 = { # Saga-Genji 嵯峨源氏
+	name = "dynn_saga-genji" 
+	culture = "yamato" 
+}
+40000206 = { # Ninmyō-Genji 仁明源氏
+	name = "dynn_ninmyo-genji"
+	culture = "yamato"
+}
+40000207 = { # Montoku-Genji 文徳源氏
+	name = "dynn_montoku-genji"
+	culture = "yamato"
+}
+40000208 = { # Seiwa-Genji 清和源氏
+	name = "dynn_seiwa-genji"
+	culture = "yamato"
+}
+40000209 = { # Yōzei-Genji 陽成源氏
+	name = "dynn_yozei-genji"
+	culture = "yamato"
+}
+40000210 = { # Kōkō-Genji 光孝源氏
+	name = "dynn_koko-genji"
+	culture = "yamato"
+}
+40000211 = { # Uda-Genji 宇多源氏
+	name = "dynn_uda-genji"
+	culture = "yamato"
+}
+40000212 = { # Daigo-Genji 醍醐源氏
+	name = "dynn_daigo-genji"
+	culture = "yamato"
+}
+40000213 = { # Murakami-Genji 村上源氏
+	name = "dynn_murakami-genji"
+	culture = "yamato"
+}
+40000214 = { # Reizei-Genji 冷泉源氏
+	name = "dynn_reizei-genji"
+	culture = "yamato"
+}
+40000215 = { # Kazan-Genji 花山源氏
+	name = "dynn_kazan-genji"
+	culture = "yamato"
+}
+40000216 = { # Sanjō-Genji 三条源氏
+	name = "dynn_sanjo-genji"
+	culture = "yamato"
+}
+40000217 = { # Tachibana Clan 橘氏
+	name = "dynn_tachibana"
+	culture = "yamato"
+}
+40000218 = { # Soga Clan 蘇我氏
+	name = "dynn_soga"
+	culture = "yamato"
+}
+40000219 = { # Mononobe Clan 物部氏
+	name = "dynn_mononobe"
+	culture = "yamato"
+}
+40000220 = { # Ki Clan 紀氏
+	name = "dynn_ki"
+	culture = "yamato"
+}
+40000221 = { # Ariwara Clan 在原氏
+	name = "dynn_ariwara"
+	culture = "yamato"
+}
+40000222 = { # Kiyohara Clan 清原氏
+	name = "dynn_kiyohara"
+	culture = "yamato"
+}
+40000223 = { # Sakanoue Clan 坂上氏
+	name = "dynn_sakanoue"
+	culture = "yamato"
+}
+40000224 = { # Kibi Clan 吉備氏
+	name = "dynn_kibi"
+	culture = "yamato"
+}
+40000225 = { # Ōe Clan 大江氏
+	name = "dynn_oe"
+	culture = "yamato"
+}
+40000226 = { # Funya Clan 文室氏
+	name = "dynn_funya"
+	culture = "yamato"
+}
+40000227 = { # Yoshimine Clan 良岑氏
+	name = "dynn_yoshimine"
+	culture = "yamato"
+}
+40000228 = { # Mutsu Ishikawa Clan 陸奥石川氏
+	name = "dynn_mutsuishikawa"
+	culture = "yamato"
+}
+40000229 = { # Chiba Clan 千葉氏
+	name = "dynn_chiba"
+	culture = "yamato"
+}
+40000230 = { # Miura Clan 三浦氏
+	name = "dynn_miura"
+	culture = "yamato"
+}
+40000231 = { # Kamakura Clan 鎌倉氏
+	name = "dynn_kamakura"
+	culture = "yamato"
+}
+40000232 = { #	Nagamine Clan 長岑氏
+	name = "dynn_nagamine"
+	culture = "yamato"
+}
+40000233 = { # Harusumi Clan 春澄氏
+	name = "dynn_harusumi"
+	culture = "yamato"
+}
+40000234 = { # Sugawara Clan 菅原氏
+	name = "dynn_sugawara"
+	culture = "yamato"
+}
+40000235 = { # Shimada Clan 島田氏
+	name = "dynn_shimada"
+	culture = "yamato"
+}
+40000236 = { # Ō Clan 多氏
+	name = "dynn_oo"
+	culture = "yamato"
+}
+40000237 = { # Abe Clan 安倍氏
+	name = "dynn_abe"
+	culture = "yamato"
+}
+40000238 = { # Yoshimichi Clan 善道氏
+	name = "dynn_yoshimichi"
+	culture = "yamato"
+}
+40000239 = { # Miyoshi Clan 三善氏
+	name = "dynn_miyoshi"
+	culture = "yamato"
+}
+40000240 = { # Takashina Clan 高階氏
+	name = "dynn_takashina"
+	culture = "yamato"
+}
+40000241 = { # Ōkasuga Clan 大春日氏
+	name = "dynn_okasuga"
+	culture = "yamato"
+}
+40000242 = { # Ashikaga Clan 足利氏
+	name = "dynn_ashikaga"
+	culture = "yamato"
+}
+40000243 = { # Yamato no Fuhito Clan 和史氏
+	name = "dynn_fuhitoyamato"
+	culture = "yamato"
+}
+40000244 = { # Sugano Clan 菅野氏
+	name = "dynn_sugano"
+	culture = "yamato"
+}

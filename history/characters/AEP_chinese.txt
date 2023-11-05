@@ -1,0 +1,2008 @@
+﻿######################
+### House of Li 李 ###
+######################
+
+gaozu_huangdi = { # Emperor Gaozu of Tang Empire 618-626
+	name = Yuan # 淵
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	566.4.7 = {
+		birth = yes
+	}
+	# Reign at 618.6.18
+	635.6.25 = {
+		death = yes
+		name = Gaozu # 高祖
+	}
+}
+taizong_huangdi = { # Emperor Taizong of Tang Empire
+	name = Shimin # 世民
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	trait = education_martial_4
+	trait = intellect_good_3
+	trait = gregarious
+	father = gaozu_huangdi
+	598.1.28 = {
+		birth = yes
+	}
+	# Reign at 626.9.4
+	649.7.10 = {
+		death = yes
+		name = Taizong # 太宗
+	}
+}
+gaozong_huangdi = { # Emperor Gaozong of Tang Empire
+	name = Zhi # 治
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = taizong_huangdi
+	628.7.21 = {
+		birth = yes
+	}
+	# Reign at 649.7.15
+	683.12.27 = {
+		death=yes
+		name = Gaozong # 高宗
+	}
+}
+zhongzong_huangdi = { # Emperor Zhongzong of Tang Empire
+	name = Xian # 顯
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = gaozong_huangdi
+	656.11.26 = {
+		birth = yes
+	}
+	677.1.1 = {
+		name = Zhe # 哲
+	}
+	# Reign at 684.1.23
+	698.10.1 = {
+		name = Xian # 顯
+	}
+	710.7.3 = {
+		death = {
+			death_reason = death_poison
+		}
+		name = Zhongzong # 中宗
+	}
+}
+ruizong_huangdi = { # Emperor Ruizong of Tang Empire
+	name = Xulun # 旭輪
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = gaozong_huangdi
+	trait = child_of_concubine_male
+	662.6.22 = {
+		birth = yes
+	}
+	669.1.1 = {
+		name = Lun # 輪
+	}
+	678.1.1 = {
+		name = Dan # 旦
+	}
+	# Reign at 684.2.27
+	690.1.1 = {
+		name = Lun # 輪
+	}
+	698.1.1 = {
+		name = Dan # 旦
+	}
+	716.7.13 = {
+		death = yes
+		name = Ruizong # 睿宗
+	}
+}
+first_xuanzong_huangdi = { # Emperor Xuanzong I of Tang Empire
+	name = Longji # 隆基
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = ruizong_huangdi
+	trait = child_of_concubine_male
+	685.9.8 = {
+		birth = yes
+	}
+	# Reign at 712.9.8
+	762.5.3 = {
+		trait = ill
+		death = yes
+		name = Xuanzong2 # 玄宗
+	}
+}
+suzong_huangdi = { # Emperor Suzong of Tang Empire
+	name = Sisheng # 嗣升
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = first_xuanzong_huangdi
+	trait = child_of_concubine_male
+	711.2.21 = {
+		birth = yes
+	}
+	725.4.27 = {
+		name = Jun # 浚
+	}
+	738.8.15 = {
+		name = Yu # 璵
+	}
+	738.1.1 = {
+		name = Shao # 紹
+	}
+	744.3.14 = {
+		name = Heng # 亨
+	}
+	762.5.16 = {
+		trait = ill
+		death = yes
+		name = Suzong # 肅宗
+	}
+}
+daizong_huangdi = { # Emperor Daizong of Tang Empire
+	name = Chu # 俶
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = first_xuanzong_huangdi
+	trait = child_of_concubine_male
+	727.1.9 = {
+		birth = yes
+	}
+	# Reign at 762.5.18
+	758.1.1 = {
+		name = Yu2 # 豫
+	}
+	779.6.10 = {
+		death = yes
+		name = Daizong # 代宗
+	}
+}
+dezong_huangdi = { # Emperor Dezong of Tang Empire
+	name = Kuo # 适
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = daizong_huangdi
+	trait = child_of_concubine_male
+	742.5.27 = {
+		birth = yes
+	}
+	# Reign at 779.6.12
+	805.2.25 = {
+		death = yes
+		name = Dezong # 德宗
+	}
+}
+shunzong_huangdi = { # Emperor Shunzong of Tang Empire
+	name = Song # 誦
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = dezong_huangdi
+	trait = child_of_concubine_male
+	761.2.1 = {
+		birth = yes
+	}
+	# Reign at 805.2.28
+	804.12.1 = {
+		trait = ill
+	}
+	806.2.11 = {
+		death = yes
+		name = Shunzong # 順宗
+	}
+}
+xianzong_huangdi = { # Emperor Xianzong of Tang Empire
+	name = Chun # 淳
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = shunzong_huangdi
+	778.3.4 = {
+		birth = yes
+	}
+	805.9.5 = {
+		name = Chun2 # 純
+	}
+	820.2.14 = {
+		death = yes
+		name = Xianzong # 憲宗
+	}
+}
+muzong_huangdi = { # Emperor Muzong of Tang Empire
+	name = You # 宥
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xianzong_huangdi
+	795.7.26 = {
+		birth = yes
+	}
+	812.8.29 = {
+		name = Heng2 # 恆
+	}
+	824.2.25 = {
+		trait = ill
+		death = yes
+		name = Muzong # 穆宗
+	}
+}
+jingzong_huangdi = {  # Emperor Jingzong of Tang Empire
+	name = Zhan # 湛
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = muzong_huangdi
+	809.7.22 = {
+		birth = yes
+	}
+	827.1.9 = {
+		death = {
+			death_reason = death_murder
+		}
+		name = Jingzong # 敬宗
+	}
+}
+wenzong_huangdi = { # Emperor Wenzong of Tang Empire
+	name = Han # 涵
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = muzong_huangdi
+	809.10.20 = {
+		birth = yes
+	}
+	827.1.13 = {
+		name = Ang # 昂
+	}
+	840.2.10 = {
+		death = yes
+		name = Wenzong # 文宗
+	}
+}
+wuzong_huangdi = { # Emperor Wuzong of Tang Empire
+	name = Chan # 瀍
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = muzong_huangdi
+	814.7.2 = {
+		birth = yes
+	}
+	840.2.10 = {
+		name = Yan2 # 炎
+	}
+	846.4.22 = {
+		death = yes
+		name = Wuzong # 武宗
+	}
+}
+xuanzong_huangdi = { # Emperor Xuanzong II of Tang Empire
+	name = Yi2 # 怡
+	dna = xuanzong_huangdi_dna
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = xianzong_huangdi
+	810.7.27 = {
+		birth = yes
+	}
+	830.1.1 = {
+		add_spouse = yuanzhao_empress
+	}
+	846.3.25 = {
+		name = Chen # 忱
+	}
+	859.9.7 = {
+		death = yes
+		name = Xuanzong # 宣宗
+	}
+}
+# Descendants of Emperor Xuanzong
+5100001 = { # Li_Ruler of Tang Empire, Emperor Yizong
+	name = Wen4 # 溫
+	dna = yizong_huangdi_dna
+	dynasty = 80000001
+	religion = mahayana
+	culture = han
+	father = xuanzong_huangdi
+	mother = yuanzhao_empress
+	trait = education_learning_3
+	trait = generous
+	trait = wrathful
+	trait = sadistic
+	trait = zealous
+	833.12.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = {
+				flag = has_scripted_appearance
+			}
+		}
+	}
+	845.1.1 = {
+		add_spouse = hui_an_empress
+	}
+	846.1.1 = {
+		add_concubine = shufei_concubine
+	}
+	847.1.1 = {
+		add_spouse = gongxian_empress
+	}
+	852.1.1 = {
+		trait = drunkard
+		trait = reveler_3
+		trait = profligate
+	}
+	859.9.7 = {
+		name = Cui # 漼
+		add_realm_law_skip_effects = crown_authority_2
+	}
+	862.1.1 = {
+		add_concubine = defei_concubine
+	}
+	867.1.1 = {
+		effect = {
+			remove_short_term_gold = 600
+			add_piety = 300
+		}
+	}
+	873.8.15 = {
+		death = yes
+		name = Yizong # 懿宗
+	}
+}
+wanshou_princess = {
+	name = Wanshou # 萬壽
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = xuanzong_huangdi # 1st daughter
+	mother = yuanzhao_empress 
+	830.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+guangde_princess = {
+	name = Guangde # 廣德
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han 
+	father = xuanzong_huangdi # 4th daughter
+	mother = yuanzhao_empress 
+	832.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+tong_prince = {
+	name = Zi2 # 滋
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 3rd son, also his favourite
+	trait = education_learning_4
+	840.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+qing_prince = {
+	name = Yi3 # 沂
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 4th son
+	844.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+zhao_prince = {
+	name = Rui # 汭
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 8th son
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+kang_prince = {
+	name = Wen3 # 汶
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 9th son
+	851.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+guang_prince = {
+	name = Yong2 # 澭
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 11th son
+	854.1.1 = {
+		birth = yes
+	}
+	877.1.1 = {
+		death = yes
+	}
+}
+jinghuai_prince = {
+	name = Mei # 渼
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # unknown mother
+	836.1.1 = {
+		birth = yes
+	}
+	852.1.1 = {
+		death = yes
+	}
+}
+ya_prince = {
+	name = Jing # 涇
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 2nd son, unknown mother
+	839.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+pu_prince = {
+	name = Ze # 澤
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 5th son, unknown mother
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+e_prince = {
+	name = Run # 潤
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 6th son, unknown mother
+	843.1.1 = {
+		birth = yes
+	}
+	876.1.1 = {
+		death = yes
+	}
+}
+huai_prince = {
+	name = Qia # 洽
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 7th son, unknown mother
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+wei_prince_of_xuanzong = {
+	name = Guan # 灌
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # ?th son, unknown mother
+	840.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+yongfu_princess = {
+	name = Yongfu # 永福
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 2nd daughter, unknown mother
+	831.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+qigonghuai_princess = {
+	name = Qigonghuai # 齊恭懷
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 3rd daughter, unknown mother
+	831.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+heyi_princess = {
+	name = Heyi # 和義
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 5th daughter, unknown mother
+	832.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+rao_an_princess = {
+	name = Rao'an # 饒安
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 6th daughter, unknown mother
+	832.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+shengtang_princess = {
+	name = Shengtang # 盛唐
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 7th daughter, unknown mother
+	833.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+pingyuan_princess = {
+	name = Pingyuan # 平原
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # 11th daughter, unknown mother
+	834.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		death = yes
+	}
+}
+tangyang_princess = {
+	name = Tangyang # 唐陽
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # ?th daughter, unknown mother
+	835.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+xuchang_zhuangsu_princess = {
+	name = Xuchang_Zhuangsu # 許昌莊肅
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # ?th daughter, unknown mother
+	837.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+fengyang_princess = {
+	name = Fengyang # 豐陽
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = xuanzong_huangdi # ?th daughter, unknown mother
+	839.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+wei_prince_of_yizong = {
+	name = Ye2 # 曄
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 1st son
+	858.1.1 = { #date unknown
+		birth = yes
+	}
+	879.1.1 = { #date unknown
+		death = yes
+	}
+}
+liang_prince = {
+	name = Ting # 侹
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 2nd son
+	859.1.1 = { #date unknown
+		birth = yes
+	}
+	878.1.1 = { #date unknown
+		death = yes
+	}
+}
+shu_prince = {
+	name = Ji2 # 保
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 3rd son
+	859.6.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+xian_prince = {
+	name = Kan # 侃
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 4th son
+	860.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+xizong_prince = {
+	name = Yan # 儼
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = 5100001 # 5th son
+	mother = hui_an_empress
+	862.6.8 = {
+		birth = yes
+	}
+	873.8.16 = {
+		name = Xuan # 儇
+	}
+	888.4.20 = {
+		death = yes
+		name = Xizong # 僖宗
+	}
+}
+ji_prince = {
+	name = Bao # 保
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 6th son
+	863.6.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+zhaozong_prince = {
+	name = Jie # 傑
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = 5100001 # 7th son
+	mother = gongxian_empress
+	867.1.1 = {
+		birth = yes
+	}
+	888.4.20 = {
+		name = Min # 敏
+	}
+	888.6.1 = {
+		name = Ye2 # 曄
+	}
+	904.9.22 = {
+		death = {
+			death_reason = death_murder
+		}
+		name = Zhaozong # 昭宗
+	}
+}
+ai_prince = {
+	name = Zuo # 祚
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	father = zhaozong_prince
+	892.10.27 = {
+		birth = yes
+	}
+	904.9.26 = {
+		name = Chu2 # 柷
+	}
+	908.3.26 = {
+		death = {
+			death_reason = death_murder
+		}
+		name = Ai # 哀帝
+	}
+}
+gong_ai_prince = {
+	name = Yi # 倚
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_male
+	father = 5100001 # 8th son
+	868.1.1 = { #date unknown
+		birth = yes
+	}
+	897.8.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+weiwenyi_princess = {
+	name = Weiwenyi # 衛文懿
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # possibly 1st daughter
+	mother = shufei_concubine
+	849.7.3 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+anhua_princess = {
+	name = Anhua # 安化
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # possibly 2nd daughter
+	855.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+pukang_princess = {
+	name = Pukang # 普康
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # 3rd daughter
+	861.1.1 = {
+		birth = yes
+	}
+	866.8.15 = {
+		death = yes
+	}
+}
+changyuan_princess = {
+	name = Changyuan # 昌元
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # ?th daughter
+	862.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unkown
+		death = yes
+	}
+}
+changning_princess = {
+	name = Changning # 昌寧
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # ?th daughter
+	mother = defei_concubine
+	863.1.1 = { #date unknown
+		birth = yes
+	}
+	870.1.1 = { #date unknown
+		death = yes
+	}
+}
+jinhua_princess = {
+	name = Jinhua # 金華
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # ?th daughter
+	864.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+renshou_princess = {
+	name = Renshou # 仁壽
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # ?th daughter
+	865.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+yongshou_princess = {
+	name = Yongshou # 永壽
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # ?th daughter
+	866.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+suining_princess = {
+	name = Suining # 遂寧
+	female = yes
+	dynasty = 80000001
+	religion = shangqing
+	culture = han
+	trait = child_of_concubine_female
+	father = 5100001 # 11th daughter
+	869.1.1 = { #date unknown
+		birth = yes
+	}
+	900.1.1 = { #date unknown
+		death = yes
+	}
+}
+
+########################
+### House of Zhao 趙 ###
+########################
+
+zhao_hongyin = {
+	name = Hongyin # 弘殷
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	899.1.1 = {
+		birth = yes
+	}
+	956.9.3 = {
+		death = yes
+		name = Xuanzu # 宣祖
+	}
+}
+taizu_huangdi = {
+	name = Kuangyin # 匡胤
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	trait = brave
+	trait = strong
+	trait = blademaster_3
+	trait = administrator
+	father = zhao_hongyin
+	927.3.21 = {
+		birth = yes
+	}
+	976.11.14 = {
+		death = yes
+		name = Taizu # 太祖
+	}
+}
+taizong_huangdi_song = {
+	name = Kuangyi # 匡義
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	trait = arrogant
+	trait = intellect_good_2
+	trait = scholar
+	father = zhao_hongyin
+	939.11.20 = {
+		birth = yes
+	}
+	960.1.1 = {
+		name = Guangyi # 光義
+	}
+	977.1.1 = {
+		name = Jiong # 炅
+	}
+	997.5.8 = {
+		death = yes
+		name = Taizong # 太宗
+	}
+}
+zhenzong_huangdi = {
+	name = Dechang # 德昌
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = taizong_huangdi_song
+	968.12.23 = {
+		birth = yes
+	}
+	983.1.1 = {
+		name = Yuanxiu # 元休
+	}
+	986.1.1 = {
+		name = Yuankan # 元侃
+	}
+	995.1.1 = {
+		name = Heng2 # 恆
+	}
+	1022.3.23 = {
+		death = yes
+		name = Zhenzong # 真宗
+	}
+}
+renzong_huangdi = {
+	name = Shouyi # 受益
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhenzong_huangdi
+	1010.5.30 = {
+		birth = yes
+	}
+	1018.1.1 = {
+		name = Zhen # 禎
+	}
+	1063.4.30 = {
+		death = yes
+		name = Renzong # 仁宗
+	}
+}
+zhao_yuanfen = {
+	name = Yuanfen # 元份
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = taizong_huangdi_song
+	969.1.1 = {
+		birth = yes
+	}
+	1005.1.1 = {
+		death = yes
+	}
+}
+zhao_yunrang = {
+	name = Yunrang # 允讓
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yuanfen
+	995.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+zhao_zongyi_shu = {
+	name = Zongyi # 宗懿
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1027.1.1 = { # date unknown
+		birth = yes
+	}
+	1077.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongpu = {
+	name = Zongpu # 宗樸
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1027.6.1 = { # date unknown
+		birth = yes
+	}
+	1077.1.1 = {
+		death = yes
+	}
+}
+zhao_zonghui = {
+	name = Zonghui # 宗暉
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1028.1.1 = {
+		birth = yes
+	}
+	1094.7.12 = {
+		death = yes
+	}
+}
+zhao_zongfu = {
+	name = Zongfu # 宗輔
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1028.6.1 = { # date unknown
+		birth = yes
+	}
+	1072.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongmiao = {
+	name = Zongmiao # 宗邈
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1029.1.1 = { # date unknown
+		birth = yes
+	}
+	1078.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongyi = {
+	name = Zongyi2 # 宗誼
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1029.6.1 = { # date unknown
+		birth = yes
+	}
+	1075.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongqiu = {
+	name = Zongqiu # 宗球
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1030.1.1 = { # date unknown
+		birth = yes
+	}
+	1095.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_wen = {
+	name = Wen # 宗師
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1030.6.1 = { # date unknown
+		birth = yes
+	}
+	1089.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongsheng = {
+	name = Zongsheng2 # 宗晟
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1031.1.1 = {
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+zhao_zongbo = {
+	name = Zongbo # 宗博
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1031.4.1 = { # date unknown
+		birth = yes
+	}
+	1073.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongyuan = {
+	name = Zongyuan # 宗瑗
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1031.8.1 = { # date unknown
+		birth = yes
+	}
+	1078.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongyu = {
+	name = Zongyu # 宗愈
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1031.12.1 = { # date unknown
+		birth = yes
+	}
+	1075.1.1 = { # date unknown
+		death = yes
+	}
+}
+yingzong_huangdi = {
+	name = Zongshi # 宗實
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	trait = arbitrary
+	trait = arrogant
+	trait = cynical
+	trait = lunatic_1
+	trait = depressed_1
+	trait = spindly
+	father = zhao_yunrang
+	1032.2.16 = {
+		birth = yes
+	}
+	1048.1.1 = {
+		add_spouse = gao_xuanren
+	}
+	1062.1.1 = {
+		name = Shu # 曙
+	}
+	1066.9.15 = {
+		trait = cancer # added to speed up death since he died just four months after game start
+		trait = ill
+	}
+	1067.1.25 = {
+		death = yes
+		name = Yingzong # 英宗
+	}
+	dna = yingzong_huangdi_dna_entry
+}
+zhao_zongyin = {
+	name = Zongyin # 宗隱
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1032.6.1 = { # date unknown
+		birth = yes
+	}
+	1094.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongmian = {
+	name = Zongmian # 宗沔
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1033.1.1 = { # date unknown
+		birth = yes
+	}
+	1105.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongchuo = {
+	name = Zongchuo # 宗綽
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1033.6.1 = { # date unknown
+		birth = yes
+	}
+	1107.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongzhi = {
+	name = Zongzhi # 宗治
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1034.1.1 = { # date unknown
+		birth = yes
+	}
+	1102.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zonghun = {
+	name = Zonghun # 宗葷
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1034.6.1 = { # date unknown
+		birth = yes
+	}
+	1076.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongsheng_chang = {
+	name = Zongsheng # 宗勝
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1035.1.1 = { # date unknown
+		birth = yes
+	}
+	1085.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zongchu = {
+	name = Zongchu # 宗楚
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1035.6.1 = { # date unknown
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+zhao_zonghu = {
+	name = Zonghu # 宗祜
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1036.1.1 = { # date unknown
+		birth = yes
+	}
+	1085.1.1 = { # date unknown
+		death = yes
+	}
+}
+zhao_zonghan = {
+	name = Zonghan # 宗漢
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_yunrang
+	1036.6.1 = { # date unknown
+		birth = yes
+	}
+	1109.9.13 = {
+		death = yes
+	}
+}
+shenzong_huangdi = {
+	name = Zhongzhen # 仲鍼
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	trait = ambitious
+	trait = humble
+	trait = arbitrary
+	trait = education_martial_1
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1048.5.25 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		name = Xu2 # 頊
+	}
+	1085.4.1 = {
+		death = yes
+		name = Shenzong # 神宗
+	}
+	dna = shenzong_huangdi_dna_entry
+}
+zhao_hehui = {
+	name = Hehui # 惠和
+	female = yes
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	1049.1.1 = { #date unknown
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+zhao_wurong = {
+	name = Wurong # 吳榮
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1050.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+zhao_xianhui = {
+	name = Xianhui # 賢惠
+	female = yes
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1051.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+zhao_xiande = {
+	name = Xiande # 賢德
+	female = yes
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1051.9.1 = {
+		birth = yes
+	}
+	1123.1.1 = {
+		death = yes
+	}
+}
+zhao_Run = {
+	name = Run2 # 顏
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1053.1.1 = { #date unknown
+		birth = yes
+	}
+	1062.1.1 = { #date unknown, but died before his father became Emperor
+		death = yes
+	}
+}
+zhao_yiduanxian = {
+	name = Yiduanxian # 益端獻
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	mother = gao_xuanren
+	1056.1.1 = {
+		birth = yes
+	}
+	1088.1.1 = {
+		death = yes
+	}
+}
+zhao_zhenjing = {
+	name = Zhenjing # 貞靜
+	female = yes
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = yingzong_huangdi
+	1058.1.1 = { # date unknown
+		birth = yes
+	}
+	1100.1.1 = { #date unknown
+		death = yes
+	}
+}
+zhezong_huangdi = {
+	name = Yong # 傭
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_shenzong
+	1077.1.4 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		name = Xu # 煦
+	}
+	1100.2.23 = {
+		death = yes
+		name = Zhezong # 哲宗
+	}
+}
+huizong_huangdi = {
+	name = Ji # 佶
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_shenzong
+	1082.6.7 = {
+		birth = yes
+	}
+	1135.6.4 = {
+		death = yes
+		name = Huizong # 徽宗
+	}
+}
+qinzong_huangdi = {
+	name = Huan # 桓
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = zhao_huizong
+	1100.5.23 = {
+		birth = yes
+	}
+	1161.6.14 = {
+		death = yes
+		name = Qinzong # 欽宗
+	}
+}
+
+#######################
+### House of Gao 高 ###
+#######################
+
+gao_qiong = {
+	name = Qiong # 瓊
+	dynasty = 80000006
+	religion = lixue
+	culture = han 
+	935.1.1 = {
+		birth = yes
+	}
+	1006.12.26 = {
+		death = yes
+	}
+}
+gao_jixun = {
+	name = Jixun # 繼勳
+	dynasty = 80000006
+	religion = lixue
+	culture = han 
+	father = gao_qiong
+	958.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+gao_zunfu = {
+	name = Zunfu # 遵甫
+	dynasty = 80000006
+	religion = lixue
+	culture = han 
+	father = gao_jixun
+	995.1.1 = { # date unknown
+		birth = yes
+	}
+	1070.1.1 = { # date unknown
+		death = yes
+	}
+}
+gao_xuanren = {
+	name = Xuanren # 宣仁
+	female = yes
+	dynasty = 80000006
+	religion = lixue
+	culture = han 
+	father = gao_zunfu
+	1032.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+
+#####################
+### Tang Vassals  ###
+#####################
+
+5100007 = { # Hao_Ruler of Tang Empire
+	name = Gu # 顾
+	dynasty = 80000007
+	religion = mahayana
+	culture = han 
+	828.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100008 = { # La_Ruler of Tang Empire
+	name = Jianfang # 建芳
+	dynasty = 80000008
+	religion = zhengyi
+	culture = han 
+	837.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100009 = { # Wang_Ruler of Dache Yanmen
+	name = Jingchong # 静崇
+	dynasty = 80000009
+	religion = shangqing
+	culture = han 
+	838.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100011 = { # Heng_Ruler of Tang Empire
+	name = Congdang # 聪当
+	dynasty = 80000011
+	religion = shangqing
+	culture = han 
+	832.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100012 = { # Qian_Ruler of Tang Empire
+	name = Zhu # 朱
+	dynasty = 80000012
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100013 = { # Tuoba_Ruler of Tang Empire
+	name = Sigong # 思恭
+	dynasty = 800000013
+	religion = shangqing
+	culture = han 
+	835.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100015 = { # Ping_Ruler of Kingdom
+	name = Zhoungsu # 忠肃
+	dynasty = 80000015
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100020 = { # Zheng _Ruler of Dache Henghai
+	name = Congdang # 聪当
+	dynasty = 80000020
+	religion = shangqing
+	culture = han 
+	824.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100021 = { # Du Ruler of county dingzhou
+	name = Cong # 聪
+	dynasty = 80000021
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100022 = { # Xiahou_Ruler of Dache Chengde
+	name = Zi # 子
+	dynasty = 80000022
+	religion = shangqing
+	culture = han 
+	824.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100027 = { # Kong_Ruler of Dache Fufang
+	name = Wenyu # 文宇
+	dynasty = 80000027
+	religion = shangqing
+	culture = han 
+	835.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100028 = { # Zhong_Ruler of Tang Empire
+	name = Chundong # 淳东
+	dynasty = 80000028
+	religion = shangqing
+	culture = han 
+	830.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100029 = { # Chiau Ruler of Dache Bozhou
+	name = Fang # 方
+	dynasty = 80000029
+	religion = shangqing
+	culture = han 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100100 = { # Zhenhai Circuit, Huainan
+	name = Pian # 片
+	dynasty = 80000100 #Gao
+	religion = shangqing
+	culture = han 
+	821.1.1 = {
+		birth = yes
+	}
+	886.9.9 = {
+		death = yes
+	}
+}
+5100101 = { # Henan Circuit
+	name = Neng # 能
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	823.1.1 = {
+		birth = yes
+	}
+	880.9.9 = {
+		death = yes
+	}
+}
+5100102 = { # Zhongwu Circuit, Henan
+	name = Zongquan # 宗权
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	889.4.4 = {
+		death = yes
+	}
+}
+5100103 = { # Tianping Circuit, Henan
+	name = Chong # 崇
+	dynasty = 80000101 #Xue
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	875.9.9 = {
+		death = yes
+	}
+}
+5100104 = { # Yicheng Circuit, Henan
+	name = Fang # 方
+	dynasty = 80000103 #Xiao
+	religion = shangqing
+	culture = han 
+	796.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+5100105 = { # Chenxu, Henan
+	name = Wen2 # 文
+	dynasty = 80000102 #Qin
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+5100106 = { # Hebei Circuit, Prince of Yan
+	name = Zheng # 郑
+	dynasty = 80000104 #Ju
+	religion = shangqing
+	culture = han 
+	826.1.1 = {
+		birth = yes
+	}
+	890.5.5 = {
+		death = yes
+	}
+}
+5100107 = { # Hedong Circuit, Apparently was quite the undistinguished fella
+	name = Ye # 叶
+	dynasty = 80000105 #Xiao
+	religion = shangqing
+	culture = han 
+	834.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+jiedushi_001 = {
+	name = Pian # 片
+	dynasty = clan_Gao_001
+	religion = shangqing
+	culture = han 
+	father = jiedushi_002
+	trait = intellect_good_2
+	trait = diligent
+	trait = education_learning_3
+	trait = education_martial_3
+	821.1.1 = {
+		birth = yes
+	}
+	887.9.24 = {
+		death = yes
+	}
+}
+jiedushi_002 = {
+	name = Chengming # 承明
+	dynasty = clan_Gao_001
+	religion = shangqing
+	culture = han 
+	father = jiedushi_003
+	780.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+jiedushi_003 = {
+	name = Chongwen # 崇文
+	dynasty = clan_Gao_001
+	religion = shangqing
+	culture = han 
+	749.1.1 = {
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+	}
+}
+
+###############
+### Others  ###
+###############
+
+hui_an_empress = {
+	name = Hui'an # 惠安
+	female = yes
+	dynasty = clan_Wang_001
+	religion = shangqing
+	culture = han
+	835.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+gongxian_empress = {
+	name = Gongxian # 公先
+	female = yes
+	dna = gongxian_empress_dna
+	dynasty = clan_Wang_002
+	religion = shangqing
+	culture = han
+	835.1.1 = {
+		birth = yes
+	}
+	867.6.1 = {
+		death = yes
+	}
+}
+defei_concubine = {
+	name = Defei # 德飞
+	female = yes
+	dynasty = clan_Wang_003
+	religion = shangqing
+	culture = han
+	trait = beauty_good_3
+	trait = temperate
+	844.1.1 = {
+		birth = yes
+	}
+	870.7.18 = {
+		death = yes
+	}
+}
+shufei_concubine = {
+	name = Shufei # 书飞
+	female = yes
+	dynasty = clan_Guo_001
+	religion = shangqing
+	culture = han
+	trait = lustful
+	835.1.1 = {
+		birth = yes
+	}
+	881.2.1 = { #died sometime after Huang Chao's rebellion
+		death = yes
+	}
+}
+yuanzhao_empress = {
+	name = Yuanzhao # 元昭
+	female = yes
+	dynasty = clan_Chao
+	religion = shangqing
+	culture = han 
+	810.7.27 = {
+		birth = yes
+	}
+	856.9.7 = {
+		death = yes
+	}
+}
+5100004 = { # Lu_Ruler of Tang Empire
+	name = Fan # 凡
+	dynasty = 80000004
+	religion = nestorian
+	culture = ongud
+	845.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100005 = { # Duo_Ruler of Tang Empire
+	name = Helian # 赫连
+	dynasty = 80000005
+	religion = vajrayana
+	culture = tangut 
+	840.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}
+5100006 = { # Gao_Ruler of Tang Empire
+	name = Hong # 洪
+	dynasty = 80000006
+	religion = vajrayana
+	culture = tuyuhun
+	830.1.1 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		death = yes
+	}
+}

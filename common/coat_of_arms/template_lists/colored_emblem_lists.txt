@@ -4061,7 +4061,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:taoism_religion
 					scope:faith.religion = religion:confucianism_religion
 				}
@@ -4098,7 +4098,7 @@ hr_single_charge_bend_list = {
 		}
 		special_selection = {
 			trigger = {
-				scope:faith.religion = religion:shinto_religion
+				scope:faith.religion = religion:japonic_religion
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
 			}
 			1 = "ce_torii_cc_1.dds"
@@ -4107,7 +4107,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:buddhism_religion
 					scope:faith.religion = religion:hinduism_religion
 					scope:faith.religion = religion:jainism_religion
@@ -4189,7 +4189,7 @@ hr_single_charge_bend_list = {
 		}
 		special_selection = {
 			trigger = {
-				scope:culture = { has_coa_gfx = ainu_group_coa_gfx }
+				scope:culture = { has_coa_gfx = jomon_group_coa_gfx }
 			}
 			1 = "ce_ainu_1.dds"
 			1 = "ce_ainu_2.dds"
@@ -5061,7 +5061,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:taoism_religion
 				}
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
@@ -5095,7 +5095,7 @@ hr_single_charge_bend_list = {
 		}
 		special_selection = {
 			trigger = {
-				scope:faith.religion = religion:shinto_religion
+				scope:faith.religion = religion:japonic_religion
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
 			}
 			1 = "ce_torii_cc_1.dds"
@@ -5104,7 +5104,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:buddhism_religion
 					scope:faith.religion = religion:hinduism_religion
 					scope:faith.religion = religion:jainism_religion
@@ -5180,7 +5180,7 @@ hr_single_charge_bend_list = {
 		}
 		special_selection = {
 			trigger = {
-				scope:culture = { has_coa_gfx = ainu_group_coa_gfx }
+				scope:culture = { has_coa_gfx = jomon_group_coa_gfx }
 			}
 			1 = "ce_ainu_1.dds"
 			1 = "ce_ainu_2.dds"
@@ -5613,7 +5613,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:taoism_religion
 				}
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
@@ -5647,7 +5647,7 @@ hr_single_charge_bend_list = {
 		}
 		special_selection = {
 			trigger = {
-				scope:faith.religion = religion:shinto_religion
+				scope:faith.religion = religion:japonic_religion
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
 			}
 			1 = "ce_torii_cc_1.dds"
@@ -5656,7 +5656,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:buddhism_religion
 					scope:faith.religion = religion:hinduism_religion
 					scope:faith.religion = religion:jainism_religion
@@ -5733,7 +5733,7 @@ hr_single_charge_bend_list = {
 		
 		special_selection = {
 			trigger = {
-				scope:culture = { has_coa_gfx = ainu_group_coa_gfx }
+				scope:culture = { has_coa_gfx = jomon_group_coa_gfx }
 			}
 			1 = "ce_ainu_1.dds"
 			1 = "ce_ainu_2.dds"
@@ -5834,7 +5834,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:taoism_religion
 				}
 				scope:culture = { has_coa_gfx = yamato_group_coa_gfx }
@@ -5844,7 +5844,7 @@ hr_single_charge_bend_list = {
 		special_selection = {
 			trigger = {
 				OR = {
-					scope:faith.religion = religion:shinto_religion
+					scope:faith.religion = religion:japonic_religion
 					scope:faith.religion = religion:buddhism_religion
 					scope:faith.religion = religion:hinduism_religion
 					scope:faith.religion = religion:jainism_religion

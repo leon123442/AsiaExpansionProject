@@ -1,4 +1,4 @@
-﻿﻿confucianism_religion = {
+﻿confucianism_religion = {
 	family = rf_eastern
 	doctrine = eastern_hostility_doctrine
 	graphical_faith = dharmic_gfx
@@ -13,7 +13,7 @@
 	#Marriage
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
-	doctrine = doctrine_parameter_spouse_piety_loss
+	#doctrine = doctrine_parameter_spouse_piety_loss
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_cousins
 
@@ -30,6 +30,9 @@
 	doctrine = doctrine_clerical_gender_male_only
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+	
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
 
 	traits = {
 		virtues = {
@@ -54,6 +57,7 @@
 
 	localization = {
 		HighGodName = confucianism_high_god_name
+		HighGodName2 = confucianism_high_god_name
 		HighGodNamePossessive = confucianism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
@@ -139,6 +143,8 @@
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 
 		PantheonTerm = religion_the_gods
+		PantheonTerm2 = religion_the_gods
+		PantheonTerm3 = religion_the_gods
 		PantheonTermHasHave = pantheon_term_have
 		GoodGodNames = {
 			confucianism_good_god_name_three_pure_ones
@@ -156,9 +162,15 @@
 		DevilHerselfHimself = CHARACTER_ITSELF
 		EvilGodNames = { confucianism_devil_name }
 		HouseOfWorship = confucianism_house_of_worship
+		HouseOfWorship2 = confucianism_house_of_worship
+		HouseOfWorship3 = confucianism_house_of_worship
 		HouseOfWorshipPlural = confucianism_house_of_worship_plural
 		ReligiousSymbol = confucianism_religious_symbol
+		ReligiousSymbol2 = confucianism_religious_symbol
+		ReligiousSymbol3 = confucianism_religious_symbol
 		ReligiousText = confucianism_religious_text
+		ReligiousText2 = confucianism_religious_text
+		ReligiousText3 = confucianism_religious_text
 		ReligiousHeadName = confucianism_religious_head_title
 		ReligiousHeadTitleName = confucianism_religious_head_title_name
 		DevoteeMale = confucianism_devotee_male
@@ -182,13 +194,20 @@
 		BishopNeuterPlural = confucianism_priest_neuter_plural
 
 		DivineRealm = confucianism_divine_realm
+		DivineRealm2 = confucianism_divine_realm
+		DivineRealm3 = confucianism_divine_realm
 		PositiveAfterLife = confucianism_positive_afterlife
+		PositiveAfterLife2 = confucianism_positive_afterlife
+		PositiveAfterLife3 = confucianism_positive_afterlife
 		NegativeAfterLife = confucianism_negative_afterlife
+		NegativeAfterLife2 = confucianism_negative_afterlife
+		NegativeAfterLife3 = confucianism_negative_afterlife
 		DeathDeityName = paganism_death_deity_name
 		DeathDeityNamePossessive = paganism_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_IT
 		DeathDeityHerHis = CHARACTER_HERSHIS_ITS
 		WitchGodName = witchgodname_confucianism_daode_tianzun
+		WitchGodNamePossessive = witchgodname_confucianism_daode_tianzun
 		WitchGodHerHis = CHARACTER_HERHIS_HER
 		WitchGodSheHe = CHARACTER_SHEHE_SHE
 		WitchGodHerHim = CHARACTER_HERHIM_HER

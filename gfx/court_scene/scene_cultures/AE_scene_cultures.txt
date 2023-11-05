@@ -1,6 +1,0 @@
-﻿yamato = {
-	trigger = {
-		has_graphical_yamato_culture_group_trigger = yes
-		
-	}
-}

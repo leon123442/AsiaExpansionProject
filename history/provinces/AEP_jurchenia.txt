@@ -1,0 +1,931 @@
+﻿#######################
+### Balhae/k_balhae ###
+#######################
+
+##d_balhae ####################################
+###c_huhan
+#b_Longquanfu_Yongning #龙泉
+10717 = {
+    culture = mohe
+	religion = hehe
+	holding = castle_holding
+	698.1.1 = {
+		culture = balhae
+		religion = mahayana
+	}
+}
+#b_Huhanhai_Mohechi
+10716 = {
+	holding = none
+}
+#b_Hailin
+10719 = {
+	holding = city_holding
+}
+#b_SushenTemple
+10720 = {
+	holding = church_holding
+}
+
+###c_mudan #穆丹
+#b_Bozhou_Bohai
+10718 = {
+    culture = mohese
+	religion = hehe 
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Yingzhou_Bohai
+10731 = {
+	holding = none
+}
+
+###c_tongzhou_bohai #铜州
+#b_Tongzhou_Bohai
+10714 = {
+    culture = mohe
+	religion = hehe 
+	holding = tribal_holding
+	698.1.1 = {
+		culture = balhae
+		religion = musok 
+		holding = castle_holding
+	}
+	986.1.1 = { 
+		culture = jurchen
+		religion = hehe
+		holding = tribal_holding
+	}
+}
+#b_GayaRiver
+10715 = {
+	holding = none
+}
+
+###c_jianzhou_bohai #建州
+#b_Jianzhou_Dongning
+10721 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = { 
+		culture = jurchen
+	}
+}
+#b_XitianTuluoguo_Jianzhou
+10762 = {
+	holding = none
+}
+#b_MulengRiver
+10729 = {
+	holding = none
+}
+
+###c_longyuan #龙原/东沃沮
+#b_Longyuanfu
+10710 = {
+    culture = mohese
+	religion = hehe 
+	holding = tribal_holding
+	926.1.1 = { 
+		culture = jurchen
+	}	
+}
+#b_YanzhouLonghe
+10711 = {
+	holding = none
+}
+#b_Bigu
+10712 = {
+	holding = none
+}
+
+##d_malgal ####################################
+###c_achu
+#b_Anchuhu_Wanyan
+10735 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_LalinRive
+10734 = {
+	holding = none
+}
+
+###c_dargu
+#b_Dalugucheng
+10733 = {
+	culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Huntong_Ningjiangzhou
+10732 = {
+	holding = none
+}
+#b_Susuhai
+10742 = {
+	holding = none
+}
+
+###c_udger
+#b_Wurecheng
+10741 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Qujiang_Balimaili
+10737 = {
+	holding = none
+}
+
+##d_sumo ####################################
+###c_baishan
+#b_Xiandefu
+10706 = {
+    culture = mohe
+	religion = hehe 
+	holding = tribal_holding
+	698.1.1 = {
+		culture = balhae
+		religion = musok 
+		holding = castle_holding
+	}
+	986.1.1 = { 
+		culture = jurchen
+		religion = hehe
+		holding = tribal_holding
+	}
+}
+#b_Dunen_Tumen
+10709 = {
+	holding = none
+}
+#b_LuzhouShanlu
+10705 = {
+	holding = none
+}
+
+###c_xianzhou_sumo
+#b_Xianzhou_Dongmou
+10708 = {
+    culture = mohe
+	religion = hehe 
+	holding = tribal_holding
+	698.1.1 = {
+		culture = balhae
+		religion = musok 
+		holding = castle_holding
+	}
+	986.1.1 = { 
+		culture = jurchen
+		religion = hehe
+		holding = tribal_holding
+	}
+}
+#b_TangzhouLingfeng
+10707 = {
+	holding = none
+}
+#b_TiezhouWeicheng
+10704 = {
+	holding = city_holding
+	#special_building_slot = weicheng_mines_01
+	926.1.1 = { 
+		holding = none
+	}
+}
+#b_XingzhouShengji
+10703 = {
+	holding = church_holding
+	926.1.1 = { 
+		holding = none
+	}
+}
+
+###c_sumozhou
+#b_Sumozhou
+10687 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = {
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_Shulan_Nalihun
+10688 = {
+	holding = none
+}
+
+##d_buyeo ####################################
+###c_fuyu
+#b_Fuyufu_Tongzhou
+10681 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = {
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_XinzhouWucjurcheng
+10682 = {
+	holding = none
+}
+#b_Nansuzhou_Xianzhou
+10680 = {
+	holding = none
+}
+#b_Yidianbu
+10683 = {
+	holding = none
+}
+
+###c_huanglong
+#b_Huanglongfu
+10684 = {
+	culture = mohese
+	religion = hehe
+	holding = tribal_holding
+	926.1.1 = { 
+		culture = jurchen
+	}
+}
+#b_WeizhouHuaide
+10685 = {
+	holding = none
+}
+#b_Xiangzhou_Huanglong
+10686 = {
+	holding = none
+}
+
+###c_changling
+#b_Huibacheng
+10690 = {
+	culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_Changling
+10689 = {
+	holding = none
+}
+#b_Hezhou_Hailong
+10691 = {
+	holding = none
+}
+#b_Shunhuawang
+10692 = {
+	holding = none
+}
+
+#############################################
+### Kingdom of Goguryeo/k_goguryeo 高句麗 ###
+#############################################
+
+##d_liaodong ####################################
+###c_liaodong
+#b_Xiangping
+10664 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	668.1.1 = {
+		culture = han
+		religion = zenzong
+	}
+	916.1.1 = {
+		culture = khitan
+		holding = tribal_holding
+	}
+}
+#b_Baiyacheng
+10665 = {
+	holding = none
+}
+#b_SheenzhouLejiao
+10679 = {
+	holding = church_holding
+}
+#b_Xincheng_Yanjinzhou
+10678 = {
+	holding = city_holding
+	#special_building_slot = liaodong_mines_01
+}
+#b_Gaimouzhou
+10676 = {
+	holding = none
+}
+#b_Mudizhou
+10677 = {
+	holding = none
+}
+
+###c_anshi
+#b_Anshicheng
+10666 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan
+		religion = zenzong
+		holding = tribal_holding
+	}
+}
+#b_Jiananzhou 
+10667 = {
+	holding = city_holding
+}
+#b_Hesuguan_Hesqan
+10673 = {
+	holding = none
+}
+
+###c_jilizhou
+#b_Jilizhou
+10668 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan
+		religion = zenzong
+		holding = tribal_holding
+	}
+}
+#b_Beishacheng 
+10670 = {
+	holding = city_holding
+}
+#b_Dulizhen
+10671 = {
+	holding = none
+}
+
+###c_pozhuo
+#b_Daxing_Pozhuocheng
+10675 = {
+    culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	916.1.1 = { 
+		culture = khitan
+		religion = zenzong
+		holding = tribal_holding
+	}
+}
+#b_Shicheng_Shirenzhu 
+10669 = {
+	holding = city_holding
+}
+#b_Wugucheng
+10674 = {
+	holding = none
+}
+#b_Muzhouhuinong
+10672 = {
+	holding = none
+}
+
+##d_gewu #高句丽/哥勿州 ####################################
+###c_yalu
+#b_Shenlu_Yalufu
+10696 = {
+    culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_Anfeng_Changbaishan
+10697 = {
+	holding = none
+}
+#b_Zhengzhou_Yalu
+10695 = {
+	holding = none
+}
+
+###c_hwando  #桓都/仓岩州
+#b_Wandushancheng
+10694 = {
+    culture = goguryeo
+	religion = dongmyeong_sinhwa
+	holding = tribal_holding
+	820.1.1 = {
+		culture = balhae
+		religion = musok
+	}
+	926.1.1 = { 
+		culture = jurchen
+		religion = hehe
+	}
+}
+#b_Heshenggucheng 
+10693 = {
+	holding = none
+}
+
+#######################
+### Motgit/k_motgit ###
+#######################
+
+##d_heishui #黑水/五国部/勿吉Motgit ####################################
+###c_ulch #越里吉/胡里改
+#b_Yueliji_Huligai
+10743 = {
+    culture = mohese
+	religion = hehe 
+	holding = tribal_holding
+	926.1.1 = { 
+		culture = jurchen
+	}	
+}
+#b_Boli_Yueliji
+10744 = {
+	holding = none
+}
+#b_AntuhunRiver
+10771 = {
+	holding = none
+}
+
+###c_penur #盆奴里
+#b_Pennuli_Tunhe
+10745 = {
+    culture = udege
+	religion = hehe
+	holding = tribal_holding	
+}
+#b_TaowenRiver
+10746 = {
+	holding = none
+}
+
+###c_urd #越里笃
+#b_Yuelidu
+10747 = {
+    culture = udege
+	religion = hehe 
+	holding = tribal_holding	
+}
+#b_Tulonggu_Aswen
+10748 = {
+	holding = none
+}
+#b_Wuweiyujue
+10749 = {
+	holding = none
+}
+
+###c_orim #奥里米
+#b_Olimi
+10750 = {
+    culture = udege
+	religion = hehe
+	holding = tribal_holding	
+}
+#b_AlimintRiver
+10753 = {
+	holding = none
+}
+
+###c_poar #剖阿里/Boli
+#b_Pouali
+10752 = {
+    culture = udege
+	religion = hehe 
+	holding = tribal_holding
+}
+#b_Bigud_BakuRiver
+10751 = {
+	holding = none
+}
+#b_ChanmouRiver
+10772 = {
+	holding = none
+}
+
+###c_ondur #完都鲁
+#b_Wandulu
+10754 = {
+    culture = udege
+	religion = hehe
+	holding = tribal_holding	
+	}
+#b_Helibint
+10755 = {
+	holding = none
+}
+
+##d_udege #兀的改 ####################################
+###c_udege
+#b_Udege_Wure
+10756 = {
+	culture = udege
+	religion = hehe
+	holding = tribal_holding
+}
+#b_AmgonRiver
+10757 = {
+	holding = none
+}
+
+###c_nivkh #兀的改/奴儿干
+#b_Nurgan_Gilime
+10758 = {
+    culture = gilyak
+	religion = yzng
+	holding = tribal_holding	
+}
+#b_Port_Soviet
+10766 = {
+	holding = none
+}
+
+###c_kuvieh #骨嵬/窟说/库页/樺太
+10768 = {	#South Kuvieh
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+10767 = {	#North Kuvieh
+	holding = none
+}
+10769 = {	#East Kuvieh
+	holding = none
+}
+
+##d_yulou #虞娄/挹娄/东海 #Eumnu/Ŭmnu ####################################
+###c_shuaibin #率宾/速频
+#b_Shuaibinfu_Huazhou
+10722 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Yongmingcheng_Haishenwai
+10763 = {
+	holding = none
+}
+
+###c_dongping_yulou #东平/湄沱/Khanka
+#b_YizhouDongpingfu
+10726 = {
+    culture = mohese
+	religion = hehe 
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Tuozhou
+10725 = {
+	holding = none
+}
+#b_Meizhou_MeituoLake
+10728 = {
+	holding = none
+}
+
+###c_anyuan #安远
+#b_NingzhouAnyuanfu
+10727 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Wohuo_Hongt
+10761 = {
+	holding = none
+}
+#b_BijinRiver
+10730 = {
+	holding = none
+}
+
+###c_dingli #定理/牙兰
+#b_Dinglifu
+10723 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Yalan_Dingli
+10764 = {
+	holding = none
+}
+
+###c_anbian #安边/虞娄/挹娄
+#b_Anbianfu_Orga
+10724 = {
+    culture = mohese
+	religion = hehe
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = jurchen
+	}
+}
+#b_Jinghai
+10765 = {
+	holding = none
+}
+
+#####################
+### Siber/k_siber ###
+#####################
+
+##d_uroghu ####################################
+###c_uroghu
+#b_wuluohou_xingguo
+10788 = {
+    culture = shiwei
+	religion = tengri_pagan 
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan
+	}
+}
+#b_QiancuiDaibo_Arxa
+10789 = {
+
+	
+	holding = none
+}
+#b_Nali_Jinshan
+10787 = {
+
+	
+	holding = none
+}
+#b_Taizhou_Lekang
+10791 = {
+
+
+	holding = none	
+}
+
+###c_udgur
+#b_Ruzhe
+10784 = {
+    culture = shiwei
+	religion = tengri_pagan 
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan
+	}	
+}
+#b_Shanbei_Nomin
+10785 = {
+ 
+	
+	holding = none
+}
+#b_Wuwan_udgur
+10786 = {
+ 
+	
+	holding = none
+}
+
+##d_siber ####################################
+###c_nem
+#b_Nemor_ShiweiKing
+10776 = {
+    culture = shiwei
+	religion = tengri_pagan 
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = khitan
+	}
+}
+#b_Shibaochi
+10777 = {
+ 
+	
+	holding = none
+}
+#b_Humar
+10779 = {
+ 
+	
+	holding = none
+}
+#b_SiberTemple
+10780 = {
+   
+	holding = church_holding
+	#special_building = xianbeishishi
+}
+#b_Nebeizhi
+10781 = {
+ 
+	
+	holding = none
+}
+
+###c_puyu
+#b_Puyulu
+10773 = {
+    culture = shiwei
+	religion = tengri_pagan  
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan
+	}
+}
+#b_Minganlun
+10794 = {
+ 
+	
+	holding = none
+}
+#b_TulvbuShiwei
+10775 = {
+ 
+
+	holding = none
+}
+#b_Chuhedian_Nelanagu_Zhaozhou
+10736 = {
+
+
+	holding = none
+}
+
+###c_teli
+#b_Tielifu
+10739 = {
+    culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding
+	916.1.1 = {
+		culture = khitan
+	}
+}
+#b_Shuai_Hailun
+10740 = {
+	holding = none
+}
+#b_HuolahunRiver
+10738 = {
+	holding = none
+}
+#b_Naiyan
+10774 = {
+	holding = none
+}
+
+##d_haramuru ####################################
+###c_powo
+#b_Powo
+10782 = {
+    culture = evenk
+	religion = hehe 
+	holding = tribal_holding
+	926.1.1 = {
+		culture = khitan
+		religion = tengri_pagan
+	}
+}
+#b_Emur
+10812 = {
+
+	
+	holding = none
+}
+#b_Yaksa
+10819 = {
+ 
+	
+	holding = none
+}
+###c_lotan
+#b_Luotan
+10783 = {
+    culture = evenk
+	religion = hehe
+	holding = tribal_holding	
+}
+#b_Holuhotom
+10770 = {
+ 
+	
+	holding = none
+}
+#b_Geya
+10778 = {
+ 
+
+	holding = none
+}
+
+##d_khinga ####################################
+###c_hailar
+#b_Hailar
+10804 = {
+    culture = shiwei
+	religion = tengri_pagan 
+	holding = tribal_holding
+	926.1.1 = {
+		culture = kerait
+	}
+}
+#b_GanRiver_Yujue
+10807 = {
+ 
+	
+	holding = none
+}
+#b_Yarsa_Zhudun
+10808 = {
+
+	
+	holding = none
+}
+#b_YimiRiver
+10800 = {
+
+	
+	holding = none
+}
+#b_HuxieRiver
+10799 = {
+
+	
+	holding = none
+}
+
+###c_gen
+#b_GenRiver_Kulerwend
+10806 = {
+    culture = shiwei
+	religion = tengri_pagan
+	holding = tribal_holding	
+	926.1.1 = {
+		culture = kerait
+	}
+}
+#b_Dobher
+10809 = {
+ 
+
+	holding = none
+}
+#b_Telegur
+10810 = {
+
+	
+	holding = none
+}
+#b_Niur
+10811 = {
+
+	
+	holding = none
+}

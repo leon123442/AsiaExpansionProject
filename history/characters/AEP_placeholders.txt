@@ -1,0 +1,2077 @@
+﻿###########################
+### Kirghiz Vassals 867 ###
+###########################
+
+onon_placeholder_001 = {
+	name = Tolui
+	religion = tengri_pagan
+	culture = khamag
+	848.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+khiyat_placeholder_001 = {
+	name = Jajiradai
+	religion = tengri_pagan
+	culture = khamag
+	814.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+Luju_placeholder_001 = {
+	name = Yegu
+	religion = tengri_pagan
+	culture = tataric
+	845.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+teriqan_placeholder_001 = {
+	name = Khachi
+	religion = tengri_pagan
+	culture = tataric
+	847.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+fengzhou_placeholder_001 = {
+	name = Qorisubachi
+	religion = nestorian
+	culture = ongud
+	829.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+zhenwu_placeholder_001 = {
+	name = Rong
+	religion = tengri_pagan
+	culture = tuyuhun
+	842.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+############################
+### Japanese Vassals 867 ###
+############################
+
+wakasa_placeholder_001 = {
+	name = Norikage
+	religion = shinto
+	culture = yamato
+	833.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+kai_placeholder_001 = {
+	name = Masataka
+	religion = shinto
+	culture = yamato
+	830.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+echigo_placeholder_001 = {
+	name = Sueie
+	religion = shinto
+	culture = yamato
+	813.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+hida_placeholder_001 = {
+	name = Yoshinaga
+	religion = shinto
+	culture = yamato
+	816.1.1 = {
+		birth = yes
+	}
+	889.1.1 = {
+		death = yes
+	}
+}
+bingo_placeholder_001 = {
+	name = Yoshitane
+	religion = shinto
+	culture = yamato
+	827.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+iwami_placeholder_001 = {
+	name = Kunimasa
+	religion = shinto
+	culture = yamato
+	831.1.1 = {
+		birth = yes
+	}
+	883.1.1 = {
+		death = yes
+	}
+}
+izumo_placeholder_001 = {
+	name = Ujimochi
+	religion = shinto
+	culture = yamato
+	832.1.1 = {
+		birth = yes
+	}
+	871.1.1 = {
+		death = yes
+	}
+}
+bizen_placeholder_001 = {
+	name = Harutoshi
+	religion = shinto
+	culture = yamato
+	832.1.1 = {
+		birth = yes
+	}
+	885.1.1 = {
+		death = yes
+	}
+}
+tajima_placeholder_001 = {
+	name = Masanori
+	religion = shinto
+	culture = yamato
+	835.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+inaba_placeholder_001 = {
+	name = Toyomochi
+	religion = shinto
+	culture = yamato
+	829.1.1 = {
+		birth = yes
+	}
+	878.1.1 = {
+		death = yes
+	}
+}
+hizen_placeholder_001 = {
+	name = Kanefuji
+	religion = shinto
+	culture = yamato
+	831.1.1 = {
+		birth = yes
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+tsushima_placeholder_001 = {
+	name = Iekiyo
+	religion = shinto
+	culture = yamato
+	834.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+chikugo_placeholder_001 = {
+	name = Yorihisa
+	religion = shinto
+	culture = yamato
+	826.1.1 = {
+		birth = yes
+	}
+	875.1.1 = {
+		death = yes
+	}
+}
+bungo_jp_placeholder_001 = {
+	name = Michitoki
+	religion = shinto
+	culture = yamato
+	829.1.1 = {
+		birth = yes
+	}
+	887.1.1 = {
+		death = yes
+	}
+}
+osumi_placeholder_001 = {
+	name = Yoshimasa
+	religion = shinto
+	culture = yamato
+	829.1.1 = {
+		birth = yes
+	}
+	873.1.1 = {
+		death = yes
+	}
+}
+aizu_placeholder_001 = {
+	name = Yoshitoki
+	religion = shinto
+	culture = yamato
+	832.1.1 = {
+		birth = yes
+	}
+	881.1.1 = {
+		death = yes
+	}
+}
+hyuga_placeholder_001 = {
+	name = Moriyasu
+	religion = shinto
+	culture = yamato
+	834.1.1 = {
+		birth = yes
+	}
+	874.1.1 = {
+		death = yes
+	}
+}
+iwase_placeholder_001 = {
+	name = Aritsune
+	religion = shinto
+	culture = yamato
+	815.1.1 = {
+		birth = yes
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+iwaki_placeholder_001 = {
+	name = Tsunatada
+	religion = shinto
+	culture = yamato
+	831.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+mogami_placeholder_001 = {
+	name = Chikazane
+	religion = shinto
+	culture = yamato
+	835.1.1 = {
+		birth = yes
+	}
+	921.1.1 = {
+		death = yes
+	}
+}
+tagawa_placeholder_001 = {
+	name = Tadasada
+	religion = shinto
+	culture = yamato
+	820.1.1 = {
+		birth = yes
+	}
+	873.1.1 = {
+		death = yes
+	}
+}
+ogachi_placeholder_001 = {
+	name = Tomomochi
+	religion = shinto
+	culture = yamato
+	830.1.1 = {
+		birth = yes
+	}
+	884.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### Silla Vassals 867 ###
+#########################
+
+paegangjin_placeholder_001 = {
+	name = Yuri
+	religion = mahayana
+	culture = goguryeo
+	835.1.1 = {
+		birth = yes
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+hanju_placeholder_001 = {
+	name = Hong
+	religion = mahayana
+	culture = saro
+	836.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+myeongju_placeholder_001 = {
+	name = Goong-yi
+	religion = mahayana
+	culture = saro
+	834.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+ungju_placeholder_001 = {
+	name = Sogo
+	religion = mahayana
+	culture = baekje
+	824.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+muju_placeholder_001 = {
+	name = Mo
+	religion = mahayana
+	culture = baekje
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+sangju_placeholder_001 = {
+	name = Manchun
+	religion = mahayana
+	culture = saro
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+##########################
+### Balhae Vassals 867 ###
+##########################
+
+120000002 = {
+	name = Ying #Zhi_Ruler of dutchy
+	dynasty = 61000002
+	religion = mahayana
+	culture = balhae 
+	836.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+120000003 = {
+	name = Lizen #Yin_Ruler of dutchy
+	dynasty = 61000003
+	religion = mahayana
+	culture = balhae 
+	833.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+120000004 = {
+	name = Xi #Zhang_Ruler of dutchy
+	dynasty = 61000004
+	religion = mahayana
+	culture = balhae 
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+120000005 = {
+	name = Xingzhou #Shou_Ruler of dutchy
+	dynasty = 61000005
+	religion = mahayana
+	culture = balhae 
+	846.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+120000006 = {
+	name = Shifu #Yangzhi_Ruler of dutchy
+	dynasty = 61000006
+	religion = mahayana
+	culture = balhae 
+	809.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+120000007 = {
+	name = Dilie #Son_Ruler of dutchy
+	dynasty = 61000007
+	religion = mahayana
+	culture = balhae 
+	829.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+###########################
+### Chinese Vassals 867 ###
+###########################
+
+jiangnandong_jiedushi_001 = { # Fictional placeholder
+	name = Chunnian
+	religion = shangqing
+	culture = han 
+	820.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+jiangnanxi_jiedushi_001 = { # Fictional placeholder
+	name = Yaojin
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+shannandong_jiedushi_001 = { # Fictional placeholder
+	name = Guanzhi
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+qianzhong_jiedushi_001 = { # Fictional placeholder
+	name = Chengzhi
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+jiannan_jiedushi_001 = { # Fictional placeholder
+	name = Shilian
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+longyou_jiedushi_001 = { # Fictional placeholder
+	name = Wuji
+	religion = shangqing
+	culture = han 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+#############################
+### Srivijaya Vassals 867 ###
+#############################
+
+natuna_001 = {
+	name = Walisnatuna
+	religion = malayic
+	culture = malay
+	843.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+anambas_001 = {
+	name = Anambaskaya
+	religion = malayic
+	culture = malay
+	846.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+###############################
+### Steppe Placeholders 867 ###
+###############################
+
+julop_placeholder_001 = {
+	name = Uighurtai
+	religion = tengri_pagan
+	culture = khamag
+	825.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+degere_placeholder_001 = {
+	name = Bodonchar
+	religion = tengri_pagan
+	culture = tataric
+	841.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+ningzhou_placeholder_001 = {
+	name = Hulegu
+	religion = tengri_pagan
+	culture = shiwei
+	821.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+changchun_placeholder_001 = {
+	name = Ajai
+	religion = tengri_pagan
+	culture = shiwei
+	848.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+############################
+### Ezo Placeholders 867 ###
+############################
+
+teshio_placeholder_001 = {
+	name = Toshiyakui
+	dna = toshiyakui_the_mishihase_dna
+	religion = yzng
+	culture = mishihase
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 10
+	prowess = 7
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = honest
+	trait = diligent
+	842.7.31 = {
+		birth = yes
+		add_character_flag = {
+			flag = has_scripted_appearance
+		}
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+###############################
+### Emishi Placeholders 867 ###
+###############################
+
+tsugaru_placeholder_001 = {
+	name = Satoruki
+	religion = moshir
+	culture = emishi
+	831.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+nukanobu_placeholder_001 = {
+	name = Aukash
+	religion = moshir
+	culture = emishi
+	833.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+hei_placeholder_001 = {
+	name = Tokateankuru
+	religion = moshir
+	culture = emishi
+	841.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+hinai_placeholder_001 = {
+	name = Hontanuki
+	religion = moshir
+	culture = emishi
+	843.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+##################################
+### Indochina Placeholders 867 ###
+##################################
+
+kawkareik_placeholder_001 = {
+	name = Mibaya
+	female = yes
+	religion = burmic
+	culture = karenic
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+sangkhla_placeholder_001 = {
+	name = Yamin
+	female = yes
+	religion = burmic
+	culture = karenic
+	834.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+#################################
+### Mentawai Placeholders 867 ###
+#################################
+
+simeulue_placeholder_001 = {
+	name = Kirtisingha
+	religion = batak
+	culture = mentawai 
+	839.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+nias_placeholder_001 = {
+	name = Tribhuwanaraja
+	religion = batak
+	culture = mentawai 
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+batu_islands_placeholder_001 = {
+	name = Bratasena
+	religion = batak
+	culture = mentawai 
+	825.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+siberut_placeholder_001 = {
+	name = Dermasetia
+	religion = batak
+	culture = mentawai 
+	831.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+pagai_placeholder_001 = {
+	name = Walis
+	religion = batak
+	culture = mentawai 
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+enggano_placeholder_001 = {
+	name = Darmaswara
+	religion = batak
+	culture = mentawai 
+	838.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### Liao Vassals 1066 ###
+#########################
+
+onon_placeholder_002 = {
+	name = Jebe
+	religion = tengri_pagan
+	culture = khamag
+	1014.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+khiyat_placeholder_002 = {
+	name = Temur
+	religion = tengri_pagan
+	culture = khamag
+	1020.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+holon_placeholder_001 = {
+	name = Ogodei
+	religion = tengri_pagan
+	culture = tataric
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hejes_placeholder_001 = {
+	name = Oronartai
+	religion = tengri_pagan
+	culture = tataric
+	1025.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+fengzhou_placeholder_002 = {
+	name = Jagambu
+	religion = nestorian
+	culture = kerait
+	1019.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+zhenwu_placeholder_002 = {
+	name = Beka
+	religion = nestorian
+	culture = ongud
+	1025.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+khingan_placeholder_001 = {
+	name = Oghuul
+	religion = tengri_pagan
+	culture = kerait
+	1044.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+liaodong_placeholder_001 = {
+	name = Ningji
+	religion = zenzong
+	culture = jurchen
+	1044.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+buyeo_placeholder_001 = {
+	name = Hudun
+	religion = zenzong
+	culture = jurchen
+	1010.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+gewu_placeholder_001 = {
+	name = Manduhe
+	religion = hehe
+	culture = jurchen
+	1033.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+okjeo_placeholder_001 = {
+	name = Hanpu
+	religion = hehe
+	culture = jurchen
+	1022.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+sumo_placeholder_001 = {
+	name = Yansun
+	religion = hehe
+	culture = jurchen
+	1038.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+malgal_placeholder_001 = {
+	name = Dingju
+	religion = hehe
+	culture = jurchen
+	1038.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+yulou_placeholder_001 = {
+	name = Aguda
+	religion = hehe
+	culture = jurchen
+	1043.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+heishui_placeholder_001 = {
+	name = Yanchege
+	religion = hehe
+	culture = jurchen
+	994.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+siber_placeholder_001 = {
+	name = Duolubu
+	religion = tengri_pagan
+	culture = khitan
+	1038.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+uroghu_placeholder_001 = {
+	name = Biegute
+	religion = tengri_pagan
+	culture = khitan
+	1039.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+ondur_placeholder_001 = {
+	name = Ruan
+	religion = hehe
+	culture = udege
+	1045.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+nivkh_placeholder_001 = {
+	name = Sanukuno
+	religion = hehe
+	culture = gilyak
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+################################
+### Emishi Placeholders 1066 ###
+################################
+
+tsugaru_placeholder_002 = {
+	name = Toafuke
+	religion = moshir
+	culture = emishi
+	1005.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+nukanobu_placeholder_002 = {
+	name = Anteponi
+	religion = moshir
+	culture = emishi
+	1036.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hei_placeholder_002 = {
+	name = Shitokinra
+	religion = moshir
+	culture = emishi
+	1029.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hinai_placeholder_002 = {
+	name = Aehirica
+	religion = moshir
+	culture = emishi
+	1039.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+##########################
+### Khmer Vassals 1066 ###
+##########################
+
+vientiane_placeholder_001 = {
+	name = Youqiu
+	religion = ban_phi
+	culture = tai
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+samabuli_placeholder_001 = {
+	name = Zao
+	religion = ban_phi
+	culture = tai
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+luang_prabang_placeholder_001 = {
+	name = Qi
+	religion = ban_phi
+	culture = tai
+	1037.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+luang_namtha_placeholder_001 = {
+	name = Zhirou
+	religion = ban_phi
+	culture = tai
+	1045.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+#############################
+### Japanese Vassals 1066 ###
+#############################
+
+shimotsuke_placeholder_001 = {
+	name = Naganori
+	religion = shinto
+	culture = yamato
+	1028.1.1 = {
+		birth = yes	
+	}
+	1076.1.1 = {
+		death = yes
+	}
+}
+kazusa_placeholder_001 = {
+	name = Toyosada
+	religion = shinto
+	culture = yamato
+	1029.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+wakasa_placeholder_002 = {
+	name = Terumoto
+	religion = shinto
+	culture = yamato
+	1028.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+izu_placeholder_001 = {
+	name = Hideyasu
+	religion = shinto
+	culture = yamato
+	1034.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+noto_placeholder_001 = {
+	name = Sueie
+	religion = shinto
+	culture = yamato
+	1033.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+hida_placeholder_002 = {
+	name = Saneyoshi
+	religion = shinto
+	culture = yamato
+	1030.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+nagato_placeholder_001 = {
+	name = Hideie
+	religion = shinto
+	culture = yamato
+	1034.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+iwami_placeholder_002 = {
+	name = Fusanori
+	religion = shinto
+	culture = yamato
+	1024.1.1 = {
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+izumo_placeholder_002 = {
+	name = Kagezane
+	religion = shinto
+	culture = yamato
+	1026.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+hoki_placeholder_001 = {
+	name = Michimori
+	religion = shinto
+	culture = yamato
+	1032.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+inaba_placeholder_002 = {
+	name = Hidemasa
+	religion = shinto
+	culture = yamato
+	1023.1.1 = {
+		birth = yes
+	}
+	1072.1.1 = {
+		death = yes
+	}
+}
+awa_placeholder_001 = {
+	name = Sadahira
+	religion = shinto
+	culture = yamato
+	1030.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+iyo_placeholder_001 = {
+	name = Korekage
+	religion = shinto
+	culture = yamato
+	1027.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+hizen_placeholder_002 = {
+	name = Takatsune
+	religion = shinto
+	culture = yamato
+	1025.1.1 = {
+		birth = yes
+	}
+	1085.1.1 = {
+		death = yes
+	}
+}
+tsushima_placeholder_002 = {
+	name = Shigekatsu
+	religion = shinto
+	culture = yamato
+	1025.1.1 = {
+		birth = yes
+	}
+	1078.1.1 = {
+		death = yes
+	}
+}
+chikugo_placeholder_002 = {
+	name = Yoshitaka
+	religion = shinto
+	culture = yamato
+	1030.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+buzen_placeholder_001 = {
+	name = Tsugumune
+	religion = shinto
+	culture = yamato
+	1027.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+bungo_jp_placeholder_002 = {
+	name = Nobumori
+	religion = shinto
+	culture = yamato
+	1046.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+hyuga_placeholder_002 = {
+	name = Michiyoshi
+	religion = shinto
+	culture = yamato
+	1027.1.1 = {
+		birth = yes
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+osumi_placeholder_002 = {
+	name = Masamitsu
+	religion = shinto
+	culture = yamato
+	1033.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+aizu_placeholder_002 = {
+	name = Harunari
+	religion = shinto
+	culture = yamato
+	1040.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+iwase_placeholder_002 = {
+	name = Harunari
+	religion = shinto
+	culture = yamato
+	1032.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+iwaki_placeholder_002 = {
+	name = Kiyoyasu
+	religion = shinto
+	culture = yamato
+	1043.1.1 = {
+		birth = yes
+	}
+	1099.1.1 = {
+		death = yes
+	}
+}
+
+###########################
+### Goryeo Vassals 1066 ###
+###########################
+
+pyongyang_placeholder_001 = {
+	name = Yushin
+	religion = mahayana
+	culture = goryeon
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+donggye_placeholder_001 = {
+	name = Geon-mu
+	religion = mahayana
+	culture = goryeon
+	1038.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+haeju_placeholder_002 = {
+	name = Yung
+	religion = mahayana
+	culture = goryeon
+	1040.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+hanju_placeholder_002 = {
+	name = Shin
+	religion = mahayana
+	culture = goryeon
+	1049.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+sakju_placeholder_001 = {
+	name = Mundeok
+	religion = mahayana
+	culture = goryeon
+	1036.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+jeonju_placeholder_001 = {
+	name = Sogo
+	religion = mahayana
+	culture = goryeon
+	1037.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+yangju_placeholder_001 = {
+	name = Yu-shin
+	religion = mahayana
+	culture = goryeon
+	1049.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### Song Vassals 1066 ###
+#########################
+
+yunzhong_duke = {
+	name = Xunyu
+	religion = zhengyi
+	culture = han 
+	1039.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+youzhou_duke = {
+	name = Qinming
+	religion = zhengyi
+	culture = han 
+	1033.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+lulong_duke = {
+	name = Zhi
+	religion = zhengyi
+	culture = han 
+	997.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+shannanxi_jiedushi_001 = { # Fictional placeholder
+	name = Ting
+	religion = shangqing
+	culture = han 
+	1026.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+jingji_jiedushi_001 = { # Fictional placeholder
+	name = Yixing
+	religion = shangqing
+	culture = han 
+	1030.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+duji_jiedushi_001 = { # Fictional placeholder
+	name = Shenquan
+	religion = shangqing
+	culture = han 
+	1037.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+hedong_jiedushi_001 = { # Fictional placeholder
+	name = Chengsi
+	religion = shangqing
+	culture = han 
+	1032.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+hebei_jiedushi_001 = { # Fictional placeholder
+	name = Zhigu
+	religion = shangqing
+	culture = han 
+	1032.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+henan_jiedushi_001 = { # Fictional placeholder
+	name = Shidao
+	religion = shangqing
+	culture = han 
+	1021.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+huainan_jiedushi_001 = { # Fictional placeholder
+	name = Junliang
+	religion = shangqing
+	culture = han 
+	1040.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+lingnan_jiedushi_001 = { # Fictional placeholder
+	name = Tao
+	religion = shangqing
+	culture = han 
+	1037.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+jiangnandong_jiedushi_002 = { # Fictional placeholder
+	name = Fengji
+	religion = shangqing
+	culture = han 
+	1045.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+jiangnanxi_jiedushi_002 = { # Fictional placeholder
+	name = Zhou
+	religion = shangqing
+	culture = han 
+	1008.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+shannandong_jiedushi_002 = { # Fictional placeholder
+	name = Jianzhi
+	religion = shangqing
+	culture = han 
+	1005.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes
+	}
+}
+qianzhong_jiedushi_002 = { # Fictional placeholder
+	name = Puzhou
+	religion = shangqing
+	culture = han 
+	992.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+jiannan_jiedushi_002 = { # Fictional placeholder
+	name = Wenwei
+	religion = shangqing
+	culture = han 
+	994.1.1 = {
+		birth = yes
+	}
+	1068.1.1 = {
+		death = yes
+	}
+}
+longyou_jiedushi_002 = { # Fictional placeholder
+	name = Maojiang
+	religion = shangqing
+	culture = han 
+	1020.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### Dali Vassals 1066 ###
+#########################
+
+jianchuan_placeholder_001 = {
+	name = Gopala
+	religion = ari
+	culture = bai
+	1018.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+huichuan_placeholder_001 = {
+	name = Hariyamandal
+	religion = ari
+	culture = bai
+	1042.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+tonghai_placeholder_001 = {
+	name = Nripendranarayan
+	religion = ari
+	culture = bai
+	1041.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+yinsheng_placeholder_001 = {
+	name = Jyotirishwar
+	religion = ari
+	culture = bai
+	1028.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+yongchang_placeholder_001 = {
+	name = Bhatta
+	religion = ari
+	culture = bai
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+llishui_placeholder_001 = {
+	name = Andhraka
+	religion = ari
+	culture = bai
+	1041.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+##############################
+### Srivijaya Vassals 1066 ###
+##############################
+
+natuna_002 = {
+	name = Bhanu
+	religion = malayic
+	culture = malay
+	1036.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+anambas_002 = {
+	name = Hayamwuruk
+	religion = malayic
+	culture = malay
+	1021.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+bangka_placeholder_001 = {
+	name = Dewawarman
+	religion = vajrayana
+	culture = malay
+	1043.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+lampung_placeholder_001 = {
+	name = Bhasura
+	religion = vajrayana
+	culture = lampung
+	1017.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+bengkulu_placeholder_001 = {
+	name = Wasudewa
+	religion = vajrayana
+	culture = rejang
+	1019.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+jambi_placeholder_001 = {
+	name = Maneser
+	religion = vajrayana
+	culture = malay
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+minangkabau_placeholder_001 = {
+	name = Aryeswara
+	religion = vajrayana
+	culture = minangkabau
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+kampar_placeholder_001 = {
+	name = Balu
+	religion = vajrayana
+	culture = minangkabau
+	1021.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+panai_placeholder_001 = {
+	name = Wikramawira
+	religion = vajrayana
+	culture = malay
+	1031.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+aceh_placeholder_001 = {
+	name = Syaari
+	religion = vaishnaist
+	culture = aceh
+	1031.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+perlak_placeholder_001 = {
+	name = Nor
+	religion = vaishnaist
+	culture = aceh
+	1031.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+pasai_placeholder_001 = {
+	name = Kertanagara
+	religion = vaishnaist
+	culture = aceh
+	1033.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+riau_placeholder_001 = {
+	name = Aniwariwirya
+	religion = vajrayana
+	culture = malay
+	1028.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+gelanggi_placeholder_001 = {
+	name = Sajjana
+	religion = vajrayana
+	culture = malay
+	1028.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+pahang_placeholder_001 = {
+	name = Udayana
+	religion = vajrayana
+	culture = malay
+	1041.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+bernam_placeholder_001 = {
+	name = Kutur
+	religion = vajrayana
+	culture = malay
+	1033.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+langkasuka_placeholder_001 = {
+	name = Sana
+	religion = vajrayana
+	culture = malay
+	1032.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+kedah_placeholder_001 = {
+	name = Dewendra
+	religion = vajrayana
+	culture = malay
+	1036.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+################################
+### Steppe Placeholders 1066 ###
+################################
+
+julop_placeholder_002 = {
+	name = Tokhtamis
+	religion = tengri_pagan
+	culture = khamag
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+###################################
+### Indochina Placeholders 1066 ###
+###################################
+
+lao_nhai_placeholder_001 = {
+	name = huaizhen
+	religion = ban_phi
+	culture = tai
+	1036.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+con_linh_placeholder_001 = {
+	name = Minzhong
+	religion = ban_phi
+	culture = tay
+	1038.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+kawkareik_placeholder_002 = {
+	name = Gadau
+	female = yes
+	religion = burmic
+	culture = karenic
+	1035.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+sangkhla_placeholder_002 = {
+	name = Haymar
+	female = yes
+	religion = burmic
+	culture = karenic
+	1049.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
+##################################
+### Mentawai Placeholders 1066 ###
+##################################
+
+simeulue_placeholder_002 = {
+	name = Wisnu
+	religion = batak
+	culture = mentawai 
+	1024.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+nias_placeholder_002 = {
+	name = Danu
+	religion = batak
+	culture = mentawai 
+	1017.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+batu_islands_placeholder_002 = {
+	name = Langlangbumi
+	religion = batak
+	culture = mentawai 
+	1043.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+siberut_placeholder_002 = {
+	name = Harigana
+	religion = batak
+	culture = mentawai 
+	998.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+pagai_placeholder_002 = {
+	name = Ankoma
+	religion = batak
+	culture = mentawai 
+	1012.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+enggano_placeholder_002 = {
+	name = Sarwaniwariwirya
+	religion = batak
+	culture = mentawai 
+	1013.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}

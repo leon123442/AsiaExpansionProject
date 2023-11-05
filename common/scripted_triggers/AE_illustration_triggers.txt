@@ -1,3 +1,0 @@
-﻿has_graphical_yamato_culture_group_trigger = {
-	has_culture = culture:yamato
-}
