@@ -1,77 +1,555 @@
 ﻿l_russian:
 #Japanese
- dynn_yamato:0 "Yamato" # 皇室
- dynn_fujiwara:0 "Fujiwara" # 藤原/藤原北家
- dynn_nanke-fujiwara:0 "Nanke-Fujiwara" # 藤原南家
- dynn_shikike-fujiwara:0 "Shikike-Fujiwara" # 藤原式家
- dynn_kyoke-fujiwara:0 "Kyōke-Fujiwara" # 藤原京家
- dynn_oshu-fujiwara:0 "Ōshū-Fujiwara" # 奥州藤原氏
- dynn_saga-genji:0 "Saga-Genji" # 嵯峨源氏
- dynn_ninmyo-genji:0 "Ninmyō-Genji" # 仁明源氏
- dynn_montoku-genji:0 "Montoku-Genji" # 文徳源氏
- dynn_seiwa-genji:0 "Seiwa-Genji" # 清和源氏/摂津源氏
- dynn_yamatogenji:0 "Yamato-Genji" # 大和源氏
- dynn_kawachigenji:0 "Kawachi-Genji" # 河内源氏
- dynn_minogenji:0 "Mino-Genji" # 美濃源氏
- dynn_yozei-genji:0 "Yōzei-Genji" # 陽成源氏
- dynn_koko-genji:0 "Kōkō-Genji" # 光孝源氏
- dynn_uda-genji:0 "Uda-Genji" # 宇多源氏
- dynn_daigo-genji:0 "Daigo-Genji" # 醍醐源氏
- dynn_murakami-genji:0 "Murakami-Genji" # 村上源氏
- dynn_reizei-genji:0 "Reizei-Genji" # 冷泉源氏
- dynn_kazan-genji:0 "Kazan-Genji" # 花山源氏
- dynn_sanjo-genji:0 "Sanjō-Genji" # 三条源氏
- dynn_kanmu-heishi:0 "Kanmu-Heishi" # 桓武平氏
- dynn_hitachiheishi:0 "Hitachi-Heishi" # 常陸平氏
- dynn_satsumaheishi:0 "Satsuma-Heishi" # 薩摩平氏
- dynn_iseheishi:0 "Ise-Heishi" # 伊勢平氏
- dynn_bosoheishi:0 "Bōsō-Heishi" # 房総平氏
- dynn_chichibuheishi:0 "Chichibu Heishi" # 秩父平氏
- dynn_ninmyo-heishi:0 "Nimmyō-Heishi" # 仁明平氏
- dynn_montoku-heishi:0 "Montoku-Heishi" # 文徳平氏
- dynn_koko-heishi:0 "Kōkō-Heishi" # 光孝平氏
- dynn_tachibana:0 "Tachibana" # 橘氏
- dynn_soga:0 "Soga" # 蘇我氏
- dynn_mononobe:0 "Mononobe" # 物部氏
- dynn_ki:0 "Ki" # 紀氏
- dynn_ariwara:0 "Ariwara" # 在原氏
- dynn_kiyohara:0 "Kiyohara" # 清原氏
- dynn_sakanoue:0 "Sakanoue" # 坂上
- dynn_kibi:0 "Kibi" # 吉備氏
- dynn_oe:0 "Ōe" # 大江氏
- dynn_funya:0 "Funya" # 文室氏
- dynn_yoshimine:0 "Yoshimine" # 良岑氏
- dynn_fuhitoyamato:0 "Yamato" # 和史氏
- dynn_sugano:0 "Sugano" # 菅野氏
- dynn_mutsuishikawa:0 "Ishikawa" # 陸奥石川氏
- dynn_chiba:0 "Chiba" # 千葉氏
- dynn_miura:0 "Miura" # 三浦氏
- dynn_kamakura:0 "Kamakura" # 鎌倉氏
- dynn_nagamine:0 "Nagamine" # 長岑氏
- dynn_harusumi:0 "Harusumi" # 春澄氏
- dynn_sugawara:0 "Sugawara" # 菅原氏
- dynn_shimada:0 "Shimada" # 島田氏
+ dynn_yamato:0 "Ямато" # 皇室
+ dynn_fujiwara:0 "Фудзивара" # 藤原/藤原北家
+ dynn_nanke-fujiwara:0 "Нанкэ-Фудживара" # 藤原南家
+ dynn_shikike-fujiwara:0 "Сикикэ-Фудживара" # 藤原式家
+ dynn_kyoke-fujiwara:0 "Кёкэ-Фудживара" # 藤原京家
+ dynn_oshu-fujiwara:0 "О̄с̌ӯ-Фудживара" # 奥州藤原氏
+ dynn_saga-genji:0 "Сага-Гендзи" # 嵯峨源氏
+ dynn_ninmyo-genji:0 "Нинмё̄-Гендзи" # 仁明源氏
+ dynn_montoku-genji:0 "Монтоку-Гендзи" # 文徳源氏
+ dynn_seiwa-genji:0 "Сэйва-Гендзи" # 清和源氏/摂津源氏
+ dynn_yamatogenji:0 "Ямато-Гендзи" # 大和源氏
+ dynn_kawachigenji:0 "Кавачи-Гендзи" # 河内源氏
+ dynn_minogenji:0 "Мино-Гендзи" # 美濃源氏
+ dynn_yozei-genji:0 "Ёдзэи-Гендзи" # 陽成源氏
+ dynn_koko-genji:0 "Ко̄ко̄-Гендзи" # 光孝源氏
+ dynn_uda-genji:0 "Уда-Гендзи" # 宇多源氏
+ dynn_daigo-genji:0 "Даиго-Гендзи" # 醍醐源氏
+ dynn_murakami-genji:0 "Мураками-Гендзи" # 村上源氏
+ dynn_reizei-genji:0 "Рэизэи-Гендзи" # 冷泉源氏
+ dynn_kazan-genji:0 "Казан-Гендзи" # 花山源氏
+ dynn_sanjo-genji:0 "Сандзё̄-Гендзи" # 三条源氏
+ dynn_kanmu-heishi:0 "Канму-Хейши" # 桓武平氏
+ dynn_hitachiheishi:0 "Хитачи-Хейши" # 常陸平氏
+ dynn_satsumaheishi:0 "Сатсума-Хейши" # 薩摩平氏
+ dynn_iseheishi:0 "Исэ-Хейши" # 伊勢平氏
+ dynn_bosoheishi:0 "Бо̄со̄-Хейши" # 房総平氏
+ dynn_chichibuheishi:0 "Чичибу-Хейши" # 秩父平氏
+ dynn_ninmyo-heishi:0 "Ниммё̄-Хейши" # 仁明平氏
+ dynn_montoku-heishi:0 "Монтоку-Хейши" # 文徳平氏
+ dynn_koko-heishi:0 "Ко̄ко̄-Хейши" # 光孝平氏
+ dynn_tachibana:0 "Тачибана" # 橘氏
+ dynn_soga:0 "Сога" # 蘇我氏
+ dynn_mononobe:0 "Мононобэ" # 物部氏
+ dynn_ki:0 "Ки" # 紀氏
+ dynn_ariwara:0 "Аривара" # 在原氏
+ dynn_kiyohara:0 "Киёхара" # 清原氏
+ dynn_sakanoue:0 "Саканоуэ" # 坂上
+ dynn_kibi:0 "Киби" # 吉備氏
+ dynn_oe:0 "О̄э" # 大江氏
+ dynn_funya:0 "Фуня" # 文室氏
+ dynn_yoshimine:0 "Ёсиминэ" # 良岑氏
+ dynn_fuhitoyamato:0 "Ямато" # 和史氏
+ dynn_sugano:0 "Сугано" # 菅野氏
+ dynn_mutsuishikawa:0 "Ишикава" # 陸奥石川氏
+ dynn_chiba:0 "Чиба" # 千葉氏
+ dynn_miura:0 "Миура" # 三浦氏
+ dynn_kamakura:0 "Камакура" # 鎌倉氏
+ dynn_nagamine:0 "Нагаминэ" # 長岑氏
+ dynn_harusumi:0 "Харусуми" # 春澄氏
+ dynn_sugawara:0 "Сугавара" # 菅原氏
+ dynn_shimada:0 "Шимада" # 島田氏
  dynn_oo:0 "Ō" # 多氏
- dynn_abe:0 "Abe" # 安倍氏
- dynn_yoshimichi:0 "Yoshimichi" # 善道氏
- dynn_miyoshi:0 "Miyoshi" # 三善氏
- dynn_takashina:0 "Takashina" # 高階氏
- dynn_okasuga:0 "Ōkasuga" # 大春日氏
- dynn_ashikaga:0 "Ashikaga" # 足利氏
+ dynn_abe:0 "Абэ" # 安倍氏
+ dynn_yoshimichi:0 "Ёшимичи" # 善道氏
+ dynn_miyoshi:0 "Миёши" # 三善氏
+ dynn_takashina:0 "Такасина" # 高階氏
+ dynn_okasuga:0 "О̄касуга" # 大春日氏
+ dynn_ashikaga:0 "Асикага" # 足利氏
+ 
+ dynn_Adachi:0 "Адачи" #安達
+ dynn_Agatsuma:0 "Агацума" #吾妻
+ dynn_Aiko:0 "Аико" #相子
+ dynn_Ajiki:0 "Аджики" #味慈喜
+ dynn_Akada:0 "Акада" #赤田
+ dynn_Akahoshi:0 "Акахоши" #赤星
+ dynn_Akai:0 "Акай" #赤井
+ dynn_Akatsuka:0 "Акатсука" #赤塚
+ dynn_Akiha:0 "Акиха" #秋葉
+ dynn_Akita:0 "Акита" #秋田
+ dynn_Ama:0 "Ама" #天
+ dynn_Amaha:0 "Амаха" #天羽
+ dynn_Amakusa:0 "Амакуса" #天草
+ dynn_Amari:0 "Амари" #余部
+ dynn_Ando:0 "Андо" #安藤
+ dynn_Annaka:0 "Аннака" #安中
+ dynn_Anzai:0 "Анзаи" #安西
+ dynn_Ao:0 "Ао" #青
+ dynn_Arimoto:0 "Аримото" #有本
+ dynn_Asaba:0 "Асаба" #浅羽
+ dynn_Asahina:0 "Асахина" #朝比奈
+ dynn_Asaka:0 "Асака" #浅香
+ dynn_Asari:0 "Асари" #浅利
+ dynn_Asayama:0 "Асаяма" #浅山
+ dynn_Ashida:0 "Ашида" #芦田
+ dynn_Ashina:0 "Ашина" #足利
+ dynn_Ashizaki:0 "Ашизаки" #芦崎
+ dynn_Asonuma:0 "Асонума" #麻沼
+ dynn_Awata:0 "Авата" #粟田
+ dynn_Beppu:0 "Бэппу" #別府
+ dynn_Bessho:0 "Бессхо" #別所
+ dynn_Chida:0 "Чида" #千田
+ dynn_Chikama:0 "Чикама" #近間
+ dynn_Chino:0 "Чино" #知野
+ dynn_Chonan:0 "Чонан" #長南
+ dynn_Chujo:0 "Чудзо" #中条
+ dynn_Chusonji:0 "Чусондзи" #中尊寺
+ dynn_Daigo:0 "Дайго" #醍醐
+ dynn_Daihoji:0 "Дайходзи" #大報地
+ dynn_Daijo:0 "Дайджо" #大城
+ dynn_Daitokuji:0 "Дайтокудзи" #大徳寺
+ dynn_Danzaki:0 "Данзаки" #壇崎
+ dynn_Date:0 "Датэ" #伊達
+ dynn_Dohi:0 "Дохи" #土肥
+ dynn_Ebina:0 "Эбина" #海老名
+ dynn_Echigo:0 "Эчиго" #越後
+ dynn_Edo:0 "Эдо" #江戸
+ dynn_Ei:0 "Эи" #永井
+ dynn_Endo:0 "Эндо" #遠藤
+ dynn_Erinji:0 "Эриндзи" #恵林寺
+ dynn_Fujisawa:0 "Фудзисава" #藤沢
+ dynn_Fujishima:0 "Фуджисима" #藤島
+ dynn_Fuma:0 "Фума" #風間
+ dynn_Funadokoro:0 "Фунадокоро" #船所
+ dynn_Furugori:0 "Фуругори" #古郡
+ dynn_Furusho:0 "Фурушо" #古庄
+ dynn_Godo:0 "Годо" #五堂
+ dynn_Gojoin:0 "Годжоин" #豪徐院
+ dynn_Goto:0 "Гото" #後藤
+ dynn_Gotonai:0 "Готонай" #五島内
+ dynn_Hachinohe:0 "Хачинохе" #八戸
+ dynn_Haga:0 "Хага" #芳賀
+ dynn_Hahakabe:0 "Хахакабе" #母妨げ
+ dynn_Hakonesan:0 "Хаконесан" #箱根山
+ dynn_Hama:0 "Хама" #浜
+ dynn_Hamada:0 "Хамада" #浜田
+ dynn_Hanagasaki:0 "Ханагасаки" #花ケ崎
+ dynn_Hangaya:0 "Хангая" #半谷
+ dynn_Hara:0 "Хара" #原
+ dynn_Hasebe:0 "Хасебе" #長谷部
+ dynn_Hasekura:0 "Хасекура" #支倉
+ dynn_Hashida:0 "Хашида" #羽志田
+ dynn_Hasuike:0 "Хасуике" #蓮池
+ dynn_Hatta:0 "Хатта" #八田
+ dynn_Hayama:0 "Хаяма" #速水
+ dynn_Hayami:0 "Хаями" #速水
+ dynn_Hayasibara:0 "Хаясибара" #早柴原
+ dynn_Hayuka:0 "Хаюка" #早鹿
+ dynn_Hei:0 "Хэй" #兵衛
+ dynn_Hienuki:0 "Хиенуки" #日永
+ dynn_Hiki:0 "Хики" #疋
+ dynn_Hikita:0 "Хикита" #引田
+ dynn_Hino:0 "Хино" #日野
+ dynn_Hioki:0 "Хиоки" #日置
+ dynn_Hirai:0 "Хираи" #平井
+ dynn_Hirakawa:0 "Хиракава" #平川
+ dynn_Hirata:0 "Хирата" #平田
+ dynn_Hiroyama:0 "Хирояма" #広山
+ dynn_Hishikari:0 "Хисикари" #菱刈
+ dynn_Hita:0 "Хита" #日田
+ dynn_Hojo:0 "Ходзё" #北条
+ dynn_Honma:0 "Хонма" #本間
+ dynn_Hori:0 "Хори" #堀
+ dynn_Horiguchi:0 "Хоригучи" #堀口
+ dynn_Ibusuki:0 "Ибусуки" #揖宿
+ dynn_Ichijo:0 "Итиджо" #一条
+ dynn_Ichikawa:0 "Итикава" #市川
+ dynn_Iga:0 "Ига" #伊賀
+ dynn_Igarame:0 "Игараме" #五十嵐
+ dynn_Iguchi:0 "Игучи" #井口
+ dynn_Iho:0 "Ихо" #伊保
+ dynn_Iida:0 "Иида" #飯田
+ dynn_Iijima:0 "Ийима" #飯島
+ dynn_Ikarashi:0 "Икараши" #斎箕
+ dynn_Inaba:0 "Инаба" #稲葉
+ dynn_Inabe:0 "Инабэ" #伊奈部
+ dynn_Inadu:0 "Инаду" #稲津
+ dynn_Inage:0 "Инагэ" #稲毛
+ dynn_Inawashiro:0 "Инавасиро" #猪苗代
+ dynn_Ino:0 "Ино" #井野
+ dynn_Inoie:0 "Иноие" #井ノ家
+ dynn_Inomata:0 "Иномата" #井ノ又
+ dynn_Inoue:0 "Иноуэ" #井上
+ dynn_Into:0 "Инто" #井戸
+ dynn_Inzai:0 "Индзай" #印西
+ dynn_Isa:0 "Иса" #伊佐
+ dynn_Isawa:0 "Исава" #伊沢
+ dynn_Ise:0 "Исэ" #伊勢
+ dynn_Ishida:0 "Исида" #石田
+ dynn_Ishido:0 "Ишидо" #石戸
+ dynn_Ishigame:0 "Ишигаме" #石亀
+ dynn_Ishikawa:0 "Ишикава" #石川
+ dynn_Ishimoda:0 "Ишимода" #石本田
+ dynn_Itagaki:0 "Итагаки" #板垣
+ dynn_Itai:0 "Итай" #板井
+ dynn_Ito:0 "Ито" #伊藤
+ dynn_Iwaki:0 "Иваки" #岩城
+ dynn_Iwakuni:0 "Ивакуни" #岩国
+ dynn_Iwamatsu:0 "Ивамацу" #岩松
+ dynn_Iwase:0 "Ивасэ" #岩瀬
+ dynn_Izaka:0 "Идзака" #伊坂
+ dynn_Izumi:0 "Изуми" #和泉
+ dynn_Izusan:0 "Идзусан" #伊豆山
+ dynn_Jo:0 "Джо" #城
+ dynn_Kagawa:0 "Кагава" #香川
+ dynn_Kai:0 "Кай" #甲斐
+ dynn_Kaji:0 "Кадзи" #梶
+ dynn_Kajiwara:0 "Кадзивара" #梶原
+ dynn_Kakeda:0 "Какеда" #筧田
+ dynn_Kamei:0 "Камей" #亀井
+ dynn_Kamitsumichi:0 "Камитсумичи" #上道
+ dynn_Kanagami:0 "Канагами" #金神
+ dynn_Kanakubo:0 "Канакубо" #金久保
+ dynn_Kanamochi:0 "Канамочи" #金持
+ dynn_Kaneda:0 "Канеда" #金田
+ dynn_Kaneko:0 "Канеко" #金子
+ dynn_Kanemaru:0 "Канемару" #金丸
+ dynn_Kaneuri:0 "Канеури" #金売
+ dynn_Karita:0 "Карита" #狩田
+ dynn_Kasahara:0 "Касахара" #笠原
+ dynn_Kasai:0 "Касаи" #笠井
+ dynn_Kashima:0 "Кашима" #鹿島
+ dynn_Kashiyama:0 "Касияма" #柏山
+ dynn_Kasuga:0 "Касуга" #春日
+ dynn_Kasugabe:0 "Касугабе" #春日部
+ dynn_Kasuya:0 "Касуя" #粕谷
+ dynn_Katada:0 "Катада" #堅田
+ dynn_Katagiri:0 "Катагири" #片桐
+ dynn_Katakura:0 "Катакура" #片倉
+ dynn_Kataoka:0 "Катаока" #片岡
+ dynn_Katsuki:0 "Кацуки" #勝木
+ dynn_Katsumata:0 "Катсумата" #勝俣
+ dynn_Katta:0 "Катта" #甲田
+ dynn_Kawabe:0 "Кавабе" #川辺
+ dynn_Kawachi:0 "Кавачи" #河内
+ dynn_Kawada:0 "Кавада" #川田
+ dynn_Kawagoe:0 "Кавагое" #川越
+ dynn_Kawai:0 "Каваи" #河合
+ dynn_Kawanabe:0 "Каванабе" #川辺
+ dynn_Kawarada:0 "Каварада" #河原田
+ dynn_Kawashima:0 "Кавашима" #川島
+ dynn_Kawawa:0 "Кавава" #川和
+ dynn_Kazusa:0 "Казуса" #上総
+ dynn_Kemanai:0 "Кеманай" #毛間内
+ dynn_Kenmotsu:0 "Кенмотсу" #剣持
+ dynn_Kida:0 "Кида" #木田
+ dynn_Kii:0 "Кии" #木井
+ dynn_Kinebuchi:0 "Кинебучи" #杵淵
+ dynn_Kiryu:0 "Кирю" #桐生
+ dynn_Kita:0 "Кита" #北
+ dynn_Kiuchi:0 "Киучи" #木内
+ dynn_Kiyotake:0 "Киотаке" #清武
+ dynn_Kodama:0 "Кодама" #児玉
+ dynn_Koizumi:0 "Коизуми" #小泉
+ dynn_Kokubu:0 "Кокубу" #国分
+ dynn_Kokubun:0 "Кокубун" #国分
+ dynn_Komuro:0 "Комуро" #小室
+ dynn_Kon:0 "Кон" #今
+ dynn_Kondo:0 "Кондо" #近藤
+ dynn_Kori:0 "Кори" #出
+ dynn_Koshi:0 "Коси" #腰
+ dynn_Kosuiji:0 "Косуйи" #古水路
+ dynn_Koto:0 "Кото" #琴
+ dynn_Koyanagawa:0 "Коянагава" #小柳川
+ dynn_Kozuma:0 "Козума" #小妻
+ dynn_Kuge:0 "Куге" #久家
+ dynn_Kumabe:0 "Кумабе" #熊部
+ dynn_Kumagai:0 "Кумагаи" #熊谷
+ dynn_Kumage:0 "Кумаге" #熊毛
+ dynn_Kumano:0 "Кумано" #熊野
+ dynn_Kumasaka:0 "Кумасака" #熊坂
+ dynn_Kumita:0 "Кумита" #久田
+ dynn_Kunohe:0 "Кунохе" #久能
+ dynn_Kuragake:0 "Курагаке" #倉掛
+ dynn_Kurokawa:0 "Курокава" #黒川
+ dynn_Kusakabe:0 "Кусакабе" #草壁
+ dynn_Kusano:0 "Кусано" #草野
+ dynn_Kushihashi:0 "Кусихаши" #串橋
+ dynn_Kuwahata:0 "Кувахата" #桑畑
+ dynn_Makabe:0 "Макабе" #真壁
+ dynn_Maki:0 "Маки" #牧
+ dynn_Makino:0 "Макино" #牧野
+ dynn_Makuwari:0 "Макувари" #幕割
+ dynn_Manabe:0 "Манабе" #眞鍋
+ dynn_Mariyatsu:0 "Марияцу" #万屋津
+ dynn_Mashiko:0 "Машико" #益子
+ dynn_Matsuba:0 "Мацуба" #松葉
+ dynn_Matsuda:0 "Мацуда" #松田
+ dynn_Matsumoto:0 "Мацумото" #松本
+ dynn_Matsura:0 "Мацура" #松浦
+ dynn_Mibu:0 "Мибу" #壬生
+ dynn_Mike:0 "Мике" #三家
+ dynn_Minagawa:0 "Минагава" #皆川
+ dynn_Minami:0 "Минами" #南
+ dynn_Minamie:0 "Минамие" #南江
+ dynn_Mino:0 "Мино" #美濃
+ dynn_Misumi:0 "Мисуми" #三角
+ dynn_Mita:0 "Мита" #三田
+ dynn_Miyazaki:0 "Миядзаки" #宮崎
+ dynn_Mizawa:0 "Мизава" #美沢
+ dynn_Mizuhai:0 "Мизухаи" #水杯
+ dynn_Mizushi:0 "Мизуши" #水師
+ dynn_Mochiduki:0 "Мочидуки" #望月
+ dynn_Mogami:0 "Могами" #最上
+ dynn_Mogi:0 "Моги" #茂木
+ dynn_Momonoi:0 "Момоной" #桃の井
+ dynn_Mori:0 "Мори" #森
+ dynn_Morozumi:0 "Морозуми" #諸積
+ dynn_Motozawa:0 "Мотодзава" #本澤
+ dynn_Motsuji:0 "Моцудзи" #本寺
+ dynn_Murakami:0 "Мураками" #村上
+ dynn_Murao:0 "Мурао" #村尾
+ dynn_Murayama:0 "Мурайама" #村山
+ dynn_Musashibo:0 "Мусасибо" #武蔵坊
+ dynn_Muto:0 "Муто" #武藤
+ dynn_Myoshinji:0 "Мёшиндзи" #妙心寺
+ dynn_Nagae:0 "Нагае" #長江
+ dynn_Nagano:0 "Нагано" #長野
+ dynn_Naganuma:0 "Наганума" #長沼
+ dynn_Nagasa:0 "Нагаса" #長狭
+ dynn_Nagasaki:0 "Нагасаки" #長崎
+ dynn_Nagase:0 "Нагасе" #長瀬
+ dynn_Nagashio:0 "Нагашио" #長塩
+ dynn_Nagata:0 "Нагата" #長田
+ dynn_Nagoya:0 "Нагоя" #名古屋
+ dynn_Naka:0 "Нака" #中
+ dynn_Nakaduma:0 "Накадума" #中太
+ dynn_Nakamura:0 "Накамура" #中村
+ dynn_Nakano:0 "Накано" #中野
+ dynn_Nakura:0 "Накура" #中浦
+ dynn_Namegata:0 "Намегата" #行方
+ dynn_Namioka:0 "Намиока" #波岡
+ dynn_Nanbu:0 "Нанбу" #南部
+ dynn_Naniwa:0 "Нанива" #浪速
+ dynn_Narisawa:0 "Нарисава" #成沢
+ dynn_Narita:0 "Нарита" #成田
+ dynn_Narumi:0 "Наруми" #鳴海
+ dynn_Nasu:0 "Насу" #那須
+ dynn_Natori:0 "Натори" #名取
+ dynn_Nawa:0 "Нава" #名和
+ dynn_Nedu:0 "Нэду" #根津
+ dynn_Nei:0 "Нэй" #根井
+ dynn_Nihonmatsu:0 "Нихонмацу" #二本松
+ dynn_Nii:0 "Нии" #新井
+ dynn_Niida:0 "Ниида" #新井田
+ dynn_Nikaho:0 "Никахо" #にかほ
+ dynn_Nikaido:0 "Никайдо" #二階堂
+ dynn_Nikki:0 "Никки" #日記
+ dynn_Nikko:0 "Никко" #日光
+ dynn_Nimo:0 "Нимо" #仁茂
+ dynn_Ninomiya:0 "Ниномия" #二宮
+ dynn_Nishiyama:0 "Нисиама" #西山
+ dynn_Nita:0 "Нита" #仁田
+ dynn_Nobesawa:0 "Нобесава" #野辺沢
+ dynn_Nogami:0 "Ногами" #野上
+ dynn_Nuka:0 "Нука" #糠
+ dynn_Numata:0 "Нумата" #沼田
+ dynn_Nunohiro:0 "Нунохиро" #布比呂
+ dynn_Nuta:0 "Нута" #布多
+ dynn_Oba:0 "Оба" #小場
+ dynn_Obata:0 "Обата" #小畑
+ dynn_Oda:0 "Ода" #織田
+ dynn_Odachi:0 "Одачи" #大舘
+ dynn_Oeda:0 "Оэда" #大枝
+ dynn_Ogamo:0 "Огамо" #小蒲
+ dynn_Ogata:0 "Огата" #小形
+ dynn_Ogino:0 "Огино" #荻野
+ dynn_Oguri:0 "Огури" #小栗
+ dynn_Ogushi:0 "Огуши" #大串
+ dynn_Oi:0 "Ои" #大井
+ dynn_Oka:0 "Ока" #岡
+ dynn_Okabe:0 "Окабе" #岡部
+ dynn_Okamoto:0 "Окамото" #岡本
+ dynn_Okawa:0 "Окава" #大川
+ dynn_Okuyama:0 "Окуяма" #奥山
+ dynn_Omi:0 "Оми" #近江
+ dynn_Omori:0 "Омори" #大森
+ dynn_Oniwa:0 "Онива" #鬼輪
+ dynn_Onjoji:0 "Онджодзи" #園城寺
+ dynn_Ono:0 "Оно" #小野
+ dynn_Onodera:0 "Онодэра" #小野寺
+ dynn_Osada:0 "Осада" #長田
+ dynn_Osaki:0 "Осаки" #大崎
+ dynn_Osone:0 "Осонэ" #大曽根
+ dynn_Osuga:0 "Осуга" #大須賀
+ dynn_Ota:0 "Ота" #太田
+ dynn_Otawa:0 "Отава" #小田和
+ dynn_Ouchi:0 "Оучи" #大内
+ dynn_Oura:0 "Оура" #大浦
+ dynn_Oya:0 "Оя" #親
+ dynn_Oyake:0 "Ояке" #大焼
+ dynn_Oyama:0 "Ояма" #小山
+ dynn_Ozawa:0 "Одзава" #小澤
+ dynn_Oze:0 "Озе" #尾瀬
+ dynn_Rinsenji:0 "Ринсендзи" #霖仙寺
+ dynn_Rusu:0 "Русу" #瑠巣
+ dynn_Saeki:0 "Саэки" #佐伯
+ dynn_Sagoshi:0 "Сагоши" #佐越
+ dynn_Sahara:0 "Сахара" #佐原
+ dynn_Saito:0 "Сайто" #斉藤
+ dynn_Saji:0 "Саджи" #佐治
+ dynn_Saka:0 "Сака" #阪
+ dynn_Sakai:0 "Сакай" #酒井
+ dynn_Sakaminami:0 "Сакаминами" #坂南
+ dynn_Sakenobe:0 "Сакенобе" #栄野辺
+ dynn_Samejima:0 "Самеджима" #鮫島
+ dynn_Sanada:0 "Санада" #真田
+ dynn_Sannohe:0 "Саннохэ" #三戸
+ dynn_Sano:0 "Сано" #佐野
+ dynn_Satake:0 "Сатаке" #佐竹
+ dynn_Sato:0 "Сато" #佐藤
+ dynn_Satomi:0 "Сатоми" #里見
+ dynn_Sawa:0 "Сава" #沢
+ dynn_Seki:0 "Секи" #関
+ dynn_Sekiya:0 "Секия" #関谷
+ dynn_Senba:0 "Сенба" #千葉
+ dynn_Senda:0 "Сэнда" #千田
+ dynn_Senoo:0 "Сэноо" #妹尾
+ dynn_Senoue:0 "Сэноуэ" #瀬之上
+ dynn_Serada:0 "Сэрада" #芹田
+ dynn_Shiba:0 "Шиба" #司馬
+ dynn_Shibukawa:0 "Шибукава" #澁川
+ dynn_Shibuya:0 "Шибуя" #澁谷
+ dynn_Shifukuji:0 "Шифукудзи" #志福寺
+ dynn_Shihara:0 "Сихара" #四原
+ dynn_Shii:0 "Шии" #椎
+ dynn_Shimazaki:0 "Шимадзаки" #島崎
+ dynn_Shimizu:0 "Шимизу" #清水
+ dynn_Shinagawa:0 "Синагава" #品川
+ dynn_Shindo:0 "Шиндо" #進藤
+ dynn_Shineha:0 "Шинэха" #芝根葉
+ dynn_Shingu:0 "Шингу" #新宮
+ dynn_Shinohara:0 "Синогара" #篠原
+ dynn_Shiokawa:0 "Шиокава" #塩川
+ dynn_Shionoya:0 "Сионоя" #塩野谷
+ dynn_Shirai:0 "Ширай" #白井
+ dynn_Shirakawa:0 "Ширакава" #白川
+ dynn_Shiroishi:0 "Широиши" #白石
+ dynn_Shisa:0 "Шиса" #資佐
+ dynn_Shishido:0 "Шишидо" #宍戸
+ dynn_Shitara:0 "Шитара" #設楽
+ dynn_Shuin:0 "Шуин" #周防
+ dynn_So:0 "Со" #宗
+ dynn_Soma:0 "Сома" #相馬
+ dynn_Sonobe:0 "Сонобе" #園部
+ dynn_Sosa:0 "Соса" #曾佐
+ dynn_Suda:0 "Суда" #須田
+ dynn_Sugenoya:0 "Сугеноя" #菅野谷
+ dynn_Sugimoto:0 "Сугимото" #杉本
+ dynn_Suyama:0 "Суяма" #須山
+ dynn_Suzuki:0 "Сузуки" #鈴木
+ dynn_Tachikawa:0 "Тачикава" #立川
+ dynn_Tachikida:0 "Тачикида" #立木田
+ dynn_Tada:0 "Тада" #多田
+ dynn_Tagawa:0 "Тагава" #田川
+ dynn_Tagaya:0 "Тагая" #田賀谷
+ dynn_Tago:0 "Таго" #田郷
+ dynn_Taima:0 "Тайма" #当麻
+ dynn_Tairako:0 "Таирако" #平良子
+ dynn_Taizai:0 "Тайдзаи" #泰斎
+ dynn_Tajibe:0 "Таджибе" #田地部
+ dynn_Takasaka:0 "Такасака" #高坂
+ dynn_Takashima:0 "Такасима" #高島
+ dynn_Takayama:0 "Такаяма" #高山
+ dynn_Takechi:0 "Такечи" #武智
+ dynn_Takeda:0 "Такеда" #武田
+ dynn_Takei:0 "Такэи" #武井
+ dynn_Takeishi:0 "Такеиси" #武石
+ dynn_Takusari:0 "Такусари" #拓也
+ dynn_Tamura:0 "Тамура" #田村
+ dynn_Tanaka:0 "Танака" #田中
+ dynn_Taniyama:0 "Танияма" #谷山
+ dynn_Tatara:0 "Татара" #多々良
+ dynn_Tateoka:0 "Татеока" #館岡
+ dynn_Taya:0 "Тая" #田谷
+ dynn_Tayubo:0 "Таюбо" #田淀
+ dynn_Tendo:0 "Тэндо" #天童
+ dynn_Teramoto:0 "Тэрамото" #寺本
+ dynn_Terui:0 "Тэруи" #輝井
+ dynn_Tezuka:0 "Тэдзука" #手塚
+ dynn_Tobe:0 "Тобе" #戸部
+ dynn_Togo:0 "Того" #東郷
+ dynn_Tokihara:0 "Токихара" #時原
+ dynn_Tokuda:0 "Токуда" #徳田
+ dynn_Tokugawa:0 "Токугава" #徳川
+ dynn_Tomida:0 "Томида" #富田
+ dynn_Tominaga:0 "Томинага" #富永
+ dynn_Tomita:0 "Томита" #富田
+ dynn_Tomo:0 "Томо" #友
+ dynn_Tomono:0 "Томоно" #伴野
+ dynn_Tomura:0 "Томура" #戸村
+ dynn_Tosanobo:0 "Тосанобо" #土佐延
+ dynn_Toshima:0 "Тошима" #利島
+ dynn_Toyota:0 "Тойота" #豊田
+ dynn_Tozawa:0 "Тозава" #戸沢
+ dynn_Tsuchiya:0 "Тсучия" #土屋
+ dynn_Tsuduki:0 "Цудуки" #津月
+ dynn_Tsugaru:0 "Цугару" #津軽
+ dynn_Tsuhada:0 "Цухада" #津波田
+ dynn_Tsukahara:0 "Цукахара" #塚原
+ dynn_Tsukame:0 "Цукаме" #佃
+ dynn_Tsumaki:0 "Цумаки" #露木
+ dynn_Tsutsui:0 "Цуцуи" #筒井
+ dynn_Tsutsumi:0 "Цутсуми" #堤
+ dynn_Uesugi:0 "Уэсуги" #上杉
+ dynn_Umi:0 "Уми" #海
+ dynn_Unakami:0 "Унаками" #宇奈加美
+ dynn_Uno:0 "Уно" #宇野
+ dynn_Urushima:0 "Урушима" #売島
+ dynn_Uryu:0 "Урю" #宇留
+ dynn_Usanagi:0 "Усанаги" #宇佐永
+ dynn_Usuginu:0 "Усугину" #薄衣
+ dynn_Usui:0 "Усуи" #臼井
+ dynn_Usuki:0 "Усуки" #臼杵
+ dynn_Uta:0 "Ута" #歌
+ dynn_Utsunomiya:0 "Уцуномия" #宇都宮
+ dynn_Wada:0 "Вада" #和田
+ dynn_Waga:0 "Вага" #和賀
+ dynn_Waka:0 "Вака" #和歌
+ dynn_Wakimoto:0 "Вакимото" #脇本
+ dynn_Watanabe:0 "Ватанабе" #渡辺
+ dynn_Watari:0 "Ватари" #渡
+ dynn_Yabe:0 "Ябе" #矢部
+ dynn_Yako:0 "Яко" #夜古
+ dynn_Yamada:0 "Ямада" #山田
+ dynn_Yamaga:0 "Ямага" #山賀
+ dynn_Yamagata:0 "Ямагата" #山形
+ dynn_Yamaguchi:0 "Ямагучи" #山口
+ dynn_Yamakawa:0 "Ямакава" #山川
+ dynn_Yamanouchi:0 "Яманоучи" #山ノ内
+ dynn_Yanada:0 "Янада" #矢名田
+ dynn_Yashiro:0 "Яширо" #八代
+ dynn_Yasu:0 "Ясу" #安
+ dynn_Yasuhara:0 "Ясухара" #安原
+ dynn_Yato:0 "Ято" #八戸
+ dynn_Yoda:0 "Йода" #依田
+ dynn_Yokawa:0 "Йокава" #横川
+ dynn_Yokochi:0 "Йокочи" #横地
+ dynn_Yokose:0 "Йокосе" #横瀬
+ dynn_Yokosuga:0 "Йокосуга" #横須賀
+ dynn_Yokota:0 "Йокота" #横田
+ dynn_Yokoyama:0 "Йокояма" #横山
+ dynn_Yoshihashi:0 "Йошихаши" #吉橋
+ dynn_Yuasa:0 "Юаса" #湯浅
+ dynn_Yuki:0 "Юки" #行木
+ dynn_Yura:0 "Юра" #由良
+ dynn_Yuri:0 "Юри" #百合
 #Korean
- dynn_Gyeongju_Kim:0 "Kim" # 경주김씨/慶州金氏
- dynn_Miryang_Park:0 "Park" # 밀양박씨/推火朴氏
- dynn_Wolseong_Seok:0 "Seok" # 월성석씨/月城昔氏
- dynn_Buyeo:0 "Buyeo" # 부여씨/夫餘氏
- dynn_Go_Goguryeo:0 "Go" # 고씨/高氏
- dynn_Go_Tamna:0 "Go" # 고씨/高氏
- dynn_Tae:0 "Dae" # 대씨/大氏
+ dynn_Gyeongju_Kim:0 "Ким" # 경주김씨/慶州金氏
+ dynn_Miryang_Park:0 "Парк" # 밀양박씨/推火朴氏
+ dynn_Wolseong_Seok:0 "Сок" # 월성석씨/月城昔氏
+ dynn_Buyeo:0 "Буеё" # 부여씨/夫餘氏
+ dynn_Go_Goguryeo:0 "Го" # 고씨/高氏
+ dynn_Go_Tamna:0 "Го" # 고씨/高氏
+ dynn_Tae:0 "Дэ" # 대씨/大氏
 #Chinese
- dynn_Duo:0 "Duo" #铎
- dynn_La:0 "La" #羅
- dynn_Heng:0 "Heng" #橫
- dynn_Du:0 "Du" #杜
- dynn_Chiau:0 "Chiau" #赵
+ dynn_Duo:0 "Дуо" #铎
+ dynn_La:0 "Ла" #羅
+ dynn_Heng:0 "Хэн" #橫
+ dynn_Du:0 "Ду" #杜
+ dynn_Chiau:0 "Чиау" #赵
 #Vietnamese
  dynn_Bui_vn:0 "Bùi" #裴
  dynn_Buu_vn:0 "Bửu" #寶

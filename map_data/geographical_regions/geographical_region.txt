@@ -1257,7 +1257,8 @@ material_hsb_seashell = {
 ###########################################################################
 
 
-world_persian_empire = { 
+world_persian_empire = {
+	generate_modifiers = yes
 	regions = {
 		world_persia
 		world_khorasan
@@ -2233,10 +2234,14 @@ special_mongol_empire_start_region = {
 		d_uda_valley d_dauria d_bargujin_tukum d_baigaluuls d_tsagaanbaigal
 		#k_angara
 		d_yenisei_kan d_chuna_valley d_lena d_angara
+		#k_jubu
+		d_holon d_karat d_khiyat d_Luju d_murin d_onon d_teriqan
+		#k_tengri
+		d_fengzhou d_zhenwu d_wuluhai d_zhenfan d_yijinai d_hejes d_hiyaxu
 	}
 }
 
-# The Eastern Steppes
+# The Eastern Steppes + Manchuria
 special_mongol_empire_conquest_region_prio_1 = {
 	duchies = {
 		# k_khotan
@@ -2247,8 +2252,14 @@ special_mongol_empire_conquest_region_prio_1 = {
 		d_zhetysu d_alakol d_tarbagatai d_ili-alatau
 		# k_kipchak
 		d_semey d_kentarlau d_karkaraly d_karabas d_betpa
-		# k_ob - d_vasyugan_mire
-		d_salair d_ala_tau d_baraba_steppe d_kulyndy_steppe
+		# k_ob
+		d_salair d_ala_tau d_baraba_steppe d_kulyndy_steppe d_vasyugan_mire
+		# k_dongyi
+		d_xarmoron d_changchun d_tohchen
+		# k_siber
+		d_haramuru d_khingan d_uroghu d_siber
+		# k_motgit
+		d_yulou d_heishui d_udege
 	}
 }
 
@@ -2270,7 +2281,7 @@ special_mongol_empire_conquest_region_prio_2 = {
 	}
 }
 
-# Central Steppes + Moldavia
+# Central Steppes + Northern China + Korea
 special_mongol_empire_conquest_region_prio_3 = {
 	duchies = {
 		# k_cuman
@@ -2281,10 +2292,36 @@ special_mongol_empire_conquest_region_prio_3 = {
 		d_itil d_pecheneg
 		# k_caucasus
 		d_khazaria d_azov d_alania d_ciscaucasia
+		# k_balhae
+		d_amnok d_balhae d_buyeo d_gewu d_liaodong d_malgal d_okjeo d_pyongyang d_sumo
+		# k_silla
+		d_tamna d_gangju d_hanju d_jeonju d_muju d_myeongju d_sakju d_sangju d_ungju d_yangju
+		# k_yan
+		d_chengde d_henghai d_liaoxi d_weibo d_xiangwei d_xingci d_yiding d_yingmo d_lulong d_youzhou
+		# k_jin
+		d_hedong d_hezhong d_yanmen d_yunzhong d_zelu
+		# k_xia_east
+		d_binning d_fengxiang d_fufang d_jingyuan d_ordos d_shuofang d_xiazhou
+		# k_xia
+		d_ganzhou d_guiyi d_liangzhou d_aksay d_qilin d_xia
+		# k_longxi
+		d_longxi d_longnan d_shanzhou
+		# k_qin
+		d_pingyi d_xijing
+		# k_zhou
+		d_heluo d_heyang d_shaanguo
+		# k_han
+		d_ba d_hanzhong
+		# k_chu
+		d_jingnan d_jingxiang d_jinshang d_ningjiang
+		# k_wu
+		d_huainan d_huaixi
+		# k_qi
+		d_biansong d_chenxu d_denglai d_pucao d_taining d_xusi d_yihai d_zhenghua d_ziqing
 	}
 }
 
-# Persia + Western Steppes + Tibet
+# Persia + Western Steppes + Tibet + Moldavia
 special_mongol_empire_conquest_region_prio_4 = {
 	duchies = {
 		# e_persia
@@ -3753,6 +3790,50 @@ dlc_fp2_lyonese_monk_region = {
 }
 
 ### END FP2 Regions
+
+#####################
+# FP3 Regions
+#####################
+dlc_fp3_eastern_persian_frontier_regions = {
+	regions = {
+		world_khorasan
+		world_transoxiana
+		world_makran
+		world_kabulistan
+	}
+}
+
+dlc_fp3_greater_persian_frontier_regions = {
+	duchies = {
+		#Sindh
+		d_sauvira d_bhakkar 
+		#Punjab
+		d_multan d_lahore d_gandhara
+		# k_syr_darya
+		d_syr_darya d_chah d_muyunkum
+		# k_oghuz_il
+		d_transcaspiana d_jemba d_aral_il d_barsuki
+		# k_daylam
+		d_daylam d_tabaristan d_gurgan d_azerbaijan
+	}
+	regions = {
+		world_khorasan
+		world_transoxiana
+		world_makran
+		world_kabulistan
+		world_mesopotamia
+		world_asia_minor
+		world_jazira
+	}
+}
+
+dlc_fp3_seljuk_birth_region = {
+	duchies = {
+		d_transcaspiana d_barsuki d_jemba d_aral_il d_syr_darya d_uzboy d_khorezm d_atyrau
+	}
+}
+
+### END FP3 Regions
 
 #####################
 # Achievements - 1.4
