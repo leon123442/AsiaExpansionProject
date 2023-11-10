@@ -63,6 +63,12 @@ special_genes = {
 					1 = male_hair_fp2_iberian_christian_01 
 					1 = male_hair_fp2_iberian_christian_02
 					1 = male_hair_fp2_iberian_christian_03
+					1 = m_hair_fp3_iranian_01
+					1 = m_hair_fp3_iranian_01_common
+					1 = m_hair_fp3_iranian_02
+					1 = m_hair_fp3_iranian_02_common
+					1 = m_hair_fp3_iranian_03
+					1 = m_hair_fp3_iranian_03_common
 					1 = m_hair_ep2_western_01
 					1 = m_hair_ep2_western_02
 
@@ -117,6 +123,12 @@ special_genes = {
 					1 = female_hair_fp2_iberian_christian_01 
 					1 = female_hair_fp2_iberian_christian_02
 					1 = female_hair_fp2_iberian_christian_03
+					1 = f_hair_fp3_iranian_01 #Medium Curls with earring
+					1 = f_hair_fp3_iranian_01_common #Medium Curls
+					1 = f_hair_fp3_iranian_02 #Long Split with earrings
+					1 = f_hair_fp3_iranian_02_common #Long Split
+					1 = f_hair_fp3_iranian_03 #Medium buns with earrings
+					1 = f_hair_fp3_iranian_03_common #Medium buns 
 					1 = f_hair_ep2_western_01
 					1 = f_hair_ep2_western_02
 
@@ -1025,8 +1037,150 @@ special_genes = {
 				girl = female
 			}
 
-			ep2_hairstyles_western = {
+			#iranian
+			fp3_hairstyles_iranian_straight = {
 				index = 59
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_02 #Long split strands with earrings
+					2 = f_hair_fp3_iranian_03 #Medium buns with earrings
+					
+				}
+				boy = male
+				girl = female
+			}
+
+
+			fp3_hairstyles_iranian_wavy = {
+				index = 60
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_01 #Medium wavy with earrings
+					2 = f_hair_fp3_iranian_03 #Medium buns with earrings
+					
+				}
+				boy = male
+				girl = female
+			}
+			
+			fp3_hairstyles_iranian_straight_common = {
+				index = 61
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_02_common #Long split strands with earrings
+					2 = f_hair_fp3_iranian_03_common #Medium buns
+					
+				}
+				boy = male
+				girl = female
+			}
+
+
+			fp3_hairstyles_iranian_wavy_common = {
+				index = 62
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_01 #Medium wavy with earrings
+					2 = f_hair_fp3_iranian_03_common  #Medium buns
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			#turkic
+			fp3_hairstyles_turkic_straight = {
+				index = 63
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_02 #Long split strands with earring
+					2 = f_hair_fp3_iranian_03 #Medium buns with earrings
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_hairstyles_turkic_wavy = {
+				index = 64
+				male = {
+					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					1 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_01 #Medium wavy with earrings
+					2 = f_hair_fp3_iranian_03 #Medium buns with earrings
+					
+				}
+				boy = male
+				girl = female
+			}
+
+			fp3_hairstyles_turkic_straight_common = {
+				index = 65
+				male = {
+					1 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_02_common  #Long split strands with earrings
+					2 = f_hair_fp3_iranian_03_common #Medium buns
+					
+				}
+				boy = male
+				girl = female
+			}
+
+
+			fp3_hairstyles_turkic_wavy_common = {
+				index = 66
+				male = {
+					2 = m_hair_fp3_iranian_01 #Long split strands
+					2 = m_hair_fp3_iranian_02 #Seljuk Braids
+					2 = m_hair_fp3_iranian_03 #Medium wavy ends
+
+				}
+
+				female = {
+					2 = f_hair_fp3_iranian_01_common #Medium wavy with earrings
+					2 = f_hair_fp3_iranian_03_common #Medium
+				}
+				boy = male
+				girl = female
+			}
+					
+			ep2_hairstyles_western = {
+				index = 67
 				male = {
 					2 = m_hair_ep2_western_01
 					2 = m_hair_ep2_western_02
@@ -1041,7 +1195,7 @@ special_genes = {
 			}
 
 			ep2_hairstyles_western_common = { # Without jewelry for use by commoners
-				index = 60
+				index = 68
 				male = {
 					2 = m_hair_ep2_western_01
 					2 = m_hair_ep2_western_02
@@ -1050,6 +1204,170 @@ special_genes = {
 				female = {
 					2 = f_hair_ep2_western_01
 					2 = f_hair_ep2_western_02
+				}
+				boy = male
+				girl = female
+			}
+			
+			#########################################
+			## Asia Expansion Project - new groups ##
+			#########################################
+			
+			## Japanese (Credit: Shogunate Mod) ##
+			japanese_hairstyles_straight = {
+				index = 69
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					10 = male_hair_japanese_01
+					10 = male_hair_japanese_02
+					1 = male_hair_japanese_03
+				}
+
+				female = {
+					10 = female_hair_western_05
+					10 = female_hair_fp2_iberian_muslim_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			japanese_hairstyles_wavy = {
+				index = 70
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					10 = male_hair_japanese_01
+					10 = male_hair_japanese_02
+					1 = male_hair_japanese_03
+				}
+
+				female = {
+					10 = female_hair_western_05
+					10 = female_hair_fp2_iberian_muslim_01_common
+				}
+				boy = male
+				girl = female
+			}
+
+			japanese_hairstyles_curly = {
+				index = 71
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					2 = male_hair_mena_04 # Medium curly
+				}
+
+				female = {
+					2 = female_hair_western_05 # Behind head wavy
+					2 = female_hair_indian_03 # Let out wavy with jewelry
+				}
+				boy = male
+				girl = female
+			}
+
+			japanese_hairstyles_afro = {
+				index = 72
+				male = {
+					2 = male_hair_sub_saharan_01 # Short african
+					2 = male_hair_sub_saharan_02 # Small afro
+					2 = male_hair_sub_saharan_03 # Short dreads
+				}
+
+				female = {
+					2 = female_hair_sub_saharan_01 # Medium afro
+					2 = female_hair_sub_saharan_02 # Long Rasta braids
+					2 = female_hair_sub_saharan_03 # Short Rasta braids
+				}
+				boy = male
+				girl = female
+			}
+
+			ainu_hairstyles = {
+				index = 73
+				male = {
+					#weight = <object in gfx/portrait/accessories/>
+					10 = male_hair_northern_02
+					10 = male_hair_northern_01
+					10 = male_hair_rtt_01
+					5 = male_hair_western_08
+					5 = male_hair_western_05
+					10 = male_hair_mena_04
+				}
+
+				female = {
+					10 = female_hair_steppe_02
+					10 = female_hair_northern_03
+					10 = female_hair_rtt_01
+					10 = female_hair_western_05
+					10 = female_hair_western_03
+					10 = female_hair_western_02
+					20 = female_hair_rtt_02
+				}
+				boy = male
+				girl = female
+			}
+			
+			## Chinese (Credit: CHC) ##
+			chinese_hairstyles_straight = {
+				index = 74
+				male = {
+					1 = male_hair_chinese_01
+					1 = male_hair_indian_03
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+				boy = male
+				girl = female
+			}
+
+			chinese_hairstyles_wavy = {
+				index = 75
+				male = {
+					1 = male_hair_chinese_01
+					1 = male_hair_indian_03
+				}
+
+				female = {
+					1 = female_hair_chinese_01
+					1 = female_hair_chinese_02
+					1 = female_hair_chinese_03
+					1 = female_hair_chinese_04
+					1 = female_hair_chinese_05
+				}
+					boy = male
+					girl = female
+			}
+
+			chinese_hairstyles_curly = {
+				index = 76
+				male = {
+					1 = male_hair_mena_04 # Medium curly
+				}
+
+				female = {
+					1 = female_hair_western_05 # Behind head wavy
+					1 = female_hair_indian_03 # Let out wavy with jewelry
+				}
+				boy = male
+				girl = female
+			}
+			
+			chinese_hairstyles_afro = {
+				index = 77
+				male = {
+					1 = male_hair_sub_saharan_01 # Short african
+					1 = male_hair_sub_saharan_02 # Small afro
+					1 = male_hair_sub_saharan_03 # Short dreads
+				}
+
+				female = {
+					1 = female_hair_sub_saharan_01 # Medium afro
+					1 = female_hair_sub_saharan_02 # Long Rasta braids
+					1 = female_hair_sub_saharan_03 # Short Rasta braids
 				}
 				boy = male
 				girl = female
@@ -1199,167 +1517,28 @@ special_genes = {
 				girl = female
 			}
 
-			### JAPANESE HAIRSTYLES ###
-
-			japanese_hairstyles_straight = {
-				index = 60
+			scripted_character_hairstyles_05 = {
+				index = 45
 				male = {
-					#weight = <object in gfx/portrait/accessories/>
-					10 = male_hair_japanese_01
-					10 = male_hair_japanese_02
-					1 = male_hair_japanese_03
-				}
+					1 = m_hair_fp3_iranian_01
+					1 = m_hair_fp3_iranian_02
+					1 = m_hair_fp3_iranian_03
 
+				}
 				female = {
-					10 = female_hair_western_05
-					10 = female_hair_fp2_iberian_muslim_01_common
-				}
-				boy = male
-				girl = female
-			}
-
-			japanese_hairstyles_wavy = {
-				index = 61
-				male = {
-					#weight = <object in gfx/portrait/accessories/>
-					10 = male_hair_japanese_01
-					10 = male_hair_japanese_02
-					1 = male_hair_japanese_03
+					1 = f_hair_fp3_iranian_01
+					1 = f_hair_fp3_iranian_02
+					1 = f_hair_fp3_iranian_03
+					1 = f_hair_fp3_iranian_01_common
+					1 = f_hair_fp3_iranian_02_common
+					1 = f_hair_fp3_iranian_03_common
 				}
 
-				female = {
-					10 = female_hair_western_05
-					10 = female_hair_fp2_iberian_muslim_01_common
-				}
-				boy = male
-				girl = female
-			}
-
-			japanese_hairstyles_curly = {
-				index = 62
-				male = {
-					#weight = <object in gfx/portrait/accessories/>
-					2 = male_hair_mena_04 # Medium curly
-				}
-
-				female = {
-					2 = female_hair_western_05 # Behind head wavy
-					2 = female_hair_indian_03 # Let out wavy with jewelry
-				}
-				boy = male
-				girl = female
-			}
-
-			japanese_hairstyles_afro = {
-				index = 63
-				male = {
-					2 = male_hair_sub_saharan_01 # Short african
-					2 = male_hair_sub_saharan_02 # Small afro
-					2 = male_hair_sub_saharan_03 # Short dreads
-				}
-
-				female = {
-					2 = female_hair_sub_saharan_01 # Medium afro
-					2 = female_hair_sub_saharan_02 # Long Rasta braids
-					2 = female_hair_sub_saharan_03 # Short Rasta braids
-				}
-				boy = male
-				girl = female
-			}
-
-			ainu_hairstyles = {
-				index = 64
-				male = {
-					#weight = <object in gfx/portrait/accessories/>
-					10 = male_hair_northern_02
-					10 = male_hair_northern_01
-					10 = male_hair_rtt_01
-					5 = male_hair_western_08
-					5 = male_hair_western_05
-					10 = male_hair_mena_04
-				}
-
-				female = {
-					10 = female_hair_steppe_02
-					10 = female_hair_northern_03
-					10 = female_hair_rtt_01
-					10 = female_hair_western_05
-					10 = female_hair_western_03
-					10 = female_hair_western_02
-					20 = female_hair_rtt_02
-				}
-				boy = male
-				girl = female
-			}
-			
-			### CHINESE HAIRSTYLES (CHC) ###
-			
-			chinese_hairstyles_straight = {
-				index = 65
-				male = {
-					1 = male_hair_chinese_01
-					1 = male_hair_indian_03
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
-				}
-				boy = male
-				girl = female
-			}
-
-			chinese_hairstyles_wavy = {
-				index = 66
-				male = {
-					1 = male_hair_chinese_01
-					1 = male_hair_indian_03
-				}
-
-				female = {
-					1 = female_hair_chinese_01
-					1 = female_hair_chinese_02
-					1 = female_hair_chinese_03
-					1 = female_hair_chinese_04
-					1 = female_hair_chinese_05
-				}
-					boy = male
-					girl = female
-			}
-
-			chinese_hairstyles_curly = {
-				index = 67
-				male = {
-					1 = male_hair_mena_04 # Medium curly
-				}
-
-				female = {
-					1 = female_hair_western_05 # Behind head wavy
-					1 = female_hair_indian_03 # Let out wavy with jewelry
-				}
-				boy = male
-				girl = female
-			}
-			
-			chinese_hairstyles_afro = {
-				index = 68
-				male = {
-					1 = male_hair_sub_saharan_01 # Short african
-					1 = male_hair_sub_saharan_02 # Small afro
-					1 = male_hair_sub_saharan_03 # Short dreads
-				}
-
-				female = {
-					1 = female_hair_sub_saharan_01 # Medium afro
-					1 = female_hair_sub_saharan_02 # Long Rasta braids
-					1 = female_hair_sub_saharan_03 # Short Rasta braids
-				}
 				boy = male
 				girl = female
 			}
 		}
+
 	}
+
 }

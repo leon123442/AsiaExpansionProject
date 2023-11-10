@@ -1,0 +1,457 @@
+﻿bm_867_asia = {
+	start_date = 867.1.1
+	is_playable = yes
+	recommended = yes
+	test_default = yes
+	group = bm_group_867
+	
+	weight = {
+		value = 200
+	}
+	
+	# Emperor Yizong of Tang, ID: 5100001
+	character = {
+		name = "bookmark_far_east_tang"
+		history_id = 5100001
+		dynasty = 80000001
+		dynasty_splendor_level = 5
+		type = male
+		birth = 833.12.28
+		title = e_tang
+		government = feudal_government
+		culture = han
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 550 550 }
+		
+		animation = happiness
+		
+		# Kan, son and Prince of Ying, xian_prince
+		character = {
+			name = "bookmark_far_east_tang_alt_kan"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = xian_prince
+			dynasty = 80000001
+			type = male
+			birth = 860.1.1
+			culture = han
+			religion = shangqing
+		}
+		
+		# Yan, son and future Emperor Xizong, xizong_prince
+		character = {
+			name = "bookmark_far_east_tang_alt_yan"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = xizong_prince
+			dynasty = 80000001
+			type = male
+			birth = 862.6.8
+			culture = han
+			religion = shangqing
+		}
+	}
+	
+	# Fujiwara no Yoshifusa, Regent of Japan, ID: 1600001
+	character = {
+		name = "bookmark_far_east_japan"
+		history_id = 1600001
+		dynasty = 40000001
+		dynasty_splendor_level = 3
+		type = male
+		birth = 804.1.1
+		title = k_nippon
+		government = feudal_government
+		culture = yamato
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 1150 650 }
+		
+		animation = personality_rational
+		
+		# (Seiwa, Emperor of Japan, 1600004) <- not dynastic
+		character = {
+			name = "bookmark_far_east_japan_alt_seiwa"
+			relation = "BOOKMARK_RELATION_GRANDSON"
+			history_id = 1600004
+			dynasty = 40000101
+			type = male
+			birth = 850.5.12
+			title = d_yamato_imperial
+			government = theocracy_government
+			culture = yamato
+			religion = shinto
+			
+			animation = idle
+		}
+		
+		# Mototsune, adopted son and future regent of Japan, 1600001
+		character = {
+			name = "bookmark_far_east_japan_alt_mototsune"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = 1600001
+			dynasty = 40000001
+			type = male
+			birth = 836.1.1
+			title = c_iyo
+			government = feudal_government
+			culture = yamato
+			religion = shinto
+			
+			animation = personality_honorable
+		}
+	}
+	
+	# Gyeongmun, King of Silla, ID: 110000001
+	character = {
+		name = "bookmark_far_east_silla"
+		history_id = 110000001
+		dynasty = 60000001
+		dynasty_splendor_level = 6
+		type = male
+		birth = 843.1.1
+		title = k_silla
+		government = feudal_government
+		culture = saro
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 850 500 }
+		
+		animation = map_worry
+		
+		# Prince Jeong, son and future King of Silla, kim_heongang
+		character = {
+			name = "bookmark_far_east_silla_alt_heongang"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = kim_heongang
+			dynasty = 60000001
+			type = male
+			birth = 861.1.1
+			culture = saro
+			religion = mahayana
+			
+			animation = idle
+		}
+		
+		# Gung ye, brother-in-law and future King of Taebong, 1100000100
+		character = {
+			name = "bookmark_far_east_silla_alt_gungye"
+			history_id = 1100000100
+			dynasty = 60000001
+			type = male
+			birth = 857.1.1
+			culture = saro
+			religion = mahayana
+			
+			animation = personality_callous
+		}
+	}
+	
+	# King Geonhwang of Balhae, ID: 120000001
+	character = {
+		name = "bookmark_far_east_balhae"
+		history_id = 120000001
+		dynasty = 61000001
+		dynasty_splendor_level = 4
+		type = male
+		birth = 810.1.1
+		title = k_balhae
+		government = feudal_government
+		culture = balhae
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1050 150 }
+		
+		animation = personality_greedy
+		
+		# Prince Hyeonseok, grandson and future king of Balhae, dae_hyeonseok
+		character = {
+			name = "bookmark_far_east_balhae_alt_hyeonseok"
+			relation = "BOOKMARK_RELATION_GRANDSON"
+			history_id = dae_hyeonseok
+			dynasty = 61000001
+			type = male
+			birth = 851.1.1
+			culture = balhae
+			religion = shaman
+			
+			animation = idle
+		}
+	}
+	
+	# Chieftan Yelü Saladi, ID: 4550010
+	character = {
+		name = "bookmark_far_east_diela"
+		history_id = 4550010
+		dynasty = 1045082
+		dynasty_splendor_level = 1
+		type = male
+		birth = 848.1.1
+		title = d_diela_tribe
+		government = tribal_government
+		culture = khitan
+		religion = zenzong
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 700 240 }
+		
+		animation = personality_content
+		
+		# Yelü Abaoji, son and future founder of the Liao Dynasty, 194325
+		character = {
+			name = "bookmark_far_east_diela_alt_abaoji"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = 194325
+			dynasty = 1045082
+			type = male
+			birth = 867.1.1 # wasn't actually born until 872, but we need him to be his father's eldest son and heir in 867
+			culture = khitan
+			religion = zenzong
+			
+			animation = idle
+		}
+	}
+	
+	# Emperor Shilong Lung of Nanzhao, ID: 421011
+	character = {
+		name = "bookmark_far_east_nanzhao"
+		history_id = 421011
+		dynasty = 4210000
+		dynasty_splendor_level = 3
+		type = male
+		birth = 844.1.1
+		title = k_nanzhong
+		government = tribal_government
+		culture = wuman
+		religion = ari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 360 800 }
+		
+		animation = rage
+	}
+	
+	# King Huaishen of Guiyi, ID: 244004
+	character = {
+		name = "bookmark_far_east_guiyi"
+		history_id = 244004
+		dynasty = 1055006
+		dynasty_splendor_level = 1
+		type = male
+		birth = 820.1.1
+		title = k_guiyi
+		government = feudal_government
+		culture = hexi
+		religion = zhengyi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 300 260 }
+		
+		animation = personality_cynical
+	}
+}
+
+bm_1066_asia = {
+	start_date = 1066.9.15
+	is_playable = yes
+	recommended = yes
+	group = bm_group_1066
+	
+	weight = {
+		value = 180
+	}
+	
+	# Emperor Yingzong of Song, ID: yingzong_huangdi
+	character = {
+		name = "bookmark_two_sons_song"
+		history_id = yingzong_huangdi
+		dynasty = 80000030
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1032.2.16
+		title = e_song
+		government = feudal_government
+		culture = han
+		religion = lixue
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 700 550 }
+		
+		animation = personality_cynical
+		
+		# Prince Zhongzhen, future Emperor of China, shenzong_huangdi
+		character = {
+			name = "bookmark_two_sons_song_alt_shenzong"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = shenzong_huangdi
+			dynasty = 80000030
+			type = male
+			birth = 1048.5.25
+			culture = han
+			religion = lixue
+			
+			animation = idle
+		}
+	}
+	
+	# Fujiwara no Yorimichi, Regent of Japan, ID: fujiwara_yorimichi
+	character = {
+		name = "bookmark_two_sons_japan"
+		history_id = fujiwara_yorimichi
+		dynasty = 40000001
+		dynasty_splendor_level = 5
+		type = male
+		birth = 992.1.1
+		title = k_nippon
+		government = feudal_government
+		culture = yamato
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 1150 650 }
+		
+		animation = personality_greedy
+		
+		# (Go-Reizei, Emperor of Japan, ID: goreizei_tenno) <- not dynastic
+		character = {
+			name = "bookmark_two_sons_japan_alt_goreizei"
+			history_id = goreizei_tenno
+			dynasty = 40000101
+			type = male
+			birth = 1025.8.28
+			title = d_yamato_imperial
+			government = theocracy_government
+			culture = yamato
+			religion = shinto
+			
+			animation = idle
+		}
+		
+		# (Yoshiie, Chinjufu Shōgun, ID: kawachiminamoto_yoshiie) <- not dynastic
+		character = {
+			name = "bookmark_two_sons_japan_alt_yoshiie"
+			history_id = kawachiminamoto_yoshiie
+			dynasty_house = house_kawachigenji
+			type = male
+			birth = 1039.1.1
+			title = k_ou
+			government = feudal_government
+			culture = yamato
+			religion = shinto
+			
+			animation = personality_bold
+		}
+	}
+	
+	# King Munjong of Goryeo, ID: wang_munjong
+	character = {
+		name = "bookmark_two_sons_goryeo"
+		history_id = wang_munjong
+		dynasty = 60000006
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1019.12.29
+		title = k_goryeo
+		government = feudal_government
+		culture = goryeon
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1000 300 }
+		
+		animation = personality_zealous
+		
+		# Prince Hyu, future King of Goryeo, wang_sunjong
+		character = {
+			name = "bookmark_two_sons_goryeo_alt_sunjong"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = wang_sunjong
+			dynasty = 60000006
+			type = male
+			birth = 1047.12.28
+			culture = goryeon
+			religion = mahayana
+			
+			animation = map_worry
+		}
+		
+		# Prince Jeung, future King of Goryeo, wang_seonjong
+		character = {
+			name = "bookmark_two_sons_goryeo_alt_seonjong"
+			relation = "BOOKMARK_RELATION_SON"
+			history_id = wang_seonjong
+			dynasty = 60000006
+			type = male
+			birth = 1049.10.9
+			culture = goryeon
+			religion = mahayana
+			
+			animation = personality_honorable
+		}
+	}
+	
+	# Emperor Daozong of Liao, ID: 194333
+	character = {
+		name = "bookmark_two_sons_grand_liao"
+		history_id = 194333
+		dynasty = 1045082
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1032.9.14
+		title = e_grand_liao
+		government = tribal_government
+		culture = khitan
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		position = { 600 250 }
+		
+		animation = map_dismissal
+	}
+	
+	# King Liangzuo of Xi Xia, ID: 206651
+	character = {
+		name = "bookmark_two_sons_xia"
+		history_id = 206651
+		dynasty = 1029302
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1044.3.5
+		title = k_xia
+		government = feudal_government
+		culture = tangut
+		religion = zhengyi
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 325 475 }
+		
+		animation = personality_bold
+	}
+	
+	# King Silian of Dali, ID: 421111
+	character = {
+		name = "bookmark_two_sons_dali"
+		history_id = 421111
+		dynasty = 4210005
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1024.1.1
+		title = k_dali
+		government = feudal_government
+		culture = bai
+		religion = ari
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		position = { 350 800 }
+		
+		animation = map_worry
+	}
+	
+	# King Nhat Ton of Dai Viet, ID: ly_thanhtong
+	character = {
+		name = "bookmark_two_sons_dai_viet"
+		history_id = ly_thanhtong
+		dynasty = 50000010
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1023.3.30
+		title = k_dai_viet
+		government = feudal_government
+		culture = kinh
+		religion = mahayana
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 675 840 }
+		
+		animation = personality_honorable
+	}
+}

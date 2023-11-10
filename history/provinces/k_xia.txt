@@ -196,11 +196,6 @@
 	religion = tengri_pagan
 	
 	holding = castle_holding
-	
-	# History
-	700.1.1 = {
-		culture = turkish #Salar
-	}
 }
 9420 = {	# Yadzi (Xunhu)
 	holding = church_holding

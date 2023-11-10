@@ -66,6 +66,16 @@ object={
 	count=0
 }
 object={
+	name="special_borobodur_temple"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_borobudur_temple_mesh"
+	count=1
+	transform="7858.256836 0.000000 241.491943 0.000000 -0.267633 0.000000 0.963521 0.438386 0.438386 0.438386
+"}
+object={
 	name="special_brihadeeswarar_temple"
 	clamp_to_water_level=no
 	render_under_water=yes
@@ -157,6 +167,16 @@ object={
 	count=0
 }
 object={
+	name="special_prambanan_temple"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_prambanan_temple_mesh"
+	count=1
+	transform="7854.619629 0.000000 231.087448 0.000000 0.117343 0.000000 0.993091 0.440376 0.440376 0.440376
+"}
+object={
 	name="special_pyramids_giza"
 	clamp_to_water_level=no
 	render_under_water=yes
@@ -183,3 +203,13 @@ object={
 	pdxmesh="building_special_tower_of_london_mesh"
 	count=0
 }
+object={
+	name="wall_of_gurgan"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_great_wall_of_gorgan_01_a_mesh"
+	count=1
+	transform="4613.151855 0.000000 2933.990479 0.000000 -0.077906 0.000000 0.464339 0.663744 0.663744 0.663744
+"}

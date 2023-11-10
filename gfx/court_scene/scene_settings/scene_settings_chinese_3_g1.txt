@@ -309,6 +309,7 @@ lights={ {
 		light={
 			outer_cone_angle=1.000000
 			inner_cone_angle=0.000000
+			affected_by_shadow=no
 			cubemap_shadow=yes
 			radius=30.000000
 			intensity=1250.000000
@@ -416,15 +417,15 @@ characters={ {
 		roles={ ruler }
 	}
  {
-		position={ 145.000000 90.000000 710.000000 }
+		position={ -157.400009 90.000000 710.000000 }
 		direction=0.000008
 		locator="character_spouse_standing"
 		description="Spouse"
 		roles={ spouse }
 	}
  {
-		position={ -160.000000 90.000000 700.000000 }
-		direction=-53.000000
+		position={ 166.600006 90.000000 700.000000 }
+		direction=63.000000
 		locator="character_optional_adviser_heir"
 		description="Adviser"
 		roles={ adviser }
@@ -921,109 +922,11 @@ assets={ {
 		asset="court_chinese_pillar_entity"
 	}
  {
-		position={ 745.000000 90.000000 975.000000 }
-		direction=45.000000
-		scale=1.050000
-		description="Pillar - Right - 2"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ 745.000000 90.000000 600.000000 }
-		direction=45.000000
-		scale=1.050000
-		description="Pillar - Right - 3"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ 745.000000 90.000000 225.000000 }
-		direction=45.000000
-		scale=1.050000
-		description="Pillar - Right - 4"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ 745.000000 90.000000 -150.000000 }
-		direction=45.000000
-		scale=1.050000
-		description="Pillar - Right - 5"
-		asset="court_chinese_pillar_entity"
-	}
- {
 		position={ -1230.000000 90.000000 875.000000 }
 		direction=-45.000000
 		scale=1.050000
 		description="Pillar - Left - 1"
 		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ -1230.000000 90.000000 500.000000 }
-		direction=-45.000000
-		scale=1.050000
-		description="Pillar - Left - 2"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ -1230.000000 90.000000 125.000000 }
-		direction=-45.000000
-		scale=1.050000
-		description="Pillar - Left - 3"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ -1230.000000 90.000000 -250.000000 }
-		direction=-45.000000
-		scale=1.050000
-		description="Pillar - Left - 4"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ -1230.000000 90.000000 -625.000000 }
-		direction=-45.000000
-		scale=1.050000
-		description="Pillar - Left - 5"
-		asset="court_chinese_pillar_entity"
-	}
- {
-		position={ 314.000000 175.000000 104.000000 }
-		direction=90.000000
-		scale=1.500000
-		description="Lamp - Right - Front"
-		asset="ep1_western_oil_lamp_01_a_entity"
-	}
- {
-		position={ -320.000000 175.000000 104.000031 }
-		direction=-90.000000
-		scale=1.500000
-		description="Lamp - Left - Front"
-		asset="ep1_western_oil_lamp_01_a_entity"
-	}
- {
-		position={ 314.000000 175.000000 -269.000000 }
-		direction=90.000000
-		scale=1.500000
-		description="Lamp - Right - Mid"
-		asset="ep1_western_oil_lamp_01_a_entity"
-	}
- {
-		position={ -320.000000 175.000000 -269.000000 }
-		direction=-90.000000
-		scale=1.500000
-		description="Lamp - Left - Mid"
-		asset="ep1_western_oil_lamp_01_a_entity"
-	}
- {
-		position={ 314.000000 175.000000 -642.000000 }
-		direction=90.000000
-		scale=1.500000
-		description="Lamp - Right - Far"
-		asset="ep1_western_oil_lamp_01_a_entity"
-	}
- {
-		position={ -320.000000 175.000000 -642.000000 }
-		direction=-90.000000
-		scale=1.500000
-		description="Lamp - Left - Far"
-		asset="ep1_western_oil_lamp_01_a_entity"
 	}
  {
 		position={ 314.000000 175.000000 477.000000 }
