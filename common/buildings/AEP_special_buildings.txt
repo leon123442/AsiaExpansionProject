@@ -4,80 +4,29 @@
 # The Great Wall of China - 万里长城
 ##########
 
-great_wall_of_china_01 = { # Damaged
+AEP_great_wall_of_china = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_great_wall.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	
-	cost_gold = 3000
-	
-	county_modifier = {
-		hostile_raid_time = 0.5
-	}
-	
-	province_modifier = {
-		defender_holding_advantage = 5
-		stationed_maa_toughness_mult = 0.05
-		fort_level = 1
-		travel_danger = -5
-	}
-	
-	next_building = great_wall_of_china_02
-	
-	ai_value = {
-		base = 100
-		modifier = { # Fill all building slots before going for special buildings
-			factor = 0
-			free_building_slots > 0
-		}
-	}
-	
-	type = special
-}
-
-great_wall_of_china_02 = { # Restored
-	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_great_wall.dds"
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
 	
 	can_construct = {
 		scope:holder.culture = {
-			has_innovation = innovation_centralization_of_authority
+			has_innovation = innovation_hoardings 
 		}
 	}
 	
 	cost_gold = 1000
-
-	character_modifier = {
-		monthly_prestige = 0.02
-	}
 	
-	duchy_capital_county_modifier = {
-		hostile_raid_time = 1
-	}
-	
-	county_modifier = {
-		levy_size = 0.1
-	}
-
 	province_modifier = {
-		defender_holding_advantage = 15
-		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
-		fort_level = good_building_fort_level_tier_1
-		garrison_size = 1
-		travel_danger = -10
+		defender_holding_advantage = 5
+		stationed_maa_toughness_mult = 0.05
+		hostile_raid_time = 0.20
+		build_gold_cost = -0.1
 	}
 	
 	ai_value = {
-		base = 5
+		base = 100
+		culture_likely_to_fortify_modifier = yes
 		modifier = { # Fill all building slots before going for special buildings
 			factor = 0
 			free_building_slots > 0
@@ -85,13 +34,15 @@ great_wall_of_china_02 = { # Restored
 	}
 	
 	type = special
+
+	flag = travel_point_of_interest_martial # wall
 }
 
 ##########
 # Giant Wild Goose Pagoda - 大雁塔
 ##########
 
-giant_wild_goose_pagoda_01 = {
+AEP_giant_wild_goose_pagoda = {
 
 	construction_time = very_slow_construction_time
 
@@ -135,7 +86,7 @@ giant_wild_goose_pagoda_01 = {
 # Longmen Grottoes - 龙门石窟
 ##########
 
-longmen_grottoes_01 = {
+AEP_longmen_grottoes_01 = {
 
 	construction_time = very_slow_construction_time
 
@@ -164,7 +115,7 @@ longmen_grottoes_01 = {
 		monthly_income = 1
 	}
 
-	next_building = longmen_grottoes_02
+	next_building = AEP_longmen_grottoes_02
 	
 	ai_value = {
 		base = 100
@@ -176,9 +127,11 @@ longmen_grottoes_01 = {
 	
 	type = special
 }
-longmen_grottoes_02 = {
+AEP_longmen_grottoes_02 = {
 
 	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_longmen_grottoes.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -203,7 +156,7 @@ longmen_grottoes_02 = {
 		monthly_income = 2
 	}
 
-	next_building = longmen_grottoes_03
+	next_building = AEP_longmen_grottoes_03
 	
 	ai_value = {
 		base = 100
@@ -215,9 +168,11 @@ longmen_grottoes_02 = {
 	
 	type = special
 }
-longmen_grottoes_03 = {
+AEP_longmen_grottoes_03 = {
 
 	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_longmen_grottoes.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -243,7 +198,7 @@ longmen_grottoes_03 = {
 		monthly_income = 3
 	}
 
-	next_building = longmen_grottoes_04
+	next_building = AEP_longmen_grottoes_04
 	
 	ai_value = {
 		base = 100
@@ -256,9 +211,11 @@ longmen_grottoes_03 = {
 	type = special
 }
 
-longmen_grottoes_04 = {
+AEP_longmen_grottoes_04 = {
 
 	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_longmen_grottoes.dds"
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -301,7 +258,7 @@ longmen_grottoes_04 = {
 # Kyōto Imperial Palace - 京都御所
 ##########
 
-imperial_palace_kyoto_01 = {
+AEP_imperial_palace_kyoto = {
 	construction_time = very_slow_construction_time
 
 	type_icon = "icon_structure_imperial_palace_kyoto.dds"
@@ -340,6 +297,275 @@ imperial_palace_kyoto_01 = {
 			factor = 0
 			free_building_slots > 0
 		}
+	}
+	
+	type = special
+}
+
+##########
+#Tongguan - 潼关
+##########
+
+AEP_tongguan = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_tongguan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+			has_innovation = innovation_barracks
+		}
+	}
+	
+	cost_gold = 1000
+	cost_prestige = 1000
+	
+	max_garrison = 500
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	province_modifier = { 
+		defender_holding_advantage = 6
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_toughness_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		travel_danger = -15
+	}
+	county_modifier = { 
+		tax_mult = 0.03
+		development_growth = 0.03
+		monthly_county_control_change_add = 0.05
+		hostile_raid_time = 1
+	}
+	ai_value = {
+		base = 150
+	}
+	
+	type = special
+}
+
+##########
+#Yumenguan - 玉门关
+##########
+
+AEP_yumenguan = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_yumenguan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+			has_innovation = innovation_barracks
+		}
+	}
+	
+	cost_gold = 1000
+	cost_prestige = 1000
+	
+	max_garrison = 500
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	province_modifier = { 
+		defender_holding_advantage = 6
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_toughness_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		travel_danger = -15
+	}
+	county_modifier = { 
+		tax_mult = 0.03
+		development_growth = 0.03
+		monthly_county_control_change_add = 0.05
+		hostile_raid_time = 1
+	}
+	ai_value = {
+		base = 150
+	}
+	
+	type = special
+}
+
+##########
+#Mogao Caves - 莫高窟
+##########
+
+AEP_mogao_caves = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_mogao_caves.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+			}
+		}
+	}
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 2
+		monthly_dynasty_prestige_mult = 0.1
+		learning_per_piety_level = 2
+		religious_vassal_opinion = 10
+	}
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.2
+	}
+
+	province_modifier = {
+		monthly_income = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+}
+
+##########
+#Yueyang Tower - 岳陽樓
+##########
+
+AEP_yueyang_tower = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_great_pavilions.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		learning = 1
+	}
+	
+	county_modifier = {
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Pavilion of Prince Teng - 滕王閣
+##########
+
+AEP_prince_teng_pavilion = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_great_pavilions.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		stewardship = 1
+	}
+	
+	county_modifier = {
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Yellow Crane Tower - 黃鶴樓
+##########
+
+AEP_yellow_crane_tower = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_great_pavilions.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		martial = 1
+	}
+	
+	county_modifier = {
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#West Lake - 西湖
+##########
+
+AEP_xi_lake = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_xi_lake.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.02
+		stress_loss_mult = 0.1
+		stress_gain_mult = -0.05
+
+	}
+	
+	ai_value = {
+		base = 100
 	}
 	
 	type = special

@@ -8,8 +8,10 @@
  holy_site_quanzhou_effect_name:0 "[holy_site|E]의 효과 #weak $holy_site_quanzhou_name$#!"
  holy_site_taizhou_name:0 "천태산"
  holy_site_taizhou_effect_name:0 "[holy_site|E]의 효과 #weak $holy_site_taizhou_name$#!"
- holy_site_shazhou_name:0 "돈황"
- holy_site_shazhou_effect_name:0 "[holy_site|E]의 효과 #weak $holy_site_shazhou_name$#!"
+ holy_site_shazhou_name:0 "막고굴"
+ holy_site_shazhou_effect_name:0 "[holy_site|E]의 효과 #weak ($holy_site_shazhou_name$)#!"
+ holy_site_kara_khoja_name:0 "카라호자"
+ holy_site_kara_khoja_effect_name:0 "[holy_siteE]의 효과 #weak ($holy_site_kara_khoja_name$)#!"
 
  # Holy Sites: Taoism
  holy_site_changan_name:0 "종남산"

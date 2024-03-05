@@ -8,8 +8,10 @@
  holy_site_quanzhou_effect_name:0 "From [holy_site|E]#weak ($holy_site_quanzhou_name$)#!"
  holy_site_taizhou_name:0 "Tiantai Mountain"
  holy_site_taizhou_effect_name:0 "From [holy_site|E]#weak ($holy_site_taizhou_name$)#!"
- holy_site_shazhou_name:0 "Dunhuang"
+ holy_site_shazhou_name:0 "Mogao Caves"
  holy_site_shazhou_effect_name:0 "From [holy_site|E]#weak ($holy_site_shazhou_name$)#!"
+ holy_site_kara_khoja_name:0 "Kara Khoja"
+ holy_site_kara_khoja_effect_name:0 "From [holy_site|E]#weak ($holy_site_kara_khoja_name$)#!"
 
  # Holy Sites: Taoism
  holy_site_changan_name:0 "Zhongnan Mountain"

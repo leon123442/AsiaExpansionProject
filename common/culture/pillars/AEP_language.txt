@@ -1191,6 +1191,40 @@ language_sunda = {
 
 	color = { 235 164 52 }
 }
+language_madura = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_madura
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_madura }
+			multiply = 10
+		}
+	}
+
+	color = { 143 120 76 }
+}
+language_bali_sasak_sumbawa = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bali_sasak_sumbawa
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bali_sasak_sumbawa }
+			multiply = 10
+		}
+	}
+
+	color = { 147 145 32 }
+}
 ## Dayak ##
 language_kayan = {
 	type = language
@@ -1586,6 +1620,23 @@ language_sumba_flores = {
 	}
 
 	color = { 57 288 33 }
+}
+language_bima = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bima
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bima }
+			multiply = 10
+		}
+	}
+
+	color = { 45 238 10 }
 }
 language_minahasa = {
 	type = language

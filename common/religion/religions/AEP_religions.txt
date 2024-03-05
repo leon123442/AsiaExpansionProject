@@ -31,6 +31,9 @@
 	
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation # Due to Buddhist influence
 	
 	traits = {
 		virtues = {
@@ -109,7 +112,7 @@
 		FateGodName = shinto_fate_god_alternate
 		FateGodNamePossessive = shinto_fate_god_alternate_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -158,7 +161,7 @@
 		DevilName = shinto_devil_name
 		DevilNamePossessive = shinto_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerHis = CHARACTER_HERSHIS_ITS
 		DevilHerselfHimself = CHARACTER_HERHIM_IT
 		EvilGodNames = {
 			shinto_devil_name
@@ -207,6 +210,7 @@
 		DeathDeityNamePossessive = shinto_death_god_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = shinto_witch_god_name
 		WitchGodNamePossessive = shinto_witch_god_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
@@ -306,7 +310,7 @@
 				FateGodName = utaki_fate_god_name
 				FateGodNamePossessive = utaki_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 		
 				#KnowledgeGod
@@ -353,7 +357,7 @@
 				DevilName = utaki_devil_name
 				DevilNamePossessive = utaki_devil_name_possessive
 				DevilSheHe = CHARACTER_SHEHE_IT
-				DevilHerHis = CHARACTER_HERHIS_ITS
+				DevilHerHis = CHARACTER_HERSHIS_ITS
 				DevilHerselfHimself = utaki_devil_herselfhimself
 				EvilGodNames = { utaki_devil_name utaki_evil_god_decay }
 				HouseOfWorship = utaki_house_of_worship
@@ -400,10 +404,11 @@
 				DeathDeityNamePossessive = utaki_death_deity_name_possessive
 				DeathDeitySheHe = utaki_devil_shehe
 				DeathDeityHerHis = utaki_death_deity_herhis
+				DeathDeityHerHim = utaki_death_deity_herhis
 				WitchGodName = witchgodname_utaki_the_shadow
 				WitchGodNamePossessive = witchgodname_utaki_the_shadow
 				WitchGodSheHe = CHARACTER_SHEHE_IT
-				WitchGodHerHis = CHARACTER_HERHIS_ITS
+				WitchGodHerHis = CHARACTER_HERSHIS_ITS
 				WitchGodHerHim = CHARACTER_HERHIM_IT
 				WitchGodMistressMaster = witch_spirit
 				WitchGodMotherFather = witch_source
@@ -448,6 +453,9 @@ koreanic_religion = {
 	
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation # Due to Buddhist influence
 	
 	traits = {
 		virtues = {
@@ -628,6 +636,7 @@ koreanic_religion = {
 		DeathDeityNamePossessive = musok_death_god_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = musok_witchgodname #바리데기
 		WitchGodNamePossessive = musok_witchgodname
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -781,6 +790,9 @@ eastern_siberian_religion = {
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { brave just honest }
 		sins = { craven arbitrary deceitful }
@@ -847,7 +859,7 @@ eastern_siberian_religion = {
 		FateGodName = paganism_fate_god_name
 		FateGodNamePossessive = paganism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -894,7 +906,7 @@ eastern_siberian_religion = {
 		DevilName = paganism_devil_name
 		DevilNamePossessive = paganism_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerHis = CHARACTER_HERSHIS_ITS
 		DevilHerselfHimself = paganism_devil_herselfhimself
 		EvilGodNames = { paganism_devil_name paganism_evil_god_decay }
 		HouseOfWorship = paganism_house_of_worship
@@ -941,10 +953,11 @@ eastern_siberian_religion = {
 		DeathDeityNamePossessive = paganism_death_deity_name_possessive
 		DeathDeitySheHe = paganism_devil_shehe
 		DeathDeityHerHis = paganism_death_deity_herhis
+		DeathDeityHerHim = paganism_death_deity_herhis
 		WitchGodName = witchgodname_paganism_the_shadow
 		WitchGodNamePossessive = witchgodname_paganism_the_shadow
 		WitchGodSheHe = CHARACTER_SHEHE_IT
-		WitchGodHerHis = CHARACTER_HERHIS_ITS
+		WitchGodHerHis = CHARACTER_HERSHIS_ITS
 		WitchGodHerHim = CHARACTER_HERHIM_IT
 		WitchGodMistressMaster = witch_spirit
  		WitchGodMotherFather = witch_source
@@ -958,14 +971,14 @@ eastern_siberian_religion = {
 			color = { 0.55 0.81 1.0 }
 			icon = pagan_magyar
 			reformed_icon = shamanism_reformed
+
+			doctrine = unreformed_faith_doctrine
 			
-           	holy_site = sanggiyan_alin			
+			holy_site = sanggiyan_alin			
             holy_site = urd
 			holy_site = nem
 			holy_site = uroghu
 			holy_site = kar_put
-
-			doctrine = unreformed_faith_doctrine
 
 			#Tenets
 			doctrine = tenet_sanctity_of_nature

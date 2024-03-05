@@ -38,6 +38,9 @@
 	
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
 	
 	traits = {
 		virtues = { temperate content honest patient }
@@ -98,7 +101,7 @@
 		FateGodName = kuy_animism_fate_god_name
 		FateGodNamePossessive = kuy_animism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -204,6 +207,7 @@
 		DeathDeityNamePossessive = kuy_animism_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = kuy_animism_evil_god_dul
 		WitchGodNamePossessive = kuy_animism_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -277,6 +281,9 @@ wa_religion = { # Folk religions of Wa peoples
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { temperate content honest patient }
 		sins = { lustful lazy deceitful }
@@ -336,7 +343,7 @@ wa_religion = { # Folk religions of Wa peoples
 		FateGodName = wa_animism_fate_god_name
 		FateGodNamePossessive = wa_animism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -442,6 +449,7 @@ wa_religion = { # Folk religions of Wa peoples
 		DeathDeityNamePossessive = wa_animism_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = wa_animism_evil_god_dul
 		WitchGodNamePossessive = wa_animism_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -538,6 +546,9 @@ burmic_religion = { # Folk religions of Burmese peoples
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { brave compassionate content diligent mystic_1 }
 		sins = { gluttonous cynical craven }
@@ -597,7 +608,7 @@ burmic_religion = { # Folk religions of Burmese peoples
 		FateGodName = burmic_fate_god_name
 		FateGodNamePossessive = burmic_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -701,6 +712,7 @@ burmic_religion = { # Folk religions of Burmese peoples
 		DeathDeityNamePossessive = burmic_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = burmic_evil_god_dul
 		WitchGodNamePossessive = burmic_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -776,6 +788,9 @@ tai_religion = { # Folk religions of Tai peoples
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { temperate content honest patient }
 		sins = { lustful lazy wrathful deceitful }
@@ -835,7 +850,7 @@ tai_religion = { # Folk religions of Tai peoples
 		FateGodName = ban_phi_fate_god_name
 		FateGodNamePossessive = ban_phi_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -891,7 +906,7 @@ tai_religion = { # Folk religions of Tai peoples
 		DevilName = ban_phi_devil_name
 		DevilNamePossessive = ban_phi_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerHis = CHARACTER_HERSHIS_ITS
 		DevilHerselfHimself = ban_phi_devil_herselfhimself
 		EvilGodNames = {
 			ban_phi_devil_name
@@ -942,6 +957,7 @@ tai_religion = { # Folk religions of Tai peoples
 		DeathDeityNamePossessive = ban_phi_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = witchgodname_ban_phi_khunsai
 		WitchGodNamePossessive = witchgodname_ban_phi_khunsai_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -1018,6 +1034,9 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { temperate content honest patient }
 		sins = { lazy wrathful deceitful }
@@ -1077,7 +1096,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 		FateGodName = austronesian_fate_god_name
 		FateGodNamePossessive = austronesian_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -1183,6 +1202,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 		DeathDeityNamePossessive = austronesian_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = austronesian_evil_god_dul
 		WitchGodNamePossessive = austronesian_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -1252,7 +1272,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = anito_fate_god_name
 				FateGodNamePossessive = anito_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -1358,6 +1378,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = anito_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = anito_evil_god_dul
 				WitchGodNamePossessive = anito_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -1445,7 +1466,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = tulumanon_fate_god_name
 				FateGodNamePossessive = tulumanon_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -1551,6 +1572,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = tulumanon_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = tulumanon_evil_god_dul
 				WitchGodNamePossessive = tulumanon_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -1638,7 +1660,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = papaiagan_fate_god_name
 				FateGodNamePossessive = papaiagan_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -1744,6 +1766,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = papaiagan_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = papaiagan_evil_god_dul
 				WitchGodNamePossessive = papaiagan_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -1831,7 +1854,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = malyari_fate_god_name
 				FateGodNamePossessive = malyari_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -1937,6 +1960,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = malyari_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = malyari_evil_god_dul
 				WitchGodNamePossessive = malyari_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -2024,7 +2048,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = dayaw_fate_god_name
 				FateGodNamePossessive = dayaw_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -2130,6 +2154,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = dayaw_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = dayaw_evil_god_dul
 				WitchGodNamePossessive = dayaw_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -2218,7 +2243,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = kadai_fate_god_name
 				FateGodNamePossessive = kadai_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -2324,6 +2349,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = kadai_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = kadai_evil_god_dul
 				WitchGodNamePossessive = kadai_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -2411,7 +2437,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = kabunian_fate_god_name
 				FateGodNamePossessive = kabunian_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -2517,6 +2543,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = kabunian_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = kabunian_evil_god_dul
 				WitchGodNamePossessive = kabunian_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -2604,7 +2631,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = kaharingan_fate_god_name
 				FateGodNamePossessive = kaharingan_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -2710,6 +2737,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = kaharingan_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = kaharingan_evil_god_dul
 				WitchGodNamePossessive = kaharingan_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -2819,7 +2847,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = tolotang_fate_god_name
 				FateGodNamePossessive = tolotang_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -2925,6 +2953,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = tolotang_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = tolotang_evil_god_dul
 				WitchGodNamePossessive = tolotang_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -3035,7 +3064,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = makassaric_fate_god_name
 				FateGodNamePossessive = makassaric_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -3141,6 +3170,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = makassaric_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = makassaric_evil_god_dul
 				WitchGodNamePossessive = makassaric_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -3251,7 +3281,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = alukta_fate_god_name
 				FateGodNamePossessive = alukta_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -3357,6 +3387,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = alukta_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = alukta_evil_god_dul
 				WitchGodNamePossessive = alukta_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -3467,7 +3498,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = malesung_fate_god_name
 				FateGodNamePossessive = malesung_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -3573,6 +3604,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = malesung_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = malesung_evil_god_dul
 				WitchGodNamePossessive = malesung_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -3682,7 +3714,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = nunusaku_fate_god_name
 				FateGodNamePossessive = nunusaku_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -3788,6 +3820,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = nunusaku_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = nunusaku_evil_god_dul
 				WitchGodNamePossessive = nunusaku_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -3894,7 +3927,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = marapu_fate_god_name
 				FateGodNamePossessive = marapu_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -4000,6 +4033,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = marapu_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = marapu_evil_god_dul
 				WitchGodNamePossessive = marapu_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -4107,7 +4141,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = penunggu_fate_god_name
 				FateGodNamePossessive = penunggu_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -4213,6 +4247,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = penunggu_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = penunggu_evil_god_dul
 				WitchGodNamePossessive = penunggu_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -4319,7 +4354,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = celebic_fate_god_name
 				FateGodNamePossessive = celebic_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -4425,6 +4460,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = celebic_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = celebic_evil_god_dul
 				WitchGodNamePossessive = celebic_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -4534,7 +4570,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = umboh_fate_god_name
 				FateGodNamePossessive = umboh_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -4640,6 +4676,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = umboh_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = umboh_evil_god_dul
 				WitchGodNamePossessive = umboh_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -4728,7 +4765,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = batak_fate_god_name
 				FateGodNamePossessive = batak_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -4834,6 +4871,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = batak_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = batak_evil_god_dul
 				WitchGodNamePossessive = batak_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -4918,7 +4956,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = malayic_fate_god_name
 				FateGodNamePossessive = malayic_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -5024,6 +5062,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = malayic_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = malayic_evil_god_dul
 				WitchGodNamePossessive = malayic_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -5111,7 +5150,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = minangkabau_fate_god_name
 				FateGodNamePossessive = minangkabau_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -5217,6 +5256,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = minangkabau_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = minangkabau_evil_god_dul
 				WitchGodNamePossessive = minangkabau_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -5302,7 +5342,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = minangkabau_fate_god_name
 				FateGodNamePossessive = minangkabau_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -5408,6 +5448,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = minangkabau_death_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = minangkabau_evil_god_dul
 				WitchGodNamePossessive = minangkabau_evil_god_dul
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -5492,7 +5533,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				FateGodName = hanitu_fate_god_name
 				FateGodNamePossessive = hanitu_fate_god_name_possessive
 				FateGodSheHe = CHARACTER_SHEHE_IT
-				FateGodHerHis = CHARACTER_HERHIS_ITS
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
 				FateGodHerHim = CHARACTER_HERHIM_IT
 		
 				#KnowledgeGod
@@ -5538,7 +5579,7 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DevilName = hanitu_devil_name
 				DevilNamePossessive = hanitu_devil_name_possessive
 				DevilSheHe = CHARACTER_SHEHE_IT
-				DevilHerHis = CHARACTER_HERHIS_ITS
+				DevilHerHis = CHARACTER_HERSHIS_ITS
 				DevilHerselfHimself = hanitu_devil_herselfhimself
 				EvilGodNames = { hanitu_devil_name hanitu_evil_god_decay }
 				HouseOfWorship = hanitu_house_of_worship
@@ -5585,10 +5626,11 @@ austronesian_religion = { # Folk religions of Austronesian peoples
 				DeathDeityNamePossessive = hanitu_death_deity_name_possessive
 				DeathDeitySheHe = hanitu_devil_shehe
 				DeathDeityHerHis = hanitu_death_deity_herhis
+				DeathDeityHerHim = hanitu_death_deity_herhis
 				WitchGodName = witchgodname_hanitu_the_shadow
 				WitchGodNamePossessive = witchgodname_hanitu_the_shadow_possessive
 				WitchGodSheHe = CHARACTER_SHEHE_IT
-				WitchGodHerHis = CHARACTER_HERHIS_ITS
+				WitchGodHerHis = CHARACTER_HERSHIS_ITS
 				WitchGodHerHim = CHARACTER_HERHIM_IT
 				WitchGodMistressMaster = witch_spirit
 				WitchGodMotherFather = witch_source
@@ -5650,6 +5692,9 @@ loloish_religion = { # Folk religions of Loloish (Yi/Nosu) peoples
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { temperate content honest patient mystic_1 }
 		sins = { lustful lazy deceitful }
@@ -5709,7 +5754,7 @@ loloish_religion = { # Folk religions of Loloish (Yi/Nosu) peoples
 		FateGodName = loloish_fate_god_name
 		FateGodNamePossessive = loloish_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -5815,6 +5860,7 @@ loloish_religion = { # Folk religions of Loloish (Yi/Nosu) peoples
 		DeathDeityNamePossessive = loloish_death_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = loloish_evil_god_dul
 		WitchGodNamePossessive = loloish_evil_god_dul
 		WitchGodHerHis = CHARACTER_HERHIS_HER

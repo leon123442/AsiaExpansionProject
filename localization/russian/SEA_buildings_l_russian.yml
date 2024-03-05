@@ -1,0 +1,65 @@
+﻿l_russian:
+ building_type_AEP_wat_phu_01:0 "Ват-Пху"
+ building_type_AEP_wat_phu_01_desc:0 "Ват-Пху, посвященный индуистскому богу Шиве, привлекал поклонников, которые воздавали дань через ритуалы и молитвы, служа символом власти и авторитета кхмерской элиты. Строительство великих храмов, подобных Ват-Пху, играло важную роль в передаче религиозных и культурных знаний, включая ритуалы и традиционное ремесло."
+ building_AEP_wat_phu_01:0 "Ват-Пху (ранних)"
+ building_AEP_wat_phu_01_desc:0 "$building_type_AEP_wat_phu_01_desc$"
+ 
+ building_type_AEP_wat_phu_02:0 "Ват-Пху"
+ building_type_AEP_wat_phu_02_desc:0 "$building_type_AEP_wat_phu_01_desc$"
+ building_AEP_wat_phu_02:0 "$building_type_AEP_wat_phu_02$"
+ building_AEP_wat_phu_02_desc:0 "$building_type_AEP_wat_phu_02_desc$"
+
+ building_type_AEP_muaro_jambi_temple_01:0 "Храм Муаро-Джамби"
+ building_type_AEP_muaro_jambi_temple_01_desc:0 "Храмовый комплекс Муаро-Джамби, демонстрирующий слияние индуистского и буддийского стилей, играл роль важного культурного и духовного центра в империи Сривиджая. Эти величественные храмовые комплексы символизировали политическое и экономическое господство, также функционируя как центры образования, где монахи и ученые преподавали различные аспекты культуры, искусства, науки и религии."
+ building_AEP_muaro_jambi_temple_01:0 "$building_type_AEP_muaro_jambi_temple_01$"
+ building_AEP_muaro_jambi_temple_01_desc:0 "$building_type_AEP_muaro_jambi_temple_01_desc$"
+
+ building_type_AEP_preah_vihear_01:0 "Прэахвихеа"
+ building_type_AEP_preah_vihear_01_desc:0 "Храм Прэахвихеа, посвященный индуистскому богу Шиве в облике Наджатара, возвышается на вершине скалы с узкой лестницей, символизируя крутой путь веры. Этот комплекс, служащий местом ритуалов и королевских церемоний, также дом для библиотек, где хранятся исторические архивы королевства."
+ building_AEP_preah_vihear_01:0 "Прэахвихеа (ранних)"
+ building_AEP_preah_vihear_01_desc:0 "$building_type_AEP_preah_vihear_01_desc$"
+ 
+ building_type_AEP_preah_vihear_02:0 "Прэахвихеа"
+ building_type_AEP_preah_vihear_02_desc:0 "$building_type_AEP_preah_vihear_01_desc$"
+ building_AEP_preah_vihear_02:0 "$building_type_AEP_preah_vihear_02$"
+ building_AEP_preah_vihear_02_desc:0 "$building_type_AEP_preah_vihear_02_desc$"
+ 
+ building_type_AEP_muang_sua_01:0 "Муанг Суа" # Луангпхабанг
+ building_type_AEP_muang_sua_01_desc:0 "Благодаря своей богатой истории и стратегическому расположению на пересечении рек Меконг и Нам Кан, древний город Муанг Суа представляет собой культурное сокровище, проявленное в хорошо сохранившихся храмах и архитектурных сооружениях."
+ building_AEP_muang_sua_01:0 "$building_type_AEP_muang_sua_01$"
+ building_AEP_muang_sua_01_desc:0 "$building_type_AEP_muang_sua_01_desc$"
+ 
+ building_type_AEP_kandarpapura_01:0 "Кандарпапура" # Хюэ
+ building_type_AEP_kandarpapura_01_desc:0 "Кандарпапура, колыбель королевской линии, была ключевым центром в плодородной зоне Джио Лин в Навап, символизированной статуей-лингой в храме, посвященном Индракантешваре, что подчеркивает его роль как политического, религиозного и культурного центра своего времени."
+ building_AEP_kandarpapura_01:0 "$building_type_AEP_kandarpapura_01$"
+ building_AEP_kandarpapura_01_desc:0 "$building_type_AEP_kandarpapura_01_desc$"
+ 
+ building_type_AEP_angkor_wat_01:0 "Ангкор-Ват"
+ building_type_AEP_angkor_wat_01_desc:0 "Ангкор-Ват, знаменитый город храмов, является почитаемым религиозным местом, посвященным Вишну. Его замысловатые барельефы, величественные шпили и обширные дворцы выделяют его среди святых мест. Представляя гору Меру, обитель богов, пять башен Ангкор Вата символизируют ее вершины, стены представляют окружающие горные массивы, а рва обозначает море."
+ building_AEP_angkor_wat_01:0 "$building_type_AEP_angkor_wat_01$"
+ building_AEP_angkor_wat_01_desc:0 "$building_type_AEP_angkor_wat_01_desc$"
+
+ building_type_AEP_borobudur_01:0 "Боробудур"
+ building_type_AEP_borobudur_01_desc:0 "Боробудур - храм, построенный в честь Будды, с целью почитания и направления паломников в духовное просвещение. Его архитектурная композиция символизирует буддийскую космологию, где девять наложенных платформ представляют собой этапы просветления."
+ building_AEP_borobudur_01:0 "$building_type_AEP_borobudur_01$"
+ building_AEP_borobudur_01_desc:0 "$building_type_AEP_borobudur_01_desc$"
+
+ building_type_AEP_si_thep_01:0 "Си-Теп"
+ building_type_AEP_si_thep_01_desc:0 "Си-Теп - уникальная пара двух городов, окруженных рвами, демонстрирующих древние достопримечательности, такие как холм Кхао Кланг Нок и пещера Тхаморрат. Эти места гордо представляют архитектурное, художественное и религиозное наследие культуры Дваравати, сильно оказавшей влияние индуизма. Школа искусств Си Теп, вдохновленная этими традициями, сформировала художественные практики более поздних цивилизаций Юго-Восточной Азии."
+ building_AEP_si_thep_01:0 "Си-Теп (ранних)"
+ building_AEP_si_thep_01_desc:0 "$building_type_AEP_si_thep_01_desc$"
+ 
+ building_type_AEP_si_thep_02:0 "Си-Теп"
+ building_type_AEP_si_thep_02_desc:0 "$building_type_AEP_si_thep_01_desc$"
+ building_AEP_si_thep_02:0 "$building_type_AEP_si_thep_02$"
+ building_AEP_si_thep_02_desc:0 "$building_type_AEP_si_thep_02_desc$"
+ 
+ building_type_AEP_sukhothai_01:0 "Сукхотай"
+ building_type_AEP_sukhothai_01_desc:0 "Сукхотай, изначально кхмерский форпост, в 1238 году стала столицей Королевства Сукхотай после восстания под руководством Фо Кхуна Бангклангхао (позднее известного как Си Индрадит). Несмотря на то, что это не был самый ранний центр власти в Таиланде, учреждение Сукхотая традиционно считается началом тайской нации и празднуется среди тайцев за его историческое значение."
+ building_AEP_sukhothai_01:0 "$building_type_AEP_sukhothai_01$"
+ building_AEP_sukhothai_01_desc:0 "$building_type_AEP_sukhothai_01_desc$"
+
+ building_type_AEP_phra_prang_sam_yot_01:0 "Храм Фра Пранг Сам Йот"
+ building_type_AEP_phra_prang_sam_yot_01_desc:0 "Храм Фра Пранг Сам Йот славится своей уникальной архитектурой, представляющей три башни, украшенные замысловатой резьбой, посвященной индуистскому божеству Шиве. Опытное мастерство проявляется в детальных скульптурах, изображающих сцены из эпических повествований и рассказов о богах. Фасад украшен мифическими существами, божественными существами и символическими мотивами, что добавляет ему очарования."
+ building_AEP_phra_prang_sam_yot_01:0 "$building_type_AEP_phra_prang_sam_yot_01$"
+ building_AEP_phra_prang_sam_yot_01_desc:0 "$building_type_AEP_phra_prang_sam_yot_01_desc$"

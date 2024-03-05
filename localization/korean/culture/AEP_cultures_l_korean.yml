@@ -215,9 +215,15 @@
  madura:0 "마두라"
  madura_prefix:0 "마두라계"
  madura_collective_noun:0 "마두라"
- samawa:0 "숨바와"
- samawa_prefix:0 "숨바와계"
- samawa_collective_noun:0 "숨바와"
+ sumbawa:0 "숨바와"
+ sumbawa_prefix:0 "숨바와계"
+ sumbawa_collective_noun:0 "숨바와"
+ kangean:0 "캉겐"
+ kangean_prefix:0 "캉겐계"
+ kangean_collective_noun:0 "캉겐"
+ sasak:0 "사삭"
+ sasak_prefix:0 "사삭계"
+ sasak_collective_noun:0 "사삭"
 
  #Japanese Group
  japanese_group:0 "일본"
@@ -309,6 +315,9 @@
  abui:0 "아부이"
  abui_prefix:0 "아부이계"
  abui_collective_noun:0 "아부이"
+ tambora:0 "탐보라"
+ tambora_prefix:0 "탐보라계"
+ tambora_collective_noun:0 "탐보라"
 
  #Negrito Group
  negrito_group:0 "네그리토"
@@ -462,6 +471,9 @@
  flores:0 "플로레스"
  flores_prefix:0 "플로레스계"
  flores_collective_noun:0 "플로레스"
+ bima:0 "비마"
+ bima_prefix:0 "비마계"
+ bima_collective_noun:0 "비마"
 
  #Moluccan Group
  moluccan_group:0 "말루쿠"

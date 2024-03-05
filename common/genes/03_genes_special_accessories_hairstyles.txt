@@ -21,13 +21,17 @@ special_genes = {
 					#weight = <object in gfx/portrait/accessories/>
 					1 = male_hair_western_01
 					1 = male_hair_western_02
+					1 = male_hair_western_02_disease
 					1 = male_hair_western_03
+					1 = male_hair_western_03_disease
 					1 = male_hair_western_04
 					1 = male_hair_western_05
 					1 = male_hair_western_06
 					1 = male_hair_western_07
+					1 = male_hair_western_07_disease
 					1 = male_hair_western_08
 					1 = male_hair_western_09
+					1 = male_hair_western_09_disease
 					1 = male_hair_western_10
 					1 = male_hair_mena_01
 					1 = male_hair_mena_02
@@ -36,11 +40,13 @@ special_genes = {
 					1 = male_hair_byzantine_01
 					1 = male_hair_byzantine_02
 					1 = male_hair_sub_saharan_01
+					1 = male_hair_sub_saharan_01_disease
 					1 = male_hair_sub_saharan_02
 					1 = male_hair_sub_saharan_03
 					1 = male_hair_rtt_01
 					1 = male_hair_rtt_02
 					1 = male_hair_indian_01
+					1 = male_hair_indian_01_disease
 					1 = male_hair_indian_02
 					1 = male_hair_indian_03
 					1 = male_hair_northern_01
@@ -71,8 +77,7 @@ special_genes = {
 					1 = m_hair_fp3_iranian_03_common
 					1 = m_hair_ep2_western_01
 					1 = m_hair_ep2_western_02
-
-				# AEP #
+					# AEP #
 					1 = male_hair_japanese_01
 					1 = male_hair_japanese_02
 					1 = male_hair_japanese_03
@@ -82,9 +87,11 @@ special_genes = {
 				female = {
 					1 = female_hair_western_01
 					1 = female_hair_western_02
+					1 = female_hair_western_02_disease
 					1 = female_hair_western_03
 					1 = female_hair_western_04
 					1 = female_hair_western_05
+					1 = female_hair_western_05_disease
 					1 = female_hair_western_06
 					1 = female_hair_western_07
 					1 = female_hair_western_08
@@ -95,19 +102,23 @@ special_genes = {
 					1 = female_hair_byzantine_01
 					1 = female_hair_byzantine_02
 					1 = female_hair_sub_saharan_01
+					1 = female_hair_sub_saharan_01_disease
 	                1 = female_hair_sub_saharan_02
 	                1 = female_hair_sub_saharan_03
+	                1 = female_hair_sub_saharan_03_disease
 					1 = female_hair_rtt_01
 					1 = female_hair_rtt_02
 					1 = female_hair_rtt_02_milla
 					1 = female_hair_indian_01
 					1 = female_hair_indian_02
 					1 = female_hair_indian_03
+					1 = female_hair_indian_03_disease
 					1 = female_hair_northern_01
 					1 = female_hair_northern_02
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
+					1 = female_hair_steppe_02_disease
 					1 = female_hair_fp1_01 # Let out but with smaller braids braided in
 					1 = female_hair_fp1_02 # Very big loose braid on one shoulder
 					1 = female_hair_fp1_03 # Pigtail braids
@@ -131,8 +142,8 @@ special_genes = {
 					1 = f_hair_fp3_iranian_03_common #Medium buns 
 					1 = f_hair_ep2_western_01
 					1 = f_hair_ep2_western_02
-
-				# AEP #
+					1 = f_hair_fp4_disease_01
+					# AEP #
 					1 = female_hair_chinese_01
 				    1 = female_hair_chinese_02
 				    1 = female_hair_chinese_03
@@ -176,12 +187,6 @@ special_genes = {
 					1 = male_hair_northern_03
 					1 = male_hair_steppe_01
 					1 = male_hair_steppe_02
-
-				# AEP #
-					1 = male_hair_japanese_01
-					1 = male_hair_japanese_02
-					1 = male_hair_japanese_03
-					1 = male_hair_chinese_01
 				}
 
 				female = {
@@ -213,13 +218,6 @@ special_genes = {
 					1 = female_hair_northern_03
 					1 = female_hair_steppe_01
 					1 = female_hair_steppe_02
-
-				# AEP #
-					1 = female_hair_chinese_01
-				    1 = female_hair_chinese_02
-				    1 = female_hair_chinese_03
-				    1 = female_hair_chinese_04
-				    1 = female_hair_chinese_05
 				}
 				boy = male
 				girl = female
@@ -1208,6 +1206,43 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
+			sp3_hairstyles = {
+				index = 69
+				male = {
+					1 = m_hair_sp3_western_01
+
+
+				}
+				female = {
+				#	1 = f_hair_sp3_western_01
+				}
+
+				boy = male
+				girl = female
+			}
+
+			fp4_bald_hairstyles = {
+				index = 70
+				male = {
+					2 = m_hair_fp4_mena_01_bald
+					2 = m_hair_fp4_mena_02_bald
+					2 = m_hair_fp4_indian_01_bald
+					2 = m_hair_fp4_indian_01_full_bald
+					2 = m_hair_fp4_sub_saharan_02_bald
+					2 = m_hair_fp4_western_02_bald
+					2 = m_hair_fp4_western_07_bald
+					2 = m_hair_fp4_western_08_bald
+					2 = m_hair_fp4_western_09_bald
+				}
+
+				female = {
+					2 = empty
+					2 = empty
+				}
+				boy = male
+				girl = female
+			}
 			
 			#########################################
 			## Asia Expansion Project - new groups ##
@@ -1215,7 +1250,7 @@ special_genes = {
 			
 			## Japanese (Credit: Shogunate Mod) ##
 			japanese_hairstyles_straight = {
-				index = 69
+				index = 71
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_japanese_01
@@ -1232,7 +1267,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_wavy = {
-				index = 70
+				index = 72
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_japanese_01
@@ -1249,7 +1284,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_curly = {
-				index = 71
+				index = 73
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					2 = male_hair_mena_04 # Medium curly
@@ -1264,7 +1299,7 @@ special_genes = {
 			}
 
 			japanese_hairstyles_afro = {
-				index = 72
+				index = 74
 				male = {
 					2 = male_hair_sub_saharan_01 # Short african
 					2 = male_hair_sub_saharan_02 # Small afro
@@ -1281,7 +1316,7 @@ special_genes = {
 			}
 
 			ainu_hairstyles = {
-				index = 73
+				index = 75
 				male = {
 					#weight = <object in gfx/portrait/accessories/>
 					10 = male_hair_northern_02
@@ -1307,7 +1342,7 @@ special_genes = {
 			
 			## Chinese (Credit: CHC) ##
 			chinese_hairstyles_straight = {
-				index = 74
+				index = 76
 				male = {
 					1 = male_hair_chinese_01
 					1 = male_hair_indian_03
@@ -1325,7 +1360,7 @@ special_genes = {
 			}
 
 			chinese_hairstyles_wavy = {
-				index = 75
+				index = 77
 				male = {
 					1 = male_hair_chinese_01
 					1 = male_hair_indian_03
@@ -1343,7 +1378,7 @@ special_genes = {
 			}
 
 			chinese_hairstyles_curly = {
-				index = 76
+				index = 78
 				male = {
 					1 = male_hair_mena_04 # Medium curly
 				}
@@ -1357,7 +1392,7 @@ special_genes = {
 			}
 			
 			chinese_hairstyles_afro = {
-				index = 77
+				index = 79
 				male = {
 					1 = male_hair_sub_saharan_01 # Short african
 					1 = male_hair_sub_saharan_02 # Small afro
@@ -1537,6 +1572,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
 		}
 
 	}

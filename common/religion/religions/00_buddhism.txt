@@ -34,6 +34,9 @@
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation
 	
 	traits = {
 		virtues = {
@@ -77,7 +80,7 @@
 		CreatorName = buddhism_creator_god_name
 		CreatorNamePossessive = buddhism_creator_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_IT
-		CreatorHerHis = CHARACTER_HERHIS_ITS
+		CreatorHerHis = CHARACTER_HERSHIS_ITS
 		CreatorHerHim = CHARACTER_HERHIM_IT
 
 		#HealthGod
@@ -112,7 +115,7 @@
 		FateGodName = buddhism_fate_god_name
 		FateGodNamePossessive = buddhism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -216,6 +219,7 @@
 		DeathDeityNamePossessive = buddhism_death_god_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = buddhism_witchgod_mara
 		WitchGodNamePossessive = buddhism_witchgod_mara_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
@@ -289,7 +293,7 @@
 				CreatorName = zenzong_creator_god_name
 				CreatorNamePossessive = zenzong_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_HERHIM_IT
-				CreatorHerHis = CHARACTER_HERHIS_ITS
+				CreatorHerHis = CHARACTER_HERSHIS_ITS
 				CreatorHerHim = CHARACTER_HERHIM_IT
 
 				#HealthGod
@@ -323,7 +327,7 @@
 		FateGodName = zenzong_fate_god_name
 		FateGodNamePossessive = zenzong_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 				#KnowledgeGod
@@ -454,7 +458,7 @@
 				CreatorName = vajrayana_creator_god_name
 				CreatorNamePossessive = vajrayana_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_HERHIM_IT
-				CreatorHerHis = CHARACTER_HERHIS_ITS
+				CreatorHerHis = CHARACTER_HERSHIS_ITS
 				CreatorHerHim = CHARACTER_HERHIM_IT
 
 				#HealthGod
@@ -564,6 +568,9 @@
 			doctrine = doctrine_deviancy_accepted
 			doctrine = doctrine_witchcraft_accepted
 
+			# Carried over from pre-Buddhist Tibet. Similar theological motivations as cremation, demonstrating the impermanence of life
+			doctrine = doctrine_funeral_sky_burial
+
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_monasticism
 			doctrine = tenet_esotericism
@@ -608,7 +615,7 @@
 				CreatorName = lamaism_creator_god_name
 				CreatorNamePossessive = lamaism_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_HERHIM_IT
-				CreatorHerHis = CHARACTER_HERHIS_ITS
+				CreatorHerHis = CHARACTER_HERSHIS_ITS
 				CreatorHerHim = CHARACTER_HERHIM_IT
 
 				#HealthGod

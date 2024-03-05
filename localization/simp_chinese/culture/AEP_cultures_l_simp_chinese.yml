@@ -215,9 +215,15 @@
  madura:0 "马都拉"
  madura_prefix:0 "马都拉"
  madura_collective_noun:0 "马都拉"
- samawa:0 "松巴哇"
- samawa_prefix:0 "松巴哇"
- samawa_collective_noun:0 "松巴哇"
+ sumbawa:0 "松巴哇"
+ sumbawa_prefix:0 "松巴哇"
+ sumbawa_collective_noun:0 "松巴哇"
+ kangean:0 "康厄安"
+ kangean_prefix:0 "康厄安"
+ kangean_collective_noun:0 "康厄安"
+ sasak:0 "萨萨克"
+ sasak_prefix:0 "萨萨克"
+ sasak_collective_noun:0 "萨萨克"
  
  #Yamato Group
  japanese_group:0 "日本"
@@ -309,6 +315,9 @@
  abui:0 "阿布"
  abui_prefix:0 "阿布"
  abui_collective_noun:0 "阿布"
+ tambora:0 "坦博拉"
+ tambora_prefix:0 "坦博拉"
+ tambora_collective_noun:0 "坦博拉"
  
  #Negrito Group
  negrito_group:0 "尼格利陀"
@@ -462,6 +471,9 @@
  flores:0 "弗洛勒斯"
  flores_prefix:0 "弗洛勒斯"
  flores_collective_noun:0 "弗洛勒斯"
+ bima:0 "比马"
+ bima_prefix:0 "比马"
+ bima_collective_noun:0 "比马"
 
  #Moluccan Group
  moluccan_group:0 "摩鹿加"

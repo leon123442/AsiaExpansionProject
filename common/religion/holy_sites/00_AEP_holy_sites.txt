@@ -580,8 +580,9 @@ taizhou = { #天台山
 		diplomacy = 1
 	}
 } 
-shazhou = { #敦煌
+shazhou = { #莫高窟
 	county = c_shazhou
+	barony = b_mogao
 
 	character_modifier = {
 		name = holy_site_shazhou_effect_name

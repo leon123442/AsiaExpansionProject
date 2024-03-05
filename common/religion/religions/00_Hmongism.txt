@@ -35,6 +35,9 @@
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
+	doctrine = doctrine_funeral_stoic
+
 	traits = {
 		virtues = { brave just honest }
 		sins = { craven arbitrary deceitful }
@@ -101,7 +104,7 @@
 		FateGodName = hmongism_fate_god_name
 		FateGodNamePossessive = hmongism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERHIS_ITS
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -148,7 +151,7 @@
 		DevilName = hmongism_devil_name
 		DevilNamePossessive = hmongism_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERHIS_ITS
+		DevilHerHis = CHARACTER_HERSHIS_ITS
 		DevilHerselfHimself = hmongism_devil_herselfhimself
 		EvilGodNames = { hmongism_devil_name hmongism_evil_god_decay }
 		HouseOfWorship = hmongism_house_of_worship
@@ -195,10 +198,11 @@
 		DeathDeityNamePossessive = hmongism_death_deity_name_possessive
 		DeathDeitySheHe = hmongism_devil_shehe
 		DeathDeityHerHis = hmongism_death_deity_herhis
+		DeathDeityHerHim = hmongism_death_deity_herhis
 		WitchGodName = witchgodname_hmongism_the_shadow
 		WitchGodNamePossessive = witchgodname_hmongism_the_shadow
 		WitchGodSheHe = CHARACTER_SHEHE_IT
-		WitchGodHerHis = CHARACTER_HERHIS_ITS
+		WitchGodHerHis = CHARACTER_HERSHIS_ITS
 		WitchGodHerHim = CHARACTER_HERHIM_IT
 		WitchGodMistressMaster = witch_spirit
  		WitchGodMotherFather = witch_source

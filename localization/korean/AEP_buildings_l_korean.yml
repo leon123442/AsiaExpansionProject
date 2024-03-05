@@ -1,43 +1,73 @@
 ﻿l_korean:
- building_type_great_wall_of_china_01:0 "만리장성" # 万里长城 - 损坏
- building_type_great_wall_of_china_01_desc:0 "중국의 큰 벽은 최초의 황제인 첫 번째 황제 칭 시황디의 통치 기간 동안 주목을 받기 시작했습니다. 그는 북쪽의 유목민들에 대한 견고한 방어 장벽을 만들기 위해 기존의 벽 부분을 연결하고 확장하는 야심찬 프로젝트를 시작했습니다."
- building_great_wall_of_china_01:0 "만리장성 - 손상된"
- building_great_wall_of_china_01_desc:0 "$building_type_great_wall_of_china_01_desc$"
+ building_type_AEP_great_wall_of_china:0 "만리장성" # 万里长城 - 损坏
+ building_type_AEP_great_wall_of_china_desc:0 "중국의 만리장성은 중국의 첫 번째 황제인 칭시황제 시대에 주목을 받게 되었습니다. 칭시황제는 벽의 기존 세그먼트를 통합하고 확장하는 야심찬 계획을 진행하여 북쪽의 투병하는 부족들에 대한 강력한 방어 요새를 형성했습니다.\n\n그러나 후대의 계속된 확장에도 불구하고 많은 옛날 세그먼트들은 그 후로 중요성이 감소하여 방어 구조물로서의 중요성이 줄어들었습니다."
+ building_AEP_great_wall_of_china:0 "$building_type_AEP_great_wall_of_china$"
+ building_AEP_great_wall_of_china_desc:0 "$building_type_AEP_great_wall_of_china_desc$"
  
- building_type_great_wall_of_china_02:0 "만리장성" # 万里长城 - 修复
- building_type_great_wall_of_china_02_desc:0 "이 부분은 옛날에는 완전히 황폐화되어 있었지만, 현재는 과거의 영광으로 복원된 중국의 고대이자 견고한 큰 벽입니다. 북쪽에 있는 끊임없는 유목민 위협에 대해 더욱 향상된 방어 수단으로서, 이 나라는 이제 안심하고 쉴 수 있습니다."
- building_great_wall_of_china_02:0 "만리장성 - 복원됨"
- building_great_wall_of_china_02_desc:0 "$building_type_great_wall_of_china_02_desc$"
+ building_type_AEP_giant_wild_goose_pagoda:0 "대안탑" # 大雁塔
+ building_type_AEP_giant_wild_goose_pagoda_desc:0 "대왕 거위 탑은 원래 649년에 통나무 조각으로 건립되었습니다. 당의 고장 고종 황제 통치 시기에 중국에 가져온 불교 경전을 보관하기 위해 승려이자 학자인 선장에 의해 건설되었습니다.\n\n건설 이후로는 실크로드 상에서 유명한 랜드마크로 자리매김하며, 불교의 영구적인 문화와 종교적 중요성을 상징합니다."
+ building_AEP_giant_wild_goose_pagoda:0 "$building_type_AEP_giant_wild_goose_pagoda$"
+ building_AEP_giant_wild_goose_pagoda_desc:0 "$building_type_AEP_giant_wild_goose_pagoda_desc$"
  
- building_type_giant_wild_goose_pagoda_01:0 "대안탑" # 大雁塔
- building_type_giant_wild_goose_pagoda_01_desc:0 "대왕 거위 탑은 원래 649년에 통나무 조각으로 건립되었습니다. 당의 고장 고종 황제 통치 시기에 중국에 가져온 불교 경전을 보관하기 위해 승려이자 학자인 선장에 의해 건설되었습니다.\n\n건설 이후로는 실크로드 상에서 유명한 랜드마크로 자리매김하며, 불교의 영구적인 문화와 종교적 중요성을 상징합니다."
- building_giant_wild_goose_pagoda_01:0 "$building_type_giant_wild_goose_pagoda_01$"
- building_giant_wild_goose_pagoda_01_desc:0 "$building_type_giant_wild_goose_pagoda_01_desc$"
+ building_type_AEP_longmen_grottoes_01:0 "룽먼 석굴" # 龙门石窟 - 第一阶段
+ building_type_AEP_longmen_grottoes_01_desc:0 "용문 동개의 건설은 북위 왕조 시기에 시작되었습니다. 그때 시조 사원이자 제 2의 수도로 선정된 대동에서 대도성을 루양으로 옮기면서 구양동(석축)사를 건설하는 것을 시작했습니다. 이것은 이러한 종류의 첫 번째 동굴 사원이었습니다.\n\n나중에 효도의 의미에서, 효무 황제는 "삼변양 동굴"을 발굴하였으며, 이는 현재 용문에서 찾을 수 있는 동굴의 30% 이상을 구성하며 24년이 걸렸습니다."
+ building_AEP_longmen_grottoes_01:0 "룽먼 석굴 - 1단계"
+ building_AEP_longmen_grottoes_01_desc:0 "$building_type_AEP_longmen_grottoes_01_desc$"
  
- building_type_longmen_grottoes_01:0 "룽먼 석굴" # 龙门石窟 - 第一阶段
- building_type_longmen_grottoes_01_desc:0 "용문 동개의 건설은 북위 왕조 시기에 시작되었습니다. 그때 시조 사원이자 제 2의 수도로 선정된 대동에서 대도성을 루양으로 옮기면서 구양동(석축)사를 건설하는 것을 시작했습니다. 이것은 이러한 종류의 첫 번째 동굴 사원이었습니다.\n\n나중에 효도의 의미에서, 효무 황제는 "삼변양 동굴"을 발굴하였으며, 이는 현재 용문에서 찾을 수 있는 동굴의 30% 이상을 구성하며 24년이 걸렸습니다."
- building_longmen_grottoes_01:0 "룽먼 석굴 - 1단계"
- building_longmen_grottoes_01_desc:0 "$building_type_longmen_grottoes_01_desc$"
+ building_type_AEP_longmen_grottoes_02:0 "룽먼 석굴" # 龙门石窟 - 第二阶段
+ building_type_AEP_longmen_grottoes_02_desc:0 "두 번째 건설 단계는 524년부터 626년까지 진행되었으며, 지역적인 분쟁과 충돌로 인해 동굴들의 발전이 더욱 느려졌습니다.\n\n이 기간은 수나라(581-618)와 초기 당나라(618-907)의 통치 기간을 포함하며, 동굴들의 창조 작업에서 중단과 진전 방해가 있었습니다."
+ building_AEP_longmen_grottoes_02:0 "룽먼 석굴 - 2단계"
+ building_AEP_longmen_grottoes_02_desc:0 "$building_type_AEP_longmen_grottoes_02_desc$"
  
- building_type_longmen_grottoes_02:0 "룽먼 석굴" # 龙门石窟 - 第二阶段
- building_type_longmen_grottoes_02_desc:0 "두 번째 건설 단계는 524년부터 626년까지 진행되었으며, 지역적인 분쟁과 충돌로 인해 동굴들의 발전이 더욱 느려졌습니다.\n\n이 기간은 수나라(581-618)와 초기 당나라(618-907)의 통치 기간을 포함하며, 동굴들의 창조 작업에서 중단과 진전 방해가 있었습니다."
- building_longmen_grottoes_02:0 "룽먼 석굴 - 2단계"
- building_longmen_grottoes_02_desc:0 "$building_type_longmen_grottoes_02_desc$"
+ building_type_AEP_longmen_grottoes_03:0 "룽먼 석굴" # 龙门石窟 - 第三阶段
+ building_type_AEP_longmen_grottoes_03_desc:0 "세 번째 건설 단계는 626년부터 755년까지 진행되었으며, 당나라가 감독하였습니다. 이 기간 동안 용문에서 동굴의 창조가 절정을 이루었으며, 중국 불교가 번성하여 동굴과 조각들이 번영하게 되었습니다.\n\n용문에서 약 60%의 동굴들은 이 기간 동안 생성되었으며, 675년에 풍현사 동굴이 완성되면서 당나라의 놀라운 예술성과 웅장함을 서산에 보여주었습니다."
+ building_AEP_longmen_grottoes_03:0 "룽먼 석굴 - 3단계"
+ building_AEP_longmen_grottoes_03_desc:0 "$building_type_AEP_longmen_grottoes_03_desc$"
  
- building_type_longmen_grottoes_03:0 "룽먼 석굴" # 龙门石窟 - 第三阶段
- building_type_longmen_grottoes_03_desc:0 "세 번째 건설 단계는 626년부터 755년까지 진행되었으며, 당나라가 감독하였습니다. 이 기간 동안 용문에서 동굴의 창조가 절정을 이루었으며, 중국 불교가 번성하여 동굴과 조각들이 번영하게 되었습니다.\n\n용문에서 약 60%의 동굴들은 이 기간 동안 생성되었으며, 675년에 풍현사 동굴이 완성되면서 당나라의 놀라운 예술성과 웅장함을 서산에 보여주었습니다."
- building_longmen_grottoes_03:0 "룽먼 석굴 - 3단계"
- building_longmen_grottoes_03_desc:0 "$building_type_longmen_grottoes_03_desc$"
+ building_type_AEP_longmen_grottoes_04:0 "룽먼 석굴" # 龙门石窟 - 第四阶段
+ building_type_AEP_longmen_grottoes_04_desc:0 "용문 동굴의 네 번째이자 마지막 건설 단계는 당나라 후기에서 시작하여 북송시대의 통치로 이어졌으나, 진나라와 위나라 사이의 전쟁으로 인해 동굴의 창조는 감소하였습니다."
+ building_AEP_longmen_grottoes_04:0 "룽먼 석굴 - 최종 단계"
+ building_AEP_longmen_grottoes_04_desc:0 "$building_type_AEP_longmen_grottoes_04_desc$"
  
- building_type_longmen_grottoes_04:0 "룽먼 석굴" # 龙门石窟 - 第四阶段
- building_type_longmen_grottoes_04_desc:0 "용문 동굴의 네 번째이자 마지막 건설 단계는 당나라 후기에서 시작하여 북송시대의 통치로 이어졌으나, 진나라와 위나라 사이의 전쟁으로 인해 동굴의 창조는 감소하였습니다."
- building_longmen_grottoes_04:0 "룽먼 석굴 - 최종 단계"
- building_longmen_grottoes_04_desc:0 "$building_type_longmen_grottoes_04_desc$"
+ building_type_AEP_imperial_palace_kyoto:0 "교토 어소" # 京都御所
+ building_type_AEP_imperial_palace_kyoto_desc:0 "교토 궁궐은 일본 황실의 거주지로, 전통 일본 건축의 특징과 고요한 정원, 정교하게 조성된 건물들로 가득 차 있어 황실의 우아함과 웅장함을 반영하고 있습니다.\n\n교토의 중심지에 위치한 이 궁궐은 보행자들에게 황실의 장관을 엿볼 수 있도록 해주며, 헤이안 시대의 정교한 미학을 대표하는 증거로 자리하고 있습니다."
+ building_AEP_imperial_palace_kyoto:0 "$building_type_AEP_imperial_palace_kyoto$"
+ building_AEP_imperial_palace_kyoto_desc:0 "$building_type_AEP_imperial_palace_kyoto_desc$"
  
- building_type_imperial_palace_kyoto_01:0 "교토 어소" # 京都御所
- building_type_imperial_palace_kyoto_01_desc:0 "교토 궁궐은 일본 황실의 거주지로, 전통 일본 건축의 특징과 고요한 정원, 정교하게 조성된 건물들로 가득 차 있어 황실의 우아함과 웅장함을 반영하고 있습니다.\n\n교토의 중심지에 위치한 이 궁궐은 보행자들에게 황실의 장관을 엿볼 수 있도록 해주며, 헤이안 시대의 정교한 미학을 대표하는 증거로 자리하고 있습니다."
- building_imperial_palace_kyoto_01:0 "$building_type_imperial_palace_kyoto_01$"
- building_imperial_palace_kyoto_01_desc:0 "$building_type_imperial_palace_kyoto_01_desc$"
+ building_type_AEP_tongguan:0 "퉁관" # Tongguan - 潼关
+ building_type_AEP_tongguan_desc:0 "서기 196년에 동한 제국 시대 중에 카오 카오에 의해 건설된 통문은 산시 성에 위치해 있으며 창안과 관중 지역을 북중원으로부터 방어하는 중요한 통로로 작용합니다.\n\n시간이 지남에 따라 통문은 관중과 북중원 사이의 주요 전략적 기둥으로 한구문을 대체하였으며, 756년에 안루산의 반란으로 인해 그 추락이 창안의 수도를 차지하게 되었습니다."
+ building_AEP_tongguan:0 "$building_type_AEP_tongguan$"
+ building_AEP_tongguan_desc:0 "$building_type_AEP_tongguan_desc$"
+ 
+ building_type_AEP_yumenguan:0 "옥문관" # Yumenguan - 玉门关
+ building_type_AEP_yumenguan_desc:0 "유멘문, 일명 옥문으로도 불리는 이 지점은 서한 제국 시대인 기원전 121년 경에 우디 황제에 의해 설립되었으며, 실크로드의 주요 경로로 작용하여 중앙 아시아를 동아시아와 연결했습니다.\n\n이 관문은 지우천에서 옥문까지 이어진 방어선의 끝을 표시하며, 서로 떨어진 서쪽으로 여행하는 이들은 이 유명한 관문을 통해 중국을 떠났습니다."
+ building_AEP_yumenguan:0 "$building_type_AEP_yumenguan$"
+ building_AEP_yumenguan_desc:0 "$building_type_AEP_yumenguan_desc$"
+ 
+ building_type_AEP_mogao_caves:0 "막고굴" # 莫高窟
+ building_type_AEP_mogao_caves_desc:0 "막고굴, 일명 천 부처의 동굴로도 불리며, 처음에는 전쟁 시대의 선조 황제 통치 시기에 건축되었으며, 그 후의 다양한 왕조 시기에 걸쳐 총 735개의 동굴에 45,000m²의 벽화와 2,415개의 진흙 색 동상을 포함하여 확장되었습니다. 이것은 세계에서 가장 큰 불교 예술 사이트로 만들어졌습니다."
+ building_AEP_mogao_caves:0 "$building_type_AEP_mogao_caves$"
+ building_AEP_mogao_caves_desc:0 "$building_type_AEP_mogao_caves_desc$"
+ 
+ building_type_AEP_yueyang_tower:0 "악양루" # 岳陽樓
+ building_type_AEP_yueyang_tower_desc:0 "동파의 호수물가에 위치한 악양루는 각종 화재, 전쟁 및 여러 재앙으로부터 피해를 입었으며, 서로 다른 왕조에서 이를 재건하기 위해 여러 차례 힘쓰게 되었습니다."
+ building_AEP_yueyang_tower:0 "$building_type_AEP_yueyang_tower$"
+ building_AEP_yueyang_tower_desc:0 "$building_type_AEP_yueyang_tower_desc$"
+ 
+ building_type_AEP_prince_teng_pavilion:0 "등왕각" # 滕王閣
+ building_type_AEP_prince_teng_pavilion_desc:0 "장난 삼대명탑 중 가장 높게 평가되는 등왕각은 강강지와 구강 강의 합류 지점에 위치해 있으며, 이타당조의 지도자인 왕보에 의해 대표작인 '등왕각전'(滕王閣序)에서 그 위엄과 웅장함이 찬양되어, 이 보감은 수세에 걸쳐 지속적으로 세계적인 명성과 위신을 보장하고 있습니다."
+ building_AEP_prince_teng_pavilion:0 "$building_type_AEP_prince_teng_pavilion$"
+ building_AEP_prince_teng_pavilion_desc:0 "$building_type_AEP_prince_teng_pavilion_desc$"
+ 
+ building_type_AEP_yellow_crane_tower:0 "황학루" # 黃鶴樓
+ building_type_AEP_yellow_crane_tower_desc:0 "주한이 내려다보는 스네이크 힐 상에 자리한 황학루는 강남의 삼대명탑 중 하나로, 그 기원은 기원전 223년으로 거슬러 올라가며 탁월한 인물들과 시인들의 소모임 장소로 기능했습니다. 이 탑은 명문 시인 추하오에 의해 지은 '황학루'라는 시를 통해 더욱 유명해졌습니다."
+ building_AEP_yellow_crane_tower:0 "$building_type_AEP_yellow_crane_tower$"
+ building_AEP_yellow_crane_tower_desc:0 "$building_type_AEP_yellow_crane_tower_desc$"
+ 
+ building_type_AEP_xi_lake:0 "서호" # 黃鶴樓
+ building_type_AEP_xi_lake_desc:0 "전통적인 이야기와 비평에서 탄잉강으로 발전한 서호는 통와와 송 시대의 변형적 개입을 겪었습니다. 이는 백주이와 수시 같은 인물들에 의해 이루어져 호수를 명소로 만들었으며, 그 경치 아름다움과 문화적 중요성으로 관광객, 시인, 예술가들을 끌어들였습니다."
+ building_AEP_xi_lake:0 "$building_type_AEP_xi_lake$"
+ building_AEP_xi_lake_desc:0 "$building_type_AEP_xi_lake_desc$"
  
  building_type_dojo_01:0 "연습장" # 稽古場
  building_type_dojo_01_desc:0 "연습장은 대부분의 일본 역사 동안 일본 고대 전사들의 훈련 장소였습니다. 이 공간들은 전사들이 무술 실력을 다듬고 다양한 전략을 배우며 정신적인 훈련을 연마할 수 있는 데 중요한 역할을 했습니다.\n\n또한 연습장은 유도, 검도, 합기도 등과 같은 전통적인 일본 무술의 발전을 촉진하는 데 중요한 역할을 했습니다."

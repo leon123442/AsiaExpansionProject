@@ -215,9 +215,15 @@
  madura:0 "madurés"
  madura_prefix:0 "madura"
  madura_collective_noun:0 "madurés"
- samawa:0 "samawa"
- samawa_prefix:0 "samawa"
- samawa_collective_noun:0 "samawa"
+ sumbawa:0 "Sumbawa"
+ sumbawa_prefix:0 "Sumbawa"
+ sumbawa_collective_noun:0 "Sumbawa"
+ kangean:0 "Kangeanés"
+ kangean_prefix:0 "Kangean"
+ kangean_collective_noun:0 "Kangeanés"
+ sasak:0 "Sasak"
+ sasak_prefix:0 "Sasak"
+ sasak_collective_noun:0 "Sasak"
 
  #Yamato Group
  japanese_group:0 "japonés"
@@ -309,6 +315,9 @@
  abui:0 "abui"
  abui_prefix:0 "abui"
  abui_collective_noun:0 "abui"
+ tambora:0 "Tambora"
+ tambora_prefix:0 "Tambora"
+ tambora_collective_noun:0 "Tambora"
  
  #Negrito Group
  negrito_group:0 "negrito"
@@ -462,6 +471,9 @@
  flores:0 "flores"
  flores_prefix:0 "flores"
  flores_collective_noun:0 "flores"
+ bima:0 "Bimanés"
+ bima_prefix:0 "Bima"
+ bima_collective_noun:0 "Bimanés"
 
  #Moluccan Group
  moluccan_group:0 "molucas"

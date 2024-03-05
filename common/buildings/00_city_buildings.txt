@@ -187,7 +187,7 @@ city_01 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" }
 		graphical_cultures = { norse_building_gfx }			
 	}
 	
@@ -198,7 +198,7 @@ city_01 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }		
 	}
@@ -210,7 +210,7 @@ city_01 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }		
 	}
@@ -222,7 +222,7 @@ city_01 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }	
 	}
@@ -233,18 +233,18 @@ city_01 = {
 		name = "fp2_building_iberian_city_01_mesh"
 		requires_dlc_flag = the_fate_of_iberia
 		illustration = @holding_illustration_iberian
-		soundeffect = { soundeffect = "event:/DLC/FP2/SFX/Ambience/Urban/iberian_city_tier_01"}
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/iberian_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	
+
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
 		name = "fp3_building_persian_city_01_a_01_mesh"
-		requires_dlc_flag = legacy_of_persia 
+		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
@@ -254,7 +254,7 @@ city_01 = {
 		name = "fp3_building_persian_city_01_a_01_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_iranian
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 1} }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_india }
 	}
@@ -523,7 +523,7 @@ city_01 = {
 
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
-		monthly_county_control_change_factor = -0.25
+		monthly_county_control_growth_factor = -0.25
 	}
 	
 	province_terrain_modifier = {
@@ -778,7 +778,7 @@ city_02 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }			
 	}	
 
@@ -789,7 +789,7 @@ city_02 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }		
 	}
@@ -801,7 +801,7 @@ city_02 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }		
 	}
@@ -813,7 +813,7 @@ city_02 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_01" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }	
 	}
@@ -824,11 +824,11 @@ city_02 = {
 		name = "fp2_building_iberian_city_01_mesh"
 		requires_dlc_flag = the_fate_of_iberia
 		illustration = @holding_illustration_iberian
-		soundeffect = { soundeffect = "event:/DLC/FP2/SFX/Ambience/Urban/iberian_city_tier_02"}
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/iberian_city" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	
+
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
@@ -1109,7 +1109,7 @@ city_02 = {
 	
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
-		monthly_county_control_change_factor = -0.25
+		monthly_county_control_growth_factor = -0.25
 	}
 	
 	province_terrain_modifier = {
@@ -1344,7 +1344,7 @@ city_03 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 	}
 
@@ -1355,7 +1355,7 @@ city_03 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
@@ -1367,7 +1367,7 @@ city_03 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
@@ -1379,7 +1379,7 @@ city_03 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
 	}
@@ -1390,11 +1390,11 @@ city_03 = {
 		name = "fp2_building_iberian_city_02_mesh"
 		requires_dlc_flag = the_fate_of_iberia
 		illustration = @holding_illustration_iberian
-		soundeffect = { soundeffect = "event:/DLC/FP2/SFX/Ambience/Urban/iberian_city_tier_02"}
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/iberian_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	
+
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
@@ -1676,7 +1676,7 @@ city_03 = {
 	
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
-		monthly_county_control_change_factor = -0.25
+		monthly_county_control_growth_factor = -0.25
 	}
 	
 	province_terrain_modifier = {
@@ -1901,7 +1901,7 @@ city_04 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 	}
 
@@ -1912,7 +1912,7 @@ city_04 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mena }
 	}
@@ -1924,7 +1924,7 @@ city_04 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
@@ -1936,7 +1936,7 @@ city_04 = {
 		}
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
-		soundeffect = { soundeffect = "event:/DLC/FP1/SFX/Ambience/Urban/norse_city_tier_02" }
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/nordic_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { norse_building_gfx }
 		graphical_regions = { graphical_india }
 	}
@@ -1947,11 +1947,11 @@ city_04 = {
 		name = "fp2_building_iberian_city_02_mesh"
 		requires_dlc_flag = the_fate_of_iberia
 		illustration = @holding_illustration_iberian
-		soundeffect = { soundeffect = "event:/DLC/FP2/SFX/Ambience/Urban/iberian_city_tier_02"}
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/iberian_city" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { iberian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-	
+
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
@@ -2232,7 +2232,7 @@ city_04 = {
 	
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
-		monthly_county_control_change_factor = -0.25
+		monthly_county_control_growth_factor = -0.25
 	}
 	
 	province_terrain_modifier = {

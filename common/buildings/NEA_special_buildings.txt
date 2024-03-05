@@ -1,0 +1,1651 @@
+﻿## Korea
+
+##########
+#Mulgeum Iron Mine - 물금 철광산 (Gimhae)
+##########
+
+
+NEA_mulgeum_iron_mine_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = 500
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.03
+	}
+	province_modifier = {
+		monthly_income = 1
+		stationed_siege_weapon_siege_value_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.06
+		development_growth_factor = 0.03
+	}
+	
+	next_building = NEA_mulgeum_iron_mine_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_mulgeum_iron_mine_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	cost_gold = 500
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.05
+	}
+	province_modifier = {
+		monthly_income = 2
+		stationed_siege_weapon_siege_value_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.09
+		development_growth_factor = 0.05
+	}
+	
+	next_building = NEA_mulgeum_iron_mine_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_mulgeum_iron_mine_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	cost_gold = 600
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.07
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_siege_weapon_siege_value_mult = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.12
+		development_growth_factor = 0.07
+	}
+	
+	next_building = NEA_mulgeum_iron_mine_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_mulgeum_iron_mine_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	cost_gold = 700
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.1
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_siege_weapon_siege_value_mult = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Liaodong iron mine - 遼東鐵礦
+##########
+
+NEA_liaodong_iron_mine_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = 500
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.04
+	}
+	province_modifier = {
+		monthly_income = 0.6
+		stationed_siege_weapon_siege_value_mult = 0.25
+	}
+	county_modifier = {
+		tax_mult = 0.06
+		development_growth_factor = 0.03
+	}
+	
+	next_building = NEA_liaodong_iron_mine_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_liaodong_iron_mine_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	cost_gold = 500
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.06
+	}
+	province_modifier = {
+		monthly_income = 1.2
+		stationed_siege_weapon_siege_value_mult = 0.50
+	}
+	county_modifier = {
+		tax_mult = 0.09
+		development_growth_factor = 0.05
+	}
+	
+	next_building = NEA_liaodong_iron_mine_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_liaodong_iron_mine_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	cost_gold = 600
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.08
+	}
+	province_modifier = {
+		monthly_income = 1.6
+		stationed_siege_weapon_siege_value_mult = 0.75
+	}
+	county_modifier = {
+		tax_mult = 0.12
+		development_growth_factor = 0.07
+	}
+	
+	next_building = NEA_liaodong_iron_mine_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_liaodong_iron_mine_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	cost_gold = 700
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.12
+	}
+	province_modifier = {
+		monthly_income = 2.0
+		stationed_siege_weapon_siege_value_mult = 1.0
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Bulguksa - 불국사
+##########
+
+NEA_bulguksa = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_bulguksa.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			religion = religion:buddhism_religion
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.03
+		stewardship = 1
+		learning = 1
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Mireuksa - 미륵사
+##########
+
+NEA_mireuksa = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_mireuksa.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			religion = religion:buddhism_religion
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.03
+		stewardship = 1
+		learning = 2
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Chongrungsa - 정릉사
+##########
+
+NEA_chongrungsa = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_chongrungsa.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			religion = religion:buddhism_religion
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		stewardship_per_piety_level = 1
+		learning = 1
+		short_reign_duration_mult = -0.12 #능침사찰로 추정
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Heungryungsa - 흥륭사
+##########
+
+NEA_heungryungsa = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_heungryungsa.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			religion = religion:buddhism_religion
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_dynasty_prestige_mult = 0.03
+		stewardship = 1
+		learning = 2
+		intrigue = 1
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Samnyeonsanseong - 삼년산성
+##########
+
+NEA_samnyeonsanseong = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_samnyeonsanseong.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1500
+	cost_prestige = 1000
+	
+	max_garrison = 700
+	province_modifier = {
+		defender_holding_advantage = 5
+		fort_level = 5
+		levy_size = 0.1
+		garrison_size = 0.20
+		stationed_pikemen_damage_mult = 0.15
+		stationed_pikemen_toughness_mult = 0.15
+		travel_danger = -3
+	}
+	county_modifier = {
+		monthly_county_control_change_add = 0.10
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+
+
+## Japan
+
+##########
+#Dazaifu - 太宰府
+##########
+
+NEA_dazaifu = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_dazaifu.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = 2500
+	cost_prestige = 1000
+	
+	character_modifier = {
+		monthly_prestige = 0.33
+		monthly_dynasty_prestige_mult = 0.1
+		diplomacy_per_prestige_level = 1
+	}
+	max_garrison = 325
+	province_modifier = {
+		monthly_income = 0.8
+		defender_holding_advantage = 3
+		fort_level = 1
+		garrison_size = 0.2
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.15
+		travel_danger = -5
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth = 0.08
+		development_growth_factor = 0.2
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Mount Fuji - 富士山
+##########
+
+NEA_mount_fuji = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_mount_fuji.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = 5000
+	cost_prestige = 5000
+	
+	character_modifier = {
+		monthly_piety_gain_mult = 0.02
+		stress_loss_mult = 0.1
+		stress_gain_mult = -0.05
+
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Shuri Castle - 首里城
+##########
+
+NEA_shuri_castle = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_shuri_castle.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+	cost_gold = 3000
+	cost_prestige = 3000
+	
+	max_garrison = 600
+	province_modifier = {
+		defender_holding_advantage = 3
+		fort_level = 3
+		garrison_size = 0.10
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.15
+		travel_danger = -5
+	}
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.2
+		monthly_dynasty_prestige_mult = 0.10
+		stress_loss_mult = 0.10
+		short_reign_duration_mult = -0.10
+		stewardship = 2
+	}
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth = 0.2
+		development_growth_factor = 0.25
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Sado Gold Mine - 佐渡金山
+##########
+
+NEA_sado_gold_mine_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = 600
+	
+	province_modifier = {
+		monthly_income = 1.0
+		stationed_siege_weapon_siege_value_mult = 0.25
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.08
+	}
+	
+	next_building = NEA_sado_gold_mine_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_sado_gold_mine_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	cost_gold = 700
+	
+	province_modifier = {
+		monthly_income = 1.8
+		stationed_siege_weapon_siege_value_mult = 0.45
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.12
+	}
+	
+	next_building = NEA_sado_gold_mine_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_sado_gold_mine_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	cost_gold = 800
+	
+	province_modifier = {
+		monthly_income = 2.6
+		stationed_siege_weapon_siege_value_mult = 0.65
+	}
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth_factor = 0.16
+	}
+	
+	next_building = NEA_sado_gold_mine_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_sado_gold_mine_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	cost_gold = 900
+
+	province_modifier = {
+		monthly_income = 3.4
+		stationed_siege_weapon_siege_value_mult = 0.85
+	}
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.20
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Iwami Silver Mine - 石見銀山
+##########
+
+NEA_iwami_silver_mine_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+		culture = {
+			has_innovation = innovation_crop_rotation
+		}
+	}
+	
+	cost_gold = 600
+	
+	province_modifier = {
+		monthly_income = 0.8
+		stationed_siege_weapon_siege_value_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.08
+	}
+	
+	next_building = NEA_iwami_silver_mine_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_iwami_silver_mine_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 02 }
+		culture = {
+			has_innovation = innovation_manorialism
+		}
+	}
+	
+	cost_gold = 600
+	
+	province_modifier = {
+		monthly_income = 1.2
+		stationed_siege_weapon_siege_value_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.12
+	}
+	
+	next_building = NEA_iwami_silver_mine_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_iwami_silver_mine_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 03 }
+		culture = {
+			has_innovation = innovation_windmills
+		}
+	}
+	
+	cost_gold = 700
+	
+	province_modifier = {
+		monthly_income = 1.6
+		stationed_siege_weapon_siege_value_mult = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.16
+	}
+	
+	next_building = NEA_iwami_silver_mine_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+NEA_iwami_silver_mine_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		building_requirement_castle_city_church = { LEVEL = 04 }
+		culture = {
+			has_innovation = innovation_cranes
+		}
+	}
+	
+	cost_gold = 800
+
+	province_modifier = {
+		monthly_income = 2.0
+		stationed_siege_weapon_siege_value_mult = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.20
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+#Enryakuji - 延暦寺
+##########
+
+NEA_enryakuji = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_enryakuji.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:shinto_religion
+				religion = religion:buddhism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.3
+		learning = 2
+		martial_per_piety_level = 1
+		different_religion_opinion = -12
+	}
+	province_modifier = {
+		monthly_income = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Ise Grand Shrine - 伊勢神宮
+##########
+
+NEA_ise_grand_shrine = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_ise_grand_shrine.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:shinto_religion
+				religion = religion:buddhism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.3
+		learning = 1
+		learning_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Izumo Grand Shrine - 出雲大社
+##########
+
+NEA_izumo_grand_shrine = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_izumo_taisha.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:shinto_religion
+				religion = religion:buddhism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		prowess_per_piety_level = 1
+		monthly_dynasty_prestige_mult = 0.03
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Futarasan Shrine - 二荒山神社
+##########
+
+NEA_futarasan_shrine = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_futarasan_shrine.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:shinto_religion
+				religion = religion:buddhism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.3
+		learning = 2
+		martial_per_piety_level = 1
+		different_religion_opinion = -12
+	}
+	province_modifier = {
+		monthly_income = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+
+
+## China
+
+##########
+#Iron Lion of Cangzhou - 铁狮子
+##########
+
+NEA_iron_lion_of_cangzhou = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_iron_lion_of_cangzhou.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = 2000
+	cost_prestige = 1500
+	
+	character_modifier = {
+		monthly_prestige = 0.33
+		monthly_prestige_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	province_modifier = {
+		stationed_maa_damage_mult = 0.05
+		stationed_heavy_infantry_toughness_mult = 0.05
+		stationed_heavy_cavalry_toughness_mult = 0.05
+		stationed_siege_weapon_siege_value_mult = 0.10
+		travel_danger = -2
+	}
+	county_modifier = {
+		tax_mult = 0.08
+		development_growth = 0.08
+		development_growth_factor = 0.08
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Bronze Bird Terrace - 銅雀臺
+##########
+
+NEA_bronze_bird_terrace = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_bronze_bird_terrace.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = 3000
+	cost_prestige = 2000
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.20
+		monthly_dynasty_prestige_mult = 0.20
+		stress_loss_mult = 0.20
+		dread_gain_mult = 0.20
+	}
+	province_modifier = {
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.10
+		stationed_siege_weapon_siege_value_mult = 0.10
+		travel_danger = -5
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth = 0.2
+		development_growth_factor = 0.2
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Mount Tai - 泰山
+##########
+
+NEA_mount_tai = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_mount_tai.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	cost_gold = 5000
+	cost_prestige = 5000
+	
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.10
+		stress_loss_mult = 0.05
+	}
+	province_modifier = {
+		mountains_travel_danger = 45
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Shaolin Monastery - 少林寺
+##########
+
+NEA_shaolin_monastery = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_shaolin_monastery.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_piety_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.03
+		martial = 2
+		prowess_per_piety_level = 1
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Temple of Confucius (Qufu) - 孔廟
+##########
+
+NEA_temple_of_confucius = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_temple_of_confucius.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+				#religion = religion:confucianism
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.5
+		monthly_piety_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+		learning = 1
+		learning_per_piety_level = 1
+		powerful_vassal_opinion = 5
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Iron Pagoda - 鐵塔
+##########
+
+NEA_iron_pagoda = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_iron_pagoda.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_piety_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+		learning = 1
+		stewardship = 1
+		religious_vassal_opinion = 5
+	}
+	province_modifier = {
+		monthly_income = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Wannian Temple - 萬年寺
+##########
+
+NEA_wannian_temple = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_wannian_temple.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.25
+		monthly_piety_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.05
+		learning = 2
+	}
+	province_modifier = {
+		monthly_income = 0.5
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.05
+		development_growth_factor = 0.05
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+}
+
+##########
+#Wuhou Temple (Chengdu) - 武侯祠
+##########
+
+NEA_wuhou_temple = {
+
+	construction_time = very_slow_construction_time
+	type_icon = "icon_structure_wuhou_temple.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder = {
+			OR = {
+				religion = religion:buddhism_religion
+				religion = religion:taoism_religion
+				#religion = religion:confucianism #유교
+			}
+		}
+	}
+	cost_gold = 2500
+	cost_prestige = 2000
+	cost_piety = 2000
+	
+	character_modifier = {
+		monthly_piety = 0.3
+		monthly_piety_gain_mult = 0.1
+		monthly_dynasty_prestige_mult = 0.1
+		learning = 2
+		stewardship = 2
+	}
+	province_modifier = {
+		monthly_income = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = 0.08
+		development_growth_factor = 0.05
+		county_opinion_add = 20
+	}
+	ai_value = {
+		base = 150
+	}
+	type = special
+}
+
+##########
+#Shanhaiguan - 山海關
+##########
+
+NEA_shanhaiguan = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_shanhaiguan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+			has_innovation = innovation_barracks
+		}
+	}
+	
+	cost_gold = 1000
+	cost_prestige = 1000
+	
+	max_garrison = 500
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	province_modifier = { 
+		defender_holding_advantage = 6
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_toughness_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		travel_danger = -15
+	}
+	county_modifier = { 
+		tax_mult = 0.03
+		development_growth = 0.03
+		monthly_county_control_change_add = 0.05
+		hostile_raid_time = 1
+	}
+	ai_value = {
+		base = 150
+	}
+	
+	type = special
+}
+
+##########
+#Yanmenguan - 雁門關
+##########
+
+NEA_yanmenguan = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_yanmenguan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+			has_innovation = innovation_barracks
+		}
+	}
+	
+	cost_gold = 1000
+	cost_prestige = 1000
+	
+	max_garrison = 500
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	province_modifier = { 
+		defender_holding_advantage = 6
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_toughness_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		travel_danger = -15
+	}
+	county_modifier = { 
+		tax_mult = 0.03
+		development_growth = 0.03
+		monthly_county_control_change_add = 0.05
+		hostile_raid_time = 1
+	}
+	ai_value = {
+		base = 150
+	}
+	
+	type = special
+}
+
+##########
+#Jianmenguan - 劍門關
+##########
+
+NEA_jianmenguan = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_jianmenguan.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+			has_innovation = innovation_barracks
+		}
+	}
+	
+	cost_gold = 1000
+	cost_prestige = 1000
+	
+	max_garrison = 500
+	
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+	province_modifier = { 
+		defender_holding_advantage = 6
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = normal_maa_toughness_tier_2
+		stationed_maa_toughness_mult = normal_maa_toughness_tier_2
+		travel_danger = -15
+	}
+	county_modifier = { 
+		tax_mult = 0.03
+		development_growth = 0.03
+		monthly_county_control_change_add = 0.05
+		hostile_raid_time = 1
+	}
+	ai_value = {
+		base = 150
+	}
+	
+	type = special
+}

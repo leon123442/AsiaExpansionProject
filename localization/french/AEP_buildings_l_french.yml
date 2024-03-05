@@ -1,43 +1,73 @@
 ﻿l_french:
- building_type_great_wall_of_china_01:0 "Grande Muraille" # 万里长城 - 损坏
- building_type_great_wall_of_china_01_desc:0 "La Grande Muraille de Chine a d'abord acquis une renommée pendant le règne du premier empereur de Chine, Qin Shi Huang Di, qui a lancé un projet ambitieux visant à relier et à étendre les tronçons existants du mur afin de créer une barrière défensive redoutable contre les tribus nomades du nord."
- building_great_wall_of_china_01:0 "Grande Muraille - Endommagé"
- building_great_wall_of_china_01_desc:0 "$building_type_great_wall_of_china_01_desc$"
+ building_type_AEP_great_wall_of_china:0 "Grande Muraille" # 万里长城 - 损坏
+ building_type_AEP_great_wall_of_china_desc:0 "La Grande Muraille de Chine a pris de l'importance à l'époque du premier empereur de Chine, Qin Shi Huang Di, qui a orchestré une initiative ambitieuse pour unifier et étendre les segments préexistants de la muraille, formant ainsi une solide fortification défensive contre les tribus nomades du nord. \n\nCependant, malgré les expansions continues par les dynasties ultérieures, de nombreux segments plus anciens ont depuis décliné, réduisant leur importance en tant que structure défensive."
+ building_AEP_great_wall_of_china:0 "$building_type_AEP_great_wall_of_china$"
+ building_AEP_great_wall_of_china_desc:0 "$building_type_AEP_great_wall_of_china_desc$"
  
- building_type_great_wall_of_china_02:0 "Grande Muraille" # 万里长城 - 修复
- building_type_great_wall_of_china_02_desc:0 "Cette section de l'antique et redoutable Grande Muraille de Chine a été restaurée dans toute sa splendeur passée après avoir précédemment été laissée à l'abandon, presque en ruines. Le royaume peut désormais se reposer tranquille, sachant qu'il est mieux protégé contre la menace nomade constante venant du nord."
- building_great_wall_of_china_02:0 "Grande Muraille - Restauré"
- building_great_wall_of_china_02_desc:0 "$building_type_great_wall_of_china_02_desc$"
+ building_type_AEP_giant_wild_goose_pagoda:0 "Grande pagode de l'oie sauvage" # 大雁塔
+ building_type_AEP_giant_wild_goose_pagoda_desc:0 "La pagode de l'Oie sauvage géante a été initialement construite en 649 après J.-C. pendant le règne de l'empereur Gaozong de la dynastie Tang afin d'abriter les écritures bouddhistes rapportées en Chine par le moine et érudit Xuanzang. \n\nDepuis sa construction, elle est devenue un repère renommé le long de la Route de la Soie et représente la signification culturelle et religieuse durable du bouddhisme."
+ building_AEP_giant_wild_goose_pagoda:0 "$building_type_AEP_giant_wild_goose_pagoda$"
+ building_AEP_giant_wild_goose_pagoda_desc:0 "$building_type_AEP_giant_wild_goose_pagoda_desc$"
  
- building_type_giant_wild_goose_pagoda_01:0 "Grande pagode de l'oie sauvage" # 大雁塔
- building_type_giant_wild_goose_pagoda_01_desc:0 "La pagode de l'Oie sauvage géante a été initialement construite en 649 après J.-C. pendant le règne de l'empereur Gaozong de la dynastie Tang afin d'abriter les écritures bouddhistes rapportées en Chine par le moine et érudit Xuanzang. \n\nDepuis sa construction, elle est devenue un repère renommé le long de la Route de la Soie et représente la signification culturelle et religieuse durable du bouddhisme."
- building_giant_wild_goose_pagoda_01:0 "$building_type_giant_wild_goose_pagoda_01$"
- building_giant_wild_goose_pagoda_01_desc:0 "$building_type_giant_wild_goose_pagoda_01_desc$"
+ building_type_AEP_longmen_grottoes_01:0 "Grottes de Longmen" # 龙门石窟 - 第一阶段
+ building_type_AEP_longmen_grottoes_01_desc:0 "La construction des Grottes de Longmen a débuté pendant la dynastie Wei du Nord lorsque l'empereur Xiaowen a déplacé la capitale de Dàtóng à Luoyang et a initié la construction du temple Guyangdong (Shiku), le premier temple de grottes de ce genre. \n\nPlus tard, par piété filiale, l'empereur Xuanwu a fait creuser les "Trois Grottes Binyang", qui représentent plus de 30 % des grottes actuellement présentes à Longmen et ont nécessité 24 ans pour être achevées."
+ building_AEP_longmen_grottoes_01:0 "Grottes de Longmen - 1ère phase"
+ building_AEP_longmen_grottoes_01_desc:0 "$building_type_AEP_longmen_grottoes_01_desc$"
  
- building_type_longmen_grottoes_01:0 "Grottes de Longmen" # 龙门石窟 - 第一阶段
- building_type_longmen_grottoes_01_desc:0 "La construction des Grottes de Longmen a débuté pendant la dynastie Wei du Nord lorsque l'empereur Xiaowen a déplacé la capitale de Dàtóng à Luoyang et a initié la construction du temple Guyangdong (Shiku), le premier temple de grottes de ce genre. \n\nPlus tard, par piété filiale, l'empereur Xuanwu a fait creuser les "Trois Grottes Binyang", qui représentent plus de 30 % des grottes actuellement présentes à Longmen et ont nécessité 24 ans pour être achevées."
- building_longmen_grottoes_01:0 "Grottes de Longmen - 1ère phase"
- building_longmen_grottoes_01_desc:0 "$building_type_longmen_grottoes_01_desc$"
+ building_type_AEP_longmen_grottoes_02:0 "Grottes de Longmen" # 龙门石窟 - 第二阶段
+ building_type_AEP_longmen_grottoes_02_desc:0 "La deuxième phase de construction, qui s'est déroulée entre 524 et 626, a connu un développement plus lent des grottes en raison des conflits et des troubles régionaux. \n\nCette période, qui englobe le règne de la dynastie Sui (581-618) et le début de la dynastie Tang (618-907), a été marquée par des interruptions et des obstacles entravant la progression de la création des grottes."
+ building_AEP_longmen_grottoes_02:0 "Grottes de Longmen - 2ème phase"
+ building_AEP_longmen_grottoes_02_desc:0 "$building_type_AEP_longmen_grottoes_02_desc$"
  
- building_type_longmen_grottoes_02:0 "Grottes de Longmen" # 龙门石窟 - 第二阶段
- building_type_longmen_grottoes_02_desc:0 "La deuxième phase de construction, qui s'est déroulée entre 524 et 626, a connu un développement plus lent des grottes en raison des conflits et des troubles régionaux. \n\nCette période, qui englobe le règne de la dynastie Sui (581-618) et le début de la dynastie Tang (618-907), a été marquée par des interruptions et des obstacles entravant la progression de la création des grottes."
- building_longmen_grottoes_02:0 "Grottes de Longmen - 2ème phase"
- building_longmen_grottoes_02_desc:0 "$building_type_longmen_grottoes_02_desc$"
+ building_type_AEP_longmen_grottoes_03:0 "Grottes de Longmen" # 龙门石窟 - 第三阶段
+ building_type_AEP_longmen_grottoes_03_desc:0 "La troisième phase de construction, qui s'est déroulée entre 626 et 755, a été supervisée par la dynastie Tang, qui a connu la période la plus florissante de création de grottes à Longmen, avec l'épanouissement du bouddhisme chinois, entraînant la prolifération de grottes et de sculptures. \n\nEnviron 60 % des grottes de Longmen ont été créées pendant cette période, avec l'achèvement de la grotte de Fengxiansi en 675, qui met en valeur l'extraordinaire talent artistique et la grandeur de la dynastie Tang sur le versant sud de la colline occidentale."
+ building_AEP_longmen_grottoes_03:0 "Grottes de Longmen - 3e Phase"
+ building_AEP_longmen_grottoes_03_desc:0 "$building_type_AEP_longmen_grottoes_03_desc$"
  
- building_type_longmen_grottoes_03:0 "Grottes de Longmen" # 龙门石窟 - 第三阶段
- building_type_longmen_grottoes_03_desc:0 "La troisième phase de construction, qui s'est déroulée entre 626 et 755, a été supervisée par la dynastie Tang, qui a connu la période la plus florissante de création de grottes à Longmen, avec l'épanouissement du bouddhisme chinois, entraînant la prolifération de grottes et de sculptures. \n\nEnviron 60 % des grottes de Longmen ont été créées pendant cette période, avec l'achèvement de la grotte de Fengxiansi en 675, qui met en valeur l'extraordinaire talent artistique et la grandeur de la dynastie Tang sur le versant sud de la colline occidentale."
- building_longmen_grottoes_03:0 "Grottes de Longmen - 3e Phase"
- building_longmen_grottoes_03_desc:0 "$building_type_longmen_grottoes_03_desc$"
+ building_type_AEP_longmen_grottoes_04:0 "Grottes de Longmen" # 龙门石窟 - 第四阶段
+ building_type_AEP_longmen_grottoes_04_desc:0 "La quatrième et dernière phase de construction des Grottes de Longmen a eu lieu durant la fin de la dynastie Tang et s'est étendue jusqu'au règne de la dynastie Song du Nord, mais elle a connu un déclin dans la création de grottes en raison des guerres intestines entre les dynasties Jin et Yuan."
+ building_AEP_longmen_grottoes_04:0 "Grottes de Longmen - Phase finale"
+ building_AEP_longmen_grottoes_04_desc:0 "$building_type_AEP_longmen_grottoes_04_desc$"
  
- building_type_longmen_grottoes_04:0 "Grottes de Longmen" # 龙门石窟 - 第四阶段
- building_type_longmen_grottoes_04_desc:0 "La quatrième et dernière phase de construction des Grottes de Longmen a eu lieu durant la fin de la dynastie Tang et s'est étendue jusqu'au règne de la dynastie Song du Nord, mais elle a connu un déclin dans la création de grottes en raison des guerres intestines entre les dynasties Jin et Yuan."
- building_longmen_grottoes_04:0 "Grottes de Longmen - Phase finale"
- building_longmen_grottoes_04_desc:0 "$building_type_longmen_grottoes_04_desc$"
+ building_type_AEP_imperial_palace_kyoto:0 "Kyōto-gosho" # 京都御所
+ building_type_AEP_imperial_palace_kyoto_desc:0 "Le Kyōto-gosho sert de résidence à la famille impériale et regorge de caractéristiques de l'architecture traditionnelle japonaise, de jardins sereins et de structures minutieusement conçues qui reflètent l'élégance et la grandeur de la cour impériale. \n\nNiché au cœur de Kyoto, le palais offre aux passants un aperçu de la splendeur de la cour impériale et témoigne de l'esthétique raffinée de l'époque Heian."
+ building_AEP_imperial_palace_kyoto:0 "$building_type_AEP_imperial_palace_kyoto$"
+ building_AEP_imperial_palace_kyoto_desc:0 "$building_type_AEP_imperial_palace_kyoto_desc$"
  
- building_type_imperial_palace_kyoto_01:0 "Kyōto-gosho" # 京都御所
- building_type_imperial_palace_kyoto_01_desc:0 "Le Kyōto-gosho sert de résidence à la famille impériale et regorge de caractéristiques de l'architecture traditionnelle japonaise, de jardins sereins et de structures minutieusement conçues qui reflètent l'élégance et la grandeur de la cour impériale. \n\nNiché au cœur de Kyoto, le palais offre aux passants un aperçu de la splendeur de la cour impériale et témoigne de l'esthétique raffinée de l'époque Heian."
- building_imperial_palace_kyoto_01:0 "$building_type_imperial_palace_kyoto_01$"
- building_imperial_palace_kyoto_01_desc:0 "$building_type_imperial_palace_kyoto_01_desc$"
+ building_type_AEP_tongguan:0 "Passe de Tong" # Tongguan - 潼关
+ building_type_AEP_tongguan_desc:0 "Construit en 196 après J.-C. par Cao Cao pendant la dynastie des Han orientaux, le col de Tong, situé dans la province du Shaanxi, joue le rôle de point stratégique essentiel pour défendre Chang'an et la région de Guanzhong contre la plaine du nord de la Chine. \n\nAu fil du temps, le col de Tong a remplacé le col de Hangu en tant que poste stratégique principal entre Guanzhong et la plaine du nord de la Chine, et sa chute en 756 aux mains des rebelles d'An Lushan a conduit à la capture de la capitale Chang'an."
+ building_AEP_tongguan:0 "$building_type_AEP_tongguan$"
+ building_AEP_tongguan_desc:0 "$building_type_AEP_tongguan_desc$"
+ 
+ building_type_AEP_yumenguan:0 "Passe de Yumen" # Yumenguan - 玉门关
+ building_type_AEP_yumenguan_desc:0 "La Porte Yumen, également connue sous le nom de Porte de Jade, a été établie pendant la dynastie des Han occidentaux par l'empereur Wudi vers 121 av. J.-C. et a servi de principale voie de la Route de la Soie, reliant l'Asie centrale à l'Asie orientale. \n\nLa porte marquait la fin d'une ligne de défense allant de Jiuquan à la Porte de Jade, les voyageurs se dirigeant vers l'ouest quittant la Chine par cette célèbre porte."
+ building_AEP_yumenguan:0 "$building_type_AEP_yumenguan$"
+ building_AEP_yumenguan_desc:0 "$building_type_AEP_yumenguan_desc$"
+ 
+ building_type_AEP_mogao_caves:0 "Grottes de Mogao" # 莫高窟
+ building_type_AEP_mogao_caves_desc:0 "Les grottes de Mogao, également connues sous le nom de Grottes des Mille Bouddhas, ont été initialement construites pendant le règne de l'empereur Xuanzhao de la dynastie Qin antérieure et ont ensuite été étendues au fil des dynasties suivantes pour englober un vaste ensemble de 735 grottes présentant 45 000 mètres carrés de peintures murales et 2 415 sculptures en couleur d'argile, en faisant le plus grand site d'art bouddhiste au monde."
+ building_AEP_mogao_caves:0 "$building_type_AEP_mogao_caves$"
+ building_AEP_mogao_caves_desc:0 "$building_type_AEP_mogao_caves_desc$"
+ 
+ building_type_AEP_yueyang_tower:0 "Tour de Yueyang" # 岳陽樓
+ building_type_AEP_yueyang_tower_desc:0 "Située sur les rives du lac Dongting, la tour de Yueyang, l'une des Trois Grandes Tours de Jiangnan, a subi de multiples dommages, notamment des incendies, des guerres et diverses catastrophes, incitant les dirigeants successifs de différentes dynasties à entreprendre sa reconstruction."
+ building_AEP_yueyang_tower:0 "$building_type_AEP_yueyang_tower$"
+ building_AEP_yueyang_tower_desc:0 "$building_type_AEP_yueyang_tower_desc$"
+ 
+ building_type_AEP_prince_teng_pavilion:0 "Pavillon du Prince Teng" # 滕王閣
+ building_type_AEP_prince_teng_pavilion_desc:0 "Classé au premier rang parmi les Trois Grandes Tours de Jiangnan, le pavillon du Prince Teng se dresse au confluent de la rivière Ganjiang et de l'ancienne rivière Fu, sa magnificence et sa grandeur étant célébrées par Wang Bo, un leader des quatre excellence de la dynastie Tang, dans son œuvre renommée, Préface au Pavillon de Tengwang, assurant à ce pavillon une renommée et un prestige durables à travers les âges."
+ building_AEP_prince_teng_pavilion:0 "$building_type_AEP_prince_teng_pavilion$"
+ building_AEP_prince_teng_pavilion_desc:0 "$building_type_AEP_prince_teng_pavilion_desc$"
+ 
+ building_type_AEP_yellow_crane_tower:0 "Tour de la Grue jaune" # 黃鶴樓
+ building_type_AEP_yellow_crane_tower_desc:0 "Érigée au sommet de la colline de la Grue jaune surplombant Wuhan, la Tour de la Grue jaune, l'une des Trois Grandes Tours de Jiangnan, remonte à l'an 223 pendant la période des Trois Royaumes et servait de lieu de rencontre pour des personnalités éminentes et des poètes. La tour a été davantage popularisée par le célèbre poète de la dynastie Tang, Cui Hao, à travers son poème La Tour de la Grue jaune."
+ building_AEP_yellow_crane_tower:0 "$building_type_AEP_yellow_crane_tower$"
+ building_AEP_yellow_crane_tower_desc:0 "$building_type_AEP_yellow_crane_tower_desc$"
+ 
+ building_type_AEP_xi_lake:0 "Lac de l'Ouest" # 黃鶴樓
+ building_type_AEP_xi_lake_desc:0 "Le lac de l'Ouest, issu du fleuve Qiantang, a connu des interventions transformatrices au cours des dynasties Tang et Song, entreprises par des personnalités telles que Bai Juyi et Su Shi, qui ont métamorphosé le lac en une destination renommée pour sa beauté pittoresque et sa signification culturelle, attirant touristes, poètes et artistes."
+ building_AEP_xi_lake:0 "$building_type_AEP_xi_lake$"
+ building_AEP_xi_lake_desc:0 "$building_type_AEP_xi_lake_desc$"
  
  building_type_dojo_01:0 "Keikojō" # 稽古場
  building_type_dojo_01_desc:0 "Les keikojō étaient les terrains d'entraînement des anciens guerriers du Japon pendant une grande partie de l'histoire du Japon. Ces espaces étaient essentiels pour permettre au guerrier d'affiner ses prouesses martiales, d'apprendre diverses stratégies et de perfectionner sa discipline mentale. \n\nKeikojō a également joué un rôle important dans la facilitation du développement des arts martiaux traditionnels japonais, tels que le Jūdō, le Kendō, l'Aikidō, etc."
