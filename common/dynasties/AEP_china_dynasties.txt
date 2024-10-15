@@ -92,3 +92,9 @@ d_zheng = { # House of Zheng 郑
 	name = "dynn_Yaonian"
 	culture = "khitan"
 }
+
+# Jurchen
+80000031 = { # Wanyan Clan 完顏氏
+	name = "dynn_Wanyan"
+	culture = jurchen
+}

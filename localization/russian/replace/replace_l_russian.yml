@@ -1,29 +1,29 @@
 ﻿l_russian:
-# Overrides
- cn_anbei:0 "Анбей" #安北
- cn_anxi:0 "Аньси" #安西
- cn_beiting:0 "Бейтинг" #北庭
- cn_bu_gu_r:0 "Бугер" #古塔巴
- cn_changji:0 "Чанцзи" #烏宰
- cn_gaochan:0 "Гаочан" #高昌
- cn_great_liao:0 "Великий Ляо" #大遼
- cn_great_uyghur:0 "Великий уйгурский" #回鶻
- cn_jiaohe:0 "Цзяохэ" #蛟河
- cn_jumi:0 "Джуми" #且彌
- cn_kaer_jiaozhen:0 "Каэр Цзяочжэнь" #喀爾
- cn_luntai:0 "Лунтай" #輪臺
- cn_qinghe:0 "Циньхэ" #大漠
- cn_qocho:0 "Кочо" #高昌回鶻
- cn_qumul:0 "Ха Ми" #哈密力
- cn_tingzhou:0 "Тинчжоу" #庭州
- cn_tulufan:0 "Анле" #安樂
- cn_urumqi:0 "Урумчи" #烏魯木齊
- cn_waithali:0 "Вайтхали" #晦陀離
- cn_xinjiang:0 "Бейтинг" #北庭
- cn_xixia:0 "Си Ся" #西夏
- cn_yizhou:0 "Ичжоу" #伊州
- cn_yulishi:0 "Юлиши" #鬱立師
- 
- dynn_Liao:0 "Елюй" # 耶律氏
- 
- k_xia:0 "Хэси" # 河西
+ # Overrides 
+ cn_anbei: "Анбей" 
+ cn_anxi: "Анхи" 
+ cn_beiting: "Бэйтин"
+ cn_bu_gu_r: "Бугер" 
+ cn_changji: "Чанцзи"
+ cn_gaochan: "Гаочань"
+ cn_great_liao: "Великое Ляо"
+ cn_great_uyghur: "Великий уйгур" 
+ cn_jiaohe: "Цзяохэ"
+ cn_jumi: "Цзюйми"
+ cn_kaer_jiaozhen: "Кар-Цзяочжэнь"
+ cn_luntai: "Луньтай"
+ cn_qinghe: "Циньхэ" 
+ cn_qocho: "Кочо"
+ cn_qumul: "Ха Ми" 
+ cn_tingzhou: "Тинчжоу"
+ cn_tulufan: "Анле" 
+ cn_urumqi: "Урумчи" 
+ cn_waithali: "Вайшали"
+ cn_xinjiang: "Байтинг" 
+ cn_xixia: "Си Ся"
+ cn_yizhou: "Ичжоу"
+ cn_yulishi: "Юйлиши"
+  
+ dynn_Liao: "Ялу" 
+  
+ k_xia: "Хекси" 

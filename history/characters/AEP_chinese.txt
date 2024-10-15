@@ -286,13 +286,16 @@ wuzong_huangdi = { # Emperor Wuzong of Tang Empire
 }
 xuanzong_huangdi = { # Emperor Xuanzong II of Tang Empire
 	name = Yi2 # 怡
-	dna = xuanzong_huangdi_dna
+	dna = xuanzong_huangdi_dna_entry
 	dynasty = 80000001
 	religion = shangqing
 	culture = han 
 	father = xianzong_huangdi
 	810.7.27 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	830.1.1 = {
 		add_spouse = yuanzhao_empress
@@ -308,7 +311,7 @@ xuanzong_huangdi = { # Emperor Xuanzong II of Tang Empire
 # Descendants of Emperor Xuanzong
 5100001 = { # Li_Ruler of Tang Empire, Emperor Yizong
 	name = Wen4 # 溫
-	dna = yizong_huangdi_dna
+	dna = yizong_huangdi_dna_entry
 	dynasty = 80000001
 	religion = mahayana
 	culture = han
@@ -322,10 +325,8 @@ xuanzong_huangdi = { # Emperor Xuanzong II of Tang Empire
 	833.12.28 = {
 		birth = yes
 		effect = {
-			add_character_flag = {
-				flag = has_scripted_appearance
-			}
-		}
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	845.1.1 = {
 		add_spouse = hui_an_empress
@@ -711,10 +712,14 @@ xian_prince = {
 	father = 5100001 # 4th son
 	860.1.1 = { #date unknown
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	900.1.1 = { #date unknown
 		death = yes
 	}
+	dna = xian_prince_dna_entry
 }
 xizong_prince = {
 	name = Yan # 儼
@@ -725,6 +730,9 @@ xizong_prince = {
 	mother = hui_an_empress
 	862.6.8 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	873.8.16 = {
 		name = Xuan # 儇
@@ -733,6 +741,7 @@ xizong_prince = {
 		death = yes
 		name = Xizong # 僖宗
 	}
+	dna = xizong_prince_dna_entry
 }
 ji_prince = {
 	name = Bao # 保
@@ -1238,6 +1247,9 @@ yingzong_huangdi = {
 	father = zhao_yunrang
 	1032.2.16 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1048.1.1 = {
 		add_spouse = gao_xuanren
@@ -1385,6 +1397,9 @@ shenzong_huangdi = {
 	mother = gao_xuanren
 	1048.5.25 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1067.1.1 = {
 		name = Xu2 # 頊
@@ -1500,7 +1515,7 @@ zhezong_huangdi = {
 	dynasty = 80000030
 	religion = lixue
 	culture = han 
-	father = zhao_shenzong
+	father = shenzong_huangdi
 	1077.1.4 = {
 		birth = yes
 	}
@@ -1517,7 +1532,7 @@ huizong_huangdi = {
 	dynasty = 80000030
 	religion = lixue
 	culture = han 
-	father = zhao_shenzong
+	father = zhezong_huangdi
 	1082.6.7 = {
 		birth = yes
 	}
@@ -1531,13 +1546,41 @@ qinzong_huangdi = {
 	dynasty = 80000030
 	religion = lixue
 	culture = han 
-	father = zhao_huizong
+	father = huizong_huangdi
 	1100.5.23 = {
 		birth = yes
 	}
 	1161.6.14 = {
 		death = yes
 		name = Qinzong # 欽宗
+	}
+}
+gaozong_huangdi_song = {
+	name = Gou # 構
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = huizong_huangdi
+	1107.6.12 = {
+		birth = yes
+	}
+	1187.11.9 = {
+		death = yes
+		name = Gaozong # 高宗
+	}
+}
+xiaozong_huangdi = {
+	name = Shen # 昚
+	dynasty = 80000030
+	religion = lixue
+	culture = han 
+	father = gaozong_huangdi_song # Adoptive
+	1127.11.27 = {
+		birth = yes
+	}
+	1194.6.28 = {
+		death = yes
+		name = Xiaozong # 孝宗
 	}
 }
 
@@ -1610,7 +1653,7 @@ gao_xuanren = {
 	828.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1622,7 +1665,7 @@ gao_xuanren = {
 	837.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1634,7 +1677,7 @@ gao_xuanren = {
 	838.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1646,7 +1689,7 @@ gao_xuanren = {
 	832.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1658,7 +1701,7 @@ gao_xuanren = {
 	840.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1670,7 +1713,7 @@ gao_xuanren = {
 	835.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1682,7 +1725,7 @@ gao_xuanren = {
 	834.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1694,7 +1737,7 @@ gao_xuanren = {
 	824.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1706,7 +1749,7 @@ gao_xuanren = {
 	834.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1718,7 +1761,7 @@ gao_xuanren = {
 	824.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1730,7 +1773,7 @@ gao_xuanren = {
 	835.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1742,7 +1785,7 @@ gao_xuanren = {
 	830.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1754,7 +1797,7 @@ gao_xuanren = {
 	840.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1917,12 +1960,15 @@ hui_an_empress = {
 gongxian_empress = {
 	name = Gongxian # 公先
 	female = yes
-	dna = gongxian_empress_dna
+	dna = gongxian_empress_dna_entry
 	dynasty = clan_Wang_002
 	religion = shangqing
 	culture = han
 	835.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	867.6.1 = {
 		death = yes
@@ -1978,7 +2024,7 @@ yuanzhao_empress = {
 	845.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -1990,7 +2036,7 @@ yuanzhao_empress = {
 	840.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }
@@ -2002,7 +2048,7 @@ yuanzhao_empress = {
 	830.1.1 = {
 		birth = yes
 	}
-	1066.1.1 = {
+	910.1.1 = {
 		death = yes
 	}
 }

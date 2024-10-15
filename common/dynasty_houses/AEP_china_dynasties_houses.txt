@@ -80,3 +80,7 @@ house_yaonian = { # House of Yaonian 遥辇氏
     name = "dynn_Yaonian" 
     dynasty = 46600007
 }
+house_wanyan = { # House of Wanyan 完顏氏
+    name = "dynn_Wanyan" 
+    dynasty = 80000031
+}

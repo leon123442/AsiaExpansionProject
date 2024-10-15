@@ -608,7 +608,7 @@ GetActualBishopTitle = {
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_county
-			faith.religion = faith:koreanic.religion
+			faith.religion = faith:koreanic_religion
 		}
 		localization_key = councillor_court_chaplain_koreanic_religion
 	}
@@ -617,7 +617,7 @@ GetActualBishopTitle = {
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_county
-			faith.religion = faith:tai.religion
+			faith.religion = faith:tai_religion
 		}
 		localization_key = councillor_court_chaplain_tai_religion
 	}
@@ -1232,7 +1232,7 @@ GetActualBishopTitlePossessive = {
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_county
-			faith.religion = faith:koreanic.religion
+			faith.religion = faith:koreanic_religion
 		}
 		localization_key = councillor_court_chaplain_koreanic_religion_possessive
 	}
@@ -1241,7 +1241,7 @@ GetActualBishopTitlePossessive = {
 	text = {
 		trigger = {
 			liege.highest_held_title_tier >= tier_county
-			faith.religion = faith:tai.religion
+			faith.religion = faith:tai_religion
 		}
 		localization_key = councillor_court_chaplain_tai_religion_possessive
 	}

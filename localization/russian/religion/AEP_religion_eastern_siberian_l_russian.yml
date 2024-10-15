@@ -1,25 +1,25 @@
 ﻿l_russian:
- eastern_siberian_religion:0 "Eastern Siberian"
- eastern_siberian_religion_adj:0 "Eastern Siberian"
- eastern_siberian_religion_adherent:0 "Eastern Siberian"
- eastern_siberian_religion_adherent_plural:0 "Eastern Siberians"
- eastern_siberian_religion_desc:0 "Collection of Eastern Siberian religions with traditions that involve animistic and/or shamanistic practices."
- 
- moshir:0 "Moshirism"
- moshir_adj:0 "Moshiri"
- moshir_adherent:0 "Moshiri"
- moshir_adherent_plural:0 "Moshiris"
- moshir_desc:0 "According to Ainu tradition, the World can be divided into two; The Kamui-Moshir, which is the home of the spirits and divinities, and the Ainu-Moshir which is the physical realm primarily inhabited by Humans and created by a heavenly figure that raised the world from the sea. Veneration is usually given to the sanctity of nature and various Pasi-Kamui that inhabit the world."
- 
- yzng:0 "Yzngism"
- yzng_adj:0 "Yzngi"
- yzng_adherent:0 "Yz"
- yzng_adherent_plural:0 "Yzng"
- yzng_desc:0 "According to Nivkh tradition, the trees, mountains, seas, and other aspects of nature are all inhabited by spirits called Yzng, who provide sustenance to mankind in return for offerings. Among these offerings, the Bear plays an especially crucial role among the Nivkh, who venerate and raise them from the age of a cub to then sacrifice them during an elaborate ceremony as an offering to the Yzng."
- 
- hehe:0 "Hehe'ism"
- hehe_adj:0 "Hehe'i"
- hehe_adherent:0 "Hehez"
- hehe_adherent_plural:0 "Hehezi"
- hehe_desc:0 "Heheists venerate the spirit triad of Banamu Hehe, Ulden Hehe and Abka Hehe, with Abka Hehe serving as the supreme goddess of the sky who created both Ulden and Banamu. Acting as the creators of all life on earth, their divine wills are usually interpreted through wise shamans."
- 
+ eastern_siberian_religion: "Восточная Сибирь" 
+ eastern_siberian_religion_adj: "Восточная Сибирь" 
+ eastern_siberian_religion_adherent: "Восточная Сибирь" 
+ eastern_siberian_religion_adherent_plural: "Восточные сибиряки" 
+ eastern_siberian_religion_desc: "Коллекция религий Восточной Сибири с традициями, включающими анимистические и/или шаманские практики." 
+  
+ moshir: "Моширизм" 
+ moshir_adj: "Мошири" 
+ moshir_adherent: "Мошири" 
+ moshir_adherent_plural: "Моширис" 
+ moshir_desc: "Согласно традициям айнов, мир можно разделить на две части: Камуи-Мошир, где обитают духи и божества, и Айну-Мошир - физическое царство, населенное в основном людьми и созданное небесной фигурой, поднявшей мир из моря. Обычно почитается святость природы и различные паси-камуи, населяющие мир." 
+  
+ yzng: "Язнгизм" 
+ yzng_adj: "Язнги" 
+ yzng_adherent: "Яз" 
+ yzng_adherent_plural: "Язнг" 
+ yzng_desc: "Согласно нивхской традиции, деревья, горы, моря и другие аспекты природы населены духами, называемыми йцнг, которые дают человечеству пропитание в обмен на подношения. Среди этих подношений медведь играет особенно важную роль для нивхов, которые почитают и выращивают его с возраста детеныша, а затем приносят в жертву во время сложной церемонии в качестве подношения Йцнгу." 
+  
+ hehe: "Хехеизм" 
+ hehe_adj: "Хехе" 
+ hehe_adherent: "Хехес" 
+ hehe_adherent_plural: "Хехези" 
+ hehe_desc: "Хехеисты почитают триаду духов - Банаму Хехе, Ульден Хехе и Абку Хехе, причем Абка Хехе выступает в роли верховной богини неба, создавшей Ульден и Банаму. Выступая в качестве создателей всего живого на земле, их божественные воли обычно интерпретируются мудрыми шаманами." 
+  

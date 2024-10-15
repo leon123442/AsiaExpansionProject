@@ -100,6 +100,8 @@ tradition_samurai_spirit = {
 	}
 	
 	character_modifier = {
+		light_cavalry_damage_mult = 0.1
+		light_cavalry_screen_mult = 0.1
 		opinion_of_liege = 10
 		knight_limit = 2
 		negate_prowess_penalty_add = 5 # Wounded knights fight better!
@@ -450,10 +452,10 @@ tradition_austronesian_seafarers = {
 			has_cultural_pillar = heritage_dayak
 			has_cultural_pillar = heritage_north_borneo
 			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sea_gypsy
 			has_cultural_pillar = heritage_sulawesi
 			has_cultural_pillar = heritage_lesser_sunda
 			has_cultural_pillar = heritage_moluccan
-			has_cultural_pillar = heritage_papuan
 		}
 	}
 	
@@ -466,10 +468,10 @@ tradition_austronesian_seafarers = {
 			has_cultural_pillar = heritage_dayak
 			has_cultural_pillar = heritage_north_borneo
 			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sea_gypsy
 			has_cultural_pillar = heritage_sulawesi
 			has_cultural_pillar = heritage_lesser_sunda
 			has_cultural_pillar = heritage_moluccan
-			has_cultural_pillar = heritage_papuan
 		}
 	}
 	
@@ -477,6 +479,7 @@ tradition_austronesian_seafarers = {
 		trade_ports_give_control_growth = yes
 		trade_ports_give_levies = yes
 		can_travel_along_rivers = yes
+		trade_ports_enabled_for_tribals = yes
 	}
 
 	culture_modifier = {
@@ -484,7 +487,8 @@ tradition_austronesian_seafarers = {
 	}
 	character_modifier = {
 		learn_language_scheme_power_mult = 0.1
-		embarkation_cost_mult = -0.10
+		embarkation_cost_mult = -0.3
+		sea_travel_danger = medium_sea_danger_reduction
 	}
 	#effect = {
 	#	same_tradition_opinion = yes

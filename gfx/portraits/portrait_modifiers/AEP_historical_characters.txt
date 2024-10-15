@@ -1,0 +1,975 @@
+﻿aep_historical_characters_accessories = {
+
+    usage = game
+    selection_behavior = max
+    priority = 2
+
+#----------------------------------------------------867 Asia------------------------------------------------------------#
+	
+	5100001 = { # Emperor Yizong
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:5100001
+                this = character:5100001
+            }
+        }
+	}
+
+    xian_prince = { # Kan, future Prince of Ying
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:xian_prince
+                this = character:xian_prince
+            }
+        }
+    }
+    xizong_prince = { # Yan, future Emperor Xizong
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:xizong_prince
+                this = character:xizong_prince
+            }
+        }
+    }
+	
+	1600001 = { # Sessho Fujiwara no Yoshifusa
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1600001
+                this = character:1600001
+            }
+        }
+	}
+	
+	1600004 = { # Seiwa Tenno
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                accessory = bald
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1600004
+                this = character:1600004
+            }
+        }
+	}
+
+    1600005 = { # Chunagon Fujiwara no Mototsune 
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1600005
+                this = character:1600005
+            }
+        }
+	}
+
+    110000001 = { # Gyeongmun, King of Silla
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:110000001
+                this = character:110000001
+            }
+        }
+	}
+
+    kim_heongang = { # Prince Jeong, King of Silla
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:kim_heongang
+                this = character:kim_heongang
+            }
+        }
+	}
+
+    1100000100 = { # Gung ye, future King of Taebong
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                accessory = bald
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1100000100
+                this = character:1100000100
+            }
+        }
+	}
+
+    120000001 = { # King Geonhwang of Balhae
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:120000001
+                this = character:120000001
+            }
+        }
+	}
+
+    dae_hyeonseok = { # Prince Hyeonseok, future king of Balhae
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:dae_hyeonseok
+                this = character:dae_hyeonseok
+            }
+        }
+	}
+
+    4550010 = { # Chieftan Yelü Saladi
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_steppe_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:4550010
+                this = character:4550010
+            }
+        }
+	}
+
+    194325 = { # Yelü Abaoji, future founder of the Liao Dynasty
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_steppe_02
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:194325
+                this = character:194325
+            }
+        }
+	}
+	
+	421011 = { # Emperor Shilong of Nanzhao
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = indian_beards_straight
+                accessory = male_beard_indian_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:421011
+                this = character:421011
+            }
+        }
+	}
+
+    244004 = { # King Huaishen of Guiyi
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:244004
+                this = character:244004
+            }
+        }
+	}
+
+#----------------------------------------------------1066 Asia------------------------------------------------------------#
+
+    yingzong_huangdi = { # Emperor Yingzong of Song
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:yingzong_huangdi
+                this = character:yingzong_huangdi
+            }
+        }
+    }
+		
+	shenzong_huangdi = { # Prince Zhongzhen, future Emperor of China
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:shenzong_huangdi
+                this = character:shenzong_huangdi
+            }
+        }
+    }
+	
+	fujiwara_yorimichi = { # Fujiwara no Yorimichi, Regent of Japan
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:fujiwara_yorimichi
+                this = character:fujiwara_yorimichi
+            }
+        }
+    }
+		
+	goreizei_tenno = { # (Go-Reizei, Emperor of Japan
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:goreizei_tenno
+                this = character:goreizei_tenno
+            }
+        }
+    }
+		
+	kawachiminamoto_yoshiie = { # (Yoshiie, Chinjufu Shōgun
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = m_beard_ep2_western_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:kawachiminamoto_yoshiie
+                this = character:kawachiminamoto_yoshiie
+            }
+        }
+    }
+	
+	wang_munjong = { # King Munjong of Goryeo
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:wang_munjong
+                this = character:wang_munjong
+            }
+        }
+    }
+		
+	wang_sunjong = { # Prince Hyu, future King of Goryeo
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:wang_sunjong
+                this = character:wang_sunjong
+            }
+        }
+    }
+		
+	wang_seonjong = { # Prince Jeung, future King of Goryeo
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:wang_seonjong
+                this = character:wang_seonjong
+            }
+        }
+    }
+	
+	194333 = { # Emperor Daozong of Liao
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:194333
+                this = character:194333
+            }
+        }
+    }
+	
+	206651 = { # King Liangzuo of Xi Xia
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:206651
+                this = character:206651
+            }
+        }
+    }
+    
+    421111 = { # Emperor Silian of Dali
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:421111
+                this = character:421111
+            }
+        }
+	}
+	
+	ly_thanhtong = { # Emperor Lý Thánh Tông of Đại Việt
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:ly_thanhtong
+                this = character:ly_thanhtong
+            }
+        }
+	}
+
+#----------------------------------------------------------------------# AEP Others (non-bookmarks) #----------------------------------------------------------------#
+
+    xuanzong_huangdi = { # Emperor Xuanzong (唐宣) of Tang
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = male_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:xuanzong_huangdi
+                this = character:xuanzong_huangdi
+            }
+        }
+    }
+
+    gongxian_empress = { # Empress Gongxian, wife of Emperor Yizong of Tang
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = chinese_hairstyles
+                accessory = female_hair_chinese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:gongxian_empress
+                this = character:gongxian_empress
+            }
+        }
+    }
+
+    ######################################################
+
+    jimmu_tenno = { # Emperor Jinmu
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_steppe_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:jimmu_tenno
+                this = character:jimmu_tenno
+            }
+        }
+	}
+
+    kanmu_tenno = { # Kanmu Tenno
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:kanmu_tenno
+                this = character:kanmu_tenno
+            }
+        }
+	}
+
+    1600007 = { # Montoku Tenno
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = male_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                accessory = japanese_beard_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1600007
+                this = character:1600007
+            }
+        }
+    }
+
+    1600006 = { # Fujiwara no Takaiko, wife of Emperor Seiwa
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = japanese_hairstyles_straight
+                accessory = female_hair_japanese_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = empty
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:1600006
+                this = character:1600006
+            }
+        }
+    }
+	
+	shotoku_taishi = { # Prince Umayado
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_steppe_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:shotoku_taishi
+                this = character:shotoku_taishi
+            }
+        }
+	}
+	
+	kim_seonghan = { # Kim Seonghan, founder of the Kim Dynasty
+	    dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_steppe_02
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:kim_seonghan
+                this = character:kim_seonghan
+            }
+        }
+	}
+
+    420010 = { # Emperor Jayavarman II
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_indian_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_indian_01
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:420010
+                this = character:420010
+            }
+        }
+    }
+
+    420011 = { # Emperor Jayavarman III
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = scripted_character_hairstyles_01
+                accessory = male_hair_indian_01
+            }
+            accessory = {
+                mode = add
+                gene = beards
+                template = scripted_character_beards_01
+                accessory = male_beard_steppe_02
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                exists = this
+                exists = character:420011
+                this = character:420011
+            }
+        }
+    }
+}

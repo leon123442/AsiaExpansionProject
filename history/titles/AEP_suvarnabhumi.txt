@@ -1,165 +1,7 @@
-k_dai_viet = {
-	968.1.1 = {
-		de_jure_liege = "e_suvarnabhumi"
-	}
-	#Lý Dynasty
-	1009.11.20 = {
-		holder = ly_thaito
-	}
-	1028.4.1 = {
-		holder = ly_thaitong
-	}
-	1054.11.3 = {
-		holder = ly_thanhtong
-	}
-	1072.2.3 = {
-		holder = ly_nhantong
-	}
-	1128.1.15 = {
-		holder = ly_thantong
-	}
-	1138.10.31 = {
-		holder = ly_anhtong
-	}
-	1175.8.14 = {
-		holder = ly_caotong
-	}
-	1210.11.15 = {
-		holder = ly_huetong
-	}
-	1224.9.3 = {
-		holder = ly_chieuhoang
-	}
-	1225.12.31 = {
-		holder = 0
-	}
-}
-
-d_phong_chau = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-	
-	1009.11.20 = {
-		de_jure_liege = "k_dai_viet"
-	}
-}
-c_chau_phong = {
-	650.1.1 = { change_development_level = 7 }
-    1066.1.1 = { change_development_level = 10 }
-}
-
-d_bac_giang = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-	
-	1009.11.20 = {
-		de_jure_liege = "k_dai_viet"
-	}
-}
-
-
-d_thang_long = {
-	866.12.1 = {
-		holder = jiedushi_001
-	}
-	887.9.24 = {
-		holder = 0
-	}
-	1009.11.20 = {
-		de_jure_liege = "k_dai_viet"
-	}
-}
-
-c_thang_long = {
-	650.1.1 = { change_development_level = 12 }
-    1066.1.1 = { change_development_level = 18 }
-	
-	866.12.1 = {
-		holder = jiedushi_001
-		liege = "e_tang"
-	}
-	887.9.24 = {
-		holder = 0
-	}
-}
-
-c_tan_hung = {
-	650.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 15 }
-}
-
-c_hai_dong = {
-	650.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-}
-
-
-d_thanh_hoa = {
-	650.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	
-	866.12.1 = {
-		holder = jiedushi_001
-	}
-	887.9.24 = {
-		holder = 0
-	}
-	1009.11.20 = {
-		de_jure_liege = "k_dai_viet"
-	}
-}
-
-c_thanh_hoa = {
-	650.1.1 = { change_development_level = 10 }
-    1066.1.1 = { change_development_level = 15 }
-}
-
-c_lam_son = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-d_lao_nhai = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-	
-	1009.11.20 = {
-		de_jure_liege = "k_dai_viet"
-	}
-}
-
-c_lao_nhai = {
-	866.12.1 = {
-		holder = jiedushi_001
-	}
-	887.9.24 = {
-		holder = 0
-	}
-	1044.1.1 = {
-		holder = lao_nhai_placeholder_001
-	}
-}
-
-c_vi_long = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-	
-	866.12.1 = {
-		holder = jiedushi_001
-	}
-	887.9.24 = {
-		holder = 0
-	}
-	1044.1.1 = {
-		holder = con_linh_placeholder_001
-	}
-}
-
-
-
 k_champa = {
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	572.1.1 = {
 		holder = cham000 # Sambhuvarman
@@ -428,11 +270,18 @@ d_champa = {
 c_amaravati = {
 	650.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
+}
+b_simhapura = {
+	860.1.1 = {
+		holder = cham103
+	}
 }
 
 c_tribhuvanadevi = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 	
 	
@@ -444,6 +293,7 @@ d_panduranga = {
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_panduranga = {
@@ -458,87 +308,7 @@ c_kauthara = {
 	}
 }
 
-	c_dagar = {
-		860.1.1 = {
-			holder = kuy213
-			liege = "e_kambujadesa"
-		}
 
-		1060.1.1 = {
-			holder = kuy216
-			liege = "e_kambujadesa"
-		}
-    }
-    #b_dak_lak = {
-    #	860.1.1 = {
-    #		holder = kuy214
-    #	}
-	#
-    #	1060.1.1 = {
-    #		holder = kuy217
-    #	}
-    #}
-	
-    c_jarai = {
-    	860.1.1 = {
-			holder = kuy213
-			liege = "e_kambujadesa"
-		}
-
-		1060.1.1 = {
-			holder = kuy216
-			liege = "e_kambujadesa"
-		}
-    }
-    b_mnong = {
-    	860.1.1 = {
-    		holder = kuy214
-    	}
-
-    	1060.1.1 = {
-    		holder = kuy217
-    	}
-    }
-    #b_blao = {
-    #	860.1.1 = {
-    #		holder = kuy214
-    #	}
-	#
-    #	1060.1.1 = {
-    #		holder = kuy217
-    #	}
-    #}
-	
-	c_stieng = {
-		860.1.1 = {
-    		holder = kuy212
-    		government = tribal_government
-			liege = "e_kambujadesa"
-    	}
-
-    	1060.1.1 = {
-    		holder = kuy215
-    		government = tribal_government
-			liege = "e_kambujadesa"
-    	}
-	}
-	
-	c_dak_lak = {
-		860.1.1 = {
-    		holder = kuy212
-    		government = tribal_government
-			liege = "e_kambujadesa"
-    	}
-
-    	1060.1.1 = {
-    		holder = kuy215
-    		government = tribal_government
-			liege = "e_kambujadesa"
-    	}
-	}
-	
-	
-	
 e_kambujadesa = {
 	# Only so Jayavarman will be Jayavarman II
 	657.1.1 = {
@@ -610,8 +380,8 @@ e_kambujadesa = {
 	1165.1.1 = {
 		holder = 420033
 	}
-	1181.1.1 = {
-		holder = 420034
+	1177.1.1 = {
+		holder = 420034 # Not actually corronated until 1181
 	}
 	1218.1.1 = {
 		holder = 420035
@@ -623,6 +393,7 @@ e_kambujadesa = {
 k_chenla = {
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 	
 	550.1.1 = {
 		holder = 420000
@@ -720,8 +491,8 @@ k_chenla = {
 	1165.1.1 = {
 		holder = 420033
 	}
-	1181.1.1 = {
-		holder = 420034
+	1177.1.1 = {
+		holder = 420034 # Not actually corronated until 1181
 	}
 	1218.1.1 = {
 		holder = 420035
@@ -734,6 +505,7 @@ k_chenla = {
 c_aninditapura = {
 	650.1.1 = { change_development_level = 18 }
     1066.1.1 = { change_development_level = 25 }
+	1178.1.1 = { change_development_level = 50 }
 	
 	550.1.1 = {
 	holder = 420000
@@ -831,8 +603,8 @@ c_aninditapura = {
 	1165.1.1 = {
 		holder = 420033
 	}
-	1181.1.1 = {
-		holder = 420034
+	1177.1.1 = {
+		holder = 420034 # Not actually corronated until 1181
 	}
 	1218.1.1 = {
 		holder = 420035
@@ -845,11 +617,13 @@ c_aninditapura = {
 c_sambor_prey_kuk = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_srey = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_palha = { # c_preah_vihear
@@ -860,6 +634,7 @@ c_palha = { # c_preah_vihear
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_battambang = {
@@ -871,11 +646,13 @@ c_battambang = {
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_bakheng = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_sambot = {
@@ -886,6 +663,9 @@ c_sambot = {
 	}
 	1066.1.1 = {
 		holder = 420025
+	}
+	1177.1.1 = {
+		holder = 420034
 	}
 }
 c_battambang = {
@@ -927,6 +707,7 @@ c_pursat = {
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 
@@ -943,6 +724,9 @@ d_phnom = {
 	}
 	852.1.1 = {
 		holder = 42001041
+	}
+	900.1.1 = {
+		holder = 0
 	}
 }
 c_vyadhapura = {
@@ -976,6 +760,7 @@ c_popel = {
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 
@@ -1003,13 +788,16 @@ d_ban_lung = {
 		holder = 420010b
 	}
 	849.1.1 = {
-			holder = 4200102
+		holder = 4200102
 	}
 	857.1.1 = {
 		holder = 420012
 	}
-		889.1.1 = {
+	889.1.1 = {
 		holder = 420013
+	}
+	910.1.1 = {
+		holder = 0
 	}
 	
 	650.1.1 = { change_development_level = 5 }
@@ -1026,16 +814,23 @@ d_ban_lung = {
 			holder = kuy216
 			liege = "e_kambujadesa"
 		}
+
+		1178.1.1 = {
+			holder = ratanad_kiri_placeholder_001
+			liege = "e_kambujadesa"
+		}
     }
 	
 	c_sambor = {
 		650.1.1 = { change_development_level = 6 }
 		1066.1.1 = { change_development_level = 9 }
+		1178.1.1 = { change_development_level = 14 }
 	}
 	
 	c_siem_pang = {
 		650.1.1 = { change_development_level = 6 }
 		1066.1.1 = { change_development_level = 9 }
+		1178.1.1 = { change_development_level = 14 }
 	}
 
 	c_thala_borivat = {
@@ -1062,13 +857,16 @@ d_ban_lung = {
 			holder = 420010b
 		}
 		849.1.1 = {
-				holder = 4200102
+			holder = 4200102
 		}
 		857.1.1 = {
 			holder = 420012
 		}
-			889.1.1 = {
+		889.1.1 = {
 			holder = 420013
+		}
+		910.1.1 = {
+			holder = 0
 		}
 	}
 	
@@ -1085,10 +883,66 @@ c_jarai = {
 		holder = kuy216
 		liege = "e_kambujadesa"
 	}
+	1178.1.1 = {
+		holder = ratanad_kiri_placeholder_001
+		liege = "e_kambujadesa"
+	}
 }
-b_simhapura = {
+
+c_dagar = {
 	860.1.1 = {
-		holder = cham103
+		holder = kuy213
+		liege = "e_kambujadesa"
+	}
+
+	1060.1.1 = {
+		holder = kuy216
+		liege = "e_kambujadesa"
+	}
+
+	1178.1.1 = {
+		holder = ratanad_kiri_placeholder_001
+		liege = "e_kambujadesa"
+	}
+}
+
+c_dak_lak = {
+	860.1.1 = {
+		holder = kuy212
+		government = tribal_government
+		liege = "e_kambujadesa"
+	}
+
+	1060.1.1 = {
+		holder = kuy215
+		government = tribal_government
+		liege = "e_kambujadesa"
+	}
+
+	1178.1.1 = {
+		holder = dak_lak_placeholder_001
+		government = tribal_government
+		liege = "e_kambujadesa"
+	}
+}
+
+c_blao = {
+	860.1.1 = {
+		holder = kuy212
+		government = tribal_government
+		liege = "e_kambujadesa"
+	}
+
+	1060.1.1 = {
+		holder = kuy215
+		government = tribal_government
+		liege = "e_kambujadesa"
+	}
+
+	1178.1.1 = {
+		holder = dak_lak_placeholder_001
+		government = tribal_government
+		liege = "e_kambujadesa"
 	}
 }
 	
@@ -1099,9 +953,13 @@ d_cochinchina = {
 		liege = "e_kambujadesa"
 		government = feudal_government
 	}
+	900.1.1 = {
+		holder = 0
+	}
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
     c_can_tho = {
@@ -1121,20 +979,27 @@ d_cochinchina = {
 	c_kampot = {
 		650.1.1 = { change_development_level = 7 }
 		1066.1.1 = { change_development_level = 10 }
+		1178.1.1 = { change_development_level = 16 }
     }
 	
 	c_west_ma = {
 		860.1.1 = {
-    		holder = kuy212
+    		holder = kuy214
     		government = tribal_government
 			liege = "e_kambujadesa"
     	}
 
     	1060.1.1 = {
-    		holder = kuy215
+    		holder = kuy217
     		government = tribal_government
 			liege = "e_kambujadesa"
     	}
+
+		1178.1.1 = {
+			holder = west_ma_placeholder_001
+    		government = tribal_government
+			liege = "e_kambujadesa"
+		}
 		
 		650.1.1 = { change_development_level = 5 }
 		1066.1.1 = { change_development_level = 8 }
@@ -1142,16 +1007,22 @@ d_cochinchina = {
 	
 	c_ma_vn = {
 		860.1.1 = {
-    		holder = kuy212
+    		holder = kuy214
     		government = tribal_government
 			liege = "e_kambujadesa"
     	}
 
     	1060.1.1 = {
-    		holder = kuy215
+    		holder = kuy217
     		government = tribal_government
 			liege = "e_kambujadesa"
     	}
+
+		1178.1.1 = {
+			holder = west_ma_placeholder_001
+    		government = tribal_government
+			liege = "e_kambujadesa"
+		}
 		
 		650.1.1 = { change_development_level = 5 }
 		1066.1.1 = { change_development_level = 8 }
@@ -1194,9 +1065,13 @@ k_haripunjaya = {
     1060.1.1 = {
         holder = mon059
     }
+	1178.1.1 = {
+		holder = haripunjaya_placeholder_001
+	}
 	
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 }
 
 
@@ -1234,11 +1109,15 @@ d_haripunjaya = {
     1060.1.1 = {
         holder = mon059
     }
+	1178.1.1 = {
+		holder = haripunjaya_placeholder_001
+	}
 }
 
 c_haripunjaya = {
 	650.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
 	
     663.1.1 = {
         holder = jamadevi002
@@ -1273,11 +1152,15 @@ c_haripunjaya = {
 	1060.1.1 = {
 		holder = mon059
 	}
+	1178.1.1 = {
+		holder = haripunjaya_placeholder_001
+	}
 }
 
 c_ngoenyang = {
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 c_chiang_mai = {
@@ -1301,6 +1184,7 @@ c_tak = {
 	
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 c_sukhothai = {
@@ -1315,11 +1199,13 @@ c_sukhothai = {
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 d_srichanasa = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_phitsanulok = {
@@ -1360,11 +1246,13 @@ c_phetchabun = {
 	
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 k_isana = {
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 }
 d_sangkapura = {
 	650.1.1 = {
@@ -1425,39 +1313,16 @@ d_sangkapura = {
 		government = feudal_government
 		liege = "e_kambujadesa"
 	}
-
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
+	1178.1.1 = {
+		holder = sangkapura_placeholder_001
+		liege = "e_kambujadesa"
 	}
 }
 
 c_sangkapura = {
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 
@@ -1469,33 +1334,9 @@ d_nong_khai = {
 		holder = khmerv005
 		liege = "e_kambujadesa"
 	}
-
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
+	1178.1.1 = {
+		holder = nong_khai_placeholder_001
+		liege = "e_kambujadesa"
 	}
 }
 
@@ -1506,6 +1347,7 @@ c_nong_khai = {
 	
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 c_udon_thani = {
@@ -1575,38 +1417,16 @@ d_kalasin = {
 		holder = khmerv006
 		liege = "e_kambujadesa"
 	}
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
+	1178.1.1 = {
+		holder = kalasin_placeholder_001
+		liege = "e_kambujadesa"
 	}
 }
 
 c_buriram = {
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 
@@ -1615,176 +1435,12 @@ d_canasapura = {
 		holder = khmerv007
 		liege = "e_kambujadesa"
 	}
-}
-
-
-k_lanxang = {
-	650.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
-}
-
-d_luang_prabang = {
-	866.1.1 = {
-		holder = nanzhao109
-		liege = "k_nanzhong"
-	}
-	1060.1.1 = {
-        holder = luang_prabang_placeholder_001
+	1178.1.1 = {
+		holder = canasapura_placeholder_001
 		liege = "e_kambujadesa"
-    }
-}
-
-d_luang_namtha = {
-	866.1.1 = {
-        holder = nanzhao107
-		liege = "k_nanzhong"
-    }
-	1060.1.1 = {
-        holder = luang_namtha_placeholder_001
-		liege = "e_kambujadesa"
-    }
-}
-
-c_muang_thaeng = {
-	866.1.1 = {
-        holder = nanzhao107
-    }
-	1060.1.1 = {
-        holder = luang_namtha_placeholder_001
-    }
-}
-
-c_muang_so = {
-	866.1.1 = {
-        holder = nanzhao103
-    }
-	1060.1.1 = {
-        holder = yinsheng_placeholder_001
-		liege = "k_dali"
-    }
-}
-
-d_samabuli = {
-	1060.1.1 = {
-        holder = samabuli_placeholder_001
-		liege = "e_kambujadesa"
-    }
-}
-
-c_pan_phonsai = {
-	860.1.1 = {
-        holder = nanzhao109
-		liege = "k_nanzhong"
-    }
-}
-
-
-d_vientiane = {
-	1060.1.1 = {
-        holder = vientiane_placeholder_001
-		liege = "e_kambujadesa"
-    }
-}
-
-c_vientiane = {
-	650.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-}
-
-c_bolikhamsai = {
-	650.1.1 = {
-		holder = gotapura001
-		government = feudal_government
-	}
-	665.1.1 = {
-		holder = gotapura002
-	}
-	686.1.1 = {
-		holder = gotapura003
-	}
-	700.1.1 = {
-		holder = gotapura004
-	}
-	729.1.1 = {
-		holder = gotapura005
-	}
-	756.1.1 = {
-		holder = gotapura006
-	}
-	777.1.1 = {
-		holder = gotapura007
-	}
-	798.1.1 = {
-		holder = gotapura008
-	}
-	814.1.1 = {
-		holder = gotapura009
-	}
-	805.1.1 = {
-		holder = gotapura010
-	}
-	845.1.1 = {
-		holder = gotapura011
-	}
-	853.1.1 = {
-		holder = gotapura012
-	}
-	861.1.1 = {
-		holder = gotapura013
-	}
-	883.1.1 = {
-		holder = gotapura014
-	}
-	901.1.1 = {
-		holder = gotapura015
-	}
-	923.1.1 = {
-		holder = gotapura016
-	}
-	945.1.1 = {
-		holder = gotapura017
-	}
-
-	1060.1.1 = {
-		holder = khmerv001
-		government = feudal_government
-	}
-
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
 	}
 }
 
-c_bolikhamsai_highland = {
-	1060.1.1 = {
-        holder = vientiane_placeholder_001
-		liege = "e_kambujadesa"
-    }
-}
 
 c_thakhek = {
 	650.1.1 = {
@@ -1844,33 +1500,8 @@ c_thakhek = {
 		holder = khmerv001
 		government = feudal_government
 	}
-
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
+	1178.1.1 = {
+		holder = sangkapura_placeholder_001
 	}
 }
 
@@ -1883,6 +1514,11 @@ c_mahasay = {
 		liege = "e_kambujadesa"
 		government = feudal_government
 	}
+	1178.1.1 = {
+		holder = mahasay_placeholder_001
+		liege = "e_kambujadesa"
+		government = feudal_government
+	}
 }
 
 c_seponh = {
@@ -1891,6 +1527,11 @@ c_seponh = {
     }
 	1066.1.1 = {
 		holder = khmerv002
+		liege = "e_kambujadesa"
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = mahasay_placeholder_001
 		liege = "e_kambujadesa"
 		government = feudal_government
 	}
@@ -1910,43 +1551,23 @@ d_prungnagara = {
 		liege = "e_kambujadesa"
 	}
 
-	1080.1.1 = {
-		holder = 420023
-	}
-	1107.1.1 = {
-		holder = 420028
-	}
-	1113.1.1 = {
-		holder = 420030
-	}
-	1150.1.1 = {
-		holder = 420031
-	}
-	1156.1.1 = {
-		holder = 420032
-	}
-	1165.1.1 = {
-		holder = 420033
-	}
-	1181.1.1 = {
-		holder = 420034
-	}
-	1218.1.1 = {
-		holder = 420035
-	}
-	1243.1.1 = {
-		holder = 420036
+	1178.1.1 = {
+		holder = prungnagara_placeholder_001
+		government = feudal_government
+		liege = "e_kambujadesa"
 	}
 }
 
 c_shrestapura = {
 	650.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
 }
 
 c_champassak = {
 	650.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 
@@ -1962,36 +1583,15 @@ k_lavapura = { # Lavo
         liege = "e_kambujadesa"
     }
 
-    1080.1.1 = {
-        holder = 420023
-    }
-    1107.1.1 = {
-        holder = 420028
-    }
-    1113.1.1 = {
-        holder = 420030
-    }
-    1150.1.1 = {
-        holder = 420031
-    }
-    1156.1.1 = {
-        holder = 420032
-    }
-    1165.1.1 = {
-        holder = 420033
-    }
-    1181.1.1 = {
-        holder = 420034
-    }
-    1218.1.1 = {
-        holder = 420035
-    }
-    1243.1.1 = {
-        holder = 420036
-    }
+	1178.1.1 = {
+		holder = lavo_placeholder_001
+		liege = 0
+        government = feudal_government
+	}
 	
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 }
 
 d_lavo = {
@@ -2005,42 +1605,22 @@ d_lavo = {
         government = feudal_government
         liege = "e_kambujadesa"
     }
-
-    1080.1.1 = {
-        holder = 420023
-    }
-    1107.1.1 = {
-        holder = 420028
-    }
-    1113.1.1 = {
-        holder = 420030
-    }
-    1150.1.1 = {
-        holder = 420031
-    }
-    1156.1.1 = {
-        holder = 420032
-    }
-    1165.1.1 = {
-        holder = 420033
-    }
-    1181.1.1 = {
-        holder = 420034
-    }
-    1218.1.1 = {
-        holder = 420035
-    }
-    1243.1.1 = {
-        holder = 420036
-    }
+	
+	1178.1.1 = {
+		holder = lavo_placeholder_001
+		liege = 0
+        government = feudal_government
+	}
 	
 	650.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_lopburi = {
 	650.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
 }
 
 c_u_thong = {
@@ -2088,6 +1668,7 @@ c_kanchaburi = {
 	
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 }
 
 c_denglaem = {
@@ -2102,6 +1683,7 @@ c_denglaem = {
 	
 	650.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 }
 
 c_sangkhla = {
@@ -2116,6 +1698,52 @@ c_sangkhla = {
 	1060.1.1 = {
 		holder = sangkhla_placeholder_002
 		liege = "k_lavapura"
+	}
+}
+
+c_tanintharyi = {
+	860.1.1 = {
+		holder = tanintharyi_placeholder_001
+		liege = "k_lavapura"
+	}
+	1060.1.1 = {
+		holder = tanintharyi_placeholder_002
+		liege = "k_lavapura"
+	}
+}
+c_myeik = {
+	860.1.1 = {
+		holder = tanintharyi_placeholder_001
+		liege = "k_lavapura"
+	}
+	1060.1.1 = {
+		holder = tanintharyi_placeholder_002
+		liege = "k_lavapura"
+	}
+}
+
+c_tanangsi = {
+	850.1.1 = {
+		holder = tambralinga_tua_001
+	}
+	1060.1.1 = {
+		holder = mon200
+		liege = "k_lavapura"
+	}
+	1100.1.1 = {
+		holder = 0
+	}
+	1181.1.1 = {
+		holder = tambralinga100 # Semi-Historical
+	}
+	1222.1.1 = {
+		holder = tambralinga101 # Historical, Fictional Coro. Date
+	}
+	1230.1.1 = {
+		holder = tambralinga102 # Historical
+	}
+	1262.1.1 = {
+		holder = tambralinga103 # Historical
 	}
 }
 
@@ -2142,1139 +1770,4 @@ c_uthomporn = {
 	1262.1.1 = {
 		holder = tambralinga103 # Historical
 	}
-}
-
-k_nanzhong = {
-    # 649 founding as tributary of Tang
-
-    # 704 tributary of Tibet
-
-    738.1.1 = {
-        government = tribal_government
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 0
-        de_jure_liege = 0
-    }
-	
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-#k_dachanghe = {
-#	902.1.1 = {
-#        holder = 421200
-#	de_jure_liege = "e_suvarnabhumi"
-#    }
-#    909.1.1 = {
-#        holder = zheng0007
-#    }
-#    926.1.1 = {
-#        holder = zheng0008
-#    }
-#	928.1.1 = {
-#		holder = 0
-#		de_jure_liege = 0
-#	}
-#}
-
-# Datianxing 928-929
-# Dayining 929-937
-
-k_dali = {
-	937.1.1 = {
-        holder = 421101 # Duan Siping
-        government = feudal_government
-		de_jure_liege = "e_suvarnabhumi"
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1094.1.1 = {
-        holder = dali_gao001
-		name = DAZHONG
-    }
-    1096.1.1 = {
-        holder = duan0103
-		name = DALI
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	1253.1.1 = {
-		holder = 0
-		de_jure_liege = 0
-	}
-}
-
-d_dali = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-		de_jure_liege = "k_dali"
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	1253.1.1 = {
-		holder = 0
-		de_jure_liege = "k_yunnan"
-	}
-	
-	650.1.1 = { change_development_level = 7 }
-    1066.1.1 = { change_development_level = 10 }
-}
-
-c_yanjim = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	
-	650.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-}
-
-c_nongdong = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-}
-
-
-d_yongchang = {
-	866.1.1 = {
-		holder = nanzhao102
-		liege = "k_nanzhong"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = yongchang_placeholder_001
-		liege = "k_dali"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_yunnan"
-	}
-}
-
-
-d_yinsheng = {
-	866.1.1 = {
-		holder = nanzhao103
-		liege = "k_nanzhong"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = yinsheng_placeholder_001
-		liege = "k_dali"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_yunnan"
-	}
-}
-
-
-d_tonghai = {
-	866.1.1 = {
-		holder = nanzhao104
-		liege = "k_nanzhong"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = tonghai_placeholder_001
-		liege = "k_dali"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_yunnan"
-	}
-	
-	650.1.1 = { change_development_level = 7 }
-    1066.1.1 = { change_development_level = 10 }
-}
-
-c_temo = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-c_heman = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-d_tuodong = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-		de_jure_liege = "k_dali"
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	1253.1.1 = {
-		de_jure_liege = "k_yunnan"
-	}
-}
-
-c_shanchan = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	
-	650.1.1 = { change_development_level = 12 }
-	1066.1.1 = { change_development_level = 18 }
-}
-
-c_mile = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	
-	650.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-}
-
-c_shicheng = {
-	728.1.1 = {
-        holder = 421003
-    }
-    748.1.1 = {
-        holder = 421004
-    }
-    779.1.1 = {
-        holder = 421006
-    }
-    808.1.1 = {
-        holder = 421007
-    }
-    809.1.1 = {
-        holder = 421008
-    }
-    816.1.1 = {
-        holder = 421009
-    }
-    823.1.1 = {
-        holder = 421010
-    }
-    859.1.1 = {
-        holder = 421011 # Youshilong
-    }
-    877.1.1 = {
-        holder = 421012 # Longshun
-    }
-    897.1.1 = {
-        holder = 421013 # Shunhuazhen
-    }
-    902.1.1 = {
-        holder = 421200
-    }
-    909.1.1 = {
-        holder = zheng0007
-    }
-    926.1.1 = {
-        holder = zheng0008
-    }
-    937.1.1 = {
-        holder = 421101 # Duan Siping
-    }
-    944.1.1 = {
-        holder = 421102
-    }
-    945.1.1 = {
-        holder = 421103
-    }
-    952.1.1 = {
-        holder = 421104
-    }
-    968.1.1 = {
-        holder = 421105
-    }
-    985.1.1 = {
-        holder = 421106
-    }
-    1009.1.1 = {
-        holder = 421107
-    }
-    1022.1.1 = {
-        holder = 421108
-    }
-    1026.1.1 = {
-        holder = 421109
-    }
-    1041.1.1 = {
-        holder = 421110
-    }
-    1044.1.1 = {
-        holder = 421111
-    }
-    1074.1.1 = {
-        holder = duan0100
-    }
-    1080.1.1 = {
-        holder = duan0101
-    }
-    1081.1.1 = {
-        holder = duan0102
-    }
-    1095.1.1 = {
-        holder = dali_gao001
-    }
-    1096.1.1 = {
-        holder = duan0103
-    }
-    1108.1.1 = {
-        holder = duan0104
-    }
-    1147.1.1 = {
-        holder = duan0105
-    }
-    1171.1.1 = {
-        holder = duan0106
-    }
-    1200.1.1 = {
-        holder = duan0107
-    }
-    1204.1.1 = {
-        holder = duan0108
-    }
-    1239.1.1 = {
-        holder = duan0109
-    }
-    1251.1.1 = {
-        holder = duan0110
-    }
-	
-	650.1.1 = { change_development_level = 10 }
-	1066.1.1 = { change_development_level = 15 }
-}
-
-c_wusa = {
-	866.1.1 = {
-		holder = nanzhao108
-	}
-	1066.1.1 = {
-		holder = jiannan_jiedushi_002
-		liege = "e_song"
-	}
-}
-
-c_wumeng = {
-	866.1.1 = {
-		holder = nanzhao108
-	}
-	1066.1.1 = {
-		holder = jiannan_jiedushi_002
-		liege = "e_song"
-	}
-}
-
-
-d_jianchuan = {
-	866.1.1 = {
-		holder = nanzhao106
-		liege = "k_nanzhong"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = jianchuan_placeholder_001
-		liege = "k_dali"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_yunnan"
-	}
-	
-	650.1.1 = { change_development_level = 7 }
-    1066.1.1 = { change_development_level = 10 }
-}
-
-
-d_luodian = {
-	860.1.1 = { # Fictional placeholder
-		holder = qianzhong_jiedushi_001
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = qianzhong_jiedushi_002
-		liege = "e_song"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_qianzhong"
-	}
-}
-
-d_llishui = {
-	860.1.1 = {
-        holder = nanzhao101
-		liege = "k_nanzhong"
-    }
-	937.1.1 = {
-		de_jure_liege = "k_dali"
-	}
-	1066.1.1 = {
-		holder = huichuan_placeholder_001
-		liege = "k_dali"
-	}
-	1253.1.1 = {
-		de_jure_liege = "k_shan"
-	}
-	
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-
-
-
-k_shan = {
-	650.1.1 = { change_development_level = 5 }
-    1066.1.1 = { change_development_level = 8 }
-}
-
-c_waa = {
-	859.1.1 = {
-        holder = nanzhao102
-    }
-	1060.1.1 = {
-        holder = yongchang_placeholder_001
-		liege = "k_dali"
-    }
-}
-
-c_kengtung = {
-	859.1.1 = {
-        holder = nanzhao107
-    }
-	1060.1.1 = {
-        holder = yinsheng_placeholder_001
-		liege = "k_dali"
-    }
 }

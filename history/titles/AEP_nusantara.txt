@@ -112,6 +112,7 @@ d_palembang = {
 c_palembang = {
 	700.1.1 = { change_development_level = 15 }
 	1066.1.1 = { change_development_level = 20 }
+	1178.1.1 = { change_development_level = 22 }
 
     671.1.1 = {
 		holder = sri_jayanasa_maharaja_srivijaya
@@ -150,12 +151,14 @@ c_palembang = {
 c_cengal = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
 d_lampung = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = lampung_vassal_001
@@ -170,16 +173,19 @@ d_lampung = {
 c_lampung = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 }
 
 c_tanggamus = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 d_bengkulu = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = bengkulu_vassal_001
@@ -193,24 +199,28 @@ d_bengkulu = {
 
 c_bengkulu = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
 d_musi = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_musi_rawas = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
 d_bangka_belitung = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = bangka_vassal_001
@@ -240,6 +250,7 @@ c_indragiri = {
 d_jambi = {
 	700.1.1 = { change_development_level = 15 }
 	1066.1.1 = { change_development_level = 19 }
+	1178.1.1 = { change_development_level = 22 }
 
 	850.1.1 = {
 		holder = jambi_vassal_001
@@ -254,6 +265,7 @@ d_jambi = {
 c_batanghari = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
@@ -272,6 +284,7 @@ d_minangkabau = {
 c_merangin = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = merangin_vassal_001
@@ -283,6 +296,7 @@ c_merangin = {
 d_kampar = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = kampar_vassal_001
@@ -297,6 +311,7 @@ d_kampar = {
 c_kampar = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
@@ -314,21 +329,25 @@ d_aceh = {
 c_aceh = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_west_aceh = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_south_aceh = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_perlak = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = perlak_001
@@ -342,7 +361,8 @@ c_perlak = {
 
 c_pasai = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = pasai_001
@@ -357,6 +377,7 @@ c_pasai = {
 c_gayo = {
 	700.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = gayo_001
@@ -383,6 +404,7 @@ d_panai = {
 c_panai = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 	
 	850.1.1 = {
 		holder = siak_vassal_001
@@ -393,6 +415,7 @@ c_panai = {
 c_langkat = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 	
 	850.1.1 = {
 		holder = langkat_001
@@ -402,7 +425,8 @@ c_langkat = {
 
 c_deli = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 	
 	850.1.1 = {
 		holder = langkat_001
@@ -413,8 +437,8 @@ c_deli = {
 
 
 k_mentawai = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+	700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 
 c_simeulue = {
@@ -490,6 +514,7 @@ c_enggano = {
 c_simalungun = {
 	700.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	850.1.1 = {
 		holder = langkat_001
@@ -500,6 +525,7 @@ c_simalungun = {
 c_toba = {
 	700.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = toba_001
@@ -514,6 +540,7 @@ c_toba = {
 c_barus = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 
 	850.1.1 = {
 		holder = srivijaya_vassal_001
@@ -523,23 +550,27 @@ c_barus = {
 
 c_padang = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_dharmasraya = {
 	700.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 13 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 c_mandailing = {
 	700.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 20 }
 }
 
 
 d_riau_islands = {
 	700.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 22 }
 
 	850.1.1 = {
 		holder = riau_001
@@ -554,17 +585,18 @@ d_riau_islands = {
 c_temasik = {
 	700.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 
 d_natuna = {
-    700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+    700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 
 c_natuna = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+	700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 
 	850.1.1 = {
 		holder = natuna_001
@@ -577,8 +609,8 @@ c_natuna = {
 }
 
 c_anambas = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+	700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 
 	850.1.1 = {
 		holder = anambas_001
@@ -592,8 +624,9 @@ c_anambas = {
 
 # Peninsula
 d_gelanggi = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = gangganu_001
@@ -608,11 +641,13 @@ d_gelanggi = {
 c_gelanggi = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 c_muar = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = melaka_001
@@ -625,8 +660,9 @@ c_muar = {
 }
 
 d_pahang = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = pahang_tua_001
@@ -639,18 +675,19 @@ d_pahang = {
 }
 
 c_jerantut = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+	700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 
 c_temerloh = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
+	700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 
 d_gangga_negara = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = bernam_001
@@ -676,17 +713,20 @@ d_kedah = {
 c_kedah = {
 	700.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 c_setul = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 
 
 d_langkasuka = {
-	700.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 
 	850.1.1 = {
 		holder = langkasuka_001
@@ -701,6 +741,7 @@ d_langkasuka = {
 c_terengganu = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 
 	850.1.1 = {
 		holder = langkasuka_001
@@ -715,6 +756,7 @@ c_terengganu = {
 c_patani = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 d_tambralinga = {
@@ -753,14 +795,17 @@ d_tambralinga = {
 c_ligor = {
 	700.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 c_chaiya = {
 	700.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 22 }
 }
 
 c_takola = {
 	700.1.1 = { change_development_level = 9 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
 }

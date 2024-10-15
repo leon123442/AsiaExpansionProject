@@ -1,0 +1,2263 @@
+﻿# Valid culture inputs
+
+# CULTURE_INPUT = chinese
+# CULTURE_INPUT = korean
+# CULTURE_INPUT = japanese
+# CULTURE_INPUT = ainu
+# CULTURE_INPUT = tungusic
+# CULTURE_INPUT = tibet
+# CULTURE_INPUT = southeast_asian
+# CULTURE_INPUT = papuan
+
+aep_clothes = { # Special group for the ruler designer only. The game expects this to be named "clothes"
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 2
+	
+## Chinese ##
+
+	chinese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+            base = 0
+            modifier = {
+                add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = chinese
+                }
+            }
+        }
+	}
+
+	chinese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = chinese }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = chinese
+                } 
+            }
+        }
+	}
+
+	chinese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = chinese } 
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = chinese
+                } 
+            }
+        }
+	}
+	
+	chinese_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_imperial_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				highest_held_title_tier = tier_empire
+				NOR = {
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				portrait_chinese_clothing_trigger = yes
+			}
+		}
+	}
+
+## Korean (Placeholder) ##
+
+	korean_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = korean
+				}
+			}
+		}
+	}
+
+	korean_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = korean }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = korean
+                } 
+            }
+        }
+	}
+
+	korean_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = korean } 
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = korean
+                } 
+            }
+        }
+	}
+
+	korean_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_imperial_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				highest_held_title_tier = tier_empire
+				NOR = {
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				portrait_korean_clothing_trigger = yes
+			}
+		}
+	}
+
+## Japanese ##
+
+    japanese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+            base = 0
+            modifier = {
+                add = 20
+                portrait_commoner_clothing_trigger = {
+                    CULTURE_INPUT = japanese
+                }
+            }
+        }
+	}
+
+	japanese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+                mode = add
+                gene = shogunate_special_belt_accessory
+                template = katana_01
+                range = { 1 1 }
+            }
+		}	
+		weight = {
+            base = 0
+            court_fashion_level_4_modifier = { INPUT_PARAMETER = japanese }
+            modifier = {
+                add = 50
+                portrait_low_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = japanese
+                } 
+            }
+        }
+	}
+
+	japanese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+			accessory = {
+                mode = add
+                gene = shogunate_special_belt_accessory
+                template = katana_01
+                range = { 1 1 }
+            }
+		}		
+		weight = {
+            base = 0
+            court_fashion_level_5_modifier = { INPUT_PARAMETER = japanese } 
+            modifier = {
+                add = 50
+                portrait_high_nobles_clothing_trigger = { 
+                    CULTURE_INPUT = japanese
+                } 
+            }
+        }
+	}
+	
+	japanese_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_imperial_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_title = title:d_yamato_imperial
+				NOR = {
+					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
+					government_has_flag = government_is_republic
+					AND = { is_ruler = yes government_has_flag = government_is_theocracy }
+				}
+				portrait_japanese_clothing_trigger = yes
+			}
+		}
+	}
+
+## Ryukyuan ##
+
+	ryukyuan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_commoner_clothes # Need to eventually replace this with Okinawa style kimonos
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}
+			}
+		}
+	}
+
+	ryukyuan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_low_nobility_clothes # Need to eventually replace this with Okinawa style kimonos
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = ryukyuan }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = ryukyuan
+				} 
+			}
+		}
+	}
+
+	ryukyuan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = japanese_high_nobility_clothes # Need to eventually replace this with Okinawa style kimonos
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = ryukyuan } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = ryukyuan
+				} 
+			}
+		}
+	}
+
+## Ainu ##
+
+	ainu_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_commoner_clothes # Need to eventually replace this with Attus style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = ainu
+				}
+			}
+		}
+	}
+
+	ainu_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_low_nobility_clothes # Need to eventually replace this with Attus style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = ainu } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = ainu
+				}  
+			}
+		}
+	}
+
+	ainu_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_high_nobility_clothes # Need to eventually replace this with Attus style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = ainu } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = ainu
+				} 
+			}
+		}
+	}
+
+## Tungusic ##
+
+	tungusic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_commoner_clothes # Need to eventually replace this with Kalar style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = tungusic
+				}
+			}
+		}
+	}
+
+	tungusic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_low_nobility_clothes # Need to eventually replace this with Kalar style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = tungusic } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = tungusic
+				}  
+			}
+		}
+	}
+
+	tungusic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_high_nobility_clothes # Need to eventually replace this with Kalar style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = tungusic } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = tungusic
+				} 
+			}
+		}
+	}
+
+## Tibetan ##
+
+	tibetan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_commoner_clothes # Need to eventually replace this with Chuba style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = tibetan
+				}
+			}
+		}
+	}
+
+	tibetan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_low_nobility_clothes # Need to eventually replace this with Chuba style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = tibetan } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = tibetan
+				}  
+			}
+		}
+	}
+
+	tibetan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = steppe_high_nobility_clothes # Need to eventually replace this with Chuba style robes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = tibetan } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = tibetan
+				} 
+			}
+		}
+	}
+
+## Southeast Asian ##
+
+	sea_main_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+		}
+	}
+
+	sea_main_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = southeast_asian }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+		}
+	}
+
+	sea_main_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = southeast_asian }
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+		}
+	}
+
+## Southeast Asian (Indic) ##
+
+	sea_indic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = southeast_asian }
+			modifier = {
+				add = 200
+				AND = {
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = javanese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = southeast_asian } 
+			modifier = {
+				add = 200
+				AND = {
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+## Southeast Asian (Islamic) ##
+
+	sea_islamic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_commoner_clothing_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_low_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = southeast_asian }
+			modifier = {
+				add = 200
+				AND = {
+					portrait_low_nobles_clothing_trigger = { 
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = southeast_asian } 
+			modifier = {
+				add = 200
+				AND = {
+					portrait_high_nobles_clothing_trigger = { 
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+## Papuan ##
+
+	papuan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+		}
+	}
+
+	papuan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = papuan }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = papuan
+				} 
+			}
+		}
+	}
+
+	papuan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = papuan } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = papuan
+				} 
+			}
+		}
+	}
+
+## Andamanese ##
+
+	andamanese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+		}
+	}
+
+	andamanese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}   
+		weight = {
+			base = 0
+			court_fashion_level_4_modifier = { INPUT_PARAMETER = andamanese }
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = { 
+					CULTURE_INPUT = andamanese
+				} 
+			}
+		}
+	}
+
+	andamanese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}       
+		weight = {
+			base = 0
+			court_fashion_level_5_modifier = { INPUT_PARAMETER = andamanese } 
+			modifier = {
+				add = 50
+				portrait_high_nobles_clothing_trigger = { 
+					CULTURE_INPUT = andamanese
+				} 
+			}
+		}
+	}
+
+}
+
+aep_clothes_religious = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 4
+
+## Taoism/Confucianism ##
+
+	religious_chinese_devoted_clothes = { # Taoist/Confucian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_commoner_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_religious_devoted_trigger = yes
+				portrait_religious_chinese_trigger = yes
+			}
+		}
+	}
+
+	religious_chinese_high_clothes = { # Taoist/Confucian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_high_nobility_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_trigger = yes
+				portrait_religious_chinese_trigger = yes
+			}
+		}
+	}
+
+## Shintoism ##
+
+	religious_shintoist_devoted_clothes = { # Shinto Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_shintoist_trigger = yes
+            }
+        }
+    }
+
+	religious_shintoist_high_clothes = { # Shinto Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_imperial_clothes # Need to eventually replace this with a Jōe
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_shintoist_trigger = yes
+            }
+        }
+    }
+
+## Utaki Shintoism ##
+
+	religious_utakiist_devoted_clothes = { # Utaki Shinto Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_utakiist_trigger = yes
+            }
+        }
+    }
+
+	religious_utakiist_high_clothes = { # Utaki Shinto Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_utakiist_trigger = yes
+            }
+        }
+    }
+
+## Muism ##
+
+	religious_muist_devoted_clothes = { # Muist Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_commoner_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_muist_trigger = yes
+            }
+        }
+    }
+
+	religious_muist_high_clothes = { # Muist Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_high_nobility_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_muist_trigger = yes
+            }
+        }
+    }
+
+### Ainu/Gilyak Paganism ###
+
+	religious_moshir_devoted_clothes = { # Eastern Siberian Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_moshir_trigger = yes
+            }
+        }
+    }
+
+	religious_moshir_high_clothes = { # Eastern Siberian Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_moshir_trigger = yes
+            }
+        }
+    }
+
+### Heheism (Tungusic Paganism) ###
+
+	religious_heheist_devoted_clothes = { # Eastern Siberian Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_heheist_trigger = yes
+            }
+        }
+    }
+
+	religious_heheist_high_clothes = { # Eastern Siberian Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_heheist_trigger = yes
+            }
+        }
+    }
+
+## Mainland Southeast Asian Religions ##
+
+	religious_mainland_sea_devoted_clothes = { # Mainland Southeast Asian Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_mainland_sea_trigger = yes
+            }
+        }
+    }
+
+	religious_mainland_sea_high_clothes = { # Mainland Southeast Asian Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_steppe_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_mainland_sea_trigger = yes
+            }
+        }
+    }
+
+## Insular Southeast Asian Religions ##
+
+	religious_insular_sea_devoted_clothes = { # Insular Southeast Asian Monks
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_african_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { monk_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                portrait_religious_devoted_trigger = yes
+               	portrait_religious_insular_sea_trigger = yes
+            }
+        }
+    }
+
+	religious_insular_sea_high_clothes = { # Insular Southeast Asian Priests
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = religious_african_high_clothes
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { priest_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 110
+                portrait_religious_high_trigger = yes
+                portrait_religious_insular_sea_trigger = yes
+            }
+        }
+    }
+
+}
+
+aep_clothes_armor = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 5
+
+## Chinese ##
+
+	chinese_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+					portrait_commoner_armor_in_army_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_low_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+			}
+		}
+	}
+	
+	chinese_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = chinese_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = chinese
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+					CULTURE_INPUT = chinese
+				}
+			}
+		}
+	}
+
+## Korean ##
+
+	korean_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_war_nobility_clothes
+                accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = korean
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = korean
+                    }
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = korean
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = korean
+                    }
+                }
+            }
+        }
+    }
+
+    korean_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_war_nobility_clothes
+                accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = korean
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = korean
+                }
+            }
+        }
+    }
+
+## Japanese ##
+
+	japanese_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_war_nobility_clothes
+                accessory = male_armor_samurai_02_low
+				range = { 0 1 } # For the randomness to work correctly
+            }
+			accessory = {
+                mode = add
+                gene = shogunate_special_belt_accessory
+                template = katana_01
+                range = { 1 1 }
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = japanese
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = japanese
+                    }
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = japanese
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = japanese
+                    }
+                }
+            }
+        }
+    }
+
+    japanese_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = japanese_war_nobility_clothes
+                accessory = male_armor_samurai_01_low
+				range = { 0 1 } # For the randomness to work correctly
+            }
+			accessory = {
+                mode = add
+                gene = shogunate_special_belt_accessory
+                template = katana_01
+                range = { 1 1 }
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = japanese
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = japanese
+                }
+            }
+        }
+    }
+
+## Ryukyuan ##
+
+	ryukyuan_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_war_nobility_clothes
+                accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = ryukyuan
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = ryukyuan
+                    }
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = ryukyuan
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = ryukyuan
+                    }
+                }
+            }
+        }
+    }
+
+    ryukyuan_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = chinese_war_nobility_clothes
+                accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = ryukyuan
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = ryukyuan
+                }
+            }
+        }
+    }
+
+## Ainu ##
+
+	ainu_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_abbasid_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = ainu
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = ainu
+					}
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+					portrait_commoner_armor_in_army_trigger = {
+						CULTURE_INPUT = ainu
+					}
+					portrait_low_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = ainu
+					}
+				}
+			}
+		}
+	}
+
+	ainu_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_abbasid_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = ainu
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+					CULTURE_INPUT = ainu
+				}
+			}
+		}
+	}
+
+## Tungusic ##
+
+	tungusic_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_abbasid_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = tungusic
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = tungusic
+					}
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+					portrait_commoner_armor_in_army_trigger = {
+						CULTURE_INPUT = tungusic
+					}
+					portrait_low_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = tungusic
+					}
+				}
+			}
+		}
+	}
+	
+	tungusic_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = dde_abbasid_war_nobility_clothes
+				accessory = m_clothes_sec_dde_abbasid_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = tungusic
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+					CULTURE_INPUT = tungusic
+				}
+			}
+		}
+	}
+
+## Tibetan ##
+
+	tibetan_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_war_nobility_clothes
+                accessory = m_clothes_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                }
+            }
+        }
+    }
+
+    tibetan_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_war_nobility_clothes
+                accessory = m_clothes_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = tibetan
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_high_nobles_armor_in_army_trigger = {
+                    CULTURE_INPUT = tibetan
+                }
+            }
+        }
+    }
+
+## Southeast Asian ##
+
+	sea_main_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_war_nobility_clothes
+                accessory = m_clothes_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = southeast_asian
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = southeast_asian
+                    }
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+                    portrait_commoner_armor_in_army_trigger = {
+                        CULTURE_INPUT = southeast_asian
+                    }
+                    portrait_low_nobles_armor_in_army_trigger = {
+                        CULTURE_INPUT = southeast_asian
+                    }
+                }
+            }
+        }
+    }
+
+    sea_main_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = steppe_war_nobility_clothes
+                accessory = m_clothes_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				portrait_high_nobles_armor_trigger = {
+                	CULTURE_INPUT = southeast_asian
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+                	CULTURE_INPUT = southeast_asian
+                }
+            }
+        }
+    }
+
+    sea_main_war_royalty = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = clothes
+                template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 200
+				portrait_royalty_armor_trigger = {
+                	CULTURE_INPUT = southeast_asian
+                }
+            }
+            modifier = {
+                add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+                portrait_royalty_armor_in_army_trigger = {
+                	CULTURE_INPUT = southeast_asian
+                }
+            }
+        }
+    }
+
+## Southeast Asian (Indic) ##
+
+	sea_indic_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_war_nobility_clothes
+                accessory = m_clothes_sec_indian_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					OR = {
+						portrait_commoner_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					OR = {
+						portrait_commoner_armor_in_army_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_in_army_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_war_nobility_clothes
+                accessory = m_clothes_sec_indian_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					portrait_high_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = indian_war_nobility_clothes
+                accessory = m_clothes_sec_indian_war_nob_01_roy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					portrait_royalty_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					portrait_royalty_armor_in_army_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+## Southeast Asian (Islamic) ##
+
+	sea_islamic_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_war_nobility_clothes
+                accessory = m_clothes_sec_mena_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					OR = {
+						portrait_commoner_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					OR = {
+						portrait_commoner_armor_in_army_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_in_army_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = mena_war_nobility_clothes
+                accessory = m_clothes_sec_mena_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					portrait_high_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = ep2_mena_war_nobility_clothes
+                accessory = m_clothes_sec_ep2_mena_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 400
+				AND = {
+					portrait_royalty_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+			modifier = {
+				add = 200        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				AND = {
+					portrait_royalty_armor_in_army_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+## Papuan ##
+
+	papuan_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = papuan
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = papuan
+					}
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+					portrait_commoner_armor_in_army_trigger = {
+						CULTURE_INPUT = papuan
+					}
+					portrait_low_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = papuan
+					}
+				}
+			}
+		}
+	}
+
+	papuan_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+		}
+	}
+
+	papuan_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_royalty_armor_in_army_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+		}
+	}
+
+## Andamanese ##
+
+	andamanese_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				OR = {
+					portrait_commoner_armor_in_army_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+					portrait_low_nobles_armor_in_army_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+				}
+			}
+		}
+	}
+
+	andamanese_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_high_nobles_armor_in_army_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+		}
+	}
+
+	andamanese_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+			modifier = {
+				add = 101        # So priests who are actively serving in a raised army as a commander or knight wear armor instead of priest robes
+				portrait_royalty_armor_in_army_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+		}
+	}
+}

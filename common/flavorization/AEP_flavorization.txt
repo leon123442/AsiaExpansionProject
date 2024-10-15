@@ -464,6 +464,7 @@ prince_male_austronesian_group = {
 		heritage_dayak
 		heritage_north_borneo
 		heritage_filipino
+		heritage_sea_gypsy
 		heritage_sulawesi
 	}
 	top_liege = no
@@ -483,6 +484,7 @@ prince_female_austronesian_group = {
 		heritage_dayak
 		heritage_north_borneo
 		heritage_filipino
+		heritage_sea_gypsy
 		heritage_sulawesi
 	}
 	top_liege = no
@@ -502,6 +504,7 @@ prince_male_austronesian_group_empire = {
 		heritage_dayak
 		heritage_north_borneo
 		heritage_filipino
+		heritage_sea_gypsy
 		heritage_sulawesi
 	}
 	top_liege = no
@@ -521,6 +524,7 @@ prince_female_austronesian_group_empire = {
 		heritage_dayak
 		heritage_north_borneo
 		heritage_filipino
+		heritage_sea_gypsy
 		heritage_sulawesi
 	}
 	top_liege = no

@@ -151,6 +151,95 @@ grant_inspiration_to_character_effect = {
 	}
 }
 
+grant_inspiration_to_character_no_court_artifacts_effect = {
+	$CHARACTER$ = { 
+		if = { 
+			limit = { NOT = { exists = inspiration } }
+			# More likely to get an certain Inspiration type if we will produce higher quality Artifacts of that type.
+			random_list = {
+				10 = {
+					compare_modifier = {
+						value = weapon_inspiration_average_skill_value
+						multiplier = 5
+					}
+					modifier = { #Some cultures are more likely to pick this vocation than others
+						add = 5
+						culture = {
+							has_cultural_tradition = tradition_metal_craftsmanship
+						}
+					}
+					create_inspiration = weapon_inspiration
+				}
+				10 = {
+					compare_modifier = {
+						value = armor_inspiration_average_skill_value
+						multiplier = 5
+					}
+					modifier = { #Some cultures are more likely to pick this vocation than others
+						add = 5
+						culture = {
+							has_cultural_tradition = tradition_frugal_armorsmiths
+						}
+					}
+					create_inspiration = armor_inspiration
+				}
+				5 = {
+					compare_modifier = {
+						value = smith_inspiration_average_skill_value
+						multiplier = 5
+					}
+					modifier = { #Some cultures are more likely to pick this vocation than others
+						add = 10
+						culture = {
+							OR = {
+								has_cultural_tradition = tradition_metal_craftsmanship
+								has_cultural_tradition = tradition_ancient_miners
+							}
+						}
+					}
+					create_inspiration = smith_inspiration
+				}
+				5 = {
+					compare_modifier = {
+						value = book_inspiration_average_skill_value
+						multiplier = 5
+					}
+					modifier = {
+						has_court_position = court_poet_court_position
+						add = 15
+					}
+					modifier = {
+						culture = { #Some cultures are more likely to pick this vocation than others
+							OR = {
+								has_cultural_tradition = tradition_language_scholars
+								has_cultural_tradition = tradition_philosopher_culture
+								has_cultural_tradition = tradition_legalistic
+							}
+						}
+						add = 5
+					}
+					create_inspiration = book_inspiration
+				}
+				1 = {
+					modifier = {
+						add = 30
+						has_trait = lifestyle_mystic
+					}
+					modifier = { #Alchemy arrived to Europe in the 13th century, but existed basically everywhere else before that
+						add = -20
+						culture_has_european_heritage_pillar_trigger = yes
+					}
+					compare_modifier = {
+						value = learning
+						multiplier = 2
+					}
+					create_inspiration = alchemy_inspiration
+				}
+			}
+		}
+	}
+}
+
 grant_new_inspiration_in_character_realm_effect = {
 	save_scope_as = royal_court_owner
 	every_sub_realm_barony = {
@@ -378,52 +467,40 @@ grant_new_inspiration_in_world_effect = {
 		}
 		# Added
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_east_asia_china } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_east_asia_china }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_east_asia_china }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_east_asia_china }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_china } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_china }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_china }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_china }
 		}
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_east_asia_korea } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_east_asia_korea }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_east_asia_korea }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_east_asia_korea }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_korea } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_korea }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_korea }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_korea }
 		}
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region =  world_east_asia_japan } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_japan }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_japan }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION =  world_east_asia_japan }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region =  world_japan } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION =  world_japan }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION =  world_japan }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION =  world_japan }
 		}
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region =  world_east_asia_manchuria } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_manchuria }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_manchuria }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION =  world_east_asia_manchuria }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region =  world_eastern_siberia } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION =  world_eastern_siberia }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION =  world_eastern_siberia }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION =  world_eastern_siberia }
 		}
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region =  world_east_asia_inner_mongolia } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_inner_mongolia }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION =  world_east_asia_inner_mongolia }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION =  world_east_asia_inner_mongolia }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_nusantara } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_nusantara }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_nusantara }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_nusantara }
 		}
 		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_southeast_asia_indochina } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_indochina }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_indochina }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_southeast_asia_indochina }
-		}
-		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_southeast_asia_nusantara } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_nusantara }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_nusantara }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_southeast_asia_nusantara }
-		}
-		1 = {
-			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_southeast_asia_papua } } }
-			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_papua }
-			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_southeast_asia_papua }
-			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_southeast_asia_papua }
+			trigger = { any_character_with_royal_court = { exists = capital_province capital_province = { geographical_region = world_papua } } }
+			inspiration_region_court_grandeur_attraction_modifier = { GEOGRAPHICAL_REGION = world_papua }
+			inspiration_region_oversaturation_penalty_modifier = { GEOGRAPHICAL_REGION = world_papua }
+			grant_new_inspiration_in_region_effect = { GEOGRAPHICAL_REGION = world_papua }
 		}
 	}
 }

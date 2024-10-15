@@ -9,7 +9,7 @@ artifact_use_indian_building_visuals_trigger = { # Modded
 			has_building_gfx = korean_building_gfx
 			has_building_gfx = japanese_building_gfx
 			has_building_gfx = tibetan_building_gfx
-			has_building_gfx = indochinese_building_gfx
+			has_building_gfx = burmese_building_gfx
 			has_building_gfx = austronesian_building_gfx
 		}
 	}

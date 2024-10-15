@@ -69,8 +69,3 @@ female_clothes_kimono_kosode_01_high = {
 	set_tags = "shrink_chest,shrink_belly,shrink_legs"
 	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_kimono_kosode_01_high_entity }
 }
-
-female_clothes_kimono_kosode_01_monk_common = {
-	set_tags = "shrink_chest,shrink_belly,shrink_legs"
-	entity = { required_tags = ""		shared_pose_entity = torso		entity = female_clothes_kimono_kosode_01_monk_common_entity }
-}

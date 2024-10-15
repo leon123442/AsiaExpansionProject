@@ -8,10 +8,10 @@
 samurai = { # 侍
 	type = archer_cavalry
 	
-	damage = 50
-	toughness = 15
+	damage = 55
+	toughness = 30
 	pursuit = 40
-	screen = 10
+	screen = 20
 	
 	terrain_bonus = {
 		plains = { damage = 45 }

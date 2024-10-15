@@ -1,127 +1,329 @@
 ﻿heritage_korean = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_korean
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_japanese = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_japanese
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_jomon = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_jomon
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_ryukyuan = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ryukyuan
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_tungusic = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tungusic
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_kradai = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kradai
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_hmong = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hmong
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_viet = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_viet
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_mon = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_mon
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_khmer = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_khmer
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_katuic = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_katuic
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_burman = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_burman
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_loloish = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_loloish
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_bai = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_bai
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_nivkh = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_nivkh
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_palaungic = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_palaungic
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_nicobarese = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_nicobarese
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_khasic = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_khasic
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_munda = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_munda
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_formosan = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_formosan
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_north_borneo = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_north_borneo
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_dayak = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_dayak
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_filipino = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_filipino
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_javanese = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_javanese
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_malay = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_malay
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_sumatran = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sumatran
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_chamic = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_chamic
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_sea_gypsy = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sea_gypsy
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_sulawesi = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sulawesi
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_lesser_sunda = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_lesser_sunda
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_moluccan = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_moluccan
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_papuan = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_papuan
+		}
+	}
+	audio_parameter = mena
 }
 
 heritage_negrito = {
 	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_negrito
+		}
+	}
+	audio_parameter = mena
 }

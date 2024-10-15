@@ -1,6 +1,7 @@
 k_dzungaria = {
 	867.1.1 = { change_development_level = 0 }
 	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
 	
 	#Kingdom of Qocho founded in 843
 	843.1.1 = {
@@ -42,17 +43,18 @@ k_dzungaria = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1132.1.1 = {
 		liege = e_kara_khitai
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	1170.6.1 = {
 		holder = 302983	#fictional Kutan Bilgä
+		de_jure_liege = e_kara_khitai
 	}
 	1193.8.8 = {
 		holder = 302984	#Yur Temur
@@ -145,14 +147,13 @@ d_kara_khoja = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1170.6.1 = {
-		liege = e_kara_khitai
 		holder = 302983	#fictional Kutan Bilgä
 	}
 	1193.8.8 = {
@@ -199,6 +200,7 @@ d_kara_khoja = {
 c_kara_khoja = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 24 }
 	
 	835.1.1 = {
 		liege = d_kara_khoja
@@ -243,14 +245,13 @@ c_kara_khoja = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1170.6.1 = {
-		liege = e_kara_khitai
 		holder = 302983	#fictional Kutan Bilgä
 	}
 	1193.8.8 = {
@@ -338,14 +339,13 @@ c_toksun = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1170.6.1 = {
-		liege = e_kara_khitai
 		holder = 302983	#fictional Kutan Bilgä
 	}
 	1193.8.8 = {
@@ -392,6 +392,7 @@ c_toksun = {
 c_beshbalik = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 20 }
 	
 	835.1.1 = {
 		liege = d_kara_khoja
@@ -436,14 +437,13 @@ c_beshbalik = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1170.6.1 = {
-		liege = e_kara_khitai
 		holder = 302983	#fictional Kutan Bilgä
 	}
 	1193.8.8 = {
@@ -532,14 +532,13 @@ c_yangjibaliq = {
 	}
 	#Missing history - fictional placeholders
 	1130.5.17 = {
-		holder = 302982
+		holder = uyghur0088
 	}
 	1160.1.11 = {
-		holder = 302982
+		holder = uyghur0089
 	}
 	##Vassalized by Kara-Khitans / Great Liao in 1132
 	1170.6.1 = {
-		liege = e_kara_khitai
 		holder = 302983	#fictional Kutan Bilgä
 	}
 	1193.8.8 = {
@@ -756,8 +755,9 @@ c_altay = {
 	1157.9.3 = {
 		holder = 303318		#fictional Altan Buku
 	}
-	1187.6.16 = {
-		holder = 303319		#fictional Tooril Buku
+	1177.1.1 = {
+		holder = 303319	# fictional Tooril Buku
+		liege = d_naiman_gobi
 	}
 }
 
@@ -806,8 +806,9 @@ c_qinggil = {
 	1157.9.3 = {
 		holder = 303318		#fictional Altan Buku
 	}
-	1187.6.16 = {
-		holder = 303319		#fictional Tooril Buku
+	1177.1.1 = {
+		holder = 303319	# fictional Tooril Buku
+		liege = d_naiman_gobi
 	}
 }
 
@@ -828,13 +829,25 @@ c_agairik = {
 		liege = 0
 	}
 
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = e_grand_liao
+	}
+
 	#1066 - Naimans
 	1066.1.2 = {
+		liege = 0
 		holder = 303320		#ficitonal Saryk Karakalpaks
 	}
 	1110.7.23 = {
 		holder = 303321		#fictional Ciriac Karakalpaks
 	}
+
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+
 	1132.8.9 = {
 		holder = 303323		#fictional Qorisubachi Karakalpaks
 	}
@@ -862,6 +875,11 @@ c_narym_DZU = {
 		liege = 0
 	}
 
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = e_grand_liao
+	}
+
 	#1066 - Naimans
 	1066.1.2 = {
 		liege = 0
@@ -870,6 +888,12 @@ c_narym_DZU = {
 	1110.7.23 = {
 		holder = 303321		#fictional Ciriac Karakalpaks
 	}
+
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+
 	1132.8.9 = {
 		holder = 303323		#fictional Qorisubachi Karakalpaks
 	}
@@ -897,13 +921,25 @@ c_torangy_kul = {
 		liege = 0
 	}
 
+	# Liao Dynasty
+	1040.1.1 = {
+		liege = e_grand_liao
+	}
+
 	#1066 - Naimans
 	1066.1.2 = {
+		liege = 0
 		holder = 303320		#ficitonal Saryk Karakalpaks
 	}
 	1110.7.23 = {
 		holder = 303321		#fictional Ciriac Karakalpaks
 	}
+
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
+	}
+
 	1132.8.9 = {
 		holder = 303323		#fictional Qorisubachi Karakalpaks
 	}

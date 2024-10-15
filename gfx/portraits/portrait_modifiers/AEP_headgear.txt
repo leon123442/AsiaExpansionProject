@@ -1,0 +1,2832 @@
+﻿# Valid culture inputs
+
+# CULTURE_INPUT = chinese
+# CULTURE_INPUT = korean
+# CULTURE_INPUT = japanese
+# CULTURE_INPUT = ainu
+# CULTURE_INPUT = tungusic
+# CULTURE_INPUT = tibet
+# CULTURE_INPUT = southeast_asian
+# CULTURE_INPUT = papuan
+
+aep_headgear = {
+
+	usage = game
+	selection_behavior = weighted_random
+	priority = 2
+
+## Chinese ##
+
+	chinese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = chinese
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+                    CULTURE_INPUT = chinese 
+                }
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = chinese 
+                }
+			}
+		}
+	}
+	
+	chinese_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_mayor_headgear_trigger = {
+					CULTURE_INPUT = chinese
+				}
+			}
+		}
+	}
+	
+	chinese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = chinese } 
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = chinese 
+                }
+			}
+		}
+	}
+	
+	chinese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = chinese
+                }   
+			}
+		}
+	}
+	
+	chinese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = chinese
+                }   
+			}
+		}
+	}
+	
+	chinese_princes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_prince
+				accessory = male_headgear_secular_chinese_prince_02
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				any_parent = { highest_held_title_tier = tier_empire }
+				portrait_chinese_clothing_trigger = yes
+			}
+		}
+	}
+	
+	chinese_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_imperial
+				accessory = male_headgear_secular_chinese_imperial_03
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = chinese 
+                }
+			}
+		}
+	}
+
+## Korean (Placeholder) ##
+
+	korean_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+                portrait_commoner_headgear_fallback_trigger = {
+                    CULTURE_INPUT = korean
+                }
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+                    CULTURE_INPUT = korean 
+                }
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+                    CULTURE_INPUT = korean 
+                }
+			}
+		}
+	}
+	
+	korean_mayors = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_mayor_headgear_trigger = {
+					CULTURE_INPUT = korean
+				}
+			}
+		}
+	}
+	
+	korean_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = korean } 
+			modifier = {
+				add = 50
+                portrait_low_nobles_clothing_trigger = {  
+                    CULTURE_INPUT = korean 
+                }
+			}
+		}
+	}
+	
+	korean_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = korean
+                }   
+			}
+		}
+	}
+	
+	korean_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = korean
+                }   
+			}
+		}
+	}
+	
+	korean_princes = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_prince
+				accessory = male_headgear_secular_chinese_prince_02
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				any_parent = { highest_held_title_tier = tier_empire }
+				portrait_korean_clothing_trigger = yes
+			}
+		}
+	}
+	
+	korean_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_imperial
+				accessory = male_headgear_secular_chinese_imperial_03
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = korean 
+                }
+			}
+		}
+	}
+
+## Japanese ##
+
+	japanese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = japanese
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = japanese 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = japanese 
+				}
+			}
+		}
+	}
+
+	japanese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = japanese } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = japanese 
+				}
+			}
+		}
+	}
+	
+	japanese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_suieikan
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_high_nobles_headgear_trigger = {
+                    CULTURE_INPUT = japanese
+                }   
+			}
+		}
+	}
+
+	japanese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_suieikan
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = japanese
+                }   
+			}
+		}
+	}
+
+	japanese_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_suieikan
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+                portrait_royalty_trigger = {
+                    CULTURE_INPUT = japanese
+                }   
+			}
+		}
+	}
+
+## Ryukyuan ##
+
+	ryukyuan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = ryukyuan 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = ryukyuan 
+				}
+			}
+		}
+	}
+
+	ryukyuan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = ryukyuan } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = ryukyuan 
+				}
+			}
+		}
+	}
+
+	ryukyuan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = northern_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}   
+			}
+		}
+	}
+
+	ryukyuan_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}   
+			}
+		}
+	}
+
+	ryukyuan_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}   
+			}
+		}
+	}
+
+## Ainu ##
+
+	ainu_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = ainu
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = ainu 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = ainu 
+				}
+			}
+		}
+	}
+
+	ainu_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = ainu } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = ainu 
+				}
+			}
+		}
+	}
+
+	ainu_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = northern_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = ainu
+				}   
+			}
+		}
+	}
+
+	ainu_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = ainu
+				}   
+			}
+		}
+	}
+
+	ainu_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = ainu
+				}   
+			}
+		}
+	}
+
+## Tungusic ##
+
+	tungusic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = tungusic
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = tungusic 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = tungusic 
+				}
+			}
+		}
+	}
+
+	tungusic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = tungusic } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = tungusic 
+				}
+			}
+		}
+	}
+
+	tungusic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_northern_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = tungusic
+				}   
+			}
+		}
+	}
+
+	tungusic_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = tungusic
+				}   
+			}
+		}
+	}
+
+	tungusic_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = tungusic
+				}   
+			}
+		}
+	}
+
+## Tibetan ##
+
+	tibetan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = tibetan
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = tibetan 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = tibetan 
+				}
+			}
+		}
+	}
+
+	tibetan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = tibetan } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {
+					CULTURE_INPUT = tibetan
+				}
+			}
+		}
+	}
+
+	tibetan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = tibetan
+				}   
+			}
+		}
+	}
+
+	tibetan_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				OR = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = tibetan
+					}   
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = tibetan
+					}   
+				}
+			}
+		}
+	}
+
+## Southeast Asian ##
+
+	sea_main_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = southeast_asian 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = southeast_asian 
+				}
+			}
+		}
+	}
+
+	sea_main_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = southeast_asian } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = southeast_asian 
+				}
+			}
+		}
+	}
+
+	sea_main_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = northern_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}   
+			}
+		}
+	}
+
+	sea_main_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}   
+			}
+		}
+	}
+
+	sea_main_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = fp1_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_imperial_trigger = {
+					CULTURE_INPUT = southeast_asian 
+				}
+			}
+		}
+	}
+
+## Southeast Asian (Indic) ##
+
+	sea_indic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				AND = {
+					portrait_commoner_headgear_fallback_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				AND = {
+					portrait_jester_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+			modifier = {
+				add = 50
+				AND = {
+					portrait_commoner_clothing_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = southeast_asian } 
+			modifier = {
+				add = 100
+				AND = {
+					portrait_low_nobles_clothing_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_high_nobles_headgear_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				} 
+			}
+		}
+	}
+
+	sea_indic_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = javanese_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = southeast_asian 
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+## Southeast Asian (islamic) ##
+
+	sea_islamic_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_common
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				AND = {
+					portrait_commoner_headgear_fallback_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				AND = {
+					portrait_jester_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+			modifier = {
+				add = 50
+				AND = {
+					portrait_commoner_clothing_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_low_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = southeast_asian } 
+			modifier = {
+				add = 100
+				AND = {
+					portrait_low_nobles_clothing_trigger = {  
+						CULTURE_INPUT = southeast_asian 
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_high_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_high_nobles_headgear_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_royalty
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_royalty_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				} 
+			}
+		}
+	}
+
+	sea_islamic_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_imperial
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				AND = {
+					portrait_imperial_trigger = {
+						CULTURE_INPUT = southeast_asian 
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+## Papuan ##
+
+	papuan_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = papuan
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = papuan 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = papuan 
+				}
+			}
+		}
+	}
+
+	papuan_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = papuan } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = papuan 
+				}
+			}
+		}
+	}
+
+	papuan_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = papuan
+				}   
+			}
+		}
+	}
+
+	papuan_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = papuan
+				}   
+			}
+		}
+	}
+
+	papuan_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = papuan
+				}   
+			}
+		}
+	}
+
+## Andamanese ##
+
+	andamanese_commoners = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			modifier = {
+				add = 80
+				portrait_commoner_headgear_fallback_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+			modifier = { # Non-european jesters should not use the jester hat
+				add = 1000
+				portrait_jester_trigger = {  
+					CULTURE_INPUT = andamanese 
+				}
+			}
+			modifier = {
+				add = 20
+				portrait_commoner_clothing_trigger = {  
+					CULTURE_INPUT = andamanese 
+				}
+			}
+		}
+	}
+
+	andamanese_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}	
+		weight = {
+			base = 0
+			court_fashion_level_4_headgear_modifier = { INPUT_PARAMETER = andamanese } 
+			modifier = {
+				add = 50
+				portrait_low_nobles_clothing_trigger = {  
+					CULTURE_INPUT = andamanese 
+				}
+			}
+		}
+	}
+
+	andamanese_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_high_nobles_headgear_trigger = {
+					CULTURE_INPUT = andamanese
+				}   
+			}
+		}
+	}
+
+	andamanese_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = andamanese
+				}   
+			}
+		}
+	}
+
+	andamanese_imperial = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_royalty_trigger = {
+					CULTURE_INPUT = andamanese
+				}   
+			}
+		}
+	}
+
+}
+
+aep_headgear_religious = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 4
+
+## Taoism/Confucianism ##
+	
+	religious_chinese_devoted_headgear = { # Taoist/Confucian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_taoism_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_chinese_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_chinese_high_headgear = { # Taoist/Confucian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_taoism_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_chinese_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+## Shintoism ##
+
+	religious_shintoist_devoted_headgear = { # Shinto Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear # Need to eventually replace this with Tengai-gasa for men
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_shintoist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_shintoist_high_headgear = { # Shinto Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_suieikan # Need to eventually replace this with Eboshi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_shintoist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+## Utaki Shintoism ##
+
+	religious_utakiist_devoted_headgear = { # Utaki Shinto Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_utakiist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_utakiist_high_headgear = { # Utaki Shinto Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_utakiist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+## Muism ##
+	
+	religious_muist_devoted_headgear = { # Muist Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_muist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_muist_high_headgear = { # Muist Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_muist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+### Ainu/Gilyak Paganism ###
+
+	religious_moshir_devoted_headgear = { # Eastern Siberian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_northern_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_moshir_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_moshir_high_headgear = { # Eastern Siberian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_northern_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_moshir_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+### Heheism (Tungusic Paganism) ###
+
+	religious_heheist_devoted_headgear = { # Eastern Siberian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_steppe_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_heheist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_heheist_high_headgear = { # Eastern Siberian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_steppe_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_heheist_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+## Mainland Southeast Asian Religions ##
+
+	religious_mainland_sea_devoted_headgear = { # Mainland Southeast Asian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_steppe_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_mainland_sea_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_mainland_sea_high_headgear = { # Mainland Southeast Asian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_steppe_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_mainland_sea_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+## Insular Southeast Asian Religions ##
+
+	religious_insular_sea_devoted_headgear = { # Insular Southeast Asian Monks
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { monk_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				portrait_has_trait_trigger = { TRAIT = devoted }
+				portrait_religious_insular_sea_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+	religious_insular_sea_high_headgear = { # Insular Southeast Asian Priests
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { priest_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 110
+				portrait_religious_high_no_poverty_trigger = yes
+				portrait_religious_insular_sea_trigger = yes
+				NOT = { has_character_flag = has_scripted_appearance }
+			}
+		}
+	}
+
+}
+
+aep_headgear_armor = {
+
+    usage = game
+    selection_behavior = weighted_random
+    priority = 5
+
+## Chinese ##
+	
+	chinese_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = chinese
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = chinese
+					}
+				}
+			}
+		}
+	}
+
+	chinese_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = chinese
+				}
+			}
+		}
+	}
+
+	chinese_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = chinese
+				}
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = chinese
+				}
+			}
+		}
+	}
+
+## Korean ##
+
+	korean_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = korean
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = korean
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = korean
+					}
+				}
+			}
+		}
+	}
+
+	korean_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = korean
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = korean
+				}
+			}
+		}
+	}
+
+	korean_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = chinese_war
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = korean
+				}
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = korean
+				}
+			}
+		}
+	}
+
+## Japanese ##
+
+	japanese_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_war_helmet
+				accessory = male_helmet_samurai_01_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = japanese
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = japanese
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = japanese
+					}
+				}
+			}
+		}
+	}
+
+	japanese_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_war_helmet
+				accessory = male_helmet_samurai_02_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = japanese
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = japanese
+				}
+			}
+		}
+	}
+
+	japanese_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = shogunate_war_helmet
+				accessory = male_helmet_samurai_02_low
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = japanese
+				}
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = japanese
+				}
+			}
+		}
+	}
+
+## Ryukyuan ##
+
+	ryukyuan_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = ryukyuan
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = ryukyuan
+					}
+				}
+			}
+		}
+	}
+
+	ryukyuan_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = ryukyuan
+				}
+			}
+		}
+	}
+
+## Ainu ##
+
+	ainu_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ainu
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = ainu
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = ainu
+                    }
+                }
+            }
+        }
+    }
+
+    ainu_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = ainu
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = ainu
+                }
+            }
+        }
+    }
+
+## Tungusic ##
+
+	tungusic_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = tungusic
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = tungusic
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = tungusic
+                    }
+                }
+            }
+        }
+    }
+
+    tungusic_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = tungusic
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = tungusic
+                }
+            }
+        }
+    }
+
+## Tibetan ##
+
+	tibetan_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+                accessory = m_headgear_sec_steppe_war_nob_01_lo
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = tibetan
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = tibetan
+                    }
+                }
+            }
+        }
+    }
+
+    tibetan_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = steppe_war
+                accessory = m_headgear_sec_steppe_war_nob_01_hi
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = tibetan
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = tibetan
+                }
+            }
+        }
+    }
+
+## Southeast Asian ##
+
+	sea_main_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_lo
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+				}
+			}
+		}
+	}
+
+	sea_main_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_war
+				accessory = m_headgear_sec_steppe_war_nob_01_hi
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50 # larger than the western war headgear
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+		}
+	}
+
+	sea_main_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = steppe_war
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 101
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				portrait_royalty_armor_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+			}
+		}
+	}
+
+	ep2_sea_main_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_steppe_war_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 60
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = southeast_asian
+				}
+				has_ep2_dlc_trigger = yes
+			}
+		}
+	}
+
+## Southeast Asian (Indic) ##
+
+	sea_indic_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = indian_war
+				accessory = m_headgear_sec_indian_war_nob_01_lo
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100 # larger than the western war headgear
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+					OR = {
+						portrait_commoner_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						OR = {
+							scope:faith.religion = religion:hinduism_religion
+							scope:faith.religion = religion:buddhism_religion
+						}
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = indian_war
+				accessory = m_headgear_sec_indian_war_nob_01_hi
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100 # larger than the western war headgear
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+				AND = {
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_indic_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = indian_war
+				accessory = m_headgear_sec_indian_war_nob_01_roy
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+				AND = {
+					portrait_royalty_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+			}
+		}
+	}
+
+	ep2_sea_indic_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_indian_war_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					OR = {
+						scope:faith.religion = religion:hinduism_religion
+						scope:faith.religion = religion:buddhism_religion
+					}
+				}
+				has_ep2_dlc_trigger = yes
+			}
+		}
+	}
+
+## Southeast Asian (Islamic) ##
+
+	sea_islamic_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100 # larger than the western war headgear
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+					OR = {
+						portrait_commoner_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						portrait_low_nobles_armor_trigger = {
+							CULTURE_INPUT = southeast_asian
+						}
+						scope:faith.religion = religion:islam_religion
+					}
+				}
+			}
+		}
+	}
+
+	sea_islamic_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 100 # larger than the western war headgear
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+				AND = {
+					portrait_high_nobles_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	sea_islamic_war_royalty = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = mena_war
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+				AND = {
+					portrait_royalty_armor_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+			}
+		}
+	}
+
+	ep2_sea_islamic_war = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = ep2_mena_war_nobility
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 150
+				AND = {
+					portrait_war_nobles_helmet_trigger = {
+						CULTURE_INPUT = southeast_asian
+					}
+					scope:faith.religion = religion:islam_religion
+				}
+				has_ep2_dlc_trigger = yes
+			}
+		}
+	}
+
+## Papuan ##
+
+	papuan_war_low_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = papuan
+                }
+                OR = {
+                    portrait_commoner_armor_trigger = {
+                        CULTURE_INPUT = papuan
+                    }
+                    portrait_low_nobles_armor_trigger = {
+                        CULTURE_INPUT = papuan
+                    }
+                }
+            }
+        }
+    }
+
+    papuan_war_high_nobles = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+				gene = headgear
+				template = religious_african_high
+				range = { 0 1 } # For the randomness to work correctly
+            }
+        }
+        outfit_tags = { military_outfit }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                portrait_war_nobles_helmet_trigger = {
+                    CULTURE_INPUT = papuan
+                }
+                portrait_high_nobles_armor_trigger = {
+                    CULTURE_INPUT = papuan
+                }
+            }
+        }
+    }
+
+## Andamanese ##
+
+	andamanese_war_low_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+				OR = {
+					portrait_commoner_armor_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+					portrait_low_nobles_armor_trigger = {
+						CULTURE_INPUT = andamanese
+					}
+				}
+			}
+		}
+	}
+
+	andamanese_war_high_nobles = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		outfit_tags = { military_outfit }
+		weight = {
+			base = 0
+			modifier = {
+				add = 50
+				portrait_war_nobles_helmet_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+				portrait_high_nobles_armor_trigger = {
+					CULTURE_INPUT = andamanese
+				}
+			}
+		}
+	}
+
+}

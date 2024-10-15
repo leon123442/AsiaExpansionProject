@@ -1,0 +1,406 @@
+﻿# Celebic
+tomini = {
+	color = { 7 188 213 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_dwellers
+		tradition_staunch_traditionalists
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+totoli = {
+	color = { 158 125 84 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_groves
+		tradition_mystical_ancestors
+		tradition_festivities
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+kaili = {
+	color = { 107 188 124 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_dwellers
+		tradition_hill_dwellers
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+pamona = {
+	color = { 134 178 155 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_festivities
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+
+salua = {
+	color = { 27 118 234 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_jungle_dwellers
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+banggai = {
+	color = { 239 237 129 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_maritime_mercantilism
+		tradition_fishermen
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+# South
+bungku = {
+	color = { 107 208 234 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_maritime_mercantilism
+		tradition_family_entrepreneurship
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+tolaki = {
+	color = { 179 111 239 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_festivities
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+moronene = {
+	color = { 144 136 172 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_religious_patronage
+		tradition_festivities
+		tradition_austronesian_seafarers
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+munan = {
+	color = { 107 288 234 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_celebes
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_dwellers
+		tradition_agrarian
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+# South Sulawesi
+bugis = {
+	color = { 7 128 214 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_maritime_mercantilism
+		tradition_culinary_art
+		tradition_family_entrepreneurship
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+makassar = {
+	color = { 17 188 234 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_maritime_mercantilism
+		tradition_culinary_art
+		tradition_fishermen
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+toraja = {
+	color = { 27 228 234 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_hill_dwellers
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+seko = {
+	color = { 118 230 240 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_hill_dwellers
+		tradition_festivities
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+mandar = {
+	color = { 135 251 144 }
+
+	ethos = ethos_communal
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_maritime_mercantilism
+		tradition_family_entrepreneurship
+		tradition_fishermen
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+mamuju = {
+	color = { 100 116 238 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_sulawesi
+	language = language_south_sulawesi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_sacred_groves
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}

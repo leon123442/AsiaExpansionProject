@@ -235,7 +235,7 @@
 10814 = { holding = none }
 
 #######################
-### Chanyu/k_tengri ###
+### Chanyu/k_chanyu ###
 #######################
 
 ###d_fengzhou  ####################################
@@ -255,19 +255,19 @@
 10621 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 #Huyangu
 10622 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 #Langshan_Jinhe
 10858 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 
 ###c_westsurrended
@@ -284,7 +284,7 @@
 10626 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 #Tihuquan
 10627 = {
@@ -326,7 +326,7 @@
 9678 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 #EastSurrended
 9673 = {
@@ -358,7 +358,7 @@
 9681 = {
 
 	holding = none
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 
 ###c_xuandezhou
@@ -383,7 +383,7 @@
 9537 = {	# Wuluhai
 	# Misc
 	holding = castle_holding
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	# History
 	800.1.1 = {
 
@@ -399,7 +399,7 @@
 }
 9538 = {	# Wuyuan/Uyuvan
 	holding = none #nomad
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	1050.1.1 = {
@@ -409,7 +409,7 @@
 }
 9539 = {	# Dengkou/Denkeu
 	holding = none #nomad
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 
 ###c_wuda
@@ -453,7 +453,7 @@
 	religion = mahayana
 	
 	holding = tribal_holding #farmlands
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	1032.1.1 = {
@@ -467,7 +467,7 @@
 }
 9519 = {	# Jiahe
 	holding = none #farmlands
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 }
 
 ###c_tenggeli (Tengger)
@@ -530,7 +530,7 @@
 	religion = melieism
 	
 	holding = tribal_holding
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	1000.1.1 = {
@@ -546,7 +546,7 @@
 }
 9507 = {	# Juyan
 	holding = none #nomad - initially a church_holding, but changed due to holder being tribal
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	1032.1.1 = {
@@ -585,7 +585,7 @@
 	religion = mahayana
 	
 	holding = castle_holding
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	894.1.1 = {
@@ -603,7 +603,7 @@
 }
 9504 = {	# Heihe
 	holding = city_holding
-	special_building = great_wall_of_china_01
+	special_building = AEP_great_wall_of_china
 	
 	# History
 	#1050.1.1 = {
@@ -643,7 +643,11 @@
 	907.1.1 = {
 		religion = zenzong
 		culture = khitan
-	}	
+	}
+	1125.1.1 = {
+		religion = tengri_pagan
+		culture = tataric
+	}
 }
 #Yangcheng
 10649 = { holding = city_holding }
@@ -659,11 +663,15 @@
 	907.1.1 = {
 		religion = zenzong
 		culture = khitan
-	}		
+	}
+	1125.1.1 = {
+		religion = tengri_pagan
+		culture = tataric
+	}
 }
 
 #Yuanyangpo
-10652 = { holding = none special_building = great_wall_of_china_01 }
+10652 = { holding = none special_building = AEP_great_wall_of_china }
 
 ###d_hejes ####################################
 ###c_dayan
@@ -692,6 +700,10 @@
     culture = khitan
 	religion = zenzong
 	holding = tribal_holding
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #Yiwulvshan_Xianzhou 
 10658 = { holding = church_holding }
@@ -713,7 +725,11 @@
 		culture = khitan 
 		religion = zenzong
 	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
 	}
+}
 #QingzhouXuande
 10645 = { holding = none }
 #LiaoZuzhou
@@ -733,7 +749,11 @@
 	holding = tribal_holding
 	926.1.1 = {
 		religion = zenzong
-	}		
+	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #Fuzhou_Liao
 10640 = { holding = city_holding }
@@ -747,8 +767,12 @@
 	holding = tribal_holding
 	926.1.1 = {
 		religion = zenzong
-	}		
 	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
+}
 #YongzhouChangning
 10634 = { holding = city_holding }
 
@@ -759,6 +783,10 @@
 	culture = khitan
 	religion = zenzong
 	holding = tribal_holding
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #Songshan_Chifeng
 10631 = { holding = city_holding }
@@ -773,7 +801,11 @@
 	holding = tribal_holding
 	907.1.1 = {
 		culture = khitan
-	}	
+	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #Luanheyuan
 10629 = { holding = city_holding }
@@ -791,6 +823,10 @@
 		culture = khitan 
 		religion = zenzong
 	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #HunRiver
 10793 = { holding = none }
@@ -806,19 +842,10 @@
 		culture = khitan 
 		religion = zenzong
 	}
+	1125.1.1 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #Niaotan_Kailu
 10657 = { holding = none }
-
-##d_liaoxi ####################################
-###c_liaoxi 
-#Liaoxizhou_Changqing
-10661 = {
-    culture = han
-	religion = zenzong
-	holding = castle_holding
-	926.1.1 = { 
-		culture = khitan 
-		holding = tribal_holding
-	}
-}

@@ -292,6 +292,7 @@ sea_zones = LIST { 11136 11137 }
 sea_zones = LIST { 11299 11338 11339 11343 11344 11356 11357 11365 11979 }
 sea_zones = RANGE { 11374 11378 }
 sea_zones = RANGE { 11946 11974 }
+sea_zones = LIST { 12528 12529 }
 
 #Western Southeast Asian Seas
 sea_zones = LIST { 11095 } # Bay of Thailand
@@ -307,6 +308,7 @@ sea_zones = RANGE { 12028 12039 }
 #Chinese Rivers
 river_provinces = RANGE { 11028 11038 } # Yangtze River
 river_provinces = RANGE { 11041 11046 } # Yellow River
+river_provinces = RANGE { 12530 12537 } # Amur River
 
 #Southeast Asia
 river_provinces = LIST { 11893 11894 11895 11975 11976 11977 11978 }  #Mekong River
@@ -319,6 +321,7 @@ river_provinces = LIST { 10983 }  #Chao Phraya River
 lakes = RANGE { 8980 8992 }	#Asian lakes
 lakes = LIST { 10998 }	#Philippine lakes
 lakes = RANGE { 11129 11135 }	#Asian lakes
+lakes = LIST { 12475 }	#Sulawesi lakes
 
 #####################
 # IMPASSABLE TERRAIN
@@ -349,6 +352,10 @@ impassable_mountains = RANGE { 11395 11398 }
 #Southeast Asia
 impassable_mountains = RANGE { 11896 11897 }
 impassable_mountains = RANGE { 11387 11394 }
+impassable_mountains = RANGE { 12476 12491 }
+
+#Papua
+impassable_mountains = RANGE { 12389 12391 }
 
 ############
 # WASTELAND
@@ -360,6 +367,7 @@ impassable_mountains = RANGE { 10928 10982 }
 impassable_mountains = RANGE { 10984 10997 }
 impassable_mountains = RANGE { 10999 11027 }
 impassable_mountains = RANGE { 11096 11128 }
+impassable_mountains = RANGE { 12525 12527 }
 
 # IMPASSABLE SEA ZONES
 # These sea provinces cannot be crossed/sailed

@@ -1,0 +1,174 @@
+﻿amis = {
+	color = { 155 210 165 }
+
+	ethos = ethos_communal
+	heritage = heritage_formosan
+	language = language_amis
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_female_only_inheritance
+		tradition_fishermen
+	}
+	
+	name_list = name_list_siraya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+
+atayal = {
+	color = { 195 250 205 }
+
+	ethos = ethos_stoic
+	heritage = heritage_formosan
+	language = language_atayal
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_mountain_homes
+		tradition_sacred_mountains
+	}
+	
+	name_list = name_list_atayal
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+
+babuza = {
+	color = { 115 190 165 }
+
+	ethos = ethos_stoic
+	heritage = heritage_formosan
+	language = language_babuza
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_jungle_dwellers
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_amis
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+	
+bunun = {
+	color = { 145 200 155 }
+
+	ethos = ethos_communal
+	heritage = heritage_formosan
+	language = language_bunun
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_mountain_homes
+		tradition_festivities
+	}
+	
+	name_list = name_list_pepo
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+
+kulun = {
+	color = { 155 210 165 }
+
+	ethos = ethos_communal
+	heritage = heritage_formosan
+	language = language_kulun
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_female_only_inheritance
+		tradition_fishermen
+	}
+	
+	name_list = name_list_siraya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+	
+paiwanese = {
+	color = { 85 160 135 }
+
+	ethos = ethos_communal
+	heritage = heritage_formosan
+	language = language_paiwanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_staunch_traditionalists
+		tradition_fishermen
+	}
+	
+	name_list = name_list_paiwan
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}
+
+siraya = {
+	color = { 155 210 165 }
+
+	ethos = ethos_communal
+	heritage = heritage_formosan
+	language = language_siraya
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_female_only_inheritance
+		tradition_fishermen
+	}
+	
+	name_list = name_list_siraya
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_formosan
+	}
+}

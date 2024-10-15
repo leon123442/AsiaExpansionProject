@@ -1,6 +1,7 @@
 k_kham = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 24 }
 }
 
 d_qamdo = {
@@ -3934,7 +3935,7 @@ c_nyagrong = {
 c_deqen = {
 	#Dêqên Kingdom
 	740.1.1={
-		liege = "k_nanzhong"
+		liege = "k_nanzhong" # AEP # changed from d_deqen
 		holder = 304384
 	}
 	800.1.1={
@@ -3959,7 +3960,7 @@ c_deqen = {
 		holder = 304391
 	}
 	937.1.1={
-		liege = "k_dali"
+		liege = "k_dali" # AEP
 	}
 	940.1.1={
 		holder = 304392
@@ -4033,7 +4034,7 @@ c_deqen = {
 c_gyaitang = {
 	#Dêqên Kingdom
 	740.1.1={
-		liege = "k_nanzhong"
+		liege = "k_nanzhong" # AEP # changed from d_deqen
 		holder = 304384
 	}
 	800.1.1={
@@ -4058,7 +4059,7 @@ c_gyaitang = {
 		holder = 304391
 	}
 	937.1.1={
-		liege = "k_dali"
+		liege = "k_dali" # AEP
 	}
 	940.1.1={
 		holder = 304392
@@ -4129,7 +4130,7 @@ c_gyaitang = {
 }
 
 
-c_xiangchangjun = { #Added
+c_xiangchangjun = { # AEP # Added
 	#Dêqên Kingdom
 	740.1.1={
 		liege = "k_nanzhong"

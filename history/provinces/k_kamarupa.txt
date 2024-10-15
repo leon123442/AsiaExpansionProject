@@ -237,31 +237,7 @@
 
 }
 
-# 826 - Manipur
-826 = {	# 826 - Manipur
-	
-	# Misc
-	culture = manipur
-	religion = burmic
-	
-	holding = castle_holding
-	
-	# History
-
-}
-
-# 827 - Khoupum
-827 = {	# 827 - Khoupum
-	
-	# Misc
-	culture = manipur
-	religion = burmic
-	
-	holding = none
-	
-	# History
-
-}
+# 826 - Manipur moved to k_arakan
 
 # 1177 - Kundina
 1177 = {	# 1177 - Kundina
@@ -352,30 +328,5 @@
 	
 	# History
 
-}
-
-# Added
-# 8556 - Kohima
-8556 = {	# 8556 - Kohima
-	
-	# Misc
-	culture = naga
-	religion = burmic
-	
-	holding = tribal_holding
-	
-	# History
-
-}
-
-# 9584 - Mokokchung
-9584 = {	# Mokokchung
-	# Misc
-	culture = naga
-	religion = burmic
-	
-	holding = none
-	
-	# History
 }
 

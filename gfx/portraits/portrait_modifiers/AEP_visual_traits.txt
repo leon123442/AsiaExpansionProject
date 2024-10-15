@@ -1,0 +1,558 @@
+﻿visual_traits_ainu = {
+	usage = game
+
+	visual_traits_ainu = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_ainu_face
+				template = ainu_face
+				value = 1.0
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						culture = { has_cultural_pillar = heritage_jomon }
+						is_female = yes
+						age >= 12
+					}
+				}
+			}
+		}
+	}
+
+}
+
+visual_traits_austronesian_tattoo = {
+	usage = game
+
+	visual_traits_male_austronesian_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = male_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = {
+							culture = { has_cultural_pillar = heritage_chamic }
+							culture = { has_cultural_pillar = heritage_dayak }
+							culture = { has_cultural_pillar = heritage_filipino }
+							culture = { has_cultural_pillar = heritage_formosan }
+							culture = { has_cultural_pillar = heritage_javanese }
+							culture = { has_cultural_pillar = heritage_lesser_sunda }
+							culture = { has_cultural_pillar = heritage_malay }
+							culture = { has_cultural_pillar = heritage_moluccan }
+							culture = { has_cultural_pillar = heritage_north_borneo }
+							culture = { has_cultural_pillar = heritage_sea_gypsy }
+							culture = { has_cultural_pillar = heritage_sulawesi }
+							culture = { has_cultural_pillar = heritage_sumatran }
+						}
+						NOR = {
+							culture = culture:aeta
+							culture = culture:manobo
+							culture = culture:bisaya
+							culture = culture:tawo
+							culture = culture:sinauna
+							culture = culture:pampangan
+							culture = culture:sambal
+							culture = culture:ifugao
+							culture = culture:ibanag
+							culture = culture:ilokano
+							culture = culture:pangasinan
+						}
+						is_female = no
+						age >= 12
+						OR = {
+							martial >= 10
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	visual_traits_female_austronesian_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = female_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = {
+							culture = { has_cultural_pillar = heritage_chamic }
+							culture = { has_cultural_pillar = heritage_dayak }
+							culture = { has_cultural_pillar = heritage_filipino }
+							culture = { has_cultural_pillar = heritage_formosan }
+							culture = { has_cultural_pillar = heritage_javanese }
+							culture = { has_cultural_pillar = heritage_lesser_sunda }
+							culture = { has_cultural_pillar = heritage_malay }
+							culture = { has_cultural_pillar = heritage_moluccan }
+							culture = { has_cultural_pillar = heritage_north_borneo }
+							culture = { has_cultural_pillar = heritage_sea_gypsy }
+							culture = { has_cultural_pillar = heritage_sulawesi }
+							culture = { has_cultural_pillar = heritage_sumatran }
+						}
+						NOR = {
+							culture = culture:aeta
+							culture = culture:manobo
+							culture = culture:bisaya
+							culture = culture:tawo
+							culture = culture:sinauna
+							culture = culture:pampangan
+							culture = culture:sambal
+							culture = culture:ifugao
+							culture = culture:ibanag
+							culture = culture:ilokano
+							culture = culture:pangasinan
+						}
+						is_female = yes
+						age >= 12
+						OR = {
+							martial >= 12
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+visual_traits_aeta_tattoo = {
+	usage = game
+
+	visual_traits_male_aeta_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_aeta_tattoo
+				template = aeta_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Philippine Negritos
+							culture = culture:aeta
+							culture = culture:manobo
+						}
+						is_female = no
+						age >= 12
+						OR = {
+							martial >= 10
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	visual_traits_female_aeta_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = female_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Philippine Negritos
+							culture = culture:aeta
+							culture = culture:manobo
+						}
+						is_female = yes
+						age >= 12
+						OR = {
+							martial >= 12
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+visual_traits_bisaya_tattoo = {
+	usage = game
+
+	visual_traits_male_bisaya_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_bisaya_tattoo
+				template = bisaya_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						culture = culture:bisaya
+						is_female = no
+						age >= 12
+						OR = {
+							martial >= 10
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	visual_traits_female_bisaya_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = female_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = {
+							culture = culture:bisaya
+							culture = culture:tawo
+						}
+						is_female = yes
+						age >= 12
+						OR = {
+							martial >= 12
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+visual_traits_idaya_tattoo = {
+	usage = game
+
+	visual_traits_male_idaya_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_idaya_tattoo
+				template = idaya_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Central Luzon
+							culture = culture:sinauna
+							culture = culture:pampangan
+							culture = culture:sambal
+						}
+						is_female = no
+						age >= 12
+						OR = {
+							martial >= 10
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	visual_traits_female_idaya_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = female_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Central Luzon
+							culture = culture:sinauna
+							culture = culture:pampangan
+							culture = culture:sambal
+						}
+						is_female = yes
+						age >= 12
+						OR = {
+							martial >= 12
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+visual_traits_ifugao_tattoo = {
+	usage = game
+
+	visual_traits_male_ifugao_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_ifugao_tattoo
+				template = ifugao_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Northern Luzon
+							culture = culture:ifugao
+							culture = culture:ibanag
+							culture = culture:ilokano
+							culture = culture:pangasinan
+						}
+						is_female = no
+						age >= 12
+						OR = {
+							martial >= 10
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	visual_traits_female_ifugao_tattoo = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				
+				gene = gene_austronesian_tattoo
+				template = female_austronesian_tattoo
+				value = 1.0
+			}
+			color = {
+				gene = skin_color
+				mode = modify
+
+				x = 0.0
+				y = -0.1
+			}
+		}
+		weight = {  
+			base = 0
+			modifier = {
+				add = 50
+				trigger_if = {
+					AND = {
+						scope:faith.religion = religion:austronesian_religion
+						OR = { # Northern Luzon
+							culture = culture:ifugao
+							culture = culture:ibanag
+							culture = culture:ilokano
+							culture = culture:pangasinan
+						}
+						is_female = yes
+						age >= 12
+						OR = {
+							martial >= 12
+							OR = {
+								portrait_has_trait_trigger = { TRAIT = viking }
+								portrait_has_trait_trigger = { TRAIT = physique_good_1 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_2 }
+								portrait_has_trait_trigger = { TRAIT = physique_good_3 }
+								portrait_has_trait_trigger = { TRAIT = brave }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

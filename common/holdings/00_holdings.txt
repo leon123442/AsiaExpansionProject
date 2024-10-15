@@ -38,6 +38,7 @@
 		special_sicilian_parliament_01
 		special_greenhouse_01
 		qanats_01
+		murex_farm_01
 
 		#japan
 		dojo_01
@@ -98,6 +99,7 @@ city_holding = {
 
 		common_tradeport_01
 		qanats_01
+		murex_farm_01
 
 		#japan
 		dojo_01

@@ -7,40 +7,56 @@
  
 ### japanese Group ###
  
- # Feudal / Clan
+ # Rulers (Administrative)
+  baron_administrative_male_japanese_group:0 "Gunji" #郡司
+  baron_administrative_female_japanese_group:0 "Gunji" #郡司
+  count_administrative_male_japanese_group:0 "Kokushi" #国司
+  count_administrative_female_japanese_group:0 "Kokushi" #国司
+  count_administrative_male_japanese_group_tohoku:0 "Gunji" #郡司
+  count_administrative_female_japanese_group_tohoku:0 "Gunji" #郡司
+  duke_administrative_male_japanese_group:0 "Sōtoku" #総督
+  duke_administrative_female_japanese_group:0 "Sōtoku" #総督
+  duke_administrative_male_japanese_group_tohoku:0 "Kokushi" #国司
+  duke_administrative_female_japanese_group_tohoku:0 "Kokushi" #国司
+  king_administrative_male_japanese_group:0 "Sōtoku" #総督
+  king_administrative_female_japanese_group:0 "Sōtoku" #総督
+  king_administrative_male_japanese_group_japan:0 "Sesshō" #摂政
+  king_administrative_female_japanese_group_japan:0 "Sesshō" #摂政
+  
+ # Rulers (Feudal/Clan/Tribal)
   baron_feudal_male_japanese_group:0 "Jōshu" #城主
   baron_feudal_female_japanese_group:0 "Jōshu" #城主
-  count_feudal_male_japanese_group:0 "Kokushi" #国司
-  count_feudal_female_japanese_group:0 "Kokushi" #国司
+  count_feudal_male_japanese_group:0 "Shugo" #守護
+  count_feudal_female_japanese_group:0 "Shugo" #守護
   count_feudal_male_japanese_group_tohoku:0 "Jōshu" #城主
   count_feudal_female_japanese_group_tohoku:0 "Jōshu" #城主
-  duke_feudal_male_japanese_group:0 "Zuryo-Kokushi" #受領国司
-  duke_feudal_female_japanese_group:0 "Zuryo-Kokushi" #受領国司
-  duke_feudal_male_japanese_group_tohoku:0 "Kokushi" #国司
-  duke_feudal_female_japanese_group_tohoku:0 "Kokushi" #国司
-  duke_feudal_male_japanese_group_yamato_imperial:0 "Tennō" #天皇
-  duke_feudal_female_japanese_group_yamato_imperial:0 "Tennō" #天皇
-  king_feudal_male_japanese_group:0 "Sōtoku" #総督
-  king_feudal_female_japanese_group:0 "Sōtoku" #総督
-  king_feudal_male_japanese_group_independent:0 "Ō" #王
-  king_feudal_female_japanese_group_independent:0 "Jōō" #王女
-  king_feudal_male_japanese_group_japan:0 "Sesshō" #摂政
-  king_feudal_female_japanese_group_japan:0 "Sesshō" #摂政
-  emperor_feudal_male_japanese_group:0 "Kōtei" #皇帝
-  emperor_feudal_female_japanese_group:0 "Kōgō" #皇后
-  emperor_feudal_male_japanese_group_japan:0 "Shinnō" #親王
-  emperor_feudal_female_japanese_group_japan:0 "Shinnō" #親王
+  duke_feudal_male_japanese_group:0 "Kanrei" #管領
+  duke_feudal_female_japanese_group:0 "Kanrei" #管領
+  duke_feudal_male_japanese_group_tohoku:0 "Shugo" #守護
+  duke_feudal_female_japanese_group_tohoku:0 "Shugo" #守護
+  king_feudal_male_japanese_group:0 "Dai Kanrei" #大管領
+  king_feudal_female_japanese_group:0 "Dai Kanrei" #大管領
+  king_feudal_male_japanese_group_japan:0 "Shōgun" #将軍
+  king_feudal_female_japanese_group_japan:0 "Shōgun" #将軍
+  
+ # Rulers (General)
+  king_male_japanese_group_independent:0 "Ō" #王
+  king_female_japanese_group_independent:0 "Jōō" #王女
+  emperor_male_japanese_group:0 "Kōtei" #皇帝
+  emperor_female_japanese_group:0 "Kōgō" #皇后
+  duke_male_japanese_group_yamato_imperial:0 "Tennō" #天皇
+  duke_female_japanese_group_yamato_imperial:0 "Tennō" #天皇
 
- # Feudal / Clan Titles
-  barony_feudal_japanese_group:0 "Kōri" #郡
-  county_feudal_japanese_group:0 "Kuni" #国
-  county_feudal_japanese_group_tohoku:0 "Kōri" #郡
-  duchy_feudal_japanese_group:0 "Dō" #道
-  duchy_feudal_japanese_group_japan:0 "Chihō" #地方
-  duchy_feudal_japanese_group_tohoku:0 "Kuni" #国
-  kingdom_feudal_japanese_group:0 "Koku" #国
-  kingdom_feudal_japanese_group_independent:0 "Ōkoku" #王国
-  empire_feudal_japanese_group:0 "Teikoku" #帝国
+ # Titles
+  barony_japanese_group:0 "Kōri" #郡
+  county_japanese_group:0 "Kuni" #国
+  county_japanese_group_tohoku:0 "Kōri" #郡
+  duchy_japanese_group:0 "Dō" #道
+  duchy_japanese_group_japan:0 "Chihō" #地方
+  duchy_japanese_group_tohoku:0 "Kuni" #国
+  kingdom_japanese_group:0 "Koku" #国
+  kingdom_japanese_group_independent:0 "Ōkoku" #王国
+  empire_japanese_group:0 "Teikoku" #帝国
 
  # Princes (children of Kings/Emperors)
   title_prince_male_japanese_group_yamato_imperial:0 "Shinnō" #親王
@@ -58,29 +74,29 @@
 
 ### Chinese Group ###
 
- # Feudal / Clan
-  baron_feudal_male_chinese_group:0 "Nan" #男
-  baron_feudal_female_chinese_group:0 "Nan" #男
-  count_feudal_male_chinese_group:0 "Ling" #令
-  count_feudal_female_chinese_group:0 "Ling" #令
-  duke_feudal_male_chinese_group:0 "Cishi" #刺史
-  duke_feudal_female_chinese_group:0 "Cishi" #刺史
-  king_feudal_male_chinese_group:0 "Jiedushi" #节度使
-  king_feudal_female_chinese_group:0 "Jiedushi" #节度使
-  king_feudal_male_chinese_group_dao_independent:0 "Jiedushi" #节度使
-  king_feudal_female_chinese_group_dao_independent:0 "Jiedushi" #节度使
-  king_feudal_male_chinese_group_independent:0 "Wang" #王
-  king_feudal_female_chinese_group_independent:0 "Nuwang" #王
-  emperor_feudal_male_chinese_group:0 "Huangdi" #皇帝
-  emperor_feudal_female_chinese_group:0 "Huanghou" #皇帝
+ # Rulers
+  baron_male_chinese_group:0 "Nan" #男
+  baron_female_chinese_group:0 "Nan" #男
+  count_male_chinese_group:0 "Ling" #令
+  count_female_chinese_group:0 "Ling" #令
+  duke_male_chinese_group:0 "Cishi" #刺史
+  duke_female_chinese_group:0 "Cishi" #刺史
+  king_male_chinese_group:0 "Jiedushi" #节度使
+  king_female_chinese_group:0 "Jiedushi" #节度使
+  king_male_chinese_group_dao_independent:0 "Jiedushi" #节度使
+  king_female_chinese_group_dao_independent:0 "Jiedushi" #节度使
+  king_male_chinese_group_independent:0 "Wang" #王
+  king_female_chinese_group_independent:0 "Nuwang" #王
+  emperor_male_chinese_group:0 "Huangdi" #皇帝
+  emperor_female_chinese_group:0 "Huanghou" #皇帝
 
- # Feudal / Clan Titles
-  barony_feudal_chinese_group:0 "Qu" #区
-  county_feudal_chinese_group:0 "Xian" #縣
-  duchy_feudal_chinese_group:0 "Zhou" #州
-  kingdom_feudal_chinese_group:0 "Dao" #道
-  kingdom_feudal_chinese_group_independent:0 "Wangguo" #王國
-  empire_feudal_chinese_group:0 "Diguo" #帝國
+ # Titles
+  barony_chinese_group:0 "Qu" #区
+  county_chinese_group:0 "Xian" #縣
+  duchy_chinese_group:0 "Zhou" #州
+  kingdom_chinese_group:0 "Dao" #道
+  kingdom_chinese_group_independent:0 "Wangguo" #王國
+  empire_chinese_group:0 "Diguo" #帝國
 
  # Princes (children of Kings/Emperors)
   title_prince_male_chinese_group:0 "Gongzi" #公子
@@ -95,27 +111,27 @@
 
 ### Korean Group ###
 
- # Feudal / Clan
-  baron_feudal_male_korean_group:0 "Chamise" #남작/男爵
-  baron_feudal_female_korean_group:0 "Chamise" #남작/男爵
-  count_feudal_male_korean_group:0 "Poguk" #백작/伯爵
-  count_feudal_female_korean_group:0 "Poguk" #백작/伯爵
-  duke_feudal_male_korean_group:0 "Gong" #공/公
-  duke_feudal_female_korean_group:0 "Gong" #공/公
-  duke_feudal_male_korean_group_independent:0 "Wang" #왕/王
-  duke_feudal_female_korean_group_independent:0 "Yeowang" #여왕/女王
-  king_feudal_male_korean_group:0 "Wang" #왕/王
-  king_feudal_female_korean_group:0 "Yeowang" #여왕/女王
-  emperor_feudal_male_korean_group:0 "Hwangje" #황제/皇帝
-  emperor_feudal_female_korean_group:0 "Hwanghu" #황후/皇后
+ # Rulers
+  baron_male_korean_group:0 "Chamise" #남작/男爵
+  baron_female_korean_group:0 "Chamise" #남작/男爵
+  count_male_korean_group:0 "Poguk" #백작/伯爵
+  count_female_korean_group:0 "Poguk" #백작/伯爵
+  duke_male_korean_group:0 "Gong" #공/公
+  duke_female_korean_group:0 "Gong" #공/公
+  duke_male_korean_group_independent:0 "Wang" #왕/王
+  duke_female_korean_group_independent:0 "Yeowang" #여왕/女王
+  king_male_korean_group:0 "Wang" #왕/王
+  king_female_korean_group:0 "Yeowang" #여왕/女王
+  emperor_male_korean_group:0 "Hwangje" #황제/皇帝
+  emperor_female_korean_group:0 "Hwanghu" #황후/皇后
 
- # Feudal / Clan Titles
-  barony_feudal_korean_group:0 "Hyeon" #현/縣
-  county_feudal_korean_group:0 "Bu" #부/府
-  duchy_feudal_korean_group:0 "Do" #도/道
-  duchy_feudal_korean_group_independent:0 "Gug" #국/國
-  kingdom_feudal_korean_group:0 "Gug" #국/國
-  empire_feudal_korean_group:0 "Jegug" #제국/帝國
+ # Titles
+  barony_korean_group:0 "Hyeon" #현/縣
+  county_korean_group:0 "Bu" #부/府
+  duchy_korean_group:0 "Do" #도/道
+  duchy_korean_group_independent:0 "Gug" #국/國
+  kingdom_korean_group:0 "Gug" #국/國
+  empire_korean_group:0 "Jegug" #제국/帝國
 
  # Princes (children of Kings/Emperors)
   title_prince_male_korean_group:0 "Gun" #군/君
@@ -130,24 +146,24 @@
 
  ### Vietic Group ###
 
-# Feudal / Clan
-  baron_feudal_male_vietnamese_group:0 "Nam"
-  baron_feudal_female_vietnamese_group:0 "Nữ Nam"
-  count_feudal_male_vietnamese_group:0 "Bá"
-  count_feudal_female_vietnamese_group:0 "Nữ Bá"
-  duke_feudal_male_vietnamese_group:0 "Công"
-  duke_feudal_female_vietnamese_group:0 "Nữ Công"
-  king_feudal_male_vietnamese_group:0 "Vương"
-  king_feudal_female_vietnamese_group:0 "Nữ Vương"
-  emperor_feudal_male_vietnamese_group:0 "Đế"
-  emperor_feudal_female_vietnamese_group:0 "Nữ Đế"
+# Rulers
+  baron_male_vietnamese_group:0 "Nam"
+  baron_female_vietnamese_group:0 "Nữ Nam"
+  count_male_vietnamese_group:0 "Bá"
+  count_female_vietnamese_group:0 "Nữ Bá"
+  duke_male_vietnamese_group:0 "Công"
+  duke_female_vietnamese_group:0 "Nữ Công"
+  king_male_vietnamese_group:0 "Vương"
+  king_female_vietnamese_group:0 "Nữ Vương"
+  emperor_male_vietnamese_group:0 "Đế"
+  emperor_female_vietnamese_group:0 "Nữ Đế"
 
-# Feudal / Clan Titles
-  barony_feudal_vietnamese_group:0 "Quận"
-  county_feudal_vietnamese_group:0 "Tỉnh"
-  duchy_feudal_vietnamese_group:0 "Xứ"
-  kingdom_feudal_vietnamese_group:0 "Vương quốc"
-  empire_feudal_vietnamese_group:0 "Đế quốc"
+# Titles
+  barony_vietnamese_group:0 "Quận"
+  county_vietnamese_group:0 "Tỉnh"
+  duchy_vietnamese_group:0 "Xứ"
+  kingdom_vietnamese_group:0 "Vương quốc"
+  empire_vietnamese_group:0 "Đế quốc"
 
 # Princes (children of Kings/Emperors)
   title_prince_male_vietnamese_group:0 "Hoàng tử"
@@ -166,24 +182,24 @@
 
   ## Burmese (Default) ##
 
-  # Feudal / Clan Rulers
-   baron_feudal_male_burman_group:0 "Myosa"
-   baron_feudal_female_burman_group:0 "Myosa"
-   count_feudal_male_burman_group:0 "Thado"
-   count_feudal_female_burman_group:0 "Minme"
-   duke_feudal_male_burman_group:0 "Min"
-   duke_feudal_female_burman_group:0 "Mindevi"
-   king_feudal_male_burman_group:0 "Bayin"
-   king_feudal_female_burman_group:0 "Bayinma"
-   emperor_feudal_male_burman_group:0 "Sekyawadi"
-   emperor_feudal_female_burman_group:0 "Sekyawadima"
+  # Rulers Rulers
+   baron_male_burman_group:0 "Myosa"
+   baron_female_burman_group:0 "Myosa"
+   count_male_burman_group:0 "Thado"
+   count_female_burman_group:0 "Minme"
+   duke_male_burman_group:0 "Min"
+   duke_female_burman_group:0 "Mindevi"
+   king_male_burman_group:0 "Bayin"
+   king_female_burman_group:0 "Bayinma"
+   emperor_male_burman_group:0 "Sekyawadi"
+   emperor_female_burman_group:0 "Sekyawadima"
 
-  # Feudal / Clan Titles
-   barony_feudal_burman_group:0 "Myo"
-   county_feudal_burman_group:0 "Kayaing"
-   duchy_feudal_burman_group:0 "Pyi"
-   kingdom_feudal_burman_group:0 "Naypyidaw"
-   empire_feudal_burman_group:0 "Nainggandaw"
+  # Titles
+   barony_burman_group:0 "Myo"
+   county_burman_group:0 "Kayaing"
+   duchy_burman_group:0 "Pyi"
+   kingdom_burman_group:0 "Naypyidaw"
+   empire_burman_group:0 "Nainggandaw"
 
   # Princes (children of Kings/Emperors)
    title_prince_male_burman_group:0 "Mintha"
@@ -198,24 +214,24 @@
 # "Devaraja"? Holy Emperor
 # "Devarani" Wife of the emperor
 
-# Feudal / Clan
- baron_feudal_male_mon_khmer_group:0 "Mchah"
- baron_feudal_female_mon_khmer_group:0 "Mchah"
- count_feudal_male_mon_khmer_group:0 "Ksat"
- count_feudal_female_mon_khmer_group:0 "Ksat"
- duke_feudal_male_mon_khmer_group:0 "Kurung"
- duke_feudal_female_mon_khmer_group:0 "Kurung"
- king_feudal_male_mon_khmer_group:0 "Kumdaeng"
- king_feudal_female_mon_khmer_group:0 "Kumdaeng"
- emperor_feudal_male_mon_khmer_group:0 "Emperador"
- emperor_feudal_female_mon_khmer_group:0 "Emperador"
+# Rulers
+ baron_male_mon_khmer_group:0 "Mchah"
+ baron_female_mon_khmer_group:0 "Mchah"
+ count_male_mon_khmer_group:0 "Ksat"
+ count_female_mon_khmer_group:0 "Ksat"
+ duke_male_mon_khmer_group:0 "Kurung"
+ duke_female_mon_khmer_group:0 "Kurung"
+ king_male_mon_khmer_group:0 "Kumdaeng"
+ king_female_mon_khmer_group:0 "Kumdaeng"
+ emperor_male_mon_khmer_group:0 "Emperador"
+ emperor_female_mon_khmer_group:0 "Emperador"
 
-# Feudal / Clan Titles
- barony_feudal_mon_khmer_group:0 "Banteay"
- county_feudal_mon_khmer_group:0 "Srok"
- duchy_feudal_mon_khmer_group:0 "Khaet"
- kingdom_feudal_mon_khmer_group:0 "Rechenachak"
- empire_feudal_mon_khmer_group:0 "Imperio"
+# Titles
+ barony_mon_khmer_group:0 "Banteay"
+ county_mon_khmer_group:0 "Srok"
+ duchy_mon_khmer_group:0 "Khaet"
+ kingdom_mon_khmer_group:0 "Rechenachak"
+ empire_mon_khmer_group:0 "Imperio"
 
 # Princes (children of Kings/Emperors)
  prince_male_mon_khmer_group:0 "Preang"
@@ -223,24 +239,24 @@
  # champion = Yuttochun
 
 ## Khmer ##
-  # Feudal / Clan
-  baron_feudal_male_khmer:0 "Mchah"
-  baron_feudal_female_khmer:0 "Mchah"
-  count_feudal_male_khmer:0 "Chaovaysrok"
-  count_feudal_female_khmer:0 "Chaovaysrok"
-  duke_feudal_male_khmer:0 "Kurung"
-  duke_feudal_female_khmer:0 "Kurung"
-  king_feudal_male_khmer:0 "Preah Reachea"
-  king_feudal_female_khmer:0 "Preah Reachea"
-  emperor_feudal_male_khmer:0 "Akthireach"
-  emperor_feudal_female_khmer:0 "Akthireach"
+  # Rulers
+  baron_male_khmer:0 "Mchah"
+  baron_female_khmer:0 "Mchah"
+  count_male_khmer:0 "Chaovaysrok"
+  count_female_khmer:0 "Chaovaysrok"
+  duke_male_khmer:0 "Kurung"
+  duke_female_khmer:0 "Kurung"
+  king_male_khmer:0 "Preah Reachea"
+  king_female_khmer:0 "Preah Reachea"
+  emperor_male_khmer:0 "Akthireach"
+  emperor_female_khmer:0 "Akthireach"
 
-  # Feudal / Clan Titles
-  barony_feudal_khmer:0 "Tukdei"
-  county_feudal_khmer:0 "Srok"
-  duchy_feudal_khmer:0 "Khaet"
-  kingdom_feudal_khmer:0 "Preah Nokor"
-  empire_feudal_khmer:0 "Chakraphop"
+  # Titles
+  barony_khmer:0 "Tukdei"
+  county_khmer:0 "Srok"
+  duchy_khmer:0 "Khaet"
+  kingdom_khmer:0 "Preah Nokor"
+  empire_khmer:0 "Chakraphop"
 
   # Princes (children of Kings/Emperors)
   prince_male_khmer:0 "Preang"
@@ -254,24 +270,24 @@
   emperor_female_khmer_empire:0 "Chakravartini"
 
 ## Mon ##
-  # Feudal / Clan
-  baron_feudal_male_mon:0 "Leik"
-  baron_feudal_female_mon:0 "Leik"
-  count_feudal_male_mon:0 "Smim"
-  count_feudal_female_mon:0 "Smim Brai"
-  duke_feudal_male_mon:0 "Binnya"
-  duke_feudal_female_mon:0 "Bannyar"
-  king_feudal_male_mon:0 "Raza"
-  king_feudal_female_mon:0 "Shin"
-  emperor_feudal_male_mon:0 "Ramadhipati"
-  emperor_feudal_female_mon:0 "Ramadhipati"
+  # Rulers
+  baron_male_mon:0 "Leik"
+  baron_female_mon:0 "Leik"
+  count_male_mon:0 "Smim"
+  count_female_mon:0 "Smim Brai"
+  duke_male_mon:0 "Binnya"
+  duke_female_mon:0 "Bannyar"
+  king_male_mon:0 "Raza"
+  king_female_mon:0 "Shin"
+  emperor_male_mon:0 "Ramadhipati"
+  emperor_female_mon:0 "Ramadhipati"
 
-  # Feudal / Clan Titles
-  barony_feudal_mon:0 "Naguew"
-  county_feudal_mon:0 "Kwaanrah"
-  duchy_feudal_mon:0 "Janapada"
-  kingdom_feudal_mon:0 "Dungre"
-  empire_feudal_mon:0 "Reniugum"
+  # Titles
+  barony_mon:0 "Naguew"
+  county_mon:0 "Kwaanrah"
+  duchy_mon:0 "Janapada"
+  kingdom_mon:0 "Dungre"
+  empire_mon:0 "Reniugum"
 
   # Princes (children of Kings/Emperors)
   title_prince_male_mon:0 "Binnya"
@@ -284,24 +300,24 @@
 
 ### Tai Group ###
 
-  # Feudal / Clan
-  baron_feudal_male_tai_group:0 "Thao"
-  baron_feudal_female_tai_group:0 "Thao"
-  count_feudal_male_tai_group:0 "Khun"
-  count_feudal_female_tai_group:0 "Khun"
-  duke_feudal_male_tai_group:0 "Phya"
-  duke_feudal_female_tai_group:0 "Nang Phya"
-  king_feudal_male_tai_group:0 "Chao"
-  king_feudal_female_tai_group:0 "Chao Nang"
-  emperor_feudal_male_tai_group:0 "Chao Luang"
-  emperor_feudal_female_tai_group:0 "Chao Nang Luang"
+  # Rulers
+  baron_male_tai_group:0 "Thao"
+  baron_female_tai_group:0 "Thao"
+  count_male_tai_group:0 "Khun"
+  count_female_tai_group:0 "Khun"
+  duke_male_tai_group:0 "Phya"
+  duke_female_tai_group:0 "Nang Phya"
+  king_male_tai_group:0 "Chao"
+  king_female_tai_group:0 "Chao Nang"
+  emperor_male_tai_group:0 "Chao Luang"
+  emperor_female_tai_group:0 "Chao Nang Luang"
 
-  # Feudal / Clan Titles
-  barony_feudal_tai_group:0 "Ban"
-  county_feudal_tai_group:0 "Mueang"
-  duchy_feudal_tai_group:0 "Wiang"
-  kingdom_feudal_tai_group:0 "Khwaen"
-  empire_feudal_tai_group:0 "Khwaen Luang"
+  # Titles
+  barony_tai_group:0 "Ban"
+  county_tai_group:0 "Mueang"
+  duchy_tai_group:0 "Wiang"
+  kingdom_tai_group:0 "Khwaen"
+  empire_tai_group:0 "Khwaen Luang"
 
   # Princes (children of Kings/Emperors) <- Based on Lanna Titles
   title_prince_male_tai_group:0 "Chao Noi"
@@ -311,17 +327,17 @@
 
 ## Shan Tai -> More Indian influence in general
 
-  # Feudal / Clan
-  baron_feudal_male_shan:0 "Myosa"
-  baron_feudal_female_shan:0 "Myosa"
-  count_feudal_male_shan:0 "Saopha"
-  count_feudal_female_shan:0 "Sao Nang"
-  duke_feudal_male_shan:0 "Phya"
-  duke_feudal_female_shan:0 "Nang Phya"
-  king_feudal_male_shan:0 "Ratsaa"
-  king_feudal_female_shan:0 "Ratsani"
-  emperor_feudal_male_shan:0 "Chakrapaht"
-  emperor_feudal_female_shan:0 "Chakrapahtini"
+  # Rulers
+  baron_male_shan:0 "Myosa"
+  baron_female_shan:0 "Myosa"
+  count_male_shan:0 "Saopha"
+  count_female_shan:0 "Sao Nang"
+  duke_male_shan:0 "Phya"
+  duke_female_shan:0 "Nang Phya"
+  king_male_shan:0 "Ratsaa"
+  king_female_shan:0 "Ratsani"
+  emperor_male_shan:0 "Chakrapaht"
+  emperor_female_shan:0 "Chakrapahtini"
 
   # Princes (children of Kings/Emperors)
   prince_male_shan:0 "Sao Noi"
@@ -333,24 +349,24 @@
   
   ## Ayutthayan Tai -> More Khmer influence in general
 
-    # Feudal / Clan
-    baron_feudal_male_tai_loum:0 "Thao"
-    baron_feudal_female_tai_loum:0 "Thao"
-    count_feudal_male_tai_loum:0 "Khun"
-    count_feudal_female_tai_loum:0 "Khun"
-    duke_feudal_male_tai_loum:0 "Phraya"
-    duke_feudal_female_tai_loum:0 "Nang Phraya"
-    king_feudal_male_tai_loum:0 "Mahakasat"
-    king_feudal_female_tai_loum:0 "Mahakasatri"
-    emperor_feudal_male_tai_loum:0 "Chakrapaht"
-    emperor_feudal_female_tai_loum:0 "Chakrapahtdini"
+    # Rulers
+    baron_male_tai_loum:0 "Thao"
+    baron_female_tai_loum:0 "Thao"
+    count_male_tai_loum:0 "Khun"
+    count_female_tai_loum:0 "Khun"
+    duke_male_tai_loum:0 "Phraya"
+    duke_female_tai_loum:0 "Nang Phraya"
+    king_male_tai_loum:0 "Mahakasat"
+    king_female_tai_loum:0 "Mahakasatri"
+    emperor_male_tai_loum:0 "Chakrapaht"
+    emperor_female_tai_loum:0 "Chakrapahtdini"
 
-    # Feudal / Clan Titles
-    barony_feudal_tai_loum:0 "Ban"
-    county_feudal_tai_loum:0 "Mueang"
-    duchy_feudal_tai_loum:0 "Chumnum"
-    kingdom_feudal_tai_loum:0 "Ratcha Anachak"
-    empire_feudal_tai_loum:0 "Chakrawat"
+    # Titles
+    barony_tai_loum:0 "Ban"
+    county_tai_loum:0 "Mueang"
+    duchy_tai_loum:0 "Chumnum"
+    kingdom_tai_loum:0 "Ratcha Anachak"
+    empire_tai_loum:0 "Chakrawat"
 
     # Princes (children of Kings/Emperors)
     prince_male_tai_loum:0 "Chao Fah"
@@ -358,37 +374,37 @@
 
   ## Pak Tai -> More Mon and Malay influence in general
 
-    # Feudal / Clan
-    baron_feudal_male_paktai:0 "Thao"
-    baron_feudal_female_paktai:0 "Thao"
-    count_feudal_male_paktai:0 "Dato"
-    count_feudal_female_paktai:0 "Dato"
-    duke_feudal_male_paktai:0 "Phraya"
-    duke_feudal_female_paktai:0 "Nang Phraya"
-    king_feudal_male_paktai:0 "Maharacha"
-    king_feudal_female_paktai:0 "Maharachini"
-    emperor_feudal_male_paktai:0 "Chakrapaht"
-    emperor_feudal_female_paktai:0 "Chakrapahtdini"
+    # Rulers
+    baron_male_paktai:0 "Thao"
+    baron_female_paktai:0 "Thao"
+    count_male_paktai:0 "Dato"
+    count_female_paktai:0 "Dato"
+    duke_male_paktai:0 "Phraya"
+    duke_female_paktai:0 "Nang Phraya"
+    king_male_paktai:0 "Maharacha"
+    king_female_paktai:0 "Maharachini"
+    emperor_male_paktai:0 "Chakrapaht"
+    emperor_female_paktai:0 "Chakrapahtdini"
 
-    # Feudal / Clan Titles
-    barony_feudal_paktai:0 "Ban"
-    county_feudal_paktai:0 "Mueang"
-    duchy_feudal_paktai:0 "Chumnum"
-    kingdom_feudal_paktai:0 "Ratcha Anachak"
-    empire_feudal_paktai:0 "Chakrawat"
+    # Titles
+    barony_paktai:0 "Ban"
+    county_paktai:0 "Mueang"
+    duchy_paktai:0 "Chumnum"
+    kingdom_paktai:0 "Ratcha Anachak"
+    empire_paktai:0 "Chakrawat"
 
   ## Ahom Tai -> Mixed of Shan and Nanzhao ones
-    # Feudal / Clan
-    baron_feudal_male_ahom:0 "Thao"
-    baron_feudal_female_ahom:0 "Thao"
-    count_feudal_male_ahom:0 "Saopha"
-    count_feudal_female_ahom:0 "Sao Nang"
-    duke_feudal_male_ahom:0 "Phya"
-    duke_feudal_female_ahom:0 "Nang Phya"
-    king_feudal_male_ahom:0 "Ratsaa"
-    king_feudal_female_ahom:0 "Ratsani"
-    emperor_feudal_male_ahom:0 "Sao Lung"
-    emperor_feudal_female_ahom:0 "Sao Nang Lung"
+    # Rulers
+    baron_male_ahom:0 "Thao"
+    baron_female_ahom:0 "Thao"
+    count_male_ahom:0 "Saopha"
+    count_female_ahom:0 "Sao Nang"
+    duke_male_ahom:0 "Phya"
+    duke_female_ahom:0 "Nang Phya"
+    king_male_ahom:0 "Ratsaa"
+    king_female_ahom:0 "Ratsani"
+    emperor_male_ahom:0 "Sao Lung"
+    emperor_female_ahom:0 "Sao Nang Lung"
 
     # Princes (children of Kings/Emperors)
     prince_male_ahom:0 "Sao Noi"
@@ -400,22 +416,22 @@
 
 # Malay will be the default
 
-# Feudal / Clan / Tribal 
- baron_feudal_male_austronesian_group:0 "Katuakampung"
- baron_feudal_female_austronesian_group:0 "Katuakampung"
- barony_feudal_austronesian_group:0 "Kampungan"
- count_feudal_male_austronesian_group:0 "Panghulukota"
- count_feudal_female_austronesian_group:0 "Panghulukota"
- county_feudal_austronesian_group:0 "Kotaraya"
- duke_feudal_male_austronesian_group:0 "Datu"
- duke_feudal_female_austronesian_group:0 "Datin"
- duchy_feudal_austronesian_group:0 "Kadatuan"
- king_feudal_male_austronesian_group:0 "Raja"
- king_feudal_female_austronesian_group:0 "Rani"
- kingdom_feudal_austronesian_group:0 "Karajaan"
- emperor_feudal_male_austronesian_group:0 "Maharaja"
- emperor_feudal_female_austronesian_group:0 "Maharani"
- empire_feudal_austronesian_group:0 "Kamaharajaan"
+# Rulers / Tribal 
+ baron_male_austronesian_group:0 "Katuakampung"
+ baron_female_austronesian_group:0 "Katuakampung"
+ barony_austronesian_group:0 "Kampungan"
+ count_male_austronesian_group:0 "Panghulukota"
+ count_female_austronesian_group:0 "Panghulukota"
+ county_austronesian_group:0 "Kotaraya"
+ duke_male_austronesian_group:0 "Datu"
+ duke_female_austronesian_group:0 "Datin"
+ duchy_austronesian_group:0 "Kadatuan"
+ king_male_austronesian_group:0 "Raja"
+ king_female_austronesian_group:0 "Rani"
+ kingdom_austronesian_group:0 "Karajaan"
+ emperor_male_austronesian_group:0 "Maharaja"
+ emperor_female_austronesian_group:0 "Maharani"
+ empire_austronesian_group:0 "Kamaharajaan"
 
  # Princes (children of Kings/Emperors)
  prince_male_austronesian_group:0 "Putra"
@@ -424,40 +440,40 @@
  prince_female_austronesian_group_empire:0 "Mahaputri"
 
  ### Muslim Austronesian/Nusantara ###
- # Feudal / Clan / Tribal 
- count_feudal_male_muslim_austronesian_group:0 "Syahbandar"
- count_feudal_female_muslim_austronesian_group:0 "Syahbandar"
- count_feudal_muslim_austronesian_group:0 "Bandaran"
- duke_feudal_muslim_male_austronesian_group:0 "Sultan"
- duke_feudal_muslim_female_austronesian_group:0 "Raja Permaisuri"
- duchy_feudal_muslim_austronesian_group:0 "Kesultanan"
- kingdom_feudal_muslim_austronesian_group:0 "Kesultanan"
- king_feudal_muslim_male_austronesian_group:0 "Sultan"
- king_feudal_muslim_female_austronesian_group:0 "Raja Permaisuri"
- emperor_feudal_muslim_male_austronesian_group:0 "Sultan Agong"
- emperor_feudal_muslim_female_austronesian_group:1 "Raja Sri Permaisuri Agong"
- empire_feudal_muslim_austronesian_group:0 "Kesultanan Agong"
+ # Rulers / Tribal 
+ count_male_muslim_austronesian_group:0 "Syahbandar"
+ count_female_muslim_austronesian_group:0 "Syahbandar"
+ count_muslim_austronesian_group:0 "Bandaran"
+ duke_muslim_male_austronesian_group:0 "Sultan"
+ duke_muslim_female_austronesian_group:0 "Raja Permaisuri"
+ duchy_muslim_austronesian_group:0 "Kesultanan"
+ kingdom_muslim_austronesian_group:0 "Kesultanan"
+ king_muslim_male_austronesian_group:0 "Sultan"
+ king_muslim_female_austronesian_group:0 "Raja Permaisuri"
+ emperor_muslim_male_austronesian_group:0 "Sultan Agong"
+ emperor_muslim_female_austronesian_group:1 "Raja Sri Permaisuri Agong"
+ empire_muslim_austronesian_group:0 "Kesultanan Agong"
 
 ## Cham ##
 
-  # Feudal / Clan
-  baron_feudal_male_cham:0 "Kabait"
-  baron_feudal_female_cham:0 "Kabait"
-  count_feudal_male_cham:0 "Ganup"
-  count_feudal_female_cham:0 "Ganup"
-  duke_feudal_male_cham:0 "Raya"
-  duke_feudal_female_cham:0 "Raya"
-  king_feudal_male_cham:0 "Putao"
-  king_feudal_female_cham:0 "Putao"
-  emperor_feudal_male_cham:0 "Potanaraya"
-  emperor_feudal_female_cham:0 "Potanaraya"
+  # Rulers
+  baron_male_cham:0 "Kabait"
+  baron_female_cham:0 "Kabait"
+  count_male_cham:0 "Ganup"
+  count_female_cham:0 "Ganup"
+  duke_male_cham:0 "Raya"
+  duke_female_cham:0 "Raya"
+  king_male_cham:0 "Putao"
+  king_female_cham:0 "Putao"
+  emperor_male_cham:0 "Potanaraya"
+  emperor_female_cham:0 "Potanaraya"
 
-  # Feudal / Clan Titles
-  barony_feudal_cham:0 "Palei"
-  county_feudal_cham:0 "Pala-Palei"
-  duchy_feudal_cham:0 "Nagara"
-  kingdom_feudal_cham:0 "Reino"
-  empire_feudal_cham:0 "Imperio"
+  # Titles
+  barony_cham:0 "Palei"
+  county_cham:0 "Pala-Palei"
+  duchy_cham:0 "Nagara"
+  kingdom_cham:0 "Reino"
+  empire_cham:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   # prince_male_cham:0 ""
@@ -465,24 +481,24 @@
 
 ## Tawo ##
 
-  # Feudal / Clan
-  baron_feudal_male_tawo:0 "Ginuu"
-  baron_feudal_female_tawo:0 "Ginuu"
-  count_feudal_male_tawo:0 "Datu"
-  count_feudal_female_tawo:0 "Dayang"
-  duke_feudal_male_tawo:0 "Pamegat"
-  duke_feudal_female_tawo:0 "Pamegat"
-  king_feudal_male_tawo:0 "Hadi"
-  king_feudal_female_tawo:0 "Hading Babai"
-  emperor_feudal_male_tawo:0 "Emperador"
-  emperor_feudal_female_tawo:0 "Emperatriz"
+  # Rulers
+  baron_male_tawo:0 "Ginuu"
+  baron_female_tawo:0 "Ginuu"
+  count_male_tawo:0 "Datu"
+  count_female_tawo:0 "Dayang"
+  duke_male_tawo:0 "Pamegat"
+  duke_female_tawo:0 "Pamegat"
+  king_male_tawo:0 "Hadi"
+  king_female_tawo:0 "Hading Babai"
+  emperor_male_tawo:0 "Emperador"
+  emperor_female_tawo:0 "Emperatriz"
 
-  # Feudal / Clan Titles
-  barony_feudal_tawo:0 "Duluhan"
-  county_feudal_tawo:0 "Banwa"
-  duchy_feudal_tawo:0 "Lungsud"
-  kingdom_feudal_tawo:0 "Kahadian"
-  empire_feudal_tawo:0 "Imperio"
+  # Titles
+  barony_tawo:0 "Duluhan"
+  county_tawo:0 "Banwa"
+  duchy_tawo:0 "Lungsud"
+  kingdom_tawo:0 "Kahadian"
+  empire_tawo:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_tawo:0 "Si"
@@ -490,24 +506,24 @@
   
 ## sinauna ##
 
-  # Feudal / Clan
-  baron_feudal_male_sinauna:0 "Ginu"
-  baron_feudal_female_sinauna:0 "Indu"
-  count_feudal_male_sinauna:0 "Tuhan"
-  count_feudal_female_sinauna:0 "Dayang"
-  duke_feudal_male_sinauna:0 "Pamegat"
-  duke_feudal_female_sinauna:0 "Pamegat"
-  king_feudal_male_sinauna:0 "Hari"
-  king_feudal_female_sinauna:0 "Hari Babai"
-  emperor_feudal_male_sinauna:0 "Emperador"
-  emperor_feudal_female_sinauna:0 "Emperatriz"
+  # Rulers
+  baron_male_sinauna:0 "Ginu"
+  baron_female_sinauna:0 "Indu"
+  count_male_sinauna:0 "Tuhan"
+  count_female_sinauna:0 "Dayang"
+  duke_male_sinauna:0 "Pamegat"
+  duke_female_sinauna:0 "Pamegat"
+  king_male_sinauna:0 "Hari"
+  king_female_sinauna:0 "Hari Babai"
+  emperor_male_sinauna:0 "Emperador"
+  emperor_female_sinauna:0 "Emperatriz"
 
-  # Feudal / Clan Titles
-  barony_feudal_sinauna:0 "Barangay"
-  county_feudal_sinauna:0 "Balaian"
-  duchy_feudal_sinauna:0 "Kalakanan"
-  kingdom_feudal_sinauna:0 "Kayharian"
-  empire_feudal_sinauna:0 "Imperio"
+  # Titles
+  barony_sinauna:0 "Barangay"
+  county_sinauna:0 "Balaian"
+  duchy_sinauna:0 "Kalakanan"
+  kingdom_sinauna:0 "Kayharian"
+  empire_sinauna:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_sinauna:0 "Gat"
@@ -515,18 +531,18 @@
   
 ## Danao ##
 
-  # Feudal / Clan
-  baron_feudal_male_danao:0 "Pango"
-  baron_feudal_female_danao:0 "Dayang"
-  count_feudal_male_danao:0 "Dato"
-  count_feudal_female_danao:0 "Bai"
-  duke_feudal_male_danao:0 "Rajah"
-  duke_feudal_female_danao:0 "Bai-a-labi"
+  # Rulers
+  baron_male_danao:0 "Pango"
+  baron_female_danao:0 "Dayang"
+  count_male_danao:0 "Dato"
+  count_female_danao:0 "Bai"
+  duke_male_danao:0 "Rajah"
+  duke_female_danao:0 "Bai-a-labi"
 
-  # Feudal / Clan Titles
-  barony_feudal_danao:0 "Suku"
-  county_feudal_danao:0 "Ndato'an"
-  duchy_feudal_danao:0 "Ilian"
+  # Titles
+  barony_danao:0 "Suku"
+  county_danao:0 "Ndato'an"
+  duchy_danao:0 "Ilian"
 
   # Princes (children of Kings/Emperors)
   prince_male_danao:0 "Rajah Muda"
@@ -534,15 +550,15 @@
   
   ## Manobo ##
 
-  # Feudal / Clan
-  baron_feudal_male_manobo:0 "Manigaon"
-  baron_feudal_female_manobo:0 "Bai"
-  count_feudal_male_manobo:0 "Datu"
-  count_feudal_female_manobo:0 "Bibiaon"
+  # Rulers
+  baron_male_manobo:0 "Manigaon"
+  baron_female_manobo:0 "Bai"
+  count_male_manobo:0 "Datu"
+  count_female_manobo:0 "Bibiaon"
 
-  # Feudal / Clan Titles
-  barony_feudal_manobo:0 "Katilingban"
-  county_feudal_manobo:0 "Banwa"
+  # Titles
+  barony_manobo:0 "Katilingban"
+  county_manobo:0 "Banwa"
   
     # Princes (children of Kings/Emperors)
   prince_male_manobo:0 "Rajah Muda"
@@ -550,21 +566,21 @@
   
   ## Bilic ##
 
-  # Feudal / Clan
-  baron_feudal_male_bilic:0 "Admagan"
-  baron_feudal_female_bilic:0 "Boi"
-  count_feudal_male_bilic:0 "Datu"
-  count_feudal_female_bilic:0 "Ye"
-  duke_feudal_male_bilic:0 "Timuay Labi"
-  duke_feudal_female_bilic:0 "Timuay Libun"
-  king_feudal_male_bilic:0 "Rajah"
-  king_feudal_female_bilic:0 "Rajah"
-  emperor_feudal_male_bilic:0 "Maharajah"
-  emperor_feudal_female_bilic:0 "Maharajah"
+  # Rulers
+  baron_male_bilic:0 "Admagan"
+  baron_female_bilic:0 "Boi"
+  count_male_bilic:0 "Datu"
+  count_female_bilic:0 "Ye"
+  duke_male_bilic:0 "Timuay Labi"
+  duke_female_bilic:0 "Timuay Libun"
+  king_male_bilic:0 "Rajah"
+  king_female_bilic:0 "Rajah"
+  emperor_male_bilic:0 "Maharajah"
+  emperor_female_bilic:0 "Maharajah"
 
-  # Feudal / Clan Titles
-  barony_feudal_bilic:0 "Lebok"
-  county_feudal_bilic:0 "Benwu"
+  # Titles
+  barony_bilic:0 "Lebok"
+  county_bilic:0 "Benwu"
   
     # Princes (children of Kings/Emperors)
   prince_male_bilic:0 "Nga Datu"
@@ -572,21 +588,21 @@
   
 ## Subanen ##
 
-  # Feudal / Clan
-  baron_feudal_male_subanen:0 "Timuay"
-  baron_feudal_female_subanen:0 "Timuay Bae"
-  count_feudal_male_subanen:0 "Gomotan"
-  count_feudal_female_subanen:0 "Gomotan Bae"
-  duke_feudal_male_subanen:0 "Datu Salapan"
-  duke_feudal_female_subanen:0 "Datu Salapan"
-  king_feudal_male_subanen:0 "Rajah"
-  king_feudal_female_subanen:0 "Rajah"
-  emperor_feudal_male_subanen:0 "Maharajah"
-  emperor_feudal_female_subanen:0 "Maharajah"
+  # Rulers
+  baron_male_subanen:0 "Timuay"
+  baron_female_subanen:0 "Timuay Bae"
+  count_male_subanen:0 "Gomotan"
+  count_female_subanen:0 "Gomotan Bae"
+  duke_male_subanen:0 "Datu Salapan"
+  duke_female_subanen:0 "Datu Salapan"
+  king_male_subanen:0 "Rajah"
+  king_female_subanen:0 "Rajah"
+  emperor_male_subanen:0 "Maharajah"
+  emperor_female_subanen:0 "Maharajah"
 
-  # Feudal / Clan Titles
-  barony_feudal_subanen:0 "Petty Banwa"
-  county_feudal_subanen:0 "Banwa"
+  # Titles
+  barony_subanen:0 "Petty Banwa"
+  county_subanen:0 "Banwa"
   
   # Princes (children of Kings/Emperors)
   prince_male_subanen:0 "Rajah Muda"
@@ -594,24 +610,24 @@
   
 ## Tagalog ##
 
-  # Feudal / Clan
-  baron_feudal_male_tagalog:0 "Maginoo"
-  baron_feudal_female_tagalog:0 "Maginoo"
-  count_feudal_male_tagalog:0 "Datu"
-  count_feudal_female_tagalog:0 "Dayang"
-  duke_feudal_male_tagalog:0 "Lakan"
-  duke_feudal_female_tagalog:0 "Lakambini"
-  king_feudal_male_tagalog:0 "Hari"
-  king_feudal_female_tagalog:0 "Hari"
-  emperor_feudal_male_tagalog:0 "Haringhari"
-  emperor_feudal_female_tagalog:0 "Haringhari"
+  # Rulers
+  baron_male_tagalog:0 "Maginoo"
+  baron_female_tagalog:0 "Maginoo"
+  count_male_tagalog:0 "Datu"
+  count_female_tagalog:0 "Dayang"
+  duke_male_tagalog:0 "Lakan"
+  duke_female_tagalog:0 "Lakambini"
+  king_male_tagalog:0 "Hari"
+  king_female_tagalog:0 "Hari"
+  emperor_male_tagalog:0 "Haringhari"
+  emperor_female_tagalog:0 "Haringhari"
 
-  # Feudal / Clan Titles
-  barony_feudal_tagalog:0 "Barangay"
-  county_feudal_tagalog:0 "Bayan"
-  duchy_feudal_tagalog:0 "Kalakanan"
-  kingdom_feudal_tagalog:0 "Kaharian"
-  empire_feudal_tagalog:0 "Dakilang Kaharian"
+  # Titles
+  barony_tagalog:0 "Barangay"
+  county_tagalog:0 "Bayan"
+  duchy_tagalog:0 "Kalakanan"
+  kingdom_tagalog:0 "Kaharian"
+  empire_tagalog:0 "Dakilang Kaharian"
 
   # Princes (children of Kings/Emperors)
   prince_male_tagalog:0 "Rajah Mura"
@@ -619,21 +635,21 @@
   
 ## Palawan ##
 
-  # Feudal / Clan
-  baron_feudal_male_palawan:0 "Ginu'u"
-  baron_feudal_female_palawan:0 "Ginu'u"
-  count_feudal_male_palawan:0 "Datu"
-  count_feudal_female_palawan:0 "Dayang"
-  duke_feudal_male_palawan:0 "Mas it Ampu"
-  duke_feudal_female_palawan:0 "Mas it Ampu"
-  king_feudal_male_palawan:0 "Rajah"
-  king_feudal_female_palawan:0 "Rajah"
-  emperor_feudal_male_palawan:0 "Maharajah"
-  emperor_feudal_female_palawan:0 "Maharajah"
+  # Rulers
+  baron_male_palawan:0 "Ginu'u"
+  baron_female_palawan:0 "Ginu'u"
+  count_male_palawan:0 "Datu"
+  count_female_palawan:0 "Dayang"
+  duke_male_palawan:0 "Mas it Ampu"
+  duke_female_palawan:0 "Mas it Ampu"
+  king_male_palawan:0 "Rajah"
+  king_female_palawan:0 "Rajah"
+  emperor_male_palawan:0 "Maharajah"
+  emperor_female_palawan:0 "Maharajah"
 
-  # Feudal / Clan Titles
- barony_feudal_palawan:0 "Barangay"
- county_feudal_palawan:0 "Banwa"
+  # Titles
+ barony_palawan:0 "Barangay"
+ county_palawan:0 "Banwa"
 
   # Princes (children of Kings/Emperors)
   prince_male_palawan:0 "Rajah Muda"
@@ -641,48 +657,48 @@
 
 ## Bisaya ##
 
-  # Feudal / Clan
-  baron_feudal_male_bisaya:0 "Datu"
-  baron_feudal_female_bisaya:0 "Datu"
-  count_feudal_male_bisaya:0 "Kaponoan"
-  count_feudal_female_bisaya:0 "Kaponoan"
-  duke_feudal_male_bisaya:0 "Petty Rajah"
-  duke_feudal_female_bisaya:0 "Petty Rajah"
-  king_feudal_male_bisaya:0 "Rajah"
-  king_feudal_female_bisaya:0 "Rajah"
-  emperor_feudal_male_bisaya:0 "Maharajah"
-  emperor_feudal_female_bisaya:0 "Maharajah"
+  # Rulers
+  baron_male_bisaya:0 "Datu"
+  baron_female_bisaya:0 "Datu"
+  count_male_bisaya:0 "Kaponoan"
+  count_female_bisaya:0 "Kaponoan"
+  duke_male_bisaya:0 "Petty Rajah"
+  duke_female_bisaya:0 "Petty Rajah"
+  king_male_bisaya:0 "Rajah"
+  king_female_bisaya:0 "Rajah"
+  emperor_male_bisaya:0 "Maharajah"
+  emperor_female_bisaya:0 "Maharajah"
 
-  # Feudal / Clan Titles
-  barony_feudal_bisaya:0 "Dolohan"
-  county_feudal_bisaya:0 "Haop"
-  duchy_feudal_bisaya:0 "Bongto"
-  kingdom_feudal_bisaya:0 "Kahadian"
-  empire_feudal_bisaya:0 "Imperio"
+  # Titles
+  barony_bisaya:0 "Dolohan"
+  county_bisaya:0 "Haop"
+  duchy_bisaya:0 "Bongto"
+  kingdom_bisaya:0 "Kahadian"
+  empire_bisaya:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_bisaya:0 "Anak sang Rajah"
   prince_female_tagalog:0 "Anak sang Rajah"
 ## Idaya ##
 
-  # Feudal / Clan
-  baron_feudal_male_idaya:0 "Ama"
-  baron_feudal_female_idaya:0 "Ina"
-  count_feudal_male_idaya:0 "Apo"
-  count_feudal_female_idaya:0 "Apo"
-  duke_feudal_male_idaya:0 "Panghúlu"
-  duke_feudal_female_idaya:0 "Panghúlu"
-  king_feudal_male_idaya:0 "Hári"
-  king_feudal_female_idaya:0 "Hári"
-  emperor_feudal_male_idaya:0 "Emperador"
-  emperor_feudal_female_idaya:0 "Emperatriz"
+  # Rulers
+  baron_male_idaya:0 "Ama"
+  baron_female_idaya:0 "Ina"
+  count_male_idaya:0 "Apo"
+  count_female_idaya:0 "Apo"
+  duke_male_idaya:0 "Panghúlu"
+  duke_female_idaya:0 "Panghúlu"
+  king_male_idaya:0 "Hári"
+  king_female_idaya:0 "Hári"
+  emperor_male_idaya:0 "Emperador"
+  emperor_female_idaya:0 "Emperatriz"
 
-  # Feudal / Clan Titles
-  barony_feudal_idaya:0 "Banuá"
-  county_feudal_idaya:0 "Híli"
-  duchy_feudal_idaya:0 "Pagulúan"
-  kingdom_feudal_idaya:0 "Pagharián"
-  empire_feudal_idaya:0 "Imperio"
+  # Titles
+  barony_idaya:0 "Banuá"
+  county_idaya:0 "Híli"
+  duchy_idaya:0 "Pagulúan"
+  kingdom_idaya:0 "Pagharián"
+  empire_idaya:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_idaya:0 "Anakki-hari"
@@ -690,24 +706,24 @@
 
 ## Ilokano ##
 
-  # Feudal / Clan
-  baron_feudal_male_ilokano:0 "Úlo ti Purók"
-  baron_feudal_female_ilokano:0 "Úlo ti Purók"
-  count_feudal_male_ilokano:0 "Amá ti Ili"
-  count_feudal_female_ilokano:0 "Iná ti Ili"
-  duke_feudal_male_ilokano:0 "Agturáy"
-  duke_feudal_female_ilokano:0 "Agturáy"
-  king_feudal_male_ilokano:0 "Ári"
-  king_feudal_female_ilokano:0 "Aribái"
-  emperor_feudal_male_ilokano:0 "Emperador"
-  emperor_feudal_female_ilokano:0 "Emperatriz"
+  # Rulers
+  baron_male_ilokano:0 "Úlo ti Purók"
+  baron_female_ilokano:0 "Úlo ti Purók"
+  count_male_ilokano:0 "Amá ti Ili"
+  count_female_ilokano:0 "Iná ti Ili"
+  duke_male_ilokano:0 "Agturáy"
+  duke_female_ilokano:0 "Agturáy"
+  king_male_ilokano:0 "Ári"
+  king_female_ilokano:0 "Aribái"
+  emperor_male_ilokano:0 "Emperador"
+  emperor_female_ilokano:0 "Emperatriz"
 
-  # Feudal / Clan Titles
-  barony_feudal_ilokano:0 "Purók"
-  county_feudal_ilokano:0 "Íli"
-  duchy_feudal_ilokano:0 "Pagturáyan"
-  kingdom_feudal_ilokano:0 "Pagarián"
-  empire_feudal_ilokano:0 "Imperio"
+  # Titles
+  barony_ilokano:0 "Purók"
+  county_ilokano:0 "Íli"
+  duchy_ilokano:0 "Pagturáyan"
+  kingdom_ilokano:0 "Pagarián"
+  empire_ilokano:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_ilokano:0 "Anákki-ári"
@@ -715,24 +731,24 @@
 
 ## Batak ##
 
-  # Feudal / Clan
-  baron_feudal_male_batak:0 "Raja Ihutan"
-  baron_feudal_female_batak:0 "Raja Ihutan"
-  count_feudal_male_batak:0 "Raja Doli"
-  count_feudal_female_batak:0 "Raja Doli"
-  duke_feudal_male_batak:0 "Raja Oloan"
-  duke_feudal_female_batak:0 "Raja Oloan"
-  king_feudal_male_batak:0 "Raja"
-  king_feudal_female_batak:0 "Raja Boru"
-  emperor_feudal_male_batak:0 "Rajabolon"
-  emperor_feudal_female_batak:0 "Rajabolon Boru"
+  # Rulers
+  baron_male_batak:0 "Raja Ihutan"
+  baron_female_batak:0 "Raja Ihutan"
+  count_male_batak:0 "Raja Doli"
+  count_female_batak:0 "Raja Doli"
+  duke_male_batak:0 "Raja Oloan"
+  duke_female_batak:0 "Raja Oloan"
+  king_male_batak:0 "Raja"
+  king_female_batak:0 "Raja Boru"
+  emperor_male_batak:0 "Rajabolon"
+  emperor_female_batak:0 "Rajabolon Boru"
 
-  # Feudal / Clan Titles
-  barony_feudal_batak:0 "Huta"
-  county_feudal_batak:0 "Horja"
-  duchy_feudal_batak:0 "Bius"
-  kingdom_feudal_batak:0 "Harajoan"
-  empire_feudal_batak:0 "Harajoan Nabolon"
+  # Titles
+  barony_batak:0 "Huta"
+  county_batak:0 "Horja"
+  duchy_batak:0 "Bius"
+  kingdom_batak:0 "Harajoan"
+  empire_batak:0 "Harajoan Nabolon"
 
   # Princes (children of Kings/Emperors)
   prince_male_batak:0 "Patuan"
@@ -740,28 +756,28 @@
 
 ## Java ##
 
-  # Feudal / Clan
-  baron_feudal_male_java:0 "Rama"
-  baron_feudal_female_java:0 "Rama"
-  count_feudal_male_java:0 "Rakai [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-  count_feudal_female_java:0 "Rakai [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-  duke_feudal_male_java:0 "Aji"
-  duke_feudal_female_java:0 "Aji"
-  duke_feudal_male_java_independent:0 "Sang Ratu"
-  duke_feudal_female_java_independent:0 "Sang Ratu"
-  king_feudal_male_java:0 "Sri Maharaja"
-  king_feudal_female_java:0 "Sri Maharani"
-  emperor_feudal_male_java:0 "Sri Maharaja"
-  emperor_feudal_female_java:0 "Sri Maharani"
+  # Rulers
+  baron_male_java:0 "Rama"
+  baron_female_java:0 "Rama"
+  count_male_java:0 "Rakai [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  count_female_java:0 "Rakai [CHARACTER.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  duke_male_java:0 "Aji"
+  duke_female_java:0 "Aji"
+  duke_male_java_independent:0 "Sang Ratu"
+  duke_female_java_independent:0 "Sang Ratu"
+  king_male_java:0 "Sri Maharaja"
+  king_female_java:0 "Sri Maharani"
+  emperor_male_java:0 "Sri Maharaja"
+  emperor_female_java:0 "Sri Maharani"
 
-  # Feudal / Clan Titles
+  # Titles
   barony_castle_java:0 "Wanua"
   barony_city_java:0 "Wanua"
   barony_temple_java:0 "Candi"
-  county_feudal_java:0 "Watak"
-  duchy_feudal_java:0 "Kadatuan"
-  kingdom_feudal_java:0 "Kamaharajaan"
-  empire_feudal_java:0 "Imperio"
+  county_java:0 "Watak"
+  duchy_java:0 "Kadatuan"
+  kingdom_java:0 "Kamaharajaan"
+  empire_java:0 "Imperio"
 
   # Princes (children of Kings/Emperors)
   prince_male_java:0 "Dyah"
@@ -769,57 +785,57 @@
 
 ## Sunda ##
 
-  # Feudal / Clan
-  baron_feudal_male_sunda:0 "Aki"
-  baron_feudal_female_sunda:0 "Nyai"
-  count_feudal_male_sunda:0 "Rakeyan"
-  count_feudal_female_sunda:0 "Rakeyan"
-  duke_feudal_male_sunda:0 "Prabhu"
-  duke_feudal_female_sunda:0 "Prabhu"
+  # Rulers
+  baron_male_sunda:0 "Aki"
+  baron_female_sunda:0 "Nyai"
+  count_male_sunda:0 "Rakeyan"
+  count_female_sunda:0 "Rakeyan"
+  duke_male_sunda:0 "Prabhu"
+  duke_female_sunda:0 "Prabhu"
   
 ## Bali ##
 
-  # Feudal / Clan
-  baron_feudal_male_bali:0 "Rama"
-  baron_feudal_female_bali:0 "Rama"
-  count_feudal_male_bali:0 "Raksayan"
-  count_feudal_female_bali:0 "Raksayan"
-  duke_feudal_male_bali:0 "Dalem"
-  duke_feudal_female_bali:0 "Dalem"
+  # Rulers
+  baron_male_bali:0 "Rama"
+  baron_female_bali:0 "Rama"
+  count_male_bali:0 "Raksayan"
+  count_female_bali:0 "Raksayan"
+  duke_male_bali:0 "Dalem"
+  duke_female_bali:0 "Dalem"
   
 ## Samawa ##
 
-  # Feudal / Clan
-  baron_feudal_male_samawa:0 "Ncuhi"
-  baron_feudal_female_samawa:0 "Ncuhi"
-  count_feudal_male_samawa:0 "Ncuhi"
-  count_feudal_female_samawa:0 "Ncuhi"
-  duke_feudal_male_samawa:0 "Sangaji"
-  duke_feudal_female_samawa:0 "Sangaji"
+  # Rulers
+  baron_male_samawa:0 "Ncuhi"
+  baron_female_samawa:0 "Ncuhi"
+  count_male_samawa:0 "Ncuhi"
+  count_female_samawa:0 "Ncuhi"
+  duke_male_samawa:0 "Sangaji"
+  duke_female_samawa:0 "Sangaji"
 
  
 ####################################################
 
 ### Lolo Group ###
 
-# Feudal / Clan
-  baron_feudal_male_loloish_group:0 "Nzy"
-  baron_feudal_female_loloish_group:0 "Nzy"
-  count_feudal_male_loloish_group:0 "Dudu"
-  count_feudal_female_loloish_group:0 "Dudu"
-  duke_feudal_male_loloish_group:0 "Jiedu"
-  duke_feudal_female_loloish_group:0 "Jiedu"
-  king_feudal_male_loloish_group:0 "Bwosin"
-  king_feudal_female_loloish_group:0 "Bwosin"
-  emperor_feudal_male_loloish_group:0 "Utebwo"
-  emperor_feudal_female_loloish_group:0 "Utebwo"
+# Rulers
+  baron_male_loloish_group:0 "Nzy"
+  baron_female_loloish_group:0 "Nzy"
+  count_male_loloish_group:0 "Dudu"
+  count_female_loloish_group:0 "Dudu"
+  duke_male_loloish_group:0 "Jiedu"
+  duke_female_loloish_group:0 "Jiedu"
+  king_male_loloish_group:0 "Bwosin"
+  king_female_loloish_group:0 "Bwosin"
+  emperor_male_loloish_group:0 "Utebwo"
+  emperor_female_loloish_group:0 "Utebwo"
 
-# Feudal / Clan Titles
-  barony_feudal_loloish_group:0 "Fu"
-  county_feudal_loloish_group:0 "Kiem"
-  duchy_feudal_loloish_group:0 "Dao"
-  kingdom_feudal_loloish_group:0 "Wangguo" #王國
-  empire_feudal_loloish_group:0 "Diguo" #帝國
+# Titles
+  barony_loloish_group:0 "Fu"
+  county_loloish_group:0 "Kiem"
+  duchy_loloish_group:0 "Dao"
+  kingdom_loloish_group:0 "Wangguo" #王國
+  empire_loloish_group:0 "Diguo" #帝國
 
 # Princes (children of Kings/Emperors)
   title_prince_male_loloish_group:0 "Gongzi" #公子
@@ -831,12 +847,12 @@
 
 ### Moluccan Group ###
 
-# Feudal / Clan
-  baron_feudal_male_moluccan_group:0 "Bobato"
-  baron_feudal_female_moluccan_group:0 "Bobato"
-  count_feudal_male_moluccan_group:0 "Momole"
-  count_feudal_female_moluccan_group:0 "Momole"
-  duke_feudal_male_moluccan_group:0 "Kolano"
-  duke_feudal_female_moluccan_group:0 "Kolano"
-  king_feudal_male_moluccan_group:0 "Maharaja"
-  king_feudal_female_moluccan_group:0 "Maharani"
+# Rulers
+  baron_male_moluccan_group:0 "Bobato"
+  baron_female_moluccan_group:0 "Bobato"
+  count_male_moluccan_group:0 "Momole"
+  count_female_moluccan_group:0 "Momole"
+  duke_male_moluccan_group:0 "Kolano"
+  duke_female_moluccan_group:0 "Kolano"
+  king_male_moluccan_group:0 "Maharaja"
+  king_female_moluccan_group:0 "Maharani"

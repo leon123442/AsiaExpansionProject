@@ -1,0 +1,276 @@
+﻿uab_meto = {
+	color = { 165 237 159 }
+
+	ethos = ethos_communal
+	heritage = heritage_lesser_sunda
+	language = language_timoric
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_austronesian_seafarers
+		tradition_highland_warriors
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+tetun = {
+	color = { 140 210 85 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_timoric
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_storytellers
+		tradition_austronesian_seafarers
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+kambera = {
+	color = { 134 181 94 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_sumba_flores
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_festivities
+		tradition_horse_breeder
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+manggarai = {
+	color = { 167 202 129 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_sumba_flores
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_festivities
+		tradition_warrior_culture
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+ngada = {
+	color = { 207 224 122 }
+
+	ethos = ethos_communal
+	heritage = heritage_lesser_sunda
+	language = language_sumba_flores
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_festivities
+		tradition_austronesian_seafarers
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+sika = {
+	color = { 75 109 93 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_flores_lembata
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_festivities
+		tradition_religious_patronage
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+larantuka = {
+	color = { 123 171 201 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_flores_lembata
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_esteemed_hospitality
+		tradition_austronesian_seafarers
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+bima = {
+	color = { 199 245 73 }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_lesser_sunda
+	language = language_bima
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance
+		tradition_austronesian_seafarers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_sulawesi
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+abui = {
+	color = { 192 81 188 }
+
+	ethos = ethos_communal
+	heritage = heritage_lesser_sunda
+	language = language_timor_alor_pantar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_mystical_ancestors
+		tradition_staunch_traditionalists
+	}
+	
+	name_list = name_list_papuan
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+fataluku = {
+	color = { 213 106 140 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_lesser_sunda
+	language = language_timor_alor_pantar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_festivities
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_papuan
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}
+
+tambora = {
+	color = { 144 79 46 }
+
+	ethos = ethos_stoic
+	heritage = heritage_lesser_sunda
+	language = language_tamboran
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_mystical_ancestors
+		tradition_fishermen
+	}
+	
+	name_list = name_list_papuan
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_moluccan
+	}
+}

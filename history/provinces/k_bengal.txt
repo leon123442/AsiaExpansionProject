@@ -315,31 +315,7 @@
 
 }
 
-# 853 - Unakoti
-853 = {	# 853 - Unakoti
-	
-	# Misc
-	culture = mizo # Modded
-	religion = burmic # Modded
-	
-	holding = tribal_holding
-	
-	# History
-
-}
-
-# 854 - Tlawng
-854 = {	# 854 - Tlawng
-	
-	# Misc
-	culture = mizo # Modded
-	religion = theravada
-	
-	holding = none
-	
-	# History
-
-}
+# 853 - Unakoti moved to k_arakan
 
 # 855 - Attahasa
 855 = {	# 855 - Attahasa
@@ -743,17 +719,9 @@
 	# History
 
 }
-8722 = {	# 8722 - Karnaphuli
-	
-	# Misc
-	culture = mizo # Modded
-	religion = theravada
-	
-	holding = none
-	
-	# History
 
-}
+# 8722 - Karnaphuli moved to k_arakan
+
 # 9657 - Udaipur
 9657 = {	# 9657 - Udaipur
 	
@@ -765,59 +733,5 @@
 	
 	# History
 
-}
-
-##d_arakan # Originally part of k_pagan
-###c_vaisali - County of Vaisali
-9576 = {	# Vaisali
-	# Misc
-	culture = rakhine # Modded
-	religion = theravada
-	
-	holding = castle_holding
-	
-	# History
-
-}
-9577 = {	# Launggyet
-	holding = city_holding
-}
-9578 = {	# Mrauk_U / Mrauk U
-	holding = church_holding
-}
-
-###c_akyab - County of Akyab
-9580 = {	# Akyab
-	# Misc
-	culture = rakhine # Modded
-	religion = theravada
-	
-	holding = castle_holding
-	
-	# History
-}
-9583 = {	# Thabeik Taung
-	holding = none
-}
-9579 = {	# Mahamuni
-	holding = none
-}
-
-###c_sandoway - County of Sandoway
-9585 = {	# Sandoway
-	# Misc
-	culture = rakhine # Modded
-	religion = theravada # Modded
-	
-	holding = castle_holding
-	
-	# History
-
-}
-9586 = {	# Ramree
-	holding = none
-}
-9587 = {	# An
-	holding = church_holding
 }
 

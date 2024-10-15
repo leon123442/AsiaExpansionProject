@@ -1,182 +1,182 @@
 ﻿l_russian:
- ## Korea
- 
- # Temples
- building_type_NEA_bulguksa:0 "Bulguksa" # 불국사
- building_type_NEA_bulguksa_desc:0 "Situated atop Toham Mountain alongside Seokguram Grotto, Bulguksa is one of the most prominent Buddhist temples in Korea and stands as a masterpiece of Buddhist art from the Silla Kingdom. \n\nIt houses priceless cultural works such as the Dabotap and Seokgatap stone pagodas, Cheongun-gyo (Blue Cloud Bridge), and two gilt-bronze statues of the Buddha."
- building_NEA_bulguksa:0 "$building_type_NEA_bulguksa$"
- building_NEA_bulguksa_desc:0 "$building_type_NEA_bulguksa_desc$"
- 
- building_type_NEA_mireuksa:0 "Mireuksa" # 미륵사
- building_type_NEA_mireuksa_desc:0 "Established in 602 by King Mu, Mireuksa was the largest Buddhist temple in ancient Baekje, showcasing the pinnacle of Baekje's exceptional architectural techniques and craftsmanship. \n\nThe Mireuksaji Stone Pagoda, particularly, stands as the largest and one of the oldest Korean pagodas, with its creation attributed to a vision of Maitreya seen by King Mu and his queen at a pond on Yonghwasan."
- building_NEA_mireuksa:0 "$building_type_NEA_mireuksa$"
- building_NEA_mireuksa_desc:0 "$building_type_NEA_mireuksa_desc$"
- 
- building_type_NEA_chongrungsa:0 "Chongrungsa" # 정릉사
- building_type_NEA_chongrungsa_desc:0 "Constructed during the reign of King Jangsu of Goguryeo, Chongrungsa Temple is a notable example of Goguryeo architecture, highlighted by an octagonal seven-story pagoda at its center, surrounded by three golden halls. \n\nThis layout, with three halls encircling a pagoda, would eventually establish a standard design among temple construction in Goguryeo."
- building_NEA_chongrungsa:0 "$building_type_NEA_chongrungsa$"
- building_NEA_chongrungsa_desc:0 "$building_type_NEA_chongrungsa_desc$"
- 
- building_type_NEA_heungryungsa:0 "Heungryungsa" # 흥륭사
- building_type_NEA_heungryungsa_desc:0 "Heungryungsa is renowned for its numerous intricately carved stone lanterns, crafted in the Baekje style from black basalt sourced from mountains situated beyond the Hegu Basin. \n\nThe temple's exceptional craftsmanship and monumental scale of construction serve as a testament to the grandeur of the Balhae Kingdom."
- building_NEA_heungryungsa:0 "$building_type_NEA_heungryungsa$"
- building_NEA_heungryungsa_desc:0 "$building_type_NEA_heungryungsa_desc$"
- 
- # Castles/Fortresses
- building_type_NEA_samnyeonsanseong:0 "Samnyeonsanseong" # 삼년산성
- building_type_NEA_samnyeonsanseong_desc:0 "Samnyeonsanseong (lit. Three-Years' Mountain Fortress), constructed during the reign of King Jabi of Silla, is situated atop Mount Ojeongsan, and is built in the Teimeui-style. The fortress utilizes a robust construction method consisting of alternating layers of slim and flat stones to create a formidable defensive structure ranging from thirteen to twenty meters in height and five to eight meters in width. \n\nIt played a crucial role in Silla's unification of Korea, strategically positioned to both defend against external threats and launch attacks on neighboring regions, contributing significantly to the control of the Han River Valley."
- building_NEA_samnyeonsanseong:0 "$building_type_NEA_samnyeonsanseong$"
- building_NEA_samnyeonsanseong_desc:0 "$building_type_NEA_samnyeonsanseong_desc$"
- 
- # Mines
- building_type_NEA_mulgeum_iron_mine_01:0 "The Mulgeum Iron Mine" # 물금 철광산
- building_type_NEA_mulgeum_iron_mine_01_desc:1 "At the foot of the Yeongnam Alps lies a profitable and ever sought-after Iron mine."
- building_NEA_mulgeum_iron_mine_01:1 "$building_type_NEA_mulgeum_iron_mine_01$"
- building_NEA_mulgeum_iron_mine_01_desc:1 "$building_type_NEA_mulgeum_iron_mine_01_desc$"
- building_NEA_mulgeum_iron_mine_02:1 "Mulgeum Iron Mine"
- building_NEA_mulgeum_iron_mine_02_desc:1 "$building_NEA_rammelsberg_mines_02_desc$"
- building_NEA_mulgeum_iron_mine_03:1 "Large Mulgeum Iron Mine"
- building_NEA_mulgeum_iron_mine_03_desc:1 "$building_NEA_rammelsberg_mines_03_desc$"
- building_NEA_mulgeum_iron_mine_04:1 "Mulgeum Iron Mining Complex"
- building_NEA_mulgeum_iron_mine_04_desc:1 "$building_NEA_rammelsberg_mines_04_desc$"
-
-
-
- ## Japan
- 
- # Temples
- building_type_NEA_enryakuji:0 "Enryakuji" # 延暦寺
- building_type_NEA_enryakuji_desc:0 "Enryaku-ji, situated atop the sacred Mt. Hiei, is the head temple of the Tendai Lotus School of Mahayana Buddhism founded by Saicho in the early Heian Period and dedicated to the Medicine Buddha, Bhaisajyaguru. \n\nOver time, it emerged as the foremost Heian Era Buddhist temple, garnering substantial imperial and aristocratic favor, and after reaching its zenith encompassed a vast array of up to 3,000 sub-temples and a formidable retinue of warrior monks known as Sōhei to defend against rival sects."
- building_NEA_enryakuji:0 "$building_type_NEA_enryakuji$"
- building_NEA_enryakuji_desc:0 "$building_type_NEA_enryakuji_desc$"
- 
- building_type_NEA_ise_grand_shrine:0 "Ise Grand Shrine" # 伊勢神宮
- building_type_NEA_ise_grand_shrine_desc:0 "The Grand Shrine of Ise, considered to be the holiest Shinto shrine in Japan, is situated at the confluence of the Isuzu and Shimamichi Rivers, venerating the sun goddess Amaterasu, with the inner sanctum believed to be her dwelling place. \n\nIt is believed that the temple also houses one of the Three Sacred Treasures of the Japanese Imperial Regalia, specifically the Yata no Kagami, a sacred Bronze Mirror used to lure Amaterasu out from the Heavenly Rock Cave, restoring light to the world."
- building_NEA_ise_grand_shrine:0 "$building_type_NEA_ise_grand_shrine$"
- building_NEA_ise_grand_shrine_desc:0 "$building_type_NEA_ise_grand_shrine_desc$"
- 
- building_type_NEA_izumo_grand_shrine:0 "Izumo Grand Shrine" # 出雲大社
- building_type_NEA_izumo_grand_shrine_desc:0 "Situated at the base of Yakumoyama, the Grand Shrine of Izumo is often regarded as Japan's oldest Shinto shrine, predating even the Ise Grand Shrine, and was dedicated to Ōkuninushi, the paramount Earthly God and original ruler of the Japanese Islands. \n\nThe shrine is said to have been presented to Ōkuninushi by Ninigi-no-Mikoto, the grandson of the sun goddess Amaterasu and ancestor of the Imperial Japanese Line, after Amaterasu demanded Ōkuninushi relinquish control of the islands to cleanse them after becoming overpopulated with wicked spirits."
- building_NEA_izumo_grand_shrine:0 "$building_type_NEA_izumo_grand_shrine$"
- building_NEA_izumo_grand_shrine_desc:0 "$building_type_NEA_izumo_grand_shrine_desc$"
- 
- building_type_NEA_futarasan_shrine:0 "Futarasan Shrine" # 二荒山神社
- building_type_NEA_futarasan_shrine_desc:0 "Situated on the sacred Mount Nantai (also known as Futarasan) and founded by the Kegon Buddhist Priest Shōdō Shōnin in 767, Futarasan Shrine has held significance as a place of worship even prior to its establishment, being the site of an ancient mountain cult centered around the worship of Mount Nantai. \n\nThe Shrine gained prominence during the Heian Period becoming a center for the Tendai School of Buddhism, and being visited by influential figures like Kukai and Ennin, with the shrine also housing three deities within the Shinto Pantheon, namely, Okuninushi, Tagorihime, and Ajisukitakahikone."
- building_NEA_futarasan_shrine:0 "$building_type_NEA_futarasan_shrine$"
- building_NEA_futarasan_shrine_desc:0 "$building_type_NEA_futarasan_shrine_desc$"
- 
- # Castles/Fortresses
- building_type_NEA_shuri_castle:0 "Shuri Castle" # 首里城
- building_type_NEA_shuri_castle_desc:0 "Constructed during the reign of King Shunbajunki in the Gusuku Period, Shuri Castle functioned as a crucial stronghold for the Kings of Okinawa as it lies perched atop a hill overlooking the neighboring countryside, including the capital Urasoe. \n\nThe Castle's architecture represents a fusion of Chinese and Ryukyuan styles, incorporating distinctive features including red lacquered gates, colorful wall mosaics, and the use of native Ryukyuan limestone in its construction."
- building_NEA_shuri_castle:0 "$building_type_NEA_shuri_castle$"
- building_NEA_shuri_castle_desc:0 "$building_type_NEA_shuri_castle_desc$"
- 
- # Buildings/Other
- building_type_NEA_dazaifu:0 "Dazaifu" # 大宰府
- building_type_NEA_dazaifu_desc:0 "Dazaifu served as the military and administrative hub of Kyushu, serving as a diplomatic nexus, welcoming foreign dignitaries and acting as a departure point for maritime expeditions. \n\nThe Governors, appointed by the Imperial Court, occasionally wielded enough power to challenge the central government's authority, with notable rebellions occuring, such as the Fujiwara no Hirotsugu Rebellion during the Nara Period. Later in the Heian Period, Dazaifu also served as a place of exile for courtiers, including the renowned scholar Sugawara no Michizane."
- building_NEA_dazaifu:0 "$building_type_NEA_dazaifu$"
- building_NEA_dazaifu_desc:0 "$building_type_NEA_dazaifu_desc$"
- 
- # Natural Landmarks
- building_type_NEA_mount_fuji:0 "Mount Fuji" # 富士山
- building_type_NEA_mount_fuji_desc:0 "Mount Fuji, the tallest mountain in Japan and revered since ancient times, has inspired artists, poets, and writers for centuries owing to its scenic beauty and sacred aura. \n\nThe summit, serving as the dwelling place of Asama no Ōkami, bears religious signifigance and was the site of numerous pilgrimages during the Heian Period."
- building_NEA_mount_fuji:0 "$building_type_NEA_mount_fuji$"
- building_NEA_mount_fuji_desc:0 "$building_type_NEA_mount_fuji_desc$"
- 
- # Mines
- building_type_NEA_sado_gold_mine_01:0 "The Sado Gold Mine" # 佐渡金山
- building_type_NEA_sado_gold_mine_01_desc:1 "At the foot of the Ōsado range on Sado Island lies a profitable and ever sought-after Gold mine."
- building_NEA_sado_gold_mine_01:1 "$building_type_NEA_sado_gold_mine_01$"
- building_NEA_sado_gold_mine_01_desc:1 "$building_type_NEA_sado_gold_mine_01_desc$"
- building_NEA_sado_gold_mine_02:1 "Sado Gold Mine"
- building_NEA_sado_gold_mine_02_desc:1 "$building_NEA_rammelsberg_mines_02_desc$"
- building_NEA_sado_gold_mine_03:1 "Large Sado Gold Mine"
- building_NEA_sado_gold_mine_03_desc:1 "$building_NEA_rammelsberg_mines_03_desc$"
- building_NEA_sado_gold_mine_04:1 "Sado Gold Mining Complex"
- building_NEA_sado_gold_mine_04_desc:1 "$building_NEA_rammelsberg_mines_04_desc$"
-
- building_type_NEA_iwami_silver_mine_01:0 "The Iwami Silver Mine" # 石見銀山
- building_type_NEA_iwami_silver_mine_01_desc:1 "At the foot of the Chūgoku Mountains lies a profitable and ever sought-after Silver mine."
- building_NEA_iwami_silver_mine_01:1 "$building_type_NEA_iwami_silver_mine_01$"
- building_NEA_iwami_silver_mine_01_desc:1 "$building_type_NEA_iwami_silver_mine_01_desc$"
- building_NEA_iwami_silver_mine_02:1 "Iwami Silver Mine"
- building_NEA_iwami_silver_mine_02_desc:1 "$building_NEA_rammelsberg_mines_02_desc$"
- building_NEA_iwami_silver_mine_03:1 "Large Iwami Silver Mine"
- building_NEA_iwami_silver_mine_03_desc:1 "$building_NEA_rammelsberg_mines_03_desc$"
- building_NEA_iwami_silver_mine_04:1 "Iwami Silver Mining Complex"
- building_NEA_iwami_silver_mine_04_desc:1 "$building_NEA_rammelsberg_mines_04_desc$"
- 
- 
- 
- ## China
- 
- # Temples
- building_type_NEA_shaolin_monastery:0 "Shaolin Monastery" # 少林寺
- building_type_NEA_shaolin_monastery_desc:0 "Founded in 495 by the Indian monk Batuo, sponsored by Emperor Xiaowen of the Northern Wei dynasty, the Shaolin Temple, situated at the foot of Shaoshi mountain in the Song mountain range, became a center for Hinayana Buddhism, with Batuo's disciples, Sengchou and Huiguang, introducing martial arts to the temple. \n\nLater, in 527, Bodhidharma, the 28th patriarch of Chan Buddhism, propagated Mahayana teachings, solidifying Shaolin as a significant Chan Buddhist center during the Sui, Tang, Wu Zhou, and Song dynasties."
- building_NEA_shaolin_monastery:0 "$building_type_NEA_shaolin_monastery$"
- building_NEA_shaolin_monastery_desc:0 "$building_type_NEA_shaolin_monastery_desc$"
- 
- building_type_NEA_temple_of_confucius:0 "Temple of Confucius" # 孔廟
- building_type_NEA_temple_of_confucius_desc:0 "The Temple of Confucius in Qufu, China's largest Confucian temple and former residence and school of thought of Confucius, was consecrated within just two years of his death by the Duke of Lu and later was cemented as a major Confucian prilgrimage site after receiving sacrifices from Emperor Gao of Han. \n\nLater, during the Song Dynasty, expansions were made in 1012 and 1094, resulting in a complex complete with three sections and four courtyards consising of over 400 rooms."
- building_NEA_temple_of_confucius:0 "$building_type_NEA_temple_of_confucius$"
- building_NEA_temple_of_confucius_desc:0 "$building_type_NEA_temple_of_confucius_desc$"
- 
- building_type_NEA_iron_pagoda:0 "Iron Pagoda" # 鐵塔
- building_type_NEA_iron_pagoda_desc:0 "Constructed in 1049 during the Song dynasty, the Iron Pagoda of Youguo Temple, renowned for its iron-hued brickwork resembling iron, stands as a masterpiece of Song Architecture, showcasing intricate carvings of Buddha, monks, mythical creatures, and frescos detailing Chinese tales, such as The Journey to the West."
- building_NEA_iron_pagoda:0 "$building_type_NEA_iron_pagoda$"
- building_NEA_iron_pagoda_desc:0 "$building_type_NEA_iron_pagoda_desc$"
-
- building_type_NEA_wannian_temple:0 "Baishui Puxian Temple" # 萬年寺
- building_type_NEA_wannian_temple_desc:0 "Baishui Puxian Temple (later known as Wannian Temple) was established in the late 4th century during the East Jin dynasty along the foothills of the sacred Mount Emei and earned distinction for housing a tooth relic of the Buddha as well as its Beamless Brick Hall that once hosted notable guests like the renowned poet Li Bai."
- building_NEA_wannian_temple:0 "$building_type_NEA_wannian_temple$"
- building_NEA_wannian_temple_desc:0 "$building_type_NEA_wannian_temple_desc$"
-
- building_type_NEA_wuhou_temple:0 "Wuhou Temple" # 成都武侯祠
- building_type_NEA_wuhou_temple_desc:0 "Established in 223 AD concurrently with the Huiling Temple dedicated to Liu Bei, Wuhou Temple venerates Zhuge Liang of the state of Shu, recognized as the Margrave of War (lit. Wuhou). \n\nThis expansive temple complex, was expanded in the early 4th century by the Cheng Han Dynasty under the patronage of Li Xiong to encompass Huiling and Han Zhaolie Temples and features sculptural representations of the twenty-eight officials and generals of Shu."
- building_NEA_wuhou_temple:0 "$building_type_NEA_wuhou_temple$"
- building_NEA_wuhou_temple_desc:0 "$building_type_NEA_wuhou_temple_desc$"
- 
- # Walls
- building_type_NEA_shanhaiguan:0 "Yu Pass" # 山海關
- building_type_NEA_shanhaiguan_desc:0 "Yu Pass (later known as Shanhai Pass) is located on the east bank of the Shi River between the Yan Mountains and Liaodong Bay, and marks the easternmost point of the Great Wall and is thus often referred to as the First Pass Under Heaven. \n\nStrategically located overseeing the narrowest choke point in the Liaoxi Corridor, the pass serves as a frontline defense against the nomadic peoples to the north."
- building_NEA_shanhaiguan:0 "$building_type_NEA_shanhaiguan$"
- building_NEA_shanhaiguan_desc:0 "$building_type_NEA_shanhaiguan_desc$"
- 
- building_type_NEA_yanmenguan:0 "Yanmen Pass" # 雁門關
- building_type_NEA_yanmenguan_desc:0 "Yanmen Pass (lit. Wild Goose Pass), nestled in the Yanmen Mountains and housing three fortified gatehouses, strategically guards the crossroads between Shanxi and the northern Steppe. \n\nIncorporated into the Great Wall by the Northern Qi in 557 AD, it functioned as an inner defense line, with subsequent dynasties like the Sui and Tang undertaking multiple repairs."
- building_NEA_yanmenguan:0 "$building_type_NEA_yanmenguan$"
- building_NEA_yanmenguan_desc:0 "$building_type_NEA_yanmenguan_desc$"
- 
- building_type_NEA_jianmenguan:0 "Jianmen Pass" # Jianmenguan - 劍門關
- building_type_NEA_jianmenguan_desc:0 "Jianmen Pass (lit. Sword Gate Pass), constructed by the renowned strategist Zhuge Liang, safeguards the Sichuan Basin with natural cliffs fortifying its flanks, creating an almost impenetrable barrier along the ancient Shu Roads. \n\nHistorically, the gateway played a crucial role in defending Shu Han during the Three Kingdoms Period as well as in subsequent eras."
- building_NEA_jianmenguan:0 "$building_type_NEA_jianmenguan$"
- building_NEA_jianmenguan_desc:0 "$building_type_NEA_jianmenguan_desc$"
- 
- # Buildings/Other
- building_type_NEA_iron_lion_of_cangzhou:0 "Iron Lion of Cangzhou" # 铁狮子
- building_type_NEA_iron_lion_of_cangzhou_desc:0 "Constructed in 953 AD, the Iron Lion of Cangzhou was cast from around 400,000 tons of iron using a piece-moulding technique, resulting in seams marking filling heights during casting stages, bridged by wrought iron pieces at fault lines. \n\nThe sculpture's inspiration stems from a local legend recounting a lion's valiant defeat of a dragon that had once terrorized the people of Cangzhou."
- building_NEA_iron_lion_of_cangzhou:0 "$building_type_NEA_iron_lion_of_cangzhou$"
- building_NEA_iron_lion_of_cangzhou_desc:0 "$building_type_NEA_iron_lion_of_cangzhou_desc$"
- 
- building_type_NEA_bronze_bird_terrace:0 "Bronze Bird Terrace" # 銅雀臺
- building_type_NEA_bronze_bird_terrace_desc:0 "Constructed in the late Han Dynasty around 210 AD by Cao Cao in the northwest of Ye, the magnificent pagoda, initially known as Loutai, earned the name Bronze Bird Terrace due to a copper sparrow adorning its roof. \n\nDuring the Northern Dynasties, it was called the Metal Phoenix Terrace before eventually reverting back to its original name during the Tang Dynasty."
- building_NEA_bronze_bird_terrace:0 "$building_type_NEA_bronze_bird_terrace$"
- building_NEA_bronze_bird_terrace_desc:0 "$building_type_NEA_bronze_bird_terrace_desc$"
- 
- # Natural Landmarks
- building_type_NEA_mount_tai:0 "Mount Tai" # 泰山
- building_type_NEA_mount_tai_desc:0 "Mount Tai's historical significance, dating from the time of the Zhou Dynasty, includes its role in the Feng Shan sacrifices, which later evolved into highly ritualized ceremonies and attracted visits from emperors, Confucian scholars, cultural figures, and foreign emissaries who left numerous stone inscriptions and couplet carvings, totaling over 1,800 on the mountain."
- building_NEA_mount_tai:0 "$building_type_NEA_mount_tai$"
- building_NEA_mount_tai_desc:0 "$building_type_NEA_mount_tai_desc$"
- 
- # Mines
- building_type_NEA_liaodong_iron_mine_01:0 "The Liaodong Iron Mine" # 遼東鐵礦
- building_type_NEA_liaodong_iron_mine_01_desc:1 "At the foot of the Qian Mountains lies a profitable and ever sought-after Iron mine."
- building_NEA_liaodong_iron_mine_01:1 "$building_type_NEA_liaodong_iron_mine_01$"
- building_NEA_liaodong_iron_mine_01_desc:1 "$building_type_NEA_liaodong_iron_mine_01_desc$"
- building_NEA_liaodong_iron_mine_02:1 "Liaodong Iron Mine"
- building_NEA_liaodong_iron_mine_02_desc:1 "$building_NEA_rammelsberg_mines_02_desc$"
- building_NEA_liaodong_iron_mine_03:1 "Large Liaodong Iron Mine"
- building_NEA_liaodong_iron_mine_03_desc:1 "$building_NEA_rammelsberg_mines_03_desc$"
- building_NEA_liaodong_iron_mine_04:1 "Liaodong Iron Mining Complex"
- building_NEA_liaodong_iron_mine_04_desc:1 "$building_NEA_rammelsberg_mines_04_desc$"
+  ## Korea 
+  
+  # Temples 
+ building_type_NEA_bulguksa: "Булгукса" 
+ building_type_NEA_bulguksa_desc: "Расположенный на вершине горы Тохам рядом с гротом Сокгурам, Бульгукса является одним из самых выдающихся буддийских храмов в Корее и представляет собой шедевр буддийского искусства эпохи королевства Силла. \n\nВ нем хранятся бесценные произведения культуры, такие как каменные пагоды Даботап и Сокгатап, Чхонгун-гё (Мост голубых облаков) и две позолоченные бронзовые статуи Будды." 
+ building_NEA_bulguksa: "$building_type_NEA_bulguksa$" 
+ building_NEA_bulguksa_desc: "$building_type_NEA_bulguksa_desc$" 
+  
+ building_type_NEA_mireuksa: "Миреукса" 
+ building_type_NEA_mireuksa_desc: "Основанный в 602 году королем Му, Мирюкса был крупнейшим буддийским храмом в древнем Пэкче, демонстрируя вершину исключительных архитектурных технологий и мастерства Пэкче. \n\nКаменная пагода Мирёксаджи, в частности, является самой большой и одной из старейших корейских пагод. Ее создание приписывают видению Майтрейи, увиденному королем Му и его королевой у пруда на Йонгвасане." 
+ building_NEA_mireuksa: "$building_type_NEA_mireuksa$" 
+ building_NEA_mireuksa_desc: "$building_type_NEA_mireuksa_desc$" 
+  
+ building_type_NEA_chongrungsa: "Чонгрунгса" 
+ building_type_NEA_chongrungsa_desc: "Построенный во время правления короля Когурё Чангсу, храм Чонгрунгса является выдающимся примером архитектуры Когурё. В его центре находится восьмиугольная семиэтажная пагода, окруженная тремя золотыми залами. \n\nЭта планировка с тремя залами, окружающими пагоду, в конечном итоге стала стандартом для храмового строительства в Когурё." 
+ building_NEA_chongrungsa: "$building_type_NEA_chongrungsa$" 
+ building_NEA_chongrungsa_desc: "$building_type_NEA_chongrungsa_desc$" 
+  
+ building_type_NEA_heungryungsa: "Хынгрюнгса" 
+ building_type_NEA_heungryungsa_desc: "Хынрюнгса славится своими многочисленными искусно вырезанными каменными фонарями, выполненными в стиле Пэкче из черного базальта, добытого в горах, расположенных за бассейном Хегу. \n\nИсключительное мастерство и монументальные масштабы строительства храма свидетельствуют о величии королевства Балхэ." 
+ building_NEA_heungryungsa: "$building_type_NEA_heungryungsa$" 
+ building_NEA_heungryungsa_desc: "$building_type_NEA_heungryungsa_desc$" 
+  
+  # Castles/Fortresses 
+ building_type_NEA_samnyeonsanseong: "Самнёнсансон" 
+ building_type_NEA_samnyeonsanseong_desc: "Крепость Самнёнсансон (дословно "Трехлетняя горная крепость"), построенная во времена правления силлаского короля Джаби, расположена на вершине горы Оджонсан и построена в стиле тэймёй. Крепость использует надежный метод строительства, состоящий из чередующихся слоев тонких и плоских камней, чтобы создать грозное оборонительное сооружение высотой от тринадцати до двадцати метров и шириной от пяти до восьми метров. \n\nОна сыграла решающую роль в объединении Силла с Кореей, занимая стратегически выгодное положение для защиты от внешних угроз и нападения на соседние регионы, внося значительный вклад в контроль над долиной реки Хан." 
+ building_NEA_samnyeonsanseong: "$building_type_NEA_samnyeonsanseong$" 
+ building_NEA_samnyeonsanseong_desc: "$building_type_NEA_samnyeonsanseong_desc$" 
+  
+  # Mines 
+ building_type_NEA_mulgeum_iron_mine_01: "Железный рудник Мулгеум" 
+ building_type_NEA_mulgeum_iron_mine_01_desc: "У подножия Йонгнамских Альп находится прибыльный и всегда востребованный железный рудник." 
+ building_NEA_mulgeum_iron_mine_01: "$building_type_NEA_mulgeum_iron_mine_01$" 
+ building_NEA_mulgeum_iron_mine_01_desc: "$building_type_NEA_mulgeum_iron_mine_01_desc$" 
+ building_NEA_mulgeum_iron_mine_02: "Железный рудник Мулгеум" 
+ building_NEA_mulgeum_iron_mine_02_desc: "$building_NEA_rammelsberg_mines_02_desc$" 
+ building_NEA_mulgeum_iron_mine_03: "Большой железный рудник Мульгеум" 
+ building_NEA_mulgeum_iron_mine_03_desc: "$building_NEA_rammelsberg_mines_03_desc$" 
+ building_NEA_mulgeum_iron_mine_04: "Железный горнодобывающий комплекс Мульгеум" 
+ building_NEA_mulgeum_iron_mine_04_desc: "$building_NEA_rammelsberg_mines_04_desc$" 
+  
+  
+  
+  ## Japan 
+  
+  # Temples 
+ building_type_NEA_enryakuji: "Энрякудзи" 
+ building_type_NEA_enryakuji_desc: "Энряку-дзи, расположенный на вершине священной горы Хиэй, является главным храмом школы лотоса Тэндай буддизма махаяны, основанной Сайчо в начале эпохи Хэйан и посвященной Будде Медицины Бхайсаджьягуру. \n\nС течением времени он превратился в главный буддийский храм эпохи Хэйан, завоевав значительную императорскую и аристократическую благосклонность, а после достижения своего зенита стал включать в себя огромное количество до 3000 подхрамов и грозную свиту монахов-воинов, известных как Сохэй, для защиты от конкурирующих сект." 
+ building_NEA_enryakuji: "$building_type_NEA_enryakuji$" 
+ building_NEA_enryakuji_desc: "$building_type_NEA_enryakuji_desc$" 
+  
+ building_type_NEA_ise_grand_shrine: "Великое святилище Исэ" 
+ building_type_NEA_ise_grand_shrine_desc: "Великое святилище Исэ, считающееся самым святым синтоистским храмом Японии, расположено в месте слияния рек Исудзу и Симамити и почитает богиню солнца Аматерасу, а внутреннее святилище считается ее обителью. \Считается, что в храме хранится одно из трех священных сокровищ японских императорских регалий, а именно Ята-но Кагами, священное бронзовое зеркало, которое использовалось для того, чтобы выманить Аматерасу из пещеры Небесной скалы и вернуть свет в мир." 
+ building_NEA_ise_grand_shrine: "$building_type_NEA_ise_grand_shrine$" 
+ building_NEA_ise_grand_shrine_desc: "$building_type_NEA_ise_grand_shrine_desc$" 
+  
+ building_type_NEA_izumo_grand_shrine: "Большое святилище Идзумо" 
+ building_type_NEA_izumo_grand_shrine_desc: "Расположенное у подножия Якумояма Большое святилище Идзумо часто считается старейшим синтоистским святилищем Японии, предшествующим даже Большому святилищу Исэ, и было посвящено Ōкунинуси, верховному земному богу и изначальному правителю Японских островов. \Считается, что святилище было подарено Ниниги-но Микото, внуком богини солнца Аматерасу и родоначальником Императорской Японской линии, после того как Аматерасу потребовала от Кунинуси отказаться от управления островами, чтобы очистить их после перенаселения злыми духами." 
+ building_NEA_izumo_grand_shrine: "$building_type_NEA_izumo_grand_shrine$" 
+ building_NEA_izumo_grand_shrine_desc: "$building_type_NEA_izumo_grand_shrine_desc$" 
+  
+ building_type_NEA_futarasan_shrine: "Храм Футарасан" 
+ building_type_NEA_futarasan_shrine_desc: "Расположенное на священной горе Нантай (также известной как Футарасан) и основанное буддийским священником Кегон Сёдо Сёнином в 767 году, святилище Футарасан имело значение как место поклонения еще до своего основания, будучи местом древнего горного культа, сосредоточенного вокруг поклонения горе Нантай. \n\nВ период Хэйан храм стал центром школы буддизма Тэндай, его посещали такие влиятельные личности, как Кукай и Эннин. В храме также хранятся три божества синтоистского пантеона: Окунинуси, Тагорихимэ и Адзисукитакахиконэ." 
+ building_NEA_futarasan_shrine: "$building_type_NEA_futarasan_shrine$" 
+ building_NEA_futarasan_shrine_desc: "$building_type_NEA_futarasan_shrine_desc$" 
+  
+  # Castles/Fortresses 
+ building_type_NEA_shuri_castle: "Замок Шури" 
+ building_type_NEA_shuri_castle_desc: "Построенный во время правления короля Сюнбадзюнки в период Гусуку, замок Сюри служил важнейшим опорным пунктом для королей Окинавы, поскольку он расположен на вершине холма, откуда открывается вид на окрестности, включая столицу Урасоэ. \n\nАрхитектура замка представляет собой слияние китайского и рюкюанского стилей и включает в себя такие отличительные черты, как красные лакированные ворота, красочные настенные мозаики и использование рюкюанского известняка в его строительстве." 
+ building_NEA_shuri_castle: "$building_type_NEA_shuri_castle$" 
+ building_NEA_shuri_castle_desc: "$building_type_NEA_shuri_castle_desc$" 
+  
+  # Buildings/Other 
+ building_type_NEA_dazaifu: "Дазайфу" 
+ building_type_NEA_dazaifu_desc: "Дадзайфу служил военным и административным центром Кюсю, служил дипломатическим узлом, принимая иностранных высокопоставленных гостей и выступая в качестве отправной точки для морских экспедиций. \n\nГубернаторы, назначаемые императорским двором, иногда обладали достаточной властью, чтобы оспаривать власть центрального правительства, и случались заметные восстания, такие как восстание Фудзивара-но Хироцугу в период Нара. Позднее, в период Хэйан, Дадзайфу также служил местом ссылки для придворных, включая известного ученого Сугавару-но Митидзанэ." 
+ building_NEA_dazaifu: "$building_type_NEA_dazaifu$" 
+ building_NEA_dazaifu_desc: "$building_type_NEA_dazaifu_desc$" 
+  
+  # Natural Landmarks 
+ building_type_NEA_mount_fuji: "Гора Фудзи" 
+ building_type_NEA_mount_fuji_desc: "Гора Фудзи, самая высокая гора Японии, почитаемая с древних времен, веками вдохновляла художников, поэтов и писателей благодаря своей живописной красоте и священной ауре. \Вершина, служившая местом обитания Асама-но Ōками, имеет религиозное значение и была местом многочисленных паломничеств в эпоху Хэйан." 
+ building_NEA_mount_fuji: "$building_type_NEA_mount_fuji$" 
+ building_NEA_mount_fuji_desc: "$building_type_NEA_mount_fuji_desc$" 
+  
+  # Mines 
+ building_type_NEA_sado_gold_mine_01: "Золотой рудник Садо" 
+ building_type_NEA_sado_gold_mine_01_desc: "У подножия горного хребта Ōsado на острове Садо находится прибыльный и всегда востребованный золотой рудник." 
+ building_NEA_sado_gold_mine_01: "$building_type_NEA_sado_gold_mine_01$" 
+ building_NEA_sado_gold_mine_01_desc: "$building_type_NEA_sado_gold_mine_01_desc$" 
+ building_NEA_sado_gold_mine_02: "Золотой рудник Садо" 
+ building_NEA_sado_gold_mine_02_desc: "$building_NEA_rammelsberg_mines_02_desc$" 
+ building_NEA_sado_gold_mine_03: "Большой золотой рудник Садо" 
+ building_NEA_sado_gold_mine_03_desc: "$building_NEA_rammelsberg_mines_03_desc$" 
+ building_NEA_sado_gold_mine_04: "Золотодобывающий комплекс Садо" 
+ building_NEA_sado_gold_mine_04_desc: "$building_NEA_rammelsberg_mines_04_desc$" 
+  
+ building_type_NEA_iwami_silver_mine_01: "Серебряный рудник Ивами" 
+ building_type_NEA_iwami_silver_mine_01_desc: "У подножия гор Чугоку находится прибыльный и всегда востребованный серебряный рудник." 
+ building_NEA_iwami_silver_mine_01: "$building_type_NEA_iwami_silver_mine_01$" 
+ building_NEA_iwami_silver_mine_01_desc: "$building_type_NEA_iwami_silver_mine_01_desc$" 
+ building_NEA_iwami_silver_mine_02: "Серебряный рудник Ивами" 
+ building_NEA_iwami_silver_mine_02_desc: "$building_NEA_rammelsberg_mines_02_desc$" 
+ building_NEA_iwami_silver_mine_03: "Большой серебряный рудник Ивами" 
+ building_NEA_iwami_silver_mine_03_desc: "$building_NEA_rammelsberg_mines_03_desc$" 
+ building_NEA_iwami_silver_mine_04: "Серебряный горнодобывающий комплекс Ивами" 
+ building_NEA_iwami_silver_mine_04_desc: "$building_NEA_rammelsberg_mines_04_desc$" 
+  
+  
+  
+  ## China 
+  
+  # Temples 
+ building_type_NEA_shaolin_monastery: "Монастырь Шаолинь" 
+ building_type_NEA_shaolin_monastery_desc: "Основанный в 495 году индийским монахом Батуо при поддержке императора Сяовэня из династии Северная Вэй, храм Шаолинь, расположенный у подножия горы Шаоши в горном массиве Сун, стал центром буддизма Хинаяны, а ученики Батуо, Сэнчоу и Хуэйгуан, ввели в храм боевые искусства. \n\nПозднее, в 527 году, Бодхидхарма, 28-й патриарх чань-буддизма, распространил учение Махаяны, укрепив Шаолинь в качестве важного центра чань-буддизма во времена династий Суй, Тан, У-Чжоу и Сун." 
+ building_NEA_shaolin_monastery: "$building_type_NEA_shaolin_monastery$" 
+ building_NEA_shaolin_monastery_desc: "$building_type_NEA_shaolin_monastery_desc$" 
+  
+ building_type_NEA_temple_of_confucius: "Храм Конфуция" 
+ building_type_NEA_temple_of_confucius_desc: "Храм Конфуция в Цюфу, крупнейший конфуцианский храм в Китае, бывшая резиденция и школа мысли Конфуция, был освящен всего через два года после его смерти герцогом Лу, а затем, после получения жертвоприношений от императора Гао из Хань, закрепился в качестве главного места конфуцианского паломничества. \Позднее, во времена династии Сун, в 1012 и 1094 годах были проведены расширения, в результате чего комплекс состоял из трех секций и четырех внутренних дворов, включающих более 400 комнат." 
+ building_NEA_temple_of_confucius: "$building_type_NEA_temple_of_confucius$" 
+ building_NEA_temple_of_confucius_desc: "$building_type_NEA_temple_of_confucius_desc$" 
+  
+ building_type_NEA_iron_pagoda: "Железная пагода" 
+ building_type_NEA_iron_pagoda_desc: "Построенная в 1049 году во времена династии Сун Железная пагода храма Югуо, известная своей кирпичной кладкой, напоминающей железо, является шедевром архитектуры Сун. На ней изображены Будда, монахи, мифические существа и фрески с деталями китайских сказок, таких как "Путешествие на Запад"." 
+ building_NEA_iron_pagoda: "$building_type_NEA_iron_pagoda$" 
+ building_NEA_iron_pagoda_desc: "$building_type_NEA_iron_pagoda_desc$" 
+  
+ building_type_NEA_wannian_temple: "Храм Байшуй Пусянь" 
+ building_type_NEA_wannian_temple_desc: "Храм Байшуй Пусянь (позднее известный как храм Ваньнянь) был основан в конце IV века во времена династии Восточная Цзинь у подножия священной горы Эмэй и заслужил признание за хранение реликвии зуба Будды, а также за свой Кирпичный зал без балок, который когда-то принимал таких известных гостей, как знаменитый поэт Ли Бай." 
+ building_NEA_wannian_temple: "$building_type_NEA_wannian_temple$" 
+ building_NEA_wannian_temple_desc: "$building_type_NEA_wannian_temple_desc$" 
+  
+ building_type_NEA_wuhou_temple: "Храм Ухоу" 
+ building_type_NEA_wuhou_temple_desc: "Храм Ухоу, основанный в 223 г. н.э. одновременно с храмом Хуэйлин, посвященным Лю Бэю, почитает Чжугэ Ляна из государства Шу, признанного маркграфом войны (лит. Wuhou). \n\nЭтот обширный храмовый комплекс был расширен в начале 4-го века династией Чэн Хань под покровительством Ли Сюна и включал в себя храмы Хуэйлин и Хань Чжаоли. В нем представлены скульптурные изображения двадцати восьми чиновников и генералов Шу." 
+ building_NEA_wuhou_temple: "$building_type_NEA_wuhou_temple$" 
+ building_NEA_wuhou_temple_desc: "$building_type_NEA_wuhou_temple_desc$" 
+  
+  # Walls 
+ building_type_NEA_shanhaiguan: "Ю Пас" 
+ building_type_NEA_shanhaiguan_desc: "Перевал Юй (позднее известный как перевал Шанхай) расположен на восточном берегу реки Ши между горами Янь и Ляодунским заливом и является самой восточной точкой Великой стены, поэтому его часто называют Первым перевалом под Небом. \n\nСтратегически расположенный над самым узким местом в коридоре Ляоси, перевал служит передовым рубежом обороны от кочевых народов на севере." 
+ building_NEA_shanhaiguan: "$building_type_NEA_shanhaiguan$" 
+ building_NEA_shanhaiguan_desc: "$building_type_NEA_shanhaiguan_desc$" 
+  
+ building_type_NEA_yanmenguan: "Перевал Янмэнь" 
+ building_type_NEA_yanmenguan_desc: "Перевал Яньмэнь (дословно "Перевал диких гусей"), расположенный в горах Яньмэнь и имеющий три укрепленных ворот, стратегически охраняет перекресток между Шаньси и северной Степью. \n\nВключенный в Великую стену Северной Ци в 557 году нашей эры, он служил в качестве внутренней линии обороны, а последующие династии, такие как Суй и Тан, неоднократно проводили ремонт." 
+ building_NEA_yanmenguan: "$building_type_NEA_yanmenguan$" 
+ building_NEA_yanmenguan_desc: "$building_type_NEA_yanmenguan_desc$" 
+  
+ building_type_NEA_jianmenguan: "Перевал Цзяньмэнь" 
+ building_type_NEA_jianmenguan_desc: "Перевал Цзяньмэнь (дословно: Перевал Ворот Меча), построенный знаменитым стратегом Чжугэ Ляном, защищает Сычуаньскую котловину с помощью естественных скал, укрепляющих его фланги, создавая почти непроницаемый барьер вдоль древних дорог Шу. \n\nИсторически ворота играли решающую роль в обороне Шу Хань в период Троецарствия, а также в последующие эпохи." 
+ building_NEA_jianmenguan: "$building_type_NEA_jianmenguan$" 
+ building_NEA_jianmenguan_desc: "$building_type_NEA_jianmenguan_desc$" 
+  
+  # Buildings/Other 
+ building_type_NEA_iron_lion_of_cangzhou: "Железный лев из Цанчжоу" 
+ building_type_NEA_iron_lion_of_cangzhou_desc: "Железный лев Цанчжоу, построенный в 953 году нашей эры, был отлит из примерно 400 000 тонн железа с использованием техники штучной формовки, в результате чего швы, отмечающие высоту заливки на этапах литья, были перекрыты кусками кованого железа на линиях разлома. \n\nИсточником вдохновения для создания скульптуры послужила местная легенда, повествующая о доблестной победе льва над драконом, который когда-то наводил ужас на жителей Цанчжоу." 
+ building_NEA_iron_lion_of_cangzhou: "$building_type_NEA_iron_lion_of_cangzhou$" 
+ building_NEA_iron_lion_of_cangzhou_desc: "$building_type_NEA_iron_lion_of_cangzhou_desc$" 
+  
+ building_type_NEA_bronze_bird_terrace: "Терраса для бронзовых птиц" 
+ building_type_NEA_bronze_bird_terrace_desc: "Построенная в конце правления династии Хань, около 210 г. н.э., Цао Цао на северо-западе города Йе, великолепная пагода, изначально известная как Лутай, получила название Терраса бронзовой птицы из-за медного воробья, украшающего ее крышу. \n\nВ эпоху Северных династий она называлась Терраса Металлического Феникса, а при династии Тан вернулась к своему первоначальному названию." 
+ building_NEA_bronze_bird_terrace: "$building_type_NEA_bronze_bird_terrace$" 
+ building_NEA_bronze_bird_terrace_desc: "$building_type_NEA_bronze_bird_terrace_desc$" 
+  
+  # Natural Landmarks 
+ building_type_NEA_mount_tai: "Гора Тай" 
+ building_type_NEA_mount_tai_desc: "Историческое значение горы Тай, относящееся ко времени правления династии Чжоу, заключается в ее роли в жертвоприношениях Фэншань, которые впоследствии превратились в высоко ритуализированные церемонии и привлекали императоров, конфуцианских ученых, деятелей культуры и иностранных эмиссаров, оставивших на горе многочисленные каменные надписи и двустишия, общее число которых превышает 1 800." 
+ building_NEA_mount_tai: "$building_type_NEA_mount_tai$" 
+ building_NEA_mount_tai_desc: "$building_type_NEA_mount_tai_desc$" 
+  
+  # Mines 
+ building_type_NEA_liaodong_iron_mine_01: "Ляодунский железный рудник" 
+ building_type_NEA_liaodong_iron_mine_01_desc: "У подножия гор Цянь находится прибыльный и всегда востребованный Железный рудник." 
+ building_NEA_liaodong_iron_mine_01: "$building_type_NEA_liaodong_iron_mine_01$" 
+ building_NEA_liaodong_iron_mine_01_desc: "$building_type_NEA_liaodong_iron_mine_01_desc$" 
+ building_NEA_liaodong_iron_mine_02: "Ляодунский железный рудник" 
+ building_NEA_liaodong_iron_mine_02_desc: "$building_NEA_rammelsberg_mines_02_desc$" 
+ building_NEA_liaodong_iron_mine_03: "Большой Ляодунский железный рудник" 
+ building_NEA_liaodong_iron_mine_03_desc: "$building_NEA_rammelsberg_mines_03_desc$" 
+ building_NEA_liaodong_iron_mine_04: "Ляодунский железорудный комбинат" 
+ building_NEA_liaodong_iron_mine_04_desc: "$building_NEA_rammelsberg_mines_04_desc$" 

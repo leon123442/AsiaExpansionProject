@@ -8,10 +8,14 @@ kim_seonghan = {
 	culture = xiongnu
 	2.1.1 = { # estimate
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	77.1.1 = { # estimate
 		death = yes
 	}
+	dna = kim_seonghan_dna_entry
 }
 kim_ado = {
 	name = Ado # 아도/阿道
@@ -1112,6 +1116,9 @@ kim_heonan = {
 	father = kim_heonan
 	857.1.1 = { # estimate
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	867.1.1 = {
 		trait = devoted
@@ -1194,6 +1201,9 @@ kim_gyemyeong = {
 	mother = kim_gwanghwa
 	843.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	860.1.1 = {
 		add_spouse = 110000006 # # Kim Munui
@@ -1213,11 +1223,15 @@ kim_heongang = {
 	mother = 110000006 # Queen Consort Munui
 	861.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	886.1.1 = {
 		death = yes
 		name = Heongang # 헌강/憲康
 	}
+	dna = Gim_Jeong_dna_entry
 }
 kim_uiseong = {
 	name = Uiseong # 의성/義成
@@ -3246,6 +3260,9 @@ wang_munjong = {
 	mother = queen_wonhye
 	1019.12.29 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1047.1.1 = {
 		add_spouse = queen_inye
@@ -3266,6 +3283,9 @@ wang_sunjong = {
 	mother = queen_inye
 	1047.12.28 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1083.9.2 = {
 		trait = ill
@@ -3275,6 +3295,7 @@ wang_sunjong = {
 		death = yes
 		name = Sunjong # 순종/順宗
 	}
+	dna = Wang_Sunjong_dna_entry
 }
 wang_seonjong = {
 	name = Jeung # 증/蒸
@@ -3290,6 +3311,9 @@ wang_seonjong = {
 	mother = queen_inye
 	1049.10.9 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1094.6.17 = {
 		death = yes
@@ -3461,6 +3485,76 @@ wang_jeonggan = {
 	1069.1.1 = {
 		death = yes
 		name = Jeonggan # 정간/靖簡
+	}
+}
+wang_heonjong = {
+	name = Uk # 욱/昱
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_seonjong
+	1084.8.1 = {
+		birth = yes
+	}
+	1097.11.6 = {
+		death = yes
+		name = Heonjong # 정간/靖簡
+	}
+}
+wang_yejong = {
+	name = U # 우/俁
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_sukjong
+	1079.2.11 = {
+		birth = yes
+	}
+	1122.3.15 = {
+		death = yes
+		name = Yejong # 숙종/肅宗
+	}
+}
+wang_injong = {
+	name = Gu # 구/構
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_yejong
+	1109.10.29 = {
+		birth = yes
+	}
+	1146.4.10 = {
+		death = yes
+		name = Injong # 인종/仁宗
+	}
+}
+wang_uijong = {
+	name = Cheol # 철/徹
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_injong
+	1127.5.23 = {
+		birth = yes
+	}
+	1173.11.7 = {
+		death = yes
+		name = Uijong # 의종/毅宗
+	}
+}
+wang_myeongjong = {
+	name = Heun # 흔/昕
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_injong
+	1131.11.8 = {
+		birth = yes
+	}
+	1202.12.3 = {
+		death = yes
+		name = Myeongjong # 명종/明宗
 	}
 }
 
@@ -4162,6 +4256,9 @@ dae_ijin = {
 	father = dae_shindeok
 	810.1.1 = { # estimate
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	871.1.1 = {
 		death = yes
@@ -4189,6 +4286,9 @@ dae_hyeonseok = {
 	father = dae_huaiyuan
 	851.1.1 = { # estimate
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	894.1.1 = {
 		death = yes

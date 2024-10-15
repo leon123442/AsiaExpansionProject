@@ -1,52 +1,104 @@
 ﻿## Development
 
 e_panyupayana = {
-	867.1.1 = { change_development_level = 1 }
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
+
+k_sulu = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+
+c_sug = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+
 c_oton = {
 	867.1.1 = { change_development_level = 3 }
-}
-c_sugbu = {
-	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_tanghay = {
 	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_kasiguran = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 c_balayan = {
 	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_tolay = {
 	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_masbat = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 d_pangasinan = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 c_kumalarang = {
 	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_aparri = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
 c_samtoy = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
-
 c_agusan = {
 	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 c_suligaw = {
 	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
 }
-
 c_penghu = {
 	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 8 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+}
+c_tondo = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+}
+b_pulilan = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+c_maynila = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
+}
+c_pila_ph = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+b_tangway = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+b_taytay_morong = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+c_pangpang= {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+c_butuan = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 7 }
 }
 
 
@@ -71,8 +123,6 @@ d_tondo = {
 	}
 }
 	c_tondo = {
-		867.1.1 = { change_development_level = 5 }
-
 		860.1.1 = {
 			holder = tondo008 #
 		}
@@ -91,8 +141,6 @@ d_tondo = {
 		}
 		}
 	b_pulilan = {
-		867.1.1 = { change_development_level = 3 }
-
 		860.1.1 = {
 			holder = tondo002 #
 			liege = d_tondo
@@ -102,8 +150,6 @@ d_tondo = {
 		}
 	}
 	c_maynila = {
-		867.1.1 = { change_development_level = 5 }
-
 		860.1.1 = {
 			holder = tondo003 # Fictional ruler
 			liege = d_tondo
@@ -114,8 +160,6 @@ d_tondo = {
 		}
 	}
 	c_pila_ph = {
-		867.1.1 = { change_development_level = 3 }
-
 		860.1.1 = {
 			holder = tondo009 # Fictional ruler
 			liege = d_tondo
@@ -125,15 +169,11 @@ d_tondo = {
 		}
 	}
 	b_tangway = {
-		867.1.1 = { change_development_level = 2 }
-
 		860.1.1 = {
 			holder = tondo006 # Fictional ruler
 		}
 	}
 	b_taytay_morong = {
-		867.1.1 = { change_development_level = 3 }
-
 		860.1.1 = {
 			holder = tondo007 # Fictional ruler
 		}
@@ -144,10 +184,6 @@ d_tondo = {
 	}
 
 ## pangpang
-
-c_pangpang= {
-	867.1.1 = { change_development_level = 2 }
-}
 
 c_binalatongan = {
 	860.1.1 = {
@@ -192,7 +228,6 @@ d_butuan = {
 	}
 }
 c_butuan = {
-	867.1.1 = { change_development_level = 5 }
 	860.1.1 = {
 		holder = butuan001 # Fictional ruler
 	}
@@ -203,6 +238,9 @@ c_limasawa = {
 	}
 }
 
+
+
+# Sulu
 c_sug = {
 	860.1.1 = {
 		holder = buranun001
@@ -212,17 +250,4 @@ c_taytay = {
 	860.1.1 = {
 		holder = palawan001
 	}
-}
-
-
-
-# Sulu
-k_sulu = {
-	700.1.1 = { change_development_level = 1 }
-	1066.1.1 = { change_development_level = 3 }
-}
-c_jawi_jawi = {
-    865.1.1 = {
-        holder = easteregg_sama_bajau
-    }
 }

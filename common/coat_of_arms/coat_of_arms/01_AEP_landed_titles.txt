@@ -96,21 +96,31 @@ e_grand_liao = {
 	}	
 }
 
+e_grand_jin = {
+	pattern="pattern_solid.dds"
+	color1=black
+	colored_emblem={
+		color1=yellow
+		texture="cat_china_letter_jinzi_gold.dds"
+		instance={ position = { 0.5 0.5 } scale={ 0.930000 0.930000 } }
+	}
+}
+
 e_nanzhong = {
 	pattern = "pattern_solid.dds"
-	color1 = "white"
+	color1 = "black"
 	colored_emblem = {
-		texture = "ce_peacock.dds"
-		color1 = "yellow"
-		color2 = { 161 16 16 }	
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
+		color1 = "white"
+		color2 = "yellow"
+		texture = "ce_flaming_jewel.dds"
+		instance = { position = { 0.5 0.48 } scale = { 1.0 1.0 } depth = 1.010000 }
 	}
 	colored_emblem = {
-		texture = "ce_peacock.dds"
 		color1 = "green"
-		color2 = { 161 16 16 }	
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
-	}		
+		color2 = "red"
+		texture="ce_peacock.dds"
+		instance = { position = { 0.5 0.55 } scale = { 0.5 0.5 } }
+	}
 }
 
 e_nippon = {
@@ -345,156 +355,6 @@ d_pyongyang = {
 	}
 }
 
-d_koshinetsu = {
-	pattern = "pattern_solid.dds"
-	color1 = "orange"
-	colored_emblem = {
-		texture = "d_koshinetsu.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_west_kanto = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue_light"
-	colored_emblem = {
-		texture = "d_west_kanto.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_east_kanto = {
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	colored_emblem = {
-		texture = "d_east_kanto.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_north_kyushu = {
-	pattern = "pattern_solid.dds"
-	color1 = "green"
-	colored_emblem = {
-		texture = "d_north_kyushu.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_south_kyushu = {
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	colored_emblem = {
-		texture = "d_south_kyushu.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_chugoku = {
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	colored_emblem = {
-		texture = "d_chugoku.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_nankai = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue_light"
-	colored_emblem = {
-		texture = "d_nankai.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_sanin = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	colored_emblem = {
-		texture = "d_sanin.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_sanyo = {
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	colored_emblem = {
-		texture = "d_sanyo.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_kinai = {
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	colored_emblem = {
-		texture = "d_kinai.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_chubu = {
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	colored_emblem = {
-		texture = "d_chubu.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_hokuriku = {
-	pattern = "pattern_solid.dds"
-	color1 = "green_light"
-	colored_emblem = {
-		texture = "d_hokuriku.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_tokai = {
-	pattern = "pattern_solid.dds"
-	color1 = "brown"
-	colored_emblem = {
-		texture = "d_tokai.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_mutsu = {
-	pattern = "pattern_solid.dds"
-	color1 = "green_light"
-	colored_emblem = {
-		texture = "d_mutsu.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
-d_dewa = {
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	colored_emblem = {
-		texture = "d_dewa.dds"
-		color1 = "black"
-		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 } }
-	}
-}
-
 d_ungju = {
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 55 116 117 } # 
@@ -701,7 +561,7 @@ c_paegangjin = {
 }
 
 ### Cat Korea
-e_jurchen = {
+e_amur = {
 
 	pattern = "pattern_solid.dds"
 
@@ -732,6 +592,24 @@ e_jurchen = {
 	}
 
 } 
+
+e_jurchen = {
+
+	pattern = "pattern_solid.dds"
+
+	color1 = "black"
+
+	colored_emblem = {
+
+		texture = "cat_manchuria_flower.dds"
+
+		color1 = "yellow"
+
+		instance = { position = { 0.5 0.45 } scale = { 0.92 0.92 }  }		
+
+	}
+
+}
 
 k_jurchen = {
 
@@ -1418,10 +1296,9 @@ e_tang = {
 	}
 }
 
-k_han = {
+k_shannanxi = {
 	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "black"
+	color1 = { 174 158 92 }
 	colored_emblem = {
 		texture = "d_hanzhong.dds"
 		color1 = "red"
@@ -1429,7 +1306,7 @@ k_han = {
 		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
 	}
 }
-k_nanyue = {
+k_lingnan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 215 150 47 }
 	colored_emblem = {
@@ -1437,6 +1314,15 @@ k_nanyue = {
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
+}
+k_guangxi = {
+	pattern = "pattern_solid.dds"
+	color1 = { 0 120 120 }
+	colored_emblem = {
+		texture = "d_guiguan.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
+	}
 }
 d_confucius = {
 	pattern = "pattern_solid.dds"
@@ -1529,7 +1415,6 @@ d_xingci = {
 	colored_emblem = {
 		texture = "d_zhao.dds"
 		color1 = "black"
-		color2 = { 72 150 103 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}	
 }
@@ -1557,7 +1442,6 @@ d_lulong = {
 	colored_emblem = {
 		texture = "d_yan.dds"
 		color1 = "black"
-		color2 = { 52 62 88 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
@@ -2076,6 +1960,16 @@ d_fujian = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
+d_qingyuan = {
+	pattern = "pattern_solid.dds"
+	color1 = { 188 200 66 }
+	colored_emblem = {
+		texture = "cat_china_letter_qing.dds"
+		color1 = "black"
+		color2 = { 181 103 47 }
+		instance = { scale = { 0.5 0.5 } position = { 0.5 0.45 }  }		
+	}
+}
 d_qianzhong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 26 125 31 }
@@ -2091,7 +1985,6 @@ d_yuzhou_ba = {
 	colored_emblem = {
 		texture = "d_yuzhou_ba.dds"
 		color1 = "black"
-		color2 = { 105 147 0 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
@@ -2269,121 +2162,170 @@ k_zhao = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_yan = {
+k_hebei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 12 62 88 }
 	colored_emblem = {
-		texture = "k_yan.dds"
+		texture = "k_hebei.dds"
 		color1 = "white"
 		color2 = { 12 62 88 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}		
 }
-k_tengri = {
+k_chanyu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 58 170 166 }
 	colored_emblem = {
-		texture = "k_tengri.dds"
+		texture = "k_chanyu.dds"
 		color1 = "black"	
 		color2 = { 58 170 166 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}		
 }
-k_jin = {
+k_hedong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 200 200 200 }
 	colored_emblem = {
-		texture = "k_jin.dds"
+		texture = "k_hedong.dds"
 		color1 = "black"
 		color2 = { 200 200 200 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}
 }
-k_xia_east = {
+k_guannei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 124 62 62 }
 	colored_emblem = {
-		texture = "k_xia_east.dds"
+		texture = "k_guannei.dds"
 		color1 = "black"
 		color2 = { 124 62 62 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_longxi = {
+k_longyou = {
 	pattern = "pattern_solid.dds"
 	color1 = { 100 100 100 }
 	colored_emblem = {
-		texture = "k_longxi.dds"
+		texture = "k_longyou.dds"
 		color1 = "black"
 		color2 = { 100 100 100 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }			
 	}		
 }
-k_qin = {
+k_qinfeng = {
+	pattern = "pattern_solid.dds"
+	color1 = { 100 100 100 }
+	colored_emblem = {
+		texture = "k_longyou.dds"
+		color1 = "black"
+		color2 = { 100 100 100 }
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }			
+	}
+}
+k_jingji = {
 	pattern = "pattern_solid.dds"
 	color1 = { 48 48 48 }
 	colored_emblem = {
-		texture = "k_qin.dds"
+		texture = "k_jingji.dds"
 		color1 = "white"
 		color2 = { 48 48 48 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_shu = {
+k_jiannan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 104 109 50 }
 	colored_emblem = {
-		texture = "k_shu.dds"
+		texture = "k_jiannan.dds"
 		color1 = "black"
 		color2 = { 104 109 50 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_zhou = {
+k_zizhou = {
+	pattern = "pattern_solid.dds"
+	color1 = { 47 255 47 }
+	colored_emblem = {
+		texture = "d_luzhou.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
+	}		
+}
+k_duji = {
 	pattern = "pattern_solid.dds"
 	color1 = { 218 234 33 }
 	colored_emblem = {
-		texture = "k_zhou.dds"
+		texture = "k_duji.dds"
 		color1 = "black"
 		color2 = { 218 234 33 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_qi = {
+k_henan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 132 159 117 }
 	colored_emblem = {
-		texture = "k_qi.dds"
+		texture = "k_henan.dds"
 		color1 = "black"
 		color2 = { 132 159 117 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_chu = {
+k_shannandong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 32 116 126 }
 	colored_emblem = {
-		texture = "k_chu.dds"
+		texture = "k_shannandong.dds"
 		color1 = "black"
 		color2 = { 32 116 126 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_wu = {
+k_huainan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 73 108 145 }
 	colored_emblem = {
-		texture = "k_wu.dds"
+		texture = "k_huainan.dds"
 		color1 = "black"	
 		color2 = { 73 108 145 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_yue = {
+k_jiangnanxi = {
+	pattern = "pattern_solid.dds"
+	color1 = { 100 100 100 }
+	colored_emblem = {
+		texture = "d_jiangxi.dds"
+		color1 = "black"	
+		color1 = { 100 100 100 }
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
+	}	
+}
+k_jiangxi = {
+	pattern = "pattern_solid.dds"
+	color1 = { 100 100 100 }
+	colored_emblem = {
+		texture = "d_jiangxi.dds"
+		color1 = "black"	
+		color1 = { 100 100 100 }
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
+	}	
+}
+k_hunan = {
+	pattern = "pattern_solid.dds"
+	color1 = { 81 191 70 }
+	colored_emblem = {
+		texture = "d_hunan.dds"
+		color1 = "black"
+		color2 = { 81 191 70 }
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
+	}	
+}
+k_jiangnandong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 109 82 110 }
 	colored_emblem = {
-		texture = "k_yue.dds"
+		texture = "k_jiangnandong.dds"
 		color1 = "black"
 		color2 = { 109 82 110 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
@@ -2397,6 +2339,15 @@ k_qianzhong = {
 		color1 = "black"
 		color2 = { 209 144 4 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
+	}		
+}
+k_kuizhou = {
+	pattern = "pattern_solid.dds"
+	color1 = { 100 200 47 }
+	colored_emblem = {
+		texture = "d_ningjiang.dds"
+		color1 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
 
@@ -2415,14 +2366,8 @@ k_nanzhong = {
 	color1 = "white"
 	colored_emblem = {
 		texture = "ce_peacock.dds"
-		color1 = "yellow"
-		color2 = { 161 16 16 }	
-		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
-	}
-	colored_emblem = {
-		texture = "ce_peacock.dds"
 		color1 = "green"
-		color2 = { 161 16 16 }	
+		color2 = "red"	
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}		
 }
@@ -2455,23 +2400,22 @@ d_yamato_imperial = {
 	}
 }
 
-### Taken from Rajas of Asia
+### Credit: Rajas of Asia
 
 e_nusantara = {
-	pattern="pattern_chevron_01.dds"
+	pattern="pattern_solid.dds"
 	color1=white
-	color2=red
-	color3=red
+	color2=yellow
+	color3=orange
 	colored_emblem={
-		color1=white
-		color2=red
-		color3=black
+		color1=red
+		color2=black
+		color3=white
 		texture="ce_srivijaya_sun.dds"
 		instance={
-			position={ 0.500000 0.465000 }
-			scale={ 1.0000000 1.000000 }
-			depth=2.010000
+			position={ 0.500000 0.480000 }
 		}
+
 	}
 }
  

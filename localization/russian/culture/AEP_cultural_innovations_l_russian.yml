@@ -1,51 +1,51 @@
 ﻿l_russian:
- innovation_yues_group:0 "Baiyue Ambitions"
- innovation_yues_group_desc:0 "Baiyue generally refers to ancient ethnic groups who inhabit long coastal areas and large rivers in South and East Asia. They were the first settlers in this area and constantly migrated inland. Over the long history they have gradually integrated into the united dynasties, but still offered some resistance."
- 
- innovation_java_group:0 "King of the Thousand Islands"
- innovation_java_group_desc:0 "The Austronesian tribes travel across thousands of islands, accompanied by tides and storms. They rule the sea under the sun."
- 
- innovation_tunguse_group:0 "White Mountain, black Water"
- innovation_tunguse_group_desc:0 "Large areas of the Nenjiang River, Heilongjiang River, and the winding Xing'an Mountains fed many fishing and hunting tribes. Under the blessing of their patron saint “Willow Empress”, their tribes grew larger and stronger and emigrated one by one from the forest."
- 
- innovation_nanman_group:0 "Masters of the Jungle"
- innovation_nanman_group_desc:0 "In the wild Jungle from the Ailao Mountains to Wuyi Mountains there were brave hunting groups. The war of their ancestor Chiyou with the Yellow Emperor to ascend the throne of ancient China has become a legend. However even after centuries have passed they have never lost their fame nor their ferociousness."
-
- innovation_yamato_group:0 "Yamato Damashii"
- innovation_yamato_group_desc:0 "Since the age of mythology, the Yamato people firmly believed that they were commanded to heaven, the flowers fell for a moment, there was time for sadness and joy, the piano for thousands of days, and the unity of sword and heart."
-
- innovation_goryeo_group:0 "High Mountains, Beautiful Waters"
- innovation_goryeo_group_desc:0 "Goryeo ethnic groups considered themselves descendants of the god-king Dangun, the first King in Korea, and were revived by the Koguryo kingdom. They have withstood countless foreign invasions and incursions. Only years after the Japanese invasion of 1592, they gradually lost contact with the Tang Dynasty and faced the rise of the nomadic regime in the north and internal division."
-
- innovation_mongolic_group:0 "Blue Wolf, White Doe"
- innovation_mongolic_group_desc:0 "Descended from the Blue Wolf and White Doe in the legendary nomadic tribes that were herded in the vast grasslands north of the Great Wall and south of the Yinshan Mountains, once they unite, it will pose a great threat to all surrounding Kingdoms and Empires."
-
- innovation_centralization_of_authority:0 "The Great Union"
- innovation_centralization_of_authority_desc:0 "The first Emperor of China, Qin Shi Huang, not only merged all kingdoms, but also unified weights, measurements, languages and scripts. In this way, the cohesion of the Han culture has been strengthened in an unprecedented way, allowing people with all possible accents and habits in this vast territory to communicate, trade and unite under the rule of one Emperor."
- 
- innovation_world_cathay:0 "Khitan's Military System"
- innovation_world_cathay_desc:0 "In history, the founder of the Liao Dynasty, Khitan Khan, chose more than 1,000 of the bravest warriors from various tribes as his private guards. His successor Khan expanded the army to 300,000 and called it the PiShi Army."
-
- innovation_world_asia_korea:0 "Hunters from Goryeo"
- innovation_world_asia_korea_desc:0 "The land of the Goryeo is covered in thick forests and mountain ranges, so they are good at making hunting tools, especially bows. If they were drafted into the army they would be very good archers."
- 
- innovation_battleships:0 "Large Warship"
- innovation_battleships_desc:0 "Developed from old warships, and protected with cowhide on the outside and tall towers on the deck, these warships were so large that soldiers could walk on them and even ride horses."
-
- innovation_horse_archery:0 "Mounted Bow Samurai"
- innovation_horse_archery_desc:0 "Japanese arches date from prehistoric times, the Jōmon period. The long, unique asymmetrical bow style with the handle below the center originated in the Yayoi culture. Arches became a symbol of authority and power. The legendary first emperor of Japan, Emperor Jimmu, is always depicted with a bow. Some Emishi tribes, including the Hitakami tribe, practice archery and have been noticed and feared by the Yamato court. The first major attempts to subdue the Emishi in the 8th century were largely unsuccessful. The imperial armies, modeled on the Chinese mainland armies, proved unsuccessful in the face of the Emishi guerrilla tactics. Following the introduction and development of mounted archery and the guerrilla tactics used by the Emishi by the Imperial forces, the army soon saw success, which eventually led to the defeat of the Emishi."
-
- master_of_bow:0 "Masters of the Bow"
- master_of_bow_desc:0 "Archery has a long history in Japanese warfare and every samurai was expected to master the art. Less skilled warriors can be trained to shoot in a group, but accurate shots require dedication and skill, especially in the heat of the moment."
- 
- mountain_pattern_armour:0 "Mountain Pattern Armour"
- mountain_pattern_armour_desc:0 "At the end of the 8th Century the doctrine of the Chinese Imperial Army changed from a Cavalry focussed to an Infantry focussed doctrine. Interlocking small pieces of iron and steel onto leather backing allowed the Han to create flexible and comfortable, but still heavily protective armour. This armour allowed the Han soldier to withstand both cavalry and archer attacks, while remaining effective against infantry."
- 
- innovation_outrigger_boats:1 "Outriggers"
- innovation_outrigger_boats_desc:1 "Our boats are equipped with outriggers to keep them stable in rough waters. This allows us to cross the oceans with ease while still remaining swift and maneuverable."
- innovation_indian_primogeniture:1 "Impartible Inheritance"
- innovation_indian_primogeniture_desc:1 "Primogeniture has been the law of the land in India since time immemorial. The responsibility for the realm, like responsibility for the family, passes from father to eldest son, undivided."
- 
- innovation_tiger_sons:1 "Tiger Sons"
- innovation_tiger_sons_desc:1 "The Tiger Sons, or Luojuzi, formed the elite core of the Nanzhao Military and were chosen only from the strongest warriors. Cowardice wasn't tolerated among the Luojuzi, with retreat being punishable by death."
- 
+ innovation_yues_group: "Амбиции Байюэ" 
+ innovation_yues_group_desc: "Байюэ - это древние этнические группы, населяющие протяженные прибрежные районы и крупные реки в Южной и Восточной Азии. Они были первыми поселенцами на этой территории и постоянно мигрировали вглубь страны. За долгую историю они постепенно интегрировались в объединенные династии, но все еще оказывали некоторое сопротивление." 
+  
+ innovation_java_group: "Король Тысячи островов" 
+ innovation_java_group_desc: "Племена австронезийцев пересекают тысячи островов, сопровождаемые приливами и штормами. Они правят морем под солнцем." 
+  
+ innovation_tunguse_group: "Белая гора, черная вода" 
+ innovation_tunguse_group_desc: "Большие пространства рек Нэньцзян, Хэйлунцзян и извилистых гор Синьань питали множество рыболовецких и охотничьих племен. Под благословением своей покровительницы "Императрицы ив" их племена становились все многочисленнее и сильнее и одно за другим эмигрировали из леса." 
+  
+ innovation_nanman_group: "Хозяева джунглей" 
+ innovation_nanman_group_desc: "В диких джунглях от гор Айлао до гор Вуйи жили отважные охотники. Война их предка Чиоу с Желтым императором за право занять трон древнего Китая стала легендой. Однако даже по прошествии веков они не утратили ни своей славы, ни свирепости." 
+  
+ innovation_yamato_group: "Ямато Дамашии" 
+ innovation_yamato_group_desc: "С эпохи мифологии народ Ямато твердо верил, что им велено небесами, цветы падают на мгновение, есть время для печали и радости, пианино на тысячи дней, а также единство меча и сердца." 
+  
+ innovation_goryeo_group: "Высокие горы, красивые воды" 
+ innovation_goryeo_group_desc: "Этнические группы Корё считали себя потомками царя-бога Дангуна, первого короля Кореи, и были возрождены королевством Когурё. Они противостояли бесчисленным иностранным вторжениям и нашествиям. Только через несколько лет после японского вторжения 1592 года они постепенно утратили связь с династией Тан и столкнулись с усилением кочевого режима на севере и внутренним расколом." 
+  
+ innovation_mongolic_group: "Голубой волк, белая лань" 
+ innovation_mongolic_group_desc: "Потомки Синего Волка и Белой Лани из легендарных кочевых племен, которые паслись на обширных пастбищах к северу от Великой стены и к югу от гор Иньшань, объединившись, они станут большой угрозой для всех окрестных королевств и империй." 
+  
+ innovation_centralization_of_authority: "Великий союз" 
+ innovation_centralization_of_authority_desc: "Первый император Китая Цинь Шихуанди не только объединил все царства, но и унифицировал веса, меры, языки и письменность. Таким образом, сплоченность ханьской культуры укрепилась беспрецедентным образом, позволив людям со всеми возможными акцентами и привычками на этой огромной территории общаться, торговать и объединяться под властью одного императора." 
+  
+ innovation_world_cathay: "Военная система Кхитана" 
+ innovation_world_cathay_desc: "В истории основатель династии Ляо, Хитан Хан, выбрал более 1000 самых храбрых воинов из разных племен в качестве своей личной гвардии. Его преемник Хан расширил армию до 300 000 человек и назвал ее армией Пиши." 
+  
+ innovation_world_asia_korea: "Охотники из Корё" 
+ innovation_world_asia_korea_desc: "Земля Корё покрыта густыми лесами и горными хребтами, поэтому они хорошо умеют изготавливать орудия охоты, особенно луки. Если бы их призвали в армию, они были бы очень хорошими лучниками." 
+  
+ innovation_battleships: "Большой военный корабль" 
+ innovation_battleships_desc: "Переделанные из старых военных кораблей, защищенные снаружи воловьей кожей и высокими башнями на палубе, эти военные корабли были настолько велики, что солдаты могли ходить по ним и даже ездить на лошадях." 
+  
+ innovation_horse_archery: "Самурай с конным луком" 
+ innovation_horse_archery_desc: "Японские арки появились еще в доисторические времена, в период Дзёмон. Длинный, уникальный асимметричный стиль лука с рукояткой ниже центра зародился в культуре Яёй. Арки стали символом власти и могущества. Легендарный первый император Японии, император Дзимму, всегда изображается с луком. Некоторые племена эмиси, в том числе племя хитаками, практикуют стрельбу из лука, и их замечали и боялись при дворе Ямато. Первые серьезные попытки покорить эмиси в VIII веке были в основном безуспешными. Императорские армии, созданные по образцу материковых армий Китая, оказались безуспешными перед лицом партизанской тактики эмиси. После внедрения и развития конной стрельбы из лука и партизанской тактики, используемой эмиси императорскими войсками, армия вскоре добилась успеха, что в конечном итоге привело к поражению эмиси." 
+  
+ master_of_bow: "Мастера лука" 
+ master_of_bow_desc: "Стрельба из лука имеет давнюю историю в японских войнах, и каждый самурай должен был овладеть этим искусством. Менее опытных воинов можно научить стрелять в группе, но точные выстрелы требуют самоотверженности и мастерства, особенно в самый ответственный момент." 
+  
+ mountain_pattern_armour: "Броня с горными узорами" 
+ mountain_pattern_armour_desc: "В конце VIII века доктрина китайской императорской армии изменилась с доктрины, ориентированной на кавалерию, на доктрину, ориентированную на пехоту. Соединение небольших кусков железа и стали на кожаной основе позволило ханьцам создать гибкие и удобные, но при этом надежные защитные доспехи. Такая броня позволяла ханьскому солдату выдерживать атаки кавалерии и лучников, оставаясь при этом эффективным против пехоты." 
+  
+ innovation_outrigger_boats: "Аутригеры" 
+ innovation_outrigger_boats_desc: "Наши лодки оснащены аутригерами для поддержания устойчивости в бурных водах. Это позволяет нам с легкостью пересекать океаны, оставаясь при этом быстрыми и маневренными." 
+ innovation_indian_primogeniture: "Неподкупное наследство" 
+ innovation_indian_primogeniture_desc: "Первородство было законом страны в Индии с незапамятных времен. Ответственность за государство, как и ответственность за семью, безраздельно переходит от отца к старшему сыну." 
+  
+ innovation_tiger_sons: "Сыновья тигра" 
+ innovation_tiger_sons_desc: "Сыны Тигра, или Лоцзюзи, составляли элитное ядро армии Наньчжао и отбирались только из самых сильных воинов. Трусость была нетерпима среди луоцзюйцев, отступление каралось смертью." 
+  

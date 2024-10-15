@@ -1,0 +1,155 @@
+﻿batak = {
+	color = { 117 99 9 }
+
+	ethos = ethos_communal
+	heritage = heritage_sumatran
+	language = language_batak
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_mystical_ancestors
+		tradition_medicinal_plants
+		tradition_equal_inheritance
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+gayo = {
+	color = { 119 187 54 }
+
+	ethos = ethos_communal
+	heritage = heritage_sumatran
+	language = language_gayo
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_religion_blending
+		tradition_storytellers
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+simeulue = {
+	color = { 158 175 179 }
+
+	ethos = ethos_communal
+	heritage = heritage_sumatran
+	language = language_simeulue
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_music_theory
+		tradition_festivities
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+nias = {
+	color = { 244 151 96 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_sumatran
+	language = language_nias
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_warrior_culture
+		tradition_mystical_ancestors
+		tradition_storytellers
+		tradition_festivities
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+mentawai = {
+	color = { 93 120 175 }
+
+	ethos = ethos_communal
+	heritage = heritage_sumatran
+	language = language_mentawai
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_staunch_traditionalists
+		tradition_hunters
+		tradition_jungle_dwellers
+		tradition_sacred_groves
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+enggano = {
+	color = { 255 72 217 }
+
+	ethos = ethos_communal
+	heritage = heritage_sumatran
+	language = language_enggano
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_batak
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_monogamous
+		tradition_warrior_culture
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}

@@ -8,7 +8,7 @@
 
 jimmu_tenno = {
 	name = Kamuyamatoiwarebikonomikoto # 神日本磐余彦天皇
-	dna = jimmu_tenno_dna
+	dna = jimmu_tenno_dna_entry
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
@@ -27,10 +27,8 @@ jimmu_tenno = {
 	-712.2.13 = { # 711 BC
 		birth = yes
 		effect = {
-			add_character_flag = {
-				flag = has_scripted_appearance
-			}
-		}
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	-661.2.11 = { # 660 BC
 		name = Jimmu # 神武
@@ -1176,11 +1174,15 @@ shotoku_taishi = {
 	father = yomei_tenno
 	574.2.7 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	622.4.8 = {
 		name = Shotokutaishi # 聖徳太子
 		death = yes
 	}
+	dna = shotoku_taishi_dna_entry
 }
 yamato_yamashiro = {
 	name = Yamashiro # 山背
@@ -1796,10 +1798,8 @@ kanmu_tenno = {
 	736.2.4 = {
 		birth = yes
 		effect = {
-			add_character_flag = {
-				flag = has_scripted_appearance
-			}
-		}
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	772.1.1 = {
 		add_spouse = shikikefujiwara_otomuro
@@ -1813,7 +1813,7 @@ kanmu_tenno = {
 	806.4.9 = {
 		death = yes
 	}
-	dna = kanmu_tenno_dna
+	dna = kanmu_tenno_dna_entry
 }
 yamato_sakahito = {
 	name = Sakahito # 酒人
@@ -2261,7 +2261,7 @@ yamato_koga = {
 }
 1600007 = {
 	name = Michiyasu # 道康
-	dna = montoku_tenno_dna
+	dna = montoku_tenno_dna_entry
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato 
@@ -2270,10 +2270,8 @@ yamato_koga = {
 	827.8.1 = {
 		birth = yes
 		effect = {
-			add_character_flag = {
-				flag = has_scripted_appearance
-			}
-		}
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	849.1.1 = {
 		add_spouse = 1600008 # Fujiwara no Akirakeiko
@@ -2289,7 +2287,7 @@ yamato_koga = {
 # with Fujiwara no Akirakeiko
 1600004 = { # 4th Son
 	name = Korehito # 惟仁
-	dna = seiwa_tenno_dna
+	dna = seiwa_tenno_dna_entry
 	dynasty = 40000101
 	religion = shinto
 	culture = yamato
@@ -2302,10 +2300,8 @@ yamato_koga = {
 	850.5.12 = {
 		birth = yes
 		effect = {
-			add_character_flag = {
-				flag = has_scripted_appearance
-			}
-		}
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	858.10.7 = {
 		name = Seiwa # 清和
@@ -2906,6 +2902,9 @@ goreizei_tenno = {
 	mother = fujiwara_kishi
 	1025.8.28 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1045.2.5 = {
 		name = Go-Reizei # 後冷泉
@@ -2922,7 +2921,7 @@ goreizei_tenno = {
 	1068.5.22 = {
 		death = yes
 	}
-	dna = goreizei_tenno_dna_entry
+	dna = goreizei_tenno_dna_entry_entry
 }
 yamato_chikanobu = {
 	name = Chikanobu # placeholder name
@@ -4741,7 +4740,7 @@ fujiwara_yoshiyo = {
 }
 1600001 = {
 	name = Yoshifusa # 良房
-	dna = fujiwara_yoshifusa_dna
+	dna = fujiwara_yoshifusa_dna_entry
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
@@ -4761,6 +4760,9 @@ fujiwara_yoshiyo = {
 	mother = nankefujiwara_mitsuko
 	804.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	829.1.1 = {
 		add_spouse = minamoto_kiyohime
@@ -4774,7 +4776,7 @@ fujiwara_yoshiyo = {
 }
 1600005 = {
 	name = Mototsune # 基経
-	dna = fujiwara_mototsune_dna
+	dna = fujiwara_mototsune_dna_entry
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
@@ -4782,6 +4784,9 @@ fujiwara_yoshiyo = {
 	father = 1600001 # adoptive
 	836.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	891.2.25 = {
 		death = yes
@@ -5493,6 +5498,9 @@ fujiwara_yorimichi = {
 	mother = minamoto_rinshi
 	992.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1009.1.1 = {
 		add_spouse = yamato_taka
@@ -5879,7 +5887,7 @@ fujiwara_choshin = {
 1600006 = {
 	name = Takaiko # 高子
 	female = yes
-	dna = takaiko_empress_dna
+	dna = takaiko_empress_dna_entry
 	dynasty = 40000001
 	religion = shinto
 	culture = yamato
@@ -5890,6 +5898,9 @@ fujiwara_choshin = {
 	trait = education_intrigue_3
 	842.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	910.1.1 = {
 		death = yes
@@ -8392,6 +8403,9 @@ kawachiminamoto_yoshiie = {
 	father = kawachiminamoto_yoriyoshi
 	1039.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1063.1.1 = {
 		give_nickname = nick_hachimantaro # 八幡太郎

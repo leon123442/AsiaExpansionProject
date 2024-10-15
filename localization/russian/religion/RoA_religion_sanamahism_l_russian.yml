@@ -1,65 +1,65 @@
 ﻿l_russian:
-
-# Nuristani Religion
- sanamahism_religion:0 "Sanamahism" #lit. Worship of the Gods
- sanamahism_religion_adj:0 "Sanamahism"
- sanamahism_religion_adherent:0 "Sanamahi"
- sanamahism_religion_adherent_plural:0 "Sanamahis"
- sanamahism_religion_desc:0 "Sanamahism is the religion of the Meitei people. It is an animistic, ancestor-worshipping, shaman-led religious tradition."
- # Temples, Priests, Symbols
- sanamahism_house_of_worship:0 " Sanamahi Kachin"
- sanamahism_house_of_worship_plural:0 " Sanamahi Kachins"
- sanamahism_religious_symbol:0 "Sun" # Triumphal Post with a human figure at the top
- sanamahism_religious_text:0 "Puya " #religious stories orally passed down by priests
- sanamahism_religious_head_title:0 "High Priest"
- sanamahism_religious_head_title_name:0 "High Council"
- sanamahism_priest:0 "Priest"
- sanamahism_priest_plural:0 "Priests"
- sanamahism_priest_term_plural:0 "Priests"
- sanamahism_priest_female:0 "Maibi"
- sanamahism_priest_female_plural:0 "Maibis"
- sanamahism_bishop:0 "Elder"
- sanamahism_bishop_plural:0 "Elders"
- # The Great and Good Gods and Goddesses
- sanamahism_high_god_name:0 "Sanamahi"
- sanamahism_high_god_name_possessive:0 "Sanamahi's"
- sanamahism_high_god_shehe:0 "He"
- sanamahism_high_god_herselfhimself:0 "Himself"
- sanamahism_high_god_herhis:0 "His"
- sanamahism_good_god_pankhangba:0 "Pakhangba"
- sanamahism_good_god_atingaa:0 "Atingaa"
- sanamahism_good_god_leimerel_sidabi:0 "Leimarel Sidabi"
- sanamahism_good_god_emoinu:0 "Emoinu"
- # The other Gods and Goddesses
- sanamahism_creator_god_name:0 "Atingaa"
- sanamahism_creator_god_name_possessive:0 "Atingaa's"
- sanamahism_health_god_name:0 "Emoinu" #medicine god
- sanamahism_health_god_name_possessive:0 "Emoinu's"
- sanamahism_fertility_god_name:0 "Atingaa" #birth god
- sanamahism_fertility_god_name_possessive:0 "Atingaa's"
- sanamahism_wealth_god_name:0 "Sanamahi" #money god
- sanamahism_wealth_god_name_possessive:0 "Sanamahi's"
- sanamahism_household_god_name:0 "Emoinu" #house god
- sanamahism_household_god_name_possessive:0 "Emoinu's"
- sanamahism_fate_god_name:0 "Sanamahi"
- sanamahism_fate_god_name_possessive:0 "Sanamahi's"
- sanamahism_knowledge_god_name:0 "Emoinu"
- sanamahism_knowledge_god_name_possessive:0 "Emoinu's"
- sanamahism_war_god_name:0 "Panthoibi" #war god
- sanamahism_war_god_name_possessive:0 "Panthoibi's"
- sanamahism_trickster_god_name:0 "Panthoibi"
- sanamahism_trickster_god_name_possessive:0 "Panthoibi's"
- sanamahism_night_god_name:0 "Ningthoukaba" #moon god
- sanamahism_night_god_name_possessive:0 "Ningthoukaba's"
- sanamahism_water_god_name:0 "Ereima" #water god
- sanamahism_water_god_name_possessive:0 "Ereima's"
- sanamahism_death_name:0 "Sanamahi"
- sanamahism_death_name_possessive:0 "Sanamahi's"
- sanamahism_witch_name:0 "Leinaotabi"
-
- #Nuristani Pagan
- sanamahi_pagan:0 "Sanamahism" # lit. White Stone Worship
- sanamahi_pagan_adj:0 "Sanamahism"
- sanamahi_pagan_adherent:0 "Sanamahi"
- sanamahi_pagan_adherent_plural:0 "Sanamahis"
- sanamahi_pagan_desc:0 "Sanamahism is the religion of the Meitei people. It is an animistic, ancestor-worshipping, shaman-led religious tradition."
+  
+ # Nuristani Religion 
+ sanamahism_religion: "Санамахизм" 
+ sanamahism_religion_adj: "Санамахизм" 
+ sanamahism_religion_adherent: "Санамахи" 
+ sanamahism_religion_adherent_plural: "Санамахис" 
+ sanamahism_religion_desc: "Санамахизм - религия народа мейтеев. Это анимистическая, поклоняющаяся предкам, возглавляемая шаманом религиозная традиция." 
+  # Temples, Priests, Symbols 
+ sanamahism_house_of_worship: " Санамахи Качин" 
+ sanamahism_house_of_worship_plural: " Качины Санамахи" 
+ sanamahism_religious_symbol: "Солнце" 
+ sanamahism_religious_text: "Пуя" 
+ sanamahism_religious_head_title: "Первосвященник" 
+ sanamahism_religious_head_title_name: "Высший совет" 
+ sanamahism_priest: "Священник" 
+ sanamahism_priest_plural: "Священники" 
+ sanamahism_priest_term_plural: "Священники" 
+ sanamahism_priest_female: "Майбис" 
+ sanamahism_priest_female_plural: "Майбис" 
+ sanamahism_bishop: "Старейшина" 
+ sanamahism_bishop_plural: "Старейшины" 
+  # The Great and Good Gods and Goddesses 
+ sanamahism_high_god_name: "Санамахи" 
+ sanamahism_high_god_name_possessive: "Санамахи" 
+ sanamahism_high_god_shehe: "Он" 
+ sanamahism_high_god_herselfhimself: "Он сам" 
+ sanamahism_high_god_herhis: "Его" 
+ sanamahism_good_god_pankhangba: "Пахангба" 
+ sanamahism_good_god_atingaa: "Атингаа" 
+ sanamahism_good_god_leimerel_sidabi: "Леймарель Сидаби" 
+ sanamahism_good_god_emoinu: "Эмоину" 
+  # The other Gods and Goddesses 
+ sanamahism_creator_god_name: "Атингаа" 
+ sanamahism_creator_god_name_possessive: "Атингаа" 
+ sanamahism_health_god_name: "Эмоину" 
+ sanamahism_health_god_name_possessive: "Эмоину" 
+ sanamahism_fertility_god_name: "Атингаа" 
+ sanamahism_fertility_god_name_possessive: "Атингаа" 
+ sanamahism_wealth_god_name: "Санамахи" 
+ sanamahism_wealth_god_name_possessive: "Санамахи" 
+ sanamahism_household_god_name: "Эмоину" 
+ sanamahism_household_god_name_possessive: "Эмоину" 
+ sanamahism_fate_god_name: "Санамахи" 
+ sanamahism_fate_god_name_possessive: "Санамахи" 
+ sanamahism_knowledge_god_name: "Эмоину" 
+ sanamahism_knowledge_god_name_possessive: "Эмоину" 
+ sanamahism_war_god_name: "Пантхоиби" 
+ sanamahism_war_god_name_possessive: "Пантойби" 
+ sanamahism_trickster_god_name: "Пантхоиби" 
+ sanamahism_trickster_god_name_possessive: "Пантойби" 
+ sanamahism_night_god_name: "Нингтхоукаба" 
+ sanamahism_night_god_name_possessive: "Нингтоукаба" 
+ sanamahism_water_god_name: "Эрейма" 
+ sanamahism_water_god_name_possessive: "Эрейма" 
+ sanamahism_death_name: "Санамахи" 
+ sanamahism_death_name_possessive: "Санамахи" 
+ sanamahism_witch_name: "Лиенаотаби" 
+  
+  #Nuristani Pagan 
+ sanamahi_pagan: "Санамахизм" 
+ sanamahi_pagan_adj: "Санамахизм" 
+ sanamahi_pagan_adherent: "Санамахи" 
+ sanamahi_pagan_adherent_plural: "Санамахис" 
+ sanamahi_pagan_desc: "Санамахизм - религия народа мейтеев. Это анимистическая, поклоняющаяся предкам, возглавляемая шаманом религиозная традиция." 

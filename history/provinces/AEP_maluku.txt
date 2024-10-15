@@ -1,0 +1,578 @@
+#########################
+### Jailolo/k_jailolo ###
+#########################
+##d_jailolo ####################################
+###c_jailolo
+#b_jailolo
+12040 = {
+	culture = sahu
+	religion = nunusaku
+	holding = tribal_holding
+
+}
+#b_sidangoli
+12393 = {
+	holding = none
+}
+
+##c_moro
+#b_moro
+11477 = {
+	culture = galela
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_loloda
+11476 = {
+	holding = none
+}
+#b_tobelo
+12392 = {
+	holding = none
+}
+
+##d_ternate ####################################
+###c_ternate
+#b_ternate
+11472 = {
+	culture = ternate
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+##d_tidore ####################################
+###c_tidore
+#b_tidore
+11471 = {
+	culture = tidore
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+##d_bacan ####################################
+###c_bacan
+#b_bacan
+11465 = {
+	culture = bacan
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_obi
+10926 = {
+	holding = none
+}
+
+###c_gane
+#b_gane
+11470 = {
+	culture = gane
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_hafo
+12397 = {
+	holding = none
+}
+
+##d_makian ####################################
+###c_makian
+#b_makian
+12396 = {
+	culture = makian
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_oba_MK
+12394 = {
+	holding = none
+}
+#b_tobaru
+12395 = {
+	holding = none
+}
+
+###c_weda
+#b_weda
+11480 = {
+	culture = sawai
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_patani_MK
+12401 = {
+	holding = none
+}
+
+###c_wasile
+#b_wasile
+11482 = {
+	culture = tobelo
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_wasile_timur
+12398 = {
+	holding = none
+}
+
+###c_maba
+#b_maba
+12400 = {
+	culture = maba
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_maba_utara
+12399 = {
+	holding = none
+}
+
+#########################
+### Banda/k_banda ###
+#########################
+##d_ambon ####################################
+###c_ambon
+#b_ambon
+10457 = {
+	culture = hitu
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_huamual
+12404 = {
+	holding = none
+}
+
+###c_sahulau
+#b_sahulau
+10534 = {
+	culture = alune
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_kairatu
+10533 = {
+	holding = none
+}
+
+##d_buru ####################################
+###c_buru
+#b_namlea
+10456 = {
+	culture = buru
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_tifu
+12403 = {
+	holding = none
+}
+
+###c_sula
+#b_sula
+10453 = {
+	culture = sula
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_taliabu
+12402 = {
+	holding = none
+}
+
+##d_wahai ####################################
+###c_wahai
+#b_wahai
+10867 = {
+	culture = manusela
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_bula
+12405 = {
+	holding = none
+}
+
+###c_tehoru
+#b_tehoru
+10550 = {
+	culture = wemale
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_bobot
+10866 = {
+	holding = none
+}
+	
+##d_aru ####################################
+###c_aru
+#b_aru
+11520 = {
+	culture = aru
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_kobroor
+12406 = {
+	holding = none
+}
+#b_trangan
+12407 = {
+	holding = none
+}
+
+###c_kei
+#b_kei
+11826 = {
+	culture = kei
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+##d_wetar ####################################
+###c_wetar
+#b_wetar
+12021 = {
+	culture = wetar
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_babar
+12409 = {
+	holding = none
+}
+#b_leti
+12410 = {
+	holding = none
+}
+
+###c_tanimbar
+#b_yamdena
+11865 = {
+	culture = tanimbar
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_fordata
+12408 = {
+	holding = none
+}
+
+#######################
+### Janggi/k_janggi ###
+#######################
+
+##d_soren ####################################
+###c_soren
+#b_soren
+11505 = {
+	culture = moi
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_tehit
+12355 = {
+	holding = none
+}
+
+###c_maybrat
+#b_maybrat
+11506 = {
+	culture = maybrat
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_moksona
+12356 = {
+	holding = none
+}
+
+###c_abun
+#b_abun
+11500 = {
+	culture = abun
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_mpur
+12357 = {
+	holding = none
+}
+
+###c_sougb
+#b_sougb
+11510 = {
+	culture = hatam
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_manokwari
+12358 = {
+	holding = none
+}
+#b_manikion
+12359 = {
+	holding = none
+}
+
+###c_wamesa
+#b_wamesa
+11498 = {
+	culture = wandamen
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_desner
+12368 = {
+	holding = none
+}
+#b_pegunungan
+12371 = {
+	holding = none
+}
+
+
+##d_raja_ampat ####################################
+###c_salawati
+#b_salawati
+11486 = {
+	culture = maden
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_waigeo
+#b_waigeo
+11485 = {
+	culture = waigeo
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_waigama
+#b_waigama
+11489 = {
+	culture = matbat
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+
+## d_nawi ####################################
+###c_nawi
+#b_nawi
+12374 = {
+	culture = tunggare
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_mer
+11518 = {
+	holding = none
+}
+#b_burate
+12375 = {
+	holding = none
+}
+
+###c_wapoga
+#b_wapoga
+12376 = {
+	culture = awera
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_waropen
+12377 = {
+	holding = none
+}
+#b_kirikiri
+12378 = {
+	holding = none
+}
+
+
+###c_warembori
+#b_warembori
+12380 = {
+	culture = warembori
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_barapasi
+12379 = {
+	holding = none
+}
+
+###c_isirawa
+#b_isirawa
+12381 = {
+	culture = tor
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_kwerba
+12382 = {
+	holding = none
+}
+
+###c_kwestan
+#b_kwestan
+12383 = {
+	culture = kwesten
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_sentani
+12384 = {
+	holding = none
+}
+
+## d_biak ####################################
+###c_biak
+#b_biak
+12385 = {
+	culture = biak
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_korido
+12386 = {
+	holding = none
+}
+
+###c_japen
+#b_japen
+12388 = {
+	culture = yapen
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_pom
+12387 = {
+	holding = none
+}
+
+
+#####################
+### Wanin/k_wanin ###
+#####################
+
+## d_atiati ####################################
+###c_atiati
+#b_atiati
+11491 = {
+	culture = iha
+	religion = penunggu
+	holding = tribal_holding
+}
+
+###c_fatagar_WP
+#b_fatagar_WP
+12366 = {
+	culture = baham
+	religion = penunggu
+	holding = tribal_holding
+}
+
+## d_rumbati ####################################
+###c_rumbati
+#b_rumbati
+12364 = {
+	culture = sumuri
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_irarutu
+11496 = {
+	holding = none
+}
+
+###c_bintuni
+#b_bintuni
+12361 = {
+	culture = wandamen
+	religion = nunusaku
+	holding = tribal_holding
+}
+#b_kuri
+12362 = {
+	holding = none
+}
+
+###c_arandai
+#b_arandai
+11513 = {
+	culture = arandai
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_suabo
+12360 = {
+	holding = none
+}
+
+##d_kowiai  ####################################
+###c_kowiai
+#b_kowaiai
+12363 = {
+	culture = kowiai
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_buruwai
+#b_buruwai
+11495 = {
+	culture = buruwai
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_kumawa
+12367 = {
+	holding = none
+}
+
+###c_arguni
+#b_arguni
+12365 = {
+	culture = kuri
+	religion = nunusaku
+	holding = tribal_holding
+}
+
+###c_mairasi
+#b_mairasi
+11516 = {
+	culture = mairasi
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_kaimana
+12369 = {
+	holding = none
+}
+
+
+## d_aiduma ####################################
+###c_aiduma
+#b_aiduma
+12370 = {
+	culture = semimi
+	religion = penunggu
+	holding = tribal_holding
+}
+
+##c_mimika
+#b_mimika
+12373 = {
+	culture = kemoro
+	religion = penunggu
+	holding = tribal_holding
+}
+#b_potawai
+12372 = {
+	holding = none
+}
+

@@ -88,8 +88,8 @@
  holy_site_yoshida_effect_name:0 "Aus [holy_site|E]#weak ($holy_site_yoshida_name$)#!"
  holy_site_fujisan_name:0 "Fujisan"
  holy_site_fujisan_effect_name:0 "Aus [holy_site|E]#weak ($holy_site_fujisan_name$)#!"
- holy_site_udo_name:0 "Schrein von Udo"
- holy_site_udo_effect_name:0 "Aus [holy_site|E]#weak ($holy_site_udo_name$)#!"
+ holy_site_kumanosanzan_name:0 "Kumano Sanzan"
+ holy_site_kumanosanzan_effect_name:0 "Aus [holy_site|E]#weak ($holy_site_kumanosanzan_name$)#!"
 
  # Holy Sites: Shamanists
  holy_site_sefautaki_name:0 "Sēfa-utaki"

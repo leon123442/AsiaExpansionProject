@@ -1,1674 +1,2296 @@
-﻿language_korean = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_korean
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_korean }
-			multiply = 10
-		}
-	}
-	
-	color = { 160 240 185 }
-}
-language_yemaek = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yemaek
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yemaek }
-			multiply = 10
-		}
-	}
-	
-	color = { 85 187 191 }
-}
-language_shu_chinese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_shu_chinese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_shu_chinese }
-			multiply = 10
-		}
-	}
-	
-	color = { 130 230 185 }
-}
-language_min_chinese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_min_chinese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_min_chinese }
-			multiply = 10
-		}
-	}
-	
-	color = { 130 250 185 }
-}
-language_wu_chinese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_wu_chinese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_wu_chinese }
-			multiply = 10
-		}
-	}
-	
-	color = { 241 94 124 }
-}
-language_yue_chinese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yue_chinese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yue_chinese }
-			multiply = 10
-		}
-	}
-	
-	color = { 241 74 94 }
-}
-language_japanese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_japanese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_japanese }
-			multiply = 10
-		}
-	}
-	
-	color = { 240 240 240 }
-}
-language_amami = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_amami
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_amami }
-			multiply = 10
-		}
-	}
-	
-	color = { 120 170 180 }
-}
-language_okinawa = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_okinawa
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_okinawa }
-			multiply = 10
-		}
-	}
-	
-	color = { 5 103 119 }
-}
-language_miyako = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_miyako
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_miyako }
-			multiply = 10
-		}
-	}
-	
-	color = { 80 180 115 }
-}
-language_yaeyama = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yaeyama
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yaeyama }
-			multiply = 10
-		}
-	}
-	
-	color = { 105 260 115 }
-}
-language_ainu = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ainu
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ainu }
-			multiply = 10
-		}
-	}
-	
-	color = { 0 113 193 }
-}
-language_emishi = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_emishi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_emishi }
-			multiply = 10
-		}
-	}
-	
-	color = { 0 113 193 }
-}
-language_hlai = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_hlai
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_hlai }
-			multiply = 10
-		}
-	}
-	
-	color = { 170 255 195 }
-}
-language_mien = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mien
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mien }
-			multiply = 10
-		}
-	}
-	
-	color = { 255 200 90 }
-}
-language_hmong = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_hmong
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_hmong }
-			multiply = 10
-		}
-	}
-	
-	color = { 255 200 20 }
-}
-language_nivkh = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nivkh
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nivkh }
-			multiply = 10
-		}
-	}
-	
-	color = { 128 128 128 }
-}
-
-language_sillanese = {
-	type = language
-	
-	is_shown = {
-		scope:character = {
-			culture = {
-				has_cultural_pillar = heritage_korean
+﻿#### Ainuic
+	language_ainu = { # Proto-Ainu
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_ainu
 			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sillanese }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_ainu }
+				multiply = 10
+			}
 		}
+
+		color = { 0 113 193 }
 	}
+
+#### Andamanese
+	language_andamanese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_andamanese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_andamanese }
+				multiply = 10
+			}
+		}
+
+		color = { 137 73 22 }
+	}
+
+#### Austroasiatic
+	language_khmer = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_khmer
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_khmer }
+				multiply = 10
+			}
+		}
+
+		color = { 207 87 23 }
+	}
+	language_katuic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_katuic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_katuic }
+				multiply = 10
+			}
+		}
+
+		color = { 167 77 13 }
+	}
+	language_mon = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mon
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mon }
+				multiply = 10
+			}
+		}
+
+		color = { 227 117 47 }
+	}
+	language_palaungic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_palaungic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_palaungic }
+				multiply = 10
+			}
+		}
+
+		color = { 217 189 104 }
+	}
+	language_nicobarese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nicobarese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_nicobarese }
+				multiply = 10
+			}
+		}
+
+		color = { 217 189 104 }
+	}
+	language_khasi = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_khasi
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_khasi }
+				multiply = 10
+			}
+		}
+
+		color = { 217 189 104 }
+	}
+	language_munda = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_munda
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_munda }
+				multiply = 10
+			}
+		}
+
+		color = { 217 189 104 }
+	}
+	language_vietic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_vietic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_vietic }
+				multiply = 10
+			}
+		}
+
+		color = { 214 151 92 }
+	}
+	language_bahnaric = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_bahnaric
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_bahnaric }
+				multiply = 10
+			}
+		}
+
+		color = { 180 90 30 }
+	}
+	language_khmuic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_khmuic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_khmuic }
+				multiply = 10
+			}
+		}
+
+		color = khmu
+	}
+	language_aslian = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_aslian
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_aslian }
+				multiply = 10
+			}
+		}
+
+		color = { 187 123 72 }
+	}
+
+#### Austronesian
+ ### Formosan
+	language_amis = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_amis
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_amis }
+				multiply = 10
+			}
+		}
+
+		color = { 155 210 165 }
+	}
+	language_atayal = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_atayal
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_atayal }
+				multiply = 10
+			}
+		}
+
+		color = { 195 250 205 }
+	}
+	language_babuza = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_babuza
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_babuza }
+				multiply = 10
+			}
+		}
+
+		color = { 115 190 165 }
+	}
+	language_bunun = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_bunun
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_bunun }
+				multiply = 10
+			}
+		}
+
+		color = { 145 200 155 }
+	}
+	language_kulun = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kulun
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kulun }
+				multiply = 10
+			}
+		}
+
+		color = { 155 210 165 }
+	}
+	language_paiwan = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_paiwan
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_paiwan }
+				multiply = 10
+			}
+		}
+
+		color = { 85 160 135 }
+	}
+	language_siraya = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_siraya
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_siraya }
+				multiply = 10
+			}
+		}
+
+		color = { 155 210 165 }
+	}
+ ### Malayo-Polynesian
+  ## Western Indonesian
+   # Greater North Borneo
+	language_north_borneo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_north_borneo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_north_borneo }
+				multiply = 10
+			}
+		}
+
+		color = { 255 205 0 }
+	}
+	language_central_sarawak = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_central_sarawak
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_central_sarawak }
+				multiply = 10
+			}
+		}
+
+		color = { 250 220 50 }
+	}
+	language_kayanic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kayanic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kayanic }
+				multiply = 10
+			}
+		}
+
+		color = { 282 108 85 }
+	}
+	language_land_dayak = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_land_dayak
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_land_dayak }
+				multiply = 10
+			}
+		}
+
+		color = { 223 134 111 }
+	}
+	language_malayic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_malayic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_malayic }
+				multiply = 10
+			}
+		}
+
+		color = { 252 255 51 }
+	}
+	language_chamic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_chamic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_chamic }
+				multiply = 10
+			}
+		}
+
+		color = { 252 255 102 }
+	}
+	language_sunda = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sunda
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_sunda }
+				multiply = 10
+			}
+		}
+
+		color = { 235 164 52 }
+	}
+	language_rejang = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_rejang
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_rejang }
+				multiply = 10
+			}
+		}
+
+		color = { 255 190 20 }
+	}
+
+   ## Greater Barito
+	language_sama_bajau = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sama_bajau
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_sama_bajau }
+				multiply = 10
+			}
+		}
+
+		color = { 153 157 182 }
+	}
+	language_barito = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_barito
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_barito }
+				multiply = 10
+			}
+		}
+
+		color = { 272 115 43 }
+	}
+
+   ## Lampung
+	language_lampung = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_lampung
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_lampung }
+				multiply = 10
+			}
+		}
+
+		color = { 202 205 102 }
+	}
+
+   ## Javanese
+	language_java = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_java
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_java }
+				multiply = 10
+			}
+		}
+
+		color = { 174 184 46 }
+	}
+
+   ## Madurese
+	language_madura = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_madura
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_madura }
+				multiply = 10
+			}
+		}
+
+		color = { 143 120 76 }
+	}
+
+   ## Bali-Sasak-Sumbawa
+	language_bali_sasak_sumbawa = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_bali_sasak_sumbawa
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_bali_sasak_sumbawa }
+				multiply = 10
+			}
+		}
+
+		color = { 147 145 32 }
+	}
+
+  ## Sumatran
+	language_batak = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_batak
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_batak }
+				multiply = 10
+			}
+		}
+
+		color = { 117 99 9 }
+	}
+	language_gayo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_gayo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_gayo }
+				multiply = 10
+			}
+		}
+
+		color = { 119 187 54 }
+	}
+	language_simeulue = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_simeulue
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_simeulue }
+				multiply = 10
+			}
+		}
+
+		color = { 141 252 214 }
+	}
+	language_nias = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nias
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_nias }
+				multiply = 10
+			}
+		}
+
+		color = { 251 192 164 }
+	}
+	language_mentawai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mentawai
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mentawai }
+				multiply = 10
+			}
+		}
+
+		color = { 141 252 164 }
+	}
+	language_enggano = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_enggano
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_enggano }
+				multiply = 10
+			}
+		}
+
+		color = { 141 172 234 }
+	}
+
+  ## Celebic
+	language_celebes = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_celebes
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_celebes }
+				multiply = 10
+			}
+		}
+
+		color = { 7 188 213 }
+	}
+
+  ## South Sulawesi
+	language_south_sulawesi = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_south_sulawesi
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_south_sulawesi }
+				multiply = 10
+			}
+		}
+
+		color = { 7 128 214 }
+	}
+
+  ## Moklenic
+  	language_moklen = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_moklen
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_moklen }
+				multiply = 10
+			}
+		}
+
+		color = { 40 55 142 }
+	}
+  ## Philippine
+	language_batanic = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_batanic
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_batanic }
+				multiply = 10
+			}
+		}
+
+		color = { 155 210 165 }
+	}
+    language_northern_luzon = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_northern_luzon
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_northern_luzon }
+				multiply = 10
+			}
+		}
+
+		color = { 140 155 142 }
+	}
+	language_central_luzon = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_central_luzon
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_central_luzon }
+				multiply = 10
+			}
+		}
+
+		color = { 173 127 155 }
+	}
+	language_northern_mindoro = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_northern_mindoro
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_northern_mindoro }
+				multiply = 10
+			}
+		}
+
+		color = { 222 54 209 }
+	}
+	language_ati = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_ati
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_ati }
+				multiply = 10
+			}
+		}
+
+		color = { 152 94 139 }
+	}
+	language_manide_alabat = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_manide_alabat
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_manide_alabat }
+				multiply = 10
+			}
+		}
+
+		color = { 227 130 120 }
+	}
+	language_kalamian = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kalamian
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kalamian }
+				multiply = 10
+			}
+		}
+
+		color = { 86 125 177 }
+	}
+	language_south_mindanao = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_south_mindanao
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_south_mindanao }
+				multiply = 10
+			}
+		}
+
+		color = { 219 141 218 }
+
+	}
+	language_sangiric = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sangiric
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_sangiric }
+				multiply = 10
+			}
+		}
+
+		color = { 102 74 187 }
+	}
+	language_minahasa = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_minahasa
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_minahasa }
+				multiply = 10
+			}
+		}
+
+		color = { 123 142 121 }
+	}
+	language_umiray_dumaget = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_umiray_dumaget
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_umiray_dumaget }
+				multiply = 10
+			}
+		}
+
+		color = { 215 54 94 }
+	}
+   # Greater Central Philippine
+	language_southern_mindoro = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_southern_mindoro
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_southern_mindoro }
+				multiply = 10
+			}
+		}
+
+		color = { 72 194 150 }
+	}
+	language_central_philippine = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_central_philippine
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_central_philippine }
+				multiply = 10
+			}
+		}
+
+		color = { 153 157 182 }
+	}
+	language_palawan = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_palawan
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_palawan }
+				multiply = 10
+			}
+		}
+
+		color = { 84 77 125 }
+	}
+	language_subanen = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_subanen
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_subanen }
+				multiply = 10
+			}
+		}
+
+		color = { 96 164 199 }
+	}
+	language_danao = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_danao
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_danao }
+				multiply = 10
+			}
+		}
+
+		color = { 187 163 237 }
+	}
+	language_manobo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_manobo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_manobo }
+				multiply = 10
+			}
+		}
+
+		color = { 219 185 195 }
+	}
+	language_gorontalo_mongondow = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_gorontalo_mongondow
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_gorontalo_mongondow }
+				multiply = 10
+			}
+		}
+
+		color = { 134 181 112 }
+	}
+
+  ## Central Malayo-Polynesian
+	language_aru = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_aru
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_aru }
+				multiply = 10
+			}
+		}
+
+		color = { 97 255 147 }
+	}
+	language_bima = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_bima
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_bima }
+				multiply = 10
+			}
+		}
+
+		color = { 45 238 10 }
+	}
+	language_central_maluku = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_central_maluku
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_central_maluku }
+				multiply = 10
+			}
+		}
+
+		color = { 37 248 87 }
+	}
+	language_flores_lembata = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_flores_lembata
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_flores_lembata }
+				multiply = 10
+			}
+		}
+
+		color = { 57 208 33 }
+	}
+	language_kei_tanimbar = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kei_tanimbar
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kei_tanimbar }
+				multiply = 10
+			}
+		}
+
+		color = { 67 255 117 }
+	}
+	language_kowiai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kowiai
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kowiai }
+				multiply = 10
+			}
+		}
+
+		color = { 167 255 117 }
+	}
+	language_selaru = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_selaru
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_selaru }
+				multiply = 10
+			}
+		}
+
+		color = { 67 255 117 }
+	}
+	language_sumba_flores = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sumba_flores
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_sumba_flores }
+				multiply = 10
+			}
+		}
+
+		color = { 57 248 33 }
+	}
+	language_timoric = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_timoric
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_timoric }
+				multiply = 10
+			}
+		}
+
+		color = { 70 248 13 }
+	}
+
+  ## South Halmahera–West New Guinea
+	language_cenderawasih = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_cenderawasih
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_cenderawasih }
+				multiply = 10
+			}
+		}
+
+		color = { 107 153 81 }
+	}
+	language_raja_ampat = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_raja_ampat
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_raja_ampat }
+				multiply = 10
+			}
+		}
+
+		color = { 127 183 101 }
+	}
+	language_south_halmahera = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_raja_ampat
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_raja_ampat }
+				multiply = 10
+			}
+		}
+
+		color = { 127 183 101 }
+	}
+
+#### Hmong–Mien
+	language_mien = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mien
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mien }
+				multiply = 10
+			}
+		}
+
+		color = { 255 200 90 }
+	}
+	language_hmong = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_hmong
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_hmong }
+				multiply = 10
+			}
+		}
+
+		color = { 255 200 20 }
+	}
+
+#### Japonic
+ ### Japanese
+	language_japanese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_japanese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_japanese }
+				multiply = 10
+			}
+		}
+
+		color = { 240 240 240 }
+	}
+ ### Peninsular
+	language_tamnanese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tamnanese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tamnanese }
+				multiply = 10
+			}
+		}
+		
+		color = { 74 213 178 }
+	}
+ ### Ryukyuan
+  ## Northern Ryukyuan
+	language_amami = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_amami
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_amami }
+				multiply = 10
+			}
+		}
+
+		color = { 120 170 180 }
+	}
+	language_okinawa = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_okinawa
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_okinawa }
+				multiply = 10
+			}
+		}
+
+		color = { 5 103 119 }
+	}
+  ## Southern Ryukyuan
+	language_miyako = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_miyako
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_miyako }
+				multiply = 10
+			}
+		}
+
+		color = { 80 180 115 }
+	}
+	language_yaeyama = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_yaeyama
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_yaeyama }
+				multiply = 10
+			}
+		}
+
+		color = { 105 260 115 }
+	}
+
+#### Koreanic
+ ### Korean (Han)
+	language_korean = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_korean
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_korean }
+				multiply = 10
+			}
+		}
+
+		color = { 160 240 185 }
+	}
+ ### Puyŏ
+	language_buyeo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_buyeo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_buyeo }
+				multiply = 10
+			}
+		}
+
+		color = { 76 159 216 }
+	}
+	language_goguryeo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_goguryeo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_goguryeo }
+				multiply = 10
+			}
+		}
+
+		color = { 76 159 216 }
+	}
+	language_okjeo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_okjeo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_okjeo }
+				multiply = 10
+			}
+		}
+
+		color = { 85 187 191 }
+	}
+	language_yemaek = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_yemaek
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_yemaek }
+				multiply = 10
+			}
+		}
+
+		color = { 85 187 191 }
+	}
+
+#### Kra-Dai
+	language_hlai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_hlai
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_hlai }
+				multiply = 10
+			}
+		}
+
+		color = { 170 255 195 }
+	}
+	language_tai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tai
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tai }
+				multiply = 10
+			}
+		}
 	
-	color = { 74 187 216 }
-}
-
-language_goguryeon = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_goguryeon
-		}
+		color = { 84 160 59 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_goguryeon }
-			multiply = 10
+	language_biao = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_biao
+			}
 		}
-	}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_biao }
+				multiply = 10
+			}
+		}
 	
-	color = { 76 159 216 }
-}
-
-language_tamnanese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tamnanese
-		}
+		color = { 70 175 34 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tamnanese }
-			multiply = 10
+	language_beish = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_beish
+			}
 		}
-	}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_beish }
+				multiply = 10
+			}
+		}
 	
-	color = { 74 213 178 }
-}
+		color = { 94 170 69 }
+	}
 
-language_jurchen = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_jurchen
+#### Mongolic
+	language_khitanese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_khitanese
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_jurchen }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_khitanese }
+				multiply = 10
+			}
 		}
+
+		color = { 0 123 211 }
 	}
+
+#### Nivkh
+	language_nivkh = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nivkh
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_nivkh }
+				multiply = 10
+			}
+		}
+
+		color = { 128 128 128 }
+	}
+
+#### Papuan
+ ### East Cenderawasih
+	language_tunggare = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tunggare
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tunggare }
+				multiply = 10
+			}
+		}
+
+		color = { 127 123 181 }
+	}
+ ### Mairasi
+	language_mairasi = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mairasi
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mairasi }
+				multiply = 10
+			}
+		}
+
+		color = { 137 113 171 }
+	}
+ ### Lakes Plain
+  ## Wapoga
+	language_wapoga = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_wapoga
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_wapoga }
+				multiply = 10
+			}
+		}
+
+		color = { 147 93 121 }
+	}
+ ### Lower Mamberamo
+  ## Warembori
+	language_warembori = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_warembori
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_warembori }
+				multiply = 10
+			}
+		}
+
+		color = { 137 93 191 }
+	}
+ ### Northwest New Guinea
+  ## Tor-Kwerba (Foja Range)
+	language_tor_kwerba = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tor_kwerba
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tor_kwerba }
+				multiply = 10
+			}
+		}
+
+		color = { 137 93 251 }
+	}
+  ## Demta-Sentani
+	language_demta_sentani = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_demta_sentani
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_demta_sentani }
+				multiply = 10
+			}
+		}
+
+		color = { 137 93 251 }
+	}
+ ### Trans–New Guinea
+  ## Sumuri
+	language_sumuri = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_sumuri
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_sumuri }
+				multiply = 10
+			}
+		}
 	
-	color = { 175 175 175 }
-}
+		color = { 137 93 251 }
+	}
+  ## Asmat–Mombum
+   # Asmat–Kamrau
+	language_asmat_kamrau = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_asmat_kamrau
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_asmat_kamrau }
+				multiply = 10
+			}
+		}
 
-language_evenki = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_evenki
-		}
+		color = { 137 93 251 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_evenki }
-			multiply = 10
+  ## Berau Gulf
+   # West Bomberai
+    language_mbahaam_iha = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mbahaam_iha
+			}
 		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mbahaam_iha }
+				multiply = 10
+			}
+		}
+
+		color = { 137 93 251 }
 	}
+	language_timor_alor_pantar = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_timor_alor_pantar
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_timor_alor_pantar }
+				multiply = 10
+			}
+		}
 	
-	color = { 195 195 195 }
-}
-
-language_khitanese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_khitanese
-		}
+		color = { 137 93 251 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_khitanese }
-			multiply = 10
+   # South Bird's Head
+    language_kokoda_arandai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kokoda_arandai
+			}
 		}
-	}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kokoda_arandai }
+				multiply = 10
+			}
+		}
 	
-	color = { 0 123 211 }
-}
-
-### Southeast Asia
-
-language_formosan = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_formosan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_formosan }
-			multiply = 10
-		}
-	}
-
-	color = { 252 20 20 }
-}
-
-# Indochina
-
-language_khmer = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_khmer
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_khmer }
-			multiply = 10
-		}
-	}
-
-	color = { 207 87 23 }
-}
-language_katuic = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_katuic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_katuic }
-			multiply = 10
-		}
-	}
-
-	color = { 167 77 13 }
-}
-language_mon = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mon
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mon }
-			multiply = 10
-		}
-	}
-
-	color = { 227 117 47 }
-}
-language_burmese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_burmese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_burmese }
-			multiply = 10
-		}
-	}
-
-	color = { 0.35 0.6 0.45 }
-}
-language_kachin = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kachin
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kachin }
-			multiply = 10
-		}
-	}
-
-	color = { 0.55 0.58 0.34 }
-}
-language_karen = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_karen
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_karen }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_manipur = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_manipur
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_manipur }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_naga = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_naga
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_naga }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_mizo = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mizo
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mizo }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_tripuri = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tripuri
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tripuri }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_rakhine = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_rakhine
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_rakhine }
-			multiply = 10
-		}
-	}
-
-	color = { 9 135 97 }
-}
-language_palaungic = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_palaungic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_palaungic }
-			multiply = 10
-		}
-	}
-
-	color = { 217 189 104 }
-}
-language_nicobarese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nicobarese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nicobarese }
-			multiply = 10
-		}
-	}
-
-	color = { 217 189 104 }
-}
-language_khasi = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_khasi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_khasi }
-			multiply = 10
-		}
-	}
-
-	color = { 217 189 104 }
-}
-language_munda = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_munda
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_munda }
-			multiply = 10
-		}
-	}
-
-	color = { 217 189 104 }
-}
-language_tai = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tai
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tai }
-			multiply = 10
-		}
-	}
-
-	color = { 84 160 59 }
-}
-language_biao = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_biao
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_biao }
-			multiply = 10
-		}
-	}
-
-	color = { 70 175 34 }
-}
-language_beish = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_beish
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_beish }
-			multiply = 10
-		}
-	}
-
-	color = { 94 170 69 }
-}
-language_loloish = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_loloish
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_loloish }
-			multiply = 10
-		}
-	}
-
-	color = { 132 69 198 }
-}
-language_vietic = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_vietic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_vietic }
-			multiply = 10
-		}
-	}
-
-	color = { 214 151 92 }
-}
-language_yi = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yi }
-			multiply = 10
-		}
-	}
-
-	color = { 150 110 193 }
-}
-language_bai = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_bai
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_bai }
-			multiply = 10
-		}
-	}
-
-	color = bai
-}
-language_nakhi = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nakhi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nakhi }
-			multiply = 10
-		}
-	}
-
-	color = nakhi
-}
-language_hani = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_hani
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_hani }
-			multiply = 10
-		}
-	}
-
-	color = { 132 69 198 }
-}
-language_lisu = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_lisu
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_lisu }
-			multiply = 10
-		}
-	}
-
-	color = lisu
-}
-language_tujia = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tujia
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tujia }
-			multiply = 10
-		}
-	}
-
-	color = tujia
-}
-language_bahnaric = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_bahnaric
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_bahnaric }
-			multiply = 10
-		}
-	}
-
-	color = { 180 90 30 }
-}
-language_khmuic = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_khmuic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_khmuic }
-			multiply = 10
-		}
-	}
-
-	color = khmu
-}
-
-# Maritime Austronesian
-language_cham = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_cham
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_cham }
-			multiply = 10
-		}
-	}
-
-	color = { 252 255 102 }
-}
-language_aceh = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_aceh
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_aceh }
-			multiply = 10
-		}
-	}
-
-	color = { 200 0 0 }
-}
-language_malay = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_malay
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_malay }
-			multiply = 10
-		}
-	}
-
-	color = { 252 255 51 }
-}
-language_minangkabau = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_minangkabau
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_minangkabau }
-			multiply = 10
-		}
-	}
-
-	color = { 187 119 0 }
-}
-language_lampung = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_lampung
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_lampung }
-			multiply = 10
-		}
-	}
-
-	color = { 202 205 102 }
-}
-language_basemah = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_basemah
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_basemah }
-			multiply = 10
-		}
-	}
-
-	color = { 145 142 46 }
-}
-language_banjar = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_banjar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_banjar }
-			multiply = 10
-		}
-	}
-
-	color = { 259 202 67 }
-}
-language_sama_bajau = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sama_bajau
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sama_bajau }
-			multiply = 10
-		}
-	}
-
-	color = { 153 157 182 }
-}
-language_papuan = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_papuan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_papuan }
-			multiply = 10
-		}
-	}
-
-	color = { 117 123 91 }
-}
-# Philippines
-language_northern_luzon = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_northern_luzon
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_northern_luzon }
-			multiply = 10
-		}
-	}
-
-	color = { 140 155 142 }
-}
-language_central_luzon = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_central_luzon
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_central_luzon }
-			multiply = 10
-		}
-	}
-
-	color = { 173 127 155 }
-}
-language_central_philippine = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_central_philippine
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_central_philippine }
-			multiply = 10
-		}
-	}
-
-	color = { 153 157 182 }
-}
-language_batanic = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_batanic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_batanic }
-			multiply = 10
-		}
-	}
-
-	color = { 155 210 165 }
-}
-language_mindanao = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mindanao
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mindanao }
-			multiply = 10
-		}
-	}
-
-	color = { 153 157 182 }
-}
-language_tausug = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tausug
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tausug }
-			multiply = 10
-		}
-	}
-
-	color = { 153 157 182 }
-}
-
-# Java
-language_java = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_java
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_java }
-			multiply = 10
-		}
-	}
-
-	color = { 174 184 46 }
-}
-language_sunda = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sunda
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sunda }
-			multiply = 10
-		}
-	}
-
-	color = { 235 164 52 }
-}
-language_madura = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_madura
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_madura }
-			multiply = 10
-		}
-	}
-
-	color = { 143 120 76 }
-}
-language_bali_sasak_sumbawa = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_bali_sasak_sumbawa
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_bali_sasak_sumbawa }
-			multiply = 10
-		}
-	}
-
-	color = { 147 145 32 }
-}
-## Dayak ##
-language_kayan = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kayan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kayan }
-			multiply = 10
-		}
-	}
-
-	color = { 282 108 85 }
-}
-language_murut = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_murut
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_murut }
-			multiply = 10
-		}
-	}
-
-	color = { 223 159 75 }
-}
-language_iban = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_iban
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_iban }
-			multiply = 10
-		}
-	}
-
-	color = { 267 212 186 }
-}
-language_bidayuh = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_bidayuh
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_bidayuh }
-			multiply = 10
-		}
-	}
-
-	color = { 223 134 111 }
-}
-language_ot_danum = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ot_danum
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ot_danum }
-			multiply = 10
-		}
-	}
-
-	color = { 272 115 43 }
-}
-language_ngaju = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ngaju
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ngaju }
-			multiply = 10
-		}
-	}
-
-	color = { 252 155 51 }
-}
-# Borneo
-language_kadazandusun = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kadazandusun
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kadazandusun }
-			multiply = 10
-		}
-	}
-
-	color = { 255 205 0 }
-}
-language_melanau = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_melanau
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_melanau }
-			multiply = 10
-		}
-	}
-
-	color = { 250 220 50 }
-}
-language_rejang = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_rejang
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_rejang }
-			multiply = 10
-		}
-	}
-
-	color = { 255 190 20 }
-}
-
-language_batak = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_batak
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_batak }
-			multiply = 10
-		}
+		color = { 137 93 251 }
 	}
-
-	color = { 117 99 9 }
-}
-language_gayo = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_gayo
+ ### West Papuan
+  ## Amberbaken
+	language_amberbaken = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_amberbaken
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_gayo }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_amberbaken }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 119 187 54 }
-}
-language_mentawai = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mentawai
-		}
+		color = { 197 103 81 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mentawai }
-			multiply = 10
-		}
-	}
-
-	color = { 141 242 164 }
-}
-
-language_aslian = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_aslian
+  ## East Bird's Head
+	language_east_birds_head = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_east_birds_head
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_aslian }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_east_birds_head }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 187 123 72 }
-}
-language_andamanese = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_andamanese
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_andamanese }
-			multiply = 10
-		}
+		color = { 97 143 91 }
 	}
-
-	color = { 137 73 22 }
-}
-language_south_sulawesi = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_south_sulawesi
+  ## North Halmahera
+	language_north_halmahera = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_north_halmahera
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_south_sulawesi }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_north_halmahera }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 7 128 214 }
-}
-language_celebes = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_celebes
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_celebes }
-			multiply = 10
-		}
+		color = { 197 123 111 }
 	}
-
-	color = { 7 188 213 }
-}
-language_nunusaku = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nunusaku
+  ## West Bird's Head
+	language_west_birds_head = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_west_birds_head
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nunusaku }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_west_birds_head }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 37 288 87 }
-}
-language_tanimbar = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tanimbar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tanimbar }
-			multiply = 10
-		}
+		color = { 167 123 161 }
 	}
-
-	color = { 67 255 117 }
-}
-language_aru = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_aru
+  ## Yapen (Yawa)
+	language_yapen = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_yapen
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_aru }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_yapen }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 97 255 147 }
-}
-language_raja_ampat = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_raja_ampat
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_raja_ampat }
-			multiply = 10
-		}
+		color = { 127 133 141 }
 	}
-
-	color = { 127 183 101 }
-}
-language_cenderawasih = {
+  ## Tamboran
+	language_tamboran = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_cenderawasih
+			LANGUAGE = language_tamboran
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_cenderawasih }
+			limit = { has_cultural_pillar = language_tamboran }
 			multiply = 10
 		}
 	}
 
-	color = { 107 153 81 }
-}
-language_timor = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_timor
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_timor }
-			multiply = 10
-		}
+	color = { 127 133 141 }
 	}
 
-	color = { 70 288 13 }
-}
-
-language_sumba_flores = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sumba_flores
+#### Sino-Tibetan
+	language_shu_chinese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_shu_chinese
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sumba_flores }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_shu_chinese }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 57 288 33 }
-}
-language_bima = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_bima
-		}
+		color = { 130 230 185 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_bima }
-			multiply = 10
-		}
-	}
-
-	color = { 45 238 10 }
-}
-language_minahasa = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_minahasa
+	language_min_chinese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_min_chinese
+			}
 		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_minahasa }
-			multiply = 10
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_min_chinese }
+				multiply = 10
+			}
 		}
-	}
 
-	color = { 123 142 121 }
-}
-language_tagalog = {
-	type = language
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tagalog
-		}
+		color = { 130 250 185 }
 	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tagalog }
-			multiply = 10
-		}
+	language_wu_chinese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_wu_chinese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_wu_chinese }
+				multiply = 10
+			}
+		}
+
+		color = { 241 94 124 }
+	}
+	language_yue_chinese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_yue_chinese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_yue_chinese }
+				multiply = 10
+			}
+		}
+
+		color = { 241 74 94 }
+	}
+	language_burmese = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_burmese
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_burmese }
+				multiply = 10
+			}
+		}
+	
+		color = { 0.35 0.6 0.45 }
+	}
+	language_kachin = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_kachin
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_kachin }
+				multiply = 10
+			}
+		}
+	
+		color = { 0.55 0.58 0.34 }
+	}
+	language_karen = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_karen
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_karen }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_manipur = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_manipur
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_manipur }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_naga = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_naga
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_naga }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_mizo = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_mizo
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_mizo }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_tripuri = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tripuri
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tripuri }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_rakhine = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_rakhine
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_rakhine }
+				multiply = 10
+			}
+		}
+	
+		color = { 9 135 97 }
+	}
+	language_loloish = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_loloish
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_loloish }
+				multiply = 10
+			}
+		}
+	
+		color = { 132 69 198 }
+	}
+	language_yi = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_yi
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_yi }
+				multiply = 10
+			}
+		}
+	
+		color = { 150 110 193 }
+	}
+	language_bai = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_bai
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_bai }
+				multiply = 10
+			}
+		}
+	
+		color = bai
+	}
+	language_nakhi = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_nakhi
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_nakhi }
+				multiply = 10
+			}
+		}
+	
+		color = nakhi
+	}
+	language_hani = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_hani
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_hani }
+				multiply = 10
+			}
+		}
+	
+		color = { 132 69 198 }
+	}
+	language_lisu = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_lisu
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_lisu }
+				multiply = 10
+			}
+		}
+	
+		color = lisu
+	}
+	language_tujia = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_tujia
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_tujia }
+				multiply = 10
+			}
+		}
+	
+		color = tujia
+	}
+
+#### Tungusic
+	language_jurchen = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_jurchen
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_jurchen }
+				multiply = 10
+			}
+		}
+
+		color = { 175 175 175 }
+	}
+
+	language_evenki = {
+		type = language
+		is_shown = {
+			language_is_shown_trigger = {
+				LANGUAGE = language_evenki
+			}
+		}
+		ai_will_do = {
+			value = 10
+			if = {
+				limit = { has_cultural_pillar = language_evenki }
+				multiply = 10
+			}
+		}
+
+		color = { 195 195 195 }
 	}
 
-	color = { 153 157 182 }
-}

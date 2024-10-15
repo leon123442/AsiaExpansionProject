@@ -1,0 +1,1558 @@
+##########################
+### Nanzhao/k_nanzhong ###
+##########################
+
+###d_tonghai  ####################################
+###c_jianshui
+#b_Tonghaifu_Qujiangguan
+10462 = {
+    culture = wuman
+	religion = ari
+	holding = castle_holding	
+}
+#b_Jianshui_Nanchangguan
+10460 = {
+	holding = city_holding
+}
+#b_XiEbu
+10464 = {
+	holding = church_holding	
+}
+
+###c_muze
+#b_Muze_Sifuguan
+10451 = {
+    culture = wuman
+	religion = ari 
+	holding = castle_holding
+}
+#b_Shazhiguan
+10461 = {
+	holding = church_holding
+}
+#b_Langmangzhou_Jiayongbu
+10450 = {
+	holding = city_holding	
+}
+
+###c_laos
+#b_Laos_Baogu
+10452 = {
+    culture = wuman
+	religion = ari 
+	holding = castle_holding
+}
+
+#b_Zuining_Hamibu
+10459 = {
+	holding = city_holding
+}
+
+###c_temo
+#b_Temo_Guangnan
+10454 = {
+    culture = pu
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_Temo_Xichou_Funing
+10455 = {
+	holding = none
+}
+#b_Huime_Qiubei
+10472 = {
+	holding = none
+}
+
+###c_heman
+#b_Hemanbu_Tengtiao
+10458 = {
+    culture = hani
+	religion = bimoism 
+	holding = tribal_holding
+}
+#b_Qixibu
+10463 = {
+	holding = none
+}
+
+###d_tuodong  ####################################
+###c_shanchan
+#b_Shanchanfu_Tuodong
+10467 = {
+    culture = wuman
+	religion = ari
+	holding = castle_holding
+}
+#b_Heyangjun_Wenfuzhou
+10465 = {
+	holding = church_holding
+}
+#b_Anning_Longhe
+10466 = {
+	holding = city_holding
+}
+#b_Qiuzhou_Longhe
+10474 = {
+	holding = none
+}
+
+###c_mile
+#b_Shizong_Milubu
+10470 = {
+    culture = wuman
+	religion = ari 
+	holding = castle_holding
+}
+#b_Milebu
+10471 = {
+	holding = city_holding
+}
+
+###c_shicheng
+#b_Shicheng_Tangmadun
+10468 = {
+    culture = wuman
+	religion = ari
+	holding = castle_holding
+}
+#b_Xinfengchuan_Kuilunongchuan
+10473 = {
+	holding = city_holding
+}
+#b_Yushibu
+10469 = {
+	holding = church_holding
+}
+
+###c_wumeng
+#b_Wumengbu
+10478 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#b_Menpanbu_Lulubu
+10475 = {
+	holding = none
+}
+#b_Apangbu
+10481 = {
+	holding = none
+}
+
+###c_wusa 
+#b_Wusabu
+10479 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#b_Momidianbu
+10476 = {
+	holding = none
+}
+#b_Mangbubu
+10480 = {
+	holding = none
+}
+
+
+###d_huichuan  ####################################
+###c_huichuan
+#b_Huichuan_Huili
+10487 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#b_Ezhuntianguan_Nuodan
+10486 = {
+
+	holding = none
+}
+#b_Kebu_Ningnan
+10488 = {
+	holding = none
+}
+
+###c_jianchang
+#b_Jianchang_Sanfucheng
+10485 = {
+    culture = wuman
+	religion = bimoism
+	holding = tribal_holding
+}
+#b_Wudengbu_Qiongbu
+10482 = {
+	holding = none
+}
+#b_Baosai_Taideng
+10483 = {
+	holding = none
+}
+#b_Meigu_Fengpibu_Shamabu
+10484 = {
+	holding = none
+}
+
+
+###d_jianchuan ####################################
+###c_jianchuan
+#b_Jianchuan_Ningbei
+10495 = {
+    culture = bai
+	religion = ari 
+	holding = castle_holding
+}
+#b_Sangchuan_Moutong
+10494 = {
+
+	holding = city_holding
+}
+#b_Moulanggong
+10496 = {
+	holding = church_holding
+}
+
+###c_chengjie
+#b_Chengjiedan
+10491 = {
+    culture = bai
+	religion = ari 
+	holding = castle_holding
+}
+#b_Songwaicheng
+10489 = {
+	holding = city_holding
+}
+###c_xiangchangjun Actually part of k_kham
+#b_Xiangchengjun_Huijuchuan
+10490 = {
+    culture = qiang
+	religion = rrmeaism
+	holding = tribal_holding
+}
+#b_Muli
+10492 = {
+	holding = none
+}
+#b_Daocheng_Shuiluo
+10493 = {
+
+	holding = none
+}
+#b_SangriLa
+10497 = {
+	holding = none
+}
+
+
+###d_dali ####################################
+###c_yanjim
+#b_Dali_Yangjumie
+10500 = {
+    culture = bai
+	religion = ari
+	holding = castle_holding
+}
+#b_Yunnandan
+10502 = {
+	holding = city_holding
+}
+#b_Mengshe_TianlongTemple
+10501 = {
+	holding = church_holding
+}
+
+###c_nongdong
+#b_Nongdong
+10503 = {
+    culture = bai
+	religion = ari 
+	holding = castle_holding
+}
+#b_Shisangjun_Chuxiong
+10504 = {
+
+	holding = city_holding
+}
+#b_Ludan_Shaciguan
+10509 = {
+	holding = church_holding
+}
+
+########################
+### Dai Viet/k_annan ###
+########################
+
+###d_thang_long  ####################################
+###c_thang_long
+#b_thang_long
+10438 = {
+	culture = kinh
+	religion = mahayana
+	holding = castle_holding
+}  
+#b_trang_an
+10429 = {
+	holding = city_holding
+}
+#b_thai_binh
+10430 = {
+	holding = church_holding
+}
+
+###c_tan_hung
+#b_hai_mon
+10435 = {
+	culture = kinh
+	religion = mahayana
+	holding = castle_holding
+}
+#b_chu_dau
+10436 = {
+	holding = city_holding
+}
+#b_thai_nguyen
+11885 = {
+	holding = church_holding
+}
+
+###c_hai_dong
+#b_tan_an
+10434 = {
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_Sumaozhou
+10423 = { 
+	holding = none
+}
+
+
+###d_bac_giang  ####################################
+###c_lang_son
+#b_lang_son
+10440 = {
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_lang_giang
+10439 = {
+	holding = none	
+}
+#b_yen_lo
+11889 = {
+	holding = none
+}
+
+###c_thuong_nguyen
+#b_bac_giang
+10437 = {
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_tuyen_quang
+10447 = {
+	holding = none
+}
+#b_lo
+10448 = {
+	holding = none
+}
+#b_bac_kan
+10532 = {
+	holding = none
+}
+
+###c_quang_nguyen
+#b_cao_bang
+10531 = {
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_thang_do
+11890 = {
+	holding = none
+}
+#b_bao_lac
+10530 = {
+	holding = none
+}
+
+
+###d_lao_nhai  ####################################
+###c_lao_nhai
+#b_lao_nhai
+11883 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_bac_quang
+10446 = {
+	holding = none
+}
+#b_bac_ha
+11880 = {
+	holding = none
+}
+
+###c_vi_long
+#b_mao_lam
+10449 = {
+	culture = tay
+	religion = ban_phi
+	holding = tribal_holding	
+}
+#b_binh_nguyen
+10535 = {
+	holding = none
+}
+    
+
+###d_thanh_hoa  ####################################
+###c_thanh_hoa
+#b_thanh_hoa
+10433 = {
+	culture = kinh
+	religion = mahayana
+	holding = castle_holding
+}
+    
+#b_dien_chau
+10431 = {
+	holding = city_holding
+}
+
+###c_lam_son
+#b_lam_son
+10432 = {
+	culture = tho
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_ma_nam
+11879 = {
+	holding = none
+}
+#b_cam_muon
+10425 = {
+	holding = none
+}
+#b_tra_lan
+12150 = {
+	holding = none
+}
+
+###c_nghe_an
+#b_nghe_an
+10424 = {
+	culture = kinh
+	religion = mahayana
+	holding = castle_holding
+}
+#b_viet_thuong
+10422 = {
+	holding = city_holding
+}  
+#b_anh_son
+10426 = {
+	holding = church_holding
+}
+#b_hoan_chau
+10428 = {
+	holding = none
+}
+
+
+###d_phong_chau  ####################################
+###c_son_la
+#b_son_la
+10445 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_yen_moc
+11878 = {
+	holding = none
+}
+
+###c_muong
+#b_hoa_binh
+11876 = {
+	culture = muong
+	religion = ban_phi
+	holding = tribal_holding
+}  
+#b_da_bac
+11877 = {
+	holding = none
+}
+#b_phu_hoa
+11888 = {
+	holding = none
+}
+
+###c_chau_phong
+#b_phong_chau
+11884 = {
+	culture = kinh
+	religion = mahayana
+	holding = castle_holding
+}
+#b_van_chan
+11887 = {
+	holding = none
+}
+#b_yen_bai
+11886 = {
+	holding = none
+}
+#b_quynh_nhai
+11882 = {
+	holding = none
+}
+
+#########################
+### Lanxang/k_lanxang ###
+#########################
+
+###d_luang_prabang  ####################################
+###c_luang_prabang
+#b_Menglao_LuangPrabang
+10536 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+	special_building_slot = AEP_muang_sua_01
+	698 = { special_building = AEP_muang_sua_01 }
+}
+#b_viengkham
+10537 = {
+	holding = none
+}
+
+###c_xiangkhouang
+#b_xiangkhouang
+10543 = {
+	culture = khmu
+	religion = wa_animism
+	holding = tribal_holding
+}
+#b_houaphanh
+10544 = {
+	holding = none
+}
+
+###c_muong
+#b_samnuea #芒乃
+11402 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_samtay #利润
+11403 = {
+	holding = none
+}
+
+
+###d_luang_namtha  ####################################
+###c_luang_namtha
+#b_luang_namtha
+10540 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_Houakhong
+10539 = {
+	holding = none
+}
+#b_oudomhay
+10541 = {
+	holding = none
+}
+#b_moung_xai
+10542 = {
+	holding = none
+}
+
+###c_phongsali
+#b_phongsali
+10538 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_tung_lang
+10442 = {
+	holding = none
+}
+
+
+###d_muangthaeng #勐唐  ####################################
+###c_muang_thaeng
+#b_muang_thaeng
+10441 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_muang_lay
+10444 = {
+	holding = none
+}
+
+###c_muang_so
+#b_muang_so
+11881 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_na_kang
+10443 = {
+	holding = none
+}
+
+
+###d_vientiane # Chantaburi  ####################################
+###c_vientiane # Chantaburi
+#b_vientiane # Chantaburi
+10545 = {
+	culture = tai
+	religion = theravada
+	holding = tribal_holding
+}
+12047 = {
+	holding = city_holding
+}
+
+###c_phon_hong
+#b_phon_hong
+10546 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+12046 = {
+	holding = church_holding
+}
+12049 = {
+	holding = city_holding
+}
+
+###c_bolikhamsai
+#b_bolikhamsai
+10548 = {
+	culture = khmu
+	religion = wa_animism
+	holding = tribal_holding
+}
+12045 = {
+	holding = city_holding
+}
+
+###c_bolikhamsai_highland
+12072 = {
+	culture = khmu
+	religion = wa_animism
+	holding = tribal_holding
+}
+11672 = {
+	holding = none
+}
+12073 = {
+	holding = none
+}
+
+
+###d_samabuli  ####################################
+###c_samabuli
+#b_sainyabuli
+10547 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+12050 = {
+	holding = city_holding
+}
+
+###c_pan_phonsai
+#b_ban_phonsai
+12051 = {
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+12048 = {
+	holding = city_holding
+}
+
+
+
+###################
+### Shan/k_shan ###
+###################
+
+###d_shan  ####################################
+###c_hsenwi - County of Hsenwi
+10549 = {	# Lashu  #hsenwi/lashio
+    culture = kachin
+	religion = burmic
+	holding = tribal_holding
+}
+11864 = {	#Mong Mit
+	holding = none
+}
+
+###c_waa
+#b_Waiyu_Wa
+10513 = {
+    culture = waic
+	religion = wa_animism
+	holding = tribal_holding
+}
+#b_Wang_Wa
+10514 = {
+	holding = none
+}
+
+###c_hsipaw - County of Hsipaw
+11866 = {	# Hsipaw
+    culture = palaungic
+	religion = wa_animism
+	holding = tribal_holding
+	1066.1.1 = {
+		culture = tai
+		religion = ban_phi
+	}
+}
+11867 = {	# Mongkung
+	holding = none
+}
+11868 = {	# Laikha
+	holding = none
+}
+
+###c_yawnghwe - County of Yawnghwe
+11891 = {	# Loi_Long
+    culture = karenic
+	religion = burmic
+	holding = tribal_holding
+}
+11892 = {	# Hsatung
+	holding = none
+}
+
+###c_mongnai - County of Mongnai
+10551 = {	# Kunxin
+    culture = karenic
+	religion = burmic
+	holding = tribal_holding
+	1066.1.1 = {
+		culture = tai
+		religion = ban_phi
+	}
+}
+10552 = {	# Dongzhi
+	holding = none
+}
+
+###c_kengtung  - County of Kengtung
+10508 = {	# Kengtung
+	culture = waic
+	religion = wa_animism
+	holding = tribal_holding
+	1066.1.1 = {
+		culture = tai
+		religion = ban_phi
+	}
+}
+10529 = {	# Mengjiao Muken
+	holding = none
+}
+
+###d_yinsheng ####################################
+###c_kainan
+#b_Yinshengfu_Kainan
+10505 = {
+    culture = hani
+	religion = bimoism 
+	holding = tribal_holding
+}
+#b_Weiyuan_Liuzhuihe
+10506 = {
+	holding = none
+}
+
+###c_puer
+#b_Buri
+10507 = {
+    culture = hani
+	religion = bimoism 
+	holding = tribal_holding
+}
+#b_Hepuchuan_Mojiang
+10510 = {
+	holding = none
+}
+
+###c_mueang_hai
+#b_sibsongbanna #芒乃
+11875 = {
+	culture = waic
+	religion = wa_animism
+	holding = tribal_holding
+}
+#b_mengla
+10511 = {
+	holding = none
+}
+#b_Menglian
+10512 = {
+	holding = none
+}
+
+
+###d_yongchang ####################################
+###c_ruanhua 
+#b_Yongchangfu_Baoshan
+10518 = {
+    culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_Tengchong_Ruanhuafu
+10520 = {
+
+	holding = none
+}
+#b_Xiele_Mangshi
+10519 = {
+	holding = none
+}
+
+###c_tuonan
+#b_Tuonan
+10516 = {
+    culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+#b_Lanfengrong_Lincang
+10515 = {
+	holding = none
+}
+#b_Tangfengchuan_Shengxiang
+10517 = {
+	holding = none
+}
+
+
+###d_llishu ####################################
+###c_lishui - County of Lishui
+10524 = {	# Lishui Xunchuandachuan
+    culture = kachin
+	religion = burmic 
+	holding = tribal_holding
+}
+10523 = {	# Jinbaocheng Moulang
+
+	holding = none
+}
+10525 = {	# Wangcang Zhenxi
+
+	holding = none
+}
+
+###c_qixian - County of Qixian
+10526 = {	# Menggong Anxi Huposhan
+    culture = kachin
+	religion = burmic 
+	holding = tribal_holding
+}
+10527 = {	# Xianghan Qixian
+
+	holding = none
+}
+10528 = {	# Minuo River
+
+	holding = none
+}
+
+###c_guangdang - County of Guangdang
+10498 = {	# Guangdang
+    culture = kachin
+	religion = burmic
+	holding = castle_holding
+}
+10521 = {	# Changbangcheng
+
+	holding = none
+}
+10499 = {	# Zhuge Temple
+
+	holding = church_holding
+}
+10522 = {	# Mailikai River
+
+	holding = none
+}
+
+
+###d_mahasay  ####################################
+###c_mahasay
+#b_mahasay
+11670 = {
+	###culture = katuic
+	culture = kuy
+	religion = kuy_animism
+	holding = tribal_holding
+}
+12069 = {
+	holding = none
+}
+12126 = {
+	holding = none
+}
+
+###c_seponh
+#b_seponh
+11671 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = tribal_holding
+}
+12067 = {
+	holding = none
+}
+12068 = {
+	holding = none
+}
+
+###c_thakhek
+12071 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = tribal_holding
+}
+12044 = {
+	holding = none
+}
+12070 = {
+	holding = none
+}
+12074 = {
+	holding = none
+}
+
+###d_prungnagara  ####################################
+###c_shrestapura
+#b_shrestapura
+11673 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = castle_holding
+	special_building_slot = AEP_wat_phu_01
+	500 = { special_building = AEP_wat_phu_01 }
+	1050 = { special_building = AEP_wat_phu_02 }
+}
+12076 = {
+	holding = none
+}
+
+###c_sekong
+#b_sekong
+11675 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = tribal_holding
+}
+#b_salavan
+11674 = {
+	holding = none
+}
+12064 = {
+	holding = none
+}
+12065 = {
+	holding = none
+}
+12124 = {
+	holding = none
+}
+
+###c_attapeu
+#b_attapeu
+11676 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = tribal_holding
+}
+12062 = {
+	holding = none
+}
+12063 = {
+	holding = none
+}
+
+###c_champassak
+12095 = {
+	culture = kuy
+	religion = kuy_animism
+	holding = castle_holding
+}
+12042 = {
+	holding = none
+}
+
+
+
+#####################
+### Pagan/k_pagan ###
+#####################
+
+##d_pagan  ####################################
+###c_pagan / County of Pagan
+9550 = {	# Pagan
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		special_building_slot = ananda_temple_01
+	}
+	1056.1.1 = {
+		religion = theravada
+	}
+	1105.1.1 = {
+		special_building = ananda_temple_01
+	}
+}
+9551 = {	# Popa/Mount Popa (AKA: Popa Hill)
+	#Note: Often mentioned as a place of worship, pilgrimage, and various religious festivals.
+	
+	holding = church_holding
+}
+9552 = {	# Nyaung_U / Nyaung U
+	holding = city_holding
+}
+9553 = {	# Tantkyitaung
+	holding = none
+}
+9554 = {	# Myitche
+	#Note: Mentioned as a small village in Pakokku at the time of Anawrahta (see ref_burma_001).
+	
+	holding = none
+}
+9555 = {	# Powundaung
+	holding = none
+}
+
+###c_ava - County of Ava
+9556 = {	# Ava
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9557 = {	# Pinya
+	holding = none
+}
+9558 = {	# Taungbyon
+	holding = none
+	
+	# History
+	1056.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_kyaukse - County of Kyaukse
+9559 = {	# Kyaukse
+	# Note: An important and fertile area of the Pagan period.
+	
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = theravada
+	}
+}
+9560 = {	# Maingmaw
+	holding = city_holding
+}
+9561 = {	# Mekkhaya
+	holding = none
+}
+9570 = {	# Yawnghwe
+	holding = none
+	
+	# History
+	1056.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_minbu - County of Minbu
+9562 = {	# Minbu
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9563 = {	# Salin
+	holding = none
+	
+	# History
+	1056.1.1 = {
+		holding = church_holding
+	}
+}
+9564 = {	# Ngape
+	# Note: A mountain pass often used to move through the Arakanese Mountains.
+	
+	holding = none
+}
+9565 = {	# Shwesettaw
+	holding = none
+}
+
+###c_sagaing - County of Sagaing
+9568 = {	# Sagaing
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9569 = {	# Halin
+	holding = city_holding
+}
+9639 = {	# Myinmu
+	holding = none
+	
+	# History
+	1056.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_yamethin - County of Yamethin
+9571 = {	# Yamethin
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = theravada
+	}
+}
+9574 = {	# Peikthanomyo
+	holding = none
+}
+9573 = {	# Binnaka
+	holding = city_holding
+}
+
+
+##d_tagaung  ####################################
+### c_takon - County of Takon
+9643 = {	# Takon (AKA Tagaung)
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9644 = {	# Katha
+	holding = city_holding
+}
+9645 = {	# Htigyaing
+	holding = none
+}
+9646 = {	# Myedu
+	holding = none
+}
+
+###c_madaya - County of Madaya
+9640 = {	# Madaya
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9642 = {	# Momeik
+	holding = none
+}
+9641 = {	# Singu
+	holding = none
+}
+
+###c_hanlan - County of Hanlan
+9647 = {	# Hanlan
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9622 = {	# Maukkadaw
+	holding = none
+}
+9623 = {	# Mingiu
+	holding = none
+}
+
+###c_kale - County of Kale
+9624 = {	# Kale
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9625 = {	# Chin
+	holding = none
+}
+9658 = {	# Thaungdut
+	holding = none
+}
+
+
+##d_sriksetra  ####################################
+###c_sriksetra - County of Sriksetra
+9588 = {	# Sriksetra
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9589 = {	# Myede
+	holding = city_holding
+}
+9590 = {	# Thayetmyo
+	holding = none
+}
+9634 = {	# Taungdwingyi
+	holding = church_holding
+}
+
+
+###c_magwe - County of Magwe
+9575 = {	# Magwe
+	# Misc
+	culture = burmese
+	religion = ari
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = theravada
+	}
+}
+9572 = {	# Shwemyo
+	holding = none
+}
+
+###c_hinthada - County of Hinthada # Actually part of the d_pegu
+9591 = {	# Hinthada
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+	
+}
+9592 = {	# Myanaung
+	holding = none
+}
+
+###c_toungoo - County of Toungoo
+9593 = {	# Toungoo
+	# Misc
+	culture = burmese
+	religion = mahayana
+	
+	holding = castle_holding
+	
+	# History
+	1056.1.1 = {
+		religion = ari
+	}
+	1077.4.11 = {
+		religion = theravada
+	}
+}
+9594 = {	# Mong_Pai / Möng Pai
+	holding = none
+}
+9595 = {	# Swa
+	holding = none
+	
+	# History
+	1056.1.1 = {
+		holding = city_holding
+	}
+}
+
+
+##d_arakan # Moved to k_arakan  ####################################
+
+
+##d_ramannadesa  ####################################
+###c_thaton - County of Thaton
+9627 = {	# Thaton
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+
+}
+9628 = {	# Muttina
+	holding = city_holding
+}
+9629 = {	# Mawlamyine
+	holding = church_holding
+}
+9630 = {	# Taikkala
+	holding = none
+}
+
+##c_sittaung - County of Sittaung
+9637 = {	# Sittaung
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+
+}
+9638 = {	# Shwegyin
+	holding = none
+}
+
+##d_pegu  ####################################
+###c_pegu - County of Pegu
+9596 = {	# Pegu
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+
+}
+9635 = {	# Tharrawaddy
+	holding = none
+	
+	# History
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+9636 = {	# Phyu
+	holding = none
+}
+
+###c_dagon - County of Dagon
+9598 = {	# Dagon
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		special_building_slot = shwedagon_pagoda_01
+		special_building = shwedagon_pagoda_01
+	}
+}
+9597 = {	# Syriam
+	holding = city_holding
+}
+
+9599 = {	# Krapan
+	holding = none
+	
+	# History
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+9626 = {	# Bogale
+	holding = none
+}
+
+###c_kusumi - County of Kusumi
+9632 = {	# Kusumi (AKA Bassein)
+	
+	# Misc
+	culture = mon
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+
+}
+9633 = {	# Myaungmya
+	holding = none
+}
+9631 = {	# Negrais
+	holding = none
+}
+
+###c_ramu - County of Ramu # Actually part of the d_vanga in the k_bengal
+9581 = {	# Ramu
+	# Misc
+	culture = bengali
+	religion = theravada
+	
+	holding = castle_holding
+	
+	# History
+
+}
+9582 = {	# Dianga
+	holding = city_holding
+}
+
+##d_ramannadesa # Added  ####################################
+###c_yebyu - County of Rew
+11869 = {	# Rew
+	culture = mon
+	religion = theravada
+	holding = castle_holding
+}
+9629 = {	# Mawlamyine
+	holding = church_holding
+}
+
+###c_kawkareik - County of Kawkareik
+11870 = {	# Kawkareik
+	culture = karenic
+	religion = burmic
+	holding = tribal_holding
+}
+
+#d_andaman_and_nicobar # Added; actually part of k_tamilakam
+#c_north_andaman
+#b_north_andaman
+11610 = {
+	culture = andamanese
+	religion = kadai
+	holding = tribal_holding
+}
+#c_south_andaman
+#b_south_andaman
+11611 = {
+	culture = andamanese
+	religion = kadai
+	holding = tribal_holding
+}
+#c_nicobar_islands
+#b_nicobar_islands
+11612 = {
+	culture = nicobarese
+	religion = kadai
+	holding = tribal_holding
+}

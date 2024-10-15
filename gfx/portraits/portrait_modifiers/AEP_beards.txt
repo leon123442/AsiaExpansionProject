@@ -1,0 +1,654 @@
+﻿# Make sure the weights here match up best as possible with the custom_beards set
+aep_beards = {
+
+	usage = game
+
+    selection_behavior = weighted_random
+
+## Chinese/Korean ##
+
+	chinese_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = chinese_beards
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight_thin_beard
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+					has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+					has_gene = {
+						category = gene_hair_type
+						template = hair_afro
+					} 
+                }
+                OR = {
+                    portrait_chinese_clothing_trigger = yes
+                    portrait_korean_clothing_trigger = yes
+                }
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_chinese_clothing_trigger = yes
+                    portrait_korean_clothing_trigger = yes
+                }
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+## Japanese ##
+	
+	japanese_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight_thin_beard
+                    }
+                }
+                portrait_japanese_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_japanese_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    japanese_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = japanese_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+					has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+					has_gene = {
+						category = gene_hair_type
+						template = hair_afro
+					} 
+                }
+                portrait_japanese_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_japanese_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+## Ainu ##
+
+    ainu_thin_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = thin_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                exists = this
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_straight_thin_beard
+                }             
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+	
+	ainu_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = ainu_beards
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = { # Ainus should always have a beard
+                add = 200
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+					has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+					has_gene = {
+						category = gene_hair_type
+						template = hair_afro
+					} 
+                }
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_ainu_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+## General East Asian ##
+
+    east_asian_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = thin_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight_thin_beard
+                    }
+                }
+                OR = {
+                    portrait_southeast_asian_clothing_trigger = yes
+                    portrait_ryukyuan_clothing_trigger = yes
+                    portrait_tungusic_clothing_trigger = yes
+                    portrait_tibetan_clothing_trigger = yes
+                }
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_southeast_asian_clothing_trigger = yes
+                    portrait_ryukyuan_clothing_trigger = yes
+                    portrait_tungusic_clothing_trigger = yes
+                    portrait_tibetan_clothing_trigger = yes
+                }
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    east_asian_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = steppe_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+                }
+                OR = {
+                    portrait_southeast_asian_clothing_trigger = yes
+                    portrait_ryukyuan_clothing_trigger = yes
+                    portrait_tungusic_clothing_trigger = yes
+                    portrait_tibetan_clothing_trigger = yes
+                }
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_southeast_asian_clothing_trigger = yes
+                    portrait_ryukyuan_clothing_trigger = yes
+                    portrait_tungusic_clothing_trigger = yes
+                    portrait_tibetan_clothing_trigger = yes
+                }
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    east_asian_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = sub_saharan_beards_afro
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                exists = this
+                 has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }              
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                OR = {
+                    portrait_southeast_asian_clothing_trigger = yes
+                    portrait_ryukyuan_clothing_trigger = yes
+                    portrait_tungusic_clothing_trigger = yes
+                    portrait_tibetan_clothing_trigger = yes
+                }
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+## Papuan ##
+
+    papuan_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = mena_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight_thin_beard
+                    }
+                }
+                portrait_papuan_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_papuan_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    papuan_curly = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = mena_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+                }
+                portrait_papuan_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_papuan_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    papuan_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = sub_saharan_beards_afro
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                exists = this
+                 has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }              
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_papuan_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+## Andamanese ##
+
+    andamanese_straight = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = thin_beards_straight
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_straight_thin_beard
+                    }
+                }
+                portrait_andamanese_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_andamanese_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    andamanese_wavy = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = steppe_beards_curly
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 50
+                OR = {
+                    NOT = { exists = this }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_wavy
+                    }
+                    has_gene = {
+                        category = gene_hair_type
+                        template = hair_curly
+                    }
+                }
+                portrait_andamanese_clothing_trigger = yes
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_andamanese_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+
+    andamanese_afro = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = beards
+                template = sub_saharan_beards_afro
+                range = { 0 1 } # For the randomness to work correctly
+            }
+        }   
+        # outfit_tags = { no_clothes }
+        weight = {
+            base = 0
+            modifier = {
+                add = 70
+                exists = this
+                has_gene = {
+                    category = gene_hair_type
+                    template = hair_afro
+                }              
+            }
+            modifier = { # Muslims should always have a beard
+                add = 200
+                scope:faith.religion = religion:islam_religion
+                portrait_andamanese_clothing_trigger = yes
+            }
+            modifier = {
+                add = -100
+                exists = this
+                OR = {
+                    is_from_ruler_designer = yes
+                    has_character_flag = has_scripted_appearance
+                }
+            }
+        }
+    }
+	
+}
+
+
+
+
+

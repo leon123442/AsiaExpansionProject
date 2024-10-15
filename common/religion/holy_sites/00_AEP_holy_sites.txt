@@ -49,12 +49,12 @@ fujisan = { # Mount Fuji 富士山
 		stress_loss_mult = 0.2
 	}
 }
-udo = { # Udo Shrine 鵜戸神宮
-	county = c_hyuga
-	barony = b_miyazaki
+kumanosanzan = { # Kumano Sanzan 熊野三山
+	county = c_kii
+	barony = b_muro
 	
 	character_modifier = {
-		name = holy_site_udo_effect_name
+		name = holy_site_kumanosanzan_effect_name
 		health = 0.3
 		fertility = 0.2
 	}
@@ -162,8 +162,8 @@ kussharo = {
 	}
 }
 kar_put = {
-	county = c_kuvieh
-	barony = b_KuviehSough
+	county = c_yrkyr
+	barony = b_yrkyr
 	
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.2
@@ -177,7 +177,7 @@ dulizhen = {
 	}
 }
 nurgan = {
-	county = c_nivkh
+	county = c_nurgan
 	
 	character_modifier = {
 		learning_per_piety_level = 1

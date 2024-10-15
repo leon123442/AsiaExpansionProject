@@ -70,6 +70,9 @@ yaonian_yanmujin = {
 	trait = education_martial_3
 	848.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	867.1.1 = {
 		add_spouse = yaonian_yanmujin

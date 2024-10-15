@@ -1025,7 +1025,7 @@ NEA_enryakuji = {
 	can_construct = {
 		scope:holder = {
 			OR = {
-				religion = religion:shinto_religion
+				religion = religion:japonic_religion
 				religion = religion:buddhism_religion
 			}
 		}
@@ -1068,7 +1068,7 @@ NEA_ise_grand_shrine = {
 	can_construct = {
 		scope:holder = {
 			OR = {
-				religion = religion:shinto_religion
+				religion = religion:japonic_religion
 				religion = religion:buddhism_religion
 			}
 		}
@@ -1111,7 +1111,7 @@ NEA_izumo_grand_shrine = {
 	can_construct = {
 		scope:holder = {
 			OR = {
-				religion = religion:shinto_religion
+				religion = religion:japonic_religion
 				religion = religion:buddhism_religion
 			}
 		}
@@ -1153,7 +1153,7 @@ NEA_futarasan_shrine = {
 	can_construct = {
 		scope:holder = {
 			OR = {
-				religion = religion:shinto_religion
+				religion = religion:japonic_religion
 				religion = religion:buddhism_religion
 			}
 		}

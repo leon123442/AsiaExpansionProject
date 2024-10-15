@@ -1,7 +1,7 @@
 ﻿object={
 	name="great wall 01"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_01_mesh"
@@ -691,8 +691,8 @@
 "}
 object={
 	name="great wall 02"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_02_mesh"
@@ -741,8 +741,8 @@ object={
 "}
 object={
 	name="great wall 03"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_03_mesh"
@@ -967,8 +967,8 @@ object={
 "}
 object={
 	name="great wall 04"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_04_mesh"
@@ -984,8 +984,8 @@ object={
 "}
 object={
 	name="great wall tower 01"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_tower_01_mesh"
@@ -993,8 +993,8 @@ object={
 }
 object={
 	name="great wall tower 02"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_tower_02_mesh"
@@ -1091,8 +1091,8 @@ object={
 "}
 object={
 	name="great wall tower 03"
+	render_pass=Map
 	clamp_to_water_level=no
-	render_under_water=no
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="chinese_great_wall_tower_03_mesh"

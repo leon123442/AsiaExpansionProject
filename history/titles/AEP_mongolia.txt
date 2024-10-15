@@ -23,9 +23,15 @@ e_grand_liao = {
 	1055.8.28 = {
 		holder = 194333
 	}
+	1101.2.12 = {
+		holder = 1045082
+	}
+	1125.3.26 = {
+		holder = 0 # Liao Dynasty falls to the Jin
+	}
 }
 
-k_tengri = {
+k_chanyu = {
 	867.1.1 = { change_development_level = 2 }
     1066.1.1 = { change_development_level = 4 }
 }
@@ -45,6 +51,7 @@ d_zhenfan = {
 c_zhenfan = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 }
 c_tiandejun = {
 	867.1.1 = { change_development_level = 7 }
@@ -104,6 +111,14 @@ c_chanyufu = {
 c_xuandezhou = {
 	867.1.1 = { change_development_level = 5 }
     1066.1.1 = { change_development_level = 8 }
+
+	1178.1.1 = {
+		holder = yunzhong_duke_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_shengzhou = {
 	867.1.1 = { change_development_level = 5 }
@@ -112,12 +127,31 @@ c_shengzhou = {
 d_hiyaxu = {
     867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	907.1.1 = {
 		holder = 194325 #Abaoji
 	}
 	1055.8.28 = {
 		holder = 194333
+	}
+}
+c_hiyaxu = {
+	1178.1.1 = {
+		holder = yunzhong_duke_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_qibingga = {
+	1178.1.1 = {
+		holder = yunzhong_duke_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 d_fengzhou = {
@@ -492,9 +526,15 @@ c_julop = {
 }
 
 # Dongyi
+k_dongyi = {
+	926.1.1 = {
+		de_jure_liege = "e_jurchen"
+	}
+}
 d_xarmoron = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	842.1.1 = {
 		holder = 4550008 #Yaonian Yelan
@@ -511,8 +551,17 @@ d_xarmoron = {
 	1055.8.28 = {
 		holder = 194333
 	}
+	1178.1.1 = {
+		holder = xarmoron_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_yikun = {
+	1178.1.1 = { change_development_level = 20 }
+
 	842.1.1 = {
 		holder = 4550008 #Yaonian Yelan
 	}
@@ -539,14 +588,31 @@ c_longhua = {
 	907.1.1 = {
 		holder = 194325 #Yelü Abaoji
 	}
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_wulv = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
+
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 d_tohchen = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	907.1.1 = {
 		holder = 194325 #Yelü Abaoji
@@ -554,10 +620,18 @@ d_tohchen = {
 	1055.8.28 = {
 		holder = 194333
 	}
+	1178.1.1 = {
+		holder = tohchen_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_dading = {
 	867.1.1 = { change_development_level = 6 } 
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
 	
 	867.1.1 = {
 		holder = 4550010 #Yelü Saladi
@@ -571,6 +645,7 @@ c_dading = {
 c_beian = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	907.1.1 = {
 		holder = 194325 #Yelü Abaoji
@@ -579,22 +654,39 @@ c_beian = {
 c_changchun = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 14 }
+	1178.1.1 = { change_development_level = 22 }
 	
 	860.1.1 = {
 		holder = changchun_placeholder_001
+	}
+	1178.1.1 = {
+		holder = xarmoron_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 c_ningzhou_khitan = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	860.1.1 = {
 		holder = ningzhou_placeholder_001
+	}
+	1178.1.1 = {
+		holder = xarmoron_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 c_degere = { 
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 18 }
+	1178.1.1 = { change_development_level = 26 }
 	
 	860.1.1 = {
 		holder = degere_placeholder_001

@@ -1,4 +1,4 @@
-version="0.3.7"
+version="0.7.1"
 tags={
 	"Alternative History"
 	"Culture"
@@ -9,6 +9,6 @@ tags={
 	"Historical"
 }
 name="Asia Expansion Project"
-supported_version="1.9.2.1"
+supported_version="1.13.*"
 path="C:/Users/nicln/Documents/Paradox Interactive/Crusader Kings III/mod/AEP"
 remote_file_id="2970440958"

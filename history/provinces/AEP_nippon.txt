@@ -8,10 +8,15 @@
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
-	special_building = imperial_palace_kyoto_01
+	special_building_slot = AEP_imperial_palace_kyoto
+	794.1.1 = { special_building = AEP_imperial_palace_kyoto }
 }
 11239 = {	#Fushimi
 	holding = city_holding
+	special_building_slot = generic_university
+	671.1.1 = {
+		special_building = generic_university # Daigaku-ryō
+	}
 }
 11241 = {	#Soraku
 	holding = none
@@ -78,6 +83,8 @@
 }
 11300 = {	#Enryaku-Ji
 	holding = church_holding
+	special_building_slot = NEA_enryakuji
+	788.1.1 = { special_building = NEA_enryakuji }
 }
 11297 = {	#Inukami
 	holding = none
@@ -142,6 +149,7 @@
 }
 11244 = {	#Ise
 	holding = church_holding
+	special_building = NEA_ise_grand_shrine
 }
 11249 = {	#Ichishi
 	holding = city_holding
@@ -202,6 +210,7 @@
 }
 11310 = {	#Suruga
 	holding = church_holding
+	special_building = NEA_mount_fuji
 }
 
 ###c_izu
@@ -290,6 +299,7 @@
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
+	special_building_slot = NEA_sado_gold_mine_01
 }
 
 ##d_nankai  ####################################
@@ -427,6 +437,7 @@
 }
 11303 = {	#Iishi
 	holding = church_holding
+	special_building = NEA_izumo_grand_shrine
 }
 
 ###c_iwami
@@ -436,7 +447,8 @@
 	holding = castle_holding
 }
 11305 = {	#Ano
-	holding = none
+	holding = city_holding
+	special_building_slot = NEA_iwami_silver_mine_01
 }
 
 ###c_oki
@@ -548,6 +560,8 @@
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
+	special_building_slot = NEA_dazaifu
+	663.1.1 = { special_building = NEA_dazaifu }
 }
 11162 = {	#Munakata
 	holding = none
@@ -686,6 +700,9 @@
 	culture = emishi
 	religion = shinto
 	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
 }
 11251 = {	#Ichinoseki
 	holding = none
@@ -696,6 +713,9 @@
 	culture = emishi
 	religion = shinto
 	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
 }
 11143 = {	#Iwate
 	holding = none
@@ -755,6 +775,12 @@
 	culture = emishi
 	religion = moshir
 	holding = tribal_holding
+	1071 = {
+		religion = shinto
+	}
+	1160 = {
+		culture = yamato
+	}
 }
 12268 = {	#Inaka
 	holding = none
@@ -765,6 +791,12 @@
 	culture = emishi
 	religion = moshir
 	holding = tribal_holding
+	1071 = {
+		religion = shinto
+	}
+	1160 = {
+		culture = yamato
+	}
 }
 11222 = {	#Ninohe
 	holding = none
@@ -775,6 +807,12 @@
 	culture = emishi
 	religion = moshir
 	holding = tribal_holding
+	1071 = {
+		religion = shinto
+	}
+	1160 = {
+		culture = yamato
+	}
 }
 11252 = {	#Kesen
 	holding = none
@@ -786,6 +824,9 @@
 	culture = emishi
 	religion = shinto
 	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
 }
 11144 = {	#Senboku
 	holding = none
@@ -796,6 +837,9 @@
 	culture = emishi
 	religion = shinto
 	holding = castle_holding
+	1066.1.1 = {
+		culture = yamato
+	}
 }
 11333 = {	#Yuri
 	holding = none
@@ -826,6 +870,12 @@
 	culture = emishi
 	religion = moshir
 	holding = tribal_holding
+	1071 = {
+		religion = shinto
+	}
+	1160 = {
+		culture = yamato
+	}
 }
 11147 = {	#Kazuno
 	holding = none
@@ -888,9 +938,15 @@
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
+	special_building_slot = NEA_futarasan_shrine
+	767.1.1 = { special_building = NEA_futarasan_shrine }
 }
 11315 = {	#Aso
-	holding = none
+	holding = city_holding
+	special_building_slot = generic_university
+	842.1.1 = {
+		special_building = generic_university # Ashikaga Gakkō
+	}
 }
 11314 = {	#Haga
 	holding = none
@@ -1010,6 +1066,10 @@
 	culture = mishihase
 	religion = yzng
 	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
 }
 11187 = {	#Abashiri
 	holding = none
@@ -1023,6 +1083,10 @@
 	culture = mishihase
 	religion = yzng
 	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
 }
 11207 = {	#Teshio
 	holding = none
@@ -1038,6 +1102,10 @@
 	culture = mishihase
 	religion = yzng
 	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
 }
 
 ###c_kushiro 
@@ -1063,14 +1131,48 @@
 	holding = none
 }
 
-###c_chishima
-11373 = {	#Chishima
+###c_kunashiri
+11373 = {	#Kunashiri
 	culture = mishihase
 	religion = yzng
 	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
 }
+
+###c_etorofu
 11372 = {	#Etorofu
-	holding = none
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_uruppu
+12523 = {	#Uruppu
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_paramushiru
+12524 = {	#Paramushiru
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
 }
 
 
@@ -1105,6 +1207,8 @@
 	culture = okinawa
 	religion = utaki
 	holding = tribal_holding
+	special_building_slot = NEA_shuri_castle
+	1248.1.1 = { special_building = NEA_shuri_castle }
 }
 
 ##d_saki ####################################

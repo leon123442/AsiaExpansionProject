@@ -218,7 +218,7 @@
 ###c_takola
 #b_takola
 11701 = {
-	culture = malay
+	culture = moklen
 	religion = umboh
 	holding = castle_holding
 }
@@ -357,7 +357,7 @@
 ###c_enggano
 #b_enggano
 11625 = {
-	culture = mentawai
+	culture = enggano
 	religion = batak
 	holding = tribal_holding
 }
@@ -366,7 +366,7 @@
 ###c_nias
 #b_nias
 11593 = {
-	culture = mentawai
+	culture = nias
 	religion = batak
 	holding = tribal_holding
 }
@@ -374,7 +374,7 @@
 ###c_batu_islands
 #b_batu_islands
 11592 = {
-	culture = mentawai
+	culture = nias
 	religion = batak
 	holding = tribal_holding
 }
@@ -383,7 +383,7 @@
 #b_simeulue
 11578 = {
 	# Misc
-	culture = mentawai
+	culture = simeulue
 	religion = batak
 	holding = tribal_holding
 }
@@ -400,6 +400,8 @@
 	culture = malay
 	religion = vajrayana
 	holding = castle_holding
+	special_building_slot = AEP_muaro_jambi_temple_01
+	671 = { special_building = AEP_muaro_jambi_temple_01 }
     # History
 	867.1.1 = {
 		buildings = {
@@ -656,7 +658,7 @@
 #b_bintan
 11613 = {
 	# Misc
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = castle_holding
     # History
@@ -677,7 +679,7 @@
 #b_lingga
 11614 = {
 	# Misc
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = castle_holding
     # History
@@ -698,7 +700,7 @@
 ###c_natuna
 #b_natuna
 11615 = {
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = tribal_holding
 }
@@ -706,7 +708,7 @@
 ###c_anambas
 #b_anambas
 11616 = {
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = tribal_holding
 }
@@ -716,7 +718,7 @@
 #b_temasik
 11561 = {
 	# Misc
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = castle_holding
     # History
@@ -796,7 +798,7 @@
 #b_bangka
 11622 = {
 	# Misc
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = castle_holding
     # History
@@ -819,7 +821,7 @@
 #b_belitung
 11623 = {
 	# Misc
-	culture = malay
+	culture = orang_laut
 	religion = umboh
 	holding = castle_holding
     # History

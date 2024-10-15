@@ -1,0 +1,292 @@
+﻿############################
+### House of Wanyan 完顏 ###
+############################
+
+wanyan_hanpu = {
+	name = Hanpu # 烏魯
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	875.1.1 = { # estimate
+		birth = yes
+	}
+	940.1.1 = { # estimate
+		death = yes
+	}
+}
+wanyan_wulu = {
+	name = Wulu # 烏魯
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen
+	father = wanyan_hanpu 
+	935.1.1 = { # estimate
+		birth = yes
+	}
+	1000.1.1 = { # estimate
+		death = yes
+	}
+}
+wanyan_bahai = {
+	name = Bahai # 跋海
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_wulu
+	956.1.1 = { # estimate
+		birth = yes
+	}
+	1012.1.1 = { # estimate
+		death = yes
+	}
+}
+wanyan_suike = {
+	name = Suike # 綏可
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_bahai
+	978.1.1 = { # estimate
+		birth = yes
+	}
+	1040.1.1 = { # estimate
+		death = yes
+	}
+}
+wanyan_shilu = {
+	name = Shilu # 石魯
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_suike
+	1000.1.1 = { # estimate
+		birth = yes
+	}
+	1064.1.1 = { # estimate
+		death = yes
+	}
+}
+wanyan_wugunai = {
+	name = Wugunai # 烏骨廼
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_shilu
+	1021.1.1 = {
+		birth = yes
+	}
+	1074.1.1 = {
+		death = yes
+	}
+}
+wanyan_helibo = {
+	name = Helibo # 劾里鉢
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_wugunai
+	1039.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+jin_taizu = { # Emperor Taizu of Jin 1115-1123
+	name = Aguda # 阿骨打
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_helibo
+	1068.8.1 = {
+		birth = yes
+	}
+	1123.9.19 = {
+		death = yes
+		name = Taizu # 太祖
+	}
+}
+wanyan_zonggan = {
+	name = Zonggan # 宗干
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = jin_taizu
+	1088.1.1 = { # estimate
+		birth = yes
+	}
+	1141.1.1 = {
+		death = yes
+	}
+}
+wanyan_zongjun = {
+	name = Zongjun # 宗峻
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = jin_taizu
+	1092.11.25 = { # estimate
+		birth = yes
+	}
+	1124.1.1 = {
+		death = yes
+	}
+}
+wanyan_zongbi = {
+	name = Zongbi # 宗弼
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = jin_taizu
+	1094.1.1 = { # estimate
+		birth = yes
+	}
+	1148.10.1 = {
+		death = yes
+	}
+}
+wanyan_zongyao = {
+	name = Zongyao # 宗堯
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = jin_taizu
+	1096.1.1 = {
+		birth = yes
+	}
+	1135.1.1 = {
+		death = yes
+	}
+}
+jin_taizong = { # Emperor Taizong of Jin 1123-1135
+	name = Wuqimai # 吳乞買
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_helibo
+	1075.11.25 = {
+		birth = yes
+	}
+	1135.2.9 = {
+		death = yes
+		name = Taizong # 太宗
+	}
+}
+jin_xizong = { # Emperor Xizong of Jin 1135-1150
+	name = hela # 合剌
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_zongjun
+	1119.11.25 = {
+		birth = yes
+	}
+	1135.2.9 = {
+		religion = lixue
+	}
+	1150.1.9 = {
+		death = yes
+		name = Xizong # 熙宗
+	}
+}
+wanyan_liang = { # Emperor Liang of Jin 1150-1161
+	name = Digunai # 迪古乃
+	dynasty = 80000031
+	religion = hehe
+	culture = jurchen 
+	father = wanyan_zonggan
+	1122.2.24 = {
+		birth = yes
+	}
+	1150.1.9 = {
+		religion = lixue
+	}
+	1161.12.15 = {
+		death = yes
+		name = Liang # 亮
+	}
+}
+jin_shizong = { # Emperor Shizong of Jin 1161-1189
+	name = Yong # 雍
+	dynasty = 80000031
+	religion = mahayana
+	culture = jurchen 
+	father = wanyan_zongyao
+	1123.3.29 = {
+		birth = yes
+	}
+	1189.1.20 = {
+		death = yes
+		name = Shizong # 世宗
+	}
+}
+wanyan_yungong = {
+	name = Yungong # 允恭
+	dynasty = 80000031
+	religion = mahayana
+	culture = jurchen 
+	father = jin_shizong
+	1146.1.1 = {
+		birth = yes
+	}
+	1185.6.1 = {
+		death = yes
+	}
+}
+wanyan_yongji = { # Emperor Yongji of Jin 1208-1213
+	name = Yongji # 永濟
+	dynasty = 80000031
+	religion = lixue
+	culture = jurchen 
+	father = jin_shizong
+	1146.1.1 = {
+		birth = yes
+	}
+	1213.9.11 = {
+		death = yes
+	}
+}
+jin_xuanzong = { # Emperor Xuanzong of Jin 1213-1224
+	name = Xun # 珣
+	dynasty = 80000031
+	religion = zhengyi
+	culture = jurchen 
+	father = wanyan_yungong
+	1163.4.18 = {
+		birth = yes
+	}
+	1224.1.14 = {
+		death = yes
+		name = Xuanzong # 宣宗
+	}
+}
+jin_zhangzong = { # Emperor Zhangzong of Jin 1189-1208
+	name = Jing # 璟
+	dynasty = 80000031
+	religion = zhengyi
+	culture = jurchen 
+	father = wanyan_yungong
+	1168.8.31 = {
+		birth = yes
+	}
+	1208.12.29 = {
+		death = yes
+		name = Shizong # 世宗
+	}
+}
+jin_aizong = { # Emperor Aizong of Jin 1224-1234
+	name = Shouxu # 璟守緒
+	dynasty = 80000031
+	religion = zhengyi
+	culture = jurchen 
+	father = jin_xuanzong
+	1198.9.25 = {
+		birth = yes
+	}
+	1234.2.9 = {
+		death = {
+			death_reason = death_suicide # Commits suicide during the Siege of Caizhou after passing over authority to his army marshal Wanyan Chenglin
+		}
+		name = Aizong # 哀宗
+	}
+}

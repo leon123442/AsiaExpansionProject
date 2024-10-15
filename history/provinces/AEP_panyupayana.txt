@@ -17,7 +17,7 @@
 	holding = none
 }
 11770 = { # Tangway
-	holding = tribal_holding
+	holding = city_holding
 }
 
 ###c_pila_ph
@@ -31,7 +31,7 @@
 	}
 }
 11777 = { # Taytay
-	holding = tribal_holding
+	holding = city_holding
 }
 
 ###c_tayabas
@@ -84,10 +84,10 @@
 	}
 }
 12011 = { # Binwangan
-	holding = tribal_holding
+	holding = city_holding
 }
 11776 = { # Pulilan
-	holding = tribal_holding
+	holding = city_holding
 }
 
 ###c_pangpang
@@ -688,7 +688,7 @@
 ###c_sug (Sug)
 11854 = {	# Maimbung
 	culture = buranun
-	religion = umboh
+	religion = papaiagan
 	holding = tribal_holding
 }
 
@@ -812,7 +812,7 @@
 }
 ###c_nanliuqiu
 10924 = { 
-	culture = sirayic
+	culture = siraya
 	religion = hanitu
 	holding = tribal_holding
 }
@@ -824,7 +824,7 @@
 }
 ###c_zhongliuqiu
 10923 = {
-	culture = pituish
+	culture = babuza
 	religion = hanitu
 	holding = tribal_holding
 }
@@ -839,7 +839,7 @@
 }
 ###c_beiliuqiu
 10922 = {
-	culture = sirayic
+	culture = kulun
 	religion = hanitu
 	holding = tribal_holding
 }
@@ -851,7 +851,7 @@
 }
 ###c_beishanqu
 11996 = {
-	culture = limaish
+	culture = atayal
 	religion = hanitu
 	holding = tribal_holding
 }
@@ -863,7 +863,7 @@
 }
 ###c_nanshanqu
 11992 = {
-	culture = siwaish
+	culture = bunun
 	religion = hanitu
 	holding = tribal_holding
 }
@@ -884,7 +884,7 @@
 }
 ###c_amisguo
 11986 = {
-	culture = sirayic
+	culture = amis
 	religion = hanitu
 	holding = tribal_holding
 }

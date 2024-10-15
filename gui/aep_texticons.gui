@@ -1,0 +1,36 @@
+texticon = {
+	icon = aep_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_aep.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = javanese_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_javanese.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = chinese_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_chinese.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+texticon = {
+	icon = japanese_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_japanese.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

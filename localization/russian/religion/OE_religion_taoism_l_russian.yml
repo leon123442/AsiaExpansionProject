@@ -1,6 +1,6 @@
 ﻿l_russian:
-  taiping:0 "Taiping"
-  taiping_adj:0 "Taiping"
-  taiping_adherent:0 "Taiping believers"
-  taiping_adherent_plural:0 "Taiping believers"
-  taiping_desc:0 "Taiping Dao is a folk esoteric religion. The believers believe that every time the day is injustice, God will guide them to slay demons and demons and build the Taiping Heavenly Kingdom."
+ taiping: "Тайпин" 
+ taiping_adj: "Тайпин" 
+ taiping_adherent: "Верующие тайпины" 
+ taiping_adherent_plural: "Верующие тайпины" 
+ taiping_desc: "Тайпин Дао - это народная эзотерическая религия. Верующие верят, что каждый раз, когда наступает несправедливый день, Бог направляет их на истребление демонов и бесов и построение Небесного царства Тайпин." 

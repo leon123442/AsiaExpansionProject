@@ -1,154 +1,154 @@
 ﻿l_russian:
- japonic_religion:0 "Shintōism" # 神道
- japonic_religion_adj:0 "Shintō" # 神道
- japonic_religion_adherent:0 "Shintōist" # 神道の弟子
- japonic_religion_adherent_plural:0 "Shintōists" # 神道の弟子達
- japonic_religion_desc:0 "Shintōism is Japan's native religion and centers on the belief that spiritual forces manifest in natural places such as mountains, rivers, and other aspects of nature, including humans and animals."
- 
- shinto:0 "Shintōism" # 神道
- shinto_adj:0 "Shintō" # 神道
- shinto_adherent:0 "Shintōist" # 神道の弟子
- shinto_adherent_plural:0 "Shintōists" # 神道の弟子達
- old_shinto_desc:0 "Shintōism is Japan's native religion and centers on the belief that spiritual forces manifest in natural places such as mountains, rivers, and other aspects of nature, including humans and animals."
- 
- utaki:0 "Utakiism" # 御嶽
- utaki_adj:0 "Utaki" # 御嶽
- utaki_adherent:0 "Utakiist" # 御嶽の弟子
- utaki_adherent_plural:0 "Utakiists" # 御嶽の弟子達
- utaki_desc:0 "The native beliefs of the Ryukyu islands emphasize worship of the ancestors and the spirits of nature. The most revered of these spirits are Utin, Jiichi, and Ryūgū, symbolizing respectively Heaven as the father, Earth as the mother, and the Sea as the birthplace of all life. They are worshiped in a shrine called an utaki, and special emphasis is placed on the spiritual power of women."
-
- shinto_high_god_name:0 "Kamisama" # 神様
- shinto_high_god_name_possessive:0 "Kamisama's" # 神様の
- shinto_high_god_alternate:0 "Tendō" # 天道
- shinto_high_god_alternate_possessive:0 "Tendō's" # 天道の
- shinto_creator_god_name:0 "Izanagi" # イザナギ
- shinto_creator_god_name_possessive:0 "Izanagi's" # イザナギの
- shinto_health_god_name:0 "Yakushi Nyorai" # 薬師如来
- shinto_health_god_name_possessive:0 "Yakushi Nyorai's" # 薬師如来の
- shinto_fertility_god_name:0 "Inari" # 稲荷
- shinto_fertility_god_name_possessive:0 "Inari's" # 稲荷の
- shinto_wealth_god_name:0 "Daikokuten" # 大黒天
- shinto_wealth_god_name_possessive:0 "Daikokuten's" # 大黒天の
- shinto_household_god_name:0 "Kōjin" # 荒神
- shinto_household_god_name_possessive:0 "Kōjin's" # 荒神の
- shinto_fate_god_alternate:0 "Sarutahiko" # 猿田彦
- shinto_fate_god_alternate_possessive:0 "Sarutahiko's" # 猿田彦の
- shinto_knowledge_god_name:0 "Omoikane" # 思金
- shinto_knowledge_god_name_possessive:0 "Omoikane's" # 思金の
- shinto_war_god_name:0 "Bishamonten" # 毘沙門天
- shinto_war_god_name_possessive:0 "Bishamonten's" # 毘沙門天の
- shinto_trickster_god_name:0 "Kitsune" # 狐
- shinto_trickster_god_name_possessive:0 "Kitsune's" # 狐の
- shinto_night_god_name:0 "Tsukuyomi" # 月読
- shinto_night_god_name_possessive:0 "Tsukuyomi's" # 月読の
- shinto_water_god_name:0 "Suijin" # 水神
- shinto_water_god_name_possessive:0 "Suijin's" # 水神の
- shinto_devil_name:0 "Oni" # 鬼
- shinto_devil_name_possessive:0 "Oni's" # 鬼の
- shinto_death_god_name:0 "Shinigami" # 死神
- shinto_death_god_name_possessive:0 "Shinigami's" # 死神の
- shinto_witch_god_name:0 "$shinto_trickster_god_name$"
- shinto_witch_god_name_possessive:0 "$shinto_trickster_god_name_possessive$"
- shinto_devotee_male:0 "Sō" #　僧
- shinto_devotee_male_plural:0 "Sō" #　僧達
- shinto_devotee_female:0 "Nisō" #　尼僧
- shinto_devotee_female_plural:0 "Nisō" #　尼僧達
- shinto_priest_neuter:0 "Shasō" # 社僧
- shinto_priest_neuter_plural:0 "Shasō" # 社僧達
- shinto_house_of_worship:0 "jingū-ji" #　神宮寺
- shinto_house_of_worship_plural:0 "jingū-ji" #　神宮寺達
- shinto_religious_symbol:0 "Torii" #　鳥居
- shinto_religious_text:0 "Kyōmon" #　経文
- shinto_religious_head_title:0 "Tennō" # 天皇
- shinto_religious_head_title_name:0 "Yamato" #　ヤマト/皇室
- shinto_divine_realm:0 "Takamagahara" # 高天原
- shinto_afterlife:0 "Tengoku" # 天国
- shinto_negative_afterlife:0 "Jigoku" # 地獄
- 
- utaki_high_god_name:0 "Utin"
- utaki_high_god_name_2:0 "$utaki_high_god_name$" # Optional translation alt
- utaki_high_god_name_possessive:0 "Utin's"
- utaki_high_god_name_alternate:0 "Jiichi"
- utaki_high_god_name_alternate_possessive:0 "Jiichi's"
- utaki_good_god_father_sky:0 "$utaki_trickster_god_name$"
- utaki_good_god_ancestors:0 "futuchi"
- utaki_devil_name:0 "corruption"
- utaki_devil_name_possessive:0 "corruption's"
- utaki_devil_shehe:0 "it"
- utaki_devil_herselfhimself:0 "itself"
- utaki_devil_herhis:0 "its"
- utaki_evil_god_decay:0 "blight"
- utaki_evil_god_decay_possessive:0 "blight's"
- utaki_evil_god_drought:0 "drought"
- utaki_death_deity_name:0 "death"
- utaki_death_deity_name_possessive:0 "death's"
- utaki_death_deity_herhis:0 "its"
- utaki_mother_earth_father_sky:0 "Utin and Jiichi"
- utaki_mother_earth_father_sky_2:0 "$utaki_mother_earth_father_sky$" # Optional translation alt
- utaki_mother_earth_father_sky_3:0 "$utaki_mother_earth_father_sky$" # Optional translation alt
-
- utaki_creator_god_name:0 "$utaki_high_god_name$"
- utaki_creator_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_health_god_name:0 "$utaki_high_god_name$"
- utaki_health_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_fertility_god_name:0 "$utaki_high_god_name$"
- utaki_fertility_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_wealth_god_name:0 "$utaki_high_god_name$"
- utaki_wealth_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_household_god_name:0 "$utaki_high_god_name$"
- utaki_household_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_fate_god_name:0 "fate"
- utaki_fate_god_name_possessive:0 "fate's"
- utaki_knowledge_god_name:0 "$utaki_high_god_name$"
- utaki_knowledge_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_war_god_name:0 "$utaki_high_god_name$"
- utaki_war_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_trickster_god_name:0 "Kijimunaa"
- utaki_trickster_god_name_possessive:0 "Kijimunaa's"
- utaki_night_god_name:0 "$utaki_trickster_god_name$"
- utaki_night_god_name_possessive:0 "$utaki_trickster_god_name_possessive$"
- utaki_water_god_name:0 "Ryūgū"
- utaki_water_god_name_possessive:0 "Ryūgū's"
-
- utaki_house_of_worship:0 "utaki"
- utaki_house_of_worship_2:0 "$utaki_house_of_worship$" # Optional translation alt
- utaki_house_of_worship_3:0 "$utaki_house_of_worship$" # Optional translation alt
- utaki_house_of_worship_plural:0 "utakis"
- utaki_religious_symbol:0 "sangwaa"
- utaki_religious_symbol_2:0 "$utaki_religious_symbol$" # Optional translation alt
- utaki_religious_symbol_3:0 "$utaki_religious_symbol$" # Optional translation alt
- utaki_religious_text:0 "sacred stories"
- utaki_religious_text_2:0 "$utaki_religious_text$" # Optional translation alt
- utaki_religious_text_3:0 "$utaki_religious_text$" # Optional translation alt
- utaki_religious_head_title:0 "High Priestess"
- utaki_religious_head_title_name:0 "High Council"
- utaki_devotee:0 "devotee"
- utaki_devoteeplural:0 "devotees"
- utaki_priest:0 "nuuru"
- utaki_priest_plural:0 "nuurus"
- utaki_priest_alternate_plural:1 "elders"
- utaki_divine_realm:0 "Nirai Kanai"
- utaki_divine_realm_2:0 "$utaki_divine_realm$" # Optional translation alt
- utaki_divine_realm_3:0 "$utaki_divine_realm$" # Optional translation alt
- utaki_afterlife:0 "the underworld"
- utaki_afterlife_2:0 "$utaki_afterlife$" # Optional translation alt
- utaki_afterlife_3:0 "$utaki_afterlife$" # Optional translation alt
- witchgodname_utaki_the_shadow:0 "the Shadow"
- witchgodname_utaki_the_shadow_possessive:0 "the Shadow's"
- 
- #Purely Shintō
- #shinto_devotee_male:0 "Fugeki" # 巫覡
- #shinto_devotee_male_plural:0 "Fugeki" # 巫覡達
- #shinto_devotee_female:0 "Miko" # 巫女
- #shinto_devotee_female_plural:0 "Miko" # 巫女達
- #shinto_priest_neuter:0 "Kamunushi" # 神主
- #shinto_priest_neuter_plural:0 "Kamunushi" # 神主達
- #shinto_house_of_worship:0 "jinja" #　神社
- #shinto_house_of_worship_plural:0 "jinja" #　神社達
- #shinto_religious_text:0 "Shinten" #　神典
-
- special_doctrine_teachings_of_buddha_name:0 "Shinbutsu-shūgō" # 神仏習合
- special_doctrine_teachings_of_buddha_desc:0 "Shinbutsu-shūgō, or the Syncretism of Kami and Buddhas, is Japan's most dominant faith and represents the syncretism between Japan's native religion of Shintōism and Buddhism imported from the Korean Kingdom of Baekje during the 6th century. Before the Meiji Restoration, the two faiths were largely intertwined, possessing many overlapping beliefs, with adherents participating in both Shintō and Buddhist rituals free of contradiction."
- doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_eastern_syncretism_name$ [core_tenet|E]"
- doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
- doctrine_parameter_hostility_override_special_doctrine_teachings_of_buddha:0 "Considers Buddhist [faiths|E] to be $hostility_astray_tooltippable$, and is considered by Buddhist [faiths|E] to be $hostility_astray_tooltippable$ instead of $hostility_evil_tooltippable$."
+ japonic_religion: "Синтоизм" 
+ japonic_religion_adj: "Синто" 
+ japonic_religion_adherent: "Синтоист" 
+ japonic_religion_adherent_plural: "Синтоисты" 
+ japonic_religion_desc: "Синтоизм - родная религия Японии, в основе которой лежит вера в то, что духовные силы проявляются в природных местах, таких как горы, реки и другие аспекты природы, включая людей и животных." 
+  
+ shinto: "Синтоизм" 
+ shinto_adj: "Синто" 
+ shinto_adherent: "Синтоист" 
+ shinto_adherent_plural: "Синтоисты" 
+ old_shinto_desc: "Синтоизм - родная религия Японии, в основе которой лежит вера в то, что духовные силы проявляются в природных местах, таких как горы, реки и другие аспекты природы, включая людей и животных." 
+  
+ utaki: "Утакизм" 
+ utaki_adj: "Утаки" 
+ utaki_adherent: "Утакист" 
+ utaki_adherent_plural: "Утакисты" 
+ utaki_desc: "В верованиях коренных жителей островов Рюкю особое внимание уделяется поклонению предкам и духам природы. Наиболее почитаемые из них - Утин, Дзиити и Рюгу, символизирующие соответственно Небо как отца, Землю как мать и Море как место рождения всего живого. Им поклоняются в святилище, называемом утаки, и особое внимание уделяется духовной силе женщин." 
+  
+ shinto_high_god_name: "Камисама" 
+ shinto_high_god_name_possessive: "Камисама" 
+ shinto_high_god_alternate: "Тендо" 
+ shinto_high_god_alternate_possessive: "Тендо" 
+ shinto_creator_god_name: "Идзанаги" 
+ shinto_creator_god_name_possessive: "Идзанаги" 
+ shinto_health_god_name: "Якуси Нёрай" 
+ shinto_health_god_name_possessive: "Якуси Нёрай" 
+ shinto_fertility_god_name: "Инари" 
+ shinto_fertility_god_name_possessive: "Инари" 
+ shinto_wealth_god_name: "Дайкокутен" 
+ shinto_wealth_god_name_possessive: "Дайкокутенс" 
+ shinto_household_god_name: "Кодзин" 
+ shinto_household_god_name_possessive: "Коджин" 
+ shinto_fate_god_alternate: "Сарутахико" 
+ shinto_fate_god_alternate_possessive: "Сарутахико" 
+ shinto_knowledge_god_name: "Омоиканэ" 
+ shinto_knowledge_god_name_possessive: "Омоиканэ" 
+ shinto_war_god_name: "Бишамонтэн" 
+ shinto_war_god_name_possessive: "Бишамонтен" 
+ shinto_trickster_god_name: "Кицунэ" 
+ shinto_trickster_god_name_possessive: "Кицунэ" 
+ shinto_night_god_name: "Цукуёми" 
+ shinto_night_god_name_possessive: "Цукуёми" 
+ shinto_water_god_name: "Суйцзинь" 
+ shinto_water_god_name_possessive: "Суйджин" 
+ shinto_devil_name: "Они" 
+ shinto_devil_name_possessive: "Они" 
+ shinto_death_god_name: "Шинигами" 
+ shinto_death_god_name_possessive: "Шинигами" 
+ shinto_witch_god_name: "$shinto_trickster_god_name$" 
+ shinto_witch_god_name_possessive: "$shinto_trickster_god_name_possessive$" 
+ shinto_devotee_male: "Со" 
+ shinto_devotee_male_plural: "Со" 
+ shinto_devotee_female: "Нисо" 
+ shinto_devotee_female_plural: "Нисо" 
+ shinto_priest_neuter: "Шасо" 
+ shinto_priest_neuter_plural: "Шасо" 
+ shinto_house_of_worship: "джингуджи" 
+ shinto_house_of_worship_plural: "джингуджи" 
+ shinto_religious_symbol: "Тории" 
+ shinto_religious_text: "Кемон" 
+ shinto_religious_head_title: "Тенно" 
+ shinto_religious_head_title_name: "Ямато" 
+ shinto_divine_realm: "Такамагахара" 
+ shinto_afterlife: "Тенгоку" 
+ shinto_negative_afterlife: "Дзигоку" 
+  
+ utaki_high_god_name: "Утин" 
+ utaki_high_god_name_2: "$utaki_high_god_name$" 
+ utaki_high_god_name_possessive: "Утина" 
+ utaki_high_god_name_alternate: "Джиичи" 
+ utaki_high_god_name_alternate_possessive: "Джиичи" 
+ utaki_good_god_father_sky: "$utaki_trickster_god_name$" 
+ utaki_good_god_ancestors: "футучи" 
+ utaki_devil_name: "коррупция" 
+ utaki_devil_name_possessive: "коррупция" 
+ utaki_devil_shehe: "это" 
+ utaki_devil_herselfhimself: "сам" 
+ utaki_devil_herhis: "его" 
+ utaki_evil_god_decay: "блеск" 
+ utaki_evil_god_decay_possessive: "опасность" 
+ utaki_evil_god_drought: "засуха" 
+ utaki_death_deity_name: "смерть" 
+ utaki_death_deity_name_possessive: "смерть" 
+ utaki_death_deity_herhis: "его" 
+ utaki_mother_earth_father_sky: "Утин и Джиичи" 
+ utaki_mother_earth_father_sky_2: "$utaki_mother_earth_father_sky$" 
+ utaki_mother_earth_father_sky_3: "$utaki_mother_earth_father_sky$" 
+  
+ utaki_creator_god_name: "$utaki_high_god_name$" 
+ utaki_creator_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_health_god_name: "$utaki_high_god_name$" 
+ utaki_health_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_fertility_god_name: "$utaki_high_god_name$" 
+ utaki_fertility_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_wealth_god_name: "$utaki_high_god_name$" 
+ utaki_wealth_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_household_god_name: "$utaki_high_god_name$" 
+ utaki_household_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_fate_god_name: "судьба" 
+ utaki_fate_god_name_possessive: "судьба" 
+ utaki_knowledge_god_name: "$utaki_high_god_name$" 
+ utaki_knowledge_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_war_god_name: "$utaki_high_god_name$" 
+ utaki_war_god_name_possessive: "$utaki_high_god_name_possessive$" 
+ utaki_trickster_god_name: "Киджимунаа" 
+ utaki_trickster_god_name_possessive: "Киджимунаа" 
+ utaki_night_god_name: "$utaki_trickster_god_name$" 
+ utaki_night_god_name_possessive: "$utaki_trickster_god_name_possessive$" 
+ utaki_water_god_name: "Рюгу" 
+ utaki_water_god_name_possessive: "Рюгу" 
+  
+ utaki_house_of_worship: "утаки" 
+ utaki_house_of_worship_2: "$utaki_house_of_worship$" 
+ utaki_house_of_worship_3: "$utaki_house_of_worship$" 
+ utaki_house_of_worship_plural: "утакис" 
+ utaki_religious_symbol: "сангва" 
+ utaki_religious_symbol_2: "$utaki_religious_symbol$" 
+ utaki_religious_symbol_3: "$utaki_religious_symbol$" 
+ utaki_religious_text: "священные истории" 
+ utaki_religious_text_2: "$utaki_religious_text$" 
+ utaki_religious_text_3: "$utaki_religious_text$" 
+ utaki_religious_head_title: "Верховная жрица" 
+ utaki_religious_head_title_name: "Высший совет" 
+ utaki_devotee: "преданный" 
+ utaki_devoteeplural: "преданные" 
+ utaki_priest: "нууру" 
+ utaki_priest_plural: "нуурис" 
+ utaki_priest_alternate_plural: "старейшины" 
+ utaki_divine_realm: "Нирай Канай" 
+ utaki_divine_realm_2: "$utaki_divine_realm$" 
+ utaki_divine_realm_3: "$utaki_divine_realm$" 
+ utaki_afterlife: "подземный мир" 
+ utaki_afterlife_2: "$utaki_afterlife$" 
+ utaki_afterlife_3: "$utaki_afterlife$" 
+ witchgodname_utaki_the_shadow: "тень" 
+ witchgodname_utaki_the_shadow_possessive: "Тень" 
+  
+  #Purely Shintō 
+ #shinto_devotee_male: "Фугэки" 
+ #shinto_devotee_male_plural: "Фугэки" 
+ #shinto_devotee_female: "Мико" 
+ #shinto_devotee_female_plural: "Мико" 
+ #shinto_priest_neuter: "Камунуси" 
+ #shinto_priest_neuter_plural: "Камунуси" 
+ #shinto_house_of_worship: "Жинжа" 
+ #shinto_house_of_worship_plural: "Жинжа" 
+ #shinto_religious_text: "Синтен" 
+  
+ special_doctrine_teachings_of_buddha_name: "Синбуцу-сюго" 
+ special_doctrine_teachings_of_buddha_desc: "Синбуцу-сюго, или Синкретизм Ками и Будды, - самая распространенная вера в Японии, представляющая собой синкретизм между исконной японской религией синтоизмом и буддизмом, завезенным из корейского королевства Пэкче в VI веке. До реставрации Мэйдзи эти две религии были в значительной степени переплетены, имели много совпадающих верований, а их приверженцы участвовали в ритуалах как синтоизма, так и буддизма, не вступая в противоречия." 
+ doctrine_parameter_eastern_syncretic_recipient_opinion_active: "Взаимный бонус [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] к [Concept( 'opinion', 'мнению' )|E] персонажей, принадлежащих к [Concept( 'faiths', 'конфессиям' )|E] с догматом «$tenet_eastern_syncretism_name$»"
+ doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active: ""
+ doctrine_parameter_hostility_override_special_doctrine_teachings_of_buddha: "Считает буддиста [faiths|E] за $hostility_astray_tooltippable$, а буддист [faiths|E] считает его $hostility_astray_tooltippable$ вместо $hostility_evil_tooltippable$." 

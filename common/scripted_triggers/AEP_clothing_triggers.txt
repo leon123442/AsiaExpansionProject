@@ -1,4 +1,44 @@
-﻿### JAPANESE ###
+﻿### CHINESE ###
+portrait_chinese_wear_armor_trigger = {
+	scope:culture = {
+		portrait_chinese_clothing_contents_trigger = yes
+	}
+}
+portrait_chinese_clothing_trigger = {
+	scope:culture = {
+		portrait_chinese_clothing_contents_trigger = yes
+	}
+}
+portrait_chinese_clothing_spouse_trigger = {
+	culture = {
+		portrait_chinese_clothing_contents_trigger = yes
+	}
+}
+portrait_chinese_clothing_contents_trigger = {
+	has_clothing_gfx = chinese_clothing_gfx
+}
+
+### KOREAN ###
+portrait_korean_wear_armor_trigger = {
+	scope:culture = {
+		portrait_korean_clothing_contents_trigger = yes
+	}
+}
+portrait_korean_clothing_trigger = {
+	scope:culture = {
+		portrait_korean_clothing_contents_trigger = yes
+	}
+}
+portrait_korean_clothing_spouse_trigger = {
+	culture = {
+		portrait_korean_clothing_contents_trigger = yes
+	}
+}
+portrait_korean_clothing_contents_trigger = {
+	has_clothing_gfx = korean_clothing_gfx
+}
+
+### JAPANESE ###
 portrait_japanese_wear_armor_trigger = {
 	scope:culture = {
 		portrait_japanese_clothing_contents_trigger = yes
@@ -18,7 +58,32 @@ portrait_japanese_clothing_contents_trigger = {
 	has_clothing_gfx = japanese_clothing_gfx
 }
 
+### RYUKYU ###
+portrait_ryukyuan_wear_armor_trigger = {
+	scope:culture = {
+		portrait_ryukyuan_clothing_contents_trigger = yes
+	}
+}
+portrait_ryukyuan_clothing_trigger = {
+	scope:culture = {
+		portrait_ryukyuan_clothing_contents_trigger = yes
+	}
+}
+portrait_ryukyuan_clothing_spouse_trigger = {
+	culture = {
+		portrait_ryukyuan_clothing_contents_trigger = yes
+	}
+}
+portrait_ryukyuan_clothing_contents_trigger = {
+	has_clothing_gfx = ryukyuan_clothing_gfx
+}
+
 ### AINU ###
+portrait_ainu_wear_armor_trigger = {
+	scope:culture = {
+		portrait_ainu_clothing_contents_trigger = yes
+	}
+}
 portrait_ainu_clothing_trigger = {
 	scope:culture = {
 		portrait_ainu_clothing_contents_trigger = yes
@@ -33,33 +98,164 @@ portrait_ainu_clothing_contents_trigger = {
 	has_clothing_gfx = ainu_clothing_gfx
 }
 
-
-### CHINESE ###
-portrait_chinese_clothing_trigger = {
+### Tungusic ###
+portrait_tungusic_wear_armor_trigger = {
 	scope:culture = {
-		portrait_chinese_clothing_contents_trigger = yes
+		portrait_tungusic_clothing_contents_trigger = yes
 	}
 }
-portrait_chinese_clothing_spouse_trigger = {
+portrait_tungusic_clothing_trigger = {
+	scope:culture = {
+		portrait_tungusic_clothing_contents_trigger = yes
+	}
+}
+portrait_tungusic_clothing_spouse_trigger = {
 	culture = {
-		portrait_chinese_clothing_contents_trigger = yes
+		portrait_tungusic_clothing_contents_trigger = yes
 	}
 }
-portrait_chinese_clothing_contents_trigger = {
-	has_clothing_gfx = han_clothing_gfx
+portrait_tungusic_clothing_contents_trigger = {
+	has_clothing_gfx = tungusic_clothing_gfx
 }
 
-### AUSTRONESIAN ###
-portrait_austronesian_clothing_trigger = {
+### TIBETAN ###
+portrait_tibetan_wear_armor_trigger = {
 	scope:culture = {
-		portrait_austronesian_clothing_contents_trigger = yes
+		portrait_tibetan_clothing_contents_trigger = yes
 	}
 }
-portrait_austronesian_clothing_spouse_trigger = {
+portrait_tibetan_clothing_trigger = {
+	scope:culture = {
+		portrait_tibetan_clothing_contents_trigger = yes
+	}
+}
+portrait_tibetan_clothing_spouse_trigger = {
 	culture = {
-		portrait_austronesian_clothing_contents_trigger = yes
+		portrait_tibetan_clothing_contents_trigger = yes
 	}
 }
-portrait_austronesian_clothing_contents_trigger = {
-	has_clothing_gfx = austronesian_clothing_gfx
+portrait_tibetan_clothing_contents_trigger = {
+	has_clothing_gfx = tibetan_clothing_gfx
+}
+
+### SOUTHEAST ASIAN ###
+portrait_southeast_asian_wear_armor_trigger = {
+	scope:culture = {
+		portrait_southeast_asian_clothing_contents_trigger = yes
+	}
+}
+portrait_southeast_asian_clothing_trigger = {
+	scope:culture = {
+		portrait_southeast_asian_clothing_contents_trigger = yes
+	}
+}
+portrait_southeast_asian_clothing_spouse_trigger = {
+	culture = {
+		portrait_southeast_asian_clothing_contents_trigger = yes
+	}
+}
+portrait_southeast_asian_clothing_contents_trigger = {
+	has_clothing_gfx = southeast_asian_clothing_gfx
+}
+
+### PAPUAN ###
+portrait_papuan_wear_armor_trigger = {
+	scope:culture = {
+		portrait_papuan_clothing_contents_trigger = yes
+	}
+}
+portrait_papuan_clothing_trigger = {
+	scope:culture = {
+		portrait_papuan_clothing_contents_trigger = yes
+	}
+}
+portrait_papuan_clothing_spouse_trigger = {
+	culture = {
+		portrait_papuan_clothing_contents_trigger = yes
+	}
+}
+portrait_papuan_clothing_contents_trigger = {
+	has_clothing_gfx = papuan_clothing_gfx
+}
+
+### ANDAMANESE ###
+portrait_andamanese_wear_armor_trigger = {
+	scope:culture = {
+		portrait_andamanese_clothing_contents_trigger = yes
+	}
+}
+portrait_andamanese_clothing_trigger = {
+	scope:culture = {
+		portrait_andamanese_clothing_contents_trigger = yes
+	}
+}
+portrait_andamanese_clothing_spouse_trigger = {
+	culture = {
+		portrait_andamanese_clothing_contents_trigger = yes
+	}
+}
+portrait_andamanese_clothing_contents_trigger = {
+	has_clothing_gfx = andamanese_clothing_gfx
+}
+
+### Buddhism ###
+portrait_religious_buddhist_trigger = {
+    OR = {
+		religion = religion:buddhism_religion
+        faith = faith:bon
+		# Removed Taoism
+    }
+}
+
+### Taoism ###
+portrait_religious_chinese_trigger = {
+	OR = {
+    	religion = religion:taoism_religion	
+		religion = religion:confucianism_religion
+	}
+}
+
+### Shintoism ###
+portrait_religious_shintoist_trigger = {
+    faith = faith:shinto
+}
+
+### Utaki Shintoism ###
+portrait_religious_utakiist_trigger = {
+    faith = faith:utaki
+}
+
+### Muism ###
+portrait_religious_muist_trigger = {
+    religion = religion:koreanic_religion	
+}
+
+### Ainu/Gilyak Paganism ###
+portrait_religious_moshir_trigger = {
+    OR = {
+    	faith = faith:moshir
+    	faith = faith:yzng
+	}
+}
+
+### Heheism (Tungusic Paganism) ###
+portrait_religious_heheist_trigger = {
+    faith = faith:hehe
+}
+
+### Mainland Southeast Asian Religions ###
+portrait_religious_mainland_sea_trigger = {
+	OR = {
+    	religion = religion:hmongism_religion
+    	religion = religion:loloish_religion
+    	religion = religion:kuy_religion
+    	religion = religion:wa_religion
+    	religion = religion:burmic_religion
+    	religion = religion:tai_religion
+	}
+}
+
+### Insular Southeast Asian Religions ###
+portrait_religious_insular_sea_trigger = {
+    religion = religion:austronesian_religion
 }

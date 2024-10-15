@@ -1,6 +1,7 @@
 k_tuva = {
 	867.1.1 = { change_development_level = 0 }
 	1066.1.1 = { change_development_level = 0 }
+	1178.1.1 = { change_development_level = 0 }
 }
 
 d_togina = {
@@ -26,6 +27,11 @@ d_togina = {
 		liege = 0
 	}
 	
+	## Liao Dynasty
+	#1040.1.1 = {
+	#	liege = e_grand_liao # AEP # Removed
+	#}
+	
 	#1066
 	1057.6.28 = {
 		holder = 303083		#fictional Eshegen Khori-Tumed
@@ -35,6 +41,10 @@ d_togina = {
 	}
 	1114.9.30 = {
 		holder = 303085		#fictional Rinchin Khori-Tumed
+	}
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
 	}
 	1140.1.2 = {
 		holder = 0
@@ -70,13 +80,13 @@ c_arzhan = {
 	#Added to Oirat sphere of influence
 	1140.1.2 = {
 		liege = d_khovsgol	#Oirats
-		holder = 303021	#fictional Kitbugha Dörbet
+		holder = 303021	#fictional Kitbugha Durbet
 	}
 	1153.7.15 = {
-		holder = 303022	#fictional Kundelung Dörbet
+		holder = 303022	#fictional Kundelung Durbet
 	}
 	1180.12.24 = {
-		holder = 303023	#fictional IshtO_mO_r Dörbet
+		holder = 303023	#fictional IshtO_mO_r Durbet
 	}
 }
 
@@ -109,13 +119,13 @@ c_tapsa = {
 	#Added to Oirat sphere of influence
 	1140.1.2 = {
 		liege = d_khovsgol	#Oirats
-		holder = 303021	#fictional Kitbugha Dörbet
+		holder = 303021	#fictional Kitbugha Durbet
 	}
 	1153.7.15 = {
-		holder = 303022	#fictional Kundelung Dörbet
+		holder = 303022	#fictional Kundelung Durbet
 	}
 	1180.12.24 = {
-		holder = 303023	#fictional IshtO_mO_r Dörbet
+		holder = 303023	#fictional IshtO_mO_r Durbet
 	}
 }
 
@@ -151,7 +161,7 @@ c_azas = {
 		holder = 303025	#fictional Sengge Kolyokod
 	}
 	1195.4.18 = {
-		holder = 303026	#fictional Bembö Kolyokod
+		holder = 303026	#fictional Bembu Kolyokod
 	}
 }
 
@@ -177,6 +187,11 @@ d_tannu_ola = {
 		liege = 0
 	}
 	
+	## Liao Dynasty
+	#1040.1.1 = {
+	#	liege = e_grand_liao # AEP # Removed
+	#}
+	
 	#1066
 	1050.2.2 = {
 		holder = 303062		#fictional Choyan_ool Tuva
@@ -189,6 +204,10 @@ d_tannu_ola = {
 	}
 	1115.11.16 = {
 		holder = 303066		#fictional Xures_ool
+	}
+	#End of Liao Dynasty
+	1125.3.26 = {
+		liege = 0
 	}
 	1143.4.8 = {
 		holder = 303067		#fictional Kongar_ool
@@ -310,7 +329,7 @@ c_stoyanka = {
 	1167.2.27 = {
 		holder = 303068		#fictional Kaadyr_ool
 	}
-	1187.10.19 = {
+	1177.1.1 = {
 		holder = 303069		#fictional Xirlig_ool
 	}
 }
@@ -388,7 +407,7 @@ c_kantegir = {
 	1167.2.27 = {
 		holder = 303068		#fictional Kaadyr_ool
 	}
-	1187.10.19 = {
+	1177.1.1 = {
 		holder = 303069		#fictional Xirlig_ool
 	}
 }

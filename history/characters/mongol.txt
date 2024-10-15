@@ -3,7 +3,7 @@
 303250 = {
 	name="Alan_Gua" #Alan Gua
 	female=yes
-	#dynasty=11100
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="beauty_good_2"
@@ -17,7 +17,7 @@
 #Borjigin Gen12
 303251 = {
 	name="Bukhatu_Salji"
-	#dynasty=11100
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="legitimized_bastard"
@@ -31,7 +31,7 @@
 }
 303252 = {
 	name="Bukha_Khatagi"
-	#dynasty=11100
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	trait="legitimized_bastard"
@@ -59,7 +59,7 @@
 }
 303253 = {
 	name="BelgU_nU_tei"
-	#dynasty=11100
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	mother=303250
@@ -72,7 +72,7 @@
 }
 303254 = {
 	name="BegU_nU_tei"
-	#dynasty=11100
+	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
 	mother=303250
@@ -278,7 +278,7 @@
 }
 #Borjigin Gen20 (sons of Semsochule)
 303270 = {
-	name="Ardi Barlas" # Nephew of Khabul Khan
+	name="Ardi_Barlas" # Nephew of Khabul Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -291,7 +291,7 @@
 	}
 }
 303271 = {
-	name="Angg Goraan" # Nephew of Khabul Khan
+	name="Angg_Goraan" # Nephew of Khabul Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -332,7 +332,7 @@
 	}
 }
 303274 = {
-	name="Hutugtu Monhor"
+	name="Hutugtu_Monhor"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -398,7 +398,7 @@
 }
 #Borjigin Gen21 (children of Bartan)
 303281 = {
-	name="Mengitü Hiyan" # Uncle of Genghis Khan
+	name="Mengitu_Hiyan" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -411,7 +411,7 @@
 	}
 }
 303280 = {
-	name="Negun Taiji" # Uncle of Genghis Khan
+	name="Negun_Taiji" # Uncle of Genghis Khan
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -450,7 +450,9 @@
 		add_spouse = 172003
 	}
 	1171.1.1 = {
-		death = yes
+		death = {
+			death_reason = death_poison
+		}
 	}
 }
 172003 = {
@@ -503,12 +505,15 @@
 	1158.1.2 = {
 		birth = yes
 	}
-	1180.1.2 = {
-		death = yes
+	1177.1.2 = {
+		death = {
+			death_reason = death_murder
+			killer = 125501
+		}
 	}
 }
 303284 = {
-	name="Belgütei"
+	name="Belgutei"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -537,7 +542,7 @@
 	}
 }
 303286 = {
-	name="Temüge"
+	name="Temuge"
 	dynasty=11100
 	religion="tengri_pagan"
 	culture="mongol"
@@ -551,7 +556,7 @@
 	}
 }
 303287 = {
-	name="Temülen"
+	name="Temulen"
 	female=yes
 	dynasty=11100
 	religion="tengri_pagan"
@@ -802,19 +807,23 @@
 125501 = {
 	name = "Temujin"
 	# AKA: Genghis Khan
+	dna = "125501_temujin_ulaanbaatar"
 	dynasty = 11100
 	martial = 10
 	diplomacy = 8
 	intrigue = 8
 	stewardship = 9
+	learning = 4
 	religion = "tengri_pagan"
 	culture = "mongol"
-	trait = brave
+	trait = vengeful
 	trait = ambitious
 	trait = diligent
-	trait = callous
 	trait = lifestyle_hunter
+	trait = open_terrain_expert
 	trait = education_martial_4
+	trait = adventurer
+	trait = shrewd
 	father = 93055
 	mother = 172003
 	1162.1.1 = {

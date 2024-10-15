@@ -1,4 +1,4 @@
-﻿# Nusantara
+﻿# Malaya
 house_Sanjaya = {
     name = "dynn_Sanjaya"
     dynasty = house_Sailendra

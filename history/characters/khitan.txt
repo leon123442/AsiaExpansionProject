@@ -1,9 +1,9 @@
 ﻿188905 = {
-	name="YelU_-Dashi"
-	dynasty=214009 # Qarakhitai, possibly of the Liao dynasty or just a general
+	name="Dashi"
+	dynasty=1045082 # Qarakhitai, Founder of the Western Liao Dynasty, and eighth generation descendent of Yelu Abaoji
 	religion=mahayana
 	culture=khitan
-
+	father = yelu_dilie
 	1087.1.1={
 		birth=yes
 	}
@@ -12,6 +12,7 @@
 	}
 	1143.1.1={
 		death=yes
+		name = Dezong
 	}
 }
 
@@ -30,8 +31,8 @@
 }
 
 188907 = {
-	name="YelU_-Yilie" # or Renzong
-	dynasty=214009 # Qarakhitai
+	name="Yilie" # or Renzong
+	dynasty=1045082 # Qarakhitai
 	religion=mahayana
 	culture=khitan
 	father=188905
@@ -48,7 +49,7 @@
 188908 = {
 	name="Pusuwan"
 	female=yes
-	dynasty=214009 # Qarakhitai
+	dynasty=1045082 # Qarakhitai
 	religion=mahayana
 	culture=khitan
 	father=188905
@@ -70,11 +71,14 @@
 	dynasty=214010
 	religion=mahayana
 	culture=khitan
-
-	1120.1.1={
+	stewardship = 6
+	trait = education_martial_3
+	trait = ambitious
+	trait = callous
+	1116.1.1 = {
 		birth=yes
 	}
-	1185.1.1={
+	1206.1.1 = {
 		death=yes
 	}
 }
@@ -95,7 +99,7 @@
 }
 
 188911 = {
-	name="Fuguzhi"
+	name="Puguzhi"
 	dynasty=214010
 	religion=mahayana
 	culture=khitan
@@ -105,19 +109,24 @@
 		birth=yes
 	}
 	1177.1.1={
-		death=yes
+		death = {
+			death_reason = death_execution
+			killer = 188909
+		}
 	}
 }
 
 188912 = {
-	name="YelU_-Zhilugu"
-	dynasty=214009
+	name="Zhilugu"
+	dynasty=1045082
+	stewardship = 8
 	religion=mahayana
 	culture=khitan
-	father=188910
-	mother=188908
-
-	1165.1.1={
+	trait = education_intrigue_3
+	trait = callous
+	trait = stubborn
+	father=188907
+	1153.1.1={
 		birth=yes
 	}
 	1213.1.1={
@@ -142,8 +151,8 @@
 }
 194325 = {
 	name="Abaoji"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	diplomacy = 7
 	martial = 9
@@ -155,6 +164,9 @@
 	mother = yaonian_yanmujin
 	867.1.1 = { # wasn't actually born until 872, but we need him to be his father's eldest son and heir in 867
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	887.1.1 = {
 		trait = brave
@@ -166,11 +178,12 @@
 		death = yes
 		name = "Taizu"
 	}
+	dna = yelu_abaoji_dna_entry
 }
 194326 = {
 	name="Deguang"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194325
 	902.11.25 = {
@@ -183,8 +196,8 @@
 }
 194327 = {
 	name="Bei"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194325
 	899.6.6 = {
@@ -194,10 +207,88 @@
 		death = yes
 	}
 }
+yelu_yaliguo = {
+	name="Yaliguo" # 牙里果
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=194325
+	910.1.1 = { # after
+		birth = yes
+	}
+	936.1.1 = { # after
+		death = yes
+	}
+}
+yelu_wenshunu = {
+	name="Wenshunu" # Fictional Name
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=yelu_yaliguo
+	935.1.1 = { # estimate
+		birth = yes
+	}
+	1000.1.1 = { # estimate
+		death = yes
+	}
+}
+yelu_suogu = {
+	name="Suogu" # Fictional Name
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=yelu_wenshunu
+	965.1.1 = { # estimate
+		birth = yes
+	}
+	1030.1.1 = { # estimate
+		death = yes
+	}
+}
+yelu_bishe = {
+	name="Bishe" # Fictional Name
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=yelu_suogu
+	995.1.1 = { # estimate
+		birth = yes
+	}
+	1056.1.1 = { # estimate
+		death = yes
+	}
+}
+yelu_deguang = {
+	name="Deguang" # Fictional Name
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=yelu_bishe
+	1026.1.1 = { # estimate
+		birth = yes
+	}
+	1095.1.1 = { # estimate
+		death = yes
+	}
+}
+yelu_dilie = {
+	name="Dilie" # Fictional Name
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
+	culture=khitan
+	father=yelu_deguang
+	1056.1.1 = { # estimate
+		birth = yes
+	}
+	1122.1.1 = { # estimate
+		death = yes
+	}
+}
 194328 = {
 	name="Ruan"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194327
 	919.1.29 = {
@@ -210,8 +301,8 @@
 }
 194329 = {
 	name="Jing"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194326
 	trait=drunkard
@@ -227,8 +318,8 @@
 }
 194330 = {
 	name="Xian"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194328
 	948.9.1 = {
@@ -241,8 +332,8 @@
 }
 194331 = {
 	name="Longxu"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194330
 	972.1.16 = {
@@ -255,8 +346,8 @@
 }
 194332 = {
 	name="Zongzhen"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194331
 	1016.4.3 = {
@@ -269,12 +360,15 @@
 }
 194333 = {
 	name="Hongji"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194332
 	1032.9.14 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	1101.2.12 = {
 		death = yes
@@ -284,8 +378,8 @@
 }
 194401 = {
 	name="Jun"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194333
 	mother=194402
@@ -299,8 +393,8 @@
 194402 = {
 	name="Xuan_Yi"
 	female=yes
-	#dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	#dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	1040.5.5 = {
 		birth = yes
@@ -311,8 +405,8 @@
 }
 194334 = {
 	name="Yanxi"
-	dynasty=1045082 # Yelü Dynasty
-	religion="zenzong"
+	dynasty=1045082 # Liao Dynasty
+	religion="mahayana"
 	culture=khitan
 	father=194401
 	1075.6.5 = {
@@ -326,7 +420,7 @@
 217176 = {
 	name = "Dashi" # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	1014.5.9 = {
 		birth = yes
@@ -340,7 +434,7 @@
 }
 217177 = {
 	name = "Dianni" # fictional
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	female = yes
 	1012.11.4 = {
@@ -353,7 +447,7 @@
 217178 = {
 	name = "Yilie" # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217176
 	mother = 217177
@@ -367,7 +461,7 @@
 217179 = {
 	name = "ShulU_-Ping" # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217176
 	mother = 217177
@@ -382,7 +476,7 @@
 217180 = {
 	name = "Zongzhen" # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217176
 	mother = 217177
@@ -396,7 +490,7 @@
 217181 = {
 	name = "Wenshunu" # fictional
 	dynasty = 1051112 # Wanyan
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	1006.5.24 = {
 		birth = yes
@@ -410,7 +504,7 @@
 }
 217182 = {
 	name = "Pusuwan" # fictional
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	female = yes
 	1014.5.16 = {
@@ -423,7 +517,7 @@
 217183 = {
 	name = "Cuiba" # fictional
 	dynasty = 1051112 # Wanyan
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	female = yes
 	father = 217181
@@ -438,7 +532,7 @@
 217184 = {
 	name = "Yingtian" # fictional
 	dynasty = 1051112 # Wanyan
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	female = yes
 	father = 217181
@@ -480,7 +574,7 @@
 217335 = {
 	name = Dashi # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217178
 	
@@ -496,7 +590,7 @@
 217336 = {
 	name = Yanxi # fictional
 	dynasty = 1051111 # Yuzhi
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217335
 	
@@ -519,7 +613,7 @@
 		birth = yes
 	}
 	1093.2.17 = {
-		religion = zenzong
+		religion = mahayana
 	}
 	1106.6.8 = {
 		death = yes
@@ -529,7 +623,7 @@
 217338 = {
 	name = "Tiande" # fictional
 	dynasty = 1051112 # Wanyan
-	religion = zenzong
+	religion = mahayana
 	culture = khitan
 	father = 217337
 	
@@ -567,7 +661,7 @@
 	culture="khitan"
 	father=188912
 	1180.1.1 = { birth="1180.1.1" }
-	1213.1.1 = { name="Baraq_Hajib" religion="sunni" dynasty=7337 }
+	1213.1.1 = { name="Baraq_Hajib" religion="ashari" dynasty=7337 }
 	1235.1.1 = { death="1235.1.1" }
 }
 
@@ -575,7 +669,7 @@
 93259 = {
 	name="Qutb_ad-Din_Muhammad"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93258
 	1200.1.1 = { birth="1200.1.1" }
@@ -584,7 +678,7 @@
 93260 = {
 	name="Rukh_ad-Din_Hoja_al-Hakk"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93258
 	1201.1.1 = { birth="1201.1.1" }
@@ -593,7 +687,7 @@
 93261 = {
 	name="Muzzafar_ad-Din"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93259
 	1250.1.1 = { birth="1250.1.1" }
@@ -603,7 +697,7 @@
 	name="Turkan_Hatun"
 	female=yes
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93261
 	1240.1.1 = { birth="1240.1.1" }
@@ -612,7 +706,7 @@
 93263 = {
 	name="Djalal_ad-Din_Abu_l-Muzzafar"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93259
 	1255.1.1 = { birth="1255.1.1" }
@@ -622,7 +716,7 @@
 	name="Safvat_ad-Din_Padishah_Hatun"
 	female=yes
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93259
 	1256.1.1 = { birth="1256.1.1" }
@@ -631,7 +725,7 @@
 93265 = {
 	name="Yuluq_Shah"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93263
 	1282.1.1 = { birth="1282.1.1" }
@@ -640,7 +734,7 @@
 93266 = {
 	name="Muzzafar_ad-Din"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93263
 	1283.1.1 = { birth="1283.1.1" }
@@ -649,7 +743,7 @@
 93267 = {
 	name="Qutb_ad-Din"
 	dynasty=7337
-	religion="sunni"
+	religion="ashari"
 	culture="khitan"
 	father=93263
 	1284.1.1 = { birth="1284.1.1" }

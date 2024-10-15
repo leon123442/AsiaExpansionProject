@@ -1,0 +1,40 @@
+k_jailolo = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+c_jailolo= {
+    700.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+c_ternate= {
+    700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+c_tidore= {
+    700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+c_makian= {
+    700.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+c_bacan= {
+    700.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+k_banda = {
+    700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+d_raja_ampat = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+c_biak = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}
+c_kowiai = {
+	700.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+}

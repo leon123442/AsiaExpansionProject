@@ -9,6 +9,8 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
+	special_building_slot = NEA_chongrungsa
+	865.1.1 = { special_building = NEA_chongrungsa }
 	936.1.1 = { 
 		culture = goryeon
 	}
@@ -289,7 +291,7 @@
 ###c_yeongwol
 #b_yeongju
 10878 = {
-	holding = none
+	holding = church_holding
 }
 
 ###c_wonsan 원산/元山
@@ -427,7 +429,13 @@
     culture = goguryeo
 	religion = mahayana
 	holding = castle_holding
-	918.7.25 = { culture = goryeon }
+	special_building_slot = generic_university
+	918.7.25 = {
+		culture = goryeon
+	}
+	992.1.1 = {
+		special_building = generic_university # Gukjagam
+	}
 }
 #b_chuiljeon
 12210 = {
@@ -501,6 +509,7 @@
 	culture = saro
 	religion = mahayana
 	holding = castle_holding
+	special_building = NEA_mulgeum_iron_mine_01
 	936.1.1 = { culture = goryeon }
 }
 #b_upung
@@ -523,6 +532,8 @@
 #b_SeokguramGrotto
 10907 = {
 	holding = church_holding
+	special_building_slot = NEA_bulguksa
+	751.1.1 = { special_building = NEA_bulguksa }
 }
 #b_eumjeupbeol
 12219 = {
@@ -557,7 +568,9 @@
 }
 #b_gwanseong
 12216 = {
-	holding = none
+	holding = castle_holding
+	special_building_slot = NEA_samnyeonsanseong
+	473.1.1 = { special_building = NEA_samnyeonsanseong }
 }
 #b_gammun
 12217 = {
@@ -652,6 +665,8 @@
 	culture = baekje
 	religion = mahayana
 	holding = castle_holding
+	special_building_slot = NEA_mireuksa
+	602.1.1 = { special_building = NEA_mireuksa }
 	936.1.1 = { culture = goryeon }
 }
 #b_buan

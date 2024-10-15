@@ -88,8 +88,8 @@
  holy_site_yoshida_effect_name:0 "[holy_site|E]의 효과#weak ($holy_site_yoshida_name$)#!"
  holy_site_fujisan_name:0 "후지산"
  holy_site_fujisan_effect_name:0 "[holy_site|E]의 효과#weak ($holy_site_fujisan_name$)#!"
- holy_site_udo_name:0 "우도 신궁"
- holy_site_udo_effect_name:0 "[holy_site|E]의 효과#weak ($holy_site_udo_name$)#!"
+ holy_site_kumanosanzan_name:0 "구마노 산잔"
+ holy_site_kumanosanzan_effect_name:0 "[holy_site|E]의 효과#weak ($holy_site_kumanosanzan_name$)#!"
 
  # Holy Sites: Shamanism
  holy_site_sefautaki_name:0 "세파우타키"

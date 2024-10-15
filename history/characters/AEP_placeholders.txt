@@ -468,7 +468,7 @@ sangju_placeholder_001 = {
 ### Chinese Vassals 867 ###
 ###########################
 
-jiangnandong_jiedushi_001 = { # Fictional placeholder
+jiangnandong_jiedushi_001 = {
 	name = Chunnian
 	religion = shangqing
 	culture = han 
@@ -479,7 +479,7 @@ jiangnandong_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-jiangnanxi_jiedushi_001 = { # Fictional placeholder
+jiangnanxi_jiedushi_001 = {
 	name = Yaojin
 	religion = shangqing
 	culture = han 
@@ -490,7 +490,7 @@ jiangnanxi_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-shannandong_jiedushi_001 = { # Fictional placeholder
+shannandong_jiedushi_001 = {
 	name = Guanzhi
 	religion = shangqing
 	culture = han 
@@ -501,7 +501,7 @@ shannandong_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-qianzhong_jiedushi_001 = { # Fictional placeholder
+qianzhong_jiedushi_001 = {
 	name = Chengzhi
 	religion = shangqing
 	culture = han 
@@ -512,7 +512,7 @@ qianzhong_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-jiannan_jiedushi_001 = { # Fictional placeholder
+jiannan_jiedushi_001 = {
 	name = Shilian
 	religion = shangqing
 	culture = han 
@@ -523,7 +523,7 @@ jiannan_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-longyou_jiedushi_001 = { # Fictional placeholder
+longyou_jiedushi_001 = {
 	name = Wuji
 	religion = shangqing
 	culture = han 
@@ -541,8 +541,8 @@ longyou_jiedushi_001 = { # Fictional placeholder
 
 natuna_001 = {
 	name = Walisnatuna
-	religion = malayic
-	culture = malay
+	religion = umboh
+	culture = orang_laut
 	843.1.1 = {
 		birth = yes
 	}
@@ -553,8 +553,8 @@ natuna_001 = {
 
 anambas_001 = {
 	name = Anambaskaya
-	religion = malayic
-	culture = malay
+	religion = umboh
+	culture = orang_laut
 	846.1.1 = {
 		birth = yes
 	}
@@ -606,36 +606,6 @@ changchun_placeholder_001 = {
 	culture = shiwei
 	848.1.1 = {
 		birth = yes
-	}
-	900.1.1 = {
-		death = yes
-	}
-}
-
-############################
-### Ezo Placeholders 867 ###
-############################
-
-teshio_placeholder_001 = {
-	name = Toshiyakui
-	dna = toshiyakui_the_mishihase_dna
-	religion = yzng
-	culture = mishihase
-	diplomacy = 3
-	martial = 5
-	stewardship = 7
-	intrigue = 4
-	learning = 10
-	prowess = 7
-	trait = education_diplomacy_3
-	trait = gregarious
-	trait = honest
-	trait = diligent
-	842.7.31 = {
-		birth = yes
-		add_character_flag = {
-			flag = has_scripted_appearance
-		}
 	}
 	900.1.1 = {
 		death = yes
@@ -721,6 +691,18 @@ sangkhla_placeholder_001 = {
 	}
 }
 
+tanintharyi_placeholder_001 = {
+	name = Razadarit
+	religion = theravada
+	culture = mon 
+	824.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
 #################################
 ### Mentawai Placeholders 867 ###
 #################################
@@ -728,7 +710,7 @@ sangkhla_placeholder_001 = {
 simeulue_placeholder_001 = {
 	name = Kirtisingha
 	religion = batak
-	culture = mentawai 
+	culture = simeulue 
 	839.1.1 = {
 		birth = yes
 	}
@@ -739,7 +721,7 @@ simeulue_placeholder_001 = {
 nias_placeholder_001 = {
 	name = Tribhuwanaraja
 	religion = batak
-	culture = mentawai 
+	culture = nias 
 	835.1.1 = {
 		birth = yes
 	}
@@ -750,7 +732,7 @@ nias_placeholder_001 = {
 batu_islands_placeholder_001 = {
 	name = Bratasena
 	religion = batak
-	culture = mentawai 
+	culture = nias
 	825.1.1 = {
 		birth = yes
 	}
@@ -783,7 +765,7 @@ pagai_placeholder_001 = {
 enggano_placeholder_001 = {
 	name = Darmaswara
 	religion = batak
-	culture = mentawai 
+	culture = enggano 
 	838.1.1 = {
 		birth = yes
 	}
@@ -873,17 +855,6 @@ khingan_placeholder_001 = {
 		death = yes
 	}
 }
-liaodong_placeholder_001 = {
-	name = Ningji
-	religion = zenzong
-	culture = jurchen
-	1044.1.1 = {
-		birth = yes
-	}
-	1070.1.1 = {
-		death = yes
-	}
-}
 buyeo_placeholder_001 = {
 	name = Hudun
 	religion = zenzong
@@ -907,7 +878,7 @@ gewu_placeholder_001 = {
 	}
 }
 okjeo_placeholder_001 = {
-	name = Hanpu
+	name = Dilie
 	religion = hehe
 	culture = jurchen
 	1022.1.1 = {
@@ -994,10 +965,10 @@ ondur_placeholder_001 = {
 		death = yes
 	}
 }
-nivkh_placeholder_001 = {
-	name = Sanukuno
+mogokto_placeholder_001 = {
+	name = Dashi
 	religion = hehe
-	culture = gilyak
+	culture = mohe
 	1030.1.1 = {
 		birth = yes
 	}
@@ -1060,7 +1031,7 @@ hinai_placeholder_002 = {
 ##########################
 
 vientiane_placeholder_001 = {
-	name = Youqiu
+	name = Yod_Kaew
 	religion = ban_phi
 	culture = tai
 	1032.1.1 = {
@@ -1072,7 +1043,7 @@ vientiane_placeholder_001 = {
 }
 
 samabuli_placeholder_001 = {
-	name = Zao
+	name = Mangsaen
 	religion = ban_phi
 	culture = tai
 	1030.1.1 = {
@@ -1084,7 +1055,7 @@ samabuli_placeholder_001 = {
 }
 
 luang_prabang_placeholder_001 = {
-	name = Qi
+	name = Chai
 	religion = ban_phi
 	culture = tai
 	1037.1.1 = {
@@ -1096,7 +1067,7 @@ luang_prabang_placeholder_001 = {
 }
 
 luang_namtha_placeholder_001 = {
-	name = Zhirou
+	name = Suea_Mueang
 	religion = ban_phi
 	culture = tai
 	1045.1.1 = {
@@ -1484,7 +1455,7 @@ lulong_duke = {
 		death = yes
 	}
 }
-shannanxi_jiedushi_001 = { # Fictional placeholder
+shannanxi_jiedushi_001 = {
 	name = Ting
 	religion = shangqing
 	culture = han 
@@ -1495,7 +1466,7 @@ shannanxi_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-jingji_jiedushi_001 = { # Fictional placeholder
+jingji_jiedushi_001 = {
 	name = Yixing
 	religion = shangqing
 	culture = han 
@@ -1506,7 +1477,7 @@ jingji_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-duji_jiedushi_001 = { # Fictional placeholder
+duji_jiedushi_001 = {
 	name = Shenquan
 	religion = shangqing
 	culture = han 
@@ -1517,7 +1488,7 @@ duji_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-hedong_jiedushi_001 = { # Fictional placeholder
+hedong_jiedushi_001 = {
 	name = Chengsi
 	religion = shangqing
 	culture = han 
@@ -1528,7 +1499,7 @@ hedong_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-hebei_jiedushi_001 = { # Fictional placeholder
+hebei_jiedushi_001 = {
 	name = Zhigu
 	religion = shangqing
 	culture = han 
@@ -1539,7 +1510,7 @@ hebei_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-henan_jiedushi_001 = { # Fictional placeholder
+henan_jiedushi_001 = {
 	name = Shidao
 	religion = shangqing
 	culture = han 
@@ -1550,7 +1521,7 @@ henan_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-huainan_jiedushi_001 = { # Fictional placeholder
+huainan_jiedushi_001 = {
 	name = Junliang
 	religion = shangqing
 	culture = han 
@@ -1561,7 +1532,7 @@ huainan_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-lingnan_jiedushi_001 = { # Fictional placeholder
+lingnan_jiedushi_001 = {
 	name = Tao
 	religion = shangqing
 	culture = han 
@@ -1572,7 +1543,18 @@ lingnan_jiedushi_001 = { # Fictional placeholder
 		death = yes
 	}
 }
-jiangnandong_jiedushi_002 = { # Fictional placeholder
+guangxi_jiedushi_001 = {
+	name = Zhigu
+	religion = shangqing
+	culture = han 
+	1036.1.1 = {
+		birth = yes
+	}
+	1092.1.1 = {
+		death = yes
+	}
+}
+jiangnandong_jiedushi_002 = {
 	name = Fengji
 	religion = shangqing
 	culture = han 
@@ -1583,7 +1565,18 @@ jiangnandong_jiedushi_002 = { # Fictional placeholder
 		death = yes
 	}
 }
-jiangnanxi_jiedushi_002 = { # Fictional placeholder
+fujian_jiedushi_001 = {
+	name = Yuan
+	religion = shangqing
+	culture = han 
+	1030.1.1 = {
+		birth = yes
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+jiangnanxi_jiedushi_002 = {
 	name = Zhou
 	religion = shangqing
 	culture = han 
@@ -1594,7 +1587,18 @@ jiangnanxi_jiedushi_002 = { # Fictional placeholder
 		death = yes
 	}
 }
-shannandong_jiedushi_002 = { # Fictional placeholder
+hunan_jiedushi_001 = {
+	name = Kui
+	religion = shangqing
+	culture = han 
+	1042.1.1 = {
+		birth = yes
+	}
+	1082.1.1 = {
+		death = yes
+	}
+}
+shannandong_jiedushi_002 = {
 	name = Jianzhi
 	religion = shangqing
 	culture = han 
@@ -1605,7 +1609,7 @@ shannandong_jiedushi_002 = { # Fictional placeholder
 		death = yes
 	}
 }
-qianzhong_jiedushi_002 = { # Fictional placeholder
+qianzhong_jiedushi_002 = {
 	name = Puzhou
 	religion = shangqing
 	culture = han 
@@ -1616,18 +1620,29 @@ qianzhong_jiedushi_002 = { # Fictional placeholder
 		death = yes
 	}
 }
-jiannan_jiedushi_002 = { # Fictional placeholder
+jiannan_jiedushi_002 = {
 	name = Wenwei
 	religion = shangqing
 	culture = han 
-	994.1.1 = {
+	1010.1.1 = {
 		birth = yes
 	}
 	1068.1.1 = {
 		death = yes
 	}
 }
-longyou_jiedushi_002 = { # Fictional placeholder
+zizhou_jiedushi_001 = {
+	name = Daijia
+	religion = shangqing
+	culture = han 
+	1005.1.1 = {
+		birth = yes
+	}
+	1071.1.1 = {
+		death = yes
+	}
+}
+longyou_jiedushi_002 = {
 	name = Maojiang
 	religion = shangqing
 	culture = han 
@@ -1656,9 +1671,9 @@ jianchuan_placeholder_001 = {
 }
 
 huichuan_placeholder_001 = {
-	name = Hariyamandal
-	religion = ari
-	culture = bai
+	name = Rru_Wa
+	religion = bimoism
+	culture = wuman
 	1042.1.1 = {
 		birth = yes
 	}
@@ -1680,9 +1695,9 @@ tonghai_placeholder_001 = {
 }
 
 yinsheng_placeholder_001 = {
-	name = Jyotirishwar
-	religion = ari
-	culture = bai
+	name = Chengqi
+	religion = bimoism
+	culture = hani
 	1028.1.1 = {
 		birth = yes
 	}
@@ -1692,9 +1707,9 @@ yinsheng_placeholder_001 = {
 }
 
 yongchang_placeholder_001 = {
-	name = Bhatta
-	religion = ari
-	culture = bai
+	name = Phangkharat
+	religion = ban_phi
+	culture = tai
 	1032.1.1 = {
 		birth = yes
 	}
@@ -1704,9 +1719,9 @@ yongchang_placeholder_001 = {
 }
 
 llishui_placeholder_001 = {
-	name = Andhraka
-	religion = ari
-	culture = bai
+	name = Yaw
+	religion = burmic
+	culture = kachin
 	1041.1.1 = {
 		birth = yes
 	}
@@ -1721,8 +1736,8 @@ llishui_placeholder_001 = {
 
 natuna_002 = {
 	name = Bhanu
-	religion = malayic
-	culture = malay
+	religion = umboh
+	culture = orang_laut
 	1036.1.1 = {
 		birth = yes
 	}
@@ -1733,8 +1748,8 @@ natuna_002 = {
 
 anambas_002 = {
 	name = Hayamwuruk
-	religion = malayic
-	culture = malay
+	religion = umboh
+	culture = orang_laut
 	1021.1.1 = {
 		birth = yes
 	}
@@ -2005,6 +2020,18 @@ sangkhla_placeholder_002 = {
 	}
 }
 
+tanintharyi_placeholder_002 = {
+	name = Narathu
+	religion = theravada
+	culture = mon 
+	1030.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+
 ##################################
 ### Mentawai Placeholders 1066 ###
 ##################################
@@ -2072,6 +2099,796 @@ enggano_placeholder_002 = {
 		birth = yes
 	}
 	1080.1.1 = {
+		death = yes
+	}
+}
+
+###########################
+### Goryeo Vassals 1178 ###
+###########################
+
+pyongyang_placeholder_002 = {
+	name = Yuri
+	religion = mahayana
+	culture = goryeon
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+donggye_placeholder_002 = {
+	name = Gi
+	religion = mahayana
+	culture = goryeon
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+haeju_placeholder_003 = {
+	name = Yushin
+	religion = mahayana
+	culture = goryeon
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+hanju_placeholder_003 = {
+	name = Seolwon
+	religion = mahayana
+	culture = goryeon
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+sakju_placeholder_002 = {
+	name = Bojang
+	religion = mahayana
+	culture = goryeon
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+jeonju_placeholder_002 = {
+	name = Biryu
+	religion = mahayana
+	culture = goryeon
+	1124.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+yangju_placeholder_002 = {
+	name = Il
+	religion = mahayana
+	culture = goryeon
+	1115.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+########################
+### Jin Vassals 1178 ###
+########################
+
+yunzhong_duke_002 = {
+	name = Youyi
+	religion = lixue
+	culture = han 
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+ziqing_duke_001 = {
+	name = Jiafu
+	religion = lixue
+	culture = han 
+	1151.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+taining_duke_001 = {
+	name = Chuan
+	religion = lixue
+	culture = han 
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+yingmo_duke_001 = {
+	name = Zhizhong
+	religion = lixue
+	culture = han 
+	1151.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+biansong_duke_001 = {
+	name = Jinqin
+	religion = lixue
+	culture = han 
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+pingyi_duke_001 = {
+	name = Xiangxian
+	religion = lixue
+	culture = han 
+	1147.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+xijing_duke_001 = {
+	name = Wenjie
+	religion = lixue
+	culture = han 
+	1157.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+binning_duke_001 = {
+	name = Zunqing
+	religion = lixue
+	culture = han 
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+longxi_duke_001 = {
+	name = Xingcheng
+	religion = lixue
+	culture = han 
+	1130.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+fufang_duke_001 = {
+	name = Hongmin
+	religion = lixue
+	culture = han 
+	1141.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+hedong_duke_001 = {
+	name = Liben
+	religion = lixue
+	culture = han 
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+chengde_duke_001 = {
+	name = Gui
+	religion = lixue
+	culture = han 
+	1156.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+tohchen_placeholder_001 = {
+	name = Alihemen
+	religion = hehe
+	culture = jurchen 
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+liaodong_placeholder_001 = {
+	name = Salinian
+	religion = hehe
+	culture = jurchen 
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+xarmoron_placeholder_001 = {
+	name = Helibo
+	religion = hehe
+	culture = jurchen 
+	1143.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+okjeo_placeholder_002 = {
+	name = Jahodai
+	religion = hehe
+	culture = jurchen 
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+malgal_placeholder_002 = {
+	name = Ahaibaifu
+	religion = hehe
+	culture = jurchen 
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+yulou_placeholder_002 = {
+	name = Muha
+	religion = hehe
+	culture = jurchen 
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+heishui_placeholder_002 = {
+	name = Wozhe
+	religion = hehe
+	culture = jurchen 
+	1147.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+siber_placeholder_002 = {
+	name = Ibaha
+	religion = hehe
+	culture = jurchen 
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+##################################
+### Southern Song Vassals 1178 ###
+##################################
+
+duji_jiedushi_002 = {
+	name = Guangfu
+	religion = lixue
+	culture = han 
+	1141.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+shannanxi_jiedushi_002 = {
+	name = Xiangdao
+	religion = lixue
+	culture = han 
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+shannandong_jiedushi_003 = {
+	name = Liben
+	religion = lixue
+	culture = han 
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+jiannan_jiedushi_003 = {
+	name = Bo
+	religion = lixue
+	culture = han 
+	1146.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+zizhou_jiedushi_002 = {
+	name = Zhigu
+	religion = lixue
+	culture = han 
+	1158.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+qianzhong_jiedushi_003 = {
+	name = Zhihong
+	religion = lixue
+	culture = han 
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+jiangnanxi_jiedushi_003 = {
+	name = Sili
+	religion = lixue
+	culture = han 
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+hunan_jiedushi_002 = {
+	name = Xi
+	religion = lixue
+	culture = han 
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+huainan_jiedushi_002 = {
+	name = Yuanheng
+	religion = lixue
+	culture = han 
+	1141.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+fujian_jiedushi_002 = {
+	name = Chengqi
+	religion = lixue
+	culture = han 
+	1141.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+lingnan_jiedushi_002 = {
+	name = Benli
+	religion = lixue
+	culture = han 
+	1136.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+guangxi_jiedushi_002 = {
+	name = Dewei
+	religion = lixue
+	culture = han 
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+zhenhai_duke_001 = {
+	name = Yuanchong
+	religion = lixue
+	culture = han 
+	1122.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+xuanshe_duke_001 = {
+	name = Jie
+	religion = lixue
+	culture = han 
+	1135.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+taizhou_count_001 = {
+	name = Suiliang
+	religion = lixue
+	culture = han 
+	1139.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### Dali Vassals 1178 ###
+#########################
+
+jianchuan_placeholder_002 = {
+	name = Yong
+	religion = ari
+	culture = bai
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+huichuan_placeholder_002 = {
+	name = Phu_Xe
+	religion = bimoism
+	culture = wuman
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+tonghai_placeholder_002 = {
+	name = Wenwei
+	religion = ari
+	culture = bai
+	1137.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+yinsheng_placeholder_002 = {
+	name = Chujun
+	religion = bimoism
+	culture = hani
+	1153.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+yongchang_placeholder_002 = {
+	name = Sawang
+	religion = ban_phi
+	culture = tai
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+llishui_placeholder_002 = {
+	name = Gun
+	religion = burmic
+	culture = kachin
+	1146.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+##########################
+### Khmer Vassals 1178 ###
+##########################
+
+sangkapura_placeholder_001 = {
+	name = Samay
+	religion = shaivism # kambuja_devaraja
+	culture = mon
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+mahasay_placeholder_001 = {
+	name = Thom
+	religion = shaivism # kambuja_devaraja
+	culture = khmer
+	1130.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+prungnagara_placeholder_001 = {
+	name = Rathanak
+	religion = shaivism # kambuja_devaraja
+	culture = khmer
+	1159.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+nong_khai_placeholder_001 = {
+	name = Amangku
+	religion = shaivism # kambuja_devaraja
+	culture = khmer
+	1146.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+kalasin_placeholder_001 = {
+	name = Mittapheap
+	religion = shaivism # kambuja_devaraja
+	culture = khmer
+	1160.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+canasapura_placeholder_001 = {
+	name = Kravann
+	religion = shaivism # kambuja_devaraja
+	culture = khmer
+	1152.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+ratanad_kiri_placeholder_001 = {
+	name = Samphy
+	religion = kuy_animism
+	culture = bahnaric
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+dak_lak_placeholder_001 = {
+	name = Chankrisna
+	religion = kuy_animism
+	culture = dega
+	1139.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+west_ma_placeholder_001 = {
+	name = Bourey
+	religion = kuy_animism
+	culture = dega
+	1130.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+vientiane_placeholder_002 = {
+	name = Chang
+	religion = ban_phi
+	culture = tai
+	1151.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+samabuli_placeholder_002 = {
+	name = Chaiyasiri
+	religion = ban_phi
+	culture = tai
+	1146.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+luang_prabang_placeholder_002 = {
+	name = Bunnam
+	religion = ban_phi
+	culture = tai
+	1155.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+luang_namtha_placeholder_002 = {
+	name = Krongpob
+	religion = ban_phi
+	culture = tai
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+#############################################
+### Northern Manchurian Placeholders 1178 ###
+#############################################
+
+nem_placeholder_001 = {
+	name = Tayan
+	religion = tengri_pagan
+	culture = kerait 
+	1143.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+ondur_placeholder_002 = {
+	name = Xiuge
+	religion = hehe
+	culture = udege 
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+orim_placeholder_001 = {
+	name = Hougu
+	religion = hehe
+	culture = udege 
+	1155.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+poar_placeholder_001 = {
+	name = Deguang
+	religion = hehe
+	culture = udege 
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+###################################
+### Indochina Placeholders 1178 ###
+###################################
+
+lavo_placeholder_001 = {
+	name = Sokhem
+	religion = theravada
+	culture = mon 
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+haripunjaya_placeholder_001 = {
+	name = Geissadiya
+	religion = theravada
+	culture = mon 
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
 		death = yes
 	}
 }

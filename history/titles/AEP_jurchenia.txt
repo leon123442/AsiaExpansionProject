@@ -1,3 +1,53 @@
+e_grand_jin = {
+	1115.1.28 = {
+		holder = jin_taizu
+	}
+	#1125 The Jin Dynasty fully conquer the Liao Dynasty
+	#1127 The Jin Dynasty Captures the Song Capital at Kaifeng thus ending the Northern Song Dynasty
+	1123.9.19 = {
+		holder = jin_taizong
+	}
+	1135.2.9 = {
+		holder = jin_xizong
+	}
+	1150.1.9 = {
+		holder = wanyan_liang
+	}
+	1153.1.1 = { # Capital moved to Yanjing (present-day Beijing)
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1161.12.15 = {
+		holder = jin_shizong
+	}
+	1189.1.20 = {
+		holder = jin_zhangzong
+	}
+	1208.12.29 = {
+		holder = wanyan_yongji
+	}
+	#1211 Genghis Khan invades the Jin Dynasty
+	1213.9.11 = {
+		holder = jin_xuanzong
+	}
+	1224.1.14 = {
+		holder = jin_aizong
+	}
+	1234.2.9 = {
+		holder = 0 # Dynasty Falls following the Mongol Siege of Caizhou
+	}
+}
+
 k_balhae = {
 	698.1.1 = {
 		government = feudal_government
@@ -11,6 +61,20 @@ k_balhae = {
 	}
 	737.1.1 = {
 		holder = dae_mun
+	}
+	756.1.1 = {
+		government = administrative_government # Sanggyeong established as permanent capital, modeled after on Chang'an
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 	793.1.1 = {
 		holder = dae_wonui
@@ -95,6 +159,49 @@ k_jurchen = {
 	}
 }
 
+d_liaodong = {
+	867.1.1 = { change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
+	
+	698.1.1 = {
+		de_jure_liege = "k_balhae"
+	}
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = dae_hyeonseok
+		liege = "k_balhae"
+	}
+	926.1.1 = {
+		government = tribal_government
+		holder = 194333
+		de_jure_liege = "k_jurchen"
+	}
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+	1368.9.14 = {
+		de_jure_liege = "k_liaodong"
+	}
+}
+
 d_balhae = { 
 	698.1.1 = {
 		government = feudal_government
@@ -108,6 +215,20 @@ d_balhae = {
 	}
 	737.1.1 = {
 		holder = dae_mun
+	}
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 	793.1.1 = {
 		holder = dae_wonui
@@ -148,14 +269,30 @@ d_balhae = {
 	926.1.1 = {
 		holder = 0
 		de_jure_liege = "k_jurchen"
+		government = feudal_government
 	}
 }
 c_huhan = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
-	755.1.1 = {
+	756.1.1 = {
 		holder = dae_mun
+	}
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 	793.1.1 = {
 		holder = dae_wonui
@@ -193,18 +330,57 @@ c_huhan = {
 	906.1.1 = {
 		holder = dae_inseon
 	}
+	926.1.1 = {
+		holder = 0
+		de_jure_liege = "k_jurchen"
+		government = feudal_government
+	}
+	1115.1.9 = {
+		government = tribal_government
+	}
 	1066.1.1 = {
 		holder = sumo_placeholder_001
 		liege = "e_grand_liao"
+	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 c_tongzhou_bohai = {
 	867.1.1 = { change_development_level = 7 }
     1066.1.1 = { change_development_level = 8 }
 	
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	926.1.1 = {
+		government = tribal_government
+	}
 	1066.1.1 = {
 		holder = sumo_placeholder_001
 		liege = "e_grand_liao"
+	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 c_mudan = {
@@ -218,6 +394,13 @@ c_mudan = {
 		holder = heishui_placeholder_001
 		liege = "e_grand_liao"
 	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_jianzhou_bohai = {
 	867.1.1 = { change_development_level = 2 }
@@ -229,6 +412,13 @@ c_jianzhou_bohai = {
 	1066.1.1 = {
 		holder = yulou_placeholder_001
 		liege = "e_grand_liao"
+	}
+	1178.1.1 = {
+		holder = yulou_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 d_buyeo = {
@@ -254,16 +444,42 @@ d_buyeo = {
 c_huanglong = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_changling = {
 	866.1.1 = {
 		holder = 120000003
 		liege = "k_balhae"
 	}
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_fuyu = {
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 d_malgal = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 16 }
 	
 	713.1.1 = {
 		de_jure_liege = "k_balhae"
@@ -280,15 +496,47 @@ d_malgal = {
 		holder = malgal_placeholder_001
 		liege = "e_grand_liao"
 	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_achu = {
 	1066.1.1 = { change_development_level = 10 }
+	1178.1.1 = { change_development_level = 28 }
+
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_udger = {
 	1066.1.1 = { change_development_level = 6 }
+
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_dargu = {
 	1066.1.1 = { change_development_level = 8 }
+
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 d_sumo = {
 	713.1.1 = {
@@ -309,6 +557,13 @@ c_sumozhou = {
 	866.1.1 = {
 		holder = 120000004
 	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_baishan = {
 	867.1.1 = { change_development_level = 7 }
@@ -318,6 +573,30 @@ c_baishan = {
 		holder = dae_mun
 	}
 	755.1.1 = {
+		holder = 0
+	}
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	926.1.1 = {
+		government = tribal_government
+	}
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
 		holder = 0
 	}
 }
@@ -337,33 +616,30 @@ c_xianzhou_sumo = {
 	742.1.1 = {
 		holder = 0
 	}
-}
-d_liaodong = {
-	867.1.1 = { change_development_level = 7 }
-	1066.1.1 = { change_development_level = 10 }
-	
-	713.1.1 = {
-		de_jure_liege = "k_balhae"
+	756.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
-	866.1.1 = {
-		government = feudal_government
-		holder = dae_hyeonseok
-		liege = "k_balhae"
-	} 
 	926.1.1 = {
-		de_jure_liege = "k_jurchen"
-	}
-	1066.1.1 = {
 		government = tribal_government
-		holder = liaodong_placeholder_001
-		liege = "e_grand_liao"
 	}
-	1368.9.14 = {
-		de_jure_liege = "k_liaodong"
+	1178.1.1 = {
+		holder = malgal_placeholder_002
+		liege = "e_grand_jin"
 	}
-}
-c_liaodong = {
-	1066.1.1 = { change_development_level = 18 }
+	1200.1.1 = {
+		holder = 0
+	}
 }
 
 d_gewu = {
@@ -386,6 +662,24 @@ d_gewu = {
 		liege = "e_grand_liao"
 	}
 }
+c_hwando = {
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_yalu = {
+	1178.1.1 = {
+		holder = liaodong_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
 c_longyuan = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 6 }
@@ -401,9 +695,21 @@ c_longyuan = {
 	1066.1.1 = {
 		holder = okjeo_placeholder_001
 	}
+	1178.1.1 = {
+		holder = okjeo_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 
 # Motgit
+k_motgit = {
+	926.1.1 = {
+		de_jure_liege = "e_jurchen"
+	}
+}
 d_yulou = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 4 }
@@ -417,6 +723,16 @@ d_yulou = {
 		holder = yulou_placeholder_001
 		liege = "e_grand_liao"
 	}
+	1178.1.1 = {
+		holder = yulou_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_shuaibin = {
+	1178.1.1 = { change_development_level = 12 }
 }
 d_heishui = {
 	867.1.1 = { change_development_level = 0 }
@@ -426,10 +742,18 @@ d_heishui = {
 		holder = heishui_placeholder_001
 		liege = "e_grand_liao"
 	}
+	1178.1.1 = {
+		holder = heishui_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
 c_ulch = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 12 }
 	
 	866.1.1 = {
 		holder = 120000007
@@ -439,15 +763,45 @@ c_ondur = {
 	1066.1.1 = {
 		holder = ondur_placeholder_001
 	}
+	1178.1.1 = {
+		holder = ondur_placeholder_002
+		liege = 0
+	}
+	1200.1.1 = {
+		holder = 0
+	}
 }
-c_nivkh = {
+c_orim = {
+	1178.1.1 = {
+		holder = orim_placeholder_001
+		liege = 0
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_poar = {
+	1178.1.1 = {
+		holder = poar_placeholder_001
+		liege = 0
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_mogokto = {
 	1066.1.1 = {
-		holder = nivkh_placeholder_001
+		holder = mogokto_placeholder_001
 		liege = "e_grand_liao"
 	}
 }
 
 # Siber
+k_siber = {
+	926.1.1 = {
+		de_jure_liege = "e_jurchen"
+	}
+}
 d_khingan = {
 	1066.1.1 = {
 		holder = khingan_placeholder_001
@@ -462,12 +816,42 @@ d_uroghu = {
 		liege = "e_grand_liao"
 	}
 }
+c_uroghu = {
+	1178.1.1 = { change_development_level = 12 }
+
+	1178.1.1 = {
+		holder = xarmoron_placeholder_001
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
 d_siber = {
 	1066.1.1 = { change_development_level = 4 }
 	
 	1066.1.1 = {
 		holder = siber_placeholder_001
 		liege = "e_grand_liao"
+	}
+	1178.1.1 = {
+		holder = siber_placeholder_002
+		liege = "e_grand_jin"
+	}
+	1200.1.1 = {
+		holder = 0
+	}
+}
+c_puyu = {
+	1178.1.1 = { change_development_level = 12 }
+}
+c_nem = {
+	1178.1.1 = {
+		holder = nem_placeholder_001
+		liege = 0
+	}
+	1200.1.1 = {
+		holder = 0
 	}
 }
 c_powo = {
@@ -481,4 +865,11 @@ c_powo = {
 c_teli = {
 	867.1.1 = { change_development_level = 0 }
 	1066.1.1 = { change_development_level = 1 }
+	1178.1.1 = { change_development_level = 4 }
+}
+
+k_yh_mif = {
+	926.1.1 = {
+		de_jure_liege = "e_jurchen"
+	}
 }

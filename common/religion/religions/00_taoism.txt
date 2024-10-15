@@ -61,7 +61,7 @@
 		HighGodNamePossessive = taoism_high_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_IT
 		HighGodHerselfHimself = CHARACTER_ITSELF
-		HighGodHerHis = CHARACTER_HERSHIS_ITS
+		HighGodHerHis = CHARACTER_HERHIS_ITS
 		HighGodNameAlternate = taoism_high_god_name_alternate
 		HighGodNameAlternatePossessive = taoism_high_god_name_alternate_possessive
 
@@ -104,7 +104,7 @@
 		FateGodName = taoism_fate_god_name
 		FateGodNamePossessive = taoism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERSHIS_ITS
+		FateGodHerHis = CHARACTER_HERHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -158,7 +158,7 @@
 		DevilName = taoism_devil_name
 		DevilNamePossessive = taoism_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_IT
-		DevilHerHis = CHARACTER_HERSHIS_ITS
+		DevilHerHis = CHARACTER_HERHIS_ITS
 		DevilHerselfHimself = CHARACTER_ITSELF
 		EvilGodNames = { taoism_devil_name }
 		HouseOfWorship = taoism_house_of_worship

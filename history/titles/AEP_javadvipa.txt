@@ -76,6 +76,7 @@ k_java = {
 d_kalingga = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 	
 	674.1.1 = {
 		holder = sailendra005 # Shima
@@ -102,6 +103,7 @@ d_kalingga = {
 c_kayuwangi = {
 	867.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 	
 	856.1.1 = {
 		holder = sanjaya007 # Rakai Kayuwangi of Sanjaya
@@ -126,10 +128,12 @@ c_panaraban = {
 c_panunggalan = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 }
 c_walaing = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	867.1.1 = {
 		holder = sanjaya018 # Landhayan
@@ -143,6 +147,7 @@ c_walaing = {
 d_mataram = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	
 	716.1.1 = {
@@ -201,6 +206,7 @@ d_mataram = {
 c_mataram = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 	
 	856.1.1 = {
 		holder = sanjaya007 # Rakai Kayuwangi of Sanjaya
@@ -216,6 +222,7 @@ c_mataram = {
 c_mamrati = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 	
 	856.1.1 = {
 		holder = sanjaya007 # Rakai Kayuwangi of Sanjaya
@@ -231,6 +238,7 @@ c_mamrati = {
 c_warak = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 }
 
 k_panjalu = {
@@ -248,6 +256,7 @@ k_panjalu = {
 d_panjalu = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 	
 	
 	847.1.1 = {
@@ -270,6 +279,7 @@ d_panjalu = {
 c_wwatan = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 	
 	847.1.1 = {
 		holder = sanjaya008 # Rakai Watan Mpu Tamer
@@ -282,6 +292,7 @@ c_wwatan = {
 c_panjalu = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 	
 	847.1.1 = {
 		holder = sanjaya010 # Rakai Gurunwangi
@@ -298,6 +309,7 @@ c_panjalu = {
 c_jagaraga = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 	
 	856.1.1 = {
 		holder = sanjaya007 # Rakai Kayuwangi of Sanjaya
@@ -322,6 +334,7 @@ k_janggala = {
 d_janggala = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	847.1.1 = {
 		holder = sanjaya011 # Rakai Limus
@@ -338,6 +351,7 @@ d_janggala = {
 c_hujunggaluh = {
 	847.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 	
 	847.1.1 = {
 		holder = sanjaya011 # Rakai Limus
@@ -353,6 +367,7 @@ c_hujunggaluh = {
 c_kahuripan = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 	
 	847.1.1 = {
 		holder = sanjaya011 # Rakai Limus
@@ -368,6 +383,7 @@ c_kahuripan = {
 c_jombang = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 
 	929.1.1 = {
 		holder = isyana001 # First of the Isyana kings 'Mpu Sindok'
@@ -406,6 +422,7 @@ c_kambangputih = {
 c_tumapel = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 	
 	847.1.1 = {
 		holder = sanjaya010 # Rakai Gurunwangi
@@ -432,6 +449,11 @@ d_madura = {
 c_ngaliyao = {
 	867.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 7 }
+
+	1045.1.1 = {
+		holder = 0
+		liege = 0
+	}
 }
 
 d_lumajang = {
@@ -515,6 +537,7 @@ k_sunda = { # Sunda-Galuh
 d_sunda = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	723.1.1 = {
 		holder = sanjaya001 # Sanjaya
@@ -576,6 +599,7 @@ d_sunda = {
 c_sunda = {
 	867.1.1 = { change_development_level = 10 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 
 	819.1.1 = {
 		holder = balaputra_maharaja_srivijaya
@@ -632,6 +656,7 @@ c_sunda = {
 c_wahanten = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 
 	819.1.1 = {
 		holder = balaputra_maharaja_srivijaya
@@ -688,6 +713,7 @@ c_wahanten = {
 c_salakanagara = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 
 	819.1.1 = {
 		holder = balaputra_maharaja_srivijaya
@@ -744,6 +770,7 @@ c_salakanagara = {
 c_hujungkulon = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	819.1.1 = {
 		holder = galuh024
@@ -799,6 +826,7 @@ c_hujungkulon = {
 c_pajajaran = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 
 	819.1.1 = {
 		holder = galuh024
@@ -959,6 +987,7 @@ c_agrabinta = {
 d_galuh = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
 
 	536.1.1 = {
 		holder = galuh001
@@ -1031,6 +1060,7 @@ d_galuh = {
 c_galuh = {
 	867.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
 
 	536.1.1 = {
 		holder = galuh_0001 # Manikmaya
@@ -1068,6 +1098,7 @@ c_galuh = {
 c_pamanukan = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 
 	819.1.1 = {
 		holder = galuh024
@@ -1093,6 +1124,7 @@ c_pamanukan = {
 c_galunggung = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 
 	640.1.1 = {
 		holder = galuh011 # Sempakwaja
@@ -1121,6 +1153,7 @@ c_galunggung = {
 c_wanagiri = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 	
 	398.1.1 = {
 		holder = sunda_indrapahata_0001
@@ -1172,6 +1205,7 @@ c_wanagiri = {
 c_kuningan = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 11 }
+	1178.1.1 = { change_development_level = 18 }
 }
 c_watukura = {
 	856.1.1 = {
@@ -1183,7 +1217,7 @@ c_watukura = {
 d_bali_sea = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 9 }
-	
+	1178.1.1 = { change_development_level = 14 }
 	882.1.1 = {
 		holder = bali001
 	}
@@ -1225,6 +1259,7 @@ d_bali_sea = {
 c_bedahulu = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 13 }
+	1178.1.1 = { change_development_level = 21 }
 
 	1066.1.1 = {
 		holder = bali010
@@ -1253,6 +1288,6 @@ c_manasa = {
 }
 
 d_lombok = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 9 }
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
 }

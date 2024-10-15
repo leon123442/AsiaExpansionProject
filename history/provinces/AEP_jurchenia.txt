@@ -9,9 +9,16 @@
     culture = mohe
 	religion = hehe
 	holding = castle_holding
+	special_building_slot = NEA_heungryungsa
 	698.1.1 = {
 		culture = balhae
 		religion = mahayana
+		special_building = NEA_heungryungsa
+	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
+		holding = tribal_holding
 	}
 }
 #b_Huhanhai_Mohechi
@@ -327,10 +334,15 @@
 		culture = khitan
 		holding = tribal_holding
 	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
+	}
 }
 #b_Baiyacheng
 10665 = {
-	holding = none
+	holding = city_holding
+	special_building = NEA_liaodong_iron_mine_01
 }
 #b_SheenzhouLejiao
 10679 = {
@@ -339,7 +351,6 @@
 #b_Xincheng_Yanjinzhou
 10678 = {
 	holding = city_holding
-	#special_building_slot = liaodong_mines_01
 }
 #b_Gaimouzhou
 10676 = {
@@ -360,6 +371,10 @@
 		culture = khitan
 		religion = zenzong
 		holding = tribal_holding
+	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
 	}
 }
 #b_Jiananzhou 
@@ -382,6 +397,10 @@
 		religion = zenzong
 		holding = tribal_holding
 	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
+	}
 }
 #b_Beishacheng 
 10670 = {
@@ -402,6 +421,10 @@
 		culture = khitan
 		religion = zenzong
 		holding = tribal_holding
+	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
 	}
 }
 #b_Shicheng_Shirenzhu 
@@ -554,47 +577,42 @@
 	holding = none
 }
 
-##d_udege #兀的改 ####################################
-###c_udege
-#b_Udege_Wure
-10756 = {
-	culture = udege
-	religion = hehe
-	holding = tribal_holding
-}
-#b_AmgonRiver
-10757 = {
-	holding = none
-}
-
-###c_nivkh #兀的改/奴儿干
-#b_Nurgan_Gilime
+##d_amur #黑龙 ####################################
+###c_tyra #奴兒干
+#b_tyra
 10758 = {
     culture = gilyak
 	religion = yzng
 	holding = tribal_holding	
 }
-#b_Port_Soviet
-10766 = {
-	holding = none
-}
 
-###c_kuvieh #骨嵬/窟说/库页/樺太
-10768 = {	#South Kuvieh
-	culture = gilyak
-	religion = yzng
+###c_guga
+#b_guga
+10756 = {
+	culture = udege
+	religion = hehe
 	holding = tribal_holding
 }
-10767 = {	#North Kuvieh
-	holding = none
+
+###c_nilankan
+#b_nilankan
+10757 = {
+	culture = udege
+	religion = hehe
+	holding = tribal_holding
 }
-10769 = {	#East Kuvieh
-	holding = none
+
+###c_mogokto
+#b_mogokto
+10766 = {
+	culture = mohese
+	religion = hehe
+	holding = tribal_holding
 }
 
 ##d_yulou #虞娄/挹娄/东海 #Eumnu/Ŭmnu ####################################
 ###c_shuaibin #率宾/速频
-#b_Shuaibinfu_Huazhou
+#b_hwaju
 10722 = {
     culture = mohese
 	religion = hehe
@@ -603,7 +621,7 @@
 		culture = jurchen
 	}
 }
-#b_Yongmingcheng_Haishenwai
+#b_yeongmyeongseong
 10763 = {
 	holding = none
 }
@@ -690,6 +708,10 @@
 	926.1.1 = {
 		culture = khitan
 	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
+	}
 }
 #b_QiancuiDaibo_Arxa
 10789 = {
@@ -718,7 +740,10 @@
 	holding = tribal_holding
 	926.1.1 = {
 		culture = khitan
-	}	
+	}
+	1115.1.9 = {
+		culture = kerait
+	}
 }
 #b_Shanbei_Nomin
 10785 = {
@@ -742,6 +767,9 @@
 	holding = tribal_holding	
 	926.1.1 = {
 		culture = khitan
+	}
+	1115.1.9 = {
+		culture = kerait
 	}
 }
 #b_Shibaochi
@@ -778,6 +806,10 @@
 	926.1.1 = {
 		culture = khitan
 	}
+	1115.1.9 = {
+		culture = jurchen
+		religion = hehe
+	}
 }
 #b_Minganlun
 10794 = {
@@ -807,6 +839,10 @@
 	916.1.1 = {
 		culture = khitan
 	}
+	1115.1.9 = {
+		religion = hehe
+		culture = jurchen
+	}
 }
 #b_Shuai_Hailun
 10740 = {
@@ -828,10 +864,6 @@
     culture = evenk
 	religion = hehe 
 	holding = tribal_holding
-	926.1.1 = {
-		culture = khitan
-		religion = tengri_pagan
-	}
 }
 #b_Emur
 10812 = {
@@ -927,5 +959,191 @@
 10811 = {
 
 	
+	holding = none
+}
+
+#############################################
+### Kingdom of Yh-mif (Sakhalin)/k_yh_mif ###
+#############################################
+
+##d_suzuya ####################################
+##c_suzuya
+12495 = {	#Suzuya
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12494 = {	#Poroantomali
+	holding = none
+}
+12493 = {	#Aniva
+holding = none
+}
+12492 = {	#Ponto
+	holding = none
+}
+
+##c_mauka
+12496 = {	#Mauka
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12497 = {	#Otiai
+	holding = none
+}
+12498 = {	#Tamary
+holding = none
+}
+
+##c_etuturu
+12501 = {	#Etuturu
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1300 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12500 = {	#Chinnai
+	holding = none
+}
+12502 = {	#Noaushi
+	holding = none
+}
+
+##d_poronay ####################################
+##c_poronay
+10768 = {	#Poronay
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1300 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12499 = {	#Tarannai
+	holding = none
+}
+
+##c_tarayka
+12505 = {	#Tarayka
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1300 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12504 = {	#Siretok
+	holding = none
+}
+12509 = {	#Neprichya
+	holding = none
+}
+
+##c_ketongi
+12506 = {	#Ketongi
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+	1300 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+12507 = {	#Handa
+	holding = none
+}
+
+##d_yrkyr ####################################
+##c_yrkyr
+12512 = {	#Yrkyr
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+12508 = {	#Longari
+	holding = none
+}
+12515 = {	#Argy-Pagi
+	holding = none
+}
+
+##c_pogobi
+10767 = {	#Pogobi
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+12514 = {	#Viakhtu
+	holding = none
+}
+
+##c_pilvo
+12503 = {	#Pilvo
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+12511 = {	#Mgrach
+	holding = none
+}
+
+##c_noglvo
+12513 = {	#Noglvo
+culture = gilyak
+religion = yzng
+holding = tribal_holding
+}
+10769 = {	#Tungor
+	holding = none
+}
+12510 = {	#Komrvo
+	holding = none
+}
+
+##d_vyrgyt ####################################
+##c_vyrgyt
+12522 = {	#Vyrgyt
+culture = gilyak
+religion = yzng
+holding = tribal_holding
+}
+12521 = {	#Katand
+holding = none
+}
+
+##c_chayvo
+12518 = {	#Chayvo
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+12517 = {	#Dagi
+	holding = none
+}
+
+##c_maskaluvo
+12519 = {	#Maskaluvo
+	culture = gilyak
+	religion = yzng
+	holding = tribal_holding
+}
+12516 = {	#Nanghar
+	holding = none
+}
+12520 = {	#Nimpnay
 	holding = none
 }

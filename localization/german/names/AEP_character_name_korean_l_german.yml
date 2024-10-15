@@ -45,6 +45,7 @@
  Chadae:0 "Chadae" #차대/次大
  Chaekgye:0 "Chaekgye" #책계/責稽
  Chang:0 "Chang" #창/昌
+ Cheol:0 "Cheol" #철/徹
  Cheomhae:0 "Cheomhae" #첨해/沾解
  Cheong-myeong:0 "Cheong-myeong" #청명/淸明
  Cheonmyeong:0 "Cheonmyeong" #천명/天明
@@ -165,9 +166,11 @@
  Heondeok:0 "Heondeok" #헌덕/憲德
  Heongang:0 "Heongang" #헌강/憲康
  Heonjeong:0 "Heonjeong" #헌정/憲政
+ Heonjong:0 "Heonjong" #헌종/獻宗
  Heulhae:0 "Heulhae" #흘해/訖解
  Heum-un:0 "Heum-un" #흠/欽
  Heum:0 "Heum" #흠운/欽運
+ Heung:0 "Heung" # 흔/昕
  Heung-an:0 "Heung-an" #흥안/興安
  Heungdeok:0 "Heungdeok" #흥덕/興德
  Hira:0 "Hira" #히라/熙羅
@@ -209,6 +212,7 @@
  In-gyeom:0 "In-gyeom" #인겸/仁謙
  In-yeob:0 "In-yeob" #인엽/仁燁
  Ingyeong:0 "Ingyeong" #인경/仁慶
+ Injong:0 "Injong" # 인종/仁宗
  Inmun:0 "Inmun" #인문/仁問
  Inmun:0 "Inmun" #인문/仁文
  Inseon:0 "Inseon" #인선/諲譔
@@ -318,6 +322,7 @@
  Muyeol:0 "Muyeol" #무열/茂烈
  Myeong-chung:0 "Myeong-chung" #명/明
  Myeong:0 "Myeong" #명충/明忠
+ Myeongjong:0 "Myeongjong" #명종/明宗
  Myeongnong:0 "Myeongnong" #명농/明襛
  Myeongsin:0 "Myeongsin" #명신/明信
  Myeongwon:0 "Myeongwon" #명원/命元
@@ -415,6 +420,7 @@
  Taejodae:0 "Taejodae" #태조대/太祖大
  Taeng:0 "Taeng" #탱/竀
  Talhae:0 "Talhae" #탈해/脫解
+ U:0 "U" #우/俁
  U-jing:0 "U-jing" #우징/祐徵
  Ugbo:0 "Ugbo" #욱보/郁甫
  Ui-jeong:0 "Ui-jeong" #의정/誼靖
@@ -422,6 +428,7 @@
  Uichung:0 "Uichung" #의충/依忠
  Uigwan:0 "Uigwan" #의관/義寬
  Uija:0 "Uija" #의자/義慈
+ Uijong:0 "Uijong" #의종/毅宗
  Uiseong:0 "Uiseong" #의성/義成
  Uk2:0 "Uk" #욱/郁
  Uk:0 "Uk" #욱/勖
@@ -448,6 +455,7 @@
  Yangseong:0 "Yangseong" #양성/陽成
  Yangwon:0 "Yangwon" #양원/陽原
  Yegyeom:0 "Yegyeom" #예겸/乂謙
+ Yejong:0 "Yejong" # 예종/睿宗
  Yeon-bul:0 "Yeon-bul" #연불/然弗
  Yeon-u:0 "Yeon-u" #연우/延優
  Yeondeok:0 "Yeondeok" #연덕/延德

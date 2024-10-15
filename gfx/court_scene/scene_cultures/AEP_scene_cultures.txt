@@ -3,7 +3,10 @@ japanese = {
 	trigger = {
 		exists = capital_county
 		capital_county.culture = {
-			has_graphical_japan_culture_group_trigger = yes
+			OR = {
+				has_graphical_japan_culture_group_trigger = yes
+				has_graphical_eastern_siberian_culture_group_trigger = yes
+			}
 		}
 	}
 }
@@ -20,7 +23,7 @@ chinese = {
 	}
 }
 
-## Redefine indian to include Southeast Asian Rulers
+## Redefining indian to include Southeast Asian Rulers
 indian = {
 	trigger = {
 		exists = capital_county
@@ -28,8 +31,8 @@ indian = {
 			OR = {
 				has_graphical_india_culture_group_trigger = yes
 				has_graphical_tibet_culture_group_trigger = yes
-				has_graphical_indochina_culture_group_trigger = yes
-				has_graphical_austronesia_culture_group_trigger = yes
+				has_graphical_southeast_asia_culture_group_trigger = yes
+				has_graphical_papua_culture_group_trigger = yes
 			}
 		}
 	}

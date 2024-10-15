@@ -1,0 +1,181 @@
+﻿malay = {
+	color = { 252 255 51 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_zealous_people
+		tradition_agrarian
+		tradition_maritime_mercantilism
+		tradition_legalistic
+	}
+
+	name_list = name_list_malayic
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+brunei = {
+	color = { 252 227 0 }
+	created = 700.1.1
+	parents = { malay bisaya }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_astute_diplomats
+		tradition_xenophilic
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_malayic
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+minangkabau = {
+	color = { 187 119 0 }
+
+	ethos = ethos_communal
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_malayic
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_zealous_people
+		tradition_hill_dwellers
+		tradition_female_only_inheritance
+		tradition_legalistic
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+lampung = {
+	color = { 202 205 102 }
+	
+	ethos = ethos_communal
+	heritage = heritage_malay
+	language = language_lampung
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_staunch_traditionalists
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_malayic
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+basemah = {
+	color = { 145 142 46 }
+
+	ethos = ethos_communal
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_malayic
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_religion_blending
+		tradition_culture_blending
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+banjar = {
+	color = { 259 202 67 }
+
+	ethos = ethos_communal
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_malayic
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_religion_blending
+		tradition_culture_blending
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}
+
+bacan = {
+	color = { 151 117 113 }
+
+	ethos = ethos_communal
+	heritage = heritage_malay
+	language = language_malayic
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_malayic
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_austronesian_seafarers
+		tradition_religion_blending
+		tradition_culture_blending
+		tradition_maritime_mercantilism
+	}
+
+	ethnicities = {
+		10 = sea_insular_malay
+	}
+}

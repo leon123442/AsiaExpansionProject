@@ -1,0 +1,181 @@
+﻿karenic = {
+	color = { 9 135 97 }
+		
+	ethos = ethos_communal
+	heritage = heritage_burman
+	language = language_karen
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_karen
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_festivities
+		tradition_hill_dwellers
+		tradition_xenophilic
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+kachin = {
+	color = { 0.55 0.58 0.34 }
+
+	ethos = ethos_egalitarian
+	heritage = heritage_burman
+	language = language_kachin
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_kachin
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_equal_inheritance
+		tradition_collective_lands
+		tradition_wedding_ceremonies
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+rakhine = {
+	color = { 59 185 147 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_rakhine
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_rakhine
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+manipur = {
+	color = { 109 35 97 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_manipur
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_manipur
+
+	coa_gfx = { indo_aryan_group_coa_gfx burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_festivities
+		tradition_religion_blending
+		tradition_agrarian
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+naga = {
+	color = { 159 85 147 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_naga
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_naga
+
+	coa_gfx = { indo_aryan_group_coa_gfx burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_festivities
+		tradition_hill_dwellers
+		tradition_agrarian
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+mizo = {
+	color = { 59 0 47 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_mizo
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_mizo
+
+	coa_gfx = { indo_aryan_group_coa_gfx burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_hill_dwellers
+		tradition_culture_blending
+		tradition_agrarian
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}
+
+tripuri = {
+	color = { 160 60 0 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_tripuri
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_tripuri
+
+	coa_gfx = { indo_aryan_group_coa_gfx burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_culinary_art
+		tradition_mystical_ancestors
+		tradition_collective_lands
+	}
+
+	ethnicities = {
+		10 = sea_mainland_burmic
+	}
+}

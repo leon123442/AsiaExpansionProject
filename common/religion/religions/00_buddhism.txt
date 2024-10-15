@@ -43,6 +43,7 @@
 			generous
 			honest
 			calm
+			compassionate
 		}
 		sins = {
 			deceitful
@@ -80,7 +81,7 @@
 		CreatorName = buddhism_creator_god_name
 		CreatorNamePossessive = buddhism_creator_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_IT
-		CreatorHerHis = CHARACTER_HERSHIS_ITS
+		CreatorHerHis = CHARACTER_HERHIS_ITS
 		CreatorHerHim = CHARACTER_HERHIM_IT
 
 		#HealthGod
@@ -115,7 +116,7 @@
 		FateGodName = buddhism_fate_god_name
 		FateGodNamePossessive = buddhism_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_IT
-		FateGodHerHis = CHARACTER_HERSHIS_ITS
+		FateGodHerHis = CHARACTER_HERHIS_ITS
 		FateGodHerHim = CHARACTER_HERHIM_IT
 
 		#KnowledgeGod
@@ -458,7 +459,7 @@
 				CreatorName = vajrayana_creator_god_name
 				CreatorNamePossessive = vajrayana_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_HERHIM_IT
-				CreatorHerHis = CHARACTER_HERSHIS_ITS
+				CreatorHerHis = CHARACTER_HERHIS_ITS
 				CreatorHerHim = CHARACTER_HERHIM_IT
 
 				#HealthGod
@@ -615,7 +616,7 @@
 				CreatorName = lamaism_creator_god_name
 				CreatorNamePossessive = lamaism_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_HERHIM_IT
-				CreatorHerHis = CHARACTER_HERSHIS_ITS
+				CreatorHerHis = CHARACTER_HERHIS_ITS
 				CreatorHerHim = CHARACTER_HERHIM_IT
 
 				#HealthGod
