@@ -1,0 +1,24 @@
+﻿is_mandate_of_heaven_county_trigger = {
+	# In its own trigger as we might change this requirement
+	culture = { has_cultural_pillar = heritage_chinese }
+}
+
+controls_mandate_of_heaven_counties_trigger = {
+	any_county_in_region = {
+		region = world_china
+		percent >= 0.9
+		is_mandate_county_trigger = yes
+		add_to_temporary_list = mandate_county_list
+		count = all
+	}
+
+	any_in_list = {
+		list = mandate_county_list
+		percent = 0.9
+
+		holder.top_liege = root
+	}
+
+	# TODO Check for control of ancient capitals and geographic breadth
+	#province:1 = {}
+}

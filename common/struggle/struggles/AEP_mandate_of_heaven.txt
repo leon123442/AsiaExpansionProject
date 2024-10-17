@@ -1,0 +1,260 @@
+﻿mandate_of_heaven = {
+
+	cultures = {
+		# Chinese Heritage
+		han
+		ba_shu
+		min
+		hexi
+		wu
+		yue
+
+		# Southern Outsiders
+		# She? Yao? Kam-Sui? Miao? Zhuang? Nuosu? Tujia? Bai? Be?
+
+		# Northern Outsiders
+		# Shatuo? Tangut?
+
+		# Western Outsiders
+		# Bodpa? Tuyuhun?
+	}
+
+	faiths = {
+		# Confucian
+		lixue
+		xinxue
+		jingshi
+		jingxue
+		rangyi
+
+		# Taoist
+		zhengyi
+		shangqing
+		quanzhen
+		# taiping : I mean, is this not Taiping Rebellion reference?
+
+		# Buddhist
+		zen
+	}
+
+	regions = {
+		world_china
+		# world_steppe_east is a bit too large
+		# world_korea includes Manchuria (which is good ig?)
+	}
+
+	# Historically speaking, quite a few "outsider" groups were involved; TODO rebalance though.
+	involvement_prerequisite_percentage = 0.4
+
+	transition_state_duration = { months = 2 }
+
+	on_start = {
+		# TODO Change this yearly tick to a custom mandate event
+		trigger_event = neutral_struggle.0001
+	}
+
+	on_change_phase = {
+		# This seems to fire (according to the Persia struggle comments) right *before* switching phase
+		if = {
+			limit = { is_struggle_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven }
+		}
+	}
+	
+ 	on_join = {
+ 	}
+
+	##################################################
+	# Phases
+	##################################################
+	start_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven
+	
+	phase_list = {
+
+		struggle_mandate_of_heaven_phase_mandated_by_heaven = {
+			future_phases = {
+				struggle_mandate_of_heaven_phase_wind_and_rain = {
+					catalysts = {
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_populist_uprise = major_struggle_catalyst_gain
+					}
+				}
+
+				struggle_mandate_of_heaven_phase_shared_defiance = {
+					catalysts = {
+						catalyst_minor_barbarian_control = medium_struggle_catalyst_gain
+						catalyst_major_barbarian_control = major_struggle_catalyst_gain
+					}
+				}
+			}
+
+			war_effects = {
+
+			}
+
+			faith_effects = {
+
+			}
+
+			culture_effects = {
+
+			}
+
+			other_effects = {
+
+			}
+
+			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
+				mandate_of_heaven_barbarian_ending_decision
+			}
+		}
+
+		struggle_mandate_of_heaven_phase_precious_harmony = {
+			future_phases = {
+				struggle_mandate_of_heaven_phase_mandated_by_heaven = {
+					catalysts = {
+						catalyst_emperor_unification = medium_struggle_catalyst_gain
+					}
+				}
+
+				struggle_mandate_of_heaven_phase_wind_and_rain = {
+					catalysts = {
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_becomes_rival_with_involved = major_struggle_catalyst_gain
+						catalyst_using_a_hook_on_very_important_character = medium_struggle_catalyst_gain
+					}
+				}
+
+				struggle_mandate_of_heaven_phase_shared_defiance = {
+					catalysts = {
+						catalyst_minor_barbarian_control = medium_struggle_catalyst_gain
+						catalyst_major_barbarian_control = major_struggle_catalyst_gain
+					}
+				}
+			}
+
+			war_effects = {
+
+			}
+
+			faith_effects = {
+
+			}
+
+			culture_effects = {
+
+			}
+
+			other_effects = {
+
+			}
+		}
+
+		struggle_mandate_of_heaven_phase_wind_and_rain = {
+			future_phases = {
+
+				struggle_mandate_of_heaven_phase_precious_harmony = {
+					catalysts = {
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_emperor_unification = major_struggle_catalyst_gain
+						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
+						catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+					}
+				}
+
+				struggle_mandate_of_heaven_phase_weapons_drawn = {
+					catalysts = {
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_win_any_war_within_the_region = major_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+					}
+				}
+
+				struggle_mandate_of_heaven_phase_shared_defiance = {
+					catalysts = {
+						catalyst_minor_barbarian_control = minor_struggle_catalyst_gain
+						catalyst_major_barbarian_control = medium_struggle_catalyst_gain
+					}
+				}
+			}
+
+			war_effects = {
+
+			}
+
+			faith_effects = {
+
+			}
+
+			culture_effects = {
+
+			}
+
+			other_effects = {
+
+			}
+		}
+
+		struggle_mandate_of_heaven_phase_weapons_drawn = {
+			future_phases = {
+				struggle_mandate_of_heaven_phase_precious_harmony = {
+					catalysts = {
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+						catalyst_win_any_war_within_the_region = minor_struggle_catalyst_gain
+						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
+					}
+				}
+			}
+
+			war_effects = {
+
+			}
+
+			faith_effects = {
+
+			}
+
+			culture_effects = {
+
+			}
+
+			other_effects = {
+
+			}
+		}
+
+		struggle_mandate_of_heaven_phase_shared_defiance = {
+			duration = {
+				points = 100 # Do we want a shorter phase here?
+			}
+
+			future_phases = {
+				catalysts = {
+					catalyst_not_minor_barbarian_control = minor_struggle_catalyst_gain
+					catalyst_not_major_barbarian_control = minor_struggle_catalyst_gain
+				}
+			}
+
+			war_effects = {
+
+			}
+
+			faith_effects = {
+
+			}
+
+			culture_effects = {
+
+			}
+
+			other_effects = {
+
+			}
+
+			ending_decisions = {
+				mandate_of_heaven_barbarian_ending_decision
+			}
+		}
+	}
+}

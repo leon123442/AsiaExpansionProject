@@ -1,0 +1,6 @@
+﻿### Mandate of Heaven
+
+catalyst_minor_barbarian_control = {} # 20% control
+catalyst_major_barbarian_control = {} # 40% control; added on top of minor control (both triggered)
+catalyst_not_minor_barbarian_control = {} # Less than 20% control
+catalyst_not_major_barbarian_control = {} # Less than 40% control

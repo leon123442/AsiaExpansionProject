@@ -1,0 +1,10 @@
+﻿
+# China united by involved Chinese character
+#mandate_of_heaven_chinese_ending_decision = {
+#	decision_group_type = major
+#}
+
+# China united by barbarian character
+#mandate_of_heaven_barbarian_ending_decision = {
+#	decision_group_type = major
+#}
