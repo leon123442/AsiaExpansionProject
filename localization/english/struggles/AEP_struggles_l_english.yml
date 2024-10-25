@@ -1,0 +1,74 @@
+﻿l_english:
+
+ struggle_mandate_of_heaven:0 "Struggle for China" #texts WIP
+ struggle_mandate_of_heaven_desc:1 "The Mandate of Heaven is represented by a struggle describing the reign and dissolution of a ruling dynasty.."
+
+ struggle_mandate_of_heaven_phase_mandated_by_heaven:0 "Mandated by Heaven"
+ struggle_mandate_of_heaven_phase_mandated_by_heaven_desc:0 "..."
+
+ struggle_mandate_of_heaven_phase_precious_harmony:0 "Precious Harmony"
+ struggle_mandate_of_heaven_phase_precious_harmony_desc:0 "."
+
+ struggle_mandate_of_heaven_phase_wind_and_rain:0 "Wind And Rain"
+ struggle_mandate_of_heaven_phase_wind_and_rain_desc:0 ",."
+
+ struggle_mandate_of_heaven_phase_weapons_drawn:0 "Weapons Drawn"
+ struggle_mandate_of_heaven_phase_weapons_drawn_desc:0 "."
+
+ struggle_mandate_of_heaven_phase_shared_defiance:0 "Shared Defiance"
+ struggle_mandate_of_heaven_phase_shared_defiance_desc:0 ","
+
+  ##################################################
+  # Catalysts
+  ##################################################
+
+ # catalyst_minor_barbarian_control = {} # 20% control
+ # catalyst_major_barbarian_control = {} # 40% control
+ # catalyst_not_minor_barbarian_control = {} # Less than 20% control
+ # catalyst_not_major_barbarian_control = {} # Less than 40% control
+
+  ##################################################
+  # Effects // naming standard tbd e.g. struggle_parameter
+  ##################################################
+
+ MANDATE_OF_HEAVEN_PARAMETER_ADDITIONAL_WAR_COST:0 "You are in the [struggle_thani_hazad_phase_confederation|E] phase; declaring [war|E] against [struggle_involved|E] [characters|E] is more expensive."
+
+ #MANDATE_OF_HEAVEN_PARAMETER_
+ #MANDATE_OF_HEAVEN_PARAMETER_
+ # struggle_parameter_involved_or_interloper_wars_in_struggle_region_higher_piety_costs:1 "[struggle_involved|E] and [struggle_interloper|E] [characters|E] pay more [piety_i][piety|E] to start [wars|E] within the [struggle_region|E]"
+ # struggle_parameter_involved_or_interloper_wars_in_struggle_region_higher_costs:0 "[struggle_involved|E] and [struggle_interloper|E] [characters|E] pay more for [wars|E] against [characters|E] of a different [culture|E]"
+
+  ##################################################
+  # Modifiers
+  ##################################################
+
+ mandated_by_heaven_modifier:0 "Mandated by Heaven"
+ mandated_by_heaven_modifier_desc:0 "The rule of the [dynasty|E] is boundless beyond description."
+
+ precious_harmony_modifier:0 "Precious Harmony"
+ precious_harmony_modifier_desc:0 "We await our King. When he comes, all will be restored."
+
+ wind_and_rain_modifier:0 "Wind And Rain"
+ wind_and_rain_modifier_desc:0 "The sky darkens above."
+
+ weapons_drawn_modifier:0 "Weapons Drawn"
+ weapons_drawn_modifier_desc:0 "With swords drawn and bows bent."
+
+ shared_defiance_modifier:0 "Shared Defiance"
+ shared_defiance_modifier_desc:0 "Wind blows from afar and threatens the very Heavens. In times of peril the people must unite."
+
+
+  ##################################################
+  # Events
+  ##################################################
+
+
+ struggle_mandate_of_heaven.0001.t:0 "The $struggle_mandate_of_heaven$"
+ struggle_mandate_of_heaven.0001.desc:0 "Immersive introduction text here."
+ struggle_mandate_of_heaven.0001.a:0 "We could invoke the name of [ROOT.Char.GetFaith.HighGodName]!"
+ struggle_mandate_of_heaven.0001.b:0 "Advance the upright and set aside the crooked, then the people will submit."
+ struggle_mandate_of_heaven.0001.c:0 "Advance the crooked and set aside the upright... and we may stand to benefit."
+
+ #struggle_mandate_of_heaven.0002.t:0
+ #struggle_mandate_of_heaven.0002.desc:0
+ 
