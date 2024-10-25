@@ -9,7 +9,7 @@ pdxmesh = {
 	blend_shape = { id = "male_legwear_secular_mmjm_common_01_bs_gaunt"		type = "male_legwear_secular_mmjm_common_01_bs_gaunt.mesh" }
 	
 	meshsettings = {
-		name = "male_legwear_secular_mmjm_common_01Shape"
+		name = "male_legwear_secular_java_cfp_common_01Shape"
 		index = 0
 		texture_diffuse = "legwear_mmjm_common_01_diffuse.dds"
 		texture_normal = "legwear_mmjm_common_01_normal.dds"

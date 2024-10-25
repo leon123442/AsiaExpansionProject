@@ -3,7 +3,7 @@ pdxmesh = {
 	file = "female_headgear_secular_mmjm_high_nobility_01.mesh"
 
 	meshsettings = {
-		name = "female_headgear_secular_mmjm_high_nobility_01Shape"
+		name = "female_headgear_secular_java_cfp_high_nobility_01Shape"
 		index = 0
 		texture_diffuse = "female_headgear_secular_mmjm_high_nobility_01_diffuse.dds"
 		texture_normal = "female_headgear_secular_mmjm_high_nobility_01_normal.dds"
@@ -13,7 +13,7 @@ pdxmesh = {
 	}
 	
 	meshsettings = {
-		name = "female_headgear_secular_mmjm_high_nobility_01_turbanShape"
+		name = "female_headgear_secular_java_cfp_high_nobility_01_turbanShape"
 		index = 0
 		texture_diffuse = "female_headgear_secular_sub_saharan_common_01_diffuse.dds"
 		texture_normal = "female_headgear_secular_sub_saharan_common_01_normal.dds"
