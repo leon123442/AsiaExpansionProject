@@ -554,7 +554,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = steppe_commoner_clothes # Removing MMJM Javanese assets dependency
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -574,7 +574,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = steppe_low_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -595,7 +595,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = steppe_high_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}       
@@ -618,7 +618,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = steppe_commoner_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -644,7 +644,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_nobility
+				template = steppe_low_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -671,7 +671,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_royalty
+				template = steppe_high_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}       
@@ -1807,7 +1807,7 @@ aep_clothes_armor = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = javanese_common
+                template = steppe_war_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
             }
         }

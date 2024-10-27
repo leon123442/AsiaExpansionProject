@@ -2759,59 +2759,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-
-			## Javanese (Credit: El Tyranos, Majapahit Mod Jam Mod) ##
-
-			javanese_common = {
-				index = 210
-				male = {
-					1 = empty
-				}
-				female = {
-					5 = empty
-					1 = female_headgear_secular_mmjm_high_nobility_01 # Javanese Caping (Conical Hat)
-				}
-				boy = male
-				girl = female
-			}
-			
-			javanese_nobility = {
-				index = 211
-				male = {
-					5 = male_headgear_secular_mmjm_high_nobility_01 # Javanese Blangkon
-					1 = empty
-				}
-				female = {
-					1 = empty
-				}
-				boy = male
-				girl = female
-			}
-
-			javanese_high_nobility = {
-				index = 212
-				male = {
-					1 = male_headgear_secular_mmjm_high_nobility_01 # Javanese Blangkon
-				}
-				female = {
-					1 = female_headgear_secular_indian_royalty_01 # Golden Tiara Crown
-				}
-				boy = male
-				girl = female
-			}
-			
-			javanese_royalty = {
-				index = 213
-				male = {
-					1 = male_headgear_secular_mmjm_royalty_01 # Javanese Makuta
-				}
-				female = {
-					1 = female_headgear_secular_mmjm_royalty_01 # Javanese Makuta
-				}
-				boy = male
-				girl = female
-			}
-
 		}
 		
 		#--------------------------------------------------------------------------------------------------------

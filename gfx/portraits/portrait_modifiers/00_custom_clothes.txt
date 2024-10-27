@@ -793,20 +793,5 @@
 		gene = clothes
 		template = japanese_war_nobility_clothes
 	}
-	
-	## Javanese (Credit: Majapahit Mod Jam Mod) ##
-	
-	add_accessory_modifiers = {
-		gene = clothes
-		template = javanese_common
-	}
-	add_accessory_modifiers = {
-		gene = clothes
-		template = javanese_nobility
-	}
-	add_accessory_modifiers = {
-		gene = clothes
-		template = javanese_royalty
-	}
 
 }

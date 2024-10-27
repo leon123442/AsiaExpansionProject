@@ -1130,24 +1130,4 @@
 		gene = headgear
 		template = shogunate_war_helmet
 	}
-
-	## Javanese (Credit: Majapahit Mod Jam Mod) ##
-	
-	add_accessory_modifiers = {
-		gene = headgear
-		template = javanese_common
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = javanese_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = javanese_high_nobility
-	}
-	add_accessory_modifiers = {
-		gene = headgear
-		template = javanese_royalty
-	}
-
 }

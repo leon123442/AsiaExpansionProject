@@ -236,42 +236,6 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-		## Javanese (Credit: El Tyranos, Majapahit Mod Jam Mod) ##
-
-		javanese_common_legwear = {
-			index = 202
-			male = {
-				1 = male_legwear_secular_mmjm_common_01
-			}
-			female = {
-				1 = empty
-			}
-			boy = male
-			girl = female
-		}
-		javanese_nobility_legwear = {
-			index = 203
-			male = {
-				1 = male_legwear_secular_mmjm_high_nobility_01
-			}
-			female = {
-				1 = empty
-			}
-			boy = male
-			girl = female
-		}
-		javanese_royalty_legwear = {
-			index = 204
-			male = {
-				1 = male_legwear_secular_mmjm_royalty_01
-			}
-			female = {
-				1 = empty
-			}
-			boy = male
-			girl = female
-		}		
 	}
 
 	special_legwear = {

@@ -449,7 +449,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = steppe_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}	
@@ -894,7 +894,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = steppe_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -926,7 +926,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = steppe_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1009,7 +1009,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = steppe_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1059,7 +1059,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_nobility
+				template = steppe_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1086,7 +1086,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_high_nobility
+				template = steppe_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1112,7 +1112,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_royalty
+				template = steppe_royalty
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1138,7 +1138,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_royalty
+				template = steppe_royalty
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}

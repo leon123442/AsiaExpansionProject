@@ -108,19 +108,3 @@
 		gene = legwear
 		template = japanese_war_legwear
 	}
-
-	## Javanese (Credit: Majapahit Mod Jam Mod) ##
-	
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_common_legwear
-	}
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_nobility_legwear
-	}
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_royalty_legwear
-	}
-}
