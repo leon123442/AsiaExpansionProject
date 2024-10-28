@@ -1,6 +1,18 @@
 ﻿### Mandate of Heaven
 
+# General
+catalyst_major_natural_disaster = {} # Major plagues for now
+catalyst_apocalyptic_natural_disaster = {} # Apocalyptic plagues, for now.
+catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic = {} # Generic struggle for non-involved characters gaining titles
+
+# China-specific geographic catalysts
 catalyst_minor_barbarian_control = {} # 20% control
 catalyst_major_barbarian_control = {} # 40% control; added on top of minor control (both triggered)
 catalyst_not_minor_barbarian_control = {} # Less than 20% control
 catalyst_not_major_barbarian_control = {} # Less than 40% control
+
+# Emperor-specific catalysts
+catalyst_emperor_unification = {} # Requirement for current emperor unification met (new emperor uses decision)
+catalyst_emperor_indebted = {} # Emperor is in debt
+catalyst_emperor_low_legitimacy = {} # Emperor has low legitimacy
+catalyst_emperor_unstable_death = {} # Either unnatural death or death when feudal with multi-heir inheritance

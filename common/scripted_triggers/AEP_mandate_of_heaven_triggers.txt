@@ -3,22 +3,62 @@
 	culture = { has_cultural_pillar = heritage_chinese }
 }
 
-controls_mandate_of_heaven_counties_trigger = {
+any_barbarian_controls_percent_trigger = {
 	any_county_in_region = {
 		region = world_china
-		percent >= 0.9
-		is_mandate_county_trigger = yes
+		is_mandate_of_heaven_county_trigger = yes
 		add_to_temporary_list = mandate_county_list
 		count = all
 	}
 
 	any_in_list = {
 		list = mandate_county_list
-		percent = 0.9
+		# From 0-1
+		percent >= $PERCENT$
+
+		holder.top_liege.culture = {
+			NOT = { has_cultural_pillar = heritage_chinese }
+		}
+	}
+}
+
+is_chinese_emperor_trigger = {
+	controls_mandate_of_heaven_counties_trigger = yes
+
+	exists = title:d_heluo.holder
+	title:d_heluo.holder = {
+		exists = top_liege
+		top_liege = {
+			is_independent_ruler = yes
+			highest_held_title_tier = tier_empire
+			primary_title.tier = tier_empire
+			save_temporary_scope_as = emperor
+		}
+	}
+	this = scope:emperor
+}
+
+controls_mandate_of_heaven_counties_trigger = {
+	any_county_in_region = {
+		region = world_china
+		is_mandate_of_heaven_county_trigger = yes
+		add_to_temporary_list = mandate_county_list
+		count = all
+	}
+
+	any_in_list = {
+		list = mandate_county_list
+		percent >= 0.9
 
 		holder.top_liege = root
 	}
 
-	# TODO Check for control of ancient capitals and geographic breadth
-	#province:1 = {}
+	# Check for control of 2x ancient capitals and 4x geographic breadth
+	completely_controls = title:d_xijing # Chang'an/Xi'an
+	completely_controls = title:d_heluo # Luoyang
+
+	completely_controls = title:d_xichuan # Chengdu
+	completely_controls = title:d_lingnan # Guangzhou/Nanhai
+	completely_controls = title:d_zhenhai # Jiankang/Nanjing
+	completely_controls = title:d_taining # Mt. Tai
 }

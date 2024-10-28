@@ -1,0 +1,4 @@
+﻿NEpidemic = {
+	# Note that the default is no event ({ "" "" "" }); we are not replacing any vanilla events here.
+	DEFAULT_REALM_INFECTION_EVENT = { "" "aep_catalyst_events.0001" "aep_catalyst_events.0002" }
+}

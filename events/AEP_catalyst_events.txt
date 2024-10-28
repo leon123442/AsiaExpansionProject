@@ -1,0 +1,53 @@
+﻿namespace = aep_catalyst_events
+
+# Major natural disaster
+aep_catalyst_events.0001 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				any_character_struggle = {
+					involvement = involved
+					phase_has_catalyst = catalyst_major_natural_disaster
+				}
+				NOT = {
+					has_global_variable = recent_major_natural_disaster
+				}
+			}
+			
+			activate_struggle_catalyst = catalyst_major_natural_disaster
+			set_global_variable = {
+				name = recent_major_natural_disaster
+				value = yes
+				months = 6
+			}
+		}
+	}
+}
+
+# Apocalyptic natural disaster
+aep_catalyst_events.0002 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				any_character_struggle = {
+					involvement = involved
+					phase_has_catalyst = catalyst_apocalyptic_natural_disaster
+				}
+				NOT = {
+					has_global_variable = recent_apocalyptic_natural_disaster
+				}
+			}
+			
+			activate_struggle_catalyst = catalyst_apocalyptic_natural_disaster
+			set_global_variable = {
+				name = recent_apocalyptic_natural_disaster
+				value = yes
+				months = 12
+			}
+		}
+	}
+}

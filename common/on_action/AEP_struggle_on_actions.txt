@@ -1,0 +1,82 @@
+﻿on_title_gain = {
+    on_actions = { aep_struggle_on_title_gain }
+}
+
+on_death = {
+    on_actions = { aep_struggle_on_death }
+}
+
+aep_struggle_on_title_gain = {
+    effect = {
+        if = {
+			limit = {
+				scope:title.tier >= tier_county
+				NOR = {
+					scope:transfer_type = flag:created
+					scope:transfer_type = flag:inheritance
+				}
+                save_temporary_scope_as = new_holder
+                
+				scope:previous_holder ?= {
+                    # Go through all the struggles of the previous holder
+					every_character_struggle = {
+                        involvement = involved
+                        save_temporary_scope_as = temp_struggle
+                        limit = {
+                            # If the struggle cares about interlopers/uninvolved gaining titles...
+						    phase_has_catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
+
+                            # And the new holder is not involved in the struggle...
+                            NOT = {
+                                scope:new_holder = {
+                                    any_character_struggle = {
+                                        involvement = involved
+                                        this = scope:temp_struggle
+                                    }
+                                }
+                            }
+                        }
+                        
+                        # ...then activate the catalyst for the previous holder.
+                        activate_struggle_catalyst = {
+                            catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
+                            character = scope:previous_holder
+                        }
+					}
+				}
+			}
+		}
+    }
+}
+
+aep_struggle_on_death = {
+    effect = {
+        if = {
+            limit = {
+                is_chinese_emperor_trigger = yes
+
+                # If emperor murdered or succession is strange
+                OR = {
+                    exists = scope:killer
+                    AND = {
+                        # Feudal + multiple heirs
+                        NOT = { government_has_flag = government_is_administrative }
+                        NOT = { has_realm_law = single_heir_succession_law }
+                    }
+                }
+            }
+
+            every_character_struggle = {
+                involvement = involved
+                limit = {
+                    phase_has_catalyst = catalyst_emperor_unstable_death
+                }
+                
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_emperor_unstable_death
+                    character = this
+                }
+            }
+        }
+    }
+}

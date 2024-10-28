@@ -1,4 +1,4 @@
-﻿mandate_of_heaven = {
+﻿mandate_of_heaven_struggle = {
 
 	cultures = {
 		# Chinese Heritage
@@ -40,7 +40,7 @@
 	regions = {
 		world_china
 		# world_steppe_east is a bit too large
-		# world_korea includes Manchuria (which is good ig?)
+		# world_korea includes Manchuria (which is good, maybe? Need further review)
 	}
 
 	# Historically speaking, quite a few "outsider" groups were involved; TODO rebalance though.
@@ -49,14 +49,15 @@
 	transition_state_duration = { months = 2 }
 
 	on_start = {
-		# TODO Change this yearly tick to a custom mandate event
-		trigger_event = neutral_struggle.0001
+		trigger_event = aep_mandate_struggle.0001
 	}
 
 	on_change_phase = {
 		# This seems to fire (according to the Persia struggle comments) right *before* switching phase
 		if = {
 			limit = { is_struggle_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven }
+
+			# TODO Do nothing for now, but eventually this is probably where we want to blow up China.
 		}
 	}
 	
@@ -76,36 +77,88 @@
 					catalysts = {
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
 						catalyst_populist_uprise = major_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+						catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic = medium_struggle_catalyst_gain
+						catalyst_major_natural_disaster = major_struggle_catalyst_gain
+						catalyst_apocalyptic_natural_disaster = massive_struggle_catalyst_gain
+						catalyst_emperor_indebted = medium_struggle_catalyst_over_time_gain
+						catalyst_emperor_low_legitimacy = medium_struggle_catalyst_over_time_gain
 					}
 				}
 
 				struggle_mandate_of_heaven_phase_shared_defiance = {
 					catalysts = {
-						catalyst_minor_barbarian_control = medium_struggle_catalyst_gain
-						catalyst_major_barbarian_control = major_struggle_catalyst_gain
+						catalyst_minor_barbarian_control = medium_struggle_catalyst_over_time_gain
+						catalyst_major_barbarian_control = major_struggle_catalyst_over_time_gain
 					}
 				}
 			}
 
 			war_effects = {
+				name = WAR_EFFECTS_NAME
 
+				involved_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+					unlocks_enforce_truces_interaction = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = -0.5
+				}
+
+				interloper_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+				}
+
+				uninvolved_parameters = {
+					claims_in_region_more_expensive_to_press_for_uninvolved = yes
+				}
 			}
 
 			faith_effects = {
+				name = FAITH_EFFECTS_NAME
 
+				involved_character_modifier = {
+					opinion_of_different_faith = 10
+				}
 			}
 
 			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
 
+				involved_character_modifier = {
+					opinion_of_different_culture = 10
+					cultural_head_acceptance_gain_mult = 0.2
+				}
 			}
 
 			other_effects = {
+				name = OTHER_EFFECTS_NAME
 
-			}
+				all_county_modifier = {
+					travel_danger = -5
+				}
 
-			ending_decisions = {
-				mandate_of_heaven_chinese_ending_decision
-				mandate_of_heaven_barbarian_ending_decision
+				involved_character_modifier = {
+					enemy_hostile_scheme_success_chance_add = -10
+					county_opinion_add = 10
+					tax_mult = 0.1
+				}
+
+				involved_county_modifier = {
+					monthly_county_control_growth_factor = 0.1
+					build_speed = 0.2
+					garrison_size = -0.1
+				}
+
+				uninvolved_character_modifier = {
+					county_opinion_add = -10
+					tax_mult = -0.25
+				}
+
+				uninvolved_county_modifier = {
+					monthly_county_control_growth_factor = -0.25
+				}
 			}
 		}
 
@@ -113,40 +166,113 @@
 			future_phases = {
 				struggle_mandate_of_heaven_phase_mandated_by_heaven = {
 					catalysts = {
-						catalyst_emperor_unification = medium_struggle_catalyst_gain
+						catalyst_not_minor_barbarian_control = minor_struggle_catalyst_over_time_gain
+						catalyst_emperor_unification = minor_struggle_catalyst_over_time_gain
 					}
 				}
 
 				struggle_mandate_of_heaven_phase_wind_and_rain = {
 					catalysts = {
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
-						catalyst_becomes_rival_with_involved = major_struggle_catalyst_gain
-						catalyst_using_a_hook_on_very_important_character = medium_struggle_catalyst_gain
+						catalyst_usurp_title = medium_struggle_catalyst_gain
+						catalyst_fabricating_duchy_level_claims = medium_struggle_catalyst_gain
+						catalyst_reveal_secret_important = minor_struggle_catalyst_gain
+						catalyst_becomes_rival_with_involved = medium_struggle_catalyst_gain
+						catalyst_using_a_hook_on_very_important_character = minor_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+						catalyst_broke_truce_against_important_character = major_struggle_catalyst_gain
 					}
 				}
 
 				struggle_mandate_of_heaven_phase_shared_defiance = {
 					catalysts = {
-						catalyst_minor_barbarian_control = medium_struggle_catalyst_gain
-						catalyst_major_barbarian_control = major_struggle_catalyst_gain
+						catalyst_minor_barbarian_control = medium_struggle_catalyst_over_time_gain
+						catalyst_major_barbarian_control = medium_struggle_catalyst_over_time_gain
 					}
+				}
+				
+				ending_decisions = {
+					mandate_of_heaven_chinese_ending_decision
+					mandate_of_heaven_barbarian_ending_decision
 				}
 			}
 
 			war_effects = {
+				name = WAR_EFFECTS_NAME
 
+				involved_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+					struggle_cheaper_buy_truce = yes
+					apply_truce_when_sending_ward = yes
+
+					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
+					struggle_cb_cost_major = yes
+					invasion_conquest_war_cannot_be_declared = yes
+					unlocks_contract_assistance_interaction = yes
+					unlocks_bargain_fealty_interaction = yes
+					unlocks_enforce_truces_interaction = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = -0.25
+					garrison_size = 0.2
+				}
+
+				interloper_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
+				}
+
+				uninvolved_parameters = {
+					claims_in_region_more_expensive_to_press_for_uninvolved = yes
+				}
 			}
 
 			faith_effects = {
+				name = FAITH_EFFECTS_NAME
 
+				common_parameters = {
+					cheaper_to_convert_to_struggle_faith = yes
+				}
 			}
 
 			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
 
+				common_parameters = {
+					cheaper_to_convert_to_struggle_culture = yes
+				}
+
+				involved_parameters = {
+					gain_acceptance_when_developing_other_culture_county = yes
+				}
+			
+				involved_character_modifier = {
+					cultural_head_acceptance_gain_mult = 0.2
+					owned_personal_scheme_success_chance_add = 20
+				}
 			}
 
 			other_effects = {
+				name = OTHER_EFFECTS_NAME
 
+				involved_parameters = {
+					unlocks_truce_purchasing_interaction = yes
+				}
+				
+				involved_character_modifier = {
+					enemy_hostile_scheme_success_chance_add = -10
+					county_opinion_add = 10
+					tax_mult = 0.1
+				}
+
+				involved_county_modifier = {
+					monthly_county_control_growth_factor = 0.1
+				}
+
+				uninvolved_county_modifier = {
+					monthly_county_control_growth_factor = -0.25
+				}
 			}
 		}
 
@@ -156,9 +282,15 @@
 				struggle_mandate_of_heaven_phase_precious_harmony = {
 					catalysts = {
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
-						catalyst_emperor_unification = major_struggle_catalyst_gain
+						catalyst_emperor_unification = major_struggle_catalyst_over_time_gain
+						catalyst_forming_alliance_between_independent_involved_rulers = major_struggle_catalyst_gain
+						catalyst_became_best_friend_soulmate_with_very_important_character = major_struggle_catalyst_gain
+						catalyst_became_friend_lover_with_character = minor_struggle_catalyst_gain
+						catalyst_release_important = medium_struggle_catalyst_gain
+						catalyst_ransom_important = minor_struggle_catalyst_gain
 						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
 						catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+						catalyst_invite_involved_as_honorary_guests_to_feast_hunt = minor_struggle_catalyst_gain
 					}
 				}
 
@@ -167,31 +299,99 @@
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
 						catalyst_win_any_war_within_the_region = major_struggle_catalyst_gain
 						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_usurp_title = major_struggle_catalyst_gain
+						catalyst_fabricating_duchy_level_claims = major_struggle_catalyst_gain
+						catalyst_reveal_secret_important = minor_struggle_catalyst_gain
+						catalyst_becomes_rival_with_involved = medium_struggle_catalyst_gain
+						catalyst_using_a_hook_on_very_important_character = minor_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+						catalyst_broke_truce_against_important_character = major_struggle_catalyst_gain
 					}
 				}
 
 				struggle_mandate_of_heaven_phase_shared_defiance = {
 					catalysts = {
-						catalyst_minor_barbarian_control = minor_struggle_catalyst_gain
-						catalyst_major_barbarian_control = medium_struggle_catalyst_gain
+						catalyst_minor_barbarian_control = minor_struggle_catalyst_over_time_gain
+						catalyst_major_barbarian_control = minor_struggle_catalyst_over_time_gain
 					}
 				}
 			}
 
 			war_effects = {
+				name = WAR_EFFECTS_NAME
 
+				involved_parameters = {
+					unlocks_bargain_fealty_interaction = yes
+					unlocks_enforce_truces_interaction = yes
+				}
+
+				involved_character_modifier = {
+					garrison_size = 0.25
+					men_at_arms_recruitment_cost = -0.2
+					mercenary_hire_cost_mult = -0.2
+					ai_war_chance = 0.5
+				}
+
+				interloper_parameters = {
+					unlocks_bargain_fealty_interaction = yes
+					unlocks_enforce_truces_interaction = yes
+				}
+
+				interloper_character_modifier = {
+					garrison_size = 0.1
+					mercenary_hire_cost_mult = -0.2
+				}
 			}
 
 			faith_effects = {
+				name = FAITH_EFFECTS_NAME
 
+				common_parameters = {
+					cheaper_to_convert_to_struggle_faith = yes
+				}
+
+				involved_character_modifier = {
+					opinion_of_different_faith = -10
+				}
+
+				interloper_character_modifier = {
+					opinion_of_different_faith = -5
+				}
 			}
 
 			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
 
+				common_parameters = {
+					struggle_different_culture_more_likely_to_use_minority_stance = yes
+				}
+
+				involved_parameters = {
+					gain_acceptance_when_developing_other_culture_county = yes
+				}
+			
+				involved_character_modifier = {
+					owned_personal_scheme_success_chance_add = 20
+					minority_opinion = -10
+					minority_tax_contribution_mult = -0.2
+					minority_levy_contribution_mult = -0.2
+				}
 			}
 
 			other_effects = {
+				name = OTHER_EFFECTS_NAME
 
+				involved_parameters = {
+					unlocks_truce_purchasing_interaction = yes
+					unlocks_buy_claim_for_all = yes
+					unlocks_abduct_for_all = yes
+					unlocks_fabricate_hooks_for_all = yes
+				}
+				
+				involved_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+				}
 			}
 		}
 
@@ -199,57 +399,257 @@
 			future_phases = {
 				struggle_mandate_of_heaven_phase_precious_harmony = {
 					catalysts = {
-						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
-						catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+						catalyst_passing_of_time = medium_struggle_catalyst_over_time_gain
+						catalyst_sign_truce_outside_war = medium_struggle_catalyst_gain
+						catalyst_truce_was_enforced = minor_struggle_catalyst_gain
+						catalyst_release_important = major_struggle_catalyst_gain
+						catalyst_emperor_unification = major_struggle_catalyst_over_time_gain
+						catalyst_forming_alliance_between_independent_involved_rulers = medium_struggle_catalyst_gain
 						catalyst_win_any_war_within_the_region = minor_struggle_catalyst_gain
 						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
+						catalyst_bought_important_truce = minor_struggle_catalyst_gain
 					}
 				}
 			}
 
 			war_effects = {
+				name = WAR_EFFECTS_NAME
+				
 
+				all_county_modifier = {
+					supply_limit_mult = 1
+					levy_reinforcement_rate_friendly_territory = 1
+				}
+
+				involved_parameters = {
+					struggle_cb_cost_minor = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+					unlocks_forced_vassalization_casus_belli = yes
+				}
+
+				involved_character_modifier = {
+					same_culture_mercenary_hire_cost_mult = -0.3
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.2
+				}
+
+				involved_county_modifier = {
+					levy_size = 0.5
+				}
+
+				interloper_parameters = {
+					struggle_cb_cost_minor = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+					unlocks_forced_vassalization_casus_belli = yes
+				}
+
+				interloper_character_modifier = {
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.2
+				}
+
+				interloper_county_modifier = {
+					levy_size = 0.25
+				}
+
+				uninvolved_character_modifier = {
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.2
+					army_siege_value_mult = 0.5
+					advantage = 5
+				}
 			}
 
 			faith_effects = {
+				name = FAITH_EFFECTS_NAME
 
+				common_parameters = {
+					cheaper_to_convert_to_struggle_faith = yes
+				}
+
+				involved_character_modifier = {
+					levy_reinforcement_rate_same_faith = 0.25
+					opinion_of_different_faith = -20
+				}
+
+				interloper_character_modifier = {
+					levy_reinforcement_rate_same_faith = 0.1
+					opinion_of_different_faith = -10
+				}
 			}
 
 			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
 
+				common_parameters = {
+					struggle_different_culture_more_likely_to_use_minority_stance = yes
+				}
+			
+				involved_character_modifier = {
+					minority_opinion = -10
+					minority_tax_contribution_mult = -0.25
+					minority_levy_contribution_mult = -0.5
+				}
+			
+				interloper_character_modifier = {
+					minority_tax_contribution_mult = -0.25
+					minority_levy_contribution_mult = -0.5
+				}
 			}
 
 			other_effects = {
+				name = OTHER_EFFECTS_NAME
 
+				all_county_modifier = {
+					travel_danger = 20
+					monthly_county_control_decline_at_war_add = 0.02
+					development_growth_factor = -0.2
+				}
+
+				involved_parameters = {
+					unlocks_buy_claim_for_all = yes
+					unlocks_abduct_for_all = yes
+					unlocks_fabricate_hooks_for_all = yes
+				}
+				
+				involved_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+					hostile_scheme_phase_duration_add = -10
+					max_hostile_schemes_add = 1
+				}
+				
+				interloper_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+					hostile_scheme_phase_duration_add = -10
+				}
 			}
 		}
 
 		struggle_mandate_of_heaven_phase_shared_defiance = {
 			duration = {
-				points = 100 # Do we want a shorter phase here?
+				points = 1000 # Do we want a shorter phase here?
 			}
 
 			future_phases = {
 				catalysts = {
-					catalyst_not_minor_barbarian_control = minor_struggle_catalyst_gain
-					catalyst_not_major_barbarian_control = minor_struggle_catalyst_gain
+					catalyst_not_minor_barbarian_control = major_struggle_catalyst_over_time_gain
+					catalyst_not_major_barbarian_control = minor_struggle_catalyst_over_time_gain
 				}
 			}
 
 			war_effects = {
+				name = WAR_EFFECTS_NAME
+				
+				all_county_modifier = {
+					supply_limit_mult = 1
+					levy_reinforcement_rate_friendly_territory = 1
+				}
 
+				involved_parameters = {
+					struggle_cb_cost_minor = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+					unlocks_forced_vassalization_casus_belli = yes
+				}
+
+				involved_character_modifier = {
+					same_culture_mercenary_hire_cost_mult = -0.5
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.25
+					garrison_size = 0.5
+				}
+
+				involved_county_modifier = {
+					levy_size = 0.5
+				}
+
+				interloper_parameters = {
+					struggle_cb_cost_minor = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+					unlocks_forced_vassalization_casus_belli = yes
+				}
+
+				interloper_character_modifier = {
+					ai_war_chance = 2
+					ai_war_cooldown = -0.25
+					men_at_arms_maintenance = -0.1
+				}
+
+				interloper_county_modifier = {
+					levy_size = 0.25
+				}
+				
+				uninvolved_character_modifier = {
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.5
+					army_pursuit_mult = 0.25
+					led_by_owner_extra_advantage_add = 10
+				}
 			}
 
 			faith_effects = {
+				name = FAITH_EFFECTS_NAME
 
+				common_parameters = {
+					cheaper_to_convert_to_struggle_faith = yes
+				}
+
+				involved_character_modifier = {
+					levy_reinforcement_rate_same_faith = 0.5
+					opinion_of_different_faith = -20
+				}
 			}
 
 			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
 
+				common_parameters = {
+					struggle_different_culture_more_likely_to_use_minority_stance = yes
+				}
+			
+				involved_character_modifier = {
+					minority_opinion = -20
+					minority_tax_contribution_mult = -0.5
+					minority_levy_contribution_mult = -0.75
+					same_culture_opinion = 15
+					opinion_of_same_culture = 15
+				}
 			}
 
 			other_effects = {
+				name = OTHER_EFFECTS_NAME
 
+				all_county_modifier = {
+					travel_danger = 20
+					monthly_county_control_decline_at_war_add = 0.02
+					development_growth_factor = -0.2
+				}
+
+				involved_parameters = {
+					unlocks_buy_claim_for_all = yes
+					unlocks_abduct_for_all = yes
+					unlocks_fabricate_hooks_for_all = yes
+				}
+				
+				involved_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+					hostile_scheme_phase_duration_add = -10
+					max_hostile_schemes_add = 1
+				}
+				
+				interloper_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+					hostile_scheme_phase_duration_add = -10
+				}
+				
+				uninvolved_character_modifier = {
+					owned_hostile_scheme_success_chance_add = 20
+					hostile_scheme_phase_duration_add = -10
+				}
 			}
 
 			ending_decisions = {

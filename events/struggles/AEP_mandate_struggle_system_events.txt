@@ -1,0 +1,218 @@
+﻿namespace = aep_mandate_struggle
+
+# System events are 0xxx
+
+# Yearly tick event; adopted from neutral_struggle.0001
+aep_mandate_struggle.0001 = {
+	hidden = yes
+	scope = struggle
+
+	immediate = {
+		# Passage of Time catalyst ticks towards default phases.
+		if = {
+			limit = {
+				phase_has_catalyst = catalyst_major_natural_disaster
+			}
+			activate_struggle_catalyst = catalyst_passing_of_time
+		}
+
+		# Barbarian control catalysts.
+		if = {
+			# Does China have an emperor?
+			limit = {
+				exists = title:d_heluo.holder
+				title:d_heluo.holder = {
+					exists = top_liege
+					top_liege = {
+						is_chinese_emperor_trigger = yes
+						save_temporary_scope_as = emperor
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					any_barbarian_controls_percent_trigger = {
+						PERCENT = 0.2
+					}
+				}
+					
+				if = {
+					limit = {
+						phase_has_catalyst = catalyst_minor_barbarian_control
+					}
+					
+					activate_struggle_catalyst = catalyst_minor_barbarian_control
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						phase_has_catalyst = catalyst_not_minor_barbarian_control
+					}
+					
+					activate_struggle_catalyst = catalyst_not_minor_barbarian_control
+				}
+
+			}
+
+			if = {
+				limit = {
+					any_barbarian_controls_percent_trigger = {
+						PERCENT = 0.4
+					}
+				}
+
+				if = {
+					limit = {
+						phase_has_catalyst = catalyst_major_barbarian_control
+					}
+					
+					activate_struggle_catalyst = catalyst_major_barbarian_control
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						phase_has_catalyst = catalyst_not_major_barbarian_control
+					}
+					
+					activate_struggle_catalyst = catalyst_not_major_barbarian_control
+				}
+			}
+
+			# Emperor debt
+			if = {
+				limit = {
+					scope:emperor = {
+						gold < 0
+					}
+					phase_has_catalyst = catalyst_emperor_indebted
+				}
+
+				activate_struggle_catalyst = catalyst_emperor_indebted
+			}
+
+			# Emperor legitimacy
+			if = {
+				limit = {
+					scope:emperor = {
+						legitimacy_level <= 3
+					}
+					phase_has_catalyst = catalyst_emperor_low_legitimacy
+				}
+
+				activate_struggle_catalyst = catalyst_emperor_low_legitimacy
+			}
+
+			# Emperor unification
+			if = {
+				limit = {
+					controls_mandate_of_heaven_counties_trigger = yes
+					phase_has_catalyst = catalyst_emperor_unification
+				}
+
+				activate_struggle_catalyst = catalyst_emperor_unification
+			}
+		}
+
+		trigger_event = {
+			id = aep_mandate_struggle.0001
+			years = 1
+		}
+	}
+}
+
+# Intro event
+aep_mandate_struggle.0100 = {
+	type = character_event
+	window = fullscreen_event
+	
+	title = aep_mandate_struggle.0100.t
+	desc = {
+		desc = aep_mandate_struggle.0100.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					any_character_struggle = {
+						involvement = involved
+						is_struggle_type = mandate_of_heaven_struggle
+					}
+				}
+				desc = aep_mandate_struggle.0100.desc.involved
+			}
+			triggered_desc = {
+				trigger = {
+					any_character_struggle = {
+						involvement = interloper
+						is_struggle_type = mandate_of_heaven_struggle
+					}
+				}
+				desc = aep_mandate_struggle.0100.desc.interloper
+			}
+		}
+	}
+
+	theme = stewardship
+	override_background = { reference = throne_room }
+
+	# It's possible to leave and rejoin
+	cooldown = { years = 10 }
+
+	# TODO Verify this is the right animation
+	right_portrait = {
+		character = root
+		animation = worry
+	}
+
+	trigger = {
+		is_ai = no
+		NOT = { has_character_flag = mandate_of_heaven_struggle_intro_event_flag }
+		OR = {
+			any_character_struggle = {
+				involvement = involved
+				is_struggle_type = mandate_of_heaven_struggle
+			}
+			
+			any_character_struggle = {
+				involvement = interloper
+				is_struggle_type = mandate_of_heaven_struggle
+			}
+		}
+ 	}
+
+	immediate = {
+		play_music_cue = "mx_Struggle_Opening"
+		add_character_flag = mandate_of_heaven_struggle_intro_event_flag
+	}
+
+	# TODO Verify
+	widgets = {
+		widget = {
+ 			gui = "event_window_widget_struggle_info"
+ 			container = "dynamic_content_widget"
+ 			controller = struggle_info
+ 			setup_scope = { struggle:mandate_of_heaven_struggle = { save_scope_as = struggle } }
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0100.a
+		clicksound = "event:/DLC/FP2/SFX/UI/fp2_struggle_start_select"
+	}
+}
+
+
+# Join event
+aep_mandate_struggle.0200 = {
+	option = {
+		name = aep_mandate_struggle.0200.a
+		trigger = {
+			OR = {
+				faith_is_good = yes
+				faith_is_neutral = yes
+				faith_is_evil = yes
+			}
+		}
+	}
+}
