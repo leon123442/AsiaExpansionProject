@@ -22,22 +22,6 @@ any_barbarian_controls_percent_trigger = {
 	}
 }
 
-is_chinese_emperor_trigger = {
-	controls_mandate_of_heaven_counties_trigger = yes
-
-	exists = title:d_heluo.holder
-	title:d_heluo.holder = {
-		exists = top_liege
-		top_liege = {
-			is_independent_ruler = yes
-			highest_held_title_tier = tier_empire
-			primary_title.tier = tier_empire
-			save_temporary_scope_as = emperor
-		}
-	}
-	this = scope:emperor
-}
-
 controls_mandate_of_heaven_counties_trigger = {
 	any_county_in_region = {
 		region = world_china
@@ -61,4 +45,38 @@ controls_mandate_of_heaven_counties_trigger = {
 	completely_controls = title:d_lingnan # Guangzhou/Nanhai
 	completely_controls = title:d_zhenhai # Jiankang/Nanjing
 	completely_controls = title:d_taining # Mt. Tai
+}
+
+is_chinese_emperor_trigger = {
+	controls_mandate_of_heaven_counties_trigger = yes
+
+	exists = title:d_heluo.holder
+	title:d_heluo.holder = {
+		exists = top_liege
+		top_liege = {
+			is_independent_ruler = yes
+			highest_held_title_tier = tier_empire
+			primary_title.tier = tier_empire
+			save_temporary_scope_as = emperor
+		}
+	}
+	this = scope:emperor
+}
+
+is_chinese_subject_trigger = {
+	is_independent_ruler = no
+	exists = top_liege
+	top_liege = {
+		is_chinese_emperor_trigger = yes
+	}
+}
+
+chinese_emperor_exists_trigger = {
+	exists = title:d_heluo.holder
+	title:d_heluo.holder = {
+		exists = top_liege
+		top_liege = {
+			is_chinese_emperor_trigger = yes
+		}
+	}
 }

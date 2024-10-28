@@ -20,14 +20,7 @@ aep_mandate_struggle.0001 = {
 		if = {
 			# Does China have an emperor?
 			limit = {
-				exists = title:d_heluo.holder
-				title:d_heluo.holder = {
-					exists = top_liege
-					top_liege = {
-						is_chinese_emperor_trigger = yes
-						save_temporary_scope_as = emperor
-					}
-				}
+				chinese_emperor_exists_trigger = yes
 			}
 
 			if = {
