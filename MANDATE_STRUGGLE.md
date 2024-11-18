@@ -25,8 +25,8 @@ The struggle will end, as with both vanilla struggles, by the de facto ruler of 
 6. Be in the *Precious Harmony* phase
 
 **Rewards**
-- 10000? prestige
-- 5000? renown
+- 20000 prestige
+- 10000 renown
 - A timed modifier, with the following effects:
     - MaA Upkeep Reduction?
     - Vassal Opinion?
@@ -37,9 +37,7 @@ The struggle will end, as with both vanilla struggles, by the de facto ruler of 
 Struggles in CK3 have 3 levels of participation: Involved, Interloper, and Uninvolved (everyone else, basically). When a character joins the struggle (Uninvolved --> Involved or Interloper), they will receive an event that allows them to adopt a Chinese culture or faith.
 
 ## Phases
-The struggle contains 5 phases, each of which are described below. The flow chart shows all possible transitions and a rough explanation of each.
-
-TODO Flowchart
+The struggle contains 5 phases, each of which are described below.
 
 
 ### *Mandated by Heaven*

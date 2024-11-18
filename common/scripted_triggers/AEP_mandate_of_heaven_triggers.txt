@@ -47,6 +47,22 @@ controls_mandate_of_heaven_counties_trigger = {
 	completely_controls = title:d_taining # Mt. Tai
 }
 
+
+# Checks only for counties/independence; excludes primary title check.
+eligible_chinese_emperor_trigger = {
+	controls_mandate_of_heaven_counties_trigger = yes
+
+	exists = title:d_heluo.holder
+	title:d_heluo.holder = {
+		exists = top_liege
+		top_liege = {
+			is_independent_ruler = yes
+			save_temporary_scope_as = emperor
+		}
+	}
+	this = scope:emperor
+}
+
 is_chinese_emperor_trigger = {
 	controls_mandate_of_heaven_counties_trigger = yes
 
@@ -57,6 +73,9 @@ is_chinese_emperor_trigger = {
 			is_independent_ruler = yes
 			highest_held_title_tier = tier_empire
 			primary_title.tier = tier_empire
+			primary_title = {
+				this = global_var:china_empire_title
+			}
 			save_temporary_scope_as = emperor
 		}
 	}

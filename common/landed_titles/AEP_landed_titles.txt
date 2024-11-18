@@ -97,8 +97,13 @@ e_song = { # Song Dynasty 北宋 (960–1279)
 	
 	definite_form = yes
 
+	# TODO Change these to game rules, maybe?
 	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+		always = no
+	}
+
+	can_destroy = {
+		always = no
 	}
 	
   	capital = c_bianzhou #Bianjing (Kaifeng)
@@ -114,9 +119,13 @@ e_yuan = { # Yuan Dynasty 元 (1271–1368)
 	can_be_named_after_dynasty = no	
 	
 	definite_form = yes
-
+	
 	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+		always = no
+	}
+
+	can_destroy = {
+		always = no
 	}
 	
   	capital = c_youzhou #Khanbaliq
@@ -134,7 +143,11 @@ e_ming = { # Ming Dynasty 明 (1368–1644)
 	definite_form = yes
 
 	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+		always = no
+	}
+
+	can_destroy = {
+		always = no
 	}
 	
   	capital = c_jinling #Nanjing
@@ -2827,7 +2840,11 @@ e_tang = { # Tang Dynasty 唐 (618–907)
 	definite_form = yes
 
 	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+		always = no
+	}
+
+	can_destroy = {
+		always = no
 	}
 	
 	capital = c_changan

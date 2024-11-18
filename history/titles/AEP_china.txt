@@ -13,6 +13,11 @@ e_tang = {
 					change_government = feudal_government
 				}
 			}
+
+			set_global_variable = {
+				name = china_empire_title
+				value = this
+			}
 		}
 	}
 	626.9.4 = {
@@ -99,6 +104,12 @@ e_song = {
 				holder = {
 					change_government = feudal_government
 				}
+			}
+
+
+			set_global_variable = {
+				name = china_empire_title
+				value = this
 			}
 		}
 	}

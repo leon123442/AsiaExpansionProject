@@ -1,10 +1,211 @@
-﻿
-# China united by involved Chinese character
-#mandate_of_heaven_chinese_ending_decision = {
-#	decision_group_type = major
-#}
+﻿# China united by involved Chinese character
+mandate_of_heaven_chinese_ending_decision = {
+	decision_group_type = major
+	title = mandate_of_heaven_chinese_ending_decision
+	desc = mandate_of_heaven_chinese_ending_decision_desc
+	selection_tooltip = mandate_of_heaven_chinese_ending_decision_tooltip
+
+	is_invisible = yes
+	sort_order = 80
+	
+	# TODO Change
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	extra_picture = "gfx/interface/illustrations/struggle_decision_buttons/fp2_decision_hostility.dds"
+
+	is_shown = {
+		is_landless_adventurer = no
+		any_character_struggle = {
+			involvement = involved
+			is_struggle_type = mandate_of_heaven_struggle
+		}
+	}
+
+	is_valid = {
+		# Independent, involved (chinese culture), and not currently Emperor
+		is_independent_ruler = yes
+		NOT = { is_chinese_emperor_trigger = yes }
+
+		any_character_struggle = {
+			involvement = involved
+			is_struggle_type = mandate_of_heaven_struggle
+			is_struggle_phase = struggle_mandate_of_heaven_phase_precious_harmony
+		}
+		
+		# No other involved/interloper ruler owns an empire title
+		any_independent_ruler = {
+			NOT = { this = root }
+			primary_title = { tier = tier_empire }
+			any_character_struggle = {
+				is_struggle_type = mandate_of_heaven_struggle
+			}
+		}
+
+		# Holds enough titles
+		primary_title = {
+			tier >= tier_kingdom
+		}
+		any_held_title = {
+			count >= 3
+			tier = tier_kingdom
+			title_held_years >= 3
+		}
+
+		# Holds enough counties
+		controls_mandate_of_heaven_counties_trigger = yes
+		
+		# Legitimate and famous enough
+		legitimacy_level >= 4
+		prestige_level >= high_prestige_level
+
+		# Positive vassal opinion
+		every_powerful_vassal = {
+			opinion = {
+				target = root
+				value >= 0
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { has_dlc_feature = legends }
+			legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = mandate_of_heaven_struggle
+			}
+		}
+		
+		##### Major Effects #####
+		add_prestige = 20000
+		dynasty = { add_dynasty_prestige = 10000 }
+
+		add_character_modifier = {
+			modifier = aep_china_reunifier
+		}
+
+		add_dynasty_modifier = {
+			modifier = aep_legitimate_dynasty
+			years = 100
+		}
+
+		custom_tooltip = mandate_of_heaven_struggle_form_china_title_tt
+
+		trigger_event = aep_mandate_struggle.0200
+	}
+
+	cost = {}
+
+	ai_check_interval = 120
+
+	ai_potential = { always = yes }
+
+	ai_will_do = { base = 100 }
+}
 
 # China united by barbarian character
-#mandate_of_heaven_barbarian_ending_decision = {
-#	decision_group_type = major
-#}
+mandate_of_heaven_barbarian_ending_decision = {
+	decision_group_type = major
+	title = mandate_of_heaven_barbarian_ending_decision
+	desc = mandate_of_heaven_barbarian_ending_decision_desc
+	selection_tooltip = mandate_of_heaven_barbarian_ending_decision_tooltip
+
+	is_invisible = yes
+	sort_order = 80
+	
+	# TODO Change
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp2_decision_struggle_hostility.dds"
+	}
+	extra_picture = "gfx/interface/illustrations/struggle_decision_buttons/fp2_decision_hostility.dds"
+
+	is_shown = {
+		is_landless_adventurer = no
+		any_character_struggle = {
+			involvement = interloper
+			is_struggle_type = mandate_of_heaven_struggle
+		}
+	}
+
+	is_valid = {
+		# Independent, interloper (non-chinese culture), and not currently Emperor
+		is_independent_ruler = yes
+		NOT = { is_chinese_emperor_trigger = yes }
+
+		any_character_struggle = {
+			involvement = interloper
+			is_struggle_type = mandate_of_heaven_struggle
+			is_struggle_phase = struggle_mandate_of_heaven_phase_precious_harmony
+		}
+		
+		# No other involved/interloper ruler owns an empire title
+		any_independent_ruler = {
+			NOT = { this = root }
+			primary_title = { tier = tier_empire }
+			any_character_struggle = {
+				is_struggle_type = mandate_of_heaven_struggle
+			}
+		}
+
+		# Holds enough titles
+		primary_title = {
+			tier >= tier_kingdom
+		}
+		any_held_title = {
+			count >= 3
+			tier = tier_kingdom
+			title_held_years >= 3
+		}
+
+		# Holds enough counties
+		controls_mandate_of_heaven_counties_trigger = yes
+		
+		# Legitimate and famous enough
+		legitimacy_level >= 4
+		prestige_level >= high_prestige_level
+
+		# Positive vassal opinion
+		every_powerful_vassal = {
+			opinion = {
+				target = root
+				value >= 0
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { has_dlc_feature = legends }
+			legend_seed_struggle_ending_effect = {
+				ENDER = root
+				STRUGGLE = mandate_of_heaven_struggle
+			}
+		}
+		
+		##### Major Effects #####
+		add_prestige = 20000
+		dynasty = { add_dynasty_prestige = 10000 }
+
+		add_character_modifier = {
+			modifier = aep_china_conqueror
+		}
+
+		add_dynasty_modifier = {
+			modifier = aep_legitimate_dynasty
+			years = 100
+		}
+
+		custom_tooltip = mandate_of_heaven_struggle_form_china_title_tt
+
+		trigger_event = aep_mandate_struggle.0200
+	}
+
+	cost = {}
+
+	ai_check_interval = 120
+
+	ai_potential = { always = yes }
+
+	ai_will_do = { base = 100 }
+}

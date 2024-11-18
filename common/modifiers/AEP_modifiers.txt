@@ -1,0 +1,19 @@
+﻿aep_china_reunifier = {
+	icon = byzantine_eagle_positive
+
+	monthly_influence = 1
+	
+	general_opinion = 10
+	same_faith_opinion = 10
+	same_culture_opinion = 10
+}
+
+aep_china_conqueror = {
+	icon = byzantine_eagle_positive
+
+	monthly_influence = 1
+
+	cultural_head_acceptance_gain_mult = 0.5
+	opinion_of_different_faith = 15
+	opinion_of_different_culture = 15
+}

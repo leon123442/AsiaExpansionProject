@@ -53,11 +53,33 @@
 	}
 
 	on_change_phase = {
-		# This seems to fire (according to the Persia struggle comments) right *before* switching phase
-		if = {
-			limit = { is_struggle_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven }
+		# TODO This seems to fire after the switch, but check.
 
-			# TODO Do nothing for now, but eventually this is probably where we want to blow up China.
+		if = {
+			# If Emperor of China exists, blow up the title!
+			limit = {
+				is_struggle_phase = struggle_mandate_of_heaven_phase_wind_and_rain
+				chinese_emperor_exists_trigger = yes
+			}
+
+			# Event for splitting off vassals
+			trigger_event = aep_mandate_struggle.0300
+
+			title:d_heluo.holder.top_liege = {
+				add_legitimacy = -1000
+			}
+		}
+
+		if = {
+			limit = {
+				is_struggle_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven
+				# This second one should always be true, but just in case.
+				chinese_emperor_exists_trigger = yes
+			}
+			
+			title:d_heluo.holder.top_liege = {
+				add_legitimacy = 800
+			}
 		}
 	}
 	
@@ -573,9 +595,11 @@
 				}
 
 				interloper_character_modifier = {
-					ai_war_chance = 2
-					ai_war_cooldown = -0.25
-					men_at_arms_maintenance = -0.1
+					ai_war_chance = 10
+					ai_war_cooldown = -0.5
+					men_at_arms_maintenance = -0.25
+					army_pursuit_mult = 0.25
+					led_by_owner_extra_advantage_add = 10
 				}
 
 				interloper_county_modifier = {
@@ -585,9 +609,8 @@
 				uninvolved_character_modifier = {
 					ai_war_chance = 10
 					ai_war_cooldown = -0.5
-					men_at_arms_maintenance = -0.5
-					army_pursuit_mult = 0.25
-					led_by_owner_extra_advantage_add = 10
+					men_at_arms_maintenance = -0.25
+					led_by_owner_extra_advantage_add = 5
 				}
 			}
 

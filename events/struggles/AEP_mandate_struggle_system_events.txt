@@ -1,6 +1,10 @@
 ﻿namespace = aep_mandate_struggle
 
-# System events are 0xxx
+# 0xxx: System events
+# > 00xx: Hidden events
+# > 01xx: Intro events
+# > 02xx: Ending events
+# > 03xx: Explode events
 
 # Yearly tick event; adopted from neutral_struggle.0001
 aep_mandate_struggle.0001 = {
@@ -16,62 +20,67 @@ aep_mandate_struggle.0001 = {
 			activate_struggle_catalyst = catalyst_passing_of_time
 		}
 
-		# Barbarian control catalysts.
+		# Barbarian control catalysts
+		if = {
+			limit = {
+				any_barbarian_controls_percent_trigger = {
+					PERCENT = 0.2
+				}
+			}
+				
+			if = {
+				limit = {
+					phase_has_catalyst = catalyst_minor_barbarian_control
+				}
+				
+				activate_struggle_catalyst = catalyst_minor_barbarian_control
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					phase_has_catalyst = catalyst_not_minor_barbarian_control
+				}
+				
+				activate_struggle_catalyst = catalyst_not_minor_barbarian_control
+			}
+
+		}
+
+		if = {
+			limit = {
+				any_barbarian_controls_percent_trigger = {
+					PERCENT = 0.4
+				}
+			}
+
+			if = {
+				limit = {
+					phase_has_catalyst = catalyst_major_barbarian_control
+				}
+				
+				activate_struggle_catalyst = catalyst_major_barbarian_control
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					phase_has_catalyst = catalyst_not_major_barbarian_control
+				}
+				
+				activate_struggle_catalyst = catalyst_not_major_barbarian_control
+			}
+		}
+
+		# Emperor catalysts
 		if = {
 			# Does China have an emperor?
 			limit = {
 				chinese_emperor_exists_trigger = yes
 			}
 
-			if = {
-				limit = {
-					any_barbarian_controls_percent_trigger = {
-						PERCENT = 0.2
-					}
-				}
-					
-				if = {
-					limit = {
-						phase_has_catalyst = catalyst_minor_barbarian_control
-					}
-					
-					activate_struggle_catalyst = catalyst_minor_barbarian_control
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						phase_has_catalyst = catalyst_not_minor_barbarian_control
-					}
-					
-					activate_struggle_catalyst = catalyst_not_minor_barbarian_control
-				}
-
-			}
-
-			if = {
-				limit = {
-					any_barbarian_controls_percent_trigger = {
-						PERCENT = 0.4
-					}
-				}
-
-				if = {
-					limit = {
-						phase_has_catalyst = catalyst_major_barbarian_control
-					}
-					
-					activate_struggle_catalyst = catalyst_major_barbarian_control
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						phase_has_catalyst = catalyst_not_major_barbarian_control
-					}
-					
-					activate_struggle_catalyst = catalyst_not_major_barbarian_control
-				}
+			title:d_heluo.holder.top_liege = {
+				save_temporary_scope_as = emperor
 			}
 
 			# Emperor debt
@@ -112,6 +121,35 @@ aep_mandate_struggle.0001 = {
 		trigger_event = {
 			id = aep_mandate_struggle.0001
 			years = 1
+		}
+	}
+}
+
+# Restart struggle; called by new emperor
+aep_mandate_struggle.0010 = {
+	hidden = yes
+
+	immediate = {
+		start_struggle = {
+			struggle_type = mandate_of_heaven_struggle
+			start_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven
+		}
+
+		# Make sure the current holder is involved
+		struggle:mandate_of_heaven_struggle = {
+			if = {
+				limit = {
+					NOT = { is_culture_involved_in_struggle = root.culture }
+				}
+				set_culture_as_involved = root.culture
+			}
+
+			if = {
+				limit = {
+					NOT = { is_faith_involved_in_struggle = root.faith }
+				}
+				set_faith_as_involved = root.faith
+			}
 		}
 	}
 }
@@ -176,7 +214,10 @@ aep_mandate_struggle.0100 = {
 
 	immediate = {
 		play_music_cue = "mx_Struggle_Opening"
-		add_character_flag = mandate_of_heaven_struggle_intro_event_flag
+		add_character_flag = {
+			flag = mandate_of_heaven_struggle_intro_event_flag
+			years = 10
+		}
 	}
 
 	# TODO Verify
@@ -192,20 +233,653 @@ aep_mandate_struggle.0100 = {
 	option = {
 		name = aep_mandate_struggle.0100.a
 		clicksound = "event:/DLC/FP2/SFX/UI/fp2_struggle_start_select"
+
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+# Ending event: Select new empire title
+aep_mandate_struggle.0200 = {
+	
+	type = character_event
+	window = fullscreen_event
+	title = aep_mandate_struggle.0200.t
+	desc = aep_mandate_struggle.0200.desc
+
+	theme = court
+	override_background = { reference = fp2_fullscreen_hostility }
+	override_sound = { reference = "event:/DLC/FP2/SFX/UI/fp2_struggle_ui_intro_end_animate" }
+
+	immediate = {
+		play_music_cue = "mx_Struggle_ending_hostility"
+
+		# Add all involved rulers to a list, for ping event
+		struggle:mandate_of_heaven_struggle = {
+			every_involved_ruler = {
+				limit = {
+					is_independent_ruler = yes
+					primary_title = { is_mercenary_company = no }
+				}
+				add_to_list = struggle_involvees
+			}
+			every_interloper_ruler = {
+				limit = {
+					is_independent_ruler = yes
+					primary_title = { is_mercenary_company = no }
+				}
+				add_to_list = struggle_involvees
+			}
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0200.a
+
+		# Keep Current
+
+		ai_weight = {
+			base = 1
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0200.b
+
+		# Tang
+		trigger = {
+			NOT = {
+				global_var:china_empire_title = title:e_tang
+			}
+		}
+
+		ai_weight = {
+			base = 1
+			modifier = {
+				factor = 10
+				current_year < 900
+			}
+			modifier = {
+				factor = 10
+				culture = {
+					has_cultural_pillar = heritage_chinese
+				}
+			}
+		}
+
+		set_variable = {
+			name = new_title
+			value = title:e_tang
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0200.c
+
+		# Song
+		trigger = {
+			NOT = {
+				global_var:china_empire_title = title:e_song
+			}
+		}
+
+		ai_weight = {
+			base = 1
+			modifier = {
+				factor = 10
+				current_year < 1300
+				current_year >= 900
+			}
+			modifier = {
+				factor = 10
+				culture = {
+					has_cultural_pillar = heritage_chinese
+				}
+			}
+		}
+
+		set_variable = {
+			name = new_title
+			value = title:e_song
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0200.d
+
+		# Yuan
+		trigger = {
+			NOT = {
+				global_var:china_empire_title = title:e_yuan
+			}
+		}
+
+		ai_weight = {
+			base = 10
+			modifier = {
+				factor = 10
+				culture = {
+					has_cultural_pillar = heritage_mongolic
+				}
+			}
+		}
+
+		set_variable = {
+			name = new_title
+			value = title:e_yuan
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0200.e
+
+		# Ming
+		trigger = {
+			NOT = {
+				global_var:china_empire_title = title:e_ming
+			}
+		}
+
+		ai_weight = {
+			base = 1
+			modifier = {
+				factor = 10
+				current_year >= 1300
+			}
+			modifier = {
+				factor = 10
+				culture = {
+					has_cultural_pillar = heritage_chinese
+				}
+			}
+		}
+
+		set_variable = {
+			name = new_title
+			value = title:e_ming
+		}
+	}
+
+	after = {
+		## UPDATE EMPIRE TITLE
+		if = {
+			limit = {
+				has_variable = new_title
+			}
+
+			# Create new title
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = creation_change
+			}
+			var:new_title = {
+				change_title_holder = {
+					holder = root
+					change = scope:creation_change
+				}
+			}
+			resolve_title_and_vassal_change = scope:creation_change
+
+			# Transfer de jure kingdom titles
+			if = {
+				limit = {
+					has_global_variable = china_empire_title
+				}
+
+				global_var:china_empire_title = {
+					every_in_de_jure_hierarchy = {
+						limit = { tier = tier_kingdom }
+						set_de_jure_liege_title = var:new_title
+					}
+				}
+				destroy_title = global_var:china_empire_title
+			}
+
+			# Update variables
+			set_global_variable = {
+				name = china_empire_title
+				value = var:new_title
+			}
+			remove_variable = new_title
+		}
+		else = {
+			# Usurp old title
+			if = {
+				limit = {
+					has_global_variable = china_empire_title
+				}
+
+				create_title_and_vassal_change = {
+					type = usurped
+					save_scope_as = title_change
+				}
+				global_var:china_empire_title = {
+					change_title_holder = {
+						holder = root
+						change = scope:title_change
+					}
+				}
+				resolve_title_and_vassal_change = scope:creation_change
+			}
+		}
+
+		# Add all held kingdom titles to new title
+		every_held_title = {
+			limit = { tier = tier_kingdom }
+			set_de_jure_liege_title = global_var:china_empire_title
+		}
+
+		# Notifications
+		every_player = {
+			limit = { 
+				NOT = { this = root }
+				OR = {
+					location = {
+						OR = {
+							geographical_region = world_china
+
+							# East
+							geographical_region = world_korea
+							geographical_region = world_japan
+
+							# South
+							geographical_region = world_indochina
+							geographical_region = world_burma
+							geographical_region = world_nusantara_philippines
+
+							# West
+							geographical_region = world_tibet
+
+							# North
+							geographical_region = world_eastern_siberia
+							geographical_region = world_steppe_east
+						}
+					}
+					struggle:mandate_of_heaven_struggle = { is_culture_involved_in_struggle = prev.culture }
+				}
+			}
+			add_to_list = players_to_notify
+		}
+
+		struggle:mandate_of_heaven_struggle = { end_struggle = mandate_of_heaven_chinese_ending_decision }
+
+		every_in_list = {
+			list = players_to_notify
+			trigger_event = aep_mandate_struggle.0201
+		}
+
+		# Reset flag so they can get the starting notification again
+		every_in_list = {
+			list = struggle_involvees
+			if = {
+				limit = {
+					has_character_flag = mandate_of_heaven_struggle_intro_event_flag
+				}
+
+				remove_character_flag = mandate_of_heaven_struggle_intro_event_flag
+			}
+		}
+
+		# Restart cycle!
+		trigger_event = {
+			id = aep_mandate_struggle.0010
+			months = 1
+		}
+	}
+}
+
+# Other player notification; see fp2_struggle.0911
+aep_mandate_struggle.0201 = {
+	type = character_event
+	window = fullscreen_event
+	title = fp2_struggle.0901.t
+	desc = {
+		first_valid = {
+		    triggered_desc = {
+		        trigger = { is_in_list = struggle_involvees }
+		        desc = fp2_struggle.0910.opening.involved
+		    }
+		    desc = fp2_struggle.0910.opening
+		}
+		desc = fp2_struggle.0911.desc
+	}
+	theme = court
+	override_background = { reference = fp2_fullscreen_compromise }
+	override_sound = { reference = "event:/DLC/FP2/SFX/UI/fp2_struggle_ui_intro_end_animate" }
+
+	immediate = {
+		play_music_cue = "mx_Struggle_ending_compromise"
+		##### Major Effects #####
+		show_as_tooltip = {
+			scope:struggle_ender = { fp2_struggle_compromise_ender_effect = yes }
+		}
+		# Independent/Split De Jure Duchies will become De Jure Kingdoms
+		custom_tooltip = fp2_struggle_compromise_create_new_kingdoms_tt
+		# RIP Hispania
+		fp2_struggle_compromise_tooltip_effect = yes
+
+		##### Minor Effects #####
+		if = {
+			limit = {
+				any_in_list = {
+					list = kingdom_empire
+					OR = {
+						this = root.primary_title
+						this = root.primary_title.de_jure_liege
+						this = root.primary_title.de_jure_liege.de_jure_liege
+					}
+				}
+			}
+			custom_tooltip = fp2_struggle.0901.tt
+		}
+		if = {
+			limit = { is_in_list = struggle_involvees }
+			show_as_tooltip = {
+				fp2_struggle_compromise_modifier_rewards_personal_house_effect = yes
+				fp2_struggle_compromise_modifier_rewards_personal_county_effect = yes
+			}
+		}
+	}
+
+	# Ok
+	option = {
+		name = {
+			text = fp2_struggle.0911.a
+			trigger = { is_in_list = struggle_involvees }
+		}
+		name = {
+			text = fp2_struggle.0910.b
+			trigger = {
+				NOT = { is_in_list = struggle_involvees }
+			}
+		}
 	}
 }
 
 
-# Join event
-aep_mandate_struggle.0200 = {
-	option = {
-		name = aep_mandate_struggle.0200.a
-		trigger = {
-			OR = {
-				faith_is_good = yes
-				faith_is_neutral = yes
-				faith_is_evil = yes
+# Explode: emperor
+aep_mandate_struggle.0300 = {
+	type = character_event
+	title = aep_mandate_struggle.0300.t
+	desc = aep_mandate_struggle.0300.desc
+	theme = court
+
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+
+	immediate = {
+		save_scope_as = china_emperor_scope
+		every_vassal = {
+			limit = {
+				is_landed = yes
+				OR = {
+					is_powerful_vassal = yes
+					highest_held_title_tier >= tier_kingdom
+				}
 			}
+
+			trigger_event = {
+				id = aep_mandate_struggle.0301
+				# 1-12 weeks from today
+				days = { 7 84 }
+			}
+		}
+		every_vassal = {
+			limit = {
+				is_landed = yes
+				is_powerful_vassal = no
+				highest_held_title_tier = tier_duchy
+			}
+
+			trigger_event = {
+				id = aep_mandate_struggle.0301
+				# 8 weeks - 1 year from today
+				days = { 56 365 }
+			}
+		}
+
+		# Trigger end event after all vassals have made their choice
+		trigger_event = {
+			id = aep_mandate_struggle.0320
+			days = 370
+		}
+	}
+
+	option = {
+		name = aep_mandate_struggle.0300.a
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Explode: Vassals' choice
+aep_mandate_struggle.0301 = {
+	type = character_event
+	title = aep_mandate_struggle.0301.t
+	desc = aep_mandate_struggle.0301.desc
+	theme = court
+
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:china_emperor_scope
+		animation = worry
+	}
+
+	option = {
+		# Stay
+		name = aep_mandate_struggle.0301.a
+
+		scope:china_emperor_scope = {
+			add_opinion = {
+				modifier = pleased_opinion
+				target = root
+				opinion = 10
+			}
+		}
+
+		stress_impact = {
+			arrogant = minor_stress_impact_gain
+			ambitious = minor_stress_impact_gain
+			greedy = minor_stress_impact_gain
+		}
+
+		if = {
+			limit = {
+				OR = {
+					realm_size > 3
+					primary_title.tier >= tier_kingdom
+				}
+			}
+			scope:china_emperor_scope = {
+				trigger_event = {
+					id = aep_mandate_struggle.0310
+				}
+			}
+		}
+
+		ai_chance = {
+			base = 100
+
+			# If same dynasty, more likely to stay
+			modifier = {
+				exists = dynasty
+				exists = scope:china_emperor_scope.dynasty
+				dynasty = scope:china_emperor_scope.dynasty
+				multiply = 2
+			}
+
+			# If same house, more likely to stay
+			modifier = {
+				exists = house
+				exists = scope:china_emperor_scope.house
+				house = scope:china_emperor_scope.house
+				multiply = 2
+			}
+
+			# If has alliance, much more unlikely to leave
+			modifier = {
+				is_allied_to = scope:china_emperor_scope
+				multiply = 5
+			}
+
+			ai_value_modifier = {
+				ai_honor = 1
+				ai_compassion = 0.5
+				ai_greed = -1
+				ai_vengefulness = -0.5
+			}
+			opinion_modifier = {
+				opinion_target = scope:china_emperor_scope
+				multiplier = 3
+			}
+		}
+	}
+
+	option = {
+		# Leave; more likely if both rich and strong.
+		name = aep_mandate_struggle.0301.b
+
+		scope:china_emperor_scope = {
+			add_opinion = {
+				modifier = outraged_opinion
+				target = root
+				opinion = -40
+			}
+		}
+
+		# Grant independence
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+			add_claim_on_loss = yes
+		}
+		becomes_independent = {
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		stress_impact = {
+			humble = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+		}
+
+		scope:china_emperor_scope = {
+			trigger_event = {
+				id = aep_mandate_struggle.0311
+			}
+		}
+
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				add = {
+					value = realm_size
+					max = 50
+					multiply = 10
+				}
+			}
+			modifier = {
+				add = {
+					value = monthly_character_income
+					max = 100
+					multiply = 2
+				}
+			}
+			modifier = {
+				factor = {
+					value = current_military_strength
+					multiply = 4
+					divide = scope:china_emperor_scope.max_military_strength
+				}
+			}
+
+			ai_value_modifier = {
+				ai_boldness = 1
+			}
+
+			opinion_modifier = {
+				opinion_target = scope:china_emperor_scope
+				multiplier = -2
+			}
+		}
+	}
+}
+
+# Emperor notification: Vassal remains loyal
+aep_mandate_struggle.0310 = {
+	type = character_event
+	title = aep_mandate_struggle.0310.t
+	desc = aep_mandate_struggle.0310.desc
+	theme = court
+
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	# Acknowledge
+	option = {
+		name = aep_mandate_struggle.0310.a
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Emperor notification: Vassal independence
+aep_mandate_struggle.0311 = {
+	type = character_event
+	title = aep_mandate_struggle.0311.t
+	desc = aep_mandate_struggle.0311.desc
+	theme = court
+
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+
+	# Acknowledge
+	option = {
+		name = aep_mandate_struggle.0311.a
+
+		stress_impact = {
+			ambitious = minor_stress_impact_gain
+		}
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Lines drawn - triggered for emperor once all vassals have made their choice so they know who's staying and who's going
+aep_mandate_struggle.0320 = {
+	type = character_event
+	title = aep_mandate_struggle.0320.t
+	desc = aep_mandate_struggle.0320.desc
+	theme = court
+
+	left_portrait = {
+		character = root
+		animation = idle
+	}
+
+	# Acknowledge
+	option = {
+		name = aep_mandate_struggle.0320.a
+
+		ai_chance = {
+			base = 100
 		}
 	}
 }
