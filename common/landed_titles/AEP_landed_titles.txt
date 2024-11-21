@@ -597,6 +597,24 @@ k_nippon = { #日本
 	}
 }
 
+k_fukuhara_bakufu = { #福原幕府
+	color = { 225 0 20 }
+	ruler_uses_title_name = no
+	
+	definite_form = yes
+	
+	capital = c_settsu
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:yamato
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
 k_kamakura_bakufu = { #鎌倉幕府
 	color = { 50 50 225 }
 	ruler_uses_title_name = no
@@ -604,6 +622,15 @@ k_kamakura_bakufu = { #鎌倉幕府
 	definite_form = yes
 	
 	capital = c_sagami
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:yamato
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
 k_muromachi_bakufu = { #室町幕府
@@ -613,15 +640,54 @@ k_muromachi_bakufu = { #室町幕府
 	definite_form = yes
 	
 	capital = c_yamashiro
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:yamato
+			}
+			add = @correct_culture_primary_score
+		}
+	}
 }
 
-d_yamato_imperial = { # Imperial House of Japan 皇室
+d_koshitsu = { # Imperial House of Japan 皇室
 	color = { 135 134 28 }
+	ruler_uses_title_name = no
+
+	definite_form = yes
+	
+	capital = c_yamashiro
+
+	landless = yes
+
+	can_create = {
+		dynasty = dynasty:40000101
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				dynasty = dynasty:40000101
+			}
+			add = @always_primary_score
+		}
+	}
+
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+}
+
+d_dazaifu = {
+	color = { 227 36 22 }
 	ruler_uses_title_name = no
 	
 	definite_form = yes
 	
-	capital = c_yamashiro
+	capital = c_chikuzen
 	landless = yes
 	
 	ai_primary_priority = {
@@ -634,7 +700,6 @@ d_yamato_imperial = { # Imperial House of Japan 皇室
 	}
 	
 	no_automatic_claims = yes
-	always_follows_primary_heir = yes
 	de_jure_drift_disabled = yes
 }
 
@@ -794,6 +859,13 @@ k_dali = { #大理國
 			add = @correct_culture_primary_score
 		}
 	}
+}
+
+e_sumatera = {
+	color = { 185 185 60 }
+	can_be_named_after_dynasty = no
+
+    capital = c_jambi
 }
 
 k_janggala = {
@@ -9590,6 +9662,10 @@ e_korea = {
 
 					color = { 65 85 240 }
 				}
+			}
+			c_ganghwa = { #강화/江華
+				color = { 145 85 210 }
+
 				b_ganghwa = {
 					province = 10887
 
@@ -10691,6 +10767,11 @@ e_nippon = {
 			c_settsu = {
 				color = { 235 110 165 }
 
+				b_ubara= {
+					province = 11359
+
+					color = { 235 110 165 }
+				}
 				b_osaka= {
 					province = 11291
 
@@ -10703,11 +10784,6 @@ e_nippon = {
 				}
 				b_kawabe= {
 					province = 11212
-
-					color = { 235 110 165 }
-				}
-				b_ubara= {
-					province = 11359
 
 					color = { 235 110 165 }
 				}
